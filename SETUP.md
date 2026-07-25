@@ -1,5 +1,10 @@
 # 一次性設定手冊
 
+## 0. 環境準備（新電腦或重灌後才需要）
+1. 安裝 Python 3.11 以上：https://www.python.org/downloads/ ，安裝時勾選「Add python.exe to PATH」
+2. 安裝 Git：https://git-scm.com/download/win （預設選項即可）
+3. 在專案目錄執行：`pip install -r requirements.txt`
+
 ## 1. 申請金鑰
 - **YouTube Data API v3**：到 Google Cloud Console → 建立專案 → 啟用「YouTube Data API v3」→ 建立 API 金鑰
 - **Gemini API**：到 Google AI Studio（aistudio.google.com）→ Get API key
@@ -13,6 +18,8 @@
 git remote add origin https://github.com/<帳號>/ai-video-hub.git
 git push -u origin main
 ```
+第一次 `git push` 會跳出瀏覽器要求登入 GitHub（Git Credential Manager），登入一次後排程的自動推送會沿用憑證，不會再問。
+
 然後到 repo → Settings → Pages → Source 選 `Deploy from a branch`，
 Branch 選 `main`、資料夾選 `/docs`，儲存。
 網站網址：`https://<帳號>.github.io/ai-video-hub/`
@@ -25,9 +32,15 @@ python main.py
 
 ## 5. 設定每日排程（系統管理員 PowerShell）
 ```powershell
-schtasks /Create /SC DAILY /ST 09:00 /TN "AIVideoHub" /TR "C:\Users\user\Desktop\AI用\claue 工作\AI 知識平台\ai-video-hub\run.bat"
+schtasks /Create /SC DAILY /ST 09:00 /TN "AIVideoHub" /TR '"C:\Users\user\Desktop\AI用\claue 工作\AI 知識平台\ai-video-hub\run.bat"'
 ```
-- 電腦當天沒開機就不會跑；下次執行會用 publishedAfter 自動補齊漏掉的影片
+建立後立即驗證排程可正常執行：
+```powershell
+schtasks /Run /TN "AIVideoHub"
+```
+然後檢查 `logs\scheduler.log` 是否多出新的執行紀錄，代表排程可正常執行。
+
+- 排程預設僅在該使用者登入時執行；電腦關機或未登入的日子不會跑，下次執行會自動補齊遺漏的影片。
 - 查看排程：`schtasks /Query /TN "AIVideoHub"`
 - 刪除排程：`schtasks /Delete /TN "AIVideoHub" /F`
 
