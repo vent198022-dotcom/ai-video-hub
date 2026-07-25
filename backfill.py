@@ -155,11 +155,19 @@ def main():
 
     added = 0
     min_duration = cfg["filters"]["min_duration_seconds"]
-    for v in collector.fetch_video_details(api_key, candidates):
-        if v["duration_seconds"] < min_duration:
+    # 每 50 部一批查詳情、隨查隨寫，單批失敗只損失該批，已寫入的不受影響
+    for i in range(0, len(candidates), 50):
+        chunk = candidates[i:i + 50]
+        try:
+            details = collector.fetch_video_details(api_key, chunk)
+        except RuntimeError as e:
+            log.warning("第 %d 批影片詳情查詢失敗，略過該批：%s", i // 50 + 1, e)
             continue
-        db.insert_video(conn, v)
-        added += 1
+        for v in details:
+            if v["duration_seconds"] < min_duration:
+                continue
+            db.insert_video(conn, v)
+            added += 1
 
     details_units = (len(candidates) + 49) // 50
     log.info("回補完成：新增 %d 部待分類；YouTube 配額約消耗 %d 單位",
