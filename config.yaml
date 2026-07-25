@@ -1,0 +1,31 @@
+keywords:
+  - ChatGPT 教學
+  - AI 工具 教學
+  - Claude 教學
+  - Gemini 教學
+  - Codex 教學
+  - n8n 教學
+  - AI 繪圖 教學
+  - 提示詞 教學
+  - AI 辦公 應用
+  - AI 影片生成 教學
+  - NotebookLM 教學
+
+categories:
+  - 入門觀念
+  - 提示詞技巧
+  - 工具教學
+  - 辦公應用
+  - 影像與影片生成
+  - 程式開發
+  - 產業趨勢
+
+filters:
+  min_duration_seconds: 120   # 排除 Shorts
+  relevance_language: zh-Hant
+  max_results_per_keyword: 25
+  initial_days: 180           # 首次執行往回抓的天數
+
+gemini:
+  model: gemini-2.5-flash
+  batch_size: 10
