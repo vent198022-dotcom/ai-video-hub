@@ -36,5 +36,5 @@ filters:
 
 gemini:
   model: gemini-2.5-flash
-  batch_size: 10
+  batch_size: 30
   pause_seconds: 7   # 批次間隔秒數，避開免費層每分鐘請求上限
