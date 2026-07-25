@@ -1,7 +1,24 @@
 {
- "generated_at": "2026-07-25T15:44:13+00:00",
- "count": 207,
+ "generated_at": "2026-07-25T16:29:41+00:00",
+ "count": 515,
  "videos": [
+  {
+   "video_id": "LF6z1KTj2qU",
+   "title": "AI 是什麼？新手 AI 入門教學｜ChatGPT、生成式 AI 怎麼用",
+   "channel": "許蝦",
+   "duration_seconds": 617,
+   "published_at": "2026-07-25T14:51:04Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/LF6z1KTj2qU/mqdefault.jpg",
+   "view_count": 2,
+   "category": "入門觀念",
+   "summary": "本影片為適合新手的 AI 入門教學，解析生成式 AI 與 ChatGPT 的基本概念。內容涵蓋生活與職場應用情境、避免 AI 答錯的查證技巧，以及如何寫好提示詞（Prompt）。",
+   "tags": [
+    "AI入門",
+    "ChatGPT",
+    "Prompt技巧",
+    "生成式AI"
+   ]
+  },
   {
    "video_id": "MjlEH9Ik9Gc",
    "title": "Claude 桌面版完全手冊 EP07｜Claude 做出來的東西存哪裡？Artifacts 作品櫃完整教學：怎麼改、怎麼分享出去",
@@ -632,6 +649,23 @@
    ]
   },
   {
+   "video_id": "GaNwUBPHu6I",
+   "title": "《不用寫程式！給文組人的 Claude Code 職場應用》Hahow 課程試看單元",
+   "channel": "Peter Tu",
+   "duration_seconds": 569,
+   "published_at": "2026-07-23T13:02:09Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/GaNwUBPHu6I/mqdefault.jpg",
+   "view_count": 124,
+   "category": "辦公應用",
+   "summary": "本影片為適合非技術人員的 Claude Code 職場實戰示範。教學如何將專案管控表、時間軸與常見問題文件交給 AI，自動判斷並同步更新跨檔案資訊，省去人工維護時間，提升專案管理效率。",
+   "tags": [
+    "Claude Code",
+    "職場應用",
+    "專案管理",
+    "辦公自動化"
+   ]
+  },
+  {
    "video_id": "DfButgzUPro",
    "title": "76支影片狂吸4.3億播放！我終於拆解出它的流量密碼！Filmora AI教學｜5分鐘做出爆款建造Shorts！",
    "channel": "小V說",
@@ -646,6 +680,23 @@
     "ChatGPT",
     "AI短影音",
     "影片生成"
+   ]
+  },
+  {
+   "video_id": "ASLirZRw_C0",
+   "title": "不再只是生圖！ChatGPT Image 2.0 五大進階應用，大幅提升設計效率",
+   "channel": "Beezi AI note",
+   "duration_seconds": 483,
+   "published_at": "2026-07-23T11:15:11Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/ASLirZRw_C0/mqdefault.jpg",
+   "view_count": 15,
+   "category": "AI 影像與影片生成",
+   "summary": "本影片介紹 ChatGPT Image 2.0 的五大進階實務應用，教你如何利用簡短提示詞進行塗鴉轉 3D 角色、產品爆炸圖、室內設計風格預覽與漫畫生成。",
+   "tags": [
+    "ChatGPT",
+    "AI繪圖",
+    "設計應用",
+    "提示詞"
    ]
   },
   {
@@ -867,6 +918,23 @@
     "LINE機器人",
     "AI客服",
     "自動化工作流"
+   ]
+  },
+  {
+   "video_id": "L4FyS_RDlI8",
+   "title": "ChatGPT Voice 實測！學英文、做 App，AI 新手也能開外掛 | ChatGPT Voice 實測！不懂英文也能用 AI 練口說 | AI 新手必看！AI 也能當英文老師？",
+   "channel": "優視頻道 // UChannel TV",
+   "duration_seconds": 634,
+   "published_at": "2026-07-23T00:00:02Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/L4FyS_RDlI8/mqdefault.jpg",
+   "view_count": 25,
+   "category": "工具教學",
+   "summary": "本影片實測 ChatGPT Voice 的多元應用，教導新手如何將 AI 當作隨身英文老師練習會話，並示範透過口頭指令免程式碼開發基礎 App 測驗工具。",
+   "tags": [
+    "ChatGPT Voice",
+    "英文學習",
+    "無程式碼",
+    "AI應用"
    ]
   },
   {
@@ -1107,6 +1175,23 @@
    ]
   },
   {
+   "video_id": "JuTmgZw4E2c",
+   "title": "【Sailflow 超算市集】Claude Code 安裝教學｜6 步驟完成設定",
+   "channel": "Sailflow AI",
+   "duration_seconds": 122,
+   "published_at": "2026-07-21T08:07:21Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/JuTmgZw4E2c/mqdefault.jpg",
+   "view_count": 84,
+   "category": "程式開發",
+   "summary": "本影片提供手把手教學，示範如何透過 6 個步驟在 VS Code 中設定 Claude Code，並連接 Sailflow 超算市集平價算力執行 AI 程式開發。",
+   "tags": [
+    "ClaudeCode",
+    "Sailflow",
+    "VSCode",
+    "程式開發"
+   ]
+  },
+  {
    "video_id": "83tXbvx668Y",
    "title": "Google試算表外掛ChatGPT 【中學數學領域教學研究中心】",
    "channel": "國立臺灣師範大學中學數學領域教學研究中心",
@@ -1192,6 +1277,56 @@
    ]
   },
   {
+   "video_id": "0IJOWZHFSJg",
+   "title": "AI48 | 超萌！ChatGPT Codex寵物功能，除了萌還有這些功能，手把手教你客製化 #chatgpt #codex  #meiko微課頻道",
+   "channel": "Meiko微課頻道",
+   "duration_seconds": 906,
+   "published_at": "2026-07-20T13:24:09Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/0IJOWZHFSJg/mqdefault.jpg",
+   "view_count": 3495,
+   "category": "工具教學",
+   "summary": "本影片手把手介紹 ChatGPT Codex 的桌面寵物客製化功能與延伸技巧。除了展示外觀設定，更一步步帶領觀眾了解 Codex 的多元應用功能與外掛設定，適合想個人化介面的使用者。",
+   "tags": [
+    "ChatGPT",
+    "Codex",
+    "工具教學",
+    "桌面寵物"
+   ]
+  },
+  {
+   "video_id": "WZV5u_ykQZA",
+   "title": "免登入，使用codex (ChatGPT)  幫你接入 所有供應商",
+   "channel": "中年生活誌",
+   "duration_seconds": 238,
+   "published_at": "2026-07-20T08:59:47Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/WZV5u_ykQZA/mqdefault.jpg",
+   "view_count": 8,
+   "category": "程式開發",
+   "summary": "本影片評測並教學開源工具 Codex 的設置方式，教導如何無縫接入各大 AI 供應商 API。影片手把手展示前端 UI 設定與後端路由配置，打造靈活免登入的多模型 AI 工作站。",
+   "tags": [
+    "Codex",
+    "API整合",
+    "開源工具",
+    "AI工作站"
+   ]
+  },
+  {
+   "video_id": "vOLHC0y7m_g",
+   "title": "【AI教學】Claude AI 模型怎麼選？Fable 5、Opus 4.8、Sonnet 5、Haiku 4.5 差異比較",
+   "channel": "科技兔",
+   "duration_seconds": 295,
+   "published_at": "2026-07-20T06:06:01Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/vOLHC0y7m_g/mqdefault.jpg",
+   "view_count": 69,
+   "category": "入門觀念",
+   "summary": "本影片詳細解析與比較 Claude AI 各版本模型（如 Opus、Sonnet 與 Haiku）之間的性能差異與特點，幫助使用者根據需求選擇最合適的模型，提升使用效益。",
+   "tags": [
+    "Claude AI",
+    "模型比較",
+    "入門觀念"
+   ]
+  },
+  {
    "video_id": "lbqmYgtEieY",
    "title": "AI Agent 基本功EP06：跨 Agent 跨電腦協作專案",
    "channel": "三師爸Sense Bar",
@@ -1226,6 +1361,23 @@
    ]
   },
   {
+   "video_id": "0KsTYVWiDBo",
+   "title": "一分钟完成配置！无需国外手机号！Codex 登录终极教程｜一键导出 ChatGPT 登录凭证，自动生成 auth.json｜ codex登陆手机号验证",
+   "channel": "麻辣白草莓",
+   "duration_seconds": 451,
+   "published_at": "2026-07-19T17:13:30Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/0KsTYVWiDBo/mqdefault.jpg",
+   "view_count": 5185,
+   "category": "工具教學",
+   "summary": "本影片提供 Codex 登入問題的解決方案，示範如何透過瀏覽器插件一鍵匯出 ChatGPT 登入憑證，自動產生 auth.json 配置文件，讓沒有國外手機號碼的使用者快速完成環境配置。",
+   "tags": [
+    "Codex",
+    "auth.json",
+    "登入教學",
+    "AI工具"
+   ]
+  },
+  {
    "video_id": "mnFdJaAmeUM",
    "title": "AI Agent 基本功 EP06 跨 Agent、跨電腦協作同一個專案，設定觀念一次到位",
    "channel": "三師爸Sense Bar",
@@ -1243,6 +1395,23 @@
    ]
   },
   {
+   "video_id": "ttjZDQMNyjk",
+   "title": "【AI 剪片工具】ChatGPT Work 插件 ChatCut！自動剪走停頓位、執錯處！真係可以解放雙手？",
+   "channel": "阿石OMP",
+   "duration_seconds": 770,
+   "published_at": "2026-07-19T14:18:30Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/ttjZDQMNyjk/mqdefault.jpg",
+   "view_count": 2450,
+   "category": "AI 影像與影片生成",
+   "summary": "這部影片實測 ChatGPT Work 的影片剪輯插件 ChatCut，展示如何透過 AI 自動剪除講話停頓與口誤片段。內容深入探討 AI 剪輯工具的實際效果與流程，協助創作者提升影片後製效率。",
+   "tags": [
+    "ChatCut",
+    "AI剪片",
+    "ChatGPT Work",
+    "影片後製"
+   ]
+  },
+  {
    "video_id": "BfmlKdGtCu0",
    "title": "【AI爆款100課・第9集】免費免安裝軟體！零基礎用AI做出劉銘傳一生紀錄片，免費畫面生成+圖生影片+後期剪接完整教學",
    "channel": "婁哥教你學 AI | Lou Teaches AI",
@@ -1257,6 +1426,23 @@
     "圖生影片",
     "紀錄片製作",
     "提示詞"
+   ]
+  },
+  {
+   "video_id": "lW10fELFZTg",
+   "title": "Claude Code 教學｜別再用 AI 寫程式了，高手都在用 Agent 開發完整專案",
+   "channel": "矽谷叔叔 Uncle Sam",
+   "duration_seconds": 160,
+   "published_at": "2026-07-19T05:07:55Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/lW10fELFZTg/mqdefault.jpg",
+   "view_count": 263,
+   "category": "程式開發",
+   "summary": "本影片分享實務 Coding Agent 開發流程，教導如何運用 Claude Code 結合 MCP 與 Subagents 參與全端專案，實現自動化需求分析與測試部署。",
+   "tags": [
+    "ClaudeCode",
+    "CodingAgent",
+    "程式開發",
+    "MCP"
    ]
   },
   {
@@ -1362,6 +1548,57 @@
    ]
   },
   {
+   "video_id": "i2zn2etUIvs",
+   "title": "GPT-5.6 Codex 教學：Sol、Terra、Luna 該怎麼選？",
+   "channel": "AI實驗室",
+   "duration_seconds": 866,
+   "published_at": "2026-07-18T14:35:31Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/i2zn2etUIvs/mqdefault.jpg",
+   "view_count": 75,
+   "category": "工具教學",
+   "summary": "本影片針對 GPT-5.6 Codex 進行深度教學，解析 Sol、Terra 與 Luna 三大模型的定位差異、算力成本與適用場景，幫助使用者依據不同開發與訂閱方案選擇最合適的 AI 模型配置。",
+   "tags": [
+    "GPT-5.6",
+    "Codex",
+    "模型選擇",
+    "AI教學"
+   ]
+  },
+  {
+   "video_id": "8SlxRmC4Ci0",
+   "title": "Claude Code 變慢又變貴？我實測改用 Codex｜規則、Skills 全搬過去",
+   "channel": "G股團長 金睿",
+   "duration_seconds": 883,
+   "published_at": "2026-07-18T13:00:11Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/8SlxRmC4Ci0/mqdefault.jpg",
+   "view_count": 6597,
+   "category": "程式開發",
+   "summary": "影片示範如何將 Claude Code 的開發規則、技能與專案設定無痛搬遷至 OpenAI Codex。透過建立統一指令正本與軟連結設定，實現跨 AI 程式開發工具的快速切換與高效協同。",
+   "tags": [
+    "Claude Code",
+    "Codex",
+    "程式開發",
+    "工具搬遷"
+   ]
+  },
+  {
+   "video_id": "dcjLirJbm1U",
+   "title": "【Claude新手教學】一支影片從零開始學會用Claude",
+   "channel": "AI with Greyson",
+   "duration_seconds": 1288,
+   "published_at": "2026-07-18T11:15:03Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/dcjLirJbm1U/mqdefault.jpg",
+   "view_count": 260,
+   "category": "工具教學",
+   "summary": "本影片為 Claude AI 完整入門教學，從帳號註冊、介面操作講起，深入示範 Projects、Artifacts 及 Custom Skills 等高級功能的使用技巧。",
+   "tags": [
+    "Claude",
+    "Claude教學",
+    "Artifacts",
+    "AI工具"
+   ]
+  },
+  {
    "video_id": "i7X6P73g6U0",
    "title": "別再被詐騙！中老年人的手機救星！防老痴呆、終身學習，Gemini 免費 AI 神器保姆級教學。銀髮族必學、防詐騙、手機教學、免費ai工具、智能陪伴、退休規劃、保姆級教學、樂齡學習、基礎入門、實測推薦",
    "channel": "AI 生活筆記",
@@ -1396,6 +1633,23 @@
    ]
   },
   {
+   "video_id": "cGqQY346BC8",
+   "title": "ChatGPT Work + Codex 零基礎完整教程:不用懂程式,看完就能用(新手友好)",
+   "channel": "Fanko AI範式",
+   "duration_seconds": 1331,
+   "published_at": "2026-07-18T05:56:52Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/cGqQY346BC8/mqdefault.jpg",
+   "view_count": 5030,
+   "category": "辦公應用",
+   "summary": "這部影片專為上班族設計，手把手教學如何運用 ChatGPT Work 與 Codex 處理日常辦公任務。內容示範自動接管郵件、整理 Excel、製作 PPT 與排定行程，協助使用者建立高效工作流。",
+   "tags": [
+    "ChatGPT Work",
+    "辦公效率",
+    "Codex",
+    "AI助理"
+   ]
+  },
+  {
    "video_id": "A9smRAJzTHk",
    "title": "EP04: 什么是提示词？为什么别人问 AI 得到完美答案，你问的一塌糊涂",
    "channel": "土豆哥",
@@ -1413,6 +1667,57 @@
    ]
   },
   {
+   "video_id": "aZgvDDJmUCs",
+   "title": "OpenAI 大更新: 一隻視頻看懂 ChatGPT Work + GPT-5.6 所有核心功能，Claude 最大對手來了！",
+   "channel": "李厂长来了",
+   "duration_seconds": 768,
+   "published_at": "2026-07-18T03:00:28Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/aZgvDDJmUCs/mqdefault.jpg",
+   "view_count": 33159,
+   "category": "工具教學",
+   "summary": "影片解析 OpenAI 的 ChatGPT Work 與 GPT-5.6 核心更新，示範讓 AI 升級為自動執行任務的代理人。涵蓋資料整理、檔案分類分析，以及用 Sites 建立儀表板與網頁。",
+   "tags": [
+    "ChatGPT Work",
+    "GPT-5.6",
+    "AI代理",
+    "OpenAI"
+   ]
+  },
+  {
+   "video_id": "ggPPcQ2iYFo",
+   "title": "第一次用 ChatGPT Work？搞懂這 6 個功能就夠了",
+   "channel": "丹妮tech",
+   "duration_seconds": 623,
+   "published_at": "2026-07-17T11:30:37Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/ggPPcQ2iYFo/mqdefault.jpg",
+   "view_count": 12069,
+   "category": "工具教學",
+   "summary": "本影片針對初次接觸 ChatGPT Work 的使用者，提供新手入門實作指南。示範權限與專案設定，並操作檔案讀取、網頁瀏覽、Sites 網站生成與 Skills 流程存取等六大功能。",
+   "tags": [
+    "ChatGPT Work",
+    "AI工具",
+    "新手教學",
+    "功能操作"
+   ]
+  },
+  {
+   "video_id": "kVgAQEuP77E",
+   "title": "ChatGPT 這次玩真的！今年最強更新「GPT-5.6」模型，不僅會自動工作、會翻譯、會做網站、遠端操作，甚至能養電子寵物！【欸那個AJ】",
+   "channel": "欸那個AJ",
+   "duration_seconds": 839,
+   "published_at": "2026-07-17T11:00:36Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/kVgAQEuP77E/mqdefault.jpg",
+   "view_count": 82155,
+   "category": "工具教學",
+   "summary": "影片實測 ChatGPT GPT-5.6 重大更新，展示 Work、GPT Live、Sites 與 Computer Use 功能。從資料整理、即時翻譯、製作網站到操作電腦，帶領觀眾掌握最新 AI 應用。",
+   "tags": [
+    "ChatGPT",
+    "GPT-5.6",
+    "Computer Use",
+    "實測教學"
+   ]
+  },
+  {
    "video_id": "BFqFs9mh_S4",
    "title": "只要這一個AI代理就夠了！Genspark的強大功能和實際應用！每個月省下幾千塊AI訂閱費？實測整合所有頂尖模型的AI（GPT-5.6/Gemini3.5/Claude 5），真的能一個抵十個？",
    "channel": "孔老師AI研習社",
@@ -1427,6 +1732,57 @@
     "AI Agent",
     "AI工具",
     "多模態AI"
+   ]
+  },
+  {
+   "video_id": "ajOdExVgJV0",
+   "title": "🚀Kimi K3编程能力倍增！在Claude Code中全方位实测代码能力，从零开发原生macOS和iOS App、2D、3D游戏，能否超越Fable 5和GPT-5.6？国产模型是否跻身世界第一梯队",
+   "channel": "AI超元域",
+   "duration_seconds": 1042,
+   "published_at": "2026-07-17T09:25:44Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/ajOdExVgJV0/mqdefault.jpg",
+   "view_count": 26686,
+   "category": "程式開發",
+   "summary": "本影片全面實測國產大模型 Kimi K3 的程式編寫能力，並示範如何將其接入 Claude Code，開發原生 macOS/iOS 應用程式與 2D/3D 遊戲專案。",
+   "tags": [
+    "KimiK3",
+    "ClaudeCode",
+    "程式開發",
+    "AI編程"
+   ]
+  },
+  {
+   "video_id": "rAt5QZ99Smk",
+   "title": "Claude Code最强平替来了：Kimi K3超越Opus 4.8，登榜史上最大开源模型！",
+   "channel": "AI学长小林",
+   "duration_seconds": 542,
+   "published_at": "2026-07-17T05:04:58Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/rAt5QZ99Smk/mqdefault.jpg",
+   "view_count": 28547,
+   "category": "自動化工作流",
+   "summary": "本影片介紹平替方案 Kimi K3 模型，並實作展示如何結合 n8n 構建企業級 AI 自動化工作流，幫助創作者與開發者高效落地 AI 實戰項目。",
+   "tags": [
+    "KimiK3",
+    "n8n",
+    "自動化工作流",
+    "AI實戰"
+   ]
+  },
+  {
+   "video_id": "mwB5eNQQOm0",
+   "title": "如何應用AI ChatGPT(Codex)製作影片教學",
+   "channel": "亂學一通Happy Study",
+   "duration_seconds": 386,
+   "published_at": "2026-07-16T16:22:09Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/mwB5eNQQOm0/mqdefault.jpg",
+   "view_count": 14,
+   "category": "工具教學",
+   "summary": "本影片介紹如何應用 ChatGPT 與 Codex 等 AI 工具協助影片製作，說明相關操作流程與實務技巧，引導觀看者快速完成教學影片剪輯與產出。",
+   "tags": [
+    "ChatGPT",
+    "Codex",
+    "影片製作",
+    "AI教學"
    ]
   },
   {
@@ -1481,6 +1837,23 @@
    ]
   },
   {
+   "video_id": "Frorrgdd2Og",
+   "title": "15分鐘速成Claude：從新手到高手（濃縮1000+小時經驗）",
+   "channel": "漢克蔡 | Ai 集",
+   "duration_seconds": 816,
+   "published_at": "2026-07-16T11:00:29Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/Frorrgdd2Og/mqdefault.jpg",
+   "view_count": 3833,
+   "category": "工具教學",
+   "summary": "本影片將作者上千小時的實務經驗濃縮為 6 個學習階段，教導如何善用 Claude 進行腦力激盪、競爭者分析，並建立自媒體內容生產自動化流程。",
+   "tags": [
+    "Claude",
+    "Claude教學",
+    "工作流",
+    "生產力"
+   ]
+  },
+  {
    "video_id": "Vt4YMp3BvLA",
    "title": "Ep. 24 / 29 （降note 秘笈）NotebookLM 教學：解決外語語音中斷問題（自訂面板強制時長設定）",
    "channel": "mjmc",
@@ -1495,6 +1868,40 @@
     "語音生成",
     "提示詞技巧",
     "辦公應用"
+   ]
+  },
+  {
+   "video_id": "utPeo6WAP7c",
+   "title": "【😱製作3分鐘AI MV！】只要一首歌+一張圖！實測 Edimakor 全新「AI 音樂影片」功能，3分鐘做出超狂視覺神作！",
+   "channel": "Official Edimakor Taiwan",
+   "duration_seconds": 185,
+   "published_at": "2026-07-16T09:32:10Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/utPeo6WAP7c/mqdefault.jpg",
+   "view_count": 181,
+   "category": "AI 影像與影片生成",
+   "summary": "本影片教學 HitPaw Edimakor 的「AI MV 製作」功能。只需上傳一張圖片與一首歌曲，即可快速生成 AI 音樂影片，省去傳統對嘴與字幕製作的繁瑣剪輯流程。",
+   "tags": [
+    "Edimakor",
+    "AI MV",
+    "AI影片生成",
+    "影音創作"
+   ]
+  },
+  {
+   "video_id": "NrOXeGOIO_w",
+   "title": "【AI教學】ChatGPT 「網頁搜尋」怎麼用？用 ChatGPT Search 查最新資料來源！教學",
+   "channel": "科技兔",
+   "duration_seconds": 254,
+   "published_at": "2026-07-16T08:27:19Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/NrOXeGOIO_w/mqdefault.jpg",
+   "view_count": 345,
+   "category": "工具教學",
+   "summary": "這部影片為 ChatGPT Search 網頁搜尋功能的實務教學，說明如何引導 AI 抓取與驗證網路最新資訊。內容教導搜尋技巧與檢視資料來源的方法，提升日常資料蒐集與研判的精準度。",
+   "tags": [
+    "ChatGPT",
+    "ChatGPT Search",
+    "網頁搜尋",
+    "AI教學"
    ]
   },
   {
@@ -1515,6 +1922,108 @@
    ]
   },
   {
+   "video_id": "ClxpzkaqVew",
+   "title": "Claude自動幫我剪片教學 （再也不用打開CapCut了）",
+   "channel": "Fyn Heffernan",
+   "duration_seconds": 1258,
+   "published_at": "2026-07-15T21:55:30Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/ClxpzkaqVew/mqdefault.jpg",
+   "view_count": 11516,
+   "category": "自動化工作流",
+   "summary": "本影片展示如何利用 Claude Code 指導自動化腳本執行影片剪輯，涵蓋去空白音、降噪、動態字幕與翻譯，實現無需開啟剪輯軟體的全自動剪片工作流。",
+   "tags": [
+    "ClaudeCode",
+    "自動剪輯",
+    "自動化工作流",
+    "AI剪片"
+   ]
+  },
+  {
+   "video_id": "lBFXhdmFkWk",
+   "title": "新版 ChatGPT 別亂選！Work、Codex 害我燒了好多 Token",
+   "channel": "小步學習",
+   "duration_seconds": 568,
+   "published_at": "2026-07-15T14:35:57Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/lBFXhdmFkWk/mqdefault.jpg",
+   "view_count": 20701,
+   "category": "工具教學",
+   "summary": "影片透過四項實測評比 ChatGPT 桌面版 Work 與 Codex 模式差異。展示成果製作、工作區操作、網頁修改與開發流程的使用時機，幫助觀眾依需求精準選擇模式並節省 Token。",
+   "tags": [
+    "ChatGPT Work",
+    "Codex",
+    "Token優化",
+    "模式比較"
+   ]
+  },
+  {
+   "video_id": "11P0mBHvUcU",
+   "title": "出國必備！實測 ChatGPT 最新語音模型，零延遲即時口譯太神啦！",
+   "channel": "I'm 阿湯",
+   "duration_seconds": 522,
+   "published_at": "2026-07-15T12:00:31Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/11P0mBHvUcU/mqdefault.jpg",
+   "view_count": 5858,
+   "category": "工具教學",
+   "summary": "本影片實測 OpenAI 最新 GPT Live 語音模型，展示低延遲即時口譯能力。透過模擬真實對話場景，示範如何將 ChatGPT 轉化為隨身翻譯機，適合出國旅遊與跨語言交流。",
+   "tags": [
+    "ChatGPT",
+    "GPT Live",
+    "即時口譯",
+    "語音模型"
+   ]
+  },
+  {
+   "video_id": "LBGOUah-8zM",
+   "title": "[ 享玩AI ]AI 動漫角色怎麼做？PixAI 完整教學｜如何穩定生成二次元角色，並用不同風格與 Lora 做出更多延伸版本",
+   "channel": "享知Cultiwise",
+   "duration_seconds": 568,
+   "published_at": "2026-07-15T11:30:06Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/LBGOUah-8zM/mqdefault.jpg",
+   "view_count": 329,
+   "category": "AI 影像與影片生成",
+   "summary": "本影片提供 PixAI 繪圖平台的完整操作教學，示範如何搭配平台模型與 Lora 技術，穩定生成二次元動漫角色，並延伸產出不同風格與視覺效果的作品。",
+   "tags": [
+    "PixAI",
+    "二次元繪圖",
+    "AI繪圖",
+    "Lora"
+   ]
+  },
+  {
+   "video_id": "saGXJaLB_v8",
+   "title": "一次搞懂！ChatGPT 5.6 三大模式完整說明｜Chat、Work、Codex 差在哪？",
+   "channel": "許博-輕鬆學",
+   "duration_seconds": 525,
+   "published_at": "2026-07-15T08:47:01Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/saGXJaLB_v8/mqdefault.jpg",
+   "view_count": 3063,
+   "category": "入門觀念",
+   "summary": "本影片透過實際案例解析 ChatGPT 5.6 的 Chat、Work 與 Codex 三大模式差異，幫助使用者掌握各模式的定位與使用時機，選擇最適合的 AI 工具。",
+   "tags": [
+    "ChatGPT",
+    "Codex",
+    "入門觀念",
+    "AI模式"
+   ]
+  },
+  {
+   "video_id": "Ozr75-oQEFg",
+   "title": "【AI教學】ChatGPT 訂閱方案比較：ChatGPT Go / Plus / Pro 5X / Pro 20X 怎麼選？一般人該購買哪個？",
+   "channel": "科技兔",
+   "duration_seconds": 477,
+   "published_at": "2026-07-15T08:18:17Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/Ozr75-oQEFg/mqdefault.jpg",
+   "view_count": 7788,
+   "category": "入門觀念",
+   "summary": "本影片評比 ChatGPT 的各級訂閱方案（Go、Plus、Pro 等），詳細分析不同價位在專案、排程與模型使用權限上的差異。提供清晰的選擇建議，協助使用者依需求挑選最划算的方案。",
+   "tags": [
+    "ChatGPT",
+    "訂閱方案",
+    "方案比較",
+    "AI教學"
+   ]
+  },
+  {
    "video_id": "oBBZfjBS0ps",
    "title": "新手教程 - AI工作流画布Beginner Tutorial - Chinese Version | Framia Pro by Converge AI",
    "channel": "Framia Pro by Converge AI",
@@ -1529,6 +2038,23 @@
     "AI工作流",
     "AI Agent",
     "畫布教學"
+   ]
+  },
+  {
+   "video_id": "thpkLNr5fHM",
+   "title": "新版 ChatGPT 完整教學｜Chat／Work／Codex 三模式一次搞懂，免費版也能用",
+   "channel": "AI實驗室",
+   "duration_seconds": 486,
+   "published_at": "2026-07-14T11:46:16Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/thpkLNr5fHM/mqdefault.jpg",
+   "view_count": 4184,
+   "category": "工具教學",
+   "summary": "影片針對 OpenAI 桌面版改版進行完整教學，說明 Chat、Work 與 Codex 三種模式的分工與定位。同時解析 GPT-5.6 模型等級，引導觀眾在免費或付費版中正確設定並運用相應功能。",
+   "tags": [
+    "ChatGPT",
+    "Work模式",
+    "Codex",
+    "GPT-5.6"
    ]
   },
   {
@@ -1583,6 +2109,57 @@
    ]
   },
   {
+   "video_id": "H_9HaQP20Rc",
+   "title": "【AI教學】ChatGPT 網頁版「深入研究」是什麼？怎麼用？ChatGPT Deep Research 功能完整教學",
+   "channel": "科技兔",
+   "duration_seconds": 387,
+   "published_at": "2026-07-14T08:24:41Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/H_9HaQP20Rc/mqdefault.jpg",
+   "view_count": 374,
+   "category": "工具教學",
+   "summary": "這部影片介紹 ChatGPT 網頁版的「深入研究」（Deep Research）功能。手把手示範如何啟動深度檢索，讓 AI 自動搜尋多方資料並彙整出結構完整的研報，大幅提升資料調查與整理效率。",
+   "tags": [
+    "ChatGPT",
+    "Deep Research",
+    "深度研究",
+    "AI教學"
+   ]
+  },
+  {
+   "video_id": "3fSnt9LuEGs",
+   "title": "ChatGPT-5.6更新后，彻底乱了❓Chat / Work / Codex 一次讲清｜额度、功能、模型全对比",
+   "channel": "AI实战派",
+   "duration_seconds": 300,
+   "published_at": "2026-07-14T05:00:20Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/3fSnt9LuEGs/mqdefault.jpg",
+   "view_count": 6582,
+   "category": "入門觀念",
+   "summary": "本影片詳細解析 ChatGPT-5.6 更新後的 Chat、Work 與 Codex 三大功能，對比各模式的模型規格、使用額度與特色，幫助使用者精準提升工作效率。",
+   "tags": [
+    "ChatGPT",
+    "Codex",
+    "功能對比",
+    "入門觀念"
+   ]
+  },
+  {
+   "video_id": "iTtGKSz35SE",
+   "title": "2026 免費 AI 工具不要亂裝：Google 這幾個真的能先用",
+   "channel": "AI Day",
+   "duration_seconds": 490,
+   "published_at": "2026-07-14T04:11:43Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/iTtGKSz35SE/mqdefault.jpg",
+   "view_count": 61,
+   "category": "工具教學",
+   "summary": "本影片解析 Google 所提供的多款免費 AI 工具（如 AI Studio 與 NotebookLM），幫助使用者了解各工具特點與應用情境，順利融入日常工作流程。",
+   "tags": [
+    "Google AI",
+    "NotebookLM",
+    "AIStudio",
+    "免費工具"
+   ]
+  },
+  {
    "video_id": "BYxXTc_SHIY",
    "title": "【製造業AI實戰・EP2】n8n 平台入門 × 第一個 AI 聊天流程｜零程式也能上手（n8n介面 | 節點 | 觸發器）",
    "channel": "虎智科技TigerAI",
@@ -1634,6 +2211,23 @@
    ]
   },
   {
+   "video_id": "mub70Zg-3uI",
+   "title": "1-1 Claude Code 不是聊天機器人，是會自己動手驗證的 Agent｜完整入門教學",
+   "channel": "Herbert AI 開發筆記",
+   "duration_seconds": 379,
+   "published_at": "2026-07-13T09:30:31Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/mub70Zg-3uI/mqdefault.jpg",
+   "view_count": 41,
+   "category": "程式開發",
+   "summary": "本影片深入解析 Claude Code 的 Agentic Loop 架構與運行原理，帶領觀眾實作設定 CLAUDE.md、Auto Memory、Skills 與 Hooks，全面發揮 AI 開發潛力。",
+   "tags": [
+    "ClaudeCode",
+    "AgenticAI",
+    "程式開發",
+    "CLAUDE.md"
+   ]
+  },
+  {
    "video_id": "m1d2SXJ4CNg",
    "title": "【製造業AI實戰・EP1】製造業的 AI 困境與產品思維｜為什麼買了 ERP、MES、CRM 還是半套廢？（AX成熟度 | 產品思維）",
    "channel": "TigerAI ",
@@ -1651,6 +2245,23 @@
    ]
   },
   {
+   "video_id": "uDXwQgJksAI",
+   "title": "【AI教學】用 ChatGPT 一鍵將 YouTube 影片轉簡報：將 YouTube 影片轉成有質感的 PPT 簡報！教學",
+   "channel": "科技兔",
+   "duration_seconds": 419,
+   "published_at": "2026-07-13T08:30:15Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/uDXwQgJksAI/mqdefault.jpg",
+   "view_count": 2449,
+   "category": "辦公應用",
+   "summary": "本影片示範如何利用 ChatGPT 將 YouTube 影片內容轉換為質感的 PPT 簡報。透過擷取逐字稿與 AI 結構化排版，教導觀眾快速產出重點清晰的簡報檔，是極為實用的辦公技巧。",
+   "tags": [
+    "ChatGPT",
+    "PPT製作",
+    "YouTube轉簡報",
+    "辦公應用"
+   ]
+  },
+  {
    "video_id": "g2q9sfo4pkg",
    "title": "Gemini Study Notebooks 學習筆記本實戰｜AI 互動教學、個人化診斷、弱點補強，把複雜知識變成你的記憶！",
    "channel": "T客邦影新聞",
@@ -1665,6 +2276,23 @@
     "學習筆記",
     "知識管理",
     "工具教學"
+   ]
+  },
+  {
+   "video_id": "QsysyXWde-s",
+   "title": "2026-07-11 歐喜強老師 善用數位與AI工具：提升教學成效的6個應用技巧",
+   "channel": "DFW CSA",
+   "duration_seconds": 7573,
+   "published_at": "2026-07-12T20:33:07Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/QsysyXWde-s/mqdefault.jpg",
+   "view_count": 346,
+   "category": "辦公應用",
+   "summary": "本影片為教師研習講座，由歐喜強老師分享如何將數位與 AI 工具融入教育現場。內容涵蓋 6 個提升教學成效的技巧，協助教育工作者精進教學流程並提高課堂互動。",
+   "tags": [
+    "教學應用",
+    "AI教育",
+    "辦公應用",
+    "數位工具"
    ]
   },
   {
@@ -1719,6 +2347,23 @@
    ]
   },
   {
+   "video_id": "XkaA-95EMv4",
+   "title": "ChatGPT Work 新手必學！30分鐘學會 AI 自動做會議記錄＋YouTube流量分析｜第1堂實戰課",
+   "channel": "YS Class",
+   "duration_seconds": 1743,
+   "published_at": "2026-07-12T11:17:41Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/XkaA-95EMv4/mqdefault.jpg",
+   "view_count": 4710,
+   "category": "辦公應用",
+   "summary": "影片為 ChatGPT Work 實戰課程，教導新手運用 AI 自動化整理會議記錄、萃取待辦事項，以及分析 YouTube 影片流量數據。搭配實用提示詞技巧教學，無須寫程式即可大幅升級工作產能。",
+   "tags": [
+    "ChatGPT Work",
+    "會議記錄",
+    "數據分析",
+    "辦公應用"
+   ]
+  },
+  {
    "video_id": "L9sduQxuoqY",
    "title": "【AI爆款100課・第8集】零花錢兩步驟！免費AI修復模糊泛黃老照片，自動生成帶運鏡電影感動態紀念短片，內附可複製萬用提示詞完整實操教學",
    "channel": "婁哥教你學 AI | Lou Teaches AI",
@@ -1733,6 +2378,23 @@
     "AI影片",
     "圖生影片",
     "提示詞"
+   ]
+  },
+  {
+   "video_id": "o4DpbrvnWyc",
+   "title": "【AI教學】ChatGPT 桌機版 MP4 轉 MP3 教學：將 MP4 影片轉成 MP3 音訊，可自訂音質與MP3片段長度！",
+   "channel": "科技兔",
+   "duration_seconds": 399,
+   "published_at": "2026-07-12T08:49:39Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/o4DpbrvnWyc/mqdefault.jpg",
+   "view_count": 159,
+   "category": "工具教學",
+   "summary": "本影片教導如何使用 ChatGPT 桌機版將 MP4 影片轉換為 MP3 音訊檔，並展示如何自訂音質與剪裁音訊長度，讓 AI 成為便利的檔案格式轉換工具。",
+   "tags": [
+    "ChatGPT",
+    "MP4轉MP3",
+    "工具教學",
+    "檔案轉換"
    ]
   },
   {
@@ -1784,6 +2446,23 @@
     "免費AI",
     "影片生成",
     "圖片生成"
+   ]
+  },
+  {
+   "video_id": "IKwMJpp3VTw",
+   "title": "AI漫劇逼瘋短劇圈！一人就能做百萬級動漫，從零到變現全實測",
+   "channel": "九姨小課堂",
+   "duration_seconds": 588,
+   "published_at": "2026-07-11T09:19:42Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/IKwMJpp3VTw/mqdefault.jpg",
+   "view_count": 1689,
+   "category": "AI 影像與影片生成",
+   "summary": "影片實測從零製作 AI 動漫短劇的全流程，介紹 Cakima 等 AI 工具的操作方法，並拆解國內外自媒體平台的變現途徑，教導創作者高效產出優質動漫作品。",
+   "tags": [
+    "AI漫劇",
+    "AI影片生成",
+    "短劇製作",
+    "變現教學"
    ]
   },
   {
@@ -1855,6 +2534,74 @@
    ]
   },
   {
+   "video_id": "Au206yH7ufE",
+   "title": "ChatGPT 大改版：5 個變化一次看懂！【會自己幹活、Work、GPT-5.6】",
+   "channel": "丹妮tech",
+   "duration_seconds": 310,
+   "published_at": "2026-07-10T14:29:33Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/Au206yH7ufE/mqdefault.jpg",
+   "view_count": 20116,
+   "category": "工具教學",
+   "summary": "本影片示範 ChatGPT 改版後的五大核心變化，包含 Chat 子頁面、Work 工作台與 Live Chat 等功能。作者以非程式背景角度上手操作，說明如何將聊天工具轉變為私人工作助理。",
+   "tags": [
+    "ChatGPT",
+    "GPT-5.6",
+    "ChatGPT Work",
+    "工具教學"
+   ]
+  },
+  {
+   "video_id": "zZ6Rc0jrJZc",
+   "title": "Claude Code 速成教學｜前 TikTok 工程師帶你學｜MCP, Skills, Subagents, Context, Vibe Coding",
+   "channel": "布魯斯前端",
+   "duration_seconds": 4053,
+   "published_at": "2026-07-10T14:01:57Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/zZ6Rc0jrJZc/mqdefault.jpg",
+   "view_count": 10933,
+   "category": "程式開發",
+   "summary": "本影片提供 Claude Code 實戰速成教學，涵蓋權限與模型設定、計畫模式、Context 管理及 MCP 與 Subagents 應用，帶你快速掌握 AI 輔助程式開發技巧。",
+   "tags": [
+    "Claude Code",
+    "程式開發",
+    "MCP",
+    "Subagents"
+   ]
+  },
+  {
+   "video_id": "iP9Oy7naM1s",
+   "title": "GPT-5.6 正式登場！ChatGPT 直接操作電腦、做網站、即時翻譯",
+   "channel": "剛來學",
+   "duration_seconds": 2090,
+   "published_at": "2026-07-10T12:30:33Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/iP9Oy7naM1s/mqdefault.jpg",
+   "view_count": 8232,
+   "category": "工具教學",
+   "summary": "影片剖析 GPT-5.6 功能更新，示範 ChatGPT Work 操作電腦應用程式、分析試算表、製作 PPT 與建立網站，並展示雙向即時語音翻譯，協助觀眾掌控 AI 代理的操作模式。",
+   "tags": [
+    "GPT-5.6",
+    "ChatGPT Work",
+    "電腦操作",
+    "即時翻譯"
+   ]
+  },
+  {
+   "video_id": "OkFmCO6rJZs",
+   "title": "真 · AI影片Agent：新手唔洗識剪片做出完美爆片 ｜ Flova AI 實測：Agent＋Skills＋Timeline 全流程教學 #FlovaAI #AI影片Agent #AI工具",
+   "channel": "我想用Ai賺錢",
+   "duration_seconds": 866,
+   "published_at": "2026-07-10T12:00:39Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/OkFmCO6rJZs/mqdefault.jpg",
+   "view_count": 1602,
+   "category": "AI 影像與影片生成",
+   "summary": "本影片以廣東話實測 Flova AI 影片代理人工具，詳細講解 Agent 模式、Skills 設定與時間軸操作，協助不懂剪輯的新手快速製作高品質的短影音與宣傳片。",
+   "tags": [
+    "Flova AI",
+    "AI影片生成",
+    "AI Agent",
+    "影音剪輯"
+   ]
+  },
+  {
    "video_id": "wqypuVmCmPw",
    "title": "我做了一套 AI 神器，0 成本每天自動產生爆款短片！#n8n",
    "channel": "傑克自動化AI教學",
@@ -1923,6 +2670,40 @@
    ]
   },
   {
+   "video_id": "g3ysnqYnBEw",
+   "title": "股民必看！用 Claude Cowork 追蹤0050成份股、整理信件的 3 個排程技巧",
+   "channel": "泛科學院",
+   "duration_seconds": 668,
+   "published_at": "2026-07-10T11:00:06Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/g3ysnqYnBEw/mqdefault.jpg",
+   "view_count": 91603,
+   "category": "自動化工作流",
+   "summary": "本影片介紹如何運用 Claude Cowork 的自動化排程功能，示範追蹤 0050 成份股資訊與信件整理等實用技巧，幫助使用者建立自動化工作流程，提升日常辦公與投資追蹤效率。",
+   "tags": [
+    "Claude Cowork",
+    "自動化排程",
+    "信件整理",
+    "投資追蹤"
+   ]
+  },
+  {
+   "video_id": "_C5zIyBgLOc",
+   "title": "不露脸Youtube频道从0到1手把手教学 AI动画一键批量生成（附提示词）免费启动赚钱的AI频道  AI副业 AI赚钱 AI搞钱 AI创业 AI工具 AI视频 AI动画 赚钱 副业 不露脸频道",
+   "channel": "盈夏AI轻创业",
+   "duration_seconds": 1173,
+   "published_at": "2026-07-10T10:30:11Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/_C5zIyBgLOc/mqdefault.jpg",
+   "view_count": 41570,
+   "category": "AI 影像與影片生成",
+   "summary": "本影片手把手教學如何打造不露臉 YouTube 動畫頻道，示範運用 AI 批量生成故事腳本、角色與分鏡圖，並提供提示詞與工作流程以加速創作與頻道營運。",
+   "tags": [
+    "AI動畫",
+    "AI影片生成",
+    "YouTube副業",
+    "批量生成"
+   ]
+  },
+  {
    "video_id": "U-c5EUwPZ_E",
    "title": "【最新】NotebookLM 可以生成短影音了，實操+生成中文語音！",
    "channel": "🎧 憶筆M.S. | 陪你走過 AI 學習之路",
@@ -1937,6 +2718,23 @@
     "FlexClip",
     "短影音",
     "AI影片生成"
+   ]
+  },
+  {
+   "video_id": "xUeqrT723MM",
+   "title": "GPT 5.6 Sol 16 项实测：惊艳！ChatGPT、Codex 正式合体",
+   "channel": "NiceKate AI",
+   "duration_seconds": 1325,
+   "published_at": "2026-07-10T05:03:09Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/xUeqrT723MM/mqdefault.jpg",
+   "view_count": 14056,
+   "category": "工具教學",
+   "summary": "本影片透過 16 項真實任務實測 GPT-5.6 Sol 的能力，涵蓋圖片識別、PPT 與 Excel 處理、網頁設計、App 開發及 3D 建模。詳細分析 ChatGPT 與 Codex 合體後的優勢與限制。",
+   "tags": [
+    "GPT-5.6",
+    "Codex",
+    "AI實測",
+    "工具教學"
    ]
   },
   {
@@ -2008,6 +2806,40 @@
    ]
   },
   {
+   "video_id": "yA-U9153D-c",
+   "title": "AI Prompt 教學｜點解高手一句 Prompt 就做到？Memory／GPTs／Projects／Gems 工作流真相",
+   "channel": "Sion Barzahd",
+   "duration_seconds": 388,
+   "published_at": "2026-07-10T00:24:05Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/yA-U9153D-c/mqdefault.jpg",
+   "view_count": 14,
+   "category": "自動化工作流",
+   "summary": "這部影片拆解高效能 AI 提示詞背後的工作流真相，解讀高手如何整合 Memory、GPTs、Projects 與 Gems 等機制。教學說明建立系統化知識庫與背景設定的重要性，讓 AI 自動處理複雜任務。",
+   "tags": [
+    "Prompt教學",
+    "AI工作流",
+    "ChatGPT Projects",
+    "GPTs"
+   ]
+  },
+  {
+   "video_id": "CaMHeWSo4mU",
+   "title": "Claude Code Agent View 背景代理教學：同時開好幾個任務不用一直盯著（對照官方文件）",
+   "channel": "Ai-Wisdom・Claude 學習筆記",
+   "duration_seconds": 206,
+   "published_at": "2026-07-09T14:00:00Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/CaMHeWSo4mU/mqdefault.jpg",
+   "view_count": 34,
+   "category": "程式開發",
+   "summary": "本影片講解 Claude Code 的 Agent View 背景代理功能，對照官方文件示範如何同時派發多個背景任務、下達終端機指令與監控進度，讓 AI 開發任務並行處理不衝突。",
+   "tags": [
+    "Claude Code",
+    "Agent View",
+    "背景代理",
+    "程式開發"
+   ]
+  },
+  {
    "video_id": "nFaWwsOc8uI",
    "title": "【AI教學】Google Gemini值得課金？實測 Omni 影片生成、Docs 寫稿工作流 🤖實測 AI Avatar 與 Google Flow 創作功能🤖Agentic AI係啲咩?",
    "channel": "GadgetGang HK",
@@ -2025,6 +2857,40 @@
    ]
   },
   {
+   "video_id": "nZqKGPLKeEI",
+   "title": "我做 SEO 每天在用的5個 Claude 功能(90%的人不知道) | 用AI做SEO教學,關鍵字到競品分析一次搞定 !",
+   "channel": "Sorla - 超簡單行銷",
+   "duration_seconds": 979,
+   "published_at": "2026-07-09T10:00:23Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/nZqKGPLKeEI/mqdefault.jpg",
+   "view_count": 2012,
+   "category": "辦公應用",
+   "summary": "本影片分享運用 Claude 進行 SEO 優化的五大進階實務技巧，包含關鍵字研究、競品分析與數據處理等教學，教你擺脫單純聊天用法，利用 AI 提升網路行銷與內容產出效率。",
+   "tags": [
+    "Claude",
+    "SEO教學",
+    "關鍵字分析",
+    "網路行銷"
+   ]
+  },
+  {
+   "video_id": "pQH-DqYfZzA",
+   "title": "免费使用Codex + Claude Code！ 小白教程",
+   "channel": "Juang_42号搭车客",
+   "duration_seconds": 413,
+   "published_at": "2026-07-08T14:01:15Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/pQH-DqYfZzA/mqdefault.jpg",
+   "view_count": 390,
+   "category": "工具教學",
+   "summary": "本影片為免費接入 AI 工具的實操教程，示範如何將免費模型 Agnes 接入 Codex 與 Claude Code，實現零成本圖片生成與代碼開發，適合新手跟著步驟設定。",
+   "tags": [
+    "Claude Code",
+    "Codex",
+    "AI教學",
+    "免費工具"
+   ]
+  },
+  {
    "video_id": "ZC8AI_jFWnU",
    "title": "國外瘋傳的 AI 筆記工作流！LLM Wiki 讓你的 Obsidian 筆記升級成能自我進化的第二大腦！",
    "channel": "PAPAYA 電腦教室",
@@ -2039,6 +2905,193 @@
     "LLM Wiki",
     "Codex",
     "第二大腦"
+   ]
+  },
+  {
+   "video_id": "YpTmyJbUXE0",
+   "title": "【AI影音】一人也能做質感廣告，AI生成腳本、圖片、影音到剪輯全流程一次看！(ft. 大有牧森)",
+   "channel": "新北市政府青年局",
+   "duration_seconds": 263,
+   "published_at": "2026-07-08T11:00:06Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/YpTmyJbUXE0/mqdefault.jpg",
+   "view_count": 2403,
+   "category": "AI 影像與影片生成",
+   "summary": "影片由大有牧森主講，示範個人工作室如何利用 AI 完成質感廣告。內容涵蓋腳本發想、圖片與影片生成、語音配音到背景音樂配對的全流程實務應用。",
+   "tags": [
+    "AI影音",
+    "AI廣告",
+    "AI影片生成",
+    "工作流"
+   ]
+  },
+  {
+   "video_id": "AGTAyXbpO64",
+   "title": "【Genspark AI 教學】AI Agent 自動做哂 報告+簡報+電郵｜ChatGPT 做唔到，定要轉 Manus？（2026 廣東話）",
+   "channel": "Tim Chan AI",
+   "duration_seconds": 1137,
+   "published_at": "2026-07-08T09:30:07Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/AGTAyXbpO64/mqdefault.jpg",
+   "view_count": 2238,
+   "category": "自動化工作流",
+   "summary": "影片以廣東話教學示範如何運用 Genspark AI Super Agent 自動化完成報告、簡報與電子郵件。說明只需單一提示詞即可指派 AI Agent 執行跨任務流程，幫助上班族省去重複繁瑣的操作。",
+   "tags": [
+    "Genspark AI",
+    "AI Agent",
+    "自動化工作流",
+    "廣東話教學"
+   ]
+  },
+  {
+   "video_id": "TbQbzFolY1M",
+   "title": "保姆级教程：3步搞定 Claude Code、Codex 接入 LM Studio 本地模型",
+   "channel": "Tech指南",
+   "duration_seconds": 1124,
+   "published_at": "2026-07-08T05:02:26Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/TbQbzFolY1M/mqdefault.jpg",
+   "view_count": 1629,
+   "category": "工具教學",
+   "summary": "本影片提供保姆級教學，手把手示範如何透過 LM Studio 本地部署大模型，並利用 CC Switch 工具將本地 AI 接入 Claude Code 與 Codex，打造免費且保護隱私的開發環境。",
+   "tags": [
+    "Claude Code",
+    "LM Studio",
+    "本地模型",
+    "Codex"
+   ]
+  },
+  {
+   "video_id": "doG9QNBgF6c",
+   "title": "影音小白必看！2026 最強 AI 影片工具一站式教學，4K 畫質一鍵產出。內附隱藏福利、AI影片、AI短劇、AI教學、AI工具、短影音、自媒體、長影片、新手教學、AI動畫、實測、最新、入門、零基礎",
+   "channel": "AI 生活筆記",
+   "duration_seconds": 369,
+   "published_at": "2026-07-07T11:00:30Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/doG9QNBgF6c/mqdefault.jpg",
+   "view_count": 314,
+   "category": "AI 影像與影片生成",
+   "summary": "本影片介紹 AI 影片工具 AIReel 的一站式操作教學，示範利用 AI 優化提示詞並生成高達 4K 畫質的短影音與短劇，適合影音創作新手快速掌握 AI 生成技術。",
+   "tags": [
+    "AIReel",
+    "AI影片生成",
+    "4K畫質",
+    "短影音"
+   ]
+  },
+  {
+   "video_id": "PLuf5wEenbQ",
+   "title": "[保姆級教學]  Suno 封殺版權歌？最新AI翻唱工具誕生！零成本免部署",
+   "channel": "納爾森有話說",
+   "duration_seconds": 660,
+   "published_at": "2026-07-07T11:00:00Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/PLuf5wEenbQ/mqdefault.jpg",
+   "view_count": 4654,
+   "category": "工具教學",
+   "summary": "本影片提供保姆級教學，針對 Suno AI 版權限制提出全新 AI 翻唱解決方案。教導使用者透過免費網頁工具挑選 AI 歌手替換人聲，並解構客製化歌手的技術細節。",
+   "tags": [
+    "AI翻唱",
+    "AI音樂",
+    "Suno",
+    "工具教學"
+   ]
+  },
+  {
+   "video_id": "24zRHdrwnaQ",
+   "title": "Claude + Canva 做 200 篇貼文 只要 10 分鐘!",
+   "channel": "Jerry Chen | Claude + IG 流量實驗室",
+   "duration_seconds": 927,
+   "published_at": "2026-07-07T01:00:09Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/24zRHdrwnaQ/mqdefault.jpg",
+   "view_count": 271,
+   "category": "自動化工作流",
+   "summary": "本影片教學如何利用 MCP Connector 將 Claude 連接至 Canva，示範運用 Prompt 批量生成社群封面、替換文案與背景圖，大幅提升多篇貼文的製作效率。",
+   "tags": [
+    "Claude",
+    "Canva",
+    "MCP",
+    "批量製作"
+   ]
+  },
+  {
+   "video_id": "v3qF5K0_c8Q",
+   "title": "當AI新星Claude遇上未來工作浪潮，AI工具能否改寫你的職場命運？",
+   "channel": "人生智慧如何面對AI",
+   "duration_seconds": 686,
+   "published_at": "2026-07-06T14:35:48Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/v3qF5K0_c8Q/mqdefault.jpg",
+   "view_count": 2,
+   "category": "辦公應用",
+   "summary": "本影片探討 Claude AI 在職場工作中的應用趨勢，並提供實用的 Claude 操作與應用教學，幫助職場人士了解如何透過 AI 助手優化日常工作流程並提升工作效率。",
+   "tags": [
+    "Claude AI",
+    "職場應用",
+    "辦公應用",
+    "工作效率"
+   ]
+  },
+  {
+   "video_id": "psv8s1BjJc0",
+   "title": "非技術背景也能用！Claude Projects 打造專屬 AI 助理｜新手保姆級教學",
+   "channel": "Johnny Lee",
+   "duration_seconds": 736,
+   "published_at": "2026-07-06T05:22:20Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/psv8s1BjJc0/mqdefault.jpg",
+   "view_count": 427,
+   "category": "辦公應用",
+   "summary": "本影片為非技術背景設計的 Claude Projects 保姆級教學，透過業務提案、客服與財務分析三大案例，教你設定記憶專屬 AI 助理，並結合 Gmail 與 Artifacts 提升工作效率。",
+   "tags": [
+    "Claude Projects",
+    "AI助理",
+    "辦公應用",
+    "新手教學"
+   ]
+  },
+  {
+   "video_id": "4fFYeeoGrNs",
+   "title": "Google NotebookLM 實測教學：用免費 AI 工具整理 PDF、YouTube、網頁，快速生成 Research Briefing",
+   "channel": "ekcheungAI",
+   "duration_seconds": 860,
+   "published_at": "2026-07-06T04:44:53Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/4fFYeeoGrNs/mqdefault.jpg",
+   "view_count": 653,
+   "category": "辦公應用",
+   "summary": "本影片實測 Google NotebookLM，示範匯入 PDF、YouTube 與網頁資料，自動進行重點整理並快速生成研究簡報與問答集，大幅節省資料彙整時間。",
+   "tags": [
+    "NotebookLM",
+    "Google AI",
+    "辦公應用",
+    "資料整理"
+   ]
+  },
+  {
+   "video_id": "7v2DHqARNNQ",
+   "title": "Claude Code Plan Mode 完整教學：先看計畫、一次決定，終結核准按到手軟（對照官方文件）",
+   "channel": "Ai-Wisdom・Claude 學習筆記",
+   "duration_seconds": 290,
+   "published_at": "2026-07-06T03:45:05Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/7v2DHqARNNQ/mqdefault.jpg",
+   "view_count": 36,
+   "category": "程式開發",
+   "summary": "本影片針對 Claude Code 的 Plan Mode 規劃模式進行完整實戰教學，對照官方文件說明如何先生成計畫再統一授權執行，解決頻繁按核准的痛點並提升程式開發效率。",
+   "tags": [
+    "Claude Code",
+    "Plan Mode",
+    "程式開發",
+    "AI工具"
+   ]
+  },
+  {
+   "video_id": "cqEgtk4rpmY",
+   "title": "Claude Code Subagent 子代理完整教學：並行省一半時間、worktree 隔離、3 種啟動方式（含本片實測幕後）",
+   "channel": "Ai-Wisdom・Claude 學習筆記",
+   "duration_seconds": 205,
+   "published_at": "2026-07-06T03:45:03Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/cqEgtk4rpmY/mqdefault.jpg",
+   "view_count": 52,
+   "category": "程式開發",
+   "summary": "本影片詳細教學 Claude Code 的 Subagent 子代理功能，說明三種啟動方式、並行處理原理與 worktree 隔離機制，並分享實測幕後，幫助開發者大幅節省任務處理時間。",
+   "tags": [
+    "Claude Code",
+    "Subagent",
+    "程式開發",
+    "工作流優化"
    ]
   },
   {
@@ -2073,6 +3126,23 @@
     "MCP",
     "自動化工作流",
     "API"
+   ]
+  },
+  {
+   "video_id": "DWxa7JvhY4k",
+   "title": "我叫 Claude Code 自動發小紅書：一句指令 3 分鐘發完（手動 40 分）｜防封＋章節全自動｜生活應用 EP03",
+   "channel": "Ai-Wisdom・Claude 學習筆記",
+   "duration_seconds": 714,
+   "published_at": "2026-07-05T13:48:35Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/DWxa7JvhY4k/mqdefault.jpg",
+   "view_count": 39,
+   "category": "自動化工作流",
+   "summary": "影片教學如何運用 Claude Code 結合 Playwright 接管瀏覽器，打造全自動小紅書發文流程。內容提供完整提示詞，帶領觀眾一步步設定防封鎖機制，將四十分鐘的手動發文縮短至三分鐘。",
+   "tags": [
+    "Claude Code",
+    "小紅書",
+    "自動化發文",
+    "Playwright"
    ]
   },
   {
@@ -2161,6 +3231,23 @@
    ]
   },
   {
+   "video_id": "7uD--8Jm100",
+   "title": "必學的Claude廣告生成技巧，一張照片就可以做廣告開始賺錢！龍蝦Openclaw Hermes適用",
+   "channel": "蘋果妹",
+   "duration_seconds": 958,
+   "published_at": "2026-07-04T13:00:28Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/7uD--8Jm100/mqdefault.jpg",
+   "view_count": 17420,
+   "category": "AI 影像與影片生成",
+   "summary": "本影片教學如何將 Claude 串接 Higgsfield MCP 工具，示範從單張照片建立專屬 AI 角色，並自動生成動態人物與廣告影片，適合想運用 AI 技術進行影音創作者觀看。",
+   "tags": [
+    "Claude",
+    "Higgsfield MCP",
+    "AI影片生成",
+    "廣告製作"
+   ]
+  },
+  {
    "video_id": "GDL5IMXqEKo",
    "title": "GPT Codex 基本功 EP05：Codex 超好用的五個隱藏功能",
    "channel": "三師爸Sense Bar",
@@ -2175,6 +3262,57 @@
     "ChatGPT",
     "AI工具",
     "隱藏功能"
+   ]
+  },
+  {
+   "video_id": "dfFgt9WjORM",
+   "title": "AI新手掃盲教程！用大白話解釋今年10個最火的Ai專業詞彙丨AI知識丨Codex丨ChatGPT丨ClaudeCode丨教程",
+   "channel": "柱子哥TzFilm",
+   "duration_seconds": 337,
+   "published_at": "2026-07-04T04:00:16Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/dfFgt9WjORM/mqdefault.jpg",
+   "view_count": 38,
+   "category": "入門觀念",
+   "summary": "本影片為專為新手打造的 AI 普及教學，以通俗易懂的語言系統化拆解今年熱門的 10 個 AI 專業詞彙。帶領零基礎觀眾建立正確的 AI 底層邏輯與概念，輕鬆看懂 AI 發展與工具演進。",
+   "tags": [
+    "AI新手",
+    "AI觀念",
+    "ChatGPT",
+    "Codex"
+   ]
+  },
+  {
+   "video_id": "VIjCRqSX4ag",
+   "title": "我搭了一套 Claude Cowork 自動化系統，模板免費送！",
+   "channel": "李厂长来了",
+   "duration_seconds": 1184,
+   "published_at": "2026-07-04T03:00:32Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/VIjCRqSX4ag/mqdefault.jpg",
+   "view_count": 12298,
+   "category": "自動化工作流",
+   "summary": "本影片手把手帶領觀眾建立 Claude Cowork AI 自動化工作系統，詳細示範資料夾結構設計、Skills 與 Connectors 搭配運用，實現自動整理文件與處理郵件流程。",
+   "tags": [
+    "Claude Cowork",
+    "自動化工作流",
+    "AI系統",
+    "效率提升"
+   ]
+  },
+  {
+   "video_id": "7tfvthMNQeg",
+   "title": "【AI教學】ChatGPT 專案功能教學：把聊天、檔案與指令整理在同一個工作區！",
+   "channel": "科技兔",
+   "duration_seconds": 477,
+   "published_at": "2026-07-04T02:32:52Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/7tfvthMNQeg/mqdefault.jpg",
+   "view_count": 566,
+   "category": "辦公應用",
+   "summary": "這部影片詳細教學 ChatGPT 的「專案」（Projects）功能，說明如何將對話紀錄、參考檔案與自訂指令集中於同一個工作區管理。幫助使用者井然有序地整理資料，大幅提升專案管理效率。",
+   "tags": [
+    "ChatGPT",
+    "ChatGPT專案",
+    "工作區管理",
+    "AI教學"
    ]
   },
   {
@@ -2195,6 +3333,159 @@
    ]
   },
   {
+   "video_id": "ObJoSfq1-6s",
+   "title": "Figma Motion (Beta) 教學 (ft. Claude Code)",
+   "channel": "Alan Design",
+   "duration_seconds": 1974,
+   "published_at": "2026-07-04T01:00:32Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/ObJoSfq1-6s/mqdefault.jpg",
+   "view_count": 696,
+   "category": "工具教學",
+   "summary": "本影片簡介 Figma Motion (Beta) 的操作技巧，並示範如何結合 Claude Code 將動畫成果運用於實際工作流中，適合介面設計師了解 AI 與設計工具整合應用。",
+   "tags": [
+    "Figma Motion",
+    "Claude Code",
+    "UI設計",
+    "工具教學"
+   ]
+  },
+  {
+   "video_id": "wL9UlANB6S4",
+   "title": "如何用AI工具 打造公司黃金教戰手冊",
+   "channel": "夢想探索廣告 Dream Marketing",
+   "duration_seconds": 169,
+   "published_at": "2026-07-03T12:45:31Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/wL9UlANB6S4/mqdefault.jpg",
+   "view_count": 39,
+   "category": "辦公應用",
+   "summary": "本影片教導企業與管理者如何運用 Claude 等 AI 工具快速製作公司的 SOP 標準作業流程與教戰手冊，幫助企業有效傳承經驗並降低重複訓練新人的時間成本。",
+   "tags": [
+    "SOP製作",
+    "Claude AI",
+    "辦公應用",
+    "企業培訓"
+   ]
+  },
+  {
+   "video_id": "IiNYpXB5izA",
+   "title": "用 Claude 自動翻新整個 LinkedIn｜技能 2→24、經歷 1→3｜生活應用 EP01",
+   "channel": "Ai-Wisdom・Claude 學習筆記",
+   "duration_seconds": 335,
+   "published_at": "2026-07-03T11:22:17Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/IiNYpXB5izA/mqdefault.jpg",
+   "view_count": 34,
+   "category": "辦公應用",
+   "summary": "本影片示範如何使用 Claude 控制瀏覽器自動優化 LinkedIn 個人檔案。內容拆解了經歷擴充、關鍵字優化與技能欄說明的實務技巧，並提醒避免誤導與不當通知的注意盲點，協助個人品牌提升。",
+   "tags": [
+    "Claude",
+    "LinkedIn",
+    "履歷優化",
+    "個人品牌"
+   ]
+  },
+  {
+   "video_id": "dOfAx1cSI6w",
+   "title": "別再手動下指令了！Claude Skills 教學讓 Claude Code 自動幫你做完所有事",
+   "channel": "AI實驗室",
+   "duration_seconds": 560,
+   "published_at": "2026-07-03T08:21:43Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/dOfAx1cSI6w/mqdefault.jpg",
+   "view_count": 71,
+   "category": "自動化工作流",
+   "summary": "本影片教學如何運用 Claude Skills 搭配 Claude Code 實現工作自動化，詳細介紹最新 Claude AI 家族產品，並示範 4 個必裝神級技能，擺脫手動下指令的重複作業。",
+   "tags": [
+    "Claude Skills",
+    "Claude Code",
+    "自動化工作流",
+    "AI工具"
+   ]
+  },
+  {
+   "video_id": "Z9z24ueFcWY",
+   "title": "20260628 台科大EMBA Claude新手入門到實務應用(上)",
+   "channel": "ANN CHENG (ANN)",
+   "duration_seconds": 561,
+   "published_at": "2026-07-03T04:58:56Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/Z9z24ueFcWY/mqdefault.jpg",
+   "view_count": 530,
+   "category": "入門觀念",
+   "summary": "本課程影片針對新手介紹 Claude 桌面端與自動化工作流的實務應用。內容涵蓋環境下載安裝、隱私保護與用量規則設定，以及如何跨平台同步記憶角色，打造能幫忙操控電腦的 AI 代理人。",
+   "tags": [
+    "Claude",
+    "新手入門",
+    "AI Agent",
+    "工作流"
+   ]
+  },
+  {
+   "video_id": "pn7VmDl1p3A",
+   "title": "用Claude API打造應用，孩子也懂的學習筆記 (Building with the Claude API — A Kid-Friendly Study Note)",
+   "channel": "Markluce AI",
+   "duration_seconds": 736,
+   "published_at": "2026-07-02T19:13:36Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/pn7VmDl1p3A/mqdefault.jpg",
+   "view_count": 9,
+   "category": "程式開發",
+   "summary": "本影片為 Anthropic 學院「使用 Claude API 打造應用」免費課程的雙語學習筆記。以淺顯易懂的方式逐一解析各個單元重點，引導觀眾掌握 API 開發的核心觀念與應用技巧。",
+   "tags": [
+    "Claude API",
+    "Anthropic",
+    "程式開發",
+    "學習筆記"
+   ]
+  },
+  {
+   "video_id": "qmS1gOHrrLw",
+   "title": "Hermes Agent 從零安裝啟動教學｜OpenZeroCode、Codex、ChatGPT API 實測",
+   "channel": "雅人's life",
+   "duration_seconds": 1239,
+   "published_at": "2026-07-02T16:00:37Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/qmS1gOHrrLw/mqdefault.jpg",
+   "view_count": 62,
+   "category": "程式開發",
+   "summary": "影片示範從零安裝與啟動本機 AI Agent 工具 Hermes Agent。包含 OpenZeroCode 設定、模型配置、Codex 登入以及調用工具執行網路查詢與開發環境操作等實術展示。",
+   "tags": [
+    "Hermes Agent",
+    "AI Agent",
+    "Codex",
+    "程式開發"
+   ]
+  },
+  {
+   "video_id": "eLyrq8sWxUI",
+   "title": "10分鐘帶你掌握 AI 時代的成功關鍵｜ChatGPT 應用｜提升工作效率｜許博輕鬆學",
+   "channel": "許博-輕鬆學",
+   "duration_seconds": 247,
+   "published_at": "2026-07-02T14:47:20Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/eLyrq8sWxUI/mqdefault.jpg",
+   "view_count": 95,
+   "category": "入門觀念",
+   "summary": "本影片由許博士分享 AI 時代的學習關鍵，介紹 AI 如何作為日常生活助手與職場第二秘書。內容涵蓋改善生活健康、運用 ChatGPT 提升職場競爭力，以及 AI 在創業與企業經營中的實用價值。",
+   "tags": [
+    "AI入門",
+    "ChatGPT",
+    "職場效率",
+    "觀念引導"
+   ]
+  },
+  {
+   "video_id": "uXk6JNdcE0A",
+   "title": "Claude Fable 5 终于解封了！第一时间实测，它到底有多强？ 附使用教程！| 零度解说",
+   "channel": "零度解说",
+   "duration_seconds": 567,
+   "published_at": "2026-07-02T12:13:21Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/uXk6JNdcE0A/mqdefault.jpg",
+   "view_count": 85034,
+   "category": "工具教學",
+   "summary": "本影片實測介紹解封後的 Claude Fable 5 大模型，包含註冊流程、帳號啟用與基礎操作演示，帶領觀眾快速了解該模型的功能優勢與實際使用方法。",
+   "tags": [
+    "Claude Fable 5",
+    "AI工具",
+    "帳號註冊",
+    "實測教學"
+   ]
+  },
+  {
    "video_id": "GFE7Qwk58BM",
    "title": "唔好再淨係識得一問一答！免費 AI 教學 2026 必睇！實測最強免費 AI 工作流：資料搜集、文件生成、排版一條龍全自動搞掂 ｜#廣東話 #軟件教學",
    "channel": "Price.com.hk 香港格價網",
@@ -2212,6 +3503,40 @@
    ]
   },
   {
+   "video_id": "Jh4IXQoq6wM",
+   "title": "20260622 創投 Claude新手入門到實務應用3hr",
+   "channel": "ANN CHENG (ANN)",
+   "duration_seconds": 381,
+   "published_at": "2026-07-02T09:44:47Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/Jh4IXQoq6wM/mqdefault.jpg",
+   "view_count": 94,
+   "category": "工具教學",
+   "summary": "這是一堂三小時的 Claude 實戰教學影片，從零開始講解 Chat、Cowork 與 Code 三大核心引擎的應用場景。手把手示範如何設定記憶與人設，並運用 AI 自動化操作電腦與整理檔案。",
+   "tags": [
+    "Claude",
+    "Cowork",
+    "Claude Code",
+    "AI自動化"
+   ]
+  },
+  {
+   "video_id": "Y-O-jwXD48Q",
+   "title": "Claude Desktop 完整教學 下載 × 安裝 × 訂閱",
+   "channel": "ANN CHENG (ANN)",
+   "duration_seconds": 481,
+   "published_at": "2026-07-02T09:26:39Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/Y-O-jwXD48Q/mqdefault.jpg",
+   "view_count": 154,
+   "category": "工具教學",
+   "summary": "本影片專為新手打造，詳細說明 Claude Desktop 桌機版的下載、安裝、訂閱方案選擇與隱私設定，並示範跨 AI 記憶移植技巧，為自動化桌面操作打下基礎。",
+   "tags": [
+    "Claude Desktop",
+    "工具教學",
+    "新手入門",
+    "軟體安裝"
+   ]
+  },
+  {
    "video_id": "SPJFsXj53yQ",
    "title": "Grok 3 完全新手操作指南：掌握 2026 最強 AI 即時情報神器！ #Grok3 #AI教學 #行政減量",
    "channel": "阿卿的藝想空間",
@@ -2226,6 +3551,40 @@
     "AI工具",
     "即時情報",
     "教學"
+   ]
+  },
+  {
+   "video_id": "dZUJdf3igFM",
+   "title": "ChatGPT訂閱戶看過來：Codex隱藏功能，在任何應用程式使用語音輸入！",
+   "channel": "龍龍AI實戰學院",
+   "duration_seconds": 158,
+   "published_at": "2026-07-01T13:29:14Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/dZUJdf3igFM/mqdefault.jpg",
+   "view_count": 188,
+   "category": "工具教學",
+   "summary": "本影片針對 ChatGPT 訂閱用戶，示範如何解鎖 Codex 的隱藏語音輸入功能。透過實作教學，讓使用者能在電腦各應用程式中直接進行 AI 語音輸入，大幅提升文字寫作與溝通效率。",
+   "tags": [
+    "ChatGPT",
+    "Codex",
+    "語音輸入",
+    "工具教學"
+   ]
+  },
+  {
+   "video_id": "SEAgrNItCyY",
+   "title": "打造專屬AI管家：Claude Code與Codex 零基礎完整教學 | AI實驗室",
+   "channel": "AI實驗室",
+   "duration_seconds": 695,
+   "published_at": "2026-07-01T12:52:19Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/SEAgrNItCyY/mqdefault.jpg",
+   "view_count": 97,
+   "category": "入門觀念",
+   "summary": "本影片為零基礎打造專屬 AI 管家的完整教學，示範 Claude Code 與 Codex 桌面版軟體的環境配置與比較，教你如何建置個人化 AI 助理以大幅提升工作效率。",
+   "tags": [
+    "Claude Code",
+    "Codex",
+    "AI管家",
+    "入門教學"
    ]
   },
   {
@@ -2263,6 +3622,23 @@
    ]
   },
   {
+   "video_id": "E__UKK-FcGs",
+   "title": "AI短剧制作教程：让AI当导演，自动做短剧 | 适合自媒体创作者 | AI短视频制作全流程演示",
+   "channel": "Windy有风",
+   "duration_seconds": 569,
+   "published_at": "2026-07-01T09:26:35Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/E__UKK-FcGs/mqdefault.jpg",
+   "view_count": 5142,
+   "category": "AI 影像與影片生成",
+   "summary": "本影片為自媒體創作者展示 AI 短劇製作的全流程，介紹如何利用 Openart 等 AI 工具自動生成腳本、角色與短影音，示範讓 AI 擔任導演快速產出短劇內容。",
+   "tags": [
+    "AI短劇",
+    "AI影片生成",
+    "Openart",
+    "自媒體創作"
+   ]
+  },
+  {
    "video_id": "DPHor8MX5SE",
    "title": "【提示詞不用重打了！「問問Gemini」Skill教學：摘要、圖卡、簡報一鍵搞定】",
    "channel": "營建科技促進協會台灣",
@@ -2277,6 +3653,40 @@
     "提示詞",
     "辦公應用",
     "AI工具"
+   ]
+  },
+  {
+   "video_id": "MbzDDFfCrks",
+   "title": "【AI教學】ChatGPT Codex 專案是什麼？怎麼用？Codex 專案、聊天視窗、工作區差在哪？教學",
+   "channel": "科技兔",
+   "duration_seconds": 291,
+   "published_at": "2026-07-01T06:47:46Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/MbzDDFfCrks/mqdefault.jpg",
+   "view_count": 184,
+   "category": "工具教學",
+   "summary": "本影片深入解析 ChatGPT Codex 專案功能，比較 Codex 專案、一般聊天視窗與工作區的差異與應用場景。引導觀眾建立正確的工作區管理習慣，以便更精準地指揮 AI 協助處理複雜工作。",
+   "tags": [
+    "ChatGPT",
+    "Codex",
+    "專案管理",
+    "AI教學"
+   ]
+  },
+  {
+   "video_id": "iHV_l8gxvV8",
+   "title": "【Claude Code教學】別再冒險用VPN怕被封號！免官方帳號、低成本解鎖AI寫Code神器的完整方法",
+   "channel": "DMP深度學習",
+   "duration_seconds": 642,
+   "published_at": "2026-06-30T16:00:14Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/iHV_l8gxvV8/mqdefault.jpg",
+   "view_count": 2748,
+   "category": "程式開發",
+   "summary": "本影片教學如何利用 CC Switch 工具免官方帳號接入 Claude Code，評比多款平民替代模型的寫程式表現與價格，並介紹前端設計神級 Skills 讓寫網頁更高效。",
+   "tags": [
+    "Claude Code",
+    "CC Switch",
+    "程式開發",
+    "AI寫程式"
    ]
   },
   {
@@ -2365,6 +3775,40 @@
    ]
   },
   {
+   "video_id": "DcREVW6B2rU",
+   "title": "99%的人不知道：Claude AI 比 ChatGPT 強在哪裡？免費就能用！",
+   "channel": "AI實驗室",
+   "duration_seconds": 795,
+   "published_at": "2026-06-29T13:36:33Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/DcREVW6B2rU/mqdefault.jpg",
+   "view_count": 104,
+   "category": "入門觀念",
+   "summary": "本影片為 Claude AI 的入門指南，比較其與 ChatGPT 的差異，並提供台灣免 VPN 免費註冊教學與 3 個實務應用示範，分享 5 個精準 Prompt 技巧助新手快速上手。",
+   "tags": [
+    "Claude AI",
+    "入門觀念",
+    "註冊教學",
+    "Prompt技巧"
+   ]
+  },
+  {
+   "video_id": "pXfb0U-ZWRY",
+   "title": "20260627【臺北醫學大學附設醫院教學部】用Claude Cowork打造高效教學流程",
+   "channel": "燕秋老師教學頻道",
+   "duration_seconds": 9381,
+   "published_at": "2026-06-29T11:40:05Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/pXfb0U-ZWRY/mqdefault.jpg",
+   "view_count": 8450,
+   "category": "辦公應用",
+   "summary": "本影片分享如何運用 Claude Cowork 協助醫療教學單位打造高效教學流程，說明 AI 在教學設計與行政備課中的具體應用，提升教育工作者的教學與備課效率。",
+   "tags": [
+    "Claude Cowork",
+    "辦公應用",
+    "教學流程",
+    "備課自動化"
+   ]
+  },
+  {
    "video_id": "tRRAkZh7avI",
    "title": "Seedance 2.0 mini 創意玩法教學 -  舞蹈 / 變裝 / 限制級/卡通短片一鍵生成，4K超清輸出，一站式內容創作",
    "channel": "小薇官方频道",
@@ -2382,6 +3826,91 @@
    ]
   },
   {
+   "video_id": "jixGDBir2TA",
+   "title": "怎麼用 AI 工具 Vibe Coding 開發與上架 APP？我的踩坑經驗與心得分享",
+   "channel": "電腦王阿達",
+   "duration_seconds": 1366,
+   "published_at": "2026-06-29T10:13:48Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/jixGDBir2TA/mqdefault.jpg",
+   "view_count": 18628,
+   "category": "程式開發",
+   "summary": "本影片分享作者使用 Cursor 與 Claude Code 等 AI 工具進行 Vibe Coding 協作開發 APP 的實戰經驗，詳細拆解開發流程、程式撰寫邊界與上架技巧。",
+   "tags": [
+    "Vibe Coding",
+    "程式開發",
+    "Cursor",
+    "APP開發"
+   ]
+  },
+  {
+   "video_id": "5adiEqGFKFE",
+   "title": "Claude AI股票分析工具教学：AI一键分析美股、财报、新闻和投资逻辑",
+   "channel": "BitGuy小比 - AI投资交易教学+美股期货、比特币等加密货币技术教程",
+   "duration_seconds": 1200,
+   "published_at": "2026-06-29T06:13:18Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/5adiEqGFKFE/mqdefault.jpg",
+   "view_count": 1072,
+   "category": "辦公應用",
+   "summary": "本影片教學如何運用 Claude AI 進行美股與財報分析，示範透過 AI 快速解讀新聞資訊、財務數據與建立投資邏輯，協助使用者善用 AI 工具進行數據分析。",
+   "tags": [
+    "Claude AI",
+    "股票分析",
+    "辦公應用",
+    "財報分析"
+   ]
+  },
+  {
+   "video_id": "L4_0psVL2yk",
+   "title": "不報課也能學會AI：最通俗易懂的AI實戰入門教程丨AI Agent丨Codex丨ChatGPT丨ClaudeCode丨教程",
+   "channel": "柱子哥TzFilm",
+   "duration_seconds": 408,
+   "published_at": "2026-06-29T04:00:20Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/L4_0psVL2yk/mqdefault.jpg",
+   "view_count": 30,
+   "category": "入門觀念",
+   "summary": "影片為通俗易懂的 AI 實戰入門教學，從零講透 AI Agent 與大語言模型的運作方式。協助初學者不需付費報課即可掌握 ChatGPT、Codex 與 ClaudeCode 等工具的核心用法。",
+   "tags": [
+    "AI實戰",
+    "AI Agent",
+    "入門教學",
+    "ChatGPT"
+   ]
+  },
+  {
+   "video_id": "3Dfp8PdPw5o",
+   "title": "長輩都要會的AI應用，用ChatGPT+ Gemini 讓生活更方便｜完整保姆級教學",
+   "channel": "大有牧森 Austin Chou",
+   "duration_seconds": 1126,
+   "published_at": "2026-06-28T13:00:09Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/3Dfp8PdPw5o/mqdefault.jpg",
+   "view_count": 217143,
+   "category": "工具教學",
+   "summary": "本影片提供保姆級教學，示範如何帶領長輩運用 ChatGPT、Gemini 與 DopiNote 等 AI 工具解決日常生活不便。內容涵蓋看診紀錄摘要、語言協助與日常諮詢設定，讓 AI 成為生活便利助手。",
+   "tags": [
+    "ChatGPT",
+    "Gemini",
+    "生活應用",
+    "長輩教學"
+   ]
+  },
+  {
+   "video_id": "hu32LuezqVA",
+   "title": "5 個 AI 實測：哪個最可信，哪個最容易讓你信錯【AI信任挑戰-日常篇 EP1】｜彼得森",
+   "channel": "彼得森",
+   "duration_seconds": 1052,
+   "published_at": "2026-06-28T11:30:12Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/hu32LuezqVA/mqdefault.jpg",
+   "view_count": 247901,
+   "category": "工具教學",
+   "summary": "本影片實測評比 ChatGPT、Gemini、Claude、Siri AI 與 Grok 等 5 款主流 AI 工具，針對日常生活中常見的使用情境進行信任度測試，分析各款工具的優缺點與可能出錯的情形。",
+   "tags": [
+    "AI實測",
+    "ChatGPT",
+    "Gemini",
+    "Claude"
+   ]
+  },
+  {
    "video_id": "sthNBn-pP88",
    "title": "别再只用 ChatGPT 了！腾讯这款 AI 办公搭子，真的替你干活",
    "channel": "Mazouri",
@@ -2396,6 +3925,57 @@
     "辦公應用",
     "AI工具",
     "效率提升"
+   ]
+  },
+  {
+   "video_id": "YBi7MCVxUTw",
+   "title": "GPT-5.6 Sol、Terra、Luna 是什麼？OpenAI 為什麼開始同時推三種模型，對一般人選免費或付費 AI 有什麼影響（2026）",
+   "channel": "AI Day",
+   "duration_seconds": 494,
+   "published_at": "2026-06-28T06:31:50Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/YBi7MCVxUTw/mqdefault.jpg",
+   "view_count": 224,
+   "category": "入門觀念",
+   "summary": "本影片深入解析 OpenAI GPT-5.6 Sol、Terra 與 Luna 等模型的差異與特色，說明多模型策略對使用者的影響，幫助大眾建立觀念並選擇適合的 AI 模型。",
+   "tags": [
+    "GPT-5.6",
+    "OpenAI",
+    "入門觀念",
+    "模型比較"
+   ]
+  },
+  {
+   "video_id": "M1ko4rL0Rdc",
+   "title": "ChatGPT 語音輸入升級了：免費版每天也能用更自然的語音聊天，現在能不能取代手機聽打 App？（2026）",
+   "channel": "AI Day",
+   "duration_seconds": 450,
+   "published_at": "2026-06-28T06:31:14Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/M1ko4rL0Rdc/mqdefault.jpg",
+   "view_count": 98,
+   "category": "辦公應用",
+   "summary": "本影片詳細解析 ChatGPT 免費版語音輸入的升級功能，介紹如何利用更自然的 AI 語音進行對話與紀錄，並評估其是否能取代傳統手機聽打 App，協助使用者提升日常生活與工作效率。",
+   "tags": [
+    "ChatGPT",
+    "語音輸入",
+    "辦公應用",
+    "免費工具"
+   ]
+  },
+  {
+   "video_id": "Ws64ikbn3qA",
+   "title": "【AI教學】ChatGPT Codex Skills 是什麼？怎麼用？把固定工作流程SOP打包成Skill 技能",
+   "channel": "科技兔",
+   "duration_seconds": 470,
+   "published_at": "2026-06-28T04:12:16Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/Ws64ikbn3qA/mqdefault.jpg",
+   "view_count": 1685,
+   "category": "自動化工作流",
+   "summary": "這部影片專門介紹 ChatGPT Codex 中的 Skills 功能，手把手教導如何將日常固定的 SOP 工作流程打包成可重複使用的技能模組。透過自動化指令配置，協助使用者簡化重複性工作並提高效率。",
+   "tags": [
+    "ChatGPT",
+    "Codex Skills",
+    "SOP自動化",
+    "自動化工作流"
    ]
   },
   {
@@ -2433,6 +4013,74 @@
    ]
   },
   {
+   "video_id": "w0i9wklw_ng",
+   "title": "Claude Cowork + NotebookLM 自動化工作流: 效率提升10倍",
+   "channel": "李厂长来了",
+   "duration_seconds": 681,
+   "published_at": "2026-06-27T10:00:14Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/w0i9wklw_ng/mqdefault.jpg",
+   "view_count": 17615,
+   "category": "自動化工作流",
+   "summary": "本影片手把手教學如何整合 Claude Cowork 的自動化機制與 NotebookLM 的資料整理能力。影片展示連接步驟，並示範自動整理文件、生成資訊圖、簡報及報告的實務工作流。",
+   "tags": [
+    "Claude Cowork",
+    "NotebookLM",
+    "自動化工作流",
+    "AI應用"
+   ]
+  },
+  {
+   "video_id": "AZA8OYGlEnE",
+   "title": "Codex 保姆級完整教學：從 0 到 1 打造 AI 內容創作系統，選題、腳本、貼文一次跑完！",
+   "channel": "傑少 JAY",
+   "duration_seconds": 3617,
+   "published_at": "2026-06-27T09:00:14Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/AZA8OYGlEnE/mqdefault.jpg",
+   "view_count": 82993,
+   "category": "自動化工作流",
+   "summary": "本教學帶領使用者從零建立 Codex 的 AI 內容創作系統。內容涵蓋 AI agent 與聊天機器人的差異、核心功能解說、安裝與介面導覽，並示範結合外掛串接完成創作流程。",
+   "tags": [
+    "Codex",
+    "AI Agent",
+    "內容創作",
+    "自動化工作流"
+   ]
+  },
+  {
+   "video_id": "yCHKf422m38",
+   "title": "AI Agent入門教學(+實戰) | Agent如何自我學習？與ChatGPT有何分別？Cursor手把手實戰",
+   "channel": "Tim W • AI實驗室",
+   "duration_seconds": 1219,
+   "published_at": "2026-06-27T03:10:22Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/yCHKf422m38/mqdefault.jpg",
+   "view_count": 21,
+   "category": "程式開發",
+   "summary": "本影片介紹 AI Agent 的核心觀念與自我學習機制，並釐清其與 ChatGPT 的差異。影片透過 Cursor 工具進行手把手實戰教學，帶領觀眾從零開始打造會自我學習的社群媒體助手。",
+   "tags": [
+    "AI Agent",
+    "Cursor",
+    "教學",
+    "實戰"
+   ]
+  },
+  {
+   "video_id": "jtN6y2fGms4",
+   "title": "WorkBuddy AI 工具教學 | 從由零開始安裝及登入",
+   "channel": "環球創業教學-建立創業絕對優勢",
+   "duration_seconds": 241,
+   "published_at": "2026-06-27T01:43:09Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/jtN6y2fGms4/mqdefault.jpg",
+   "view_count": 194,
+   "category": "工具教學",
+   "summary": "本影片為 WorkBuddy AI 工具的基礎入門教學，手把手帶領使用者從零開始完成軟體的安裝與登入流程，適合初學者學習並迅速建立 AI 工具的使用環境。",
+   "tags": [
+    "WorkBuddy",
+    "AI工具",
+    "工具教學",
+    "新手教學"
+   ]
+  },
+  {
    "video_id": "YeZi_nkku7Q",
    "title": "15 改為將正規化結果還原資料提示詞",
    "channel": "吳老師EXCEL VBA設計(大數據自動化)教學",
@@ -2467,6 +4115,23 @@
    ]
   },
   {
+   "video_id": "3s6kDz5EaCs",
+   "title": "Claude Code 居然內建隱藏課程？/powerup 解鎖 10 個實用功能",
+   "channel": "JUGG 聊敏捷",
+   "duration_seconds": 1120,
+   "published_at": "2026-06-26T12:16:10Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/3s6kDz5EaCs/mqdefault.jpg",
+   "view_count": 1132,
+   "category": "程式開發",
+   "summary": "本影片介紹 Claude Code 的隱藏指令 /powerup，透過互動式小課程解鎖 10 個實用功能。內容包含實作示範檔案精準讀取、權限控制與安全復原等進階操作技巧。",
+   "tags": [
+    "Claude Code",
+    "程式開發",
+    "指令教學",
+    "/powerup"
+   ]
+  },
+  {
    "video_id": "UCr7yBA6evI",
    "title": "【完整教學】Grok Imagine AI 影片生成器｜30 秒影片＋無限延伸＋n8n 自動化工作流",
    "channel": "傑克自動化AI教學",
@@ -2481,6 +4146,40 @@
     "n8n",
     "AI影片生成",
     "自動化工作流"
+   ]
+  },
+  {
+   "video_id": "rT4IsvDo-Ag",
+   "title": "ChatGPT 現在會自己工作了！「任務排程」超好用，整理 Google 雲端資料、定時提醒、追蹤網站，一次看懂！【欸那個AJ】",
+   "channel": "欸那個AJ",
+   "duration_seconds": 710,
+   "published_at": "2026-06-26T11:00:25Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/rT4IsvDo-Ag/mqdefault.jpg",
+   "view_count": 87942,
+   "category": "自動化工作流",
+   "summary": "本影片介紹 ChatGPT 的「任務排程」新功能，示範如何設定自動化流程，讓 AI 在固定時間幫忙追蹤網站更新、整理 Google 雲端資料與行事曆，實現日常工作的 AI 自動化。",
+   "tags": [
+    "ChatGPT",
+    "任務排程",
+    "自動化",
+    "工作流"
+   ]
+  },
+  {
+   "video_id": "ZixwUG7XQ1s",
+   "title": "【Claude＋DataForSEO 實戰應用】從 SEO 關鍵字、競品分析、AI 網站健檢，一次自動搞定（含 Prompt 指令贈送）",
+   "channel": "犬哥網站",
+   "duration_seconds": 610,
+   "published_at": "2026-06-25T12:00:24Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/ZixwUG7XQ1s/mqdefault.jpg",
+   "view_count": 710,
+   "category": "自動化工作流",
+   "summary": "本影片展示如何結合 Claude 與 DataForSEO MCP 進行自動化 SEO 分析。教學包含 Prompt 指令運用、關鍵字挖掘、競品分析與 AI 網站健康檢查，帶領觀眾一次搞定網站優化流程。",
+   "tags": [
+    "Claude",
+    "DataForSEO",
+    "SEO分析",
+    "MCP"
    ]
   },
   {
@@ -2518,6 +4217,40 @@
    ]
   },
   {
+   "video_id": "6cI15TNRSH8",
+   "title": "為什麼「SKILL」功能才是 AI 的未來？比較  SKILL 與 Gemini Gem 的分別",
+   "channel": "阿石OMP",
+   "duration_seconds": 452,
+   "published_at": "2026-06-24T14:55:27Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/6cI15TNRSH8/mqdefault.jpg",
+   "view_count": 5212,
+   "category": "入門觀念",
+   "summary": "本影片對比 Agent SKILL 與 Gemini Gem 功能的差異與特色，剖析 SKILL 在預設 Prompt 及流程自動化上的優勢，協助使用者理解 AI Agent 的最新技術觀念。",
+   "tags": [
+    "Agent SKILL",
+    "Gemini Gem",
+    "入門觀念",
+    "AI Agent"
+   ]
+  },
+  {
+   "video_id": "edTpyO1UWb0",
+   "title": "【保姆級教程】如何用 Claude Projects 提升工作效率？三大核心功能你要知 | 使用場景實例助你提高生產力",
+   "channel": "H先生AI教室",
+   "duration_seconds": 771,
+   "published_at": "2026-06-24T13:00:26Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/edTpyO1UWb0/mqdefault.jpg",
+   "view_count": 284,
+   "category": "辦公應用",
+   "summary": "本教程詳細講解如何運用 Claude Projects 建立專屬工作模板與設定永久指令。透過示範三大核心功能與實際辦公場景，幫助使用者減少重複溝通，大幅提升工作效率。",
+   "tags": [
+    "Claude Projects",
+    "辦公應用",
+    "生產力",
+    "AI教學"
+   ]
+  },
+  {
    "video_id": "P4Yf3TVze54",
    "title": "[ 享玩AI ]AI 廣告影片現在已經進化成這樣了？只靠一張圖就能做出有鏡頭感的短廣告，ChatGPT 分鏡圖搭配 Seedance 2.0，成品超有感",
    "channel": "享知Cultiwise",
@@ -2549,6 +4282,40 @@
     "Wait節點",
     "自動化工作流",
     "郵件自動化"
+   ]
+  },
+  {
+   "video_id": "ZQh6nz5qhpg",
+   "title": "AI自动交易实战教程：Claude Code 连接 TradingView，AI自动选股、策略回测、手机提醒完整教程",
+   "channel": "BitGuy小比 - AI投资交易教学+美股期货、比特币等加密货币技术教程",
+   "duration_seconds": 1980,
+   "published_at": "2026-06-24T03:11:29Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/ZQh6nz5qhpg/mqdefault.jpg",
+   "view_count": 2038,
+   "category": "程式開發",
+   "summary": "本影片示範利用 Claude Code 連接 TradingView 打造 AI 自動化交易系統。教學涵蓋自動選股腳本撰寫、策略回測設定與手機提醒串接，實現自動化投資流程。",
+   "tags": [
+    "Claude Code",
+    "TradingView",
+    "程式開發",
+    "自動交易"
+   ]
+  },
+  {
+   "video_id": "iDLsXRT7GFE",
+   "title": "Claude API 實戰攻略 EP4｜讓AI自己呼叫工具辦事｜Anthropic官方課程｜重點濃縮中文版｜Building with the Claude API",
+   "channel": "Jerry Chen | Claude + IG 流量實驗室",
+   "duration_seconds": 1281,
+   "published_at": "2026-06-24T01:00:09Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/iDLsXRT7GFE/mqdefault.jpg",
+   "view_count": 84,
+   "category": "程式開發",
+   "summary": "本影片為 Anthropic 官方 API 課程精華教學，解說 Tool Use 運作流程。教導如何撰寫 Tool Schema，並運用迴圈機制讓 Claude 自動呼叫外部工具處理任務。",
+   "tags": [
+    "Claude API",
+    "Tool Use",
+    "程式開發",
+    "Anthropic"
    ]
   },
   {
@@ -2586,6 +4353,74 @@
    ]
   },
   {
+   "video_id": "6FmieOcsPp4",
+   "title": "Gemini + NotebookLM 強強聯手！最強AI組合技！新功能教學全攻略｜大碩有講過-你的好幫手",
+   "channel": "大碩研究所-迷途大學生指南",
+   "duration_seconds": 413,
+   "published_at": "2026-06-23T09:30:06Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/6FmieOcsPp4/mqdefault.jpg",
+   "view_count": 994,
+   "category": "辦公應用",
+   "summary": "本影片詳細教學 Gemini 與 NotebookLM 的整合技巧，涵蓋跨筆記整理、專家訂製、圖片與簡報修改等功能實作，幫助使用者打造高效的 AI 學習與工作筆記流程。",
+   "tags": [
+    "Gemini",
+    "NotebookLM",
+    "辦公應用",
+    "簡報製作"
+   ]
+  },
+  {
+   "video_id": "RK_PNicBbmk",
+   "title": "一句話做出 AI 短劇?!  現在連角色、場景、道具、分集劇情，全流程都幫你搭好‼️｜Topview AI 教程",
+   "channel": "小發學姐",
+   "duration_seconds": 1932,
+   "published_at": "2026-06-22T11:30:34Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/RK_PNicBbmk/mqdefault.jpg",
+   "view_count": 45322,
+   "category": "AI 影像與影片生成",
+   "summary": "本影片為 Topview AI 的操作教學，示範如何僅憑一句話即可自動完成 AI 短劇的角色、場景、道具與分集劇情搭建，協助創作者快速建立自動化短劇生成流程。",
+   "tags": [
+    "Topview AI",
+    "AI短劇",
+    "AI影片生成",
+    "劇本生成"
+   ]
+  },
+  {
+   "video_id": "QGt2W0YGG9w",
+   "title": "Claude 入門教學｜會議記錄 3 分鐘、英文 Email 2 分鐘、報告分析 5 分鐘｜附上Connector & Projects 設定",
+   "channel": "Johnny Lee",
+   "duration_seconds": 899,
+   "published_at": "2026-06-22T03:08:38Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/QGt2W0YGG9w/mqdefault.jpg",
+   "view_count": 202,
+   "category": "辦公應用",
+   "summary": "本影片為 Claude 辦公實用入門教學，針對初學者示範三大場景。包含快速整理會議記錄、撰寫英文信件初稿與分析報告，並教導設定 Connector 與 Projects 永久背景設定。",
+   "tags": [
+    "Claude",
+    "辦公應用",
+    "入門教學",
+    "生產力"
+   ]
+  },
+  {
+   "video_id": "sDGhcO3fx4w",
+   "title": "【2026 ChatGPT 完全新手操作指南】從註冊到寫出第一份好企劃 #ChatGPT #AI教學 #行政減量",
+   "channel": "阿卿的藝想空間",
+   "duration_seconds": 488,
+   "published_at": "2026-06-20T23:00:14Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/sDGhcO3fx4w/mqdefault.jpg",
+   "view_count": 70,
+   "category": "辦公應用",
+   "summary": "本影片為 ChatGPT 新手操作指南，從基礎帳號註冊講起，教導觀眾如何透過精準提問（Prompt）與外掛操作，將 ChatGPT 應用於企劃撰寫與行政文書處理，大幅提升辦公效率。",
+   "tags": [
+    "ChatGPT",
+    "新手指南",
+    "企劃撰寫",
+    "辦公應用"
+   ]
+  },
+  {
    "video_id": "-rfDxF3dx2s",
    "title": "我用 Codex 做了一个 AI 邮箱助理：自动巡检多邮箱、总结重点、提醒回复",
    "channel": "Codex 办公自动化",
@@ -2600,6 +4435,57 @@
     "自動化工作流",
     "郵箱管理",
     "AI助理"
+   ]
+  },
+  {
+   "video_id": "HSDyr8bmuOI",
+   "title": "Claude Cowork vs Codex: 誰才是更好的AI工作助手？",
+   "channel": "李厂长来了",
+   "duration_seconds": 1006,
+   "published_at": "2026-06-20T03:00:35Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/HSDyr8bmuOI/mqdefault.jpg",
+   "view_count": 67784,
+   "category": "工具教學",
+   "summary": "本影片實測評比 Claude Cowork 與 Codex 兩款 AI 工作代理。從功能、價格、外掛、任務自動化到文件與圖片生成進行深度比較，並分析各種職場情境下的最佳選擇。",
+   "tags": [
+    "Claude Cowork",
+    "Codex",
+    "AI Agent",
+    "工具教學"
+   ]
+  },
+  {
+   "video_id": "YCfohs75wZc",
+   "title": "Claude Code Mac 国内使用教程，新手入门教学，用cc switch对接qwen3/deepseek v4模型，mac vscode安装 | claude code macos安装技巧",
+   "channel": "科技分享",
+   "duration_seconds": 1028,
+   "published_at": "2026-06-19T12:00:17Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/YCfohs75wZc/mqdefault.jpg",
+   "view_count": 1333,
+   "category": "工具教學",
+   "summary": "本教學專為 Mac 用戶設計，手把手示範安裝 Claude Code 與 VS Code。並教導運用 CC Switch 工具串接 DeepSeek 與 Qwen 模型，解答環境設定流程。",
+   "tags": [
+    "Claude Code",
+    "Mac",
+    "DeepSeek",
+    "工具教學"
+   ]
+  },
+  {
+   "video_id": "kjznvcziJTY",
+   "title": "Claude Code桌面版小白零基础教程 ｜ Claude Code Desktop from A to Z",
+   "channel": "马儿AI漫游",
+   "duration_seconds": 988,
+   "published_at": "2026-06-18T16:47:40Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/kjznvcziJTY/mqdefault.jpg",
+   "view_count": 747,
+   "category": "程式開發",
+   "summary": "本教學針對零基礎新手，完整介紹 Claude Code 桌面版介面與操作。透過實作二維碼網站案例，示範讓 AI 制定開發計畫、生成網頁程式碼、調整樣式與測試。",
+   "tags": [
+    "Claude Code",
+    "桌面版",
+    "程式開發",
+    "網頁開發"
    ]
   },
   {
@@ -2620,6 +4506,40 @@
    ]
   },
   {
+   "video_id": "0OBdAvs_UqE",
+   "title": "AI 動畫怎麼做？ChatGPT 5 分鐘產出完整分鏡",
+   "channel": "Beezi AI note",
+   "duration_seconds": 306,
+   "published_at": "2026-06-18T11:15:21Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/0OBdAvs_UqE/mqdefault.jpg",
+   "view_count": 474,
+   "category": "AI 影像與影片生成",
+   "summary": "本影片分享利用 ChatGPT 快速製作 AI 動畫分鏡腳本（Storyboard）的工作流，示範如何規劃鏡頭、故事節奏與鏡頭參數，並產出關鍵影格提示詞，作為 AI 動畫製作的前期基礎。",
+   "tags": [
+    "ChatGPT",
+    "AI動畫",
+    "分鏡腳本",
+    "提示詞"
+   ]
+  },
+  {
+   "video_id": "OGFlPyJgSqQ",
+   "title": "ChatGPT自動化教學：每日自動整理最新新聞、特價資訊，資訊不漏接！",
+   "channel": "Ctrl+Alt+AI 台灣",
+   "duration_seconds": 133,
+   "published_at": "2026-06-18T11:00:12Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/OGFlPyJgSqQ/mqdefault.jpg",
+   "view_count": 22,
+   "category": "自動化工作流",
+   "summary": "本影片介紹如何運用 ChatGPT 設定自動化資訊整理流程，教導觀眾設定每日定時抓取並摘要最新新聞、商品特價與新產品資訊，輕鬆建立專屬的自動化資訊追蹤系統。",
+   "tags": [
+    "ChatGPT",
+    "自動化",
+    "資訊整理",
+    "教學"
+   ]
+  },
+  {
    "video_id": "e-9zHHzGM3k",
    "title": "別再亂裝Skills了！我試用了100多個，真正離不開的只有這10個！免費、0門檻、不用寫程式，充分發揮Codex和Claude全部潛能的終極指南，看完直接領先99%的人！",
    "channel": "孔老師AI研習社",
@@ -2634,6 +4554,39 @@
     "Codex",
     "AI Skills",
     "工具教學"
+   ]
+  },
+  {
+   "video_id": "5gJuR7TEWOc",
+   "title": "免费工具合集！700+ AI 工具一站式使用 | AI Free Forever完整教程",
+   "channel": "搞机零距离",
+   "duration_seconds": 574,
+   "published_at": "2026-06-18T04:28:29Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/5gJuR7TEWOc/mqdefault.jpg",
+   "view_count": 2525,
+   "category": "工具教學",
+   "summary": "本影片介紹 AI Free Forever 平台，教導使用者如何免費存取與操作超過 700 種 AI 工具。影片提供完整教學，協助使用者快速活用各類免費 AI 資源。",
+   "tags": [
+    "AI工具",
+    "免費資源",
+    "工具教學"
+   ]
+  },
+  {
+   "video_id": "xmhpHovsO8w",
+   "title": "2026 最強 AI 影片代理人！Flova AI 只要輸入一句話，劇本、配音、剪輯全自動完成？連新手都能上手的電影級動畫工具！整合 20+ 頂級模型🔥Seedance 2.0+GPT image2",
+   "channel": "Tracy AI小妹",
+   "duration_seconds": 603,
+   "published_at": "2026-06-18T01:45:06Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/xmhpHovsO8w/mqdefault.jpg",
+   "view_count": 3032,
+   "category": "AI 影像與影片生成",
+   "summary": "本影片介紹 Flova AI 影片代理人工具，展示其如何串接 20 多種 AI 模型。只要輸入一句話即可自動完成劇本、配音、畫面繪製與剪輯，帶領新手產出電影級動畫。",
+   "tags": [
+    "Flova AI",
+    "AI影片生成",
+    "AI Agent",
+    "影音創作"
    ]
   },
   {
@@ -2654,6 +4607,40 @@
    ]
   },
   {
+   "video_id": "9M8TtoJKUC0",
+   "title": "【香港創業者必備】5 分鐘無痛上線專業網站：Readdy AI 全能網站製作教學及實測 ｜ 超簡易AI網站製作工具 #香港ai #網站AI #ai工具 #AI創業 #廣東話 #ReaddyAI",
+   "channel": "我想用Ai賺錢",
+   "duration_seconds": 728,
+   "published_at": "2026-06-17T12:00:09Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/9M8TtoJKUC0/mqdefault.jpg",
+   "view_count": 653,
+   "category": "程式開發",
+   "summary": "本影片以廣東話示範如何使用 Readdy AI 全能網站建置工具，在 5 分鐘內快速架設專業網站。影片包含實測與操作教學，適合創作者與創業者無痛進行網站開發。",
+   "tags": [
+    "Readdy AI",
+    "網站製作",
+    "程式開發",
+    "AI建站"
+   ]
+  },
+  {
+   "video_id": "0AoejTPI3EQ",
+   "title": "[ 享玩AI ] Google 最新 Omni 值不值得玩？不只 Gemini 能直接做影片，Google Flow 更新後連角色功能都一起補上了",
+   "channel": "享知Cultiwise",
+   "duration_seconds": 591,
+   "published_at": "2026-06-17T11:30:06Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/0AoejTPI3EQ/mqdefault.jpg",
+   "view_count": 10838,
+   "category": "AI 影像與影片生成",
+   "summary": "本影片實測 Google 最新 Omni 影片生成模型，教導使用者如何在 Gemini 與 Flow 平台中操作影片生成功能，並解析最新角色設定與修圖功能實作。",
+   "tags": [
+    "Google Omni",
+    "Google Flow",
+    "AI影片生成",
+    "Gemini"
+   ]
+  },
+  {
    "video_id": "MGWX3jE0wQo",
    "title": "【AI工作流】別再手動複製貼上！n8n教學：掌握Loop迴圈技巧，高效處理群發訊息",
    "channel": "新北市政府青年局",
@@ -2668,6 +4655,40 @@
     "Loop迴圈",
     "自動化工作流",
     "批次處理"
+   ]
+  },
+  {
+   "video_id": "_cDDG2EMJZw",
+   "title": "【AI教學】ChatGPT Codex 的 AGENTS.md 檔案是什麼？怎麼用？讓 Codex 永久記住專案規則",
+   "channel": "科技兔",
+   "duration_seconds": 382,
+   "published_at": "2026-06-15T05:43:25Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/_cDDG2EMJZw/mqdefault.jpg",
+   "view_count": 704,
+   "category": "程式開發",
+   "summary": "本影片介紹 ChatGPT Codex 中「AGENTS.md」檔案的作用與使用方法，講解如何透過設定該檔案讓 Codex 永久記住專案規則與習慣，提升 AI 輔助開發時的精準度與效率。",
+   "tags": [
+    "ChatGPT",
+    "Codex",
+    "AGENTS.md",
+    "程式開發"
+   ]
+  },
+  {
+   "video_id": "0Wa4JgM9xFY",
+   "title": "用NotebookLM深度學習，培養新技能｜Claude + Notion 學習儀表板、Gemini、Speak 英語AI",
+   "channel": "大有牧森 Austin Chou",
+   "duration_seconds": 892,
+   "published_at": "2026-06-14T13:00:27Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/0Wa4JgM9xFY/mqdefault.jpg",
+   "view_count": 15188,
+   "category": "自動化工作流",
+   "summary": "本影片展示如何結合 NotebookLM、Notion 與 Claude 打造個人學習儀表板，並搭配 Gemini 與 Speak AI 進行深度學習，教導建立高效的自動化學習工作流。",
+   "tags": [
+    "NotebookLM",
+    "Notion",
+    "Claude AI",
+    "自動化工作流"
    ]
   },
   {
@@ -2688,6 +4709,40 @@
    ]
   },
   {
+   "video_id": "xFPiU5sit7g",
+   "title": "Codex 新手教學，非技術人員也能上手的 AI Agent 新手指南",
+   "channel": "Gary Chen",
+   "duration_seconds": 1077,
+   "published_at": "2026-06-14T10:00:16Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/xFPiU5sit7g/mqdefault.jpg",
+   "view_count": 200445,
+   "category": "工具教學",
+   "summary": "本影片專為非技術人員設計，詳細介紹 AI Agent 工具 Codex 的核心觀念與基礎操作。透過實體講座籌備實例，帶領觀眾掌握專案設定、權限管理、本地檔案讀取與自動化技能應用。",
+   "tags": [
+    "Codex",
+    "AI Agent",
+    "新手教學",
+    "工具教學"
+   ]
+  },
+  {
+   "video_id": "JbNTSwevk3w",
+   "title": "500+ 小時 Claude Code 心得：5 件我希望早點知道的事",
+   "channel": "JayLuxAI | AI 系統導入",
+   "duration_seconds": 588,
+   "published_at": "2026-06-14T04:00:06Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/JbNTSwevk3w/mqdefault.jpg",
+   "view_count": 12997,
+   "category": "程式開發",
+   "summary": "本影片分享作者使用 Claude Code 數百小時的核心心得。重點分析影響產出品質的關鍵因素，並著重於 Context 上下文管理與溝通技巧，幫助開發者發揮工具的最佳效果。",
+   "tags": [
+    "Claude Code",
+    "程式開發",
+    "經驗分享",
+    "上下文管理"
+   ]
+  },
+  {
    "video_id": "dMiV7Yx9yk4",
    "title": "零基礎30分鐘學會Codex 95%功能！【福利贈送】",
    "channel": "李厂长来了",
@@ -2702,6 +4757,23 @@
     "工具教學",
     "自動化工作流",
     "AI Agent"
+   ]
+  },
+  {
+   "video_id": "oSMJ65UdCz8",
+   "title": "比ChatGPT更強大的學習工具| Heptabase AI Tutor完整應用（實錄）",
+   "channel": "槓桿生活 | QQ",
+   "duration_seconds": 6018,
+   "published_at": "2026-06-13T09:00:29Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/oSMJ65UdCz8/mqdefault.jpg",
+   "view_count": 580,
+   "category": "工具教學",
+   "summary": "本影片介紹筆記軟體 Heptabase 的「AI 家教」實務應用，示範如何透過正確的 AI 對話與心智地圖框架，來高效學習與理解高難度的硬核知識主題，翻轉傳統無效的 ChatGPT 對話方式。",
+   "tags": [
+    "Heptabase",
+    "AI Tutor",
+    "學習工具",
+    "工具教學"
    ]
   },
   {
@@ -2739,6 +4811,91 @@
    ]
   },
   {
+   "video_id": "qtedWLLmyU4",
+   "title": "這影片生成 AI 工具太狂！10 分鐘用 Codex + Hyperframe，把圖片、PDF、官網瞬間變成宣傳片，串聯 Google 生態系秒變動畫神人！【欸那個AJ】",
+   "channel": "欸那個AJ",
+   "duration_seconds": 747,
+   "published_at": "2026-06-12T11:30:04Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/qtedWLLmyU4/mqdefault.jpg",
+   "view_count": 59221,
+   "category": "AI 影像與影片生成",
+   "summary": "本影片示範如何結合 Hyperframe 與 Codex AI 工具，無需剪輯軟體即可將圖片、PDF 及官網資料快速轉換為宣傳影片與動畫，包含五大實戰應用流程教學。",
+   "tags": [
+    "Hyperframe",
+    "Codex",
+    "AI影片生成",
+    "影片製作"
+   ]
+  },
+  {
+   "video_id": "JwSx2KdizAE",
+   "title": "9分鐘搞懂 Claude 基礎實用技巧！助你提升工作效率 | 新手必看教學 | Claude AI 實用技巧大公開 | 繁體中文字幕",
+   "channel": "H先生AI教室",
+   "duration_seconds": 529,
+   "published_at": "2026-06-12T11:00:31Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/JwSx2KdizAE/mqdefault.jpg",
+   "view_count": 208,
+   "category": "入門觀念",
+   "summary": "本影片為專為新手設計的 Claude AI 基礎入門教學。不涉及複雜程式碼，用淺顯易懂的方式解析聊天功能與實用操作技巧，幫助創作者與上班族快速上手並提升工作效率。",
+   "tags": [
+    "Claude",
+    "入門觀念",
+    "新手教學",
+    "生產力"
+   ]
+  },
+  {
+   "video_id": "WrIEGchR1Lw",
+   "title": "【一周快速入门claude code保姆级教程】claude桌面版安装教程  Claude code 免登录接入 Deepseek",
+   "channel": "jgutrt",
+   "duration_seconds": 7419,
+   "published_at": "2026-06-12T07:42:14Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/WrIEGchR1Lw/mqdefault.jpg",
+   "view_count": 938,
+   "category": "程式開發",
+   "summary": "本影片提供 Claude Code 桌面版完整入門教學。詳細示範安裝設定、免登入接入 DeepSeek 模型，並結合大型專案改造、會議即時編碼等多個實戰案例解說運作模式。",
+   "tags": [
+    "Claude Code",
+    "DeepSeek",
+    "桌面版",
+    "程式開發"
+   ]
+  },
+  {
+   "video_id": "E-vsmiB4Pjc",
+   "title": "用 Claude Code 寫長線拉回買進策略｜選股腳本＋指標完整教學",
+   "channel": "Trader Xiao",
+   "duration_seconds": 747,
+   "published_at": "2026-06-12T06:00:24Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/E-vsmiB4Pjc/mqdefault.jpg",
+   "view_count": 1474,
+   "category": "程式開發",
+   "summary": "本影片教學示範如何利用 Claude Code 撰寫股票交易策略與選股腳本。內容解說長線拉回買進策略邏輯，並帶領觀眾將參考資料提供給 AI 生成程式碼與自訂指標。",
+   "tags": [
+    "Claude Code",
+    "程式開發",
+    "選股腳本",
+    "交易策略"
+   ]
+  },
+  {
+   "video_id": "TZgSKsMbq3s",
+   "title": "0成本打造AI主播：数字人+配音+视频生成，全套工具免费送(含Seedance2最新免费方案+超现实AI图像工具）",
+   "channel": "AI零成本实验室 (AI For Free)",
+   "duration_seconds": 1045,
+   "published_at": "2026-06-12T03:38:46Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/TZgSKsMbq3s/mqdefault.jpg",
+   "view_count": 18362,
+   "category": "AI 影像與影片生成",
+   "summary": "本影片詳細拆解免費打造 AI 虛擬主播的自動化影片創作流程，涵蓋 HeyGen 數字人生成、AI 聲音克隆、Seedance 影片生成與免費用戶營運技巧。",
+   "tags": [
+    "AI主播",
+    "HeyGen",
+    "Seedance",
+    "數字人"
+   ]
+  },
+  {
    "video_id": "tu4LrRr-3pQ",
    "title": "n8n 教學｜介面導覽、模板套用與第一個工作流",
    "channel": "虎智科技TigerAI",
@@ -2773,6 +4930,159 @@
    ]
   },
   {
+   "video_id": "ZNALSXbmR0c",
+   "title": "Claude Fable 5 发布！我用它 5 小时做了个 macOS App，已开源",
+   "channel": "花叔",
+   "duration_seconds": 1027,
+   "published_at": "2026-06-11T01:01:29Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/ZNALSXbmR0c/mqdefault.jpg",
+   "view_count": 8110,
+   "category": "程式開發",
+   "summary": "影片介紹 Anthropic 發布的 Claude Fable 5 模型特性與基準表現，並實務演示如何運用該模型在五小時內開發出一款 macOS 開源應用程式與瀏覽器錄屏工具，展現 AI 程式開發能力。",
+   "tags": [
+    "Claude Fable 5",
+    "Claude Code",
+    "程式開發",
+    "macOS App"
+   ]
+  },
+  {
+   "video_id": "VtehqGqpcjE",
+   "title": "Claude Fable 5 實測：把 AI 當資深工程師會怎樣",
+   "channel": "追日Gucci-AI效率革命聯盟",
+   "duration_seconds": 1676,
+   "published_at": "2026-06-10T12:21:57Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/VtehqGqpcjE/mqdefault.jpg",
+   "view_count": 3831,
+   "category": "程式開發",
+   "summary": "本影片透過實測 Claude Fable 5 解決舊有程式碼拼接瑕疵的真實案例，分享如何將 AI 當作資深工程師看待。影片示範了設定明確目標與設計邊界的心法，幫助開發者有效引導 AI 寫程式。",
+   "tags": [
+    "Claude Fable 5",
+    "程式開發",
+    "程式重構",
+    "AI工程師"
+   ]
+  },
+  {
+   "video_id": "IuHAYtgtAsE",
+   "title": "24小時實測將所有工作交俾 AI 同事 Kuse AI Coworker真係幫到手？ #Kuse #AICoworker #KuseAI #香港ai #ai工具 #廣東話 #ai實戰 #ai賺錢",
+   "channel": "我想用Ai賺錢",
+   "duration_seconds": 907,
+   "published_at": "2026-06-10T12:00:38Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/IuHAYtgtAsE/mqdefault.jpg",
+   "view_count": 1895,
+   "category": "自動化工作流",
+   "summary": "本影片實測 Kuse AI Coworker 工具，示範如何建立 AI 自動化工作流，將日常繁瑣的手動工作移交給 AI 處理，藉此大幅提升個人工作效率。",
+   "tags": [
+    "KuseAI",
+    "AI同事",
+    "自動化工作流",
+    "效率工具"
+   ]
+  },
+  {
+   "video_id": "ND6d1GUATGY",
+   "title": "還在從零搭 Notion 模板？用 Claude Code 幫你自動建好 Database＋排版｜零基礎教學",
+   "channel": "Hei_Ai 成長日記",
+   "duration_seconds": 590,
+   "published_at": "2026-06-10T11:55:04Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/ND6d1GUATGY/mqdefault.jpg",
+   "view_count": 1976,
+   "category": "自動化工作流",
+   "summary": "本教學示範如何結合 Claude Code 與 Notion 打造自動化流程。教導初學者免去手動架構模板的麻煩，透過 AI 自動將研究報告建立為 Notion 資料庫與完成格式排版。",
+   "tags": [
+    "Claude Code",
+    "Notion",
+    "自動化工作流",
+    "零基礎教學"
+   ]
+  },
+  {
+   "video_id": "l0hV2qAeE5I",
+   "title": "2026最快教學：免費ChatGPT生成LINE貼圖！一條龍去背、上架全攻略",
+   "channel": "郭子AI小學堂",
+   "duration_seconds": 208,
+   "published_at": "2026-06-10T10:00:11Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/l0hV2qAeE5I/mqdefault.jpg",
+   "view_count": 18,
+   "category": "AI 影像與影片生成",
+   "summary": "本影片教導如何運用免費版 ChatGPT 生成 LINE 貼圖母圖，包含提示詞撰寫技巧、自動偵測去背，以及透過「LINE 拍貼」APP 輕鬆將創作上架商店的一條龍完整實務流程。",
+   "tags": [
+    "ChatGPT",
+    "LINE貼圖",
+    "AI生圖",
+    "貼圖製作"
+   ]
+  },
+  {
+   "video_id": "trtd977aArU",
+   "title": "🚀真要取代Figma了？Claude Design最新版深度评测！UI原型设计+PPT生成效果惊人，design system实现风格统一，Opus 4.8前端能力直接拉满，一句话设计一整套品牌系统！",
+   "channel": "AI超元域",
+   "duration_seconds": 787,
+   "published_at": "2026-06-09T14:20:57Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/trtd977aArU/mqdefault.jpg",
+   "view_count": 19407,
+   "category": "AI 影像與影片生成",
+   "summary": "本影片深度評測與示範 Claude Design 最新功能。手把手教學如何建立品牌設計系統、利用自然語言微調標誌，並實作產出 UI 高保真原型與科幻風格 PPT 簡報。",
+   "tags": [
+    "Claude Design",
+    "UI設計",
+    "AI 影像與影片生成",
+    "簡報生成"
+   ]
+  },
+  {
+   "video_id": "JU-YmaCEVGI",
+   "title": "【AI教學】ChatGPT的「自訂 GPT」是什麼？怎麼用？教你建立專屬的 GPT 助手",
+   "channel": "科技兔",
+   "duration_seconds": 303,
+   "published_at": "2026-06-09T12:43:16Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/JU-YmaCEVGI/mqdefault.jpg",
+   "view_count": 336,
+   "category": "工具教學",
+   "summary": "本影片介紹 ChatGPT 的「自訂 GPT」（Custom GPTs）功能，詳細說明其觀念與操作步驟，帶領觀眾手把手設定專屬指令與資料庫，打造符合個人或工作需求的 AI 助手。",
+   "tags": [
+    "ChatGPT",
+    "自訂GPT",
+    "GPTs",
+    "AI助手"
+   ]
+  },
+  {
+   "video_id": "HViaBQW3OF4",
+   "title": "2分钟，教你国内爽用 Claude Code + Codex！保姆级教程 #ai #编程 #ai编程 #程序员 #codex #claudecode",
+   "channel": "程序员鱼皮",
+   "duration_seconds": 179,
+   "published_at": "2026-06-09T05:22:44Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/HViaBQW3OF4/mqdefault.jpg",
+   "view_count": 4707,
+   "category": "工具教學",
+   "summary": "本影片為 Claude Code 與 Codex 的快速設定教學。手把手教導使用 CC Switch 開源工具進行配置，成功串接 DeepSeek 模型並啟用百萬上下文功能，解決國內使用限制。",
+   "tags": [
+    "Claude Code",
+    "Codex",
+    "CC Switch",
+    "DeepSeek"
+   ]
+  },
+  {
+   "video_id": "sZcN4kNW1-I",
+   "title": "【AI教學】ChatGPT Codex 寵物功能是什麼？怎麼用？教你一鍵自訂 Codex Pets 寵物！含提示詞",
+   "channel": "科技兔",
+   "duration_seconds": 268,
+   "published_at": "2026-06-08T13:02:12Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/sZcN4kNW1-I/mqdefault.jpg",
+   "view_count": 1079,
+   "category": "工具教學",
+   "summary": "本影片介紹 ChatGPT Codex 的「Codex Pets」寵物功能，說明其特色與操作方式，並提供具體的提示詞，教導觀眾如何一鍵自訂並設定專屬的桌面 AI 寵物夥伴。",
+   "tags": [
+    "Codex",
+    "Codex Pets",
+    "AI工具",
+    "提示詞"
+   ]
+  },
+  {
    "video_id": "Tyk5Xi-MgS0",
    "title": "打工人必看，AI 办公神器ChatExcel，70% 重复 Excel 工作自动搞定",
    "channel": "小陈家",
@@ -2787,6 +5097,74 @@
     "Excel",
     "辦公應用",
     "數據分析"
+   ]
+  },
+  {
+   "video_id": "Czky9q7sOWU",
+   "title": "Claude Code保姆級攻略2.0：中文語言設定、第三方模型接入、MCP、Skill、Subagent完整教學，省下90%的Token費用，打造真正能幹活的AI Agent",
+   "channel": "學長Ethan",
+   "duration_seconds": 1657,
+   "published_at": "2026-06-07T13:07:14Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/Czky9q7sOWU/mqdefault.jpg",
+   "view_count": 17595,
+   "category": "程式開發",
+   "summary": "本教學為 Claude Code 進階指南，涵蓋中文介面設定、接入第三方模型與省 Token 技巧。深入解說 MCP、Skill 及 Subagent 設定，帶領觀眾打造高效 AI Agent。",
+   "tags": [
+    "Claude Code",
+    "AI Agent",
+    "MCP",
+    "程式開發"
+   ]
+  },
+  {
+   "video_id": "Bc1aFzYB2jc",
+   "title": "比ChatGPT更強大的學習工具| Heptabase AI Tutor應用",
+   "channel": "槓桿生活 | QQ",
+   "duration_seconds": 491,
+   "published_at": "2026-06-06T11:16:24Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/Bc1aFzYB2jc/mqdefault.jpg",
+   "view_count": 733,
+   "category": "工具教學",
+   "summary": "本影片展示如何運用 Heptabase 的 AI 家教功能進行高效學習，帶領觀眾實作透過 AI 釐清複雜概念與建構知識體系，協助使用者建立更深度的 AI 輔助學習工作流。",
+   "tags": [
+    "Heptabase",
+    "AI Tutor",
+    "高效學習",
+    "工具教學"
+   ]
+  },
+  {
+   "video_id": "Ykf6apBwVNQ",
+   "title": "Claude Code 老手才知道的對話技巧！岔開、派分身、搜歷史 #ClaudeCode #Anthropic #Fork #radio #FocusView",
+   "channel": "沈弘哲",
+   "duration_seconds": 597,
+   "published_at": "2026-06-06T09:29:31Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/Ykf6apBwVNQ/mqdefault.jpg",
+   "view_count": 1470,
+   "category": "程式開發",
+   "summary": "本影片由後端工程師親自講解 Claude Code 的進階對話與控制技巧。內容包含 branch 與 fork 的指令差異、搜尋對話歷史、匯出與專注檢視功能，助開發者靈活操控 Claude Code。",
+   "tags": [
+    "Claude Code",
+    "程式開發",
+    "開發技巧",
+    "Fork"
+   ]
+  },
+  {
+   "video_id": "fwdzsY9KWKk",
+   "title": "15分鐘學會AI Agent｜完整講解",
+   "channel": "李厂长来了",
+   "duration_seconds": 897,
+   "published_at": "2026-06-06T03:00:02Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/fwdzsY9KWKk/mqdefault.jpg",
+   "view_count": 126525,
+   "category": "入門觀念",
+   "summary": "本影片將吳恩達的 AI Agent 課程濃縮為 15 分鐘精華，系統化解析 AI 智能體的核心概念、關鍵框架，以及如何在工作與生活中實際應用。",
+   "tags": [
+    "AIAgent",
+    "智能體",
+    "吳恩達",
+    "入門觀念"
    ]
   },
   {
@@ -2807,6 +5185,193 @@
    ]
   },
   {
+   "video_id": "082N1uD-M0U",
+   "title": "【Claude 註冊教學】又被封號？教香港人如何選擇LLM: 一次解鎖 Claude/ChatGPT/Gemini（廣東話）",
+   "channel": "Tim Chan AI",
+   "duration_seconds": 1837,
+   "published_at": "2026-06-04T09:30:00Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/082N1uD-M0U/mqdefault.jpg",
+   "view_count": 20727,
+   "category": "入門觀念",
+   "summary": "本影片以廣東話講解香港使用者在註冊與訂閱 Claude、ChatGPT 及 Gemini 等大型語言模型時常見的封號問題，並提供解決 IP、簡訊驗證與付款三大難關的完整指南。",
+   "tags": [
+    "Claude",
+    "ChatGPT",
+    "帳號註冊",
+    "香港教學"
+   ]
+  },
+  {
+   "video_id": "srzf_7oDags",
+   "title": "【AI 趣味創意】AI 數位分身｜全網爆火 Mini-Me 教學！｜0基礎手把手把照片變可愛 3D Mini-Me！#AI設計 #MiniMe #3D數字分身  #AI工具  #AIsoeasy",
+   "channel": "優視 • AI新時代 // AI NEW ERA UCH ",
+   "duration_seconds": 161,
+   "published_at": "2026-06-03T23:00:12Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/srzf_7oDags/mqdefault.jpg",
+   "view_count": 158,
+   "category": "AI 影像與影片生成",
+   "summary": "本影片教導如何使用 AI 工具將照片製作成可愛的 3D 迷你數位分身（Mini-Me），並說明如何將其完美融入 YouTube 頻道封面設計與排版技巧。",
+   "tags": [
+    "MiniMe",
+    "數位分身",
+    "3D角色",
+    "封面設計"
+   ]
+  },
+  {
+   "video_id": "JUTJ8yAdqUw",
+   "title": "Claude AI + Shopify做无货源跨境电商教程：连接Zendrop让AI帮你选品、上架、发货、制作广告视频!",
+   "channel": "和有风一起学习跨境电商",
+   "duration_seconds": 1757,
+   "published_at": "2026-06-03T13:28:44Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/JUTJ8yAdqUw/mqdefault.jpg",
+   "view_count": 25868,
+   "category": "辦公應用",
+   "summary": "本影片為 Claude AI 結合 Shopify 的無貨源跨境電商實作教學。示範串接 Zendrop 平台，讓 AI 自動協助商品選品、批量上架、處理發貨及製作電商行銷廣告影片。",
+   "tags": [
+    "Claude AI",
+    "Shopify",
+    "跨境電商",
+    "辦公應用"
+   ]
+  },
+  {
+   "video_id": "voT90LxL_l0",
+   "title": "新手必看！用 AntiGravity + Claude Skill 打造第一個 AI 工作流（完整教學）",
+   "channel": "李哈利 | AI",
+   "duration_seconds": 975,
+   "published_at": "2026-06-03T12:58:08Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/voT90LxL_l0/mqdefault.jpg",
+   "view_count": 501,
+   "category": "自動化工作流",
+   "summary": "本影片為 AntiGravity 與 Claude Skill 的新手入門完整教學。影片手把手帶領觀眾建立第一個 AI 自動化工作流，說明如何結合兩者工具來優化個人或業務的工作流程，適合 AI 新手學習實作。",
+   "tags": [
+    "AntiGravity",
+    "Claude Skill",
+    "AI工作流",
+    "自動化"
+   ]
+  },
+  {
+   "video_id": "iQBx_kWBg6o",
+   "title": "Google Flow 免費AI工具一站式最強工作流，影音小白速成班。Gemini腳本、Veo 3.1、Nano Banana、AI影片、AI短劇、角色一致性、新手教學、零成本、2026實測、長影片",
+   "channel": "AI 生活筆記",
+   "duration_seconds": 264,
+   "published_at": "2026-06-03T12:00:32Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/iQBx_kWBg6o/mqdefault.jpg",
+   "view_count": 6897,
+   "category": "AI 影像與影片生成",
+   "summary": "本影片介紹 Google Flow 與多款免費 AI 工具組合的一站式影音創作工作流，涵蓋 Gemini 腳本生成、Veo 3.1 影片製作及保持角色一致性的技巧。",
+   "tags": [
+    "GoogleFlow",
+    "Gemini",
+    "AI影片生成",
+    "角色一致性"
+   ]
+  },
+  {
+   "video_id": "6JZll_ICRO0",
+   "title": "UI 設計師的救星：Claude AI + Figma MCP 工作流教學",
+   "channel": "Beezi AI note",
+   "duration_seconds": 260,
+   "published_at": "2026-06-03T12:00:11Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/6JZll_ICRO0/mqdefault.jpg",
+   "view_count": 95,
+   "category": "自動化工作流",
+   "summary": "介紹如何運用 Figma MCP 讓 Claude AI 直接操控 Figma 操作。影片詳細示範從下載安裝 Claude Desktop、Figma 到設定 MCP Skills 的完整步驟，協助 UI 設計師快速生成設計稿與建立版面。",
+   "tags": [
+    "Claude AI",
+    "Figma",
+    "MCP",
+    "UI設計"
+   ]
+  },
+  {
+   "video_id": "1UqzMLFiejQ",
+   "title": "[ 享玩AI ]ChatGPT 進階玩法太誇張了吧！還在把 GPT 當普通繪圖工具就太可惜了，帶你看 5 種進階應用",
+   "channel": "享知Cultiwise",
+   "duration_seconds": 560,
+   "published_at": "2026-06-03T11:30:06Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/1UqzMLFiejQ/mqdefault.jpg",
+   "view_count": 29315,
+   "category": "AI 影像與影片生成",
+   "summary": "本影片探索 ChatGPT 影像生成的 5 種進階應用玩法，打破單純圖像產出的限制，示範如何將 AI 繪圖技術延伸至更豐富的視覺創作與商業實務應用場景中。",
+   "tags": [
+    "ChatGPT",
+    "AI繪圖",
+    "影像生成",
+    "進階應用"
+   ]
+  },
+  {
+   "video_id": "kw6FNY311Yk",
+   "title": "Claude Cowork太猛了！打造專屬AI工作團隊，工作效率直接翻倍｜新手完整教學",
+   "channel": "口袋小幫手",
+   "duration_seconds": 1132,
+   "published_at": "2026-06-03T09:00:05Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/kw6FNY311Yk/mqdefault.jpg",
+   "view_count": 13522,
+   "category": "辦公應用",
+   "summary": "本教學專為新手設計，完整介紹 Claude Cowork 工作系統。內容包含 Cowork 與一般 Chat 的差異、系統設定方法、模型選擇技巧，以及如何透過範例打造專屬 AI 團隊，自動處理多步驟辦公任務。",
+   "tags": [
+    "Claude",
+    "Claude Cowork",
+    "辦公效率",
+    "AI團隊"
+   ]
+  },
+  {
+   "video_id": "Ia1cBa1QJSY",
+   "title": "【不花一毛錢】Claude + Canva 10分鐘做200張IG貼文",
+   "channel": "Greyson Zhang",
+   "duration_seconds": 524,
+   "published_at": "2026-06-02T11:15:15Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/Ia1cBa1QJSY/mqdefault.jpg",
+   "view_count": 3604,
+   "category": "辦公應用",
+   "summary": "本影片教導如何結合 Claude 與 Canva，在十分鐘內批次製作高達兩百張 Instagram 輪播貼文。內容提供免費且無須設計背景的完整操作流程，包含 Claude 連接 Canva 的具體設定步驟。",
+   "tags": [
+    "Claude",
+    "Canva",
+    "IG貼文",
+    "批次生成"
+   ]
+  },
+  {
+   "video_id": "qYpXa4UO4rc",
+   "title": "比 NotebookLM 強 10 倍？ChatGPT 直接生成精緻 PPT！圖片、文案、版面一次做好｜AI簡報教學、PowerPoint AI、PPTX、簡報 prompt",
+   "channel": "Jelena 耶萊娜 AIGC",
+   "duration_seconds": 316,
+   "published_at": "2026-06-01T07:33:36Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/qYpXa4UO4rc/mqdefault.jpg",
+   "view_count": 9030,
+   "category": "辦公應用",
+   "summary": "本影片示範如何運用 ChatGPT 直接生成精緻的 PowerPoint 簡報，一次搞定文案、圖片與版面設計，並匯出可編輯的 PPTX 檔案，有效提升簡報製作效率。",
+   "tags": [
+    "ChatGPT",
+    "AI簡報",
+    "PowerPoint",
+    "辦公應用"
+   ]
+  },
+  {
+   "video_id": "yoUZ5Gkcbgw",
+   "title": "AI时代的知识管理工具：Obsidian 安装与入门教学  | 新手必看秘籍 | WAYNE科技",
+   "channel": "WAYNE科技",
+   "duration_seconds": 620,
+   "published_at": "2026-05-31T15:28:29Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/yoUZ5Gkcbgw/mqdefault.jpg",
+   "view_count": 158,
+   "category": "辦公應用",
+   "summary": "本影片詳細介紹知識管理工具 Obsidian 的安裝設定與基礎入門，包含 Markdown 語法、建立筆記倉庫、雙向連結機制，以及如何搭配 AI 工具提升學習效率。",
+   "tags": [
+    "Obsidian",
+    "知識管理",
+    "Markdown",
+    "筆記工具"
+   ]
+  },
+  {
    "video_id": "d7qmp6gjpiU",
    "title": "Codex 桌面版應用教學｜Claude Code 不會白學，AI Agent 可以怎麼搬家？讓 AI 幫你剪影片、打遊戲？終端機掰掰？",
    "channel": "柚智夫妻 X 雷蒙三十",
@@ -2821,6 +5386,431 @@
     "Claude Code",
     "AI Agent",
     "工具教學"
+   ]
+  },
+  {
+   "video_id": "Bw8lxVPj8rQ",
+   "title": "99%的人都做錯了！AI影片真正難的根本不是生成畫面，GPT Image2 ＋ Seedance 「無斷層」做60秒AI短片！Novi AI 實測",
+   "channel": "小V說",
+   "duration_seconds": 418,
+   "published_at": "2026-05-30T13:00:06Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/Bw8lxVPj8rQ/mqdefault.jpg",
+   "view_count": 62536,
+   "category": "AI 影像與影片生成",
+   "summary": "本影片破解 AI 影片製作痛點，透過 GPT Image2 與 Seedance 實測連貫的短劇生成流程，教導如何保持角色與場景一致性，順暢串聯長影片。",
+   "tags": [
+    "Seedance",
+    "GPTImage2",
+    "NoviAI",
+    "AI短劇"
+   ]
+  },
+  {
+   "video_id": "AYaXUGH1vjA",
+   "title": "AI Agent 教學應用：如何用 Codex 與 Claude Code 一鍵生成互動教材與教學資訊圖 ？",
+   "channel": "Desmond EdTech 教學頻道",
+   "duration_seconds": 1579,
+   "published_at": "2026-05-30T07:49:03Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/AYaXUGH1vjA/mqdefault.jpg",
+   "view_count": 1512,
+   "category": "辦公應用",
+   "summary": "本影片專為教育者設計，教學如何運用 AI Agent（包含 Codex 與 Claude Code）在十分鐘內將 Markdown 課堂筆記轉換為互動網頁教材、學生填空版 PDF 講義與精美簡報資訊圖。",
+   "tags": [
+    "AI Agent",
+    "Claude Code",
+    "教學應用",
+    "教材生成"
+   ]
+  },
+  {
+   "video_id": "vWzKHp9yl3M",
+   "title": "現在學AI，真的還不晚：30天從小白到上手！",
+   "channel": "李厂长来了",
+   "duration_seconds": 1078,
+   "published_at": "2026-05-30T03:00:06Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/vWzKHp9yl3M/mqdefault.jpg",
+   "view_count": 107350,
+   "category": "入門觀念",
+   "summary": "本影片針對 AI 初學者規劃為期 30 天的學習路線圖，說明新手應優先掌握的核心觀念與工具，幫助大眾消除起步焦慮並建立實用的 AI 學習習慣。",
+   "tags": [
+    "AI學習",
+    "新手入門",
+    "學習路線",
+    "效率提升"
+   ]
+  },
+  {
+   "video_id": "vmk4ToeAgpU",
+   "title": "救命！現在 ChatGPT 做簡報太強了吧？7步驟學會這套「高級簡報流」，原地變成簡報神人！【欸那個AJ】",
+   "channel": "欸那個AJ",
+   "duration_seconds": 546,
+   "published_at": "2026-05-29T11:30:22Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/vmk4ToeAgpU/mqdefault.jpg",
+   "view_count": 52560,
+   "category": "辦公應用",
+   "summary": "本影片分享一套 7 步驟的 ChatGPT 高階簡報製作工作流，示範從設定提示詞、建立專案架構到注入資料，帶領觀眾快速產出高品質且具質感的簡報內容。",
+   "tags": [
+    "ChatGPT",
+    "簡報製作",
+    "工作流",
+    "辦公應用"
+   ]
+  },
+  {
+   "video_id": "VLv0NDLuzxw",
+   "title": "Claude桌面版 快速上手教程：最强办公助理，顶级代码专家，mcp打通常用软件",
+   "channel": "加密未来CryptoFuture",
+   "duration_seconds": 902,
+   "published_at": "2026-05-29T10:30:24Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/VLv0NDLuzxw/mqdefault.jpg",
+   "view_count": 1713,
+   "category": "工具教學",
+   "summary": "本影片為 Claude 桌面版的新手快速上手指南。內容介紹如何安裝與使用 Claude 桌面版，將其作為辦公助理與程式開發專家，並透過 MCP 功能串接常用軟體，提升日常工作效率。",
+   "tags": [
+    "Claude桌面版",
+    "MCP",
+    "工具教學",
+    "AI助理"
+   ]
+  },
+  {
+   "video_id": "eaBRGdYOtn0",
+   "title": "Claude Code Dynamic Workflows 保姆级教程：让 AI 自动编排上百个子代理干活",
+   "channel": "AI随风",
+   "duration_seconds": 638,
+   "published_at": "2026-05-29T07:02:14Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/eaBRGdYOtn0/mqdefault.jpg",
+   "view_count": 9198,
+   "category": "自動化工作流",
+   "summary": "本期影片深入解析 Claude Code 的 Dynamic Workflows 動態工作流功能。詳細教學如何自動生成腳本並調度上百個子代理平行執行任務，包含開啟方式、工作流控管與實際適用情境說明。",
+   "tags": [
+    "Claude Code",
+    "Dynamic Workflows",
+    "AI Agent",
+    "自動化工作流"
+   ]
+  },
+  {
+   "video_id": "Q05UaHVufo8",
+   "title": "AI 簡報工具 PK！Canva、Gemini、NotebookLM 誰更接近商業簡報？NoteBookLM 簡報修改教學！#職場生存 #AI #簡報 #OCR #Gemini#NotebookLM",
+   "channel": "爆點議題 POP Buzz",
+   "duration_seconds": 376,
+   "published_at": "2026-05-28T12:38:17Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/Q05UaHVufo8/mqdefault.jpg",
+   "view_count": 4520,
+   "category": "辦公應用",
+   "summary": "本影片評比 Canva、Gemini 與 NotebookLM 三款 AI 簡報工具在商業實戰中的表現，並透過 OCR 工具破解 NotebookLM 簡報不可編輯的缺點。",
+   "tags": [
+    "AI簡報",
+    "NotebookLM",
+    "Gemini",
+    "Canva"
+   ]
+  },
+  {
+   "video_id": "7xlQkLXeR6Q",
+   "title": "Claude 居然可以生成公司既定簡報模板！藏了 10 套官方簡報配色！輸入這個關鍵字直接套用｜泛科學院",
+   "channel": "泛科學院",
+   "duration_seconds": 530,
+   "published_at": "2026-05-28T11:00:02Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/7xlQkLXeR6Q/mqdefault.jpg",
+   "view_count": 34938,
+   "category": "辦公應用",
+   "summary": "影片介紹如何使用 Claude 生成公司簡報模板與套用官方配色。透過特定關鍵字指令，使用者能直接套用十套內建簡報色彩與排版，快速提升簡報製作效率，適合職場人士學習應用。",
+   "tags": [
+    "Claude",
+    "簡報模板",
+    "辦公應用",
+    "簡報設計"
+   ]
+  },
+  {
+   "video_id": "boW53RZdeNg",
+   "title": "Codex保姆级教程！零基础从入门到精通，看这一条视频就够了 |codex |ai |智能体 |ai工具",
+   "channel": "360智榜样-网络安全课程",
+   "duration_seconds": 1846,
+   "published_at": "2026-05-28T09:52:56Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/boW53RZdeNg/mqdefault.jpg",
+   "view_count": 141939,
+   "category": "工具教學",
+   "summary": "本影片為 OpenAI Codex 的零基礎保姆級教學，旨在引導新手從入門到精通，系統性地了解與掌握 Codex 這款 AI 智能體工具的核心用法與應用技巧。",
+   "tags": [
+    "Codex",
+    "AI Agent",
+    "新手教學",
+    "工具教學"
+   ]
+  },
+  {
+   "video_id": "5ZFm1uRI-IE",
+   "title": "AI 分析股票新手教学：提示词技巧 + Claude 生成分析报告 #AI教学#Anthropic #Claude",
+   "channel": "美股赢家Steven",
+   "duration_seconds": 222,
+   "published_at": "2026-05-28T00:57:00Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/5ZFm1uRI-IE/mqdefault.jpg",
+   "view_count": 1186,
+   "category": "工具教學",
+   "summary": "本影片示範如何運用提示詞技巧搭配 Claude 與股票數據庫生成專業的美股分析報告。透過實際案例，教導投資新手掌握正確的 AI 提問語法，突破股票分析上的瓶頸與盲點。",
+   "tags": [
+    "Claude",
+    "提示詞技巧",
+    "股票分析",
+    "AI應用"
+   ]
+  },
+  {
+   "video_id": "VS5bMOQ4DFs",
+   "title": "2026年必學五大AI工具",
+   "channel": "納爾森有話說",
+   "duration_seconds": 494,
+   "published_at": "2026-05-27T11:00:11Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/VS5bMOQ4DFs/mqdefault.jpg",
+   "view_count": 836,
+   "category": "工具教學",
+   "summary": "本影片精選五款實用 AI 工具，涵蓋 Suno AI 音樂創作、ElevenLabs 語音配音及 ChatGPT 圖像生成，展示如何建立高產工作流並探索商業應用。",
+   "tags": [
+    "AI工具",
+    "Suno",
+    "ElevenLabs",
+    "工作流"
+   ]
+  },
+  {
+   "video_id": "VQLhwAZdWk8",
+   "title": "10 秒就能複製你！Gemini Omni 影片生成太可怕！？連聲音都可以完美生成？",
+   "channel": "泛科學院",
+   "duration_seconds": 588,
+   "published_at": "2026-05-27T11:00:02Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/VQLhwAZdWk8/mqdefault.jpg",
+   "view_count": 96821,
+   "category": "AI 影像與影片生成",
+   "summary": "本影片開箱實測 Google Gemini Omni 與 Gemini Avatar 功能，示範如何僅需 10 秒影片素材即可生成具備高度一致性五官與聲音的 AI 數位分身。",
+   "tags": [
+    "GeminiOmni",
+    "GeminiAvatar",
+    "數位分身",
+    "AI影片生成"
+   ]
+  },
+  {
+   "video_id": "HIbY8TXVJmU",
+   "title": "AI 影片真能拍成一整部了?!  不限時長 + 可控分鏡，還能像導演一樣安排每一幕‼️｜Topview AI 教程",
+   "channel": "小發學姐",
+   "duration_seconds": 1264,
+   "published_at": "2026-05-25T11:30:06Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/HIbY8TXVJmU/mqdefault.jpg",
+   "view_count": 67387,
+   "category": "AI 影像與影片生成",
+   "summary": "本影片介紹 Topview AI 工具教學，示範如何透過可控分鏡與無限時長設定，像導演般精準安排鏡頭畫面，進而製作出高品質的 AI 影音作品。",
+   "tags": [
+    "TopviewAI",
+    "AI影片生成",
+    "分鏡控制",
+    "影片教學"
+   ]
+  },
+  {
+   "video_id": "ozVTJm3n2U4",
+   "title": "🚀Claude Code重大突破：Workflow功能完整实战教程！ultrawork召唤无数个Agent协同！自动生成JS脚本实现可复用的精准可控工作流，这才是Harness Engineering",
+   "channel": "AI超元域",
+   "duration_seconds": 869,
+   "published_at": "2026-05-24T13:04:01Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/ozVTJm3n2U4/mqdefault.jpg",
+   "view_count": 55222,
+   "category": "程式開發",
+   "summary": "影片詳細解析 Claude Code 的 Workflow 隱藏功能與實務操作。示範如何透過 export 指令與 ultrawork 關鍵字召喚多個 Agent 協同作業，並自動生成 JS 腳本建立可重複使用的精準工作流。",
+   "tags": [
+    "Claude Code",
+    "Workflow",
+    "AI Agent",
+    "程式開發"
+   ]
+  },
+  {
+   "video_id": "ER7mb6-hdvs",
+   "title": "Claude Cowork 30分钟超全教程超全教程，全球强者都在用。",
+   "channel": "檀东东·Tango",
+   "duration_seconds": 1814,
+   "published_at": "2026-05-24T12:13:21Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/ER7mb6-hdvs/mqdefault.jpg",
+   "view_count": 23266,
+   "category": "辦公應用",
+   "summary": "本影片提供三十分鐘的 Claude Cowork 全方位實戰教學。透過十多個真實案例，深入講解 MCP、Connectors、Skills、Memory 設定與自動化定時任務，帶領觀眾打造強大的全能辦公 AI 助理。",
+   "tags": [
+    "Claude Cowork",
+    "MCP",
+    "AI助理",
+    "辦公自動化"
+   ]
+  },
+  {
+   "video_id": "bRZrqILySCg",
+   "title": "Claude Cowork/Code 小白教学 15个核心功能+8个自动化案例实操+9个秘密省钱诀窍 AI赚钱 AI工具 Claude教学 自动化工作流 AI员工 AI创业 AI副业 小白必看",
+   "channel": "盈夏AI轻创业",
+   "duration_seconds": 1842,
+   "published_at": "2026-05-24T08:04:27Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/bRZrqILySCg/mqdefault.jpg",
+   "view_count": 75750,
+   "category": "自動化工作流",
+   "summary": "這支影片為新手詳細拆解 Claude 的十五個核心功能與八個自動化實操案例。內容涵蓋 Chat、Cowork 與 Code 的差異比較，並示範如何用 AI 自動處理郵件、圖文與周報，建構個人 AI 員工。",
+   "tags": [
+    "Claude Cowork",
+    "Claude Code",
+    "自動化工作流",
+    "AI教學"
+   ]
+  },
+  {
+   "video_id": "ApdLW40gNEk",
+   "title": "Codex 教學：用 ChatGPT 帳號玩 AI Agent，自動寫 Code、做網站、手機 Remote 控制電腦｜AI教學",
+   "channel": "我不懂Digital - Eric 你的網路成長教練",
+   "duration_seconds": 557,
+   "published_at": "2026-05-24T05:28:49Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/ApdLW40gNEk/mqdefault.jpg",
+   "view_count": 343,
+   "category": "程式開發",
+   "summary": "本影片介紹 OpenAI Codex 這款 AI 程式開發 Agent，示範如何建立本地網頁專案、生成美股資訊網站，並展示透過手機進行遠端語音控制電腦與部署網站的實戰操作。",
+   "tags": [
+    "Codex",
+    "AI Agent",
+    "程式開發",
+    "網頁製作"
+   ]
+  },
+  {
+   "video_id": "FJnZG5lNabA",
+   "title": "不寫程式組一支 AI agent team：Claude 教學的真正重點",
+   "channel": "思思主播",
+   "duration_seconds": 415,
+   "published_at": "2026-05-23T23:13:12Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/FJnZG5lNabA/mqdefault.jpg",
+   "view_count": 113,
+   "category": "自動化工作流",
+   "summary": "本影片深入解析免寫程式建構 AI Agent 團隊的核心觀念。教學重點聚焦於角色、指示、工具與記憶四要素，說明如何拆解內容生產流程並指派多個 Agent 協同運作，實現無程式碼自動化。",
+   "tags": [
+    "Claude",
+    "AI Agent",
+    "無程式碼",
+    "自動化工作流"
+   ]
+  },
+  {
+   "video_id": "LyiiMVZE7uM",
+   "title": "AntiGravity 基本功 EP01:Claude Code 與 Codex 的強敵？Google AntiGravity 2.0 實測評價",
+   "channel": "三師爸Sense Bar",
+   "duration_seconds": 2143,
+   "published_at": "2026-05-22T16:02:24Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/LyiiMVZE7uM/mqdefault.jpg",
+   "view_count": 29408,
+   "category": "自動化工作流",
+   "summary": "本影片開箱評測 Google AntiGravity 2.0，並帶領觀眾從零開始打造全自動化 AI 工作流。教學包含串接 GitHub、Obsidian 與 NotebookLM 等工具，協助建構靈活的 AI Agent 工作系統。",
+   "tags": [
+    "AntiGravity",
+    "Claude Code",
+    "AI Agent",
+    "自動化工作流"
+   ]
+  },
+  {
+   "video_id": "Hu7fjlnhFvs",
+   "title": "實測 7 大 AI 翻譯 PowerPoint！Gemini、Copilot、ChatGPT、Codex、Grok、Manus 以及 Claude",
+   "channel": "阿石OMP",
+   "duration_seconds": 807,
+   "published_at": "2026-05-22T15:21:03Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/Hu7fjlnhFvs/mqdefault.jpg",
+   "view_count": 4005,
+   "category": "辦公應用",
+   "summary": "本影片橫向評測 Gemini、Copilot、ChatGPT 等 7 大 AI 模型翻譯 PowerPoint 簡報的效果，比較各工具在保留格式與翻譯精準度上的表現。",
+   "tags": [
+    "PPT翻譯",
+    "AI簡報",
+    "辦公應用",
+    "多模型實測"
+   ]
+  },
+  {
+   "video_id": "pTO85XkruHI",
+   "title": "新手必學的「進化版 ChatGPT」！快速打造 Codex 終極知識庫，用它秒做各種檔案！這才叫 AI 自動化！ 【欸那個AJ】",
+   "channel": "欸那個AJ",
+   "duration_seconds": 498,
+   "published_at": "2026-05-22T11:30:23Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/pTO85XkruHI/mqdefault.jpg",
+   "view_count": 40839,
+   "category": "自動化工作流",
+   "summary": "本影片手把手帶領新手安裝並使用 OpenAI Codex，示範如何將論文資料轉化為 Markdown 個人知識庫，並快速一鍵轉換成簡報或網站，建立高效的自動化工作流。",
+   "tags": [
+    "Codex",
+    "知識庫",
+    "自動化",
+    "工作流"
+   ]
+  },
+  {
+   "video_id": "lFNUx1JI6z4",
+   "title": "AI 工具一堆縮寫看不懂？API、MCP、CLI 一次講清楚｜EP.25",
+   "channel": "AgentCrew Academy",
+   "duration_seconds": 1080,
+   "published_at": "2026-05-22T11:30:22Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/lFNUx1JI6z4/mqdefault.jpg",
+   "view_count": 1972,
+   "category": "入門觀念",
+   "summary": "本影片透過生活化比喻與實機操作，清晰解析 API、MCP 與 CLI 三大常見 AI 技術縮寫的概念，並示範如何利用 MCP 查機票與 CLI 操作工作區。",
+   "tags": [
+    "API",
+    "MCP",
+    "CLI",
+    "AI基礎知識"
+   ]
+  },
+  {
+   "video_id": "WKe078iKQJk",
+   "title": "Claude Cowork 不只會整理桌面！Skill 、 Live Artifacts 到底怎樣使用？｜泛科學院",
+   "channel": "泛科學院",
+   "duration_seconds": 703,
+   "published_at": "2026-05-22T11:00:13Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/WKe078iKQJk/mqdefault.jpg",
+   "view_count": 23431,
+   "category": "工具教學",
+   "summary": "本影片深入介紹 Claude Cowork 的進階功能，示範如何正確運用 Skill 與 Live Artifacts。影片教導使用者打破單純整理桌面的概念，發揮 AI 助理的最大效能來處理複雜任務。",
+   "tags": [
+    "Claude Cowork",
+    "Skill",
+    "Live Artifacts",
+    "工具教學"
+   ]
+  },
+  {
+   "video_id": "L7hUBvxYEo8",
+   "title": "AI 影片不用亂燒錢了！最新熱門模型GPT Image 2、Seedance 2、HappyHorse等都能隨便玩‼️｜LitMedia AI 教程",
+   "channel": "小發學姐",
+   "duration_seconds": 1381,
+   "published_at": "2026-05-21T12:56:51Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/L7hUBvxYEo8/mqdefault.jpg",
+   "view_count": 7342,
+   "category": "AI 影像與影片生成",
+   "summary": "本影片詳細教學 LitMedia AI 平台的使用方法，整合 GPT Image 2 與 Seedance 2 等多種生成模型，讓創作者能高性價比地一站式完成 AI 影片創作。",
+   "tags": [
+    "LitMedia",
+    "Seedance",
+    "GPTImage2",
+    "AI影片生成"
+   ]
+  },
+  {
+   "video_id": "Oa6M7k5oK6M",
+   "title": "全网最全最细Codex 零基础保姆教程｜OpenAI｜ChatGPT｜Codex｜AI工具",
+   "channel": "KK的AI笔记",
+   "duration_seconds": 982,
+   "published_at": "2026-05-21T11:29:42Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/Oa6M7k5oK6M/mqdefault.jpg",
+   "view_count": 3505,
+   "category": "工具教學",
+   "summary": "本影片針對零基礎新手完整介紹 OpenAI Codex，涵蓋安裝配置、基礎介面操作、專案實戰與常見問題處理，協助缺乏程式背景的觀眾輕鬆上手 AI Agent 工具。",
+   "tags": [
+    "Codex",
+    "OpenAI",
+    "新手教學",
+    "AI工具"
    ]
   },
   {
@@ -2858,6 +5848,550 @@
    ]
   },
   {
+   "video_id": "bqt8vpXgwL8",
+   "title": "如何付费使用Gemini 3.5 flash满血版 (教程00:43开始)",
+   "channel": "大吃一顿鲸",
+   "duration_seconds": 374,
+   "published_at": "2026-05-20T09:57:30Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/bqt8vpXgwL8/mqdefault.jpg",
+   "view_count": 323,
+   "category": "工具教學",
+   "summary": "本影片為付費使用 Gemini 3.5 Flash API 的保姆級教學。示範如何下載 Cherry Studio 客户端、設定海外網路節點、登入 Google AI Studio 取得 API 密鑰，以及完成綁卡與支付流程，順利開啟最大思考模式。",
+   "tags": [
+    "Gemini",
+    "CherryStudio",
+    "API教學",
+    "GoogleAIStudio"
+   ]
+  },
+  {
+   "video_id": "0RPVIiIcD4g",
+   "title": "【Google Antigravity CLI 實測】手把手安裝教學！從 Gemini CLI 完美過渡（含 Linux / Windows 環境設定 & GCP 驗證）",
+   "channel": "Cyrus Wong",
+   "duration_seconds": 478,
+   "published_at": "2026-05-20T05:25:16Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/0RPVIiIcD4g/mqdefault.jpg",
+   "view_count": 3326,
+   "category": "程式開發",
+   "summary": "本影片手把手帶領使用者安裝與設定全新的 Google Antigravity CLI 工具。針對香港無法直接存取 Google AI Studio 的限制，特別示範透過 Google Cloud Project 進行身分驗證，並詳細說明 Linux 與 Windows 環境下的設定技巧。",
+   "tags": [
+    "GoogleAntigravity",
+    "CLI",
+    "程式開發",
+    "GCP驗證"
+   ]
+  },
+  {
+   "video_id": "Eux3CfppoBY",
+   "title": "你可能錯過今年 Google 最大的一次反擊：Gemini × NotebookLM 整合 8 章節保母全攻略",
+   "channel": "國煜 AI 行銷實戰筆記",
+   "duration_seconds": 1633,
+   "published_at": "2026-05-19T22:00:06Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/Eux3CfppoBY/mqdefault.jpg",
+   "view_count": 86256,
+   "category": "辦公應用",
+   "summary": "本影片詳細解析 Google Gemini 與 NotebookLM 的深度整合功能。介紹如何利用全新的筆記本功能，將聊天機器人升級為涵蓋資料整理、檔案管理與內容生成的全方位工作流，協助使用者提升日常辦公與研究效率。",
+   "tags": [
+    "Gemini",
+    "NotebookLM",
+    "辦公應用",
+    "生產力工具"
+   ]
+  },
+  {
+   "video_id": "ZxQCd8MMPI8",
+   "title": "【Genspark 最新版本】一個取代10個AI工具？Genspark 最新版本直接幫你把工作做完，用過最離譜的AI，賺了不少時間，CP值情緒價值滿滿滿  EP.102",
+   "channel": "羅伊老師",
+   "duration_seconds": 227,
+   "published_at": "2026-05-19T15:26:46Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/ZxQCd8MMPI8/mqdefault.jpg",
+   "view_count": 10937,
+   "category": "工具教學",
+   "summary": "本影片實測 Genspark AI 最新版本功能，示範如何運用 Genspark Claw 自動化管理求職流程與資料檢索，幫助使用者簡化繁瑣日常工作。",
+   "tags": [
+    "Genspark",
+    "GensparkClaw",
+    "AI工具",
+    "效率提升"
+   ]
+  },
+  {
+   "video_id": "sBZOZyGheZ8",
+   "title": "Claude Code大型项目最佳实践",
+   "channel": "AI随风",
+   "duration_seconds": 1077,
+   "published_at": "2026-05-19T09:20:06Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/sBZOZyGheZ8/mqdefault.jpg",
+   "view_count": 32144,
+   "category": "程式開發",
+   "summary": "本影片結合官方最佳實踐，講解如何為大型程式庫建構適合 Claude Code 的開發環境。內容涵蓋 Harness 概念、CLAUDE.md、Hooks、Skills 與子代理等核心功能應用。",
+   "tags": [
+    "Claude Code",
+    "程式開發",
+    "AI編程",
+    "大型專案"
+   ]
+  },
+  {
+   "video_id": "3ctehY53fS8",
+   "title": "Claude Design終極新手教學 ，6大瘋狂場景實測＋4個省錢技巧｜網站、APP、動畫、行銷郵件，15分鐘上手",
+   "channel": "七七行銷筆記",
+   "duration_seconds": 771,
+   "published_at": "2026-05-19T06:47:41Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/3ctehY53fS8/mqdefault.jpg",
+   "view_count": 8652,
+   "category": "工具教學",
+   "summary": "影片提供 Claude Design 的新手入門教學，帶領觀眾實測網站、App、動畫及行銷郵件等六大應用場景，並分享四個省錢技巧，協助快速上手設計工具。",
+   "tags": [
+    "Claude Design",
+    "工具教學",
+    "UI設計",
+    "AI應用"
+   ]
+  },
+  {
+   "video_id": "fSGqiQm2JXo",
+   "title": "Gemini 2026年終極反轉：圖片生成全攻略 | 20組提示詞+專業工作流！",
+   "channel": "DMP深度學習",
+   "duration_seconds": 863,
+   "published_at": "2026-05-19T03:45:04Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/fSGqiQm2JXo/mqdefault.jpg",
+   "view_count": 11614,
+   "category": "AI 影像與影片生成",
+   "summary": "本影片介紹如何使用 Gemini 進行高效的 AI 圖片生成。影片分享了一套專業的繪圖工作流與二十組精選提示詞，幫助使用者精準控制生成結果，輕鬆製作行銷素材與視覺內容，將 Gemini 打造為個人專屬設計師。",
+   "tags": [
+    "Gemini",
+    "AI繪圖",
+    "提示詞",
+    "影像生成"
+   ]
+  },
+  {
+   "video_id": "qGe2sq2i9uo",
+   "title": "【粵語AI教學】AI新手入門！6大免費AI工具推薦｜學生＋打工仔必睇",
+   "channel": "喵喵小博士",
+   "duration_seconds": 449,
+   "published_at": "2026-05-19T01:57:08Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/qGe2sq2i9uo/mqdefault.jpg",
+   "view_count": 327,
+   "category": "工具教學",
+   "summary": "本影片專為 AI 初學者設計，以粵語詳細介紹 ChatGPT、Claude、Canva AI 等 6 款免費 AI 工具的功能特色，帶領新手輕鬆入門並提升工作與學習效率。",
+   "tags": [
+    "AI入門",
+    "ChatGPT",
+    "Claude",
+    "免費AI工具"
+   ]
+  },
+  {
+   "video_id": "w9EH50zArMk",
+   "title": "2026最新！比 Claude 還實用？Codex 完整教學，7大能力全公開",
+   "channel": "YAHA学堂",
+   "duration_seconds": 569,
+   "published_at": "2026-05-17T04:02:03Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/w9EH50zArMk/mqdefault.jpg",
+   "view_count": 7656,
+   "category": "自動化工作流",
+   "summary": "本影片全面拆解 OpenAI 桌面端 AI 代理工具 Codex 的 7 大核心能力，示範如何直接讀寫本機檔案、執行自動化排程與跨軟體操作，打造超越傳統聊天機器人的高效流程。",
+   "tags": [
+    "Codex",
+    "AI Agent",
+    "工具教學",
+    "自動化"
+   ]
+  },
+  {
+   "video_id": "QgFqVJS6QCk",
+   "title": "AI如何参与日常工作？Claude Code + Obsidian完整工作流分享！",
+   "channel": "大牙大",
+   "duration_seconds": 629,
+   "published_at": "2026-05-16T10:15:02Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/QgFqVJS6QCk/mqdefault.jpg",
+   "view_count": 5253,
+   "category": "自動化工作流",
+   "summary": "本影片分享結合 Claude Code 與 Obsidian 的完整工作流程，說明如何設定個人化檔案、建立 Skill 與 Agent，讓 AI 成為打造私人助理與管理筆記的實用工具。",
+   "tags": [
+    "Claude Code",
+    "Obsidian",
+    "工作流",
+    "AI助理"
+   ]
+  },
+  {
+   "video_id": "9RJbWhKpPqk",
+   "title": "AI 實戰教學：利用 Codex/ChatGPT 內建生圖做「自動化寫真集工作流」(自動多張圖片 AI 生圖)",
+   "channel": "阿德的電腦資訊分享",
+   "duration_seconds": 1421,
+   "published_at": "2026-05-16T04:19:28Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/9RJbWhKpPqk/mqdefault.jpg",
+   "view_count": 175,
+   "category": "自動化工作流",
+   "summary": "本影片分享利用 Codex 與 ChatGPT 內建生圖能力打造的「自動化寫真集工作流」，包含專案路徑管理、使用 Excel 批量產出提示詞，以及自動化選圖與寫真集創作實戰。",
+   "tags": [
+    "ChatGPT",
+    "Codex",
+    "AI生圖",
+    "自動化工作流"
+   ]
+  },
+  {
+   "video_id": "SJsP22EO5RQ",
+   "title": "GPT-5.5 Codex Mac App 保姆級教學：零Coding 30分鐘就整到網站？由 Idea 到 Vibe Coding 實戰 #codex #香港ai #chatgpt #ai實戰",
+   "channel": "我想用Ai賺錢",
+   "duration_seconds": 1802,
+   "published_at": "2026-05-16T02:00:06Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/SJsP22EO5RQ/mqdefault.jpg",
+   "view_count": 4702,
+   "category": "程式開發",
+   "summary": "本影片為專為零程式基礎新手打造的保姆級教學，示範如何使用 GPT-5.5 Codex Mac App 進行 Vibe Coding 實戰，指導觀眾在 30 分鐘內從構想階段直接打造出專屬網站。",
+   "tags": [
+    "Codex",
+    "Vibe Coding",
+    "網頁開發",
+    "程式開發"
+   ]
+  },
+  {
+   "video_id": "6iONJKrFs1k",
+   "title": "100%免费！Claude Code 跑本地模型，无需 API！免翻墙使用超强AI Agent｜Ollama｜CC Switch｜零度解说",
+   "channel": "零度解说",
+   "duration_seconds": 915,
+   "published_at": "2026-05-15T13:12:16Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/6iONJKrFs1k/mqdefault.jpg",
+   "view_count": 189779,
+   "category": "工具教學",
+   "summary": "本影片示範如何使用 Ollama 及 CC Switch 等工具，讓 Claude Code 在本地端運行大語言模型，達成免費且無須 API 即可使用 AI Agent 的教學操作。",
+   "tags": [
+    "Claude Code",
+    "Ollama",
+    "本地模型",
+    "工具教學"
+   ]
+  },
+  {
+   "video_id": "UMBPsjKjLRs",
+   "title": "Chrome 最新隱藏AI神功能「問問 Gemini」強到不可理喻！一鍵自動化總結、比價、做報表，工作效率提升 10 倍！【欸那個AJ】",
+   "channel": "欸那個AJ",
+   "duration_seconds": 482,
+   "published_at": "2026-05-15T11:30:21Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/UMBPsjKjLRs/mqdefault.jpg",
+   "view_count": 174653,
+   "category": "辦公應用",
+   "summary": "本影片示範 Google Chrome 最新隱藏功能「問問 Gemini」的實用操作。教學包含如何透過一鍵操作自動化完成長文總結、全網商品比價、資料整理與製作報表，幫助使用者有效提升日常網路搜尋與辦公效率。",
+   "tags": [
+    "Chrome",
+    "Gemini",
+    "辦公應用",
+    "自動化"
+   ]
+  },
+  {
+   "video_id": "qIB5HWKoUqI",
+   "title": "Gemini 零成本專業 Landing Page 兼收客戶電郵 ＋ Firebase 免費架站教學：零代碼 Vibe Coding",
+   "channel": "DMP深度學習",
+   "duration_seconds": 705,
+   "published_at": "2026-05-15T09:01:13Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/qIB5HWKoUqI/mqdefault.jpg",
+   "view_count": 2257,
+   "category": "程式開發",
+   "summary": "本影片教學如何使用 Gemini AI 的 Canvas 功能搭配 Google Firebase，進行零代碼（Vibe Coding）網頁開發。帶領使用者從零建立專業的 Landing Page 網站，並設定可收集客戶 Email 的聯絡表單與免費上線架站。",
+   "tags": [
+    "Gemini",
+    "Firebase",
+    "VibeCoding",
+    "網頁開發"
+   ]
+  },
+  {
+   "video_id": "DN7meY95LB4",
+   "title": "Gemini 引導式學習｜六年級資訊科技 - NotebookLM教學影片",
+   "channel": "Kai A",
+   "duration_seconds": 452,
+   "published_at": "2026-05-15T07:51:30Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/DN7meY95LB4/mqdefault.jpg",
+   "view_count": 42,
+   "category": "入門觀念",
+   "summary": "本影片為針對國小六年級學生設計的 AI 引導式學習與 NotebookLM 教學。說明如何運用互動式網站與 AI 助手進行課堂自學、課後複習與資訊科技概念養成，適合學生自主學習與家長陪伴練習。",
+   "tags": [
+    "Gemini",
+    "NotebookLM",
+    "入門觀念",
+    "AI教育"
+   ]
+  },
+  {
+   "video_id": "6fxgVc9TqSM",
+   "title": "論文寫到崩潰？這幾款免費AI讓你準時畢業！｜泛科學院",
+   "channel": "泛科學院",
+   "duration_seconds": 641,
+   "published_at": "2026-05-14T11:03:03Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/6fxgVc9TqSM/mqdefault.jpg",
+   "view_count": 23244,
+   "category": "辦公應用",
+   "summary": "本影片介紹適合研究生寫論文的免費 AI 工具工作流，涵蓋搜尋文獻、快速閱讀理解、研究分析、內文撰寫與引用書目管理，協助學生與研究者提升論文寫作效率。",
+   "tags": [
+    "論文寫作",
+    "AI工具",
+    "文獻整理",
+    "辦公應用"
+   ]
+  },
+  {
+   "video_id": "13JuHq4mUh8",
+   "title": "一分鐘學會 ChatGPT 職場應用｜打報告、回郵件、寫文案一次搞定｜EP09｜AI簡單學",
+   "channel": "簡單學",
+   "duration_seconds": 158,
+   "published_at": "2026-05-14T00:09:58Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/13JuHq4mUh8/mqdefault.jpg",
+   "view_count": 2,
+   "category": "辦公應用",
+   "summary": "本影片提供快速上手教學，透過四個實際職場情境示範如何運用 ChatGPT 自動回覆郵件、整理會議記錄、潤色報告與撰寫開場白，協助上班族有效提升工作效率。",
+   "tags": [
+    "ChatGPT",
+    "職場應用",
+    "辦公效率",
+    "提示詞"
+   ]
+  },
+  {
+   "video_id": "a0eKuZdSGGI",
+   "title": "ChatGPT Images 2.0 生成簡報最強攻略：AI 生成 PPT 自由編輯？",
+   "channel": "百香果工作頻道",
+   "duration_seconds": 213,
+   "published_at": "2026-05-13T11:00:00Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/a0eKuZdSGGI/mqdefault.jpg",
+   "view_count": 1414,
+   "category": "辦公應用",
+   "summary": "本影片實測利用 ChatGPT Images 2.0 模型製作簡報的方法，分享三步驟萬用提示詞生成詳細大綱，並介紹結合 PDF 編輯工具將圖片式簡報轉為可自由編輯 PPT 的技巧。",
+   "tags": [
+    "ChatGPT",
+    "AI簡報",
+    "PPT製作",
+    "辦公應用"
+   ]
+  },
+  {
+   "video_id": "B9OSVCTDA5o",
+   "title": "在 GCP 上用 Claude Code + Cloud Models 打造應用 | 完整 Demo 中文解說",
+   "channel": "Cheng Jung Chen",
+   "duration_seconds": 1584,
+   "published_at": "2026-05-13T09:25:32Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/B9OSVCTDA5o/mqdefault.jpg",
+   "view_count": 43,
+   "category": "程式開發",
+   "summary": "本影片透過中文實作解說，示範如何結合 Claude Code 與 Google Cloud 平台上的 Cloud Models，進行應用程式的開發、建置與部署完整流程。",
+   "tags": [
+    "Claude Code",
+    "GCP",
+    "程式開發",
+    "Cloud Models"
+   ]
+  },
+  {
+   "video_id": "o3jlxoVa_1g",
+   "title": "【NotebookLM 教學】6個必學隱藏用法：配 Gemini Canvas 10分鐘由資料變網站（廣東話）",
+   "channel": "Tim Chan AI",
+   "duration_seconds": 944,
+   "published_at": "2026-05-13T08:00:32Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/o3jlxoVa_1g/mqdefault.jpg",
+   "view_count": 29473,
+   "category": "工具教學",
+   "summary": "本影片提供 NotebookLM 的六個隱藏實用技巧，並示範如何與 Gemini Canvas 結合使用。透過廣東話詳細教學，教導使用者如何將研究資料快速轉化為可執行的網站與報告，節省大量資料彙整時間。",
+   "tags": [
+    "NotebookLM",
+    "GeminiCanvas",
+    "工具教學",
+    "廣東話"
+   ]
+  },
+  {
+   "video_id": "5IuqqZY_FtQ",
+   "title": "AI總是答非所問？7個神奇提問公式，讓ChatGPT、Claude聽懂你的話｜立即見效",
+   "channel": "Ken AI 不難",
+   "duration_seconds": 328,
+   "published_at": "2026-05-13T00:25:24Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/5IuqqZY_FtQ/mqdefault.jpg",
+   "view_count": 26,
+   "category": "入門觀念",
+   "summary": "本影片分享 7 個實用的 AI 提問公式與 Prompt 技巧，幫助觀眾掌握如何與 ChatGPT、Claude 等大語言模型精準溝通，避免答非所問並讓 AI 給出理想的回答。",
+   "tags": [
+    "Prompt技巧",
+    "提問公式",
+    "ChatGPT",
+    "入門觀念"
+   ]
+  },
+  {
+   "video_id": "KgL-VE8xIZw",
+   "title": "Claude Code 2.1 新功能有哪些？/teleport、context:fork、/goal 整理給你看（2026）",
+   "channel": "AI Day",
+   "duration_seconds": 396,
+   "published_at": "2026-05-12T12:59:06Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/KgL-VE8xIZw/mqdefault.jpg",
+   "view_count": 115,
+   "category": "工具教學",
+   "summary": "影片整理並解析 Claude Code 2.1 的全新功能，包含 /teleport、context:fork 與 /goal 等指令說明，幫助使用者快速了解改版差異與實際應用情境。",
+   "tags": [
+    "Claude Code",
+    "工具教學",
+    "AI指令",
+    "新功能介紹"
+   ]
+  },
+  {
+   "video_id": "XjQ_3XL1CNw",
+   "title": "Gemini免费使用，谷歌云$300赠金零成本实测教程 | Agent Studio | Agent Platform | Google",
+   "channel": "工程師Tim",
+   "duration_seconds": 515,
+   "published_at": "2026-05-12T12:36:38Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/XjQ_3XL1CNw/mqdefault.jpg",
+   "view_count": 2156,
+   "category": "工具教學",
+   "summary": "本影片介紹如何免費利用 Google Cloud 的 300 美元新用戶贈金來調用 Gemini 服務。實測教學包含登入 Google Agent Studio 平台、配置 Agent Platform 並存取 Gemini 與其他 AI 模型的操作流程。",
+   "tags": [
+    "Gemini",
+    "GoogleCloud",
+    "AgentStudio",
+    "工具教學"
+   ]
+  },
+  {
+   "video_id": "z9YoXdK9uDM",
+   "title": "Claude 寫作應用全攻略：Email、文案、報告一次搞定【AI工具教室#06】",
+   "channel": "AI工具教室",
+   "duration_seconds": 313,
+   "published_at": "2026-05-12T12:01:40Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/z9YoXdK9uDM/mqdefault.jpg",
+   "view_count": 49,
+   "category": "辦公應用",
+   "summary": "影片介紹如何使用 Claude 打造高效寫作流程，分享黃金提示詞框架，並透過商業 Email、報告摘要及社群文案等實例示範，教授潤稿與修飾技巧。",
+   "tags": [
+    "Claude",
+    "辦公應用",
+    "AI寫作",
+    "提示詞"
+   ]
+  },
+  {
+   "video_id": "Kigo8LnrVEI",
+   "title": "Gemini in Chrome 咁樣用先最有效！一堆旅行 Tabs + YouTube 影片，變成旅行行程表 | Google Gemini 使用技巧",
+   "channel": "Dr. Jackei 科技生活日誌",
+   "duration_seconds": 756,
+   "published_at": "2026-05-12T11:59:56Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/Kigo8LnrVEI/mqdefault.jpg",
+   "view_count": 12397,
+   "category": "辦公應用",
+   "summary": "本影片展示如何善用 Gemini in Chrome 進行多頁面資料整理與行程規劃。示範透過語法讀取當前網頁、引用多個標籤頁與 YouTube 影片，將分散的旅遊資訊快速轉化為條理分明的四天三夜行程表。",
+   "tags": [
+    "Gemini",
+    "Chrome",
+    "行程規劃",
+    "辦公應用"
+   ]
+  },
+  {
+   "video_id": "3O2hMqbVMRo",
+   "title": "ChatGPT Codex 教學：打造國研院風格的 AI 簡報",
+   "channel": "allen chuang",
+   "duration_seconds": 4264,
+   "published_at": "2026-05-12T07:58:35Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/3O2hMqbVMRo/mqdefault.jpg",
+   "view_count": 189,
+   "category": "辦公應用",
+   "summary": "本影片展示如何使用 ChatGPT Codex 製作特定風格的 AI 簡報，教導觀眾結合 Codex 的操作指令與版面設計提示，快速打造符合國研院專業視覺風格的簡報內容。",
+   "tags": [
+    "ChatGPT",
+    "Codex",
+    "AI簡報",
+    "辦公應用"
+   ]
+  },
+  {
+   "video_id": "JrJycoEO2_Q",
+   "title": "Claude Design 完整教學：從簡報、App 介面設計，到品牌設計系統",
+   "channel": "漢克蔡 | Ai 集",
+   "duration_seconds": 727,
+   "published_at": "2026-05-11T11:57:30Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/JrJycoEO2_Q/mqdefault.jpg",
+   "view_count": 9089,
+   "category": "工具教學",
+   "summary": "本影片為 Claude Design 的完整應用教學，涵蓋從簡報製作、App 介面設計到建立品牌設計系統的實務操作，幫助使用者運用 AI 降低產品設計的門檻。",
+   "tags": [
+    "Claude Design",
+    "UI設計",
+    "工具教學",
+    "設計系統"
+   ]
+  },
+  {
+   "video_id": "gXmI8gFioY4",
+   "title": "【2026最新】Claude Desktop使用教程，操作简单，支持使用第三方模型api，claude桌面版使用deepseek,Qwen等自定义api，支持windows/macos",
+   "channel": "天天科技教学",
+   "duration_seconds": 508,
+   "published_at": "2026-05-11T08:59:50Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/gXmI8gFioY4/mqdefault.jpg",
+   "view_count": 10380,
+   "category": "工具教學",
+   "summary": "本影片教學如何安裝並設定 Claude Desktop 桌面版，介紹如何跳過登入步驟並串接 DeepSeek 與 Qwen 等第三方模型的 API，支援 Windows 與 macOS。",
+   "tags": [
+    "Claude Desktop",
+    "工具教學",
+    "DeepSeek",
+    "API串接"
+   ]
+  },
+  {
+   "video_id": "k4WORgD0XA4",
+   "title": "【Gemini CLI 教學 】手把手安裝教學 體驗基礎 Vibe coding，讓 AI 陪你寫出專屬英文單字軟體！",
+   "channel": "YuNo老師",
+   "duration_seconds": 1482,
+   "published_at": "2026-05-11T04:24:19Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/k4WORgD0XA4/mqdefault.jpg",
+   "view_count": 1128,
+   "category": "程式開發",
+   "summary": "本影片帶來 Gemini CLI 的手把手安裝與實作教學。從設定 Node.js 與 Python 虛擬環境開始，示範如何以 Vibe Coding 的方式引導 AI 從無到有開發出一款英文單字學習軟體，並包含程式除錯的技巧。",
+   "tags": [
+    "GeminiCLI",
+    "VibeCoding",
+    "程式開發",
+    "AI寫程式"
+   ]
+  },
+  {
+   "video_id": "gw8sI9bbIvc",
+   "title": "【2026最新】ChatGPT最全教程！15个使用技巧，一次掌握基础+进阶玩法，小白都能快速上手。赚钱工作快10倍，超越90%的人。",
+   "channel": "松小鼠呀",
+   "duration_seconds": 868,
+   "published_at": "2026-05-10T14:06:11Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/gw8sI9bbIvc/mqdefault.jpg",
+   "view_count": 5352,
+   "category": "入門觀念",
+   "summary": "本影片整理了 15 個 ChatGPT 的實用技巧，從基礎操作到進階應用玩法一次打包，幫助 AI 初學者快速熟悉工具，並將其靈活運用於提升工作效率與日常情境。",
+   "tags": [
+    "ChatGPT",
+    "使用技巧",
+    "新手教學",
+    "工具教學"
+   ]
+  },
+  {
+   "video_id": "fyMKWqm3DbA",
+   "title": "ChatGPT Images 2.0 王炸應用登場！AI不只會畫圖，竟開始幫你做設計了？ 這支影片讓你增加一甲子設計功力!",
+   "channel": "老玩童 玩AI",
+   "duration_seconds": 547,
+   "published_at": "2026-05-10T14:02:46Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/fyMKWqm3DbA/mqdefault.jpg",
+   "view_count": 2124,
+   "category": "AI 影像與影片生成",
+   "summary": "本影片深度拆解 ChatGPT Images 2.0 的新功能，示範如何運用 AI 進行海報、菜單與 UI 介面設計，並教學 Prompt 提示詞技巧與商業變現實務，對比其他生成工具的優劣。",
+   "tags": [
+    "ChatGPT",
+    "AI繪圖",
+    "設計應用",
+    "AI影像生成"
+   ]
+  },
+  {
    "video_id": "uE1XDwDOtbU",
    "title": "重大更新！新版Gemini合體NotebookLM打造地表最強 AI 知識庫，5大絕佳用法 + 多模態輸出全公開！建立任何格式檔案｜整理聊天記錄｜超強記憶體，何時使用哪個工具一次告訴你！手把手帶你做！",
    "channel": "孔老師AI研習社",
@@ -2872,6 +6406,57 @@
     "NotebookLM",
     "AI知識庫",
     "Google AI"
+   ]
+  },
+  {
+   "video_id": "TlLx4Iy6n2Q",
+   "title": "不得不裝的 Claude Code 代理工具｜GitHub 萬星應用",
+   "channel": "偉代碼 Rick Hau",
+   "duration_seconds": 680,
+   "published_at": "2026-05-08T13:06:22Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/TlLx4Iy6n2Q/mqdefault.jpg",
+   "view_count": 27439,
+   "category": "工具教學",
+   "summary": "影片分享一款免費的 Claude Code 代理工具，介紹如何安裝並設定連結 NVIDIA 及 OpenRouter 等平台提供的免費模型，讓使用者順利使用 AI 輔助開發。",
+   "tags": [
+    "Claude Code",
+    "工具教學",
+    "代理工具",
+    "NVIDIA API"
+   ]
+  },
+  {
+   "video_id": "3l25EIZKqN0",
+   "title": "Gemini、ChatGPT成日答非所問？學識「6大元素」，寫出最強Prompt提示詞！ #ai教學 #ai工具 #人工智能",
+   "channel": "彼德 · 生活工程師",
+   "duration_seconds": 963,
+   "published_at": "2026-05-08T12:00:12Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/3l25EIZKqN0/mqdefault.jpg",
+   "view_count": 274,
+   "category": "入門觀念",
+   "summary": "本影片解構撰寫高質量 AI 提示詞（Prompt）的核心技巧。深入剖析各大科技巨頭推廣的提示詞框架與 CRAFTED 進階結構，教導使用者透過六大要素精準引導 Gemini 與 ChatGPT 產出理想回應。",
+   "tags": [
+    "Prompt",
+    "提示詞",
+    "Gemini",
+    "入門觀念"
+   ]
+  },
+  {
+   "video_id": "vrsuOrfD8ms",
+   "title": "ChatGPT 這次升級太誇張…這 10 個生圖應用，沒看過千萬別說你會用 AI！【欸那個AJ】",
+   "channel": "欸那個AJ",
+   "duration_seconds": 739,
+   "published_at": "2026-05-08T11:38:22Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/vrsuOrfD8ms/mqdefault.jpg",
+   "view_count": 133221,
+   "category": "AI 影像與影片生成",
+   "summary": "本影片實測 ChatGPT 最新的圖片生成與編輯功能，公開 10 種震撼的實用生圖情境，包含居家裝修設計、老照片高畫質修復與數據視覺化，展現 AI 影像處理的強大實力。",
+   "tags": [
+    "ChatGPT",
+    "AI生圖",
+    "照片修復",
+    "AI影像生成"
    ]
   },
   {
@@ -2892,6 +6477,40 @@
    ]
   },
   {
+   "video_id": "7q2jUth57X8",
+   "title": "Claude Code 怎麼使用 Gemini？Google Gemini API Key 申請教學",
+   "channel": "AgentCrew Academy",
+   "duration_seconds": 443,
+   "published_at": "2026-05-07T11:30:08Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/7q2jUth57X8/mqdefault.jpg",
+   "view_count": 3096,
+   "category": "程式開發",
+   "summary": "本影片教學如何在 Claude Code 中整合 Google Gemini 模型以處理長文件任務。詳細演示在 Google AI Studio 申請 API Key 的步驟、金鑰安全守則，以及如何在環境變數中設定金鑰供開發使用。",
+   "tags": [
+    "ClaudeCode",
+    "GeminiAPI",
+    "GoogleAIStudio",
+    "程式開發"
+   ]
+  },
+  {
+   "video_id": "j5fWb9lkj4s",
+   "title": "我做了一個 AI 語音Chatbot，最新Gemini Flash Live 3.1，香港無須 VPN 即玩，未來中小企公司 AI 客服 (附源碼)",
+   "channel": "Hello AI | 快速應用AI",
+   "duration_seconds": 914,
+   "published_at": "2026-05-07T11:01:13Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/j5fWb9lkj4s/mqdefault.jpg",
+   "view_count": 6097,
+   "category": "程式開發",
+   "summary": "本影片展示如何利用最新 Gemini Flash Live 打造 AI 語音對話機器人。影片演示無須 VPN 即時語音互動的效果，並探討其在中小企 AI 自動客服的應用場景，同時提供開發源碼供學習者參考實作。",
+   "tags": [
+    "Gemini",
+    "AI客服",
+    "語音機器人",
+    "程式開發"
+   ]
+  },
+  {
    "video_id": "r5M0W66xcGc",
    "title": "別再小看本地 AI！Gemma 4 + LM Studio 讓你的電腦變成超級離線 AI 工作站，而且完全免費 (手機也能使用喔！)",
    "channel": "PAPAYA 電腦教室",
@@ -2906,6 +6525,23 @@
     "Gemma 4",
     "本地AI",
     "工具教學"
+   ]
+  },
+  {
+   "video_id": "6lWbfTJKe3o",
+   "title": "Claude Code 零基础终极教程：安装、换模型、插件、Hooks、Skills、Subagents、实战项目一次讲透！",
+   "channel": "木子不写代码",
+   "duration_seconds": 3180,
+   "published_at": "2026-05-07T08:00:09Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/6lWbfTJKe3o/mqdefault.jpg",
+   "view_count": 46060,
+   "category": "程式開發",
+   "summary": "本影片提供 Claude Code 的零基礎系統化教學，從安裝設定、接入相容模型、使用 Tools、Hooks、Skills 與子代理，並透過實戰導引建構一個 AI 網頁應用。",
+   "tags": [
+    "Claude Code",
+    "程式開發",
+    "AI Agent",
+    "實戰教學"
    ]
   },
   {
@@ -2926,6 +6562,431 @@
    ]
   },
   {
+   "video_id": "VW6R-501CBI",
+   "title": "跟 ChatGPT 聊一句，竟然能生出這種等級的資訊圖表？(實測 4 大情境、附萬用提示詞)",
+   "channel": "P & H",
+   "duration_seconds": 498,
+   "published_at": "2026-05-06T11:15:47Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/VW6R-501CBI/mqdefault.jpg",
+   "view_count": 5001,
+   "category": "辦公應用",
+   "summary": "本影片介紹利用 ChatGPT Images 2.0 生成精美資訊圖表的方法，實測 Excel 公式表、步驟圖解、健康宣導圖與 SWOT 分析等四大情境，並提供可直接套用的萬用提示詞。",
+   "tags": [
+    "ChatGPT",
+    "資訊圖表",
+    "萬用提示詞",
+    "辦公應用"
+   ]
+  },
+  {
+   "video_id": "3bL5JHixDw0",
+   "title": "AI 產品攝影教學 告別傳統攝影棚！：ChatGPT + Kling 快速製作電商產品展示片，提升轉化率！",
+   "channel": "ekcheungAI",
+   "duration_seconds": 304,
+   "published_at": "2026-05-06T09:00:09Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/3bL5JHixDw0/mqdefault.jpg",
+   "view_count": 122,
+   "category": "AI 影像與影片生成",
+   "summary": "本影片教導電商賣家與創作者結合 ChatGPT 與 Kling AI 製作專業級產品廣告片，示範如何運用 ChatGPT 構思畫面分鏡與提示詞，再透過 Kling 生成流暢的產品展示影片。",
+   "tags": [
+    "ChatGPT",
+    "Kling",
+    "AI影片",
+    "電商廣告"
+   ]
+  },
+  {
+   "video_id": "OZcvP-2Smuw",
+   "title": "Gemini Canvas簡報教學：用3個提示詞技巧做出財務分析投影片",
+   "channel": "贊贊小屋",
+   "duration_seconds": 426,
+   "published_at": "2026-05-06T07:27:59Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/OZcvP-2Smuw/mqdefault.jpg",
+   "view_count": 675,
+   "category": "辦公應用",
+   "summary": "本影片以台積電月營收資料為例，教學如何運用 Gemini Canvas 製作專業的財務分析簡報。詳細示範輸入需求說明與原始資料的技巧，並分享設定風格、版面與避免單位陷阱的三大精修提示詞。",
+   "tags": [
+    "GeminiCanvas",
+    "簡報製作",
+    "辦公應用",
+    "財務分析"
+   ]
+  },
+  {
+   "video_id": "W_ngHkQAV3Y",
+   "title": "【AI教學】ChatGPT 與 OpenAI Codex 個人化自訂指令與記憶設定教學！客製化 ChatGPT 回覆、風格跟語氣！",
+   "channel": "科技兔",
+   "duration_seconds": 218,
+   "published_at": "2026-05-06T06:38:06Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/W_ngHkQAV3Y/mqdefault.jpg",
+   "view_count": 222,
+   "category": "工具教學",
+   "summary": "本影片介紹 ChatGPT 與 OpenAI Codex 的個人化自訂指令與記憶設定功能，教導觀眾如何調整 AI 的回覆風格、語態與背景偏好，打造高度符合個人習慣的客製化助手。",
+   "tags": [
+    "ChatGPT",
+    "Codex",
+    "自訂指令",
+    "工具教學"
+   ]
+  },
+  {
+   "video_id": "r-CGDAGeXLU",
+   "title": "全网最全！60分钟全面掌握Claude Code~【附完整文档】",
+   "channel": "秋芝2046",
+   "duration_seconds": 3369,
+   "published_at": "2026-05-05T20:19:31Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/r-CGDAGeXLU/mqdefault.jpg",
+   "view_count": 85326,
+   "category": "程式開發",
+   "summary": "影片為 60 分鐘的 Claude Code 全方位教學，詳細解說這款 AI 程式開發工具的各項核心功能與實務操作技巧，並隨附完整文件幫助新手快速掌握。",
+   "tags": [
+    "Claude Code",
+    "程式開發",
+    "AI編程",
+    "教學指南"
+   ]
+  },
+  {
+   "video_id": "UFY-KYWjEg0",
+   "title": "【Cowork 教學】你已經畀緊 $20 但完全冇用過嘅 Claude 功能，一人公司請 3 個 AI 員工（廣東話）",
+   "channel": "Tim Chan AI",
+   "duration_seconds": 519,
+   "published_at": "2026-05-05T11:10:44Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/UFY-KYWjEg0/mqdefault.jpg",
+   "view_count": 2104,
+   "category": "辦公應用",
+   "summary": "影片以廣東話講解 Claude Cowork 模式的操作教學，示範如何運用 AI 員工建立簡報、企劃書與社群內容，協助一人公司與自由工作者提升辦公效率。",
+   "tags": [
+    "Claude Cowork",
+    "辦公應用",
+    "廣東話教學",
+    "AI助理"
+   ]
+  },
+  {
+   "video_id": "COQ2GPhxNbM",
+   "title": "Claude Code 国内使用教程，新手入门教学，claude code windows安装教程，对接qwen3/deepseek v4模型，claude ai 使用教学",
+   "channel": "科技分享",
+   "duration_seconds": 1186,
+   "published_at": "2026-05-05T10:20:03Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/COQ2GPhxNbM/mqdefault.jpg",
+   "view_count": 30472,
+   "category": "工具教學",
+   "summary": "本影片為 Claude Code 的新手入門教學，演示在 Windows 環境下的安裝步驟，並說明如何對接國內 Qwen3 與 DeepSeek v4 等大模型進行實務操作。",
+   "tags": [
+    "Claude Code",
+    "工具教學",
+    "DeepSeek",
+    "環境設定"
+   ]
+  },
+  {
+   "video_id": "g5Zr15yaQVw",
+   "title": "課程總覽 【AI × Excel 實務應用：用ChatGPT幫你寫公式、找錯誤與資料整理】",
+   "channel": "窩課360",
+   "duration_seconds": 132,
+   "published_at": "2026-05-05T02:05:32Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/g5Zr15yaQVw/mqdefault.jpg",
+   "view_count": 64,
+   "category": "辦公應用",
+   "summary": "本影片介紹如何將 ChatGPT 作為 Excel 助手，教學涵蓋撰寫複雜函數公式、檢查資料格式錯誤、執行資料整理與日期計算等實務情境，協助職場人士大幅提升資料處理效率。",
+   "tags": [
+    "ChatGPT",
+    "Excel",
+    "辦公應用",
+    "公式生成"
+   ]
+  },
+  {
+   "video_id": "J8iJjXpyNp8",
+   "title": "【GPT、Gemini教學】如何用AI製作英文單字卡｜複製貼上1分鐘完成",
+   "channel": "恰恰ai實用課",
+   "duration_seconds": 492,
+   "published_at": "2026-05-04T17:15:02Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/J8iJjXpyNp8/mqdefault.jpg",
+   "view_count": 506,
+   "category": "辦公應用",
+   "summary": "本影片教導如何利用 ChatGPT 與 Gemini 快速製作可列印的英文單字學習卡。透過複製貼上預設提示詞，一分鐘內即可自動生成指定難度與主題的單字卡圖片，方便學習與教學使用。",
+   "tags": [
+    "Gemini",
+    "ChatGPT",
+    "單字卡",
+    "辦公應用"
+   ]
+  },
+  {
+   "video_id": "tfeCwDT-5m0",
+   "title": "Codex保姆級完整教學：從入門到進階，自動生成內容、網頁、影片和App，快速學會指揮你的超級AI Agent #chatgpt #codex",
+   "channel": "學長Ethan",
+   "duration_seconds": 1795,
+   "published_at": "2026-05-04T14:02:58Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/tfeCwDT-5m0/mqdefault.jpg",
+   "view_count": 262943,
+   "category": "自動化工作流",
+   "summary": "本影片為 Codex AI Agent 的完整指南，從基礎入門介紹至進階應用，示範如何指揮 Codex 自動化生成文本內容、網頁、影片與應用程式，全面釋放 AI 智能體的工作潛能。",
+   "tags": [
+    "Codex",
+    "AI Agent",
+    "自動化",
+    "工具教學"
+   ]
+  },
+  {
+   "video_id": "4Sev-e0jndA",
+   "title": "Google Gemini 全流程教學",
+   "channel": "GPT07 Chat",
+   "duration_seconds": 6394,
+   "published_at": "2026-05-04T01:30:32Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/4Sev-e0jndA/mqdefault.jpg",
+   "view_count": 2750,
+   "category": "工具教學",
+   "summary": "本影片提供 Google Gemini 的全流程操作教學。從基礎介面導覽、功能設定到實際應用場景進行系統化解說，協助初學者全面掌握 Gemini 的各項核心功能與基本使用技巧。",
+   "tags": [
+    "Gemini",
+    "工具教學",
+    "新手指南",
+    "GoogleAI"
+   ]
+  },
+  {
+   "video_id": "-LbzVPED938",
+   "title": "Claude Cowork這7招實測｜2026 Claude 必學教程 | 別再把它當聊天機器人！讓Cowork接管你的電腦",
+   "channel": "YAHA学堂",
+   "duration_seconds": 793,
+   "published_at": "2026-05-04T00:30:01Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/-LbzVPED938/mqdefault.jpg",
+   "view_count": 35382,
+   "category": "自動化工作流",
+   "summary": "本影片實測 Claude Cowork 的七大實用技巧，包含單據自動轉 Excel、自動回覆郵件、將工作流封裝為 Skill 及設定排程任務，實現電腦自動化運作。",
+   "tags": [
+    "Claude Cowork",
+    "自動化工作流",
+    "辦公應用",
+    "AI技巧"
+   ]
+  },
+  {
+   "video_id": "a0U62XeQqig",
+   "title": "我用 AI 做動畫的完整流程｜Claude、ChatGPT、HTML 動畫一次搞定",
+   "channel": "從零到上架",
+   "duration_seconds": 863,
+   "published_at": "2026-05-03T14:30:01Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/a0U62XeQqig/mqdefault.jpg",
+   "view_count": 18984,
+   "category": "AI 影像與影片生成",
+   "summary": "本影片示範如何結合 Claude 與 ChatGPT，不需編寫程式即可透過 HTML5 與 CSS 動畫製作高品質動畫，涵蓋 Prompt 設計、配色、圖片素材及旁白對嘴流程。",
+   "tags": [
+    "Claude",
+    "ChatGPT",
+    "HTML5動畫",
+    "AI動畫"
+   ]
+  },
+  {
+   "video_id": "kSgxHy-mqxI",
+   "title": "Gemini 重要更新！合體 NotebookLM +新版多模態輸出教學，一次生成多種格式｜5大高效工作應用 省下80％來回查找時間｜學習更方便",
+   "channel": "大有牧森 Austin Chou",
+   "duration_seconds": 1050,
+   "published_at": "2026-05-03T13:01:21Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/kSgxHy-mqxI/mqdefault.jpg",
+   "view_count": 335541,
+   "category": "自動化工作流",
+   "summary": "本影片教學如何活用整合 NotebookLM 的 Gemini 全新功能。介紹多模態輸出技巧，示範如何一次生成多種檔案格式並自動存入雲端硬碟，建立涵蓋資料查找與網頁生成的高效 AI 工作流。",
+   "tags": [
+    "Gemini",
+    "NotebookLM",
+    "自動化工作流",
+    "生產力"
+   ]
+  },
+  {
+   "video_id": "HLe-mn5CPhM",
+   "title": "AI40 | 用ChatGPT Image2做LINE貼圖！手機完整製作流程與上架教學  | Meiko貼圖魔法工具  #chatgpt #gemini",
+   "channel": "Meiko微課頻道",
+   "duration_seconds": 926,
+   "published_at": "2026-05-03T12:00:50Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/HLe-mn5CPhM/mqdefault.jpg",
+   "view_count": 15973,
+   "category": "AI 影像與影片生成",
+   "summary": "本影片詳細介紹如何運用 ChatGPT Image2 在手機上製作專屬 LINE 貼圖，並透過線上工具進行去背、裁剪與去雜點，帶領觀看者一步步完成上架與販售流程。",
+   "tags": [
+    "ChatGPT",
+    "LINE貼圖",
+    "AI繪圖",
+    "貼圖上架"
+   ]
+  },
+  {
+   "video_id": "TLmA2ygclvQ",
+   "title": "202604 網傳#NotebookLM（#智慧筆記本，#Gemini 就有） 備課研究好幫手：AI 協助教學資料整理與應用（會產生語音摘錄、Podcast、影片）",
+   "channel": "TKT-TV一貫道道親社會服務網路電視台",
+   "duration_seconds": 166,
+   "published_at": "2026-05-03T00:35:27Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/TLmA2ygclvQ/mqdefault.jpg",
+   "view_count": 104,
+   "category": "辦公應用",
+   "summary": "本影片介紹如何運用 NotebookLM 與 Gemini 協助備課與研究工作。教學展示如何透過 AI 整理教學資料，並自動生成語音摘錄、Podcast 以及影片等多元教材，大幅提升資料整理效率。",
+   "tags": [
+    "NotebookLM",
+    "Gemini",
+    "辦公應用",
+    "教學備課"
+   ]
+  },
+  {
+   "video_id": "KI-TXDFPKU4",
+   "title": "iPAS AI 應用規劃師中級認證科目三：Claude 相關介紹及考題",
+   "channel": "AI live & life",
+   "duration_seconds": 591,
+   "published_at": "2026-05-03T00:00:24Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/KI-TXDFPKU4/mqdefault.jpg",
+   "view_count": 72,
+   "category": "入門觀念",
+   "summary": "影片針對 iPAS 中級 AI 應用規劃師認證，解析 Claude 模型的核心技術如體制 AI 與駕馭工程，並結合情境試題剖析機器學習治理與系統架構應用。",
+   "tags": [
+    "iPAS認證",
+    "Claude",
+    "入門觀念",
+    "AI檢定"
+   ]
+  },
+  {
+   "video_id": "rEYXPEzStY4",
+   "title": "學校不教的 AI 魔法：如何用 ChatGPT 打造個人專屬家教？ #YouTube #AI #教育科技",
+   "channel": "阿卿的藝想空間",
+   "duration_seconds": 508,
+   "published_at": "2026-05-02T05:45:03Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/rEYXPEzStY4/mqdefault.jpg",
+   "view_count": 91,
+   "category": "工具教學",
+   "summary": "本影片分享如何運用 ChatGPT 打造個人專屬 AI 家教，透過蘇格拉底式引導法與精準提示詞設定，協助學生進行個人化學習並突破卡關，提升教育與學習效能。",
+   "tags": [
+    "ChatGPT",
+    "提示詞",
+    "AI家教",
+    "教育科技"
+   ]
+  },
+  {
+   "video_id": "w1M9tS7oyiU",
+   "title": "13分鐘搞懂付費Claude全部功能｜核心功能完整介紹！",
+   "channel": "李厂长来了",
+   "duration_seconds": 775,
+   "published_at": "2026-05-02T03:00:59Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/w1M9tS7oyiU/mqdefault.jpg",
+   "view_count": 27230,
+   "category": "工具教學",
+   "summary": "影片全面拆解付費版 Claude 的核心功能，比較其與免費版的差異，並示範如何在寫作、資料整理及研究等場景發揮 AI 效益，評估升級價值。",
+   "tags": [
+    "Claude",
+    "工具教學",
+    "付費版比較",
+    "效率提升"
+   ]
+  },
+  {
+   "video_id": "DPjqsKEsjh0",
+   "title": "🚀🚀DeepSeek V4发布！比Claude便宜数十倍，能无缝接入Claude APP吗？Claude vs Codex vs Gemini vs Deepseek制作PPT大比拼🔥🔥",
+   "channel": "AI雷达站",
+   "duration_seconds": 708,
+   "published_at": "2026-05-01T04:40:04Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/DPjqsKEsjh0/mqdefault.jpg",
+   "view_count": 211,
+   "category": "工具教學",
+   "summary": "影片實測將 DeepSeek V4 接入 Claude Desktop 桌面應用的可行性，評估成本差異，並進行多款 AI 模型在 PPT 製作能力上的比較與示範。",
+   "tags": [
+    "DeepSeek",
+    "Claude Desktop",
+    "工具教學",
+    "PPT製作"
+   ]
+  },
+  {
+   "video_id": "6PJ-Jz74VIk",
+   "title": "Novi AI接入了 ChatGPT Image 2 + Seedance 2.0 AI短劇不再崩壞！一鍵做出電影級動畫短劇，連新手都能上手！角色一致、劇情流暢、爆款影片直接生成！",
+   "channel": "Tracy AI小妹",
+   "duration_seconds": 568,
+   "published_at": "2026-05-01T04:00:06Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/6PJ-Jz74VIk/mqdefault.jpg",
+   "view_count": 6328,
+   "category": "AI 影像與影片生成",
+   "summary": "本影片介紹 Novi AI 平台整合 ChatGPT Image 2 與 Seedance 2.0 的操作教學，說明如何一鍵生成角色一致、畫面連貫且流暢的電影級 AI 動畫短劇。",
+   "tags": [
+    "Novi AI",
+    "AI短劇",
+    "Seedance",
+    "AI動畫"
+   ]
+  },
+  {
+   "video_id": "C1Ns72EBirg",
+   "title": "【最完整講解】1分鐘用 ChatGPT 製作 LINE 貼圖並上架賺錢！2026 最新 AI 教學 ｜Gemini | AI繪圖 | 蘋果妹",
+   "channel": "蘋果妹",
+   "duration_seconds": 513,
+   "published_at": "2026-05-01T03:00:22Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/C1Ns72EBirg/mqdefault.jpg",
+   "view_count": 170610,
+   "category": "AI 影像與影片生成",
+   "summary": "本影片示範如何使用 ChatGPT 最新功能搭配提示詞模板與去背工具，快速生成高質感圖片並製作成 LINE 貼圖，輕鬆完成圖片裁切與上架流程。",
+   "tags": [
+    "ChatGPT",
+    "LINE貼圖",
+    "AI繪圖",
+    "副業賺錢"
+   ]
+  },
+  {
+   "video_id": "W0dq6Ek-eBk",
+   "title": "Samsung Galaxy S26 Ultra 內置 3大 AI 〡Gemini Perplexity Galaxy AI 各有強項〡全面教學用盡 AI〡內置 Gemini 勁過App版？功能差異？",
+   "channel": "GadgetGang HK",
+   "duration_seconds": 549,
+   "published_at": "2026-04-29T13:00:06Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/W0dq6Ek-eBk/mqdefault.jpg",
+   "view_count": 27540,
+   "category": "工具教學",
+   "summary": "本影片示範如何在 Samsung Galaxy S26 系列手機上操作深度整合的 Gemini、Perplexity 與 Galaxy AI。透過實際功能教學，示範跨應用處理文字、圖片與語音助手技巧，用盡內置 AI 功能。",
+   "tags": [
+    "Gemini",
+    "GalaxyAI",
+    "Perplexity",
+    "工具教學"
+   ]
+  },
+  {
+   "video_id": "6D23VAXr3Jc",
+   "title": "『你會了嗎？』90%的人用 Claude Design 都卡在這裡",
+   "channel": "BPW 學習日誌",
+   "duration_seconds": 845,
+   "published_at": "2026-04-29T12:30:16Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/6D23VAXr3Jc/mqdefault.jpg",
+   "view_count": 1461,
+   "category": "工具教學",
+   "summary": "影片深入教學 Claude Design 的操作技巧，從建立品牌設計系統開始，示範社群封面、簡報製作以及 iOS App 介面與原型的設計實作。",
+   "tags": [
+    "Claude Design",
+    "UI設計",
+    "工具教學",
+    "原型設計"
+   ]
+  },
+  {
+   "video_id": "qLMKZC7tb5I",
+   "title": "桌面版 Claude 必學的基礎設定！你都學會了嗎？｜泛科學院",
+   "channel": "泛科學院",
+   "duration_seconds": 178,
+   "published_at": "2026-04-29T11:01:27Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/qLMKZC7tb5I/mqdefault.jpg",
+   "view_count": 23238,
+   "category": "工具教學",
+   "summary": "本影片由泛科學院製作，解說 Claude 桌面版的必學基礎設定與操作入門，協助使用者快速熟悉軟體介面並發揮 AI 輔助功能。",
+   "tags": [
+    "Claude",
+    "桌面版",
+    "工具教學",
+    "基礎設定"
+   ]
+  },
+  {
    "video_id": "yuIbPmOw8ZE",
    "title": "Claude Design保姆級完整教學：跟你聊聊天就建造一切還一鍵上線，5個真實案例手把手帶你做，適合初學者的簡易網站，0門檻人人可做！簡報｜動態圖形｜AI影片｜網站部署，3個月內把副業變主業！",
    "channel": "孔老師AI研習社",
@@ -2943,6 +7004,142 @@
    ]
   },
   {
+   "video_id": "qNV0HdYLB8o",
+   "title": "claude 桌面版 更新重磅功能，支持接入任意大模型，快来体验！",
+   "channel": "三少科技",
+   "duration_seconds": 319,
+   "published_at": "2026-04-28T12:40:02Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/qNV0HdYLB8o/mqdefault.jpg",
+   "view_count": 5171,
+   "category": "工具教學",
+   "summary": "影片介紹 Claude 桌面版的更新功能，示範如何將自訂第三方大語言模型 API 串接至 Claude 桌面端，擴展 AI 模型的使用彈性。",
+   "tags": [
+    "Claude Desktop",
+    "工具教學",
+    "API串接",
+    "大模型"
+   ]
+  },
+  {
+   "video_id": "RjZP_yp7XxI",
+   "title": "用 ChatGPT Image 2.0 + Seedance + 自製 AI 智能體，做出超美感奇幻 AI 短劇完整工作流公開！",
+   "channel": "Jelena 耶萊娜 AIGC",
+   "duration_seconds": 848,
+   "published_at": "2026-04-28T12:16:17Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/RjZP_yp7XxI/mqdefault.jpg",
+   "view_count": 5668,
+   "category": "AI 影像與影片生成",
+   "summary": "本影片公開製作奇幻 AI 短劇的完整工作流，示範如何結合 ChatGPT Image 2.0、自製 AI 智能體與 Seedance 生成一致且具美感的分鏡與影片。",
+   "tags": [
+    "ChatGPT",
+    "Seedance",
+    "AI短劇",
+    "工作流"
+   ]
+  },
+  {
+   "video_id": "Qkzbz4PtFNM",
+   "title": "別再只叫 AI 生圖！ChatGPT Images 2.0 真正強在這 5 件事 | 交付整套素材的完整 AI 工作流",
+   "channel": "Dr. Jackei 科技生活日誌",
+   "duration_seconds": 484,
+   "published_at": "2026-04-28T11:59:49Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/Qkzbz4PtFNM/mqdefault.jpg",
+   "view_count": 8121,
+   "category": "AI 影像與影片生成",
+   "summary": "本影片透過酒店宣傳實測案例，展示使用 ChatGPT Images 2.0 生成整套商業視覺素材的完整工作流，包含海報、資訊圖表與 A/B 測試素材製作。",
+   "tags": [
+    "ChatGPT",
+    "Images 2.0",
+    "AI生圖",
+    "工作流"
+   ]
+  },
+  {
+   "video_id": "4gciWspBVHw",
+   "title": "Codex (APP) 保姆级全攻略，海量实战教程， 一期精通Codex",
+   "channel": "技术爬爬虾  TechShrimp",
+   "duration_seconds": 2293,
+   "published_at": "2026-04-28T11:48:58Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/4gciWspBVHw/mqdefault.jpg",
+   "view_count": 332635,
+   "category": "程式開發",
+   "summary": "本影片為 Codex APP 的保姆級實戰教程，詳細示範安裝設定、基礎對話、代碼管理、記憶系統與 MCP 插件，協助開發者達成電腦自動化與項目部署。",
+   "tags": [
+    "Codex",
+    "AI編程",
+    "自動化",
+    "程式開發"
+   ]
+  },
+  {
+   "video_id": "5Aha8QOVke4",
+   "title": "10分鐘搞懂  Claude 基礎設定！Project、Skills、Style 又是什麼？讓 AI 成為最強代理人！｜泛科學院",
+   "channel": "泛科學院",
+   "duration_seconds": 592,
+   "published_at": "2026-04-27T11:00:16Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/5Aha8QOVke4/mqdefault.jpg",
+   "view_count": 61800,
+   "category": "工具教學",
+   "summary": "影片講解 Claude 的核心設定，拆解 Project、Skills 與 Style 等功能定義，並分享「3343 秘訣」安裝連動方式，打造全天候自媒體助理。",
+   "tags": [
+    "Claude",
+    "工具教學",
+    "Skills",
+    "AI助理"
+   ]
+  },
+  {
+   "video_id": "Bzjy23ywicg",
+   "title": "銀髮族學AI，Gemini教學，這版本非常的入門喔！5分鐘學會Gemini！",
+   "channel": "蔡依達",
+   "duration_seconds": 383,
+   "published_at": "2026-04-27T07:46:20Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/Bzjy23ywicg/mqdefault.jpg",
+   "view_count": 96,
+   "category": "入門觀念",
+   "summary": "本影片專為銀髮族與初學者設計，提供極致簡單的 Gemini 入門教學。透過五分鐘淺顯易懂的說明，引導新手快速認識 AI 助手的基本操作與日常生活中的實用發問技巧。",
+   "tags": [
+    "Gemini",
+    "銀髮族",
+    "入門觀念",
+    "AI新手"
+   ]
+  },
+  {
+   "video_id": "0bPRJCvSu0E",
+   "title": "[3分鐘教學] 今期最 Hit 🥰 AI 造型師 髮型/眼鏡/造型顧問 一鍵生成報告 | Gemini 模版",
+   "channel": "hokoonho",
+   "duration_seconds": 188,
+   "published_at": "2026-04-26T18:24:01Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/0bPRJCvSu0E/mqdefault.jpg",
+   "view_count": 8421,
+   "category": "工具教學",
+   "summary": "本影片介紹如何運用 Gemini 提示詞範本打造個人專屬的 AI 造型顧問。透過三分鐘教學示範如何上傳照片，讓 AI 自動分析臉型特徵並一鍵生成包含髮型、眼鏡與整體穿搭建議的造型報告。",
+   "tags": [
+    "Gemini",
+    "提示詞範本",
+    "工具教學",
+    "AI造型師"
+   ]
+  },
+  {
+   "video_id": "RZEb6FLZSHE",
+   "title": "你为什么立即要用Obsidian+AI搭建第二大脑？保姆级教程｜Claude Code+Obsidian",
+   "channel": "Serena心心加州",
+   "duration_seconds": 947,
+   "published_at": "2026-04-26T14:06:44Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/RZEb6FLZSHE/mqdefault.jpg",
+   "view_count": 134708,
+   "category": "自動化工作流",
+   "summary": "本影片為保姆級教學，帶領觀眾使用 Obsidian 與 Claude Code 搭建 AI 第二大腦系統，涵蓋資料夾架構、CLAUDE.md 控制與自動化知識輸入。",
+   "tags": [
+    "Obsidian",
+    "Claude Code",
+    "第二大腦",
+    "自動化工作流"
+   ]
+  },
+  {
    "video_id": "JxaI6HK2onc",
    "title": "超強的 AI 前端設計師來了！Claude Design 跟你聊聊天就把網站設計出來，而且還貼心地幫你一鍵上線！",
    "channel": "PAPAYA 電腦教室",
@@ -2957,6 +7154,227 @@
     "Claude Code",
     "網頁設計",
     "程式開發"
+   ]
+  },
+  {
+   "video_id": "NMlB6HNFir8",
+   "title": "ChatGPT Image 2.0 vs Nano Banana 2誰生圖更強？超專業商品海報+精細中文生成｜看完這11種應用再決定用哪個！",
+   "channel": "大有牧森 Austin Chou",
+   "duration_seconds": 993,
+   "published_at": "2026-04-26T13:00:41Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/NMlB6HNFir8/mqdefault.jpg",
+   "view_count": 55502,
+   "category": "AI 影像與影片生成",
+   "summary": "本影片深度評測 ChatGPT Image 2.0 與 Gemini Nano Banana 2，針對商品海報、3D 角色與中文文字生成等 11 種實用情境進行測試比較。",
+   "tags": [
+    "ChatGPT",
+    "Gemini",
+    "AI生圖",
+    "評測"
+   ]
+  },
+  {
+   "video_id": "RN4yv8-lGGA",
+   "title": "用 Google Gemini 學英文真的有效嗎？30 天提升英文聽力口說的 6 步法 | 用AI學英文",
+   "channel": "莫尼卡英文 Monika English | 用思維學英文 ",
+   "duration_seconds": 711,
+   "published_at": "2026-04-26T12:00:43Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/RN4yv8-lGGA/mqdefault.jpg",
+   "view_count": 40036,
+   "category": "工具教學",
+   "summary": "本影片示範如何善用 Google Gemini 進行英文聽力與口說練習。創作者分享三十天提升英語能力的六個具體步驟與實作提示詞，幫助學習者打造個人化的 AI 語言學習環境。",
+   "tags": [
+    "Google Gemini",
+    "AI學英文",
+    "語言學習",
+    "提示詞技巧"
+   ]
+  },
+  {
+   "video_id": "Lq-wedAiffo",
+   "title": "Claude Cowork/Code保姆級完整教學：從入門到進階，自動生成內容、網頁和工作流，快速打造你的AI員工",
+   "channel": "學長Ethan",
+   "duration_seconds": 1722,
+   "published_at": "2026-04-26T11:00:26Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/Lq-wedAiffo/mqdefault.jpg",
+   "view_count": 351228,
+   "category": "自動化工作流",
+   "summary": "影片提供 Claude Cowork 與 Claude Code 的完整實戰指南，教學如何從零開始自動生成網頁、文案與自動化工作流，快速建立 AI 數位員工。",
+   "tags": [
+    "Claude Cowork",
+    "Claude Code",
+    "自動化工作流",
+    "AI員工"
+   ]
+  },
+  {
+   "video_id": "0IKrl7nNIM0",
+   "title": "GPTcodeX基本功EP01:十分鐘上手 GPT-CodeX：手把手帶你從安裝到專案初始化_別再買貴森森的 Claude Code 了！GPT-CodeX 才是真正的省錢神器",
+   "channel": "三師爸Sense Bar",
+   "duration_seconds": 651,
+   "published_at": "2026-04-25T13:22:21Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/0IKrl7nNIM0/mqdefault.jpg",
+   "view_count": 22987,
+   "category": "程式開發",
+   "summary": "本影片手把手教學如何安裝與設定 GPT-CodeX 代理程式，內容包括 Windows 與 Mac 環境搭建、核心權限與模式設定，以及從零開始進行專案初始化的實作過程。",
+   "tags": [
+    "GPT-CodeX",
+    "程式開發",
+    "AI代理",
+    "實作教學"
+   ]
+  },
+  {
+   "video_id": "KdcB2dsZNFk",
+   "title": "【AI 教學】無痛召喚！把 AI 裝進電腦裡 🤖 國小生也能秒懂的 Gemini CLI 超級懶人包",
+   "channel": "傑羅資訊",
+   "duration_seconds": 254,
+   "published_at": "2026-04-25T13:11:21Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/KdcB2dsZNFk/mqdefault.jpg",
+   "view_count": 1373,
+   "category": "工具教學",
+   "summary": "影片詳細介紹 Gemini CLI 的安裝與設定流程，教導無程式背景的初學者如何透過命令列終端機召喚 AI 助手。內容包含環境建立與常用快捷指令，提升本地檔案處理效率。",
+   "tags": [
+    "Gemini CLI",
+    "AI工具",
+    "終端機",
+    "安裝教學"
+   ]
+  },
+  {
+   "video_id": "P1Q6ideBacw",
+   "title": "【ChatGPT Images 2.0 讓設計師要失業了？】一人公司完整品牌素材，0 外包全搞定 #ai   #chatgpt  #一人公司",
+   "channel": "傑少 JAY",
+   "duration_seconds": 812,
+   "published_at": "2026-04-25T06:00:30Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/P1Q6ideBacw/mqdefault.jpg",
+   "view_count": 52818,
+   "category": "AI 影像與影片生成",
+   "summary": "本影片實測 ChatGPT Images 2.0 在單人公司的 8 大品牌應用，教學如何生成課程海報、產品包裝、AI 模特兒照、LOGO 與 CIS 規範。",
+   "tags": [
+    "ChatGPT",
+    "品牌設計",
+    "AI生圖",
+    "一人公司"
+   ]
+  },
+  {
+   "video_id": "cXEZ50vgDPw",
+   "title": "無痛把 Gemini 裝進電腦！Gemini CLI 讓 AI 直接幫你處理所有檔案，無須任何寫程式背景都能用！【欸那個AJ】",
+   "channel": "欸那個AJ",
+   "duration_seconds": 761,
+   "published_at": "2026-04-24T11:38:09Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/cXEZ50vgDPw/mqdefault.jpg",
+   "view_count": 141407,
+   "category": "工具教學",
+   "summary": "本影片介紹免訂閱即可免費使用的 Gemini CLI 工具，教導觀眾如何在不需編寫程式碼的情況下將 Gemini 整合至電腦中，輕鬆實現自動化檔案整理與資料處理工作。",
+   "tags": [
+    "Gemini CLI",
+    "AI工具",
+    "檔案處理",
+    "免寫程式"
+   ]
+  },
+  {
+   "video_id": "4jNT5g5qtzo",
+   "title": "Codex零基础完整教程，2026最推荐AI工具，升级 GPT5.5 ｜image-2 模型",
+   "channel": "小陈师傅c_z",
+   "duration_seconds": 776,
+   "published_at": "2026-04-24T09:32:32Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/4jNT5g5qtzo/mqdefault.jpg",
+   "view_count": 31583,
+   "category": "程式開發",
+   "summary": "本影片提供 Codex 的零基礎教學，演示安裝設定、介面操作、聊天與項目模式差異，並結合實例示範資料整理、電腦操控與網頁製作修飾。",
+   "tags": [
+    "Codex",
+    "GPT-5.5",
+    "AI編程",
+    "網頁製作"
+   ]
+  },
+  {
+   "video_id": "MA5eIwVKa34",
+   "title": "🚀GPT-5.5+Codex全自动操控电脑和浏览器！彻底取代OpenClaw+Hermes Agent！全自动做表格+画流程图+做PPT+下国际象棋！智能程度真的让Claude Code彻底沦为过去式",
+   "channel": "AI超元域",
+   "duration_seconds": 821,
+   "published_at": "2026-04-24T06:21:28Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/MA5eIwVKa34/mqdefault.jpg",
+   "view_count": 60734,
+   "category": "自動化工作流",
+   "summary": "本影片實測 GPT-5.5 在 Codex 中的 Computer Use 功能，展示如何全自動操控瀏覽器與電腦，完成表格繪製、流程圖生成與 Keynote 簡報製作。",
+   "tags": [
+    "Codex",
+    "GPT-5.5",
+    "自動化工作流",
+    "ComputerUse"
+   ]
+  },
+  {
+   "video_id": "0u66hSXFEoI",
+   "title": "ChatGPT Image2.0炸裂登場，15個賺錢案例，電商產品圖、自媒體圖文、設計接案、網站落地頁、UI設計..小白也能輕鬆上手",
+   "channel": "七七行銷筆記",
+   "duration_seconds": 538,
+   "published_at": "2026-04-24T02:46:15Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/0u66hSXFEoI/mqdefault.jpg",
+   "view_count": 21338,
+   "category": "AI 影像與影片生成",
+   "summary": "本影片分享 15 個 ChatGPT Image 2.0 的實際應用案例，手把手示範如何生成電商產品圖、自媒體圖文、UI 設計與落地頁，適合新手快速掌握 AI 圖像創作與商業接案技巧。",
+   "tags": [
+    "ChatGPT",
+    "AI生圖",
+    "設計應用",
+    "AI影像生成"
+   ]
+  },
+  {
+   "video_id": "ItedFLk6Vko",
+   "title": "ChatGPT Images 2.0 完整教學 2026｜終於不亂碼！免費20張圖片＋5個中文提示詞範例",
+   "channel": "AI Day",
+   "duration_seconds": 495,
+   "published_at": "2026-04-23T20:42:45Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/ItedFLk6Vko/mqdefault.jpg",
+   "view_count": 427,
+   "category": "AI 影像與影片生成",
+   "summary": "本影片提供 ChatGPT Images 2.0 的完整操作教學，介紹免費帳號的啟用步驟、中文提示詞最佳實踐範例，幫助使用者掌握精準 AI 生圖技巧。",
+   "tags": [
+    "ChatGPT",
+    "Images 2.0",
+    "提示詞",
+    "AI繪圖"
+   ]
+  },
+  {
+   "video_id": "3UHPH1A9KnM",
+   "title": "15个Google Gemini 高阶用法 + 完整AI工作流，把Google AI从聊天工具升级成可持续运行的赚钱系统！",
+   "channel": "Terry Ong",
+   "duration_seconds": 1266,
+   "published_at": "2026-04-23T11:30:04Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/3UHPH1A9KnM/mqdefault.jpg",
+   "view_count": 5864,
+   "category": "自動化工作流",
+   "summary": "影片分享十五個 Google Gemini 高階實用技巧與變現工作流，包含競品分析、自動生成 SOP、整合信件與內容資產產出等，協助使用者建立可自動執行的 AI 運作系統。",
+   "tags": [
+    "Google Gemini",
+    "AI工作流",
+    "自動化",
+    "生產力工具"
+   ]
+  },
+  {
+   "video_id": "uT6Txi4hegA",
+   "title": "ChatGPT協作Excel教學｜讓AI幫你寫公式、VBA程式碼，一鍵生成圖表＋匯出PDF報表｜辦公AI工具應用EP22",
+   "channel": "程曦資訊",
+   "duration_seconds": 911,
+   "published_at": "2026-04-22T13:01:51Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/uT6Txi4hegA/mqdefault.jpg",
+   "view_count": 11811,
+   "category": "辦公應用",
+   "summary": "本影片教學如何善用 ChatGPT 協助 Excel 辦公自動化，包含自動撰寫複雜公式與 VBA 程式碼、一鍵繪製圖表及匯出 PDF 報表的操作示範。",
+   "tags": [
+    "ChatGPT",
+    "Excel",
+    "辦公自動化",
+    "VBA"
    ]
   },
   {
@@ -2994,6 +7412,74 @@
    ]
   },
   {
+   "video_id": "9iaSFh78ebI",
+   "title": "【AIAgent入門實戰】5個「AI自動化工作&賺錢應用」案例🤩｜ManusAI教學｜AI新手入門",
+   "channel": "貝背包 PPBAG",
+   "duration_seconds": 1795,
+   "published_at": "2026-04-17T12:00:30Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/9iaSFh78ebI/mqdefault.jpg",
+   "view_count": 201800,
+   "category": "自動化工作流",
+   "summary": "本影片針對 AI 新手介紹 Manus AI Agent 的操作與應用，透過 5 個實戰案例示範如何打造 AI 自動化工作流程，並附上提示詞範例，協助觀眾實踐高效工作與任務自動化。",
+   "tags": [
+    "Manus AI",
+    "AI Agent",
+    "自動化工作流",
+    "實作教學"
+   ]
+  },
+  {
+   "video_id": "s_a84iv6EtM",
+   "title": "048 一键掌握 AI 换脸全流程，图片视频一键替换超简单 #AI 换脸 #视频换脸# 图片换脸 #AI 工具 #软件安装# 使用教程 #AI 工具使用",
+   "channel": "AI与办公",
+   "duration_seconds": 1383,
+   "published_at": "2026-04-17T07:08:24Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/s_a84iv6EtM/mqdefault.jpg",
+   "view_count": 194,
+   "category": "AI 影像與影片生成",
+   "summary": "本影片介紹 AI 換臉技術的全流程操作，涵蓋圖片與影片的一鍵替換技巧。詳細示範軟體安裝與工具使用步驟，幫助創作者輕鬆掌握智能換臉與數位內容製作實務。",
+   "tags": [
+    "AI換臉",
+    "影片剪輯",
+    "工具教學",
+    "換臉教程"
+   ]
+  },
+  {
+   "video_id": "GKQggmMJ2lw",
+   "title": "2026運用ChatGPT 教學五大秘技：讓 AI 成為你的神隊友 #ChatGPT #YouTube #行政減量 #AI",
+   "channel": "阿卿的藝想空間",
+   "duration_seconds": 410,
+   "published_at": "2026-04-13T11:30:26Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/GKQggmMJ2lw/mqdefault.jpg",
+   "view_count": 93,
+   "category": "辦公應用",
+   "summary": "本影片針對教師需求，分享五大 ChatGPT 應用秘技，包含打造專屬 AI 助教、一句話生成視覺教材及引導式教學模式，達到行政減量與高效備課。",
+   "tags": [
+    "ChatGPT",
+    "教學應用",
+    "行政減量",
+    "AI備課"
+   ]
+  },
+  {
+   "video_id": "MHGFkOPEBVk",
+   "title": "0成本实现最强浏览器AI智能体  阿里Mobile Agent实战保姆级教程  带你从0到1轻松实现办公自动化（数据隐私安全| 永久免费) | Hex-电脑课堂",
+   "channel": "Hex-电脑课堂",
+   "duration_seconds": 1920,
+   "published_at": "2026-04-13T11:28:39Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/MHGFkOPEBVk/mqdefault.jpg",
+   "view_count": 671,
+   "category": "自動化工作流",
+   "summary": "本影片提供阿里 Mobile Agent 瀏覽器智能體實戰教學，示範如何從零實現辦公自動化。內容涵蓋 AI 自動填寫表格、網頁操作與跨平台工具整合應用。",
+   "tags": [
+    "MobileAgent",
+    "自動化工作流",
+    "AI Agent",
+    "辦公自動化"
+   ]
+  },
+  {
    "video_id": "80kCvbsuniw",
    "title": "Claude Code 零基礎入門（下）｜Vibe Coding 實戰：早報、配圖、報價單一次做完",
    "channel": "柚智夫妻 X 雷蒙三十",
@@ -3028,6 +7514,23 @@
    ]
   },
   {
+   "video_id": "MccRn13fW48",
+   "title": "AI辅助办公案例:票据整理 小工具开发 Skill平台 #ai产品 #chatgpt #skill #openai #claudecode #codex #ai工具 #ai编程 #claude",
+   "channel": "AI产品经理Chen",
+   "duration_seconds": 366,
+   "published_at": "2026-04-07T18:00:31Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/MccRn13fW48/mqdefault.jpg",
+   "view_count": 162,
+   "category": "辦公應用",
+   "summary": "本影片分享 AI 輔助辦公的實戰案例，涵蓋電子票據自動化整理、利用 AI 開發實用小工具，以及 Skill 平台的推薦與應用，幫助提升職場日常工作效率。",
+   "tags": [
+    "AI辦公",
+    "票據整理",
+    "工具開發",
+    "Skill平台"
+   ]
+  },
+  {
    "video_id": "_cVTzXvb7xs",
    "title": "Claude Cowork 最友善的手把手教學！你還在叫 AI 幫你想答案？但高手們都已經在用 AI 交成品了 ~",
    "channel": "PAPAYA 電腦教室",
@@ -3045,6 +7548,23 @@
    ]
   },
   {
+   "video_id": "NqWHCz-xSYE",
+   "title": "【Claude Cowork 自動化辦公神器】計劃書、簡報、報表輕鬆生成！竟比龍蝦還安全？#ai #claude  #claudecowork",
+   "channel": "Code Me Maybe 碼上學",
+   "duration_seconds": 1259,
+   "published_at": "2026-04-04T08:00:19Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/NqWHCz-xSYE/mqdefault.jpg",
+   "view_count": 42360,
+   "category": "辦公應用",
+   "summary": "本影片深入介紹 Claude Cowork 自動化辦公工具，示範如何透過 AI 快速生成企劃書、簡報與數據報表，協助上班族提高工作效率並簡化繁瑣流程。",
+   "tags": [
+    "Claude",
+    "Claude Cowork",
+    "辦公自動化",
+    "AI工具"
+   ]
+  },
+  {
    "video_id": "zm3K831v470",
    "title": "【超實用】一次搞懂Claude AI全生態！2026全新初學者完整教程，從基本用法到全新自動化系統！零基礎初學者必看，15個Claude超棒的使用方法！ChatGPT用戶看完都轉投了！",
    "channel": "孔老師AI研習社",
@@ -3059,6 +7579,125 @@
     "AI入門",
     "工具教學",
     "自動化"
+   ]
+  },
+  {
+   "video_id": "VylP-hnx6ss",
+   "title": "腾讯 WorkBuddy 实测：AI 原生桌面智能体工作台，完整安装+体验教程",
+   "channel": "XiaoBeiAI",
+   "duration_seconds": 302,
+   "published_at": "2026-03-31T09:05:05Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/VylP-hnx6ss/mqdefault.jpg",
+   "view_count": 2872,
+   "category": "工具教學",
+   "summary": "本影片實測騰訊推出的 WorkBuddy AI 原生桌面智能體工作台，提供完整的軟體安裝步驟與實際操作體驗教學，帶領觀眾探索新型態的智能桌面輔助工具。",
+   "tags": [
+    "WorkBuddy",
+    "騰訊",
+    "AI桌面智能體",
+    "工具教學"
+   ]
+  },
+  {
+   "video_id": "K37mtYCHWlg",
+   "title": "0依赖！OfficeCLI+OpenClaw实战｜让AI像操作数据库一样改Office文档 Word/Excel/PPT全覆盖 已开源",
+   "channel": "AGI_Ananas",
+   "duration_seconds": 185,
+   "published_at": "2026-03-31T09:03:01Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/K37mtYCHWlg/mqdefault.jpg",
+   "view_count": 672,
+   "category": "自動化工作流",
+   "summary": "本影片展示如何結合 OfficeCLI 與 OpenClaw 開源工具，讓 AI 像操作資料庫般精準修改 Word、Excel 與 PPT 文檔，實現高效的辦公自動化流程。",
+   "tags": [
+    "OfficeCLI",
+    "OpenClaw",
+    "辦公自動化",
+    "AI Agent"
+   ]
+  },
+  {
+   "video_id": "jUcA4rhI6o0",
+   "title": "235套裝軟體應用ChatGPT「EXCEL最常被使用的功能」",
+   "channel": "劉任昌",
+   "duration_seconds": 807,
+   "published_at": "2026-03-31T04:47:02Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/jUcA4rhI6o0/mqdefault.jpg",
+   "view_count": 120,
+   "category": "辦公應用",
+   "summary": "本影片示範將 ChatGPT 結合 Excel 的常用軟體功能，展示如何使用 AI 處理試算表資料、計算排名與調用函數，協助使用者快速解決 Excel 實務教學中的資料處理問題。",
+   "tags": [
+    "Excel",
+    "ChatGPT",
+    "辦公應用",
+    "試算表"
+   ]
+  },
+  {
+   "video_id": "xBl73LxoG7E",
+   "title": "Codex APP支持插件功能，插件已经成为AI编程必学知识点",
+   "channel": "AI随风",
+   "duration_seconds": 379,
+   "published_at": "2026-03-27T08:22:31Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/xBl73LxoG7E/mqdefault.jpg",
+   "view_count": 4054,
+   "category": "程式開發",
+   "summary": "本影片詳細講解 Codex APP 的插件功能，從插件基本概念、內容結構到安裝與創建步驟，幫助開發者掌握 AI 編程中必備的插件拓展技能與應用場景。",
+   "tags": [
+    "Codex",
+    "AI編程",
+    "插件開發",
+    "程式開發"
+   ]
+  },
+  {
+   "video_id": "QwlShxJV_iw",
+   "title": "用Gemini AI一鍵生成公司標語（10分鐘做完100張）｜辦公AI工具應用EP21",
+   "channel": "程曦資訊",
+   "duration_seconds": 291,
+   "published_at": "2026-03-26T13:00:45Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/QwlShxJV_iw/mqdefault.jpg",
+   "view_count": 5102,
+   "category": "辦公應用",
+   "summary": "本影片教學如何運用 Gemini AI 自動化製作公司標語與標示圖卡，從文案發想至快速排版，實現 10 分鐘製作百張素材的高效辦公流程。",
+   "tags": [
+    "Gemini AI",
+    "辦公應用",
+    "標語生成",
+    "簡報自動化"
+   ]
+  },
+  {
+   "video_id": "Dhq9d70yENY",
+   "title": "5大AI工具最全解析！Chatgpt、Google Gemini、Claude、Perplexity、NotebookLM功能，缺点，商业应用一次摊开！用对AI工具，工作效率直接翻倍！",
+   "channel": "Terry Ong",
+   "duration_seconds": 1205,
+   "published_at": "2026-03-26T11:30:08Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/Dhq9d70yENY/mqdefault.jpg",
+   "view_count": 9966,
+   "category": "工具教學",
+   "summary": "本影片詳細拆解 ChatGPT、Gemini、Claude 等五大 AI 工具的定位與優缺點，建立工具選用架構，協助使用者依據不同任務場景搭配最合適的 AI 工具提高工作效率。",
+   "tags": [
+    "AI工具",
+    "ChatGPT",
+    "Claude",
+    "工具教學"
+   ]
+  },
+  {
+   "video_id": "u3WiMRVwKks",
+   "title": "ChatGPT手机版如何下载？安卓苹果保姆级教程，从安装到订阅Plus全搞定",
+   "channel": "AI航海员",
+   "duration_seconds": 270,
+   "published_at": "2026-03-25T11:57:23Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/u3WiMRVwKks/mqdefault.jpg",
+   "view_count": 8292,
+   "category": "工具教學",
+   "summary": "本影片提供 Android 與 iOS 雙平台的 ChatGPT 手機版保姆級下載安裝教學，完整指導觀眾如何安裝必要組件、註冊帳號，以及在無國外信用卡情況下訂閱 Plus 會員。",
+   "tags": [
+    "ChatGPT",
+    "手機下載",
+    "工具教學",
+    "安裝教學"
    ]
   },
   {
@@ -3096,6 +7735,74 @@
    ]
   },
   {
+   "video_id": "KZKT27Gk9lA",
+   "title": "🚀微信养龙虾：OpenClaw微信插件Clawbot发布！一条命令搞定安装，AI移动办公终极方案！微信接入OpenClaw完整教程！从安装到实战【龙虾教程】 #openclaw",
+   "channel": "AI超元域",
+   "duration_seconds": 407,
+   "published_at": "2026-03-22T07:18:19Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/KZKT27Gk9lA/mqdefault.jpg",
+   "view_count": 27729,
+   "category": "自動化工作流",
+   "summary": "本影片詳細演示如何在微信中導入 OpenClaw 插件 Clawbot，包含單行命令安裝、掃碼配對與雙向檔案傳輸，實現手機與 AI 結合的移動辦公自動化。",
+   "tags": [
+    "OpenClaw",
+    "Clawbot",
+    "微信AI",
+    "自動化工作流"
+   ]
+  },
+  {
+   "video_id": "v0Y9zMJuYb0",
+   "title": "完全不會寫程式也能開發 App？實測 Google Antigravity！",
+   "channel": "黃信惠的瘋狂教室",
+   "duration_seconds": 806,
+   "published_at": "2026-03-20T17:56:28Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/v0Y9zMJuYb0/mqdefault.jpg",
+   "view_count": 174193,
+   "category": "程式開發",
+   "summary": "本影片針對零程式基礎者實測 Google Antigravity 開發工具，手把手示範如何從零建立開發環境與建構應用程式，展現無程式碼（No-Code）AI 輔助開發的實務流程。",
+   "tags": [
+    "Google Antigravity",
+    "無程式碼",
+    "App開發",
+    "程式開發"
+   ]
+  },
+  {
+   "video_id": "1xZDNesUEBk",
+   "title": "【iPAS AI應用規劃師初級】 生成式 AI 應用領域與常見工具＋善用全攻略｜考試必背 #shorts",
+   "channel": "世代銘印 | Gen Imprint",
+   "duration_seconds": 152,
+   "published_at": "2026-03-17T08:54:16Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/1xZDNesUEBk/mqdefault.jpg",
+   "view_count": 690,
+   "category": "入門觀念",
+   "summary": "影片針對iPAS AI應用規劃師初級考試，整理生成式AI工具比較表與實用技巧。內容涵蓋ChatGPT、Gemini等工具特色，以及 Prompt 工程技巧與常見錯誤排除。",
+   "tags": [
+    "iPAS",
+    "生成式AI",
+    "提示詞工程",
+    "AI工具"
+   ]
+  },
+  {
+   "video_id": "5RBkxjCpdQo",
+   "title": "Google Workspace CLI 推出，AI Agent 可整合多種辦公工具",
+   "channel": "CloudTop10",
+   "duration_seconds": 138,
+   "published_at": "2026-03-16T01:24:35Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/5RBkxjCpdQo/mqdefault.jpg",
+   "view_count": 238,
+   "category": "自動化工作流",
+   "summary": "本影片介紹 Google 新推出的 Workspace CLI 工具，講解 AI Agent 如何透過命令列與 MCP 技術整合 Gmail 與 Google 雲端工具，提升辦公自動化能力。",
+   "tags": [
+    "Workspace CLI",
+    "AI Agent",
+    "MCP",
+    "辦公自動化"
+   ]
+  },
+  {
    "video_id": "_hVXMQjofbA",
    "title": "【保姆級】99%的人都不知道 Claude Skills 2.0 可以這樣用！5大實戰場景從零教學，一鍵自動化你的整套工作流程！讓AI自動幫你做網頁、簡報、腳本，連接外部工具！附完整提示詞，有手就會！",
    "channel": "孔老師AI研習社",
@@ -3110,6 +7817,74 @@
     "AI自動化",
     "工作流",
     "實戰教學"
+   ]
+  },
+  {
+   "video_id": "ocM8h-Vboj8",
+   "title": "Excel 必學神技！用 AI (ChatGPT) 一鍵自動化繁瑣任務 🚀 新手也能輕鬆上手的 VBA 教學",
+   "channel": "贊贊小屋",
+   "duration_seconds": 570,
+   "published_at": "2026-03-13T00:23:43Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/ocM8h-Vboj8/mqdefault.jpg",
+   "view_count": 14904,
+   "category": "辦公應用",
+   "summary": "本影片教導新手如何利用 ChatGPT 撰寫 Excel VBA 程式碼，實現自動化處理繁瑣報表與格式設定。透過簡單三步驟，無需程式基礎也能大幅提升辦公效率。",
+   "tags": [
+    "Excel",
+    "ChatGPT",
+    "VBA",
+    "辦公自動化"
+   ]
+  },
+  {
+   "video_id": "E7FMZpc2yYk",
+   "title": "【職場必看】 同事還在複製貼上？你已經下班了！手把手教你用 Gemini AI 自動化 Google Sheets，一秒完成整日工作！#Google試算表 #GEMINI #GAS教學  #觀點LAB",
+   "channel": "觀點LAB",
+   "duration_seconds": 635,
+   "published_at": "2026-03-11T22:30:04Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/E7FMZpc2yYk/mqdefault.jpg",
+   "view_count": 13219,
+   "category": "辦公應用",
+   "summary": "本影片手把手教學如何結合 Gemini AI 與 Google Apps Script，在 Google 試算表中實現自動化翻譯與智慧資料評分，幫助上班族擺脫重複的手工操作。",
+   "tags": [
+    "Gemini AI",
+    "Google Sheets",
+    "Google Apps Script",
+    "辦公自動化"
+   ]
+  },
+  {
+   "video_id": "0Vf7qOUbgtE",
+   "title": "分享下指挥AI干活的4个Skills和2个工具",
+   "channel": "晓辉博士",
+   "duration_seconds": 507,
+   "published_at": "2026-03-10T14:31:26Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/0Vf7qOUbgtE/mqdefault.jpg",
+   "view_count": 4176,
+   "category": "工具教學",
+   "summary": "本影片分享實用的 AI 工作台技巧與工具組合，包括 WorkBuddy 的深度研究、錄音轉寫及 Serper MCP 等 Skill 應用，教你如何有效指揮 AI 提高工作效能。",
+   "tags": [
+    "WorkBuddy",
+    "CodeBuddy",
+    "AI工具",
+    "效率提升"
+   ]
+  },
+  {
+   "video_id": "d25fcWem0ME",
+   "title": "我用 OpenClaw 搭了一支 AI 团队｜这可能是 AI 时代最强的个人外挂",
+   "channel": "木子不写代码",
+   "duration_seconds": 851,
+   "published_at": "2026-03-10T13:06:36Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/d25fcWem0ME/mqdefault.jpg",
+   "view_count": 30402,
+   "category": "自動化工作流",
+   "summary": "本影片為 OpenClaw 的零基礎教學，示範如何建立多角色 AI 團隊與設定 Agent 協作，解析其底層邏輯，讓個人能透過自動化流程處理複雜任務。",
+   "tags": [
+    "OpenClaw",
+    "AI Agent",
+    "多智能體",
+    "自動化工作流"
    ]
   },
   {
@@ -3130,6 +7905,108 @@
    ]
   },
   {
+   "video_id": "A4VjqbHvOCs",
+   "title": "OpenClaw 保姆级打通飞书(lark)全功能，让你办公完全自动化，拥有自己的数字分身",
+   "channel": "AI随风",
+   "duration_seconds": 848,
+   "published_at": "2026-03-07T10:21:06Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/A4VjqbHvOCs/mqdefault.jpg",
+   "view_count": 3324,
+   "category": "自動化工作流",
+   "summary": "本影片提供手把手教學，示範利用 OpenClaw 打通飛書（Lark）全功能，包含自動處理訊息、文件、多維表格與日曆，實現企業級的全自動化辦公流程。",
+   "tags": [
+    "OpenClaw",
+    "飛書",
+    "辦公自動化",
+    "AI Agent"
+   ]
+  },
+  {
+   "video_id": "2FH2tAUMYBw",
+   "title": "AI办公！OpenClaw一键包自动改Excel了=Win一键包实测：一句话自动生成，按需批量修改",
+   "channel": "AGI_Ananas",
+   "duration_seconds": 224,
+   "published_at": "2026-03-06T02:55:36Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/2FH2tAUMYBw/mqdefault.jpg",
+   "view_count": 697,
+   "category": "辦公應用",
+   "summary": "本影片實測 Windows 版 OpenClaw 一鍵安裝包，演示如何透過自然語言自動整理桌面檔案、生成與批量修改 Excel 表格數據，實現免程式碼的 AI 辦公。",
+   "tags": [
+    "OpenClaw",
+    "Excel自動化",
+    "AI辦公",
+    "免程式碼"
+   ]
+  },
+  {
+   "video_id": "y29QCXfB9_4",
+   "title": "我用 OpenClaw 打造 10 個 AI 員工，公司直接自動運轉！",
+   "channel": "院長G大",
+   "duration_seconds": 506,
+   "published_at": "2026-03-03T12:06:49Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/y29QCXfB9_4/mqdefault.jpg",
+   "view_count": 8788,
+   "category": "自動化工作流",
+   "summary": "本影片公開 OpenCode 多 Agent 架構，示範如何打造具備程式編寫、影片剪輯與市場調研功能的 AI 團隊，實現多角色協作與自動化營運公司流程。",
+   "tags": [
+    "OpenClaw",
+    "OpenCode",
+    "AI團隊",
+    "自動化工作流"
+   ]
+  },
+  {
+   "video_id": "UkcMNFxeVKk",
+   "title": "Claude Cowork: 零基礎也能搭建你的AI自動化團隊 | 附5個真實案例演示",
+   "channel": "李厂长来了",
+   "duration_seconds": 970,
+   "published_at": "2026-02-28T02:00:35Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/UkcMNFxeVKk/mqdefault.jpg",
+   "view_count": 123846,
+   "category": "自動化工作流",
+   "summary": "本影片教學如何透過 Claude Cowork 免程式碼打造 AI 自動化團隊，並分享 5 個涵蓋銷售、內容與辦公的實戰案例，拆解多任務協作的落地執行方式。",
+   "tags": [
+    "Claude Cowork",
+    "AI自動化",
+    "團隊協作",
+    "案例解析"
+   ]
+  },
+  {
+   "video_id": "jqmmvirJg1o",
+   "title": "【Bensz AI办公实用教程】【第02课】 Mac：AI时代不容忽视的设备",
+   "channel": "Weber Huang",
+   "duration_seconds": 2004,
+   "published_at": "2026-02-27T06:52:00Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/jqmmvirJg1o/mqdefault.jpg",
+   "view_count": 2,
+   "category": "入門觀念",
+   "summary": "本影片為 AI 辦公實用系列課程，探討 Mac 設備在 AI 時代的優勢與應用價值，幫助學習者了解如何善用 Mac 硬體資源提升 AI 工具的執行效率。",
+   "tags": [
+    "Mac",
+    "AI辦公",
+    "入門觀念",
+    "硬體選擇"
+   ]
+  },
+  {
+   "video_id": "2CyY1lpa8Ag",
+   "title": "【企業轉型】ShareFile 安全協作與 Progress Agentic RAG AI 應用：打造高效安全的智慧辦公環境",
+   "channel": "易璽科技 中文教學頻道 (Progress WhatsUp Gold, Knowbe4)",
+   "duration_seconds": 2085,
+   "published_at": "2026-02-27T06:00:06Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/2CyY1lpa8Ag/mqdefault.jpg",
+   "view_count": 39,
+   "category": "辦公應用",
+   "summary": "本影片介紹 ShareFile 安全檔案協作平台與 Progress Agentic RAG 技術，示範如何將企業內部文件轉換為 AI 智慧知識庫，打造安全的智慧辦公環境。",
+   "tags": [
+    "ShareFile",
+    "Agentic RAG",
+    "企業AI",
+    "智慧辦公"
+   ]
+  },
+  {
    "video_id": "bPvATU2ZOLU",
    "title": "嗯啊口頭禪全部自動消失！Typeless 語音神器直接淘汰傳統輸入法，講錯直接改口它也聽得懂喔！",
    "channel": "PAPAYA 電腦教室",
@@ -3144,6 +8021,23 @@
     "語音輸入",
     "AI工具",
     "辦公效率"
+   ]
+  },
+  {
+   "video_id": "Zh9IscszDQg",
+   "title": "全能AI打工人 OpenClaw 精选案例 + 最佳部署架构，零基础开发大项目！",
+   "channel": "安格视界",
+   "duration_seconds": 1232,
+   "published_at": "2026-02-23T13:19:12Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/Zh9IscszDQg/mqdefault.jpg",
+   "view_count": 87522,
+   "category": "自動化工作流",
+   "summary": "本影片解構 OpenClaw 的最佳部署架構與精選實戰案例，教導觀眾如何從零開始進行環境設定與系統搭建，利用 AI 智能體輕鬆開發大型項目。",
+   "tags": [
+    "OpenClaw",
+    "部署架構",
+    "AI Agent",
+    "自動化工作流"
    ]
   },
   {
@@ -3164,6 +8058,74 @@
    ]
   },
   {
+   "video_id": "nEZf25wuuJo",
+   "title": "2026年最值得學的10門免費AI課程！",
+   "channel": "李厂长来了",
+   "duration_seconds": 797,
+   "published_at": "2026-02-21T02:00:48Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/nEZf25wuuJo/mqdefault.jpg",
+   "view_count": 245552,
+   "category": "入門觀念",
+   "summary": "本影片整理 10 門優質免費 AI 課程與學習路線圖，從零基礎入門到進階專案開發，提供系統化的學習順序建議，幫助觀眾省時高效掌握 AI 技能。",
+   "tags": [
+    "AI課程",
+    "免費資源",
+    "學習路線",
+    "入門觀念"
+   ]
+  },
+  {
+   "video_id": "loufrrdSRqw",
+   "title": "只要一句話！ChatGPT 幫你寫 Excel VBA，一鍵搞定重複報表 🚀 (新手零基礎也能會)",
+   "channel": "贊贊小屋",
+   "duration_seconds": 446,
+   "published_at": "2026-02-20T15:52:09Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/loufrrdSRqw/mqdefault.jpg",
+   "view_count": 8840,
+   "category": "辦公應用",
+   "summary": "影片示範零基礎新手如何透過 ChatGPT 生成 Excel VBA 程式碼，解決銷貨毛利表等繁瑣整理工作。學習錄製巨集與 AI 撰寫指令，達成一鍵自動化。",
+   "tags": [
+    "Excel",
+    "ChatGPT",
+    "VBA",
+    "辦公應用"
+   ]
+  },
+  {
+   "video_id": "N3fFMfoHmXg",
+   "title": "ChatGPT & Gemini 做不到的事！Grok 4大功能直接降維打擊",
+   "channel": "P & H",
+   "duration_seconds": 617,
+   "published_at": "2026-02-19T07:53:52Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/N3fFMfoHmXg/mqdefault.jpg",
+   "view_count": 71357,
+   "category": "工具教學",
+   "summary": "本影片詳細示範 Grok 的四大實用功能，包括任務自動化排程、利用 X 平台即時數據獲取資訊、圖片與影片生成修圖，以及透過專案功能建立團隊知識庫。",
+   "tags": [
+    "Grok",
+    "AI工具",
+    "自動化排程",
+    "圖片生成"
+   ]
+  },
+  {
+   "video_id": "l-LL5vq_-vk",
+   "title": "ChatGPT最全教程 ！16个让ChatGPT变聪明的高效的使用技巧，从回答问题到建立商业系统，彻底改变你的AI用法，让赚钱和工作效率翻10倍！",
+   "channel": "Terry Ong",
+   "duration_seconds": 554,
+   "published_at": "2026-02-17T11:30:42Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/l-LL5vq_-vk/mqdefault.jpg",
+   "view_count": 2362,
+   "category": "辦公應用",
+   "summary": "影片分享 16 個落地的 ChatGPT 實戰技巧，示範如何建立資料分析、目標規劃等四大商業系統。內容涵蓋文件審查、會議總結及資料整理，全面提升工作效率。",
+   "tags": [
+    "ChatGPT",
+    "辦公應用",
+    "商業系統",
+    "效率提升"
+   ]
+  },
+  {
    "video_id": "S0c4bD3daN8",
    "title": "開源 AI 模型比付費的更香？Hugging Face 就是你的軍火庫，免費玩頂級開源 AI 還能本地客製化！",
    "channel": "PAPAYA 電腦教室",
@@ -3178,6 +8140,40 @@
     "開源AI",
     "AI模型",
     "本地部署"
+   ]
+  },
+  {
+   "video_id": "xnjPlkPgncY",
+   "title": "AI办公神器！一句话搞定所有文档！#ai",
+   "channel": "AI产品狙击手 kzhu",
+   "duration_seconds": 138,
+   "published_at": "2026-02-14T08:26:43Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/xnjPlkPgncY/mqdefault.jpg",
+   "view_count": 215,
+   "category": "辦公應用",
+   "summary": "本影片展示如何利用 Agent Skills 自動化處理 Word、Excel、PPT 與 PDF 等常用辦公文件，只要透過指令即可快速完成繁重任務，極大提升工作效率。",
+   "tags": [
+    "AI辦公",
+    "Agent Skills",
+    "文件自動化",
+    "效率工具"
+   ]
+  },
+  {
+   "video_id": "OB6o29I78rY",
+   "title": "OpenClaw 太強了，磨合兩週後我的 AI 員工開始半夜自己加班了｜14 個排程完整公開ClawdBot）",
+   "channel": "追日Gucci-AI效率革命聯盟",
+   "duration_seconds": 2357,
+   "published_at": "2026-02-12T08:09:02Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/OB6o29I78rY/mqdefault.jpg",
+   "view_count": 76684,
+   "category": "自動化工作流",
+   "summary": "本影片分享將 OpenClaw 部署至雲端主機的實戰經驗，公開 14 個自動化排程設定，包含程式碼檢查、競品數據分析與晨報生成，實現 24 小時全自動工作流。",
+   "tags": [
+    "OpenClaw",
+    "雲端部署",
+    "自動化排程",
+    "AI工作流"
    ]
   },
   {
@@ -3198,6 +8194,40 @@
    ]
   },
   {
+   "video_id": "9UOnDDXQCwQ",
+   "title": "這些AI居然有的免費？還可一鍵生成問卷💯 Guide教學影片錄製、會議記錄、Gemini 數據圖表｜Google App Script",
+   "channel": "大有牧森 Austin Chou",
+   "duration_seconds": 2842,
+   "published_at": "2026-02-08T13:00:12Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/9UOnDDXQCwQ/mqdefault.jpg",
+   "view_count": 41866,
+   "category": "工具教學",
+   "summary": "本影片精選評測 5 款實用的辦公 AI 工具，詳細示範 AI 會議記錄、一鍵生成問卷、教學影片錄製與 Gemini 數據圖表繪製，助你省時提升職場效率。",
+   "tags": [
+    "AI工具",
+    "會議記錄",
+    "Gemini",
+    "辦公效率"
+   ]
+  },
+  {
+   "video_id": "MUMTzDHcZ9g",
+   "title": "OpenAI 開發者體驗分享｜打造 ChatGPT 即時多玩家應用實戰與最佳實踐",
+   "channel": "PP科技筆記 Podcast",
+   "duration_seconds": 940,
+   "published_at": "2026-01-26T05:55:15Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/MUMTzDHcZ9g/mqdefault.jpg",
+   "view_count": 28,
+   "category": "程式開發",
+   "summary": "影片由 OpenAI 開發團隊講解如何利用 Codex 與 Apps SDK 開發 ChatGPT 內建的即時多玩家互動應用，涵蓋開發模式、UI 設計指引及自然語言程式碼優化。",
+   "tags": [
+    "OpenAI",
+    "Apps SDK",
+    "Codex",
+    "程式開發"
+   ]
+  },
+  {
    "video_id": "8o737qKO3IM",
    "title": "Google Gemini 3最強教學+15個超強功能全場景實測！95%的人都還不知道！一毛錢不花！簡報製作、Live互動模式、網站設計、APP開發一期全部教會你！ChatGPT用戶看完都轉投了！",
    "channel": "孔老師AI研習社",
@@ -3212,6 +8242,57 @@
     "Google AI",
     "簡報製作",
     "工具教學"
+   ]
+  },
+  {
+   "video_id": "e-WNdM4JO2U",
+   "title": "【凱文大叔】手把手教你 Antigravity 設定與應用：規則（Rules）＋神技能（Skills）＋自動化（Workflows）打造最強AI 超能力！",
+   "channel": "凱文大叔AI程式設計教室",
+   "duration_seconds": 2048,
+   "published_at": "2026-01-24T12:01:12Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/e-WNdM4JO2U/mqdefault.jpg",
+   "view_count": 51774,
+   "category": "自動化工作流",
+   "summary": "本影片手把手教學如何設定與應用 Antigravity，詳細解說規則、技能與自動化工作流的建置方法，並結合實例打造高效率的 AI 工作流程與網頁應用。",
+   "tags": [
+    "Antigravity",
+    "自動化工作流",
+    "AI應用",
+    "教學"
+   ]
+  },
+  {
+   "video_id": "QtlZJBpVUhQ",
+   "title": "一定要學會的Gemini十個生活小技巧｜規劃旅遊 翻譯 防詐騙｜ChatGPT |蘋果妹",
+   "channel": "蘋果妹",
+   "duration_seconds": 1118,
+   "published_at": "2026-01-17T13:00:58Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/QtlZJBpVUhQ/mqdefault.jpg",
+   "view_count": 189013,
+   "category": "工具教學",
+   "summary": "影片介紹十個適用於日常生活的 Google Gemini AI 實用小技巧，包含旅遊規劃、語言翻譯與防詐騙分析等，並提供提示詞範本幫助讀者輕鬆上手 AI 工具。",
+   "tags": [
+    "Gemini",
+    "AI工具",
+    "生活應用",
+    "提示詞"
+   ]
+  },
+  {
+   "video_id": "Q8W6my0J7Ig",
+   "title": "2026年必學的12個ChatGPT升級用法，原來ChatGPT還能這樣用？！",
+   "channel": "李厂长来了",
+   "duration_seconds": 771,
+   "published_at": "2026-01-17T02:00:24Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/Q8W6my0J7Ig/mqdefault.jpg",
+   "view_count": 11028,
+   "category": "工具教學",
+   "summary": "影片整理了 12 個 ChatGPT 最新升級用法教學，包含強制深度思考、結合個人知識庫研究、分支對話管理，以及設定定時任務自動推送早報等高效技巧。",
+   "tags": [
+    "ChatGPT",
+    "工具教學",
+    "實用技巧",
+    "生產力"
    ]
   },
   {
@@ -3300,6 +8381,57 @@
    ]
   },
   {
+   "video_id": "rnI6sBLhX1w",
+   "title": "比ChatGPT更強！Nano Banana Pro十大必學用法和瘋狂應用，一人公司必備，輕鬆高效產出高質量圖文內容",
+   "channel": "學長Ethan",
+   "duration_seconds": 968,
+   "published_at": "2025-12-20T08:37:57Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/rnI6sBLhX1w/mqdefault.jpg",
+   "view_count": 17294,
+   "category": "工具教學",
+   "summary": "本影片介紹 Nano Banana Pro 的十大必學用法，教導一人公司與創作者如何運用該 AI 工具高效產出高質量的圖文內容，提升個人數位營運效率。",
+   "tags": [
+    "Nano Banana",
+    "AI工具",
+    "內容創作",
+    "工具教學"
+   ]
+  },
+  {
+   "video_id": "JsdqJFpA93k",
+   "title": "Google Gemini 完整教學 (下集)！21種超強AI應用，很多居然免費，ChatGPT爆退訂潮｜Live學習模式｜影片圖片生成｜兒童繪本｜產品設計靈感",
+   "channel": "大有牧森 Austin Chou",
+   "duration_seconds": 1179,
+   "published_at": "2025-12-17T13:00:39Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/JsdqJFpA93k/mqdefault.jpg",
+   "view_count": 192046,
+   "category": "AI 影像與影片生成",
+   "summary": "本影片為 Gemini 教學下集，示範 21 種生活與學習應用，包含 Flow 影片生成剪輯、合成術、自製說故事繪本及互動教學模式等，協助使用者輕鬆掌握 AI 工具。",
+   "tags": [
+    "Gemini",
+    "AI影片生成",
+    "圖片生成",
+    "繪本製作"
+   ]
+  },
+  {
+   "video_id": "4n8jswc2pAI",
+   "title": "Google Gemini 全系列教學 (上集)！這21個超強AI應用，很多還免費！95%的人都還不知道，ChatGPT要哭了｜簡報製作｜APP設計｜NotebookLM",
+   "channel": "大有牧森 Austin Chou",
+   "duration_seconds": 1487,
+   "published_at": "2025-12-15T13:03:00Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/4n8jswc2pAI/mqdefault.jpg",
+   "view_count": 1739770,
+   "category": "工具教學",
+   "summary": "本影片為 Google Gemini 系列教學上集，示範 21 種實用 AI 應用案例，包括自動製作簡報、圖表設計、Gmail 郵件處理、自動化流程與 NotebookLM 使用等。",
+   "tags": [
+    "Gemini",
+    "Google AI",
+    "NotebookLM",
+    "工具教學"
+   ]
+  },
+  {
    "video_id": "jQvHumkxPAM",
    "title": "最好上手的 AI Agent！自動上網爬資料、AI 做簡報、寫網頁工具，Manus AI 比 ChatGPT 好用嗎？實測應用案例",
    "channel": "柚智夫妻 X 雷蒙三十",
@@ -3385,6 +8517,74 @@
    ]
   },
   {
+   "video_id": "ag1LTHfsWKw",
+   "title": "Gemini vs ChatGPT 到底該訂誰？20 美金該給誰 #shortsgoogle #ai教學",
+   "channel": "J3M 一分鐘AI教學 | 提升工作效率 ",
+   "duration_seconds": 147,
+   "published_at": "2025-12-04T10:15:00Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/ag1LTHfsWKw/mqdefault.jpg",
+   "view_count": 123954,
+   "category": "入門觀念",
+   "summary": "影片以短影音形式比較 Gemini 與 ChatGPT 月費方案的差異與特色。分析 Gemini 在 Google 雲端與數據整合的優勢，以及 ChatGPT 在邏輯推理與創意的強項。",
+   "tags": [
+    "Gemini",
+    "ChatGPT",
+    "AI比較",
+    "入門觀念"
+   ]
+  },
+  {
+   "video_id": "IJXaOXu3PoA",
+   "title": "AI影片生成教學！新手用Nano Banana、ChatGPT 如何圖片轉影片，完整示範含指令優化",
+   "channel": "大有牧森 Austin Chou",
+   "duration_seconds": 1124,
+   "published_at": "2025-11-30T13:00:38Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/IJXaOXu3PoA/mqdefault.jpg",
+   "view_count": 463937,
+   "category": "AI 影像與影片生成",
+   "summary": "本影片為新手提供完整的 AI 影片生成教學，示範如何結合 Nano Banana 與 ChatGPT 優化提示詞，並使用 Kling、Veo 3 等工具將圖片轉為高品質影片。",
+   "tags": [
+    "AI影片",
+    "圖片轉影片",
+    "提示詞",
+    "AI生成"
+   ]
+  },
+  {
+   "video_id": "n_jUVJ6Ibxk",
+   "title": "【商業-AI應用】AI設計海報Gemini及ChatGPT比較",
+   "channel": "楓言楓語",
+   "duration_seconds": 151,
+   "published_at": "2025-11-25T16:01:18Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/n_jUVJ6Ibxk/mqdefault.jpg",
+   "view_count": 58,
+   "category": "AI 影像與影片生成",
+   "summary": "影片實測與比較 Gemini (Nano Banana) 與 ChatGPT (DALL-E) 在海報設計上的繪圖表現，透過實際產圖案例呈現兩款 AI 工具的生成效果與差異。",
+   "tags": [
+    "AI繪圖",
+    "Gemini",
+    "ChatGPT",
+    "海報設計"
+   ]
+  },
+  {
+   "video_id": "5XT__SJcrf8",
+   "title": "99%人沒在用的5個ChatGPT超神技能！現在免費教你",
+   "channel": "漢克蔡 | Ai 集",
+   "duration_seconds": 1362,
+   "published_at": "2025-11-24T11:00:11Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/5XT__SJcrf8/mqdefault.jpg",
+   "view_count": 64714,
+   "category": "工具教學",
+   "summary": "影片分享五個高效率的 ChatGPT 隱藏實用技能與提示詞邏輯，教導使用者如何精準與 AI 溝通，並將 AI 融入日常營運以提升整體工作效能。",
+   "tags": [
+    "ChatGPT",
+    "提示詞工程",
+    "AI技能",
+    "工具教學"
+   ]
+  },
+  {
    "video_id": "DVeJGQCycjI",
    "title": "【2026最新】Gemini 3.0 和 ChatGPT 5.1 終極提示工程指南！徹底解說讓AI下指令順利進行的Prompt基礎，擺脫新手必學的絕對最佳提示词技巧！自己也能打造順利執行的完美指令！",
    "channel": "孔老師AI研習社",
@@ -3399,6 +8599,40 @@
     "Prompt技巧",
     "ChatGPT",
     "Gemini"
+   ]
+  },
+  {
+   "video_id": "tSU_K1dlnew",
+   "title": "ChatGPT教學｜還在絞盡腦汁想靈感？讓ChatGPT快速生成活動企劃並轉換成Word檔案！｜辦公AI工具應用 EP13",
+   "channel": "程曦資訊",
+   "duration_seconds": 138,
+   "published_at": "2025-11-19T13:01:57Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/tSU_K1dlnew/mqdefault.jpg",
+   "view_count": 969,
+   "category": "辦公應用",
+   "summary": "本影片示範如何運用 ChatGPT 快速生成活動企劃案，並將其轉換為 Word 檔案。適合上班族與企劃人員學習，有效縮短企劃撰寫時間並提升辦公產出效率。",
+   "tags": [
+    "ChatGPT",
+    "辦公應用",
+    "企劃撰寫",
+    "Word轉換"
+   ]
+  },
+  {
+   "video_id": "a1Tq-LH2AuA",
+   "title": "ChatGPT Atlas瀏覽器【8大應用場景實測 】AI自動化+記憶力｜Chrome還繼續嗎？",
+   "channel": "大有牧森 Austin Chou",
+   "duration_seconds": 766,
+   "published_at": "2025-11-19T13:00:01Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/a1Tq-LH2AuA/mqdefault.jpg",
+   "view_count": 10959,
+   "category": "工具教學",
+   "summary": "本影片實測 ChatGPT Atlas 瀏覽器的八大實用應用場景，包含 AI 記憶搜尋、YouTube 重點擷取與 AI Agent 代理模式，教導使用者透過 AI 自動化處理日常工作。",
+   "tags": [
+    "ChatGPT Atlas",
+    "AI瀏覽器",
+    "工具教學",
+    "自動化"
    ]
   },
   {
