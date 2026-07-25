@@ -25,9 +25,8 @@ python main.py
 
 ## 5. 設定每日排程（系統管理員 PowerShell）
 ```powershell
-schtasks /Create /SC DAILY /ST 09:00 /TN "AIVideoHub" /TR "\"C:\Users\user\Desktop\AI用\claue 工作\AI 知識平台\ai-video-hub\run.bat\""
+schtasks /Create /SC DAILY /ST 09:00 /TN "AIVideoHub" /TR "C:\Users\user\Desktop\AI用\claue 工作\AI 知識平台\ai-video-hub\run.bat"
 ```
-「注意：路徑含空格，內層的 \" 跳脫引號不可省略。」
 - 電腦當天沒開機就不會跑；下次執行會用 publishedAfter 自動補齊漏掉的影片
 - 查看排程：`schtasks /Query /TN "AIVideoHub"`
 - 刪除排程：`schtasks /Delete /TN "AIVideoHub" /F`
