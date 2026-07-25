@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-07-25T16:50:21+00:00",
- "count": 883,
+ "generated_at": "2026-07-25T16:55:01+00:00",
+ "count": 1103,
  "videos": [
   {
    "video_id": "LF6z1KTj2qU",
@@ -139,6 +139,40 @@
    ]
   },
   {
+   "video_id": "OtEaEf8SdDM",
+   "title": "AI Agent 基礎全圖｜LLM、RAG、LangChain、LangGraph、MCP 一次搞懂｜繁體中文",
+   "channel": "Markluce AI",
+   "duration_seconds": 653,
+   "published_at": "2026-07-25T06:32:44Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/OtEaEf8SdDM/mqdefault.jpg",
+   "view_count": 0,
+   "category": "入門觀念",
+   "summary": "以虛擬公司為例，用繁體中文一次搞懂 AI Agent 基礎觀念，涵蓋 LLM、向量嵌入、LangChain 框架、提示詞工程以及向量資料庫等八大核心概念。",
+   "tags": [
+    "AI Agent",
+    "基礎教學",
+    "LangChain",
+    "RAG"
+   ]
+  },
+  {
+   "video_id": "XLqYZwSXmiM",
+   "title": "Hermes Agent 實戰教學｜多 Agent 協作系統搭建指南",
+   "channel": "Gentle Soul",
+   "duration_seconds": 244,
+   "published_at": "2026-07-25T05:52:51Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/XLqYZwSXmiM/mqdefault.jpg",
+   "view_count": 8,
+   "category": "程式開發",
+   "summary": "完整帶領觀眾搭建基於 Hermes Agent 與 Cowork MCP 的多 Agent 協作系統，從零安裝到設定，學會利用 AI 實現自動化工作流程。",
+   "tags": [
+    "Hermes Agent",
+    "MCP",
+    "多Agent協作",
+    "自動化工作流"
+   ]
+  },
+  {
    "video_id": "GaTZkSI-AIg",
    "title": "50分钟掌握AI交易看盘：Claude + TradingView完整教学（自动分析K线、指标、策略和回测）",
    "channel": "BitGuy小比 - AI投资交易教学+美股期货、比特币等加密货币技术教程",
@@ -224,6 +258,40 @@
    ]
   },
   {
+   "video_id": "L5VCXCWHcvQ",
+   "title": "【L4·工程】Graph:一群 AI 怎麼分工:一個 agent 扛不動時,把很多個接成一張分工圖",
+   "channel": "ttsing",
+   "duration_seconds": 339,
+   "published_at": "2026-07-24T23:44:12Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/L5VCXCWHcvQ/mqdefault.jpg",
+   "view_count": 1,
+   "category": "程式開發",
+   "summary": "探討當單一 Agent 無法負荷任務時，如何利用 Graph 架構將多個 AI 串接成一張分工圖，學習節點設計、流轉與把關，實現有效的大任務拆解。",
+   "tags": [
+    "AI Agent",
+    "Graph架構",
+    "多Agent分工",
+    "程式開發"
+   ]
+  },
+  {
+   "video_id": "KZK0tvrjWN8",
+   "title": "IPAS AI應用規劃師複習-拆解Agent架構",
+   "channel": "施偉廷",
+   "duration_seconds": 533,
+   "published_at": "2026-07-24T23:43:43Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/KZK0tvrjWN8/mqdefault.jpg",
+   "view_count": 5,
+   "category": "入門觀念",
+   "summary": "深入淺出解析AI領域中的核心名詞，包含Agent智能體、RAG、MCP與Skill等架構，協助掌握AI應用的底層邏輯。",
+   "tags": [
+    "AI Agent",
+    "RAG",
+    "MCP",
+    "觀念解析"
+   ]
+  },
+  {
    "video_id": "eugU38BZaf4",
    "title": "4-6 50 輪工具呼叫、0 行程式碼：讓 AI 自己當你的守門員｜Claude Code Hooks 進階教學",
    "channel": "Herbert AI 開發筆記",
@@ -241,6 +309,23 @@
    ]
   },
   {
+   "video_id": "aUJ_i1wmzxg",
+   "title": "翻譯 A complete AI Coding workflow, end to end",
+   "channel": "喇賽人",
+   "duration_seconds": 1037,
+   "published_at": "2026-07-24T20:30:16Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/aUJ_i1wmzxg/mqdefault.jpg",
+   "view_count": 10,
+   "category": "程式開發",
+   "summary": "介紹一套完整的 AI Coding Workflow，示範如何透過 Agent Skills 將單純問答升級為有規劃、規格與跨 Session 執行的軟體開發流程。",
+   "tags": [
+    "AI Coding",
+    "Claude Code",
+    "軟體開發",
+    "工作流"
+   ]
+  },
+  {
    "video_id": "k6AlrVzO498",
    "title": "Claude 桌面版完全手冊 EP06｜每次都要跟 Claude 重講一遍背景？用 Projects 專案，它永遠記得你做到哪",
    "channel": "Ai-Wisdom・Claude 學習筆記",
@@ -255,6 +340,40 @@
     "Projects",
     "AI工具",
     "教學"
+   ]
+  },
+  {
+   "video_id": "o263aCYpwnY",
+   "title": "5 分鐘搞懂 AI 自動化(90% 的人卡在第一步)",
+   "channel": "劉博士聊科技",
+   "duration_seconds": 274,
+   "published_at": "2026-07-24T13:39:19Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/o263aCYpwnY/mqdefault.jpg",
+   "view_count": 61,
+   "category": "自動化工作流",
+   "summary": "用簡單易懂的方式帶你搞懂 AI 自動化運作原理，不需寫程式即可設定觸發條件，並透過 Chat Agent 實現 24 小時自動回覆客戶與處理單據。",
+   "tags": [
+    "AI自動化",
+    "Chat Agent",
+    "工作流",
+    "新手教學"
+   ]
+  },
+  {
+   "video_id": "ga5DaUVEkcs",
+   "title": "用 AI 完成系統性文獻回顧與研究論文｜SciSpace SLR、PRISMA 完整教學",
+   "channel": "SciSpace",
+   "duration_seconds": 2179,
+   "published_at": "2026-07-24T12:01:45Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/ga5DaUVEkcs/mqdefault.jpg",
+   "view_count": 138,
+   "category": "辦公應用",
+   "summary": "示範如何使用 SciSpace AI Agent 完成系統性文獻回顧，從文獻搜尋、PICO 問題設定、PRISMA 流程到論文資料擷取與研究計畫書製作。",
+   "tags": [
+    "SciSpace",
+    "學術研究",
+    "文獻回顧",
+    "AI應用"
    ]
   },
   {
@@ -323,6 +442,23 @@
     "AI畫質提升",
     "影片修復",
     "影像上色"
+   ]
+  },
+  {
+   "video_id": "jVArJUhxvEs",
+   "title": "Hermes Agent 做行銷的 3 個關鍵：讓你一個人抵一支行銷團隊｜AI agent 入門",
+   "channel": "Sorla - 超簡單行銷",
+   "duration_seconds": 725,
+   "published_at": "2026-07-24T11:30:34Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/jVArJUhxvEs/mqdefault.jpg",
+   "view_count": 575,
+   "category": "辦公應用",
+   "summary": "介紹 Hermes Agent 在行銷領域的應用，示範如何結合 Apify 蒐集數據，自動化執行 Google Ads、SEO 與內容行銷等繁雜任務。",
+   "tags": [
+    "Hermes Agent",
+    "行銷自動化",
+    "SEO",
+    "AI應用"
    ]
   },
   {
@@ -445,6 +581,23 @@
    ]
   },
   {
+   "video_id": "4QTeVvBb3Hk",
+   "title": "LLM-MCP 醫療 AI 應用系列課程（二） RAG 與 LLM 於 疾病分類工具之應用      #llm  #mcp  #ai #rag",
+   "channel": "Taiwan Gateway to Health Data",
+   "duration_seconds": 3376,
+   "published_at": "2026-07-24T06:00:15Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/4QTeVvBb3Hk/mqdefault.jpg",
+   "view_count": 281,
+   "category": "工具教學",
+   "summary": "以疾病分類工具為例，介紹如何結合大型語言模型、RAG檢索增強生成與MCP協定，建立具備可追溯與審核機制的AI應用。",
+   "tags": [
+    "RAG",
+    "MCP",
+    "大型語言模型",
+    "工具教學"
+   ]
+  },
+  {
    "video_id": "8gooNWnmeYk",
    "title": "把 Claude Code 接上 Slack:@Claude 直接寫程式(官方 Claude Code in Slack)｜how-to-slack #5｜繁中",
    "channel": "Markluce AI",
@@ -510,6 +663,23 @@
     "白板影片",
     "AI影片生成",
     "簡報製作"
+   ]
+  },
+  {
+   "video_id": "cD8xFfxljhI",
+   "title": "遊戲改變世界 × AI Agent｜現實已破碎？將《遊戲改變世界》4 大獎勵寫成 AI Agent 每日修補任務",
+   "channel": "DMP深度學習",
+   "duration_seconds": 556,
+   "published_at": "2026-07-24T03:00:25Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/cD8xFfxljhI/mqdefault.jpg",
+   "view_count": 288,
+   "category": "自動化工作流",
+   "summary": "結合遊戲設計師 Jane McGonigal 的《Reality Is Broken》理論，示範如何將遊戲獎勵機制餵入 Claude 寫成 EPIC 技能，打造日常修補任務的 AI Agent。",
+   "tags": [
+    "AI Agent",
+    "Claude",
+    "技能開發",
+    "自動化"
    ]
   },
   {
@@ -615,6 +785,142 @@
    ]
   },
   {
+   "video_id": "13jpBoqy_GI",
+   "title": "Zero to Agent 3-7|測試與頭號事故:stdout 一行毀所有",
+   "channel": "教練與小艾",
+   "duration_seconds": 245,
+   "published_at": "2026-07-23T17:11:27Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/13jpBoqy_GI/mqdefault.jpg",
+   "view_count": 0,
+   "category": "程式開發",
+   "summary": "講解 AI Agent 實作中的測試與事故排除，教導如何修正 stdout 輸出的協定問題，並透過 golden 快照測試來守護伺服器穩定性。",
+   "tags": [
+    "AI Agent",
+    "程式測試",
+    "MCP",
+    "除錯教學"
+   ]
+  },
+  {
+   "video_id": "bS1HfY6ANyo",
+   "title": "Zero to Agent 3-6|安全體檢:拿攻擊面清單照一次鏡子",
+   "channel": "教練與小艾",
+   "duration_seconds": 240,
+   "published_at": "2026-07-23T17:11:27Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/bS1HfY6ANyo/mqdefault.jpg",
+   "view_count": 0,
+   "category": "程式開發",
+   "summary": "針對 AI Agent 工具層進行安全體檢，帶領觀眾使用攻擊面清單檢視自己的 server，並建立安裝第三方 server 的判斷準則。",
+   "tags": [
+    "資安體檢",
+    "AI Agent",
+    "MCP",
+    "程式開發"
+   ]
+  },
+  {
+   "video_id": "Unvy-vsb6QA",
+   "title": "Zero to Agent 3-9|深讀導覽 + 收尾",
+   "channel": "教練與小艾",
+   "duration_seconds": 264,
+   "published_at": "2026-07-23T17:11:27Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/Unvy-vsb6QA/mqdefault.jpg",
+   "view_count": 0,
+   "category": "程式開發",
+   "summary": "本單元進行模組深讀導覽與收尾小考，幫助開發者釐清 MCP 解決的問題，並複習 print 限制、docstring 要素及第三方 server 安全評估。",
+   "tags": [
+    "AI Agent",
+    "MCP",
+    "程式教學",
+    "複習"
+   ]
+  },
+  {
+   "video_id": "U8u19JDLmDU",
+   "title": "Zero to Agent 3-3|第二個工具與好描述:tool 四件套",
+   "channel": "教練與小艾",
+   "duration_seconds": 250,
+   "published_at": "2026-07-23T17:11:27Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/U8u19JDLmDU/mqdefault.jpg",
+   "view_count": 0,
+   "category": "程式開發",
+   "summary": "帶領開發者在 server 中加入第二個工具，詳細解析 tool 四件套，並透過金標 checklist對照說明如何編寫高品質的 docstring 描述。",
+   "tags": [
+    "AI Agent",
+    "工具開發",
+    "Python",
+    "程式教學"
+   ]
+  },
+  {
+   "video_id": "VXtCo5jtfsQ",
+   "title": "Zero to Agent 3-1|讓 Claude 用你的資料:能力接入到底在解什麼",
+   "channel": "教練與小艾",
+   "duration_seconds": 264,
+   "published_at": "2026-07-23T17:11:27Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/VXtCo5jtfsQ/mqdefault.jpg",
+   "view_count": 0,
+   "category": "程式開發",
+   "summary": "介紹工具與 MCP 在 AI Agent 開發中所解決的能力接入問題，說明讓 Claude 讀取個人資料的兩條實作路徑與本模組的實作目標。",
+   "tags": [
+    "AI Agent",
+    "MCP",
+    "Claude",
+    "入門觀念"
+   ]
+  },
+  {
+   "video_id": "oiiaqsNgNlA",
+   "title": "Zero to Agent 3-4|schema 被拒收怎麼修:攤平救全場",
+   "channel": "教練與小艾",
+   "duration_seconds": 255,
+   "published_at": "2026-07-23T17:11:27Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/oiiaqsNgNlA/mqdefault.jpg",
+   "view_count": 0,
+   "category": "程式開發",
+   "summary": "講解當 AI 工具參數規格（schema）複雜化被拒收時的修復方法，教導如何透過攤平參數的三個技巧來解決開發痛點。",
+   "tags": [
+    "Schema",
+    "AI Agent",
+    "程式開發",
+    "除錯教學"
+   ]
+  },
+  {
+   "video_id": "OB8dCg7ZVNA",
+   "title": "Zero to Agent 3-5|觀察 tool loop:模型 ⇄ 工具的完整往返",
+   "channel": "教練與小艾",
+   "duration_seconds": 188,
+   "published_at": "2026-07-23T17:11:27Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/OB8dCg7ZVNA/mqdefault.jpg",
+   "view_count": 0,
+   "category": "程式開發",
+   "summary": "帶領觀察模型與工具之間的完整往返迴圈（tool loop），示範如何使用 MCP Inspector 及在 Claude Code 中追蹤互動次數。",
+   "tags": [
+    "Tool Loop",
+    "MCP",
+    "AI Agent",
+    "程式觀察"
+   ]
+  },
+  {
+   "video_id": "uj1SWqmoA8w",
+   "title": "Zero to Agent 3-8|放手課:加一個「寫入型」工具",
+   "channel": "教練與小艾",
+   "duration_seconds": 250,
+   "published_at": "2026-07-23T17:11:27Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/uj1SWqmoA8w/mqdefault.jpg",
+   "view_count": 0,
+   "category": "程式開發",
+   "summary": "實作課程教導如何在 server 中加入一個能真正寫入資料的工具，讓 Claude 替使用者記錄筆記，並設定完整的驗收條件。",
+   "tags": [
+    "AI Agent",
+    "寫入工具",
+    "程式實作",
+    "MCP"
+   ]
+  },
+  {
    "video_id": "ms1OSuTcE54",
    "title": "ChatGPT 記憶功能全方位指南｜教育工作者打造專屬 AI 助教",
    "channel": "AI 好友實驗室",
@@ -646,6 +952,23 @@
     "快捷技巧",
     "AI工具",
     "程式開發"
+   ]
+  },
+  {
+   "video_id": "n2kOHHfW-WQ",
+   "title": "Oracle 26 AI agent 代理 架構",
+   "channel": "Jack Hsu",
+   "duration_seconds": 542,
+   "published_at": "2026-07-23T13:12:21Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/n2kOHHfW-WQ/mqdefault.jpg",
+   "view_count": 6,
+   "category": "工具教學",
+   "summary": "介紹Oracle資料庫如何整合機器學習與生成式AI，涵蓋自然語言轉SQL、RAG檢索增強生成以及即將推出的AI Agent框架。",
+   "tags": [
+    "Oracle",
+    "AI Agent",
+    "RAG",
+    "資料庫"
    ]
   },
   {
@@ -1107,6 +1430,23 @@
    ]
   },
   {
+   "video_id": "7ljG_EDBzeA",
+   "title": "📝 鬍拉 271｜不只會聊天：Codex AI Agent 還能做什麼？",
+   "channel": "Chung-I Chou (鬍子拉拉)",
+   "duration_seconds": 3374,
+   "published_at": "2026-07-22T01:01:36Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/7ljG_EDBzeA/mqdefault.jpg",
+   "view_count": 310,
+   "category": "入門觀念",
+   "summary": "介紹Codex AI Agent的運作原理與應用方式，說明AI Agent如何依循任務目標規劃步驟、使用工具並處理檔案以完成工作流程。",
+   "tags": [
+    "AI Agent",
+    "Codex",
+    "入門觀念",
+    "工作流程"
+   ]
+  },
+  {
    "video_id": "s0rbb_NjLHQ",
    "title": "Claude Code 基本功 EP14:Remote Control 完全解放，手機、筆電、電腦同步協作",
    "channel": "三師爸Sense Bar",
@@ -1311,6 +1651,23 @@
    ]
   },
   {
+   "video_id": "Ew7W7MPKBSU",
+   "title": "【EP64】免費 AI API 來了！Anges AI × Hermes Agent 實測完整教學",
+   "channel": "簡單學",
+   "duration_seconds": 759,
+   "published_at": "2026-07-20T09:05:46Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/Ew7W7MPKBSU/mqdefault.jpg",
+   "view_count": 86,
+   "category": "工具教學",
+   "summary": "介紹免費 AI API 工具 Anges AI，示範如何將其圖片生成、影片生成與文字處理功能整合進 Hermes Agent 工作流中，降低使用成本。",
+   "tags": [
+    "Anges AI",
+    "免費API",
+    "Hermes Agent",
+    "工具教學"
+   ]
+  },
+  {
    "video_id": "WZV5u_ykQZA",
    "title": "免登入，使用codex (ChatGPT)  幫你接入 所有供應商",
    "channel": "中年生活誌",
@@ -1477,6 +1834,23 @@
     "遊戲開發",
     "語音控制",
     "實作示範"
+   ]
+  },
+  {
+   "video_id": "wpiqMoM5h60",
+   "title": "Kimi K3 刚上线！我用 Agent Swarm 组建了 300 人 AI 团队帮我赚钱",
+   "channel": "Serena心心加州",
+   "duration_seconds": 983,
+   "published_at": "2026-07-19T04:11:53Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/wpiqMoM5h60/mqdefault.jpg",
+   "view_count": 20471,
+   "category": "工具教學",
+   "summary": "實測 Kimi K3 的 Agent Swarm 功能，展示如何僅透過一個 Prompt 同時拉起 300 個 AI Agent，將大任務拆分交辦以實現創意產出。",
+   "tags": [
+    "Kimi K3",
+    "Agent Swarm",
+    "AI團隊",
+    "工具實測"
    ]
   },
   {
@@ -1732,6 +2106,23 @@
     "AI電影生成",
     "動畫生成",
     "AI Agent"
+   ]
+  },
+  {
+   "video_id": "xW8E6PE5Hvs",
+   "title": "數據不出本地！今天就搭建本地AI Agent：Ollama + Hermes（手把手教學）12個超實用使用場景 + 永遠免費！",
+   "channel": "Sen's Sense AI",
+   "duration_seconds": 1102,
+   "published_at": "2026-07-18T01:50:50Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/xW8E6PE5Hvs/mqdefault.jpg",
+   "view_count": 2537,
+   "category": "程式開發",
+   "summary": "手把手教學如何結合 Ollama 與開源工具 Hermes 在本地部署 AI Agent，確保數據不出本地、隱私安全且零 Token 費用，並分享 12 個實用場景。",
+   "tags": [
+    "Ollama",
+    "Hermes Agent",
+    "本地部署",
+    "開源AI"
    ]
   },
   {
@@ -2409,6 +2800,23 @@
     "自動化工作流",
     "AI聊天",
     "無程式碼"
+   ]
+  },
+  {
+   "video_id": "3QboyWUwOtw",
+   "title": "EP-GW05. Google AI 全家桶【基礎】Gemini AI Agent 幫你管工作！Google Workspace 郵件、行事曆自動化",
+   "channel": "雅朵多媒體學習網 ",
+   "duration_seconds": 641,
+   "published_at": "2026-07-14T00:00:00Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/3QboyWUwOtw/mqdefault.jpg",
+   "view_count": 205,
+   "category": "辦公應用",
+   "summary": "介紹如何運用Gemini AI Agent管理Google Workspace，自動化處理Gmail信件摘要與日曆排程，提升辦公效率。",
+   "tags": [
+    "Gemini",
+    "辦公應用",
+    "自動化",
+    "Google Workspace"
    ]
   },
   {
@@ -3126,6 +3534,23 @@
    ]
   },
   {
+   "video_id": "OFHKo56WTwY",
+   "title": "告別 Docker 安全焦慮！CubeSandbox：專為 AI Agent 打造的硬體級隔離沙箱，60ms 啟動",
+   "channel": "GitCovery",
+   "duration_seconds": 429,
+   "published_at": "2026-07-10T01:37:19Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/OFHKo56WTwY/mqdefault.jpg",
+   "view_count": 198,
+   "category": "工具教學",
+   "summary": "深度解析CubeSandbox專案，說明如何為AI Agent打造具備硬體級強隔離與高效能的安全沙箱環境，解決程式碼執行安全問題。",
+   "tags": [
+    "AI Agent",
+    "資安防護",
+    "沙箱技術",
+    "工具教學"
+   ]
+  },
+  {
    "video_id": "0p_JhkHQQJ0",
    "title": "AI 的偏見與公平｜五年級資訊科技 - NotebookLM 教學影片",
    "channel": "Kai A",
@@ -3568,6 +3993,23 @@
    ]
   },
   {
+   "video_id": "wHjnEahFmZU",
+   "title": "EP-GPT03.AI應用升級【基礎篇】Codex 不會寫程式也能做遊戲！Codex AI Agent 自訂小遊戲開發全攻略",
+   "channel": "雅朵多媒體學習網 ",
+   "duration_seconds": 1160,
+   "published_at": "2026-07-06T09:00:19Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/wHjnEahFmZU/mqdefault.jpg",
+   "view_count": 291,
+   "category": "程式開發",
+   "summary": "介紹如何運用Codex AI Agent透過自然語言描述遊戲規則與需求，帶領不懂程式的新手一步步生成可互動的小遊戲。",
+   "tags": [
+    "Codex",
+    "AI Agent",
+    "遊戲開發",
+    "程式入門"
+   ]
+  },
+  {
    "video_id": "psv8s1BjJc0",
    "title": "非技術背景也能用！Claude Projects 打造專屬 AI 助理｜新手保姆級教學",
    "channel": "Johnny Lee",
@@ -3973,6 +4415,23 @@
     "Claude Code",
     "自動化工作流",
     "AI工具"
+   ]
+  },
+  {
+   "video_id": "F0W47vLysm0",
+   "title": "@arena：Fullstack Code Arena 推出讓 AI Agent 直接開發完整應用程式。\n \n 核心功能與定位轉型\n Arena.ai 宣布 Code Are…",
+   "channel": "easyvibecoding",
+   "duration_seconds": 162,
+   "published_at": "2026-07-03T08:14:32Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/F0W47vLysm0/mqdefault.jpg",
+   "view_count": 7,
+   "category": "程式開發",
+   "summary": "介紹Arena.ai的Code Arena平台，示範如何讓AI Agent直接開發完整應用程式，支援後端資料庫整合與第三方API服務。",
+   "tags": [
+    "AI Agent",
+    "全端開發",
+    "資料庫",
+    "工具教學"
    ]
   },
   {
@@ -4486,6 +4945,23 @@
    ]
   },
   {
+   "video_id": "b8YgyYGjJEU",
+   "title": "AI Agent 基本功 EP03：一句話讓 AI 幫你讀檔、寫程式、上網、做出成品",
+   "channel": "三師爸Sense Bar",
+   "duration_seconds": 2916,
+   "published_at": "2026-06-29T16:04:40Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/b8YgyYGjJEU/mqdefault.jpg",
+   "view_count": 7490,
+   "category": "工具教學",
+   "summary": "透過大量實演展示 AI Agent 的強大功能，教導觀眾如何讓 AI 協助讀檔、寫程式、上網並產出完整成品。",
+   "tags": [
+    "AI Agent",
+    "基礎教學",
+    "自動化寫程式",
+    "實作示範"
+   ]
+  },
+  {
    "video_id": "mK3DWwTZ-5U",
    "title": "20260605 行動化多模態彙整：利用 NotebookLM 與 Gemini 重塑備課工作流",
    "channel": "燕秋老師教學頻道",
@@ -4656,6 +5132,23 @@
    ]
   },
   {
+   "video_id": "yShlwYrZxzg",
+   "title": "AI Agent 基本功 EP03:Agent 到底會做什麼？Agent 的四隻手腳：讀檔 × 寫程式 × 上網 × 出成品",
+   "channel": "三師爸Sense Bar",
+   "duration_seconds": 4508,
+   "published_at": "2026-06-28T14:49:44Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/yShlwYrZxzg/mqdefault.jpg",
+   "view_count": 3201,
+   "category": "工具教學",
+   "summary": "深入介紹 AI Agent 的核心能力與四大應用面向，包含讀檔、寫程式、上網及產出成品，帶領觀眾快速上手實作。",
+   "tags": [
+    "AI Agent",
+    "基礎教學",
+    "工具應用",
+    "實作"
+   ]
+  },
+  {
    "video_id": "3Dfp8PdPw5o",
    "title": "長輩都要會的AI應用，用ChatGPT+ Gemini 讓生活更方便｜完整保姆級教學",
    "channel": "大有牧森 Austin Chou",
@@ -4772,6 +5265,40 @@
     "Codex Skills",
     "SOP自動化",
     "自動化工作流"
+   ]
+  },
+  {
+   "video_id": "cXp0Cj3u7jE",
+   "title": "OpenCode 基本功 EP05: 免費Big Pickle與最強GLM 5.2",
+   "channel": "三師爸Sense Bar",
+   "duration_seconds": 3381,
+   "published_at": "2026-06-28T03:14:11Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/cXp0Cj3u7jE/mqdefault.jpg",
+   "view_count": 2424,
+   "category": "工具教學",
+   "summary": "介紹如何使用 OpenCode 搭配免費的 Big Pickle 與 GLM 模型，並教導安裝免費生圖技能，打造高 CP 值的 AI Agent 組合。",
+   "tags": [
+    "OpenCode",
+    "AI Agent",
+    "免費工具",
+    "教學"
+   ]
+  },
+  {
+   "video_id": "F_eMaWlxAtU",
+   "title": "OpenCode 基本功 EP05：免費 Big Pickle 與最強 GLM 5 2",
+   "channel": "三師爸Sense Bar",
+   "duration_seconds": 2006,
+   "published_at": "2026-06-28T00:47:49Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/F_eMaWlxAtU/mqdefault.jpg",
+   "view_count": 3054,
+   "category": "工具教學",
+   "summary": "介紹在無付費訂閱額度下的替代方案，教導如何利用 OpenCode 內建的免費 Big Pickle 模型上手網頁爬蟲與 Agent 操作。",
+   "tags": [
+    "OpenCode",
+    "AI Agent",
+    "免費模型",
+    "新手教學"
    ]
   },
   {
@@ -5421,6 +5948,40 @@
    ]
   },
   {
+   "video_id": "gm1ln1Z0hHo",
+   "title": "AI Agent 基本功 EP02：學習 Agent 所要知道的基本觀念以及初始化設定",
+   "channel": "三師爸Sense Bar",
+   "duration_seconds": 4738,
+   "published_at": "2026-06-22T02:24:55Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/gm1ln1Z0hHo/mqdefault.jpg",
+   "view_count": 3762,
+   "category": "入門觀念",
+   "summary": "詳細講解學習與操作 AI Agent 所必須具備的基本觀念，以及初次接觸時的系統初始化設定步驟。",
+   "tags": [
+    "AI Agent",
+    "基礎觀念",
+    "初始化設定",
+    "入門"
+   ]
+  },
+  {
+   "video_id": "8nwjYouFJoE",
+   "title": "AI Agent 基本功 EP02：學習 Agent 必懂的核心觀念與初始化設定",
+   "channel": "三師爸Sense Bar",
+   "duration_seconds": 3157,
+   "published_at": "2026-06-21T15:55:01Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/8nwjYouFJoE/mqdefault.jpg",
+   "view_count": 5918,
+   "category": "入門觀念",
+   "summary": "深入解析學習 AI Agent 必懂的核心觀念，包含權限設定、記憶機制、初始化配置以及 Token 用量控管與分工技巧。",
+   "tags": [
+    "AI Agent",
+    "核心觀念",
+    "記憶機制",
+    "Token優化"
+   ]
+  },
+  {
    "video_id": "F8je9D-v9t8",
    "title": "【AI 影片】超強整合型平台 ChatArt 實測！從靈感、圖片、影片到音樂，一站完成 AI 短片創作，Kling 3.0 Omni 真的有猛？",
    "channel": "XUAN 鉉創意",
@@ -5642,6 +6203,23 @@
    ]
   },
   {
+   "video_id": "5jj4W5XU3nw",
+   "title": "Antigravity基本功EP08:Agent代理/複製你的聲音！",
+   "channel": "三師爸Sense Bar",
+   "duration_seconds": 4077,
+   "published_at": "2026-06-18T14:57:07Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/5jj4W5XU3nw/mqdefault.jpg",
+   "view_count": 2251,
+   "category": "工具教學",
+   "summary": "介紹如何利用 Antigravity 工具實現完全免費的 AI 語音克隆，一鍵即可生成老師專屬配音的教學影片。",
+   "tags": [
+    "AI 語音",
+    "語音克隆",
+    "Antigravity",
+    "工具教學"
+   ]
+  },
+  {
    "video_id": "c_F5Y8Di2hw",
    "title": "2026 AI 提示詞最佳設計指南：GPT、Claude、Gemini 共通框架，與 AI 溝通的黃金公式一次看懂直接進化【欸那個AJ】",
    "channel": "欸那個AJ",
@@ -5811,6 +6389,23 @@
    ]
   },
   {
+   "video_id": "So6xDR449W0",
+   "title": "【AI代理入門實戰】6個「AI自動化工作&賺錢應用」方法🔥｜Manus AI教學｜AI新手入門",
+   "channel": "蘋果妹",
+   "duration_seconds": 1154,
+   "published_at": "2026-06-17T13:00:26Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/So6xDR449W0/mqdefault.jpg",
+   "view_count": 22433,
+   "category": "自動化工作流",
+   "summary": "介紹Manus AI代理的入門實戰應用，並示範六種AI自動化工作與賺錢方法，協助新手快速掌握AI代理的實際操作。",
+   "tags": [
+    "AI代理",
+    "自動化工作流",
+    "Manus AI",
+    "新手教學"
+   ]
+  },
+  {
    "video_id": "9M8TtoJKUC0",
    "title": "【香港創業者必備】5 分鐘無痛上線專業網站：Readdy AI 全能網站製作教學及實測 ｜ 超簡易AI網站製作工具 #香港ai #網站AI #ai工具 #AI創業 #廣東話 #ReaddyAI",
    "channel": "我想用Ai賺錢",
@@ -5859,6 +6454,23 @@
     "Loop迴圈",
     "自動化工作流",
     "批次處理"
+   ]
+  },
+  {
+   "video_id": "IPyBeQgHXOU",
+   "title": "20260617年度技術研討會-AI Agent 時代下的企業開發革命",
+   "channel": "INFOLIGHT TV",
+   "duration_seconds": 3163,
+   "published_at": "2026-06-17T08:33:12Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/IPyBeQgHXOU/mqdefault.jpg",
+   "view_count": 309,
+   "category": "程式開發",
+   "summary": "介紹EEP Core如何結合LLM與Claude Code實現AI Agent應用，並現場示範在VS Code中透過自然語言快速開發應用系統。",
+   "tags": [
+    "AI Agent",
+    "Claude Code",
+    "系統開發",
+    "程式開發"
    ]
   },
   {
@@ -5913,6 +6525,40 @@
    ]
   },
   {
+   "video_id": "3s2Q1nViZ1w",
+   "title": "AI Agent基本功EP01:用Agent來學習Agent_一個 GitHub repo，複製我的整套 AI 工作流到你的 Agent",
+   "channel": "三師爸Sense Bar",
+   "duration_seconds": 2929,
+   "published_at": "2026-06-15T15:44:52Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/3s2Q1nViZ1w/mqdefault.jpg",
+   "view_count": 13074,
+   "category": "自動化工作流",
+   "summary": "透過一個GitHub專案帶領觀眾建立AI Agent的基本功，學習雲端生成式AI與本機AI Agent的差異，並打造專屬知識庫與自動化工作流。",
+   "tags": [
+    "AI Agent",
+    "自動化工作流",
+    "知識庫",
+    "GitHub"
+   ]
+  },
+  {
+   "video_id": "X-Lk-NBpsQE",
+   "title": "零基礎玩 AI Agent｜免費用 Hermes Agent Windows Desktop，不用 API 也能跑本機模型｜新手教學",
+   "channel": "Dr. Jackei 科技生活日誌",
+   "duration_seconds": 757,
+   "published_at": "2026-06-15T11:59:52Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/X-Lk-NBpsQE/mqdefault.jpg",
+   "view_count": 9606,
+   "category": "工具教學",
+   "summary": "零基礎教學如何使用Hermes Agent Windows Desktop搭配Ollama在本機運行模型，免去API費用與複雜設定建立AI工作流。",
+   "tags": [
+    "AI Agent",
+    "本機模型",
+    "新手教學",
+    "Ollama"
+   ]
+  },
+  {
    "video_id": "_cDDG2EMJZw",
    "title": "【AI教學】ChatGPT Codex 的 AGENTS.md 檔案是什麼？怎麼用？讓 Codex 永久記住專案規則",
    "channel": "科技兔",
@@ -5944,6 +6590,23 @@
     "Gemini",
     "工具教學",
     "工作效率"
+   ]
+  },
+  {
+   "video_id": "8QzfB8_LcH0",
+   "title": "AI_Agent 基本功 EP01：用 Agent 來學習 Agent",
+   "channel": "三師爸Sense Bar",
+   "duration_seconds": 4518,
+   "published_at": "2026-06-14T14:37:35Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/8QzfB8_LcH0/mqdefault.jpg",
+   "view_count": 7433,
+   "category": "入門觀念",
+   "summary": "帶領初學者如何運用 AI Agent 本身作為學習工具，快速掌握 AI 智能體的底層邏輯與使用方法。",
+   "tags": [
+    "AI Agent",
+    "入門觀念",
+    "學習方法",
+    "新手引導"
    ]
   },
   {
@@ -6270,6 +6933,23 @@
    ]
   },
   {
+   "video_id": "pI2nitfc8Tg",
+   "title": "AntiGravity基本功EP07:全面接管Padlet_教學神器無限電子佈告欄",
+   "channel": "三師爸Sense Bar",
+   "duration_seconds": 2897,
+   "published_at": "2026-06-12T03:10:34Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/pI2nitfc8Tg/mqdefault.jpg",
+   "view_count": 1561,
+   "category": "自動化工作流",
+   "summary": "實測使用 Agents 全面控制 Padlet 平台，示範如何自動新增貼文、投票、修改學生回饋及下載相關附件。",
+   "tags": [
+    "AI Agent",
+    "Padlet",
+    "自動化",
+    "教學應用"
+   ]
+  },
+  {
    "video_id": "yvIuZehFBww",
    "title": "Cremi.ai 讓你一鍵生成電影級 AI MV 與爆款短影音！AI 對嘴唱歌神器實測，一張照片秒變專業歌手，自動完成對嘴、運鏡、轉場與配樂｜內含 500 點數兌換碼",
    "channel": "Tracy AI小妹",
@@ -6301,6 +6981,23 @@
     "辦公應用",
     "AI Agent",
     "資料整理"
+   ]
+  },
+  {
+   "video_id": "wrSYyOxf7n4",
+   "title": "AntiGravity 基本功 EP07:一句話生成 Padlet 課程牆_分區、投票、AI 插圖全自動完成",
+   "channel": "三師爸Sense Bar",
+   "duration_seconds": 1725,
+   "published_at": "2026-06-11T16:23:26Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/wrSYyOxf7n4/mqdefault.jpg",
+   "view_count": 2484,
+   "category": "自動化工作流",
+   "summary": "介紹並實測 Padlet MCP 工具，教導如何透過 AI 一句話自動生成課程牆、分區、投票、插圖以及批改作業。",
+   "tags": [
+    "Padlet MCP",
+    "AI Agent",
+    "自動化工作流",
+    "教學工具"
    ]
   },
   {
@@ -6338,6 +7035,23 @@
    ]
   },
   {
+   "video_id": "7UVz0FMJ9Xg",
+   "title": "AI Agent｜iPAS AI應用規劃師能力鑑定課程【艾鍗學院】",
+   "channel": "艾鍗學院",
+   "duration_seconds": 1570,
+   "published_at": "2026-06-11T07:38:56Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/7UVz0FMJ9Xg/mqdefault.jpg",
+   "view_count": 127,
+   "category": "入門觀念",
+   "summary": "介紹AI Agent具備的觀察、推理與自我修正能力，並說明Anthropic推出的MCP通訊協定如何讓大語言模型連接外部資源與資料庫。",
+   "tags": [
+    "AI Agent",
+    "MCP",
+    "入門觀念",
+    "大語言模型"
+   ]
+  },
+  {
    "video_id": "ZNALSXbmR0c",
    "title": "Claude Fable 5 发布！我用它 5 小时做了个 macOS App，已开源",
    "channel": "花叔",
@@ -6355,6 +7069,23 @@
    ]
   },
   {
+   "video_id": "iE974yYzmrU",
+   "title": "不會寫程式也能用！Hermes Agent桌面版完整教學：模型串接/排程任務/實際應用",
+   "channel": "Wilson威爾森實驗室 ",
+   "duration_seconds": 1320,
+   "published_at": "2026-06-10T14:56:28Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/iE974yYzmrU/mqdefault.jpg",
+   "view_count": 14467,
+   "category": "工具教學",
+   "summary": "詳細介紹Hermes Agent桌面版的安裝與使用教學，包含圖形化安裝步驟、模型串接以及日常排程任務的實際應用。",
+   "tags": [
+    "Hermes Agent",
+    "工具教學",
+    "桌面應用",
+    "新手教學"
+   ]
+  },
+  {
    "video_id": "VtehqGqpcjE",
    "title": "Claude Fable 5 實測：把 AI 當資深工程師會怎樣",
    "channel": "追日Gucci-AI效率革命聯盟",
@@ -6369,6 +7100,23 @@
     "程式開發",
     "程式重構",
     "AI工程師"
+   ]
+  },
+  {
+   "video_id": "6vrqRhM_oZY",
+   "title": "獨家！AI空鏡速成術：讓影片一秒變電影感 #AI教學 #空鏡技巧",
+   "channel": "刺蝟星球",
+   "duration_seconds": 151,
+   "published_at": "2026-06-10T12:19:08Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/6vrqRhM_oZY/mqdefault.jpg",
+   "view_count": 739,
+   "category": "AI 影像與影片生成",
+   "summary": "拆解 AI 影片中的「空鏡」敘事技巧，教你用提示詞生成高質感空鏡素材，並透過剪接與音樂提升電影感。",
+   "tags": [
+    "AI影片",
+    "空鏡技巧",
+    "AI創作",
+    "剪接教學"
    ]
   },
   {
@@ -6403,6 +7151,40 @@
     "Notion",
     "自動化工作流",
     "零基礎教學"
+   ]
+  },
+  {
+   "video_id": "qiIo1Z_LRXk",
+   "title": "【AI工作流】如何讓VIP看到不同內容？n8n教學：理解if / else條件判斷邏輯，打造VIP專屬分流術！",
+   "channel": "新北市政府青年局",
+   "duration_seconds": 374,
+   "published_at": "2026-06-10T11:00:21Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/qiIo1Z_LRXk/mqdefault.jpg",
+   "view_count": 322,
+   "category": "自動化工作流",
+   "summary": "介紹如何使用 n8n 自動化工具中的 if / else 條件判斷節點，教導學員建立名單分流術，根據不同會員身分自動發送專屬內容。",
+   "tags": [
+    "n8n",
+    "自動化",
+    "AI工作流",
+    "條件判斷"
+   ]
+  },
+  {
+   "video_id": "4H8u3uHLCsE",
+   "title": "[ 享玩AI ] 只要一句話！OiiOii AI 讓你一分鐘變身動畫導演，上百種風格任你隨便挑|一鍵生成 2D 動畫，OiiOii AI 實測，動畫製作神器，生成高品質動畫短片，創作者的靈感收割機",
+   "channel": "享知Cultiwise",
+   "duration_seconds": 748,
+   "published_at": "2026-06-10T11:00:03Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/4H8u3uHLCsE/mqdefault.jpg",
+   "view_count": 4030,
+   "category": "AI 影像與影片生成",
+   "summary": "實測 OiiOii AI 動畫生成工具，展示如何透過一句話一鍵生成高品質 2D 動畫短片與角色設計。",
+   "tags": [
+    "OiiOii",
+    "AI動畫",
+    "影片生成",
+    "工具教學"
    ]
   },
   {
@@ -6525,6 +7307,40 @@
    ]
   },
   {
+   "video_id": "ls_MxvCPkt4",
+   "title": "Adobe Firefly 完整指南｜商業安全 AI 繪圖，有法律背書才放心",
+   "channel": "AI 好友實驗室",
+   "duration_seconds": 368,
+   "published_at": "2026-06-09T04:00:30Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/ls_MxvCPkt4/mqdefault.jpg",
+   "view_count": 95,
+   "category": "工具教學",
+   "summary": "介紹具備商業安全與法律背書的 Adobe Firefly AI 繪圖工具，說明其訓練來源與在工作流程中的應用。",
+   "tags": [
+    "AdobeFirefly",
+    "AI繪圖",
+    "商業授權",
+    "工具教學"
+   ]
+  },
+  {
+   "video_id": "FdSVeOAd480",
+   "title": "终于来了！Hermes Agent 桌面版正式发布，支持 Windows、macOS、Linux，小白也能轻松上手！ | 零度解说",
+   "channel": "零度解说",
+   "duration_seconds": 748,
+   "published_at": "2026-06-08T13:09:36Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/FdSVeOAd480/mqdefault.jpg",
+   "view_count": 228432,
+   "category": "工具教學",
+   "summary": "介紹Hermes Agent正式發布的官方桌面版，支援Windows與macOS等系統，帶領新手輕鬆完成安裝與上手操作。",
+   "tags": [
+    "Hermes Agent",
+    "工具教學",
+    "新手上手",
+    "跨平台"
+   ]
+  },
+  {
    "video_id": "sZcN4kNW1-I",
    "title": "【AI教學】ChatGPT Codex 寵物功能是什麼？怎麼用？教你一鍵自訂 Codex Pets 寵物！含提示詞",
    "channel": "科技兔",
@@ -6576,6 +7392,23 @@
    ]
   },
   {
+   "video_id": "RSEYF_lZORU",
+   "title": "這可能是最適合新手入門的開源 AI Agent：Hermes Desktop 全面解析",
+   "channel": "李哈利 | AI",
+   "duration_seconds": 874,
+   "published_at": "2026-06-08T11:00:30Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/RSEYF_lZORU/mqdefault.jpg",
+   "view_count": 10244,
+   "category": "工具教學",
+   "summary": "全面解析適合新手入門的開源 AI Agent 軟體 Hermes Desktop，介紹其功能特色與如何應用於實際業務中。",
+   "tags": [
+    "AI Agent",
+    "Hermes Desktop",
+    "新手教學",
+    "開源工具"
+   ]
+  },
+  {
    "video_id": "MnWWS1WbafQ",
    "title": "Google Omni降臨，生成影片就像聊天？對話式影片修改！無痛替換影片背景、內容，創建虛擬分身！有可能贏過Seedance 2.0嗎？",
    "channel": "AI 視覺實驗室",
@@ -6590,6 +7423,23 @@
     "Google Flow",
     "AI影片生成",
     "影片修改"
+   ]
+  },
+  {
+   "video_id": "-cplfCsPJXs",
+   "title": "OpenCode 基本功EP04:免費組裝你的 Agent 大軍，無限解放 Token",
+   "channel": "三師爸Sense Bar",
+   "duration_seconds": 3163,
+   "published_at": "2026-06-08T09:41:29Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/-cplfCsPJXs/mqdefault.jpg",
+   "view_count": 5851,
+   "category": "工具教學",
+   "summary": "教導如何組裝免費的 AI Agent 大軍，利用本地模型與免費 API 結合高階模型進行派工，大幅節省昂貴的 Token 成本。",
+   "tags": [
+    "AI Agent",
+    "本地模型",
+    "Token優化",
+    "工具教學"
    ]
   },
   {
@@ -6627,6 +7477,23 @@
    ]
   },
   {
+   "video_id": "kOZUNSvyrgU",
+   "title": "Open Code 基本功EP04: 免費 Agent組裝你的 Agent 大軍_無限解放token",
+   "channel": "三師爸Sense Bar",
+   "duration_seconds": 5633,
+   "published_at": "2026-06-08T02:49:01Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/kOZUNSvyrgU/mqdefault.jpg",
+   "view_count": 2715,
+   "category": "工具教學",
+   "summary": "實測最新的 Gemma 本地開源模型表現，並教導如何使用 OpenCode CLI 作為頂級 AI 模型的高效勞動力 Agent。",
+   "tags": [
+    "Gemma",
+    "OpenCode",
+    "AI Agent",
+    "本地部署"
+   ]
+  },
+  {
    "video_id": "Czky9q7sOWU",
    "title": "Claude Code保姆級攻略2.0：中文語言設定、第三方模型接入、MCP、Skill、Subagent完整教學，省下90%的Token費用，打造真正能幹活的AI Agent",
    "channel": "學長Ethan",
@@ -6658,6 +7525,40 @@
     "AI Agent",
     "AI 團隊",
     "自動化工作流"
+   ]
+  },
+  {
+   "video_id": "QOsWBcs1RAQ",
+   "title": "Antigravity 基本功 EP06：全面代理你的 Google Classroom",
+   "channel": "三師爸Sense Bar",
+   "duration_seconds": 3487,
+   "published_at": "2026-06-07T02:28:11Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/QOsWBcs1RAQ/mqdefault.jpg",
+   "view_count": 1062,
+   "category": "辦公應用",
+   "summary": "示範如何透過 AI Agent 全面代理 Google Classroom，實現自動派發作業與自動批改作業的自動化流程。",
+   "tags": [
+    "Google Classroom",
+    "AI Agent",
+    "自動化辦公",
+    "教學應用"
+   ]
+  },
+  {
+   "video_id": "vYb87aqvBuE",
+   "title": "Antigravity 基本功 EP06:全面代理你的 Google Classroom_派作業、收作業、批改一次搞定：AI × Google Classroom 完整教學",
+   "channel": "三師爸Sense Bar",
+   "duration_seconds": 1919,
+   "published_at": "2026-06-06T14:50:53Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/vYb87aqvBuE/mqdefault.jpg",
+   "view_count": 1632,
+   "category": "自動化工作流",
+   "summary": "本片介紹如何運用 AI Agent 連接個人帳號與 Google Classroom，透過自然語言指令自動完成全班作業的派發、收集與批改，大幅提升教學行政效率。",
+   "tags": [
+    "AI Agent",
+    "Google Classroom",
+    "自動化工作流",
+    "教育應用"
    ]
   },
   {
@@ -6746,6 +7647,23 @@
    ]
   },
   {
+   "video_id": "f4dVXMNY4dM",
+   "title": "AI 绘图抽卡时代要被掀桌了！Ideogram 4 + KJ Prompt Builder 深度实测：JSON 结构化构图、区域控制、对比测试与完整启动教程",
+   "channel": "AI-KSK",
+   "duration_seconds": 606,
+   "published_at": "2026-06-05T17:54:43Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/f4dVXMNY4dM/mqdefault.jpg",
+   "view_count": 2895,
+   "category": "工具教學",
+   "summary": "深度實測 Ideogram 4 結合 KJ Prompt Builder，展示 JSON 結構化構圖、區域控制與完整啟動教學。",
+   "tags": [
+    "Ideogram",
+    "AI繪圖",
+    "工作流",
+    "工具教學"
+   ]
+  },
+  {
    "video_id": "jLjIuUVkP3s",
    "title": "Hermes桌面版赢了，看清一切！适合普通人的智能体！BUG有点多，但不影响体验！",
    "channel": "wow",
@@ -6831,6 +7749,38 @@
    ]
   },
   {
+   "video_id": "8INcIHIYnMA",
+   "title": "AntiGravity 基本功 EP05：教學應用程式的 5 個階段",
+   "channel": "三師爸Sense Bar",
+   "duration_seconds": 3168,
+   "published_at": "2026-06-05T03:08:51Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/8INcIHIYnMA/mqdefault.jpg",
+   "view_count": 1207,
+   "category": "入門觀念",
+   "summary": "介紹使用 AI 打造教學網頁與應用程式的五個發展階段，從初期的純前端練習到進階的語音 AI 助教，幫助教育工作者評估最適合的數位教學工具。",
+   "tags": [
+    "AI 教學",
+    "網頁開發",
+    "入門觀念"
+   ]
+  },
+  {
+   "video_id": "hRdQCQSozY0",
+   "title": "AntiGravity 基本功 EP05:用AI打造教學網頁的5個階段_從純前端到語音AI助教全攻略",
+   "channel": "三師爸Sense Bar",
+   "duration_seconds": 2489,
+   "published_at": "2026-06-04T15:29:49Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/hRdQCQSozY0/mqdefault.jpg",
+   "view_count": 2212,
+   "category": "入門觀念",
+   "summary": "深入解析用 AI 打造教學網頁的五個等級，從純前端與 Google 試算表到 Firebase 即時對戰與語音 AI 助教，全方位盤點適合課堂的數位互動工具。",
+   "tags": [
+    "AI 網頁",
+    "教學工具",
+    "AI 助教"
+   ]
+  },
+  {
    "video_id": "bDzdRFVlkmc",
    "title": "【AI 武林大會】AI資料整理與歸納分享 ChatGPT + NotebookLM 打造你的個人「第二大腦」－英雄：CCChen登場",
    "channel": "iPAS AI應用規劃師Line社群應援站",
@@ -6899,6 +7849,22 @@
    ]
   },
   {
+   "video_id": "NpBfe9LfEUA",
+   "title": "AntiGravity 基本功 EP04：全面升級你的Gem",
+   "channel": "三師爸Sense Bar",
+   "duration_seconds": 3017,
+   "published_at": "2026-06-04T02:59:02Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/NpBfe9LfEUA/mqdefault.jpg",
+   "view_count": 1360,
+   "category": "工具教學",
+   "summary": "簡要介紹如何將 Gemini Gems 全面升級為進階版的 Skills，解鎖 AI Agent 的強大功能與工作流應用。",
+   "tags": [
+    "Gemini",
+    "AI Agent",
+    "工具教學"
+   ]
+  },
+  {
    "video_id": "srzf_7oDags",
    "title": "【AI 趣味創意】AI 數位分身｜全網爆火 Mini-Me 教學！｜0基礎手把手把照片變可愛 3D Mini-Me！#AI設計 #MiniMe #3D數字分身  #AI工具  #AIsoeasy",
    "channel": "優視 • AI新時代 // AI NEW ERA UCH ",
@@ -6913,6 +7879,23 @@
     "數位分身",
     "3D角色",
     "封面設計"
+   ]
+  },
+  {
+   "video_id": "kmmYXntln_E",
+   "title": "AntiGravity 基本功 EP04:一鍵將 Gems 全面升級成 Skill 的終極指南_懶人包大放送",
+   "channel": "三師爸Sense Bar",
+   "duration_seconds": 2344,
+   "published_at": "2026-06-03T16:03:59Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/kmmYXntln_E/mqdefault.jpg",
+   "view_count": 6163,
+   "category": "工具教學",
+   "summary": "手把手帶領觀眾將傳統的 Gemini Gems 一鍵升級為 Skill，透過專屬懶人包讓 AI 自動讀取並分類雲端硬碟中的舊有設定，解鎖 AI Agent 實力。",
+   "tags": [
+    "Gemini",
+    "Skills",
+    "AI Agent",
+    "工具教學"
    ]
   },
   {
@@ -7015,6 +7998,23 @@
     "AI繪圖",
     "影像生成",
     "進階應用"
+   ]
+  },
+  {
+   "video_id": "CJ8tL4arsds",
+   "title": "【AI工作流】如何讓AI「主動」抓資料？n8n教學：HTTP Request實戰，打造你的即時天氣播報員！",
+   "channel": "新北市政府青年局",
+   "duration_seconds": 422,
+   "published_at": "2026-06-03T11:00:06Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/CJ8tL4arsds/mqdefault.jpg",
+   "view_count": 448,
+   "category": "自動化工作流",
+   "summary": "介紹 n8n 自動化工具中的 HTTP Request 節點實戰，教導如何主動向外發出請求並串接 API，打造即時天氣播報員等應用。",
+   "tags": [
+    "n8n",
+    "API",
+    "自動化",
+    "HTTP Request"
    ]
   },
   {
@@ -7154,6 +8154,22 @@
    ]
   },
   {
+   "video_id": "-oBHrpEsJs8",
+   "title": "AntiGravity基本功EP03:最強備課懶人包_寫 GAS 竟然再也不用複製貼上程式碼？我是怎麼做到的.",
+   "channel": "三師爸Sense Bar",
+   "duration_seconds": 2169,
+   "published_at": "2026-05-31T15:42:22Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/-oBHrpEsJs8/mqdefault.jpg",
+   "view_count": 4673,
+   "category": "程式開發",
+   "summary": "展示如何運用 Antigravity AI Agent 進行極速開發，介紹 Turbo Mode 密技以省去繁瑣步驟，並改用 Netlify 搭配 Google 簡化備課流程。",
+   "tags": [
+    "AI Agent",
+    "程式開發",
+    "網頁架設"
+   ]
+  },
+  {
    "video_id": "yoUZ5Gkcbgw",
    "title": "AI时代的知识管理工具：Obsidian 安装与入门教学  | 新手必看秘籍 | WAYNE科技",
    "channel": "WAYNE科技",
@@ -7222,6 +8238,39 @@
    ]
   },
   {
+   "video_id": "agQOf09rXlk",
+   "title": "AntiGravity 基本功 EP02:極速處理教學檔案",
+   "channel": "三師爸Sense Bar",
+   "duration_seconds": 3200,
+   "published_at": "2026-05-31T02:24:27Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/agQOf09rXlk/mqdefault.jpg",
+   "view_count": 1468,
+   "category": "自動化工作流",
+   "summary": "實測使用 AI 助理 Antigravity 快速處理教學檔案、出考卷與整理資料夾，展示 AI 在教育行政庶務上的強大處理速度。",
+   "tags": [
+    "Antigravity",
+    "自動化工作流",
+    "教學應用"
+   ]
+  },
+  {
+   "video_id": "U4C0dGbQtQA",
+   "title": "AntiGravity基本功EP02:備課救星_極速處理教學檔案_出考卷_填文件_下載考古題_整理檔案夾",
+   "channel": "三師爸Sense Bar",
+   "duration_seconds": 2110,
+   "published_at": "2026-05-30T15:23:06Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/U4C0dGbQtQA/mqdefault.jpg",
+   "view_count": 4746,
+   "category": "自動化工作流",
+   "summary": "實測 AI 助理 Antigravity 處理教學檔案的超快速度，包含上網撈考古題並透過 OCR 解題、自動產出數學方程式考卷，以及聯動 Obsidian 處理辦公室庶務。",
+   "tags": [
+    "Antigravity",
+    "自動化工作流",
+    "備課工具",
+    "OCR"
+   ]
+  },
+  {
    "video_id": "Bw8lxVPj8rQ",
    "title": "99%的人都做錯了！AI影片真正難的根本不是生成畫面，GPT Image2 ＋ Seedance 「無斷層」做60秒AI短片！Novi AI 實測",
    "channel": "小V說",
@@ -7273,6 +8322,22 @@
    ]
   },
   {
+   "video_id": "VccxnWOeDDo",
+   "title": "OpenCode 基本功 EP03：近乎無限的用量，幫你處理所有的雜務_Go方案_最划算的訂閱制",
+   "channel": "三師爸Sense Bar",
+   "duration_seconds": 2963,
+   "published_at": "2026-05-30T02:02:30Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/VccxnWOeDDo/mqdefault.jpg",
+   "view_count": 2623,
+   "category": "工具教學",
+   "summary": "分享使用 OpenCode Go 方案的心得，探討如何透過高 CP 值的訂閱制與模型分工，以近乎無限的用量處理日常雜務與自動化工作。",
+   "tags": [
+    "OpenCode",
+    "AI 訂閱",
+    "工具教學"
+   ]
+  },
+  {
    "video_id": "E9lv0NJTfzg",
    "title": "【AI教學應用】Hermes Agent 桌面版 ? 月費計劃 ? 免外國信用卡 ?!",
    "channel": "AI4All",
@@ -7290,6 +8355,22 @@
    ]
   },
   {
+   "video_id": "r59BNhIuh_4",
+   "title": "OpenCode基本功EP03 近乎無限的用量 Opencode Go方案心得_AI工具分工學：最聰明的模型做規劃，最便宜的模型做苦工",
+   "channel": "三師爸Sense Bar",
+   "duration_seconds": 2595,
+   "published_at": "2026-05-29T16:23:15Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/r59BNhIuh_4/mqdefault.jpg",
+   "view_count": 7567,
+   "category": "工具教學",
+   "summary": "深入解析 OpenCode Go 方案的 AI 模型分工策略，教你如何運用多模態專家與便宜模型處理複雜邏輯與大量苦工，達到高 CP 值的自動化應用。",
+   "tags": [
+    "OpenCode",
+    "模型分工",
+    "AI 工具"
+   ]
+  },
+  {
    "video_id": "DPzC_hF9Hc4",
    "title": "NoteBookLM在教室裡的教學應用 _ 溫美玉老師 X 方方老師",
    "channel": "溫老師的AI讀寫Talk",
@@ -7304,6 +8385,23 @@
     "教學應用",
     "課堂互動",
     "AI教育"
+   ]
+  },
+  {
+   "video_id": "ToGs75kOClo",
+   "title": "AI 把漫畫變動畫？這個 n8n 工作流可以自動生成動漫影片",
+   "channel": "傑克自動化AI教學",
+   "duration_seconds": 764,
+   "published_at": "2026-05-29T12:00:35Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/ToGs75kOClo/mqdefault.jpg",
+   "view_count": 1300,
+   "category": "AI 影像與影片生成",
+   "summary": "介紹如何利用 n8n 工作流將漫畫分鏡自動轉換為動漫影片，實現黑白漫畫重新上色、加入動作與 AI 配音的自動化生產線。",
+   "tags": [
+    "n8n",
+    "AI動漫",
+    "影片生成",
+    "自動化"
    ]
   },
   {
@@ -7375,6 +8473,38 @@
    ]
   },
   {
+   "video_id": "EH8QG6S4mJY",
+   "title": "AI Agents自動生成影片 Hyperframes_懶人包福利大放送_三大類型影片包",
+   "channel": "三師爸Sense Bar",
+   "duration_seconds": 5215,
+   "published_at": "2026-05-29T02:41:19Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/EH8QG6S4mJY/mqdefault.jpg",
+   "view_count": 3604,
+   "category": "AI 影像與影片生成",
+   "summary": "介紹運用 Hyperframes AI Agents 自動生成三種不同類型影片的懶人包福利與操作方法，實現免開剪輯軟體的自動化產出。",
+   "tags": [
+    "AI 生成影片",
+    "Hyperframes",
+    "自動化"
+   ]
+  },
+  {
+   "video_id": "2B3U9bq2lsg",
+   "title": "懶人包大放送！用 4 大 AI Agent 全自動產出 3 種實用影片_Hyperframes 懶人包福利大放送 三大類型影片包_",
+   "channel": "三師爸Sense Bar",
+   "duration_seconds": 3587,
+   "published_at": "2026-05-28T15:39:21Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/2B3U9bq2lsg/mqdefault.jpg",
+   "view_count": 4691,
+   "category": "AI 影像與影片生成",
+   "summary": "實測四大 AI Agent 結合專屬 GitHub 懶人包，教你不用剪輯軟體也能讓 AI 自動把照片與音樂變成高品質影片，實現全自動影像產出。",
+   "tags": [
+    "AI Agent",
+    "影片生成",
+    "自動化剪輯"
+   ]
+  },
+  {
    "video_id": "Q05UaHVufo8",
    "title": "AI 簡報工具 PK！Canva、Gemini、NotebookLM 誰更接近商業簡報？NoteBookLM 簡報修改教學！#職場生存 #AI #簡報 #OCR #Gemini#NotebookLM",
    "channel": "爆點議題 POP Buzz",
@@ -7389,6 +8519,23 @@
     "NotebookLM",
     "Gemini",
     "Canva"
+   ]
+  },
+  {
+   "video_id": "gp_LsIzAe9g",
+   "title": "[ 享玩AI ] 靠一張圖，真的能做出 15 秒預告短片嗎？海螺 AI 用全視角工作坊＋多宮格分鏡，直接把靈感變成影片！",
+   "channel": "享知Cultiwise",
+   "duration_seconds": 625,
+   "published_at": "2026-05-28T11:30:06Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/gp_LsIzAe9g/mqdefault.jpg",
+   "view_count": 1666,
+   "category": "AI 影像與影片生成",
+   "summary": "實測海螺 AI 的全視角工作坊與多宮格分鏡功能，教你如何僅憑一張圖片就製作出 15 秒預告短片。",
+   "tags": [
+    "海螺AI",
+    "AI影片",
+    "分鏡腳本",
+    "短片製作"
    ]
   },
   {
@@ -7474,6 +8621,23 @@
     "Suno",
     "ElevenLabs",
     "工作流"
+   ]
+  },
+  {
+   "video_id": "lDNHOxuNDOA",
+   "title": "【AI工作流】Webhook是什麼？n8n教學：打造「感應式」自動流程，資訊處理超效率！",
+   "channel": "新北市政府青年局",
+   "duration_seconds": 432,
+   "published_at": "2026-05-27T11:00:06Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/lDNHOxuNDOA/mqdefault.jpg",
+   "view_count": 542,
+   "category": "自動化工作流",
+   "summary": "介紹 n8n 自動化工具中的 Webhook 觸發器概念與應用，教導如何建立感應式自動流程，在接收外部資料時瞬間啟動任務。",
+   "tags": [
+    "n8n",
+    "Webhook",
+    "自動化",
+    "觸發器"
    ]
   },
   {
@@ -7596,6 +8760,23 @@
    ]
   },
   {
+   "video_id": "7RRtN-wdy-A",
+   "title": "【n8n 教學】5 分鐘搞定！用 Chrome 內建 AI，零基礎也能客製化 n8n 模板",
+   "channel": "Darks ",
+   "duration_seconds": 289,
+   "published_at": "2026-05-26T07:45:10Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/7RRtN-wdy-A/mqdefault.jpg",
+   "view_count": 277,
+   "category": "自動化工作流",
+   "summary": "教導零基礎新手如何利用 Chrome 內建的 Gemini 助手，輕鬆讀懂、修改並客製化別人的 n8n 模板，無痛上手 AI 自動化。",
+   "tags": [
+    "n8n",
+    "Gemini",
+    "AI自動化",
+    "新手教學"
+   ]
+  },
+  {
    "video_id": "ppWG11UxKck",
    "title": "Gemini Omni VS Seedance 2.0｜誰才是最強 AI 影片生成神器？附 Edimakor 4K 畫質提升全攻略",
    "channel": "Official Edimakor Taiwan",
@@ -7678,6 +8859,38 @@
     "圖片分析",
     "語音對話",
     "入門教學"
+   ]
+  },
+  {
+   "video_id": "ZNdaQJOu8AU",
+   "title": "AI Agents 時代下的教學簡報完全體：HTML 簡報_別再被傳統簡報軟體綁架！帶你看見未來教學簡報的完全體。",
+   "channel": "三師爸Sense Bar",
+   "duration_seconds": 2837,
+   "published_at": "2026-05-24T15:50:43Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/ZNdaQJOu8AU/mqdefault.jpg",
+   "view_count": 9775,
+   "category": "辦公應用",
+   "summary": "探討在 AI Agents 時代為何 HTML 簡報比傳統簡報軟體更具優勢，教你利用 AI 生成質感底圖、降低閱讀腦力消耗並加入互動功能。",
+   "tags": [
+    "HTML 簡報",
+    "AI 應用",
+    "辦公應用"
+   ]
+  },
+  {
+   "video_id": "eV0BTIIwpuk",
+   "title": "AI Agents 時代下教學簡報完全體：HTML 簡報",
+   "channel": "三師爸Sense Bar",
+   "duration_seconds": 3505,
+   "published_at": "2026-05-24T14:12:27Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/eV0BTIIwpuk/mqdefault.jpg",
+   "view_count": 2545,
+   "category": "辦公應用",
+   "summary": "介紹 AI Agent 時代下的 HTML 簡報思維，說明如何透過乾淨版面、AI 生成底圖與即時互動工具，打破傳統簡報軟體的限制。",
+   "tags": [
+    "HTML 簡報",
+    "教學簡報",
+    "AI 應用"
    ]
   },
   {
@@ -7783,6 +8996,22 @@
    ]
   },
   {
+   "video_id": "tiWSQNaunwg",
+   "title": "Open Code 基本功EP02：最便宜的開源Agents?",
+   "channel": "三師爸Sense Bar",
+   "duration_seconds": 3882,
+   "published_at": "2026-05-24T02:43:22Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/tiWSQNaunwg/mqdefault.jpg",
+   "view_count": 1591,
+   "category": "工具教學",
+   "summary": "實測開源工具 OpenCode 與其 Zen 方案中的平價模型，教你如何以極低成本處理數位教學庶務，擺脫高昂的 AI 月費負擔。",
+   "tags": [
+    "OpenCode",
+    "開源 AI",
+    "工具教學"
+   ]
+  },
+  {
    "video_id": "FJnZG5lNabA",
    "title": "不寫程式組一支 AI agent team：Claude 教學的真正重點",
    "channel": "思思主播",
@@ -7797,6 +9026,23 @@
     "AI Agent",
     "無程式碼",
     "自動化工作流"
+   ]
+  },
+  {
+   "video_id": "U87EGssCzDY",
+   "title": "OpenCode基本功EP02:一次搞懂最便宜的AI agents_別再盲目訂閱20美金AI！這款開源Agent憑什麼成為黑馬？",
+   "channel": "三師爸Sense Bar",
+   "duration_seconds": 3041,
+   "published_at": "2026-05-23T17:08:02Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/U87EGssCzDY/mqdefault.jpg",
+   "view_count": 5930,
+   "category": "工具教學",
+   "summary": "深度實測第三方開源 Agent 工具 OpenCode，橫向評比多款主流 AI Agent，並教你如何利用低成本方案打造專屬的 AI 助理。",
+   "tags": [
+    "OpenCode",
+    "AI Agent",
+    "工具教學",
+    "開源工具"
    ]
   },
   {
@@ -7851,6 +9097,22 @@
    ]
   },
   {
+   "video_id": "hBEXshEnWRY",
+   "title": "Google AntiGravity 2，真的有如傳說的那樣嗎？",
+   "channel": "三師爸Sense Bar",
+   "duration_seconds": 4256,
+   "published_at": "2026-05-23T01:47:22Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/hBEXshEnWRY/mqdefault.jpg",
+   "view_count": 3982,
+   "category": "自動化工作流",
+   "summary": "開箱 Google 最新 AntiGravity 2.0，測試其串接 Obsidian、GitHub 與 NotebookLM 的能力，打造自動化教學工作流環境。",
+   "tags": [
+    "AntiGravity",
+    "自動化工作流",
+    "AI 助理"
+   ]
+  },
+  {
    "video_id": "LyiiMVZE7uM",
    "title": "AntiGravity 基本功 EP01:Claude Code 與 Codex 的強敵？Google AntiGravity 2.0 實測評價",
    "channel": "三師爸Sense Bar",
@@ -7882,6 +9144,23 @@
     "AI簡報",
     "辦公應用",
     "多模型實測"
+   ]
+  },
+  {
+   "video_id": "BJ0ZssT2kpI",
+   "title": "AI生成長片，突破15秒極限！用Seedance 2.0玩轉多鏡頭長片，從ChatGPT分鏡到Seedance長片延伸，角色設定圖就能達到角色完美延續！",
+   "channel": "AI 視覺實驗室",
+   "duration_seconds": 942,
+   "published_at": "2026-05-22T14:25:39Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/BJ0ZssT2kpI/mqdefault.jpg",
+   "view_count": 8635,
+   "category": "AI 影像與影片生成",
+   "summary": "教你使用 Seedance 2.0 突破 15 秒限制製作長片，透過多模態架構與參考圖實現角色與聲音完美延續。",
+   "tags": [
+    "Seedance",
+    "AI長片",
+    "多鏡頭",
+    "角色一致性"
    ]
   },
   {
@@ -8072,6 +9351,40 @@
    ]
   },
   {
+   "video_id": "WBctlLzlk8w",
+   "title": "[ 享玩AI ]這次 AI 創作真的太猛了！Filmora最新動畫模型實測|多模型ToMoviee 到 Seedance短片一鍵搞定",
+   "channel": "享知Cultiwise",
+   "duration_seconds": 534,
+   "published_at": "2026-05-20T11:30:06Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/WBctlLzlk8w/mqdefault.jpg",
+   "view_count": 5042,
+   "category": "AI 影像與影片生成",
+   "summary": "實測 Filmora 最新動畫模型 ToMoviee 與 Seedance，展示如何從圖片與文字一鍵生成動畫短片與廣告。",
+   "tags": [
+    "Filmora",
+    "ToMoviee",
+    "Seedance",
+    "AI動畫"
+   ]
+  },
+  {
+   "video_id": "8TS2K3ACYw0",
+   "title": "【AI工作流】別再重複勞動！n8n教學：掌握Trigger觸發邏輯，打造「24小時不休息」的數位分身",
+   "channel": "新北市政府青年局",
+   "duration_seconds": 409,
+   "published_at": "2026-05-20T11:00:06Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/8TS2K3ACYw0/mqdefault.jpg",
+   "view_count": 3937,
+   "category": "自動化工作流",
+   "summary": "介紹 n8n 自動化流程中的 Trigger 觸發邏輯，教導新手掌握開關設定，打造 24 小時不休息的數位分身與自動化系統。",
+   "tags": [
+    "n8n",
+    "Trigger",
+    "自動化觀念",
+    "數位分身"
+   ]
+  },
+  {
    "video_id": "bqt8vpXgwL8",
    "title": "如何付费使用Gemini 3.5 flash满血版 (教程00:43开始)",
    "channel": "大吃一顿鲸",
@@ -8086,6 +9399,23 @@
     "CherryStudio",
     "API教學",
     "GoogleAIStudio"
+   ]
+  },
+  {
+   "video_id": "fvmTvkY4tlU",
+   "title": "一鍵部署自己的線上繪圖AI (Z-Image)",
+   "channel": "嘿~科技",
+   "duration_seconds": 284,
+   "published_at": "2026-05-20T09:38:51Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/fvmTvkY4tlU/mqdefault.jpg",
+   "view_count": 250,
+   "category": "工具教學",
+   "summary": "保姆級教學帶領觀眾一鍵部署 Z-Image 線上繪圖 AI 模型，利用免費雲端資源實現高自由度 AI 繪畫。",
+   "tags": [
+    "Z-Image",
+    "AI繪圖",
+    "免費部署",
+    "工具教學"
    ]
   },
   {
@@ -8289,6 +9619,23 @@
     "NotebookLM",
     "備課實務",
     "簡報生成",
+    "工具教學"
+   ]
+  },
+  {
+   "video_id": "lB7Pl8Dl_Rw",
+   "title": "OpenCode基本功 EP01：免費 AI Agent 啟手式_免費仔必看！三師爸手把手教你用開源OpenCode打造專屬AI Agent！",
+   "channel": "三師爸Sense Bar",
+   "duration_seconds": 4450,
+   "published_at": "2026-05-17T14:55:24Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/lB7Pl8Dl_Rw/mqdefault.jpg",
+   "view_count": 12356,
+   "category": "工具教學",
+   "summary": "手把手帶領觀眾下載與設定開源 OpenCode 桌面版，並透過 OpenRouter 串接免費雲端模型，打造專屬的免費 AI Agent 與自動化工作流。",
+   "tags": [
+    "OpenCode",
+    "免費 AI",
+    "AI Agent",
     "工具教學"
    ]
   },
@@ -8650,6 +9997,23 @@
    ]
   },
   {
+   "video_id": "cJs0hM2FVww",
+   "title": "【AI 躺著聽 EP3-2】Gmail 自動化 4 招！自動分類、AI 草稿回覆、Sheets 自動發信｜n8n 教學",
+   "channel": "AI 躺著聽 (AI Lay-Back)",
+   "duration_seconds": 477,
+   "published_at": "2026-05-14T11:00:56Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/cJs0hM2FVww/mqdefault.jpg",
+   "view_count": 42,
+   "category": "辦公應用",
+   "summary": "結合 n8n、Gmail、OpenAI 與 Google Sheets，教導 4 個實用的 Gmail 自動化場景，包含自動分類、AI 草稿回覆與表格同步。",
+   "tags": [
+    "n8n",
+    "Gmail",
+    "OpenAI",
+    "辦公自動化"
+   ]
+  },
+  {
    "video_id": "WPAZ7AF3BoU",
    "title": "2026最強免費AI影片工具大公開，零成本做出爆款短影音(1)｜GeminiGen、Meta、混元、Vheer無限生成、AI影片、AI短劇、AI工具、免註冊、新手教學、自媒體、AI動畫、最新",
    "channel": "AI 生活筆記",
@@ -9007,6 +10371,22 @@
    ]
   },
   {
+   "video_id": "TU_Upg_whtk",
+   "title": "使用 AI Agent 來自動剪輯教學影片_Skills 技能懶人包福利大放送_老師必學！教學影片自動化剪輯，從錄影到上架一次搞定",
+   "channel": "三師爸Sense Bar",
+   "duration_seconds": 6056,
+   "published_at": "2026-05-10T15:20:55Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/TU_Upg_whtk/mqdefault.jpg",
+   "view_count": 8969,
+   "category": "AI 影像與影片生成",
+   "summary": "教導如何運用 Claude Code 或 Codex 結合專屬 Skills，達成教學影片的零門檻自動化剪輯與上字幕，實現從錄影到上架一氣呵成。",
+   "tags": [
+    "自動化剪輯",
+    "AI Agent",
+    "影片後製"
+   ]
+  },
+  {
    "video_id": "gw8sI9bbIvc",
    "title": "【2026最新】ChatGPT最全教程！15个使用技巧，一次掌握基础+进阶玩法，小白都能快速上手。赚钱工作快10倍，超越90%的人。",
    "channel": "松小鼠呀",
@@ -9157,6 +10537,23 @@
     "角色一致性",
     "新手教學",
     "提示詞技巧"
+   ]
+  },
+  {
+   "video_id": "P2VVmUIoGx0",
+   "title": "我用 n8n 打造了 40+ 個 AI 自動化影片工作流程｜頻道完整公開 #n8n",
+   "channel": "傑克自動化AI教學",
+   "duration_seconds": 774,
+   "published_at": "2026-05-08T12:00:45Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/P2VVmUIoGx0/mqdefault.jpg",
+   "view_count": 3161,
+   "category": "AI 影像與影片生成",
+   "summary": "完整公開創作者使用 n8n 打造的 40 多個 AI 自動化影片工作流程，涵蓋短劇、AI 廣告、數位人與 YouTube 頻道生產線。",
+   "tags": [
+    "n8n",
+    "AI影片",
+    "自動化工作流",
+    "YouTube自動化"
    ]
   },
   {
@@ -9687,6 +11084,23 @@
    ]
   },
   {
+   "video_id": "oWXRGQYBxqo",
+   "title": "如何串接 Threads API 實現全自動發文？ | (EP12) n8n 自動化 API 串接教學",
+   "channel": "徐享 Sean Hsu",
+   "duration_seconds": 784,
+   "published_at": "2026-05-04T10:00:22Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/oWXRGQYBxqo/mqdefault.jpg",
+   "view_count": 97,
+   "category": "自動化工作流",
+   "summary": "詳細教學如何串接 Meta 的 Threads API，並利用 n8n 模板實現純文字與圖片的自動發文，打造社群自動化流程。",
+   "tags": [
+    "n8n",
+    "Threads API",
+    "自動發文",
+    "社群自動化"
+   ]
+  },
+  {
    "video_id": "uCBz00TUK7M",
    "title": "NotebookLM 教學｜別再用舊方法學習！你正在浪費 90% 的資料整理與閱讀時間",
    "channel": "DMP深度學習",
@@ -9755,6 +11169,23 @@
    ]
   },
   {
+   "video_id": "zHB_TUBG7N8",
+   "title": "如何打造 Google 表單作業繳交與自動寄信催繳系統？ | (EP.4) n8n 自動化講師應用教學",
+   "channel": "徐享 Sean Hsu",
+   "duration_seconds": 448,
+   "published_at": "2026-05-03T16:28:41Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/zHB_TUBG7N8/mqdefault.jpg",
+   "view_count": 33,
+   "category": "自動化工作流",
+   "summary": "本影片介紹如何使用 n8n 打造學生作業繳交與自動化催繳系統。詳細說明 Google 表單觸發設定、繳交狀態判定、遲交天數計算，以及後續的定時發信通知工作流設計。",
+   "tags": [
+    "n8n",
+    "自動化",
+    "Google表單",
+    "工作流"
+   ]
+  },
+  {
    "video_id": "a0U62XeQqig",
    "title": "我用 AI 做動畫的完整流程｜Claude、ChatGPT、HTML 動畫一次搞定",
    "channel": "從零到上架",
@@ -9769,6 +11200,22 @@
     "ChatGPT",
     "HTML5動畫",
     "AI動畫"
+   ]
+  },
+  {
+   "video_id": "n70bPQ7quPQ",
+   "title": "claude code x OpenAI Codex長出來的技能(skills)才是你的技能_你還在用舊版的 AI 機器人嗎？Agent 時代的真正玩法大公開",
+   "channel": "三師爸Sense Bar",
+   "duration_seconds": 4043,
+   "published_at": "2026-05-03T14:28:58Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/n70bPQ7quPQ/mqdefault.jpg",
+   "view_count": 7369,
+   "category": "工具教學",
+   "summary": "探討 AI Agent 時代如何培養自己的專屬 Skills，實戰示範將舊機器人升級並串接自動化工作流，包含自動轉字幕與漫畫生成。",
+   "tags": [
+    "AI Skills",
+    "AI Agent",
+    "自動化工作流"
    ]
   },
   {
@@ -9823,6 +11270,23 @@
    ]
   },
   {
+   "video_id": "IZ99PuM39ng",
+   "title": "AI agents時代下的簡報最終解答_免費大放送！六個 AI 簡報自動化技能模組，直接下載套用_claude code與codex",
+   "channel": "三師爸Sense Bar",
+   "duration_seconds": 697,
+   "published_at": "2026-05-03T01:59:57Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/IZ99PuM39ng/mqdefault.jpg",
+   "view_count": 9930,
+   "category": "辦公應用",
+   "summary": "比較 Claude Code 與 GPT Codex 在簡報生成上的應用，並提供六大自動化技能模組與三大簡報模式，幫助用戶一鍵生成與修改簡報。",
+   "tags": [
+    "AI 簡報",
+    "Claude Code",
+    "GPT Codex",
+    "辦公應用"
+   ]
+  },
+  {
    "video_id": "TLmA2ygclvQ",
    "title": "202604 網傳#NotebookLM（#智慧筆記本，#Gemini 就有） 備課研究好幫手：AI 協助教學資料整理與應用（會產生語音摘錄、Podcast、影片）",
    "channel": "TKT-TV一貫道道親社會服務網路電視台",
@@ -9854,6 +11318,23 @@
     "Claude",
     "入門觀念",
     "AI檢定"
+   ]
+  },
+  {
+   "video_id": "-_ELSqJSeJM",
+   "title": "如何建立自動化課程提醒系統？串接 Google Sheets 與自動寄信流程教學 | (EP.3) n8n 自動化講師應用教學",
+   "channel": "徐享 Sean Hsu",
+   "duration_seconds": 355,
+   "published_at": "2026-05-02T16:22:14Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/-_ELSqJSeJM/mqdefault.jpg",
+   "view_count": 41,
+   "category": "自動化工作流",
+   "summary": "本教學示範如何使用 n8n 串接 Google Sheets 建立自動化課程提醒系統。內容包含主表欄位設定、檢查寄信狀態、執行課前提醒流程，並實際帶領觀眾進行工作流除錯。",
+   "tags": [
+    "n8n",
+    "自動化",
+    "Google Sheets",
+    "工作流"
    ]
   },
   {
@@ -9905,6 +11386,23 @@
     "提問技巧",
     "Prompt",
     "AI工具"
+   ]
+  },
+  {
+   "video_id": "BN40JSi1EBk",
+   "title": "GPTcodex基本功EP04:串接資料庫_初始化你的專案",
+   "channel": "三師爸Sense Bar",
+   "duration_seconds": 494,
+   "published_at": "2026-05-01T06:20:33Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/BN40JSi1EBk/mqdefault.jpg",
+   "view_count": 5914,
+   "category": "程式開發",
+   "summary": "介紹如何使用 GPT Codex 專屬懶人包一鍵串接 Firebase 資料庫，並配合 GitHub 與 Obsidian 建立標準化的專案初始化與自動化工作流。",
+   "tags": [
+    "GPT Codex",
+    "Firebase",
+    "程式開發",
+    "自動化工作流"
    ]
   },
   {
@@ -10180,6 +11678,23 @@
    ]
   },
   {
+   "video_id": "VEbBbFubCZ8",
+   "title": "GPT Codex 基本功 EP03：為你的 Agent 裝上第二大腦與程式倉庫_打造最強 AI 助理：手把手教你連接Github與Obsidian",
+   "channel": "三師爸Sense Bar",
+   "duration_seconds": 356,
+   "published_at": "2026-04-28T16:09:50Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/VEbBbFubCZ8/mqdefault.jpg",
+   "view_count": 8349,
+   "category": "程式開發",
+   "summary": "手把手教導如何為 GPT Codex 連接 GitHub 與 Obsidian MCP Vault，讓 AI 助理擁有程式倉庫與第二大腦，大幅提升協作與記憶能力。",
+   "tags": [
+    "GPT Codex",
+    "GitHub",
+    "Obsidian",
+    "程式開發"
+   ]
+  },
+  {
    "video_id": "PqMZYZuqSvg",
    "title": "PDF 拆解教學：優化 NotebookLM 摘要品質，讓 AI 閱讀更精準",
    "channel": "Ctrl+Alt+AI 台灣",
@@ -10282,6 +11797,22 @@
    ]
   },
   {
+   "video_id": "3fCXzantTvI",
+   "title": "Claude基本功EP13:用Claude design美化你的工具_全自動視覺優化！Claude Design 如何讓你的網頁瞬間變專業",
+   "channel": "三師爸Sense Bar",
+   "duration_seconds": 719,
+   "published_at": "2026-04-27T15:39:24Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/3fCXzantTvI/mqdefault.jpg",
+   "view_count": 3555,
+   "category": "程式開發",
+   "summary": "展示如何結合 Claude Code 與 Claude Design 從零構建教學網頁遊戲，並利用設計工具全自動優化網站視覺與排版。",
+   "tags": [
+    "Claude Code",
+    "網頁開發",
+    "AI 遊戲設計"
+   ]
+  },
+  {
    "video_id": "UZxPRF3yWSs",
    "title": "醫研必學：用 NotebookLM撰寫論文與產生目錄自動化 #notebooklm #論文自動化 #研究效率翻倍",
    "channel": "YS Class",
@@ -10347,6 +11878,23 @@
     "工具教學",
     "Skills",
     "AI助理"
+   ]
+  },
+  {
+   "video_id": "5FM_O66g2Ng",
+   "title": "Codex基本功EP02:初學者必裝外掛程式跟技能_打造你的個人 AI 助理，Codex 基礎教學實戰",
+   "channel": "三師爸Sense Bar",
+   "duration_seconds": 1012,
+   "published_at": "2026-04-27T09:04:41Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/5FM_O66g2Ng/mqdefault.jpg",
+   "view_count": 16589,
+   "category": "工具教學",
+   "summary": "介紹 Codex 初學者必裝的外掛程式與 Skills，教你如何讓 AI 從單純聊天進階到實際動手做事的個人助理，建立高效工作流。",
+   "tags": [
+    "Codex",
+    "AI 助理",
+    "工具教學",
+    "外掛安裝"
    ]
   },
   {
@@ -10432,6 +11980,23 @@
     "提示詞範本",
     "工具教學",
     "AI造型師"
+   ]
+  },
+  {
+   "video_id": "YpJQ1JNOqVg",
+   "title": "一次搞懂 AI 代理人的三件事_Agent_claude_code_feat_codex",
+   "channel": "三師爸Sense Bar",
+   "duration_seconds": 4715,
+   "published_at": "2026-04-26T14:42:58Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/YpJQ1JNOqVg/mqdefault.jpg",
+   "view_count": 5327,
+   "category": "入門觀念",
+   "summary": "深度解析生成式 AI 與代理人（Agent）的本質差異，比較 Claude Code 與 ChatGPT Codex 的實測表現，並分享如何打造 24 小時自動化工作流。",
+   "tags": [
+    "AI Agent",
+    "Claude Code",
+    "GPT Codex",
+    "入門觀念"
    ]
   },
   {
@@ -10775,6 +12340,23 @@
    ]
   },
   {
+   "video_id": "JqoZH5__gsk",
+   "title": "claude基本功EP11:把 GPT-Image 2.0 裝進 Claude_讓 Claude 擁有最強生圖引擎",
+   "channel": "三師爸Sense Bar",
+   "duration_seconds": 440,
+   "published_at": "2026-04-23T16:41:54Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/JqoZH5__gsk/mqdefault.jpg",
+   "view_count": 6884,
+   "category": "工具教學",
+   "summary": "手把手教學如何透過 API Key 將 ChatGPT 的 GPT-Image 2.0 生圖引擎直接串接至 Claude 中，以低廉成本解鎖最強生圖能力。",
+   "tags": [
+    "Claude",
+    "GPT-Image",
+    "API 串接",
+    "工具教學"
+   ]
+  },
+  {
    "video_id": "dSQYUXbWkTI",
    "title": "2026最強AI繪圖：ChatGPT Images 2.0強到離譜啊!？#ChatGPTImages2 #AI繪圖#生成式AI#設計神器#AI工具#內容創作#YouTube#Shorts",
    "channel": " 玩解謎樂生活",
@@ -10874,6 +12456,23 @@
     "AI生圖實測",
     "角色一致性",
     "圖表生成"
+   ]
+  },
+  {
+   "video_id": "m3k7tR4ZvtA",
+   "title": "[粵語教學] n8n 自動化實戰：從 0 到 1 打造你的 AI Agent！",
+   "channel": "煉碼師Caspar",
+   "duration_seconds": 1047,
+   "published_at": "2026-04-23T03:44:17Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/m3k7tR4ZvtA/mqdefault.jpg",
+   "view_count": 337,
+   "category": "自動化工作流",
+   "summary": "以粵語生動講解 n8n 自動化平台的基礎概念如 API 與 Webhook，並實戰教導如何結合 AI Agent 與工具打造專屬 AI 助理。",
+   "tags": [
+    "n8n",
+    "粵語教學",
+    "AI Agent",
+    "自動化"
    ]
   },
   {
@@ -11047,6 +12646,22 @@
    ]
   },
   {
+   "video_id": "RZMHdYar_DM",
+   "title": "claude desigh的威力 軍艦棋",
+   "channel": "三師爸Sense Bar",
+   "duration_seconds": 138,
+   "published_at": "2026-04-20T13:33:54Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/RZMHdYar_DM/mqdefault.jpg",
+   "view_count": 1933,
+   "category": "程式開發",
+   "summary": "實測使用 Claude Design 優化已開發完成的數學遊戲網站，展示其精良的視覺優化效果與高階網頁設計能力。",
+   "tags": [
+    "Claude Design",
+    "網頁優化",
+    "程式開發"
+   ]
+  },
+  {
    "video_id": "wW6_Q-5aH5o",
    "title": "【超級新手指南】我如何使用Claude Code？基礎知識和驚人用途一次說清楚！我每天都在用的5項Claude Code技能全公開，就算你是初學者，也能用它打造一人公司！",
    "channel": "孔老師AI研習社",
@@ -11061,6 +12676,40 @@
     "程式開發",
     "AI編程",
     "一人公司"
+   ]
+  },
+  {
+   "video_id": "-wb0QKHcyds",
+   "title": "Claude基本功EP10:新手從零開始你的專案-使用Claude code來寫教學應用程式_從小白到高手的進階分水嶺：掌握專案管理的「一桌三櫃」法",
+   "channel": "三師爸Sense Bar",
+   "duration_seconds": 4823,
+   "published_at": "2026-04-20T02:30:45Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/-wb0QKHcyds/mqdefault.jpg",
+   "view_count": 8001,
+   "category": "程式開發",
+   "summary": "介紹專案管理的「一桌三櫃」架構，結合 Google Drive、GitHub、Firebase 與 Obsidian 解決新手在使用 Claude Code 開發專案時的記憶流失與混亂問題。",
+   "tags": [
+    "Claude Code",
+    "專案管理",
+    "程式開發",
+    "自動化工作流"
+   ]
+  },
+  {
+   "video_id": "LDvdcA3robQ",
+   "title": "Claude Cowork (1) 安裝與 Skill 技能全攻略：名片轉 Excel、下載區自動分類，AI Agent快速上手",
+   "channel": "T客邦影新聞",
+   "duration_seconds": 896,
+   "published_at": "2026-04-19T23:30:15Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/LDvdcA3robQ/mqdefault.jpg",
+   "view_count": 15671,
+   "category": "工具教學",
+   "summary": "手把手教學如何安裝與使用 Claude Cowork，透過 Skill 技能設定讓 AI Agent 自動分類檔案及處理名片轉 Excel 等工作。",
+   "tags": [
+    "Claude Cowork",
+    "AI Agent",
+    "辦公自動化",
+    "教學"
    ]
   },
   {
@@ -11166,6 +12815,23 @@
    ]
   },
   {
+   "video_id": "78YQMfgPlwA",
+   "title": "8萬顆星的Hermes Agent少了它根本不能用！3分鐘打造AI中控台",
+   "channel": "YAHA学堂",
+   "duration_seconds": 566,
+   "published_at": "2026-04-17T00:26:18Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/78YQMfgPlwA/mqdefault.jpg",
+   "view_count": 27943,
+   "category": "工具教學",
+   "summary": "介紹 Hermes HUD 網頁中控台介面，帶領觀眾在三分鐘內完成安裝，並透過網頁直接管理 Hermes Agent 的花費、記憶與排程。",
+   "tags": [
+    "Hermes Agent",
+    "AI 中控台",
+    "工具教學",
+    "自動化"
+   ]
+  },
+  {
    "video_id": "D-xGULjCAB4",
    "title": "Google這次真的太強了!🔥NotebookLM 6大自媒體神級用法🫨爆款文案庫 x 簡報PPT x 資訊圖表 x 影片生成 x PodCast..🎯修改文字、去水印方法🔓🤫@chuchuchutv",
    "channel": "Chuchu豬 TV",
@@ -11183,6 +12849,40 @@
    ]
   },
   {
+   "video_id": "DRgkh8IRk9k",
+   "title": "徹底告別 n8n！Claude 全新 Routines 發布，一句話打造全自動 AI 工作流",
+   "channel": "李哈利Harry",
+   "duration_seconds": 695,
+   "published_at": "2026-04-16T12:00:22Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/DRgkh8IRk9k/mqdefault.jpg",
+   "view_count": 4315,
+   "category": "自動化工作流",
+   "summary": "介紹 Claude 的全新 Routines 功能，教導如何透過簡單對話指令快速打造全自動 AI 工作流，提升自動化任務效率。",
+   "tags": [
+    "Claude",
+    "AI工作流",
+    "自動化",
+    "Routines"
+   ]
+  },
+  {
+   "video_id": "aiY74SlGLNk",
+   "title": "Gemini 已經過時？2026 必須了解 AI Agent｜Manus / Claude Cowork 教學｜中小企必學「虛擬員工」",
+   "channel": "Hello AI | 快速應用AI",
+   "duration_seconds": 1494,
+   "published_at": "2026-04-16T11:27:06Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/aiY74SlGLNk/mqdefault.jpg",
+   "view_count": 124800,
+   "category": "入門觀念",
+   "summary": "探討 2026 年 AI Agent 新趨勢，實測 Manus AI 與 Claude Cowork，並講解如何建立知識庫與虛擬員工來協助中小企業。",
+   "tags": [
+    "AI Agent",
+    "Manus",
+    "Claude Cowork",
+    "趨勢觀念"
+   ]
+  },
+  {
    "video_id": "rxhRl65Psqg",
    "title": "別再手動做 PPT！NotebookLM 更新 vs. Manus 實測：自動搜資料、一鍵排版、還能直接改文字！",
    "channel": "泛科學院",
@@ -11197,6 +12897,23 @@
     "Manus",
     "簡報生成",
     "自動排版"
+   ]
+  },
+  {
+   "video_id": "FZ-UEOkJmmw",
+   "title": "【90%人都搞錯】N8N vs Claude Code vs AI Studio｜學錯直接浪費時間｜廣東話｜文恩澄",
+   "channel": "文恩澄 Rannes Man",
+   "duration_seconds": 1094,
+   "published_at": "2026-04-16T10:55:00Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/FZ-UEOkJmmw/mqdefault.jpg",
+   "view_count": 46016,
+   "category": "入門觀念",
+   "summary": "用簡單比喻解析 N8N、Claude Code 與 AI Studio 三大 AI 工具的真正角色與差異，幫助學習者釐清定位，避免學錯工具浪費時間。",
+   "tags": [
+    "N8N",
+    "Claude Code",
+    "AI工具",
+    "入門觀念"
    ]
   },
   {
@@ -11285,6 +13002,57 @@
    ]
   },
   {
+   "video_id": "NaDftIn1YLk",
+   "title": "實測超越 OpenClaw 的神級 Agent！Hermes 全自動寫 Code 修 Bug，竟然還會「記住」你？",
+   "channel": "YAHA学堂",
+   "duration_seconds": 400,
+   "published_at": "2026-04-15T08:00:33Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/NaDftIn1YLk/mqdefault.jpg",
+   "view_count": 22263,
+   "category": "工具教學",
+   "summary": "實測具有長期記憶與背景排程能力的 Hermes Agent，展示其如何全自動編寫程式碼、修正 Bug 並透過通訊軟體回報進度。",
+   "tags": [
+    "Hermes Agent",
+    "自動化寫程式",
+    "AI 智能體",
+    "實測"
+   ]
+  },
+  {
+   "video_id": "Dc5mpf285y0",
+   "title": "YouMind 實測：比NotebookLM更靈活，還能用 Seedance2.0，創作者夢寐以求的 AI 神器！",
+   "channel": "電腦王阿達",
+   "duration_seconds": 1545,
+   "published_at": "2026-04-15T05:33:43Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/Dc5mpf285y0/mqdefault.jpg",
+   "view_count": 50986,
+   "category": "工具教學",
+   "summary": "實測比 NotebookLM 更靈活的 AI 工具 YouMind，介紹其支援活文件編輯、跨模型切換及生成多頁漫畫與影片的功能，提升創作者與資料整理的效率。",
+   "tags": [
+    "YouMind",
+    "工具實測",
+    "筆記工具",
+    "AI內容創作"
+   ]
+  },
+  {
+   "video_id": "EBwFeyTvcR8",
+   "title": "Claude基本功EP095 : 5 分鐘學會！Claude 串接 Firebase 資料庫全攻略懶人包。",
+   "channel": "三師爸Sense Bar",
+   "duration_seconds": 190,
+   "published_at": "2026-04-14T16:25:25Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/EBwFeyTvcR8/mqdefault.jpg",
+   "view_count": 4615,
+   "category": "程式開發",
+   "summary": "提供完整懶人包與手把手教學，教你如何在 Claude Code 中順利串接 Firebase 資料庫，享受高速且具擴充性的資料後端設定。",
+   "tags": [
+    "Claude Code",
+    "Firebase",
+    "資料庫",
+    "程式開發"
+   ]
+  },
+  {
    "video_id": "ZgTpaB0TSMQ",
    "title": "【Canva 最新AI功能】Magic Layers 一鍵把圖片變可編輯圖層",
    "channel": "Greyson Zhang",
@@ -11316,6 +13084,40 @@
     "Google Vids",
     "影片生成",
     "製作流程"
+   ]
+  },
+  {
+   "video_id": "aRpZL-CyS7k",
+   "title": "Claude基本功EP09:免費Supabase串起你的資料庫_用自然語言操控資料庫，完全免費的開發新邏輯",
+   "channel": "三師爸Sense Bar",
+   "duration_seconds": 469,
+   "published_at": "2026-04-13T15:16:43Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/aRpZL-CyS7k/mqdefault.jpg",
+   "view_count": 5366,
+   "category": "程式開發",
+   "summary": "本影片介紹如何結合 Claude 與免費 Supabase 資料庫，教導觀眾透過自然語言操控資料庫，實現零成本的自動化開發新邏輯。",
+   "tags": [
+    "Claude",
+    "Supabase",
+    "資料庫",
+    "AI開發"
+   ]
+  },
+  {
+   "video_id": "RcBh6dFwh8k",
+   "title": "Seedance 2.0 全自動廣告影片｜一支只要 $1？人臉過審 AI 實測 #n8n",
+   "channel": "傑克自動化AI教學",
+   "duration_seconds": 849,
+   "published_at": "2026-04-13T12:01:00Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/RcBh6dFwh8k/mqdefault.jpg",
+   "view_count": 50847,
+   "category": "AI 影像與影片生成",
+   "summary": "實測 Seedance 2.0 與 n8n 工作流，教導如何批量全自動生成具備人物一致性、自動配音與加字幕的 UGC 帶貨廣告影片。",
+   "tags": [
+    "n8n",
+    "Seedance",
+    "AI廣告",
+    "影片生成"
    ]
   },
   {
@@ -11353,6 +13155,23 @@
    ]
   },
   {
+   "video_id": "ip8nC7lqatE",
+   "title": "【突破限制】NotebookLM 只能產 15 頁？教你這招「無限擴充」＋ Claude  AI 打造頂級簡報！ #gemini #notebooklm #claude #powerpoint",
+   "channel": "龍龍AI實戰學院",
+   "duration_seconds": 1175,
+   "published_at": "2026-04-13T09:45:04Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/ip8nC7lqatE/mqdefault.jpg",
+   "view_count": 8331,
+   "category": "工具教學",
+   "summary": "教你如何突破 NotebookLM 的 15 頁限制進行無限擴充，並結合 Claude 與 Gemini 創建還我漂亮圖片的 Gem，打造風格一致的頂級簡報。",
+   "tags": [
+    "NotebookLM",
+    "Claude",
+    "簡報製作",
+    "實作教學"
+   ]
+  },
+  {
    "video_id": "VvUnw--b6bM",
    "title": "Google Nano Banana 2：AI 視覺革命！繪圖不再崩壞，解鎖完美一致性 #youtube #行政減量 #NanoBanana #AI",
    "channel": "阿卿的藝想空間",
@@ -11367,6 +13186,23 @@
     "AI繪圖",
     "角色一致性",
     "視覺生成"
+   ]
+  },
+  {
+   "video_id": "2yyyYp3Umv0",
+   "title": "本地大模型+Hermes Agent｜一台机器撑起整个AI业务",
+   "channel": "测评小研",
+   "duration_seconds": 121,
+   "published_at": "2026-04-13T07:47:22Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/2yyyYp3Umv0/mqdefault.jpg",
+   "view_count": 13935,
+   "category": "工具教學",
+   "summary": "分享如何在本地機器上結合開源大模型與 Hermes Agent，建構具備自迭代能力的本地 AI 業務系統，實現資料不出門。",
+   "tags": [
+    "本地大模型",
+    "Hermes Agent",
+    "開源 AI",
+    "自動化"
    ]
   },
   {
@@ -11387,6 +13223,40 @@
    ]
   },
   {
+   "video_id": "UeI3nR9HLoQ",
+   "title": "🚀Hermes Agent高级玩法！微信扫码即用+LLM Wiki知识库+Obsidian图谱，AI知识管理终极方案！人人都可以打造自己的数据飞轮！复刻Andrej Karpathy工作流！保姆级教程",
+   "channel": "AI超元域",
+   "duration_seconds": 911,
+   "published_at": "2026-04-12T13:27:04Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/UeI3nR9HLoQ/mqdefault.jpg",
+   "view_count": 51768,
+   "category": "工具教學",
+   "summary": "深入介紹 Hermes Agent 的進階玩法，包含微信原生掃碼整合以及建構 LLM Wiki 知識庫，打造個人資料飛輪。",
+   "tags": [
+    "Hermes Agent",
+    "知識庫",
+    "微信整合",
+    "RAG"
+   ]
+  },
+  {
+   "video_id": "uPaPMR87PFQ",
+   "title": "課程2 - 打造你的AI助手-RAG與AI Agent應用實戰  #何sir教AI #AI #學AI",
+   "channel": "何sir教AI",
+   "duration_seconds": 1603,
+   "published_at": "2026-04-12T06:03:56Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/uPaPMR87PFQ/mqdefault.jpg",
+   "view_count": 27,
+   "category": "入門觀念",
+   "summary": "介紹 RAG 與 AI Agent 的基本運作原理，並結合提示詞工程，帶領初學者一步步打造屬於自己的 AI 實戰應用助手。",
+   "tags": [
+    "RAG",
+    "AI Agent",
+    "提示詞工程",
+    "入門教學"
+   ]
+  },
+  {
    "video_id": "03Tggt3gTnc",
    "title": "Google AI 基本功 EP07Gemini 聯手 NotebookLM打造地表最強 AI 知識庫",
    "channel": "三師爸Sense Bar",
@@ -11401,6 +13271,91 @@
     "NotebookLM",
     "知識庫",
     "AI筆記"
+   ]
+  },
+  {
+   "video_id": "hLiN_X7dzdw",
+   "title": "Hermes Agent 新手使用十大技巧",
+   "channel": "AI随风",
+   "duration_seconds": 670,
+   "published_at": "2026-04-11T09:47:09Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/hLiN_X7dzdw/mqdefault.jpg",
+   "view_count": 24919,
+   "category": "工具教學",
+   "summary": "詳細解說 Hermes Agent 新手使用的十大技巧，涵蓋主副模型配置、記憶機制設定、聊天通道連接及安裝技能等實用步驟。",
+   "tags": [
+    "Hermes Agent",
+    "新手技巧",
+    "工具教學",
+    "設定指南"
+   ]
+  },
+  {
+   "video_id": "pAHJod5o200",
+   "title": "學會 n8n 讓電腦幫你工作！【進階 EP. 3】 外部系統串接必看！工程師神器 Cloudflare Tunnel 教你免費打通外網！",
+   "channel": "Hello Ivan :)",
+   "duration_seconds": 831,
+   "published_at": "2026-04-11T00:00:53Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/pAHJod5o200/mqdefault.jpg",
+   "view_count": 27,
+   "category": "自動化工作流",
+   "summary": "介紹工程師神器 Cloudflare Tunnel 的使用方式，教導如何免費打通外網，順利串接外部系統以優化 n8n 自動化流程。",
+   "tags": [
+    "n8n",
+    "Cloudflare Tunnel",
+    "外部串接",
+    "自動化"
+   ]
+  },
+  {
+   "video_id": "B--U8vUogTk",
+   "title": "【n8n 教學】自製「美股到價提示器」，慳返 TradingView 月費！告別盯盤，黃金，外滙一律適用",
+   "channel": "Hello AI | 快速應用AI",
+   "duration_seconds": 668,
+   "published_at": "2026-04-10T23:00:27Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/B--U8vUogTk/mqdefault.jpg",
+   "view_count": 4493,
+   "category": "辦公應用",
+   "summary": "教導如何透過 n8n 自製美股、黃金與外匯的到價提示器，結合 Google Sheet 與 Telegram 即時接收報價，省下訂閱月費。",
+   "tags": [
+    "n8n",
+    "Telegram",
+    "Google Sheet",
+    "自動化應用"
+   ]
+  },
+  {
+   "video_id": "Ajh8JXCI75k",
+   "title": "（限時免費）如何用 n8n 打造一台內容生產機器｜自動抓 X、YouTube、Reddit 找內容靈感",
+   "channel": "未來山姆",
+   "duration_seconds": 1459,
+   "published_at": "2026-04-10T02:00:09Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/Ajh8JXCI75k/mqdefault.jpg",
+   "view_count": 184,
+   "category": "自動化工作流",
+   "summary": "本影片教導如何使用 n8n 打造內容生產機器，自動從 X、YouTube 與 Reddit 抓取資料以尋找創作靈感。提供免費模板下載，並示範完整的自動化資料串接與實戰技巧。",
+   "tags": [
+    "n8n",
+    "自動化",
+    "內容創作",
+    "AI工具"
+   ]
+  },
+  {
+   "video_id": "_V1g1sg1L5E",
+   "title": "02-2026年最新 n8n 2.0 安裝（含 Python 節點失效的修復方案）",
+   "channel": "龍龍AI實戰學院",
+   "duration_seconds": 446,
+   "published_at": "2026-04-09T13:36:43Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/_V1g1sg1L5E/mqdefault.jpg",
+   "view_count": 407,
+   "category": "自動化工作流",
+   "summary": "本教學示範 2026 年最新 n8n 2.0 的 Docker 安裝與部署流程，包含持久化數據卷設定，並特別針對 Python 節點失效的問題提供修復方案與完整操作步驟。",
+   "tags": [
+    "n8n",
+    "Docker",
+    "Python",
+    "系統安裝"
    ]
   },
   {
@@ -11438,6 +13393,57 @@
    ]
   },
   {
+   "video_id": "q1IpSi0fGUs",
+   "title": "【Gemini AI 繪圖教學】用Gemini 換臉？實測將普通照片轉化為韓式證件相 | AI中文教學",
+   "channel": "Morning@AfterWork Startup",
+   "duration_seconds": 401,
+   "published_at": "2026-04-09T10:22:39Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/q1IpSi0fGUs/mqdefault.jpg",
+   "view_count": 1045,
+   "category": "AI 影像與影片生成",
+   "summary": "實測使用 Gemini 進行圖像處理與換臉，教你將普通照片快速轉化為精緻的韓式證件照。",
+   "tags": [
+    "Gemini",
+    "AI換臉",
+    "證件照",
+    "影像生成"
+   ]
+  },
+  {
+   "video_id": "PvLadnpyK3s",
+   "title": "AI Agent 終極進化！告別對答式 AI，自動化預訂、Email、CV、新聞摘要！Meta、微信爭相佈局，你嘅工作將被取代？",
+   "channel": "ekcheungAI",
+   "duration_seconds": 706,
+   "published_at": "2026-04-09T03:30:18Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/PvLadnpyK3s/mqdefault.jpg",
+   "view_count": 250,
+   "category": "入門觀念",
+   "summary": "深入探討 AI Agent 的運作機制與進化金字塔，展示其如何執行新聞摘要、行程安排與履歷修改等自動化任務。",
+   "tags": [
+    "AI Agent",
+    "自動化助理",
+    "概念解析",
+    "應用示範"
+   ]
+  },
+  {
+   "video_id": "V1aZnMiR8zk",
+   "title": "別再手刻 LangChain！n8n 視覺化打造 AI Agent，10 分鐘串接自有數據",
+   "channel": "GitCovery",
+   "duration_seconds": 348,
+   "published_at": "2026-04-09T01:33:46Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/V1aZnMiR8zk/mqdefault.jpg",
+   "view_count": 537,
+   "category": "自動化工作流",
+   "summary": "深度解析視覺化工作流程工具 n8n，教導觀眾免手刻程式碼，透過拖拉節點串接自有數據，輕鬆打造 RAG 與 AI Agent 應用。",
+   "tags": [
+    "n8n",
+    "工作流自動化",
+    "RAG",
+    "Low-code"
+   ]
+  },
+  {
    "video_id": "zy9quj2Tuyc",
    "title": "影音創作者必學2026 最強影音製作流程教學!Google Flow 完整解析!新手如何快速上手生成式AI，不再被時代淘汰？志明春嬌開講從零開始用 VEO + Nano Banana 做高品質影片!",
    "channel": "ai說書教學頻道",
@@ -11452,6 +13458,40 @@
     "VEO",
     "Nano Banana",
     "影片生成"
+   ]
+  },
+  {
+   "video_id": "NdJrsxK62b4",
+   "title": "【n8n 教學】打造「Google 好評機器」，中小企必學 AI 自動化，餐廳、美容、服務業、網店適用！",
+   "channel": "Hello AI | 快速應用AI",
+   "duration_seconds": 539,
+   "published_at": "2026-04-08T11:00:42Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/NdJrsxK62b4/mqdefault.jpg",
+   "view_count": 2576,
+   "category": "辦公應用",
+   "summary": "針對中小企業與服務業，教導如何利用 n8n 結合 Gemini 分析客戶評價情緒，並自動建立 Gmail 草稿以打造 Google 好評機器人。",
+   "tags": [
+    "n8n",
+    "Gemini",
+    "中小企業",
+    "AI自動化"
+   ]
+  },
+  {
+   "video_id": "YVuj_0NpHmA",
+   "title": "究竟「養龍蝦」是什麼？OpenClaw AI Agent深度拆解（內有風險案例＋實際使用＋安裝教學分享）#karenly #4k",
+   "channel": "Karenly",
+   "duration_seconds": 1585,
+   "published_at": "2026-04-08T10:58:14Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/YVuj_0NpHmA/mqdefault.jpg",
+   "view_count": 155619,
+   "category": "工具教學",
+   "summary": "全面拆解熱門的 OpenClaw AI Agent，說明其自主工作發展時間線、核心組成、運作流程，並提供安裝教學與實際使用案例。",
+   "tags": [
+    "OpenClaw",
+    "AI Agent",
+    "安裝教學",
+    "工具解析"
    ]
   },
   {
@@ -11557,6 +13597,23 @@
    ]
   },
   {
+   "video_id": "YKxu_Nf40WY",
+   "title": "Python AI Ａgent 與RAG向量資料庫結合財經資料應用",
+   "channel": "SLCHEN",
+   "duration_seconds": 568,
+   "published_at": "2026-04-06T09:01:12Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/YKxu_Nf40WY/mqdefault.jpg",
+   "view_count": 151,
+   "category": "辦公應用",
+   "summary": "展示如何結合 Python AI Agent 與 RAG 向量資料庫，應用於財經資料的分析、檢索與實際場景處理。",
+   "tags": [
+    "Python",
+    "AI Agent",
+    "RAG",
+    "財經應用"
+   ]
+  },
+  {
    "video_id": "_cVTzXvb7xs",
    "title": "Claude Cowork 最友善的手把手教學！你還在叫 AI 幫你想答案？但高手們都已經在用 AI 交成品了 ~",
    "channel": "PAPAYA 電腦教室",
@@ -11571,6 +13628,23 @@
     "AI工具",
     "教學",
     "自動化"
+   ]
+  },
+  {
+   "video_id": "xyCZTWFqoq4",
+   "title": "AI Agent 、RAG、向量資料庫結合財經資料應用",
+   "channel": "廖敏宏",
+   "duration_seconds": 558,
+   "published_at": "2026-04-06T08:15:08Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/xyCZTWFqoq4/mqdefault.jpg",
+   "view_count": 75,
+   "category": "辦公應用",
+   "summary": "介紹 AI Agent 與 RAG 向量資料庫的結合方式，並示範其在財經資料處理與分析上的具體應用範例。",
+   "tags": [
+    "AI Agent",
+    "RAG",
+    "向量資料庫",
+    "財經分析"
    ]
   },
   {
@@ -11693,6 +13767,23 @@
    ]
   },
   {
+   "video_id": "GL4uEPCdezE",
+   "title": "n8n 自動化教學｜每天自動收到匯率通知 免費三個節點搞定！",
+   "channel": "LowCodeBoy",
+   "duration_seconds": 366,
+   "published_at": "2026-04-02T04:37:13Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/GL4uEPCdezE/mqdefault.jpg",
+   "view_count": 74,
+   "category": "自動化工作流",
+   "summary": "教導如何使用 n8n 建立免費的自動化匯率通知流程，透過三個節點定時抓取多國匯率並自動寄送至 Gmail。",
+   "tags": [
+    "n8n",
+    "自動化",
+    "教學",
+    "匯率"
+   ]
+  },
+  {
    "video_id": "B1DfDWkmKSY",
    "title": "【教師研習】Padlet 創新教學全攻略：從互動看板到 AI 沙盒應用，打造高互動數位教室！",
    "channel": "阿玉教學網",
@@ -11707,6 +13798,23 @@
     "AI沙盒",
     "互動教學",
     "數位課堂"
+   ]
+  },
+  {
+   "video_id": "AWd8zdHL8L4",
+   "title": "（限時免費）用 n8n + Google sheet打造「自動化後台管理系統」！任何流程一鍵觸發",
+   "channel": "未來山姆",
+   "duration_seconds": 1933,
+   "published_at": "2026-04-02T03:00:07Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/AWd8zdHL8L4/mqdefault.jpg",
+   "view_count": 65,
+   "category": "自動化工作流",
+   "summary": "本影片示範如何結合 n8n 與 Google Sheets 打造自動化後台管理系統。詳細解說核心概念，並帶領觀眾從零開始建立一鍵觸發的資料串接工作流程。",
+   "tags": [
+    "n8n",
+    "自動化",
+    "Google Sheets",
+    "後台管理"
    ]
   },
   {
@@ -11775,6 +13883,23 @@
     "AI入門",
     "工具教學",
     "自動化"
+   ]
+  },
+  {
+   "video_id": "4w_RK3hZtWo",
+   "title": "別再死磕 n8n 了！ 2026 年自動化新趨勢：Agent工作流程完整教學",
+   "channel": "李哈利Harry",
+   "duration_seconds": 849,
+   "published_at": "2026-03-31T12:00:00Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/4w_RK3hZtWo/mqdefault.jpg",
+   "view_count": 8118,
+   "category": "自動化工作流",
+   "summary": "介紹 2026 年自動化新趨勢，深入教學如何運用 Agent 工作流程進行自動化實作與應用。",
+   "tags": [
+    "n8n",
+    "AI Agent",
+    "自動化",
+    "工作流"
    ]
   },
   {
@@ -11880,6 +14005,57 @@
    ]
   },
   {
+   "video_id": "jzlrSpg59Dg",
+   "title": "如何使用 n8n 串接 Gmail？Google OAuth2 授權設定全攻略 | (EP.5) n8n 自動化 API 串接教學",
+   "channel": "徐享 Sean Hsu",
+   "duration_seconds": 1168,
+   "published_at": "2026-03-28T06:50:54Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/jzlrSpg59Dg/mqdefault.jpg",
+   "view_count": 338,
+   "category": "自動化工作流",
+   "summary": "本教學詳細解析如何在 n8n 自動化流程中串接 Gmail。內容涵蓋 Google OAuth2 授權基礎知識、Google Cloud Console 設定、Client ID 與重新導向網址的操作全攻略。",
+   "tags": [
+    "n8n",
+    "Gmail",
+    "API串接",
+    "OAuth2"
+   ]
+  },
+  {
+   "video_id": "4Nf0FjZf61E",
+   "title": "學會 n8n 讓電腦幫你工作！【基礎 EP. 6】 你已經超越 90% 的人！接下來帶你解鎖更瘋狂的 AI Agent 全自動秘書",
+   "channel": "Hello Ivan :)",
+   "duration_seconds": 152,
+   "published_at": "2026-03-28T00:00:03Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/4Nf0FjZf61E/mqdefault.jpg",
+   "view_count": 119,
+   "category": "自動化工作流",
+   "summary": "本影片為 n8n 基礎教學的總結篇，回顧核心觀念並預告進階篇內容。帶領觀眾了解如何結合 Webhook 與大型語言模型，解鎖全自動 AI 專屬秘書的工作流應用。",
+   "tags": [
+    "n8n",
+    "AI Agent",
+    "自動化",
+    "工作流"
+   ]
+  },
+  {
+   "video_id": "qn3LH4OmbvM",
+   "title": "AI 直接複製爆款跳舞影片？這套工作流太誇張了… #n8n",
+   "channel": "傑克自動化AI教學",
+   "duration_seconds": 848,
+   "published_at": "2026-03-27T12:01:15Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/qn3LH4OmbvM/mqdefault.jpg",
+   "view_count": 2243,
+   "category": "自動化工作流",
+   "summary": "示範如何利用 n8n 工作流自動下載爆款跳舞影片、進行 AI 動作對齊與生成，並自動產出 Shorts 短影片。",
+   "tags": [
+    "n8n",
+    "短影片",
+    "自動化",
+    "AI 應用"
+   ]
+  },
+  {
    "video_id": "xBl73LxoG7E",
    "title": "Codex APP支持插件功能，插件已经成为AI编程必学知识点",
    "channel": "AI随风",
@@ -11894,6 +14070,40 @@
     "AI編程",
     "插件開發",
     "程式開發"
+   ]
+  },
+  {
+   "video_id": "bRO2C9p6EiI",
+   "title": "n8n AI Agent 結合 chatgpt model 與 JSON Schema 打造會思考的自動化工作流 | (EP.4) n8n 自動化 API 串接教學",
+   "channel": "徐享 Sean Hsu",
+   "duration_seconds": 618,
+   "published_at": "2026-03-27T06:47:00Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/bRO2C9p6EiI/mqdefault.jpg",
+   "view_count": 59,
+   "category": "自動化工作流",
+   "summary": "教導如何在 n8n 中結合 ChatGPT 模型與 AI Agent，並透過 JSON Schema 打造具備思考能力的自動化工作流。",
+   "tags": [
+    "n8n",
+    "AI Agent",
+    "ChatGPT",
+    "自動化"
+   ]
+  },
+  {
+   "video_id": "xX6e0l-TaWg",
+   "title": "TigerAI OpenGenie 使用教學 單元 7：n8n 串接與自動化工作流",
+   "channel": "虎智科技TigerAI",
+   "duration_seconds": 788,
+   "published_at": "2026-03-27T05:52:56Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/xX6e0l-TaWg/mqdefault.jpg",
+   "view_count": 21,
+   "category": "自動化工作流",
+   "summary": "介紹 Open Web UI 與 n8n 的 API 串接設定，並透過自動化工作流擴充 Google Sheet 與郵件發送等 AI 功能。",
+   "tags": [
+    "n8n",
+    "API串接",
+    "自動化",
+    "工具教學"
    ]
   },
   {
@@ -11928,6 +14138,23 @@
     "ChatGPT",
     "Claude",
     "工具教學"
+   ]
+  },
+  {
+   "video_id": "mNRphFUPzjE",
+   "title": "從零基礎到精通n8n！萬用三步驟做出AI自動化助理(超簡單)",
+   "channel": "哈佛姐夢遊矽谷 AliceInSiliconWonderland",
+   "duration_seconds": 874,
+   "published_at": "2026-03-26T11:01:13Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/mNRphFUPzjE/mqdefault.jpg",
+   "view_count": 13484,
+   "category": "自動化工作流",
+   "summary": "從零基礎介紹 n8n 的萬用三步驟，手把手帶領觀眾建立自己的 AI 自動化助理。",
+   "tags": [
+    "n8n",
+    "自動化",
+    "AI助理",
+    "新手教學"
    ]
   },
   {
@@ -11982,6 +14209,23 @@
    ]
   },
   {
+   "video_id": "GqxcZFgDoP8",
+   "title": "Google Opal：比 n8n 更好用的全自动 AI 工作流｜轻松搭建AI工作室｜免费零门槛｜小白5分钟上手｜保姆级教程",
+   "channel": "小白研究所",
+   "duration_seconds": 1046,
+   "published_at": "2026-03-25T09:00:32Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/GqxcZFgDoP8/mqdefault.jpg",
+   "view_count": 8405,
+   "category": "工具教學",
+   "summary": "介紹 Google Opal 全自動 AI 工作流工具，示範如何像聊天般輕鬆搭建個人 AI 工作室與解鎖谷歌 AI 模型。",
+   "tags": [
+    "Google Opal",
+    "AI工作流",
+    "工具教學",
+    "Gemini"
+   ]
+  },
+  {
    "video_id": "MUtOAYVHxhM",
    "title": "【AI影片製作教學】全片動畫利用 Meta AI 生成：少年戰神：霍去病 (140BC - 117BC)",
    "channel": "阿玉教學網",
@@ -12030,6 +14274,40 @@
     "AI繪圖",
     "AI動畫",
     "角色創作"
+   ]
+  },
+  {
+   "video_id": "KLXnugDLQq0",
+   "title": "n8n 串接 LINE 官方帳號：Webhook 與 API 設定全攻略 | (EP.1) n8n 自動化 API 串接教學",
+   "channel": "徐享 Sean Hsu",
+   "duration_seconds": 1588,
+   "published_at": "2026-03-23T18:27:26Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/KLXnugDLQq0/mqdefault.jpg",
+   "view_count": 1141,
+   "category": "自動化工作流",
+   "summary": "詳細解說如何使用 n8n 透過 Webhook 與 API 串接 LINE 官方帳號，打造會自動回覆訊息的聊天機器人。",
+   "tags": [
+    "n8n",
+    "LINE Bot",
+    "API串接",
+    "自動化"
+   ]
+  },
+  {
+   "video_id": "Zh7gdDhrMsE",
+   "title": "Claude Code 與 n8n協作：你的 AI 開發夥伴",
+   "channel": "陳軒宇",
+   "duration_seconds": 416,
+   "published_at": "2026-03-23T14:21:17Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/Zh7gdDhrMsE/mqdefault.jpg",
+   "view_count": 12,
+   "category": "自動化工作流",
+   "summary": "本影片探討 Claude Code 與 n8n 的協作應用，介紹如何透過 MCP 伺服器賦予 AI 完整存取權限，進行後端工作流程的審核、重構，將 n8n 流程轉化為網頁應用程式。",
+   "tags": [
+    "n8n",
+    "Claude Code",
+    "MCP",
+    "AI開發"
    ]
   },
   {
@@ -12118,6 +14396,40 @@
    ]
   },
   {
+   "video_id": "rGb3KxCL9iA",
+   "title": "Claude + n8n 自動化教學 | 用Claude自動建立n8n Workflow｜新手都做到AI自動化",
+   "channel": "AI Bun Bun",
+   "duration_seconds": 670,
+   "published_at": "2026-03-21T15:19:23Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/rGb3KxCL9iA/mqdefault.jpg",
+   "view_count": 4733,
+   "category": "自動化工作流",
+   "summary": "示範如何結合 Claude 與 n8n 自動建立工作流，實現零寫程式的 AI 自動化內容生成與 Threads 發文系統。",
+   "tags": [
+    "n8n",
+    "Claude",
+    "自動化",
+    "新手教學"
+   ]
+  },
+  {
+   "video_id": "EYNIjbUoUaQ",
+   "title": "Cursor+n8n=自动化界的「指挥部＋特种兵」｜我不是在搭工作流，我是在和AI聊天。配置不用记，代码不用写，聊着天就把工作流跑通了｜一镜到底实录",
+   "channel": "南哥AGI研习社",
+   "duration_seconds": 1664,
+   "published_at": "2026-03-21T05:39:20Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/EYNIjbUoUaQ/mqdefault.jpg",
+   "view_count": 670,
+   "category": "自動化工作流",
+   "summary": "一鏡到底實測 Cursor 與 n8n 的結合應用，展示如何透過與 AI 聊天免寫程式快速跑通自動化工作流。",
+   "tags": [
+    "Cursor",
+    "n8n",
+    "自動化",
+    "AI編程"
+   ]
+  },
+  {
    "video_id": "64O1LSpGJYI",
    "title": "Claude Dispatch 功能來取代你的龍蝦_最穩定、最簡單的電腦遠端控制方案來了",
    "channel": "三師爸Sense Bar",
@@ -12152,6 +14464,57 @@
    ]
   },
   {
+   "video_id": "thuza5B7dJY",
+   "title": "n8n 自動生成 YouTube 影片｜最低成本做頻道（AI說故事＋新聞評論）",
+   "channel": "傑克自動化AI教學",
+   "duration_seconds": 1506,
+   "published_at": "2026-03-20T12:01:45Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/thuza5B7dJY/mqdefault.jpg",
+   "view_count": 1791,
+   "category": "自動化工作流",
+   "summary": "教導如何透過 n8n 自動生成 YouTube 影片，實現從 AI 寫腳本、生成旁白到自動上傳頻道的完整自動化流程。",
+   "tags": [
+    "n8n",
+    "YouTube",
+    "自動化",
+    "AI生成"
+   ]
+  },
+  {
+   "video_id": "Q2k-2grof6o",
+   "title": "別讓 AI 覺得你笨！從 n8n 建立 Workflow 邏輯，才是駕馭 OpenClaw 的關鍵？｜泛科學院",
+   "channel": "泛科學院",
+   "duration_seconds": 655,
+   "published_at": "2026-03-20T11:00:49Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/Q2k-2grof6o/mqdefault.jpg",
+   "view_count": 69296,
+   "category": "自動化工作流",
+   "summary": "探討如何從 n8n 的 Workflow 邏輯建立出發，進一步理解與駕馭 AI 自動化工具的關鍵觀念。",
+   "tags": [
+    "n8n",
+    "工作流",
+    "入門觀念",
+    "自動化"
+   ]
+  },
+  {
+   "video_id": "Ah177OyIprE",
+   "title": "【15分鐘打造 AI 資料庫】用NotebookLM 打造最強公司資料庫/ 適合客服、寫文、培訓、策略分析！全免費 + 唔洗再請人寫 Database！",
+   "channel": "Hello AI | 快速應用AI",
+   "duration_seconds": 946,
+   "published_at": "2026-03-19T10:35:04Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/Ah177OyIprE/mqdefault.jpg",
+   "view_count": 16607,
+   "category": "辦公應用",
+   "summary": "介紹如何使用 NotebookLM 打造免費的企業內部資料庫，適合應用於客服、寫文與知識管理。",
+   "tags": [
+    "NotebookLM",
+    "辦公應用",
+    "知識庫",
+    "AI工具"
+   ]
+  },
+  {
    "video_id": "YKoo7xsk2E4",
    "title": "[ 享玩AI ] 新手也能做動畫！Grok動畫創作全流程|拒絕角色崩壞！Grok製作保持角色一致的配音短影片，這才是新手最強的動畫創作工具。完全免費且快速生成！",
    "channel": "享知Cultiwise",
@@ -12166,6 +14529,23 @@
     "AI動畫",
     "角色一致性",
     "短影音製作"
+   ]
+  },
+  {
+   "video_id": "1s6AQoXdRfE",
+   "title": "n8n 雲端部署：2026 Zeabur 伺服器選擇與實戰指南 | (EP.2) n8n 自動化新手教學",
+   "channel": "徐享 Sean Hsu",
+   "duration_seconds": 753,
+   "published_at": "2026-03-17T14:19:49Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/1s6AQoXdRfE/mqdefault.jpg",
+   "view_count": 684,
+   "category": "工具教學",
+   "summary": "針對 n8n 雲端部署進行實戰教學，推薦初學者使用 Zeabur 伺服器進行快速部署與架設。",
+   "tags": [
+    "n8n",
+    "雲端部署",
+    "Zeabur",
+    "工具教學"
    ]
   },
   {
@@ -12237,6 +14617,40 @@
    ]
   },
   {
+   "video_id": "BRBjV1yT4TE",
+   "title": "(免費使用 n8n）如何用 Docker Desktop 在本機安裝｜完整教學（2026）",
+   "channel": "未來山姆",
+   "duration_seconds": 516,
+   "published_at": "2026-03-15T16:08:29Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/BRBjV1yT4TE/mqdefault.jpg",
+   "view_count": 449,
+   "category": "工具教學",
+   "summary": "手把手教學如何使用 Docker Desktop 在本機免費安裝與架設 n8n，並避開常見的新手設定地雷。",
+   "tags": [
+    "n8n",
+    "Docker",
+    "工具教學",
+    "本機架設"
+   ]
+  },
+  {
+   "video_id": "I47WonVX-vk",
+   "title": "免費使用 N8N Part 2｜Cloudflare Tunnel 教學：讓本地 n8n 支援 Webhook（Telegram 機器人必備)",
+   "channel": "未來山姆",
+   "duration_seconds": 766,
+   "published_at": "2026-03-15T15:45:01Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/I47WonVX-vk/mqdefault.jpg",
+   "view_count": 104,
+   "category": "工具教學",
+   "summary": "介紹如何透過 Cloudflare Tunnel 讓本地安裝的 n8n 支援 Webhook，以順利串接 Telegram 等聊天機器人。",
+   "tags": [
+    "n8n",
+    "Cloudflare",
+    "Webhook",
+    "工具教學"
+   ]
+  },
+  {
    "video_id": "JXexdAckn38",
    "title": "Claude的skills在教學上的應用_Claude Skill Creator 攻略：手把手教你創造專屬的 AI 技能",
    "channel": "三師爸Sense Bar",
@@ -12271,6 +14685,23 @@
    ]
   },
   {
+   "video_id": "43kNQQDjcXk",
+   "title": "【2026 最新】价值过万的AI自动化系统，我一分没花白嫖了？n8n+微信 全自动工作流终极指南！",
+   "channel": "小in分享",
+   "duration_seconds": 2540,
+   "published_at": "2026-03-15T00:00:09Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/43kNQQDjcXk/mqdefault.jpg",
+   "view_count": 15704,
+   "category": "自動化工作流",
+   "summary": "本教學示範如何利用 n8n 串接微信打造全自動 AI 系統。實現透過微信聊天控制 AI、自動判斷問題、發送郵件與查詢數據，讓 AI Agent 自主思考並完成複雜任務。",
+   "tags": [
+    "n8n",
+    "AI Agent",
+    "微信",
+    "自動化"
+   ]
+  },
+  {
    "video_id": "63LNX1qLcxI",
    "title": "免费AI人物提示词工具实测！一键生成超详细Prompt，还能直接出4K图片",
    "channel": "鑫源AI",
@@ -12285,6 +14716,23 @@
     "AI繪圖",
     "CherryStudio",
     "提示詞教學"
+   ]
+  },
+  {
+   "video_id": "HJErCSvryhQ",
+   "title": "TVB 5.0 智能選股網站教學 | 結合 n8n 與 Antigravity 開發的一套新系統",
+   "channel": "Ronnie",
+   "duration_seconds": 709,
+   "published_at": "2026-03-13T15:29:12Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/HJErCSvryhQ/mqdefault.jpg",
+   "view_count": 24,
+   "category": "辦公應用",
+   "summary": "介紹結合 n8n 與 Antigravity 開發的 TVB 智能選股系統，幫助使用者快速分析盤勢與精選潛力股。",
+   "tags": [
+    "n8n",
+    "智能選股",
+    "辦公應用",
+    "自動化"
    ]
   },
   {
@@ -12424,6 +14872,57 @@
    ]
   },
   {
+   "video_id": "vv3EbvjGemY",
+   "title": "我用AI自動出Post 每日慳2個鐘！由搵新聞到出圖全自動｜n8n免費Template",
+   "channel": "karson leung",
+   "duration_seconds": 365,
+   "published_at": "2026-03-11T08:37:14Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/vv3EbvjGemY/mqdefault.jpg",
+   "view_count": 139,
+   "category": "自動化工作流",
+   "summary": "示範如何用 n8n 結合 AI 與 RSS 建立自動化新聞出 Post 系統，從收集新聞、AI 改寫到生成 IG 文案全自動完成。",
+   "tags": [
+    "n8n",
+    "自動化",
+    "IG行銷",
+    "AI應用"
+   ]
+  },
+  {
+   "video_id": "2D1c-phNJwY",
+   "title": "學會 n8n 讓電腦幫你工作！【基礎 EP. 2-1】 一步步帶你架設伺服器！跟著填參數，一分鐘開機成功！",
+   "channel": "Hello Ivan :)",
+   "duration_seconds": 321,
+   "published_at": "2026-03-11T00:00:04Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/2D1c-phNJwY/mqdefault.jpg",
+   "view_count": 164,
+   "category": "工具教學",
+   "summary": "一步步帶領新手使用 Docker Desktop 在本地端架設伺服器，輕鬆在一分鐘內完成 n8n 開機與設定。",
+   "tags": [
+    "n8n",
+    "Docker",
+    "伺服器架設",
+    "工具教學"
+   ]
+  },
+  {
+   "video_id": "kbHjFoklTyU",
+   "title": "n8n MCP 完整安裝教學：讓 AI 幫你自動生成 n8n 工作流 (Vibe n8n)",
+   "channel": "徐享 Sean Hsu",
+   "duration_seconds": 480,
+   "published_at": "2026-03-10T18:28:39Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/kbHjFoklTyU/mqdefault.jpg",
+   "view_count": 422,
+   "category": "自動化工作流",
+   "summary": "提供完整的 n8n MCP 安裝教學，教導如何讓 AI 協助自動生成 n8n 工作流。",
+   "tags": [
+    "n8n",
+    "MCP",
+    "AI自動生成",
+    "工具教學"
+   ]
+  },
+  {
    "video_id": "esAvD0R36IE",
    "title": "2026 最新教學：如何使用 Nano Banana 2 免費生成高品質 AI 圖片？",
    "channel": "Ctrl+Alt+AI 台灣",
@@ -12492,6 +14991,23 @@
    ]
   },
   {
+   "video_id": "-vKewrChihk",
+   "title": "別再手動做了！零基礎學會用n8n打造AI自動化工作流：從抓取資料到AI決策，全流程手把手教學｜Kelly Tsai",
+   "channel": "Kelly Tsai",
+   "duration_seconds": 859,
+   "published_at": "2026-03-10T12:00:00Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/-vKewrChihk/mqdefault.jpg",
+   "view_count": 29589,
+   "category": "自動化工作流",
+   "summary": "零基礎手把手教學如何使用 n8n 打造 AI 自動化工作流，涵蓋從資料抓取到 AI 決策的全流程操作。",
+   "tags": [
+    "n8n",
+    "自動化",
+    "新手教學",
+    "工作流"
+   ]
+  },
+  {
    "video_id": "CkAs29S4ZxY",
    "title": "萬卷之王降臨：如何把 Google Gemini 的強大技能裝進 NotebookLM？",
    "channel": "三師爸Sense Bar",
@@ -12526,6 +15042,23 @@
    ]
   },
   {
+   "video_id": "mA7ntMSxbrw",
+   "title": "Claude Code vs n8n：Agentic Workflow 是什麼？完整比較與實作示範",
+   "channel": "JayLuxAI | AI 系統導入",
+   "duration_seconds": 1764,
+   "published_at": "2026-03-08T04:00:45Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/mA7ntMSxbrw/mqdefault.jpg",
+   "view_count": 3945,
+   "category": "入門觀念",
+   "summary": "深入比較 Claude Code 與 n8n，解析 Agentic Workflow 的核心概念、運作原理及自動化應用的差異。",
+   "tags": [
+    "Claude Code",
+    "n8n",
+    "Agentic Workflow",
+    "入門觀念"
+   ]
+  },
+  {
    "video_id": "tEp5XAvnrAA",
    "title": "香港免VPN直接用! Google AI 圖片生成教學，免費製作漫畫、資訊圖 | Nano Banana 2 不必靠 Gemini",
    "channel": "AIxMHT",
@@ -12557,6 +15090,23 @@
     "飛書",
     "辦公自動化",
     "AI Agent"
+   ]
+  },
+  {
+   "video_id": "cx0VteT7YhY",
+   "title": "我做了一個 LoFi 音樂生成網站：自動做影片還能上傳 YouTube（Patreon會員免費使用）",
+   "channel": "傑克自動化AI教學",
+   "duration_seconds": 1038,
+   "published_at": "2026-03-06T12:01:15Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/cx0VteT7YhY/mqdefault.jpg",
+   "view_count": 1998,
+   "category": "自動化工作流",
+   "summary": "實戰示範如何將 n8n LoFi 音樂生成工作流轉化為一個可供其他人使用的完整網站服務並自動上傳 YouTube。",
+   "tags": [
+    "n8n",
+    "LoFi",
+    "自動化",
+    "網站實作"
    ]
   },
   {
@@ -12676,6 +15226,23 @@
     "OpenCode",
     "AI團隊",
     "自動化工作流"
+   ]
+  },
+  {
+   "video_id": "2ZZCyHzo9as",
+   "title": "【保姆级】OpenClaw 全网最细教学：安装→Skills实战→多Agent协作，1 小时全精通！",
+   "channel": "AI学长小林",
+   "duration_seconds": 3205,
+   "published_at": "2026-03-03T08:35:08Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/2ZZCyHzo9as/mqdefault.jpg",
+   "view_count": 448032,
+   "category": "自動化工作流",
+   "summary": "提供 OpenClaw 的詳細保姆級教學，從安裝、Skills 實戰到多 Agent 協作進行全方位解析。",
+   "tags": [
+    "OpenClaw",
+    "AI Agent",
+    "自動化",
+    "工具教學"
    ]
   },
   {
@@ -13563,6 +16130,40 @@
    ]
   },
   {
+   "video_id": "-rP11cb0YtU",
+   "title": "最簡單修NotebookLM簡報文字的方式/PDF 轉 PPTX＋OCR，一次搞定 Notebook LM 簡報編輯",
+   "channel": "三師爸Sense Bar",
+   "duration_seconds": 333,
+   "published_at": "2026-02-02T16:34:22Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/-rP11cb0YtU/mqdefault.jpg",
+   "view_count": 22503,
+   "category": "辦公應用",
+   "summary": "教導如何將 NotebookLM 生成的 PDF 簡報轉為 PPTX 並透過光學辨識（OCR）修改文字，免去額外付費工具即可輕鬆編輯簡報內容。",
+   "tags": [
+    "NotebookLM",
+    "OCR",
+    "PDF轉PPT",
+    "簡報編輯"
+   ]
+  },
+  {
+   "video_id": "SmSUQPtgj5g",
+   "title": "【n8n實戰教學】3分鐘打造 LINE AI 機器人！串接 Gemini 模型完全免費、無程式碼！｜老宅男與米格魯",
+   "channel": "老宅男與米格魯",
+   "duration_seconds": 674,
+   "published_at": "2026-02-02T07:38:12Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/SmSUQPtgj5g/mqdefault.jpg",
+   "view_count": 3576,
+   "category": "自動化工作流",
+   "summary": "本實戰教學示範如何在 3 分鐘內使用 n8n 打造 LINE AI 機器人。全程採用無程式碼方式，並免費串接 Gemini 模型，讓使用者輕鬆建立智慧聊天應用。",
+   "tags": [
+    "n8n",
+    "LINE機器人",
+    "Gemini",
+    "無程式碼"
+   ]
+  },
+  {
    "video_id": "7r4zxBy1ylE",
    "title": "5分钟=团队3天！Claude Cowork完整教程｜0编程0基础｜手把手教你创建专属AI秘书+秘密工具首发",
    "channel": "DAOJIE",
@@ -13594,6 +16195,23 @@
     "AI Agent",
     "本地部署",
     "自動化"
+   ]
+  },
+  {
+   "video_id": "_bhMbZNvDpk",
+   "title": "5 分鐘自動生成短劇：現在爆紅的短劇全都在用這個方法（n8n）",
+   "channel": "傑克自動化AI教學",
+   "duration_seconds": 1440,
+   "published_at": "2026-01-30T12:01:09Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/_bhMbZNvDpk/mqdefault.jpg",
+   "view_count": 46389,
+   "category": "自動化工作流",
+   "summary": "本影片實測如何透過 n8n 自動生成短劇。從故事主題出發，串接後端 Server 與 Notion 控制台，展示如何在 5 分鐘內完成主表分鏡與完整短劇影片的自動合成教學。",
+   "tags": [
+    "n8n",
+    "自動化",
+    "短劇生成",
+    "AI應用"
    ]
   },
   {
@@ -13682,6 +16300,23 @@
    ]
   },
   {
+   "video_id": "psnOOFOQKT8",
+   "title": "點樣揀啱你嘅 VPS 跑 n8n | 新手到企業指南 2026",
+   "channel": "Alvin @ AstraVenture",
+   "duration_seconds": 1126,
+   "published_at": "2026-01-25T08:26:07Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/psnOOFOQKT8/mqdefault.jpg",
+   "view_count": 238,
+   "category": "自動化工作流",
+   "summary": "本影片針對 2026 年提供新手到企業的 VPS 選擇指南，教導如何運用決策框架挑選適合執行 n8n 的雲端主機，並現場示範完整的 n8n 安裝與部署流程。",
+   "tags": [
+    "n8n",
+    "VPS",
+    "伺服器架設",
+    "教學"
+   ]
+  },
+  {
    "video_id": "e-WNdM4JO2U",
    "title": "【凱文大叔】手把手教你 Antigravity 設定與應用：規則（Rules）＋神技能（Skills）＋自動化（Workflows）打造最強AI 超能力！",
    "channel": "凱文大叔AI程式設計教室",
@@ -13767,6 +16402,23 @@
    ]
   },
   {
+   "video_id": "dtA0fFfMLVM",
+   "title": "Dify vs n8n：2026 自動化新手該選誰？",
+   "channel": "林三talk",
+   "duration_seconds": 749,
+   "published_at": "2026-01-21T10:01:00Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/dtA0fFfMLVM/mqdefault.jpg",
+   "view_count": 1226,
+   "category": "自動化工作流",
+   "summary": "本影片深入比較 2026 年自動化工具 Dify 與 n8n 的差異與適用對象。從 Dify 的基礎介面、Chatflow 邏輯到知識庫 RAG 應用，協助新手評估適合的 AI 應用開發平台。",
+   "tags": [
+    "Dify",
+    "n8n",
+    "AI自動化",
+    "新手指南"
+   ]
+  },
+  {
    "video_id": "PsmIkegv7SA",
    "title": "再見 n8n！免費Google 隱藏版核武 Antigravity 實測：別管節點了，自己的需求自己「搞定」 | Antigravity Agent Skills 實測：AI 自動化終於不用學程式了",
    "channel": "Jelena 耶萊娜 AIGC",
@@ -13818,6 +16470,40 @@
    ]
   },
   {
+   "video_id": "JBZeoaAsziE",
+   "title": "Edcafe x Google AI：老師必學的數位工具 Combo 技！快速打造互動課堂",
+   "channel": "三師爸Sense Bar",
+   "duration_seconds": 3795,
+   "published_at": "2026-01-18T14:55:01Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/JBZeoaAsziE/mqdefault.jpg",
+   "view_count": 3609,
+   "category": "工具教學",
+   "summary": "介紹 Google AI 工具（Gemini 與 NotebookLM）與 Edcafe 的深度結合，示範老師如何快速打造互動課堂與自動化學習測驗。",
+   "tags": [
+    "Google AI",
+    "NotebookLM",
+    "Edcafe",
+    "數位教學"
+   ]
+  },
+  {
+   "video_id": "ibtCYZPoQZE",
+   "title": "AI 數位觀課-用 Gemini 與 NotebookLM 打造你的「自動化議課助教」feat ASUS CM3206",
+   "channel": "三師爸Sense Bar",
+   "duration_seconds": 3098,
+   "published_at": "2026-01-17T13:06:53Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/ibtCYZPoQZE/mqdefault.jpg",
+   "view_count": 6048,
+   "category": "辦公應用",
+   "summary": "示範如何利用 Gemini 與 NotebookLM 打造自動化議課助教，追蹤數位學習足跡並一鍵生成觀課與議課報告。",
+   "tags": [
+    "Gemini",
+    "NotebookLM",
+    "數位觀課",
+    "教學輔助"
+   ]
+  },
+  {
    "video_id": "QtlZJBpVUhQ",
    "title": "一定要學會的Gemini十個生活小技巧｜規劃旅遊 翻譯 防詐騙｜ChatGPT |蘋果妹",
    "channel": "蘋果妹",
@@ -13849,6 +16535,23 @@
     "工具教學",
     "實用技巧",
     "生產力"
+   ]
+  },
+  {
+   "video_id": "p6eKAU3h8mo",
+   "title": "【人工智能】Claude神器降临 | 2小时完成2个月工作 | Anthropic | Claude Cowork  | 自动整理桌面 | 报税审计 | Claude Code进化 | 生产力跃迁",
+   "channel": "最佳拍档",
+   "duration_seconds": 870,
+   "published_at": "2026-01-16T13:01:41Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/p6eKAU3h8mo/mqdefault.jpg",
+   "view_count": 18181,
+   "category": "辦公應用",
+   "summary": "本影片介紹 Anthropic 推出的辦公神器 Claude Cowork，示範如何讓 AI 自主推理、控制文件與自動化處理報稅、整理桌面等繁雜任務，實現生產力躍遷。",
+   "tags": [
+    "Claude Cowork",
+    "辦公自動化",
+    "生產力工具",
+    "AI助理"
    ]
   },
   {
@@ -13934,6 +16637,23 @@
     "影片生成",
     "電商應用",
     "寵物服裝"
+   ]
+  },
+  {
+   "video_id": "sZF_bMslCkk",
+   "title": "用 Edcafe Chatbot 打造「會帶學生學」的數位學習系統",
+   "channel": "三師爸Sense Bar",
+   "duration_seconds": 3939,
+   "published_at": "2026-01-12T02:13:07Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/sZF_bMslCkk/mqdefault.jpg",
+   "view_count": 1248,
+   "category": "工具教學",
+   "summary": "詳細解說如何使用 Edcafe Chatbot 打造會帶領學生思考的數位學習系統，並搭配學習單設計達到引導學生的效果。",
+   "tags": [
+    "Edcafe",
+    "Chatbot",
+    "數位學習",
+    "教學設計"
    ]
   },
   {
@@ -14039,6 +16759,23 @@
    ]
   },
   {
+   "video_id": "WaiD_c-WGQM",
+   "title": "【Notebook LM × Google 試算表，老師工作效率大升級！】",
+   "channel": "三師爸Sense Bar",
+   "duration_seconds": 711,
+   "published_at": "2026-01-06T18:13:57Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/WaiD_c-WGQM/mqdefault.jpg",
+   "view_count": 18908,
+   "category": "辦公應用",
+   "summary": "結合 NotebookLM 與 Google 試算表，教導老師使用 YAML 自訂行為指示，自動批量生成溫暖正向的學生學習評語。",
+   "tags": [
+    "NotebookLM",
+    "Google試算表",
+    "AI評語",
+    "行政效率"
+   ]
+  },
+  {
    "video_id": "XkPvmjNm4YI",
    "title": "3分鐘教你部署好n8n",
    "channel": "Hei_Ai 成長日記",
@@ -14107,6 +16844,23 @@
    ]
   },
   {
+   "video_id": "_5UtgixClSE",
+   "title": "NotebookLM 隱藏神技：YAML 精準控制簡報與圖片風格全攻略！",
+   "channel": "三師爸Sense Bar",
+   "duration_seconds": 3435,
+   "published_at": "2026-01-04T14:22:59Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/_5UtgixClSE/mqdefault.jpg",
+   "view_count": 17109,
+   "category": "工具教學",
+   "summary": "深入解說 YAML 語法在 NotebookLM 中的應用，教導如何建立靈魂與結構框架，精準控制 AI 生成的簡報與圖片風格。",
+   "tags": [
+    "NotebookLM",
+    "YAML",
+    "AI簡報",
+    "工具教學"
+   ]
+  },
+  {
    "video_id": "LYPjThk0CG0",
    "title": "【實測】社群推爆的 Typeless 好用嗎？釋放你打字時間的 AI 語音轉寫神器",
    "channel": "柚智夫妻 X 雷蒙三十",
@@ -14141,6 +16895,23 @@
    ]
   },
   {
+   "video_id": "BE3Q2-Gy8Kk",
+   "title": "n8n × AI Agent到底在紅什麼？AI應用規劃師必懂的新技能",
+   "channel": "我是阿昌",
+   "duration_seconds": 293,
+   "published_at": "2026-01-02T08:37:31Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/BE3Q2-Gy8Kk/mqdefault.jpg",
+   "view_count": 295,
+   "category": "自動化工作流",
+   "summary": "本影片介紹 n8n 結合 AI Agent 的應用價值與培訓工作坊資訊。協助非資工背景的職場工作者從使用者升級為設計者，學習打造智慧代理人以優化企業內部工作流程。",
+   "tags": [
+    "n8n",
+    "AI Agent",
+    "自動化",
+    "職場應用"
+   ]
+  },
+  {
    "video_id": "ElNZ0fcGsyY",
    "title": "Google现在的动作简直疯了！21个神级AI工具全部免费？马哥揭秘：如何用这套“降维打击”工具链效率翻10倍",
    "channel": "公众号 | 马哥赢创",
@@ -14172,6 +16943,23 @@
     "即夢AI",
     "年會影片",
     "配音工具"
+   ]
+  },
+  {
+   "video_id": "rLHbROdryH4",
+   "title": "NotebookLM 隱藏神技：用「系統架構大師」一鍵打造你的專屬教學 AI！",
+   "channel": "三師爸Sense Bar",
+   "duration_seconds": 3953,
+   "published_at": "2025-12-28T14:15:07Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/rLHbROdryH4/mqdefault.jpg",
+   "view_count": 25219,
+   "category": "工具教學",
+   "summary": "介紹如何在 NotebookLM 與 Gemini 中建立系統架構大師，利用靈魂與結構框架精準控制 AI 輸出，自動生成試題與計畫。",
+   "tags": [
+    "NotebookLM",
+    "Gemini",
+    "系統架構",
+    "AI助理"
    ]
   },
   {
@@ -14634,6 +17422,23 @@
    ]
   },
   {
+   "video_id": "U31-ztYkOok",
+   "title": "43.n8n 自動化教程：AI 落地應用！實戰 Base44 + n8n AI Agent，從零打造智慧網站預約工作流。",
+   "channel": "MagicAIAcademy",
+   "duration_seconds": 512,
+   "published_at": "2025-12-08T09:00:47Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/U31-ztYkOok/mqdefault.jpg",
+   "view_count": 943,
+   "category": "自動化工作流",
+   "summary": "本自動化教程實戰示範結合 Base44 與 n8n AI Agent，帶領觀眾從零開始打造智慧網站預約工作流，展示 AI 落地應用的實際操作步驟。",
+   "tags": [
+    "n8n",
+    "AI Agent",
+    "工作流",
+    "自動化"
+   ]
+  },
+  {
    "video_id": "GKjnQSlWGI4",
    "title": "✨2025年最推薦的5個AI工具！簡單、好上手，一秒提升工作效率&生產力！",
    "channel": "Hi, 迷途艾比",
@@ -14736,6 +17541,23 @@
    ]
   },
   {
+   "video_id": "H287l2zSy_8",
+   "title": "n8n 防禦節點 +  Gemini 一招讓你的 RAG 應用更聰明、更合規!｜實戰n8n EP18",
+   "channel": "網際之星開發實驗室 自動化 × AI",
+   "duration_seconds": 1209,
+   "published_at": "2025-12-04T02:00:06Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/H287l2zSy_8/mqdefault.jpg",
+   "view_count": 1013,
+   "category": "自動化工作流",
+   "summary": "本實戰教學示範如何在 n8n 中運用防禦節點 (Guardrails) 與 Gemini 打造安全合規的 RAG 應用。內容包含更新 n8n、設定 API Key、建立 File Search Store 及審查 AI 回應。",
+   "tags": [
+    "n8n",
+    "Gemini",
+    "RAG",
+    "防禦節點"
+   ]
+  },
+  {
    "video_id": "zwL3NhJjREI",
    "title": "n8n 最新重大更新！OpenAI+ n8n工作流全教學（2026 必學🔥）",
    "channel": "李哈利Harry",
@@ -14767,6 +17589,57 @@
     "圖片轉影片",
     "提示詞",
     "AI生成"
+   ]
+  },
+  {
+   "video_id": "Ie15edG73uQ",
+   "title": "用Google Gemini秒生簡報！AI簡報神器教學全攻略",
+   "channel": "三師爸Sense Bar",
+   "duration_seconds": 1041,
+   "published_at": "2025-11-30T03:22:55Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/Ie15edG73uQ/mqdefault.jpg",
+   "view_count": 130771,
+   "category": "工具教學",
+   "summary": "手把手教學如何運用 Google Gemini、NotebookLM 與 NanoBanana Pro 自動生成並美化簡報，提升簡報製作效率。",
+   "tags": [
+    "Gemini",
+    "NotebookLM",
+    "AI簡報",
+    "工具教學"
+   ]
+  },
+  {
+   "video_id": "9hsjKG32KKI",
+   "title": "AI 不再胡扯，只回你給的資料｜RAG Agent 實作教學（附免費模板）",
+   "channel": "JayLuxAI | AI 系統導入",
+   "duration_seconds": 814,
+   "published_at": "2025-11-29T16:00:22Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/9hsjKG32KKI/mqdefault.jpg",
+   "view_count": 2348,
+   "category": "自動化工作流",
+   "summary": "本影片詳細講解 RAG 原理與 Pipeline 實作方式，並帶領觀眾使用 n8n 打造能根據上傳文件進行精準查詢的 RAG Agent，解決 AI 回答胡言亂語的問題。",
+   "tags": [
+    "n8n",
+    "RAG",
+    "AI Agent",
+    "知識庫"
+   ]
+  },
+  {
+   "video_id": "cFbT4Sqlt_Y",
+   "title": "最簡單的 RAG 系統！用 n8n + Google 打造企業級知識庫",
+   "channel": "李哈利Harry",
+   "duration_seconds": 726,
+   "published_at": "2025-11-27T12:01:25Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/cFbT4Sqlt_Y/mqdefault.jpg",
+   "view_count": 4003,
+   "category": "自動化工作流",
+   "summary": "本影片示範如何使用 n8n 搭配 Google 建立企業級知識庫與最簡單的 RAG 系統，幫助企業將 AI 整合至日常業務流程中。",
+   "tags": [
+    "n8n",
+    "RAG",
+    "企業知識庫",
+    "自動化"
    ]
   },
   {
@@ -14838,6 +17711,23 @@
    ]
   },
   {
+   "video_id": "2fTqduml_CY",
+   "title": "超狂示範！用Gemini + NotebookLM打造專屬簡報風格_AI極速視覺化簡報 notebookLM",
+   "channel": "三師爸Sense Bar",
+   "duration_seconds": 1284,
+   "published_at": "2025-11-23T09:07:34Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/2fTqduml_CY/mqdefault.jpg",
+   "view_count": 322626,
+   "category": "AI 影像與影片生成",
+   "summary": "實測分享 RED AI 極速簡報模組，結合 Google Gemini、NotebookLM 與生圖工具，打造具一致性且高質感的視覺化簡報。",
+   "tags": [
+    "Gemini",
+    "NotebookLM",
+    "AI生圖",
+    "視覺化簡報"
+   ]
+  },
+  {
    "video_id": "DVeJGQCycjI",
    "title": "【2026最新】Gemini 3.0 和 ChatGPT 5.1 終極提示工程指南！徹底解說讓AI下指令順利進行的Prompt基礎，擺脫新手必學的絕對最佳提示词技巧！自己也能打造順利執行的完美指令！",
    "channel": "孔老師AI研習社",
@@ -14889,6 +17779,40 @@
    ]
   },
   {
+   "video_id": "y-cny_qIUw4",
+   "title": "RAG 不只能查文件！用 N8N 做圖片向量搜尋，效率暴增 100 倍",
+   "channel": "追日Gucci-AI效率革命聯盟",
+   "duration_seconds": 1764,
+   "published_at": "2025-11-13T06:30:45Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/y-cny_qIUw4/mqdefault.jpg",
+   "view_count": 4385,
+   "category": "自動化工作流",
+   "summary": "本影片介紹如何將 RAG 技術應用於圖片向量搜尋，透過 N8N 實作並大幅提升搜尋與處理效率，展現 AI 在自動化流程中的進階應用。",
+   "tags": [
+    "n8n",
+    "RAG",
+    "向量搜尋",
+    "AI自動化"
+   ]
+  },
+  {
+   "video_id": "lVVSY59EcYE",
+   "title": "AI Agent终极教学！35分钟从概念到N8N实战让你彻底理解并运用AI Agent【2025人人都能学会】",
+   "channel": "Automate with Bonnie",
+   "duration_seconds": 2128,
+   "published_at": "2025-11-08T11:01:27Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/lVVSY59EcYE/mqdefault.jpg",
+   "view_count": 8907,
+   "category": "自動化工作流",
+   "summary": "本教學深入講解 AI Agent 核心概念與應用，並手把手帶領觀眾在 N8N 平台上從零搭建第一個 AI Agent。內容涵蓋設定語言模型、記憶模組、串接工具及編寫 System Prompt。",
+   "tags": [
+    "n8n",
+    "AI Agent",
+    "自動化",
+    "教學"
+   ]
+  },
+  {
    "video_id": "paJpjzzEcjY",
    "title": "大半夜還在用私人 Line 回覆客戶/家長的問題？「Line 官方帳號 + AI 助理」讓你實現公私分明，擺脫 80% 雜務！",
    "channel": "PAPAYA 電腦教室",
@@ -14903,6 +17827,40 @@
     "Make.com",
     "AI助理",
     "自動化工作流"
+   ]
+  },
+  {
+   "video_id": "sZlhQQ4XTIM",
+   "title": "RAG 知識庫怎麼用，n8n RAG Agent 與 NotebookLM 示範｜RAG Part2  基礎使用｜REP-47 免費模板",
+   "channel": "Alex Hsieh 相談室 | AI Brain",
+   "duration_seconds": 569,
+   "published_at": "2025-11-05T13:02:38Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/sZlhQQ4XTIM/mqdefault.jpg",
+   "view_count": 1676,
+   "category": "自動化工作流",
+   "summary": "本實戰教學介紹 RAG 知識庫的基礎使用，帶領觀眾實作 n8n RAG Agent 進行發票上傳與金額查詢，並搭配 Google NotebookLM 解析最簡單的知識庫建立方式。",
+   "tags": [
+    "n8n",
+    "RAG",
+    "NotebookLM",
+    "知識庫"
+   ]
+  },
+  {
+   "video_id": "bQkbq97hnQY",
+   "title": "【n8n 教學】自動追蹤 DeepSeek/Qwen AI 交易策略 | Google Sheets + Discord 完整自動化流程 nof1.ai alpha arenaa",
+   "channel": "AI 加菲特 (ipas 中級 & 證券分析師)",
+   "duration_seconds": 432,
+   "published_at": "2025-11-02T14:13:58Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/bQkbq97hnQY/mqdefault.jpg",
+   "view_count": 1597,
+   "category": "自動化工作流",
+   "summary": "本教學示範如何使用 n8n 結合 Google Sheets 與 Discord，打造自動追蹤 DeepSeek 等 AI 交易策略的智慧監控系統，省去手動盯盤的時間。",
+   "tags": [
+    "n8n",
+    "DeepSeek",
+    "Google Sheets",
+    "自動化監控"
    ]
   },
   {
@@ -14923,6 +17881,23 @@
    ]
   },
   {
+   "video_id": "mrjS-t0L6yI",
+   "title": "Sora 2 vs Veo 3.1：AI影片大戰終極對比！5組相同提示詞並排測試！我測試了所有功能，告訴你誰贏了？為什麼贏？12分鐘看懂兩大神器差異，保姆級分析手把手教你選對工具！效率提高10倍！",
+   "channel": "孔老師AI研習社",
+   "duration_seconds": 767,
+   "published_at": "2025-10-26T12:01:28Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/mrjS-t0L6yI/mqdefault.jpg",
+   "view_count": 5365,
+   "category": "AI 影像與影片生成",
+   "summary": "本影片透過相同提示詞並排測試 Sora 2 與 Veo 3.1 兩大 AI 影片生成工具，提供詳細的功能分析與選用指南。",
+   "tags": [
+    "Sora 2",
+    "Veo 3.1",
+    "AI影片生成",
+    "工具評測"
+   ]
+  },
+  {
    "video_id": "TZHu811aViM",
    "title": "影音工作者必看！99% 準確度，免費 AI 字幕生成方法公開，完整教學（超越剪映）",
    "channel": "柚智夫妻 X 雷蒙三十",
@@ -14940,6 +17915,125 @@
    ]
   },
   {
+   "video_id": "VFw6l8oCxGc",
+   "title": "n8n重磅更新：自动生成工作流，实测效果惊人，最强AI工作流生成器 | N8N Workflow Builder",
+   "channel": "AI学长小林",
+   "duration_seconds": 928,
+   "published_at": "2025-10-20T09:00:44Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/VFw6l8oCxGc/mqdefault.jpg",
+   "view_count": 8866,
+   "category": "自動化工作流",
+   "summary": "本影片實測 n8n 重磅更新的自動生成工作流功能，展示最強 AI 工作流生成器的實際運作效果，幫助使用者快速建置企業級自動化流程。",
+   "tags": [
+    "n8n",
+    "AI工作流",
+    "自動生成",
+    "實測"
+   ]
+  },
+  {
+   "video_id": "6oimAqpdzLk",
+   "title": "邊學邊玩超Funny-AI互動小遊戲",
+   "channel": "三師爸Sense Bar",
+   "duration_seconds": 3236,
+   "published_at": "2025-10-20T01:58:08Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/6oimAqpdzLk/mqdefault.jpg",
+   "view_count": 932,
+   "category": "工具教學",
+   "summary": "介紹結合 AI 技術的趣味互動小遊戲，透過語音猜謎與詞彙接龍等設計，讓學習者在輕鬆環境中提升語文能力。",
+   "tags": [
+    "AI遊戲",
+    "互動教學",
+    "Gemini",
+    "寓教於樂"
+   ]
+  },
+  {
+   "video_id": "jGs91L-6-XE",
+   "title": "解說 n8n Agentic Workflow | 整合 AI Agent 與 Workflow，取代複雜代碼！",
+   "channel": "阿石OMP",
+   "duration_seconds": 486,
+   "published_at": "2025-10-18T13:13:06Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/jGs91L-6-XE/mqdefault.jpg",
+   "view_count": 3617,
+   "category": "自動化工作流",
+   "summary": "本影片透過 n8n 示範拆解傳統工作流程、AI 代理與智能工作流程（Agentic Workflow）三種自動化概念，教導如何整合 AI Agent 取代複雜程式碼。",
+   "tags": [
+    "n8n",
+    "AI Agent",
+    "Agentic Workflow",
+    "自動化"
+   ]
+  },
+  {
+   "video_id": "Lbi_YrlOutM",
+   "title": "Perplexity Comet 憑什麼讓我徹底拋棄 Chrome？10個功能自動化你的工作！徹底改變我的工作方式！普通人也能免費用的神級AI瀏覽器，每月 200 美元→現在免費！",
+   "channel": "孔老師AI研習社",
+   "duration_seconds": 1011,
+   "published_at": "2025-10-17T09:39:48Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/Lbi_YrlOutM/mqdefault.jpg",
+   "view_count": 35632,
+   "category": "工具教學",
+   "summary": "介紹 Perplexity Comet 瀏覽器的 10 個核心功能，教你如何利用 AI 瀏覽器自動化處理工作，提升日常辦公效率。",
+   "tags": [
+    "Perplexity Comet",
+    "AI瀏覽器",
+    "工具教學",
+    "工作自動化"
+   ]
+  },
+  {
+   "video_id": "aEsBezW_6Js",
+   "title": "【教學】在 ChatGPT 使用 n8n 自動化流程：一句指令完成社群貼文、圖片設計到多平台發佈！",
+   "channel": "阿石OMP",
+   "duration_seconds": 474,
+   "published_at": "2025-10-13T07:43:11Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/aEsBezW_6Js/mqdefault.jpg",
+   "view_count": 2312,
+   "category": "自動化工作流",
+   "summary": "本教學示範如何在 ChatGPT 中使用 n8n 自動化流程。透過最新功能串接內部軟體，實現一句指令完成社群貼文、圖片設計到多平台發佈的自動化作業。",
+   "tags": [
+    "n8n",
+    "ChatGPT",
+    "自動化",
+    "AI應用"
+   ]
+  },
+  {
+   "video_id": "KfvDYvos8EM",
+   "title": "終於找到最強AI簡報工具！全網都在用的3大工具實測，Skywork vs Gamma vs Copilot，各個維度打分，誰才是2025年王者？讓你5分鐘選對工具，從此快速產出專業簡報，告別加班！",
+   "channel": "孔老師AI研習社",
+   "duration_seconds": 712,
+   "published_at": "2025-10-09T12:00:40Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/KfvDYvos8EM/mqdefault.jpg",
+   "view_count": 18635,
+   "category": "辦公應用",
+   "summary": "實測 Skywork、Gamma 與 Copilot 三大 AI 簡報工具，教你如何快速產出專業簡報，大幅縮短文書處理時間。",
+   "tags": [
+    "AI簡報",
+    "Skywork",
+    "Gamma",
+    "辦公應用"
+   ]
+  },
+  {
+   "video_id": "BE6ZWv5Ljmw",
+   "title": "如何建立AI一人公司？如何打造穩定獲利的業務模式？不必辭職，不需任何員工，不編程！AI選方向｜AI做產品｜AI獲客 ，3步教你打造自動化賺錢機器！這條路你也能走！",
+   "channel": "孔老師AI研習社",
+   "duration_seconds": 887,
+   "published_at": "2025-10-04T11:00:20Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/BE6ZWv5Ljmw/mqdefault.jpg",
+   "view_count": 13336,
+   "category": "入門觀念",
+   "summary": "教你如何利用 AI 工具規劃定位、製作產品並獲客，透過三步驟打造屬於自己的自動化賺錢 AI 一人公司。",
+   "tags": [
+    "AI一人公司",
+    "自動化賺錢",
+    "入門觀念",
+    "商業應用"
+   ]
+  },
+  {
    "video_id": "KHCHTCXGyug",
    "title": "一人動畫公司不是夢！揭密 AI 動畫完整製作流程 ~ 從發想到影片生成一條龍實作教學！",
    "channel": "PAPAYA 電腦教室",
@@ -14954,6 +18048,634 @@
     "Freepik",
     "分鏡設計",
     "AI影片生成"
+   ]
+  },
+  {
+   "video_id": "PjmGJznPMSI",
+   "title": "15分鐘快速掌握 MCP！最新 n8n x MCP x AI Agent 全方位教學 + 串接自製工具｜實戰n8n EP15",
+   "channel": "網際之星開發實驗室 自動化 × AI",
+   "duration_seconds": 1046,
+   "published_at": "2025-09-26T10:30:21Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/PjmGJznPMSI/mqdefault.jpg",
+   "view_count": 2148,
+   "category": "自動化工作流",
+   "summary": "本實戰教學帶領觀眾快速掌握 n8n、MCP 與 AI Agent 的全方位串接。透過 Model Context Protocol 標準化工具接口，讓 AI 自動執行查資料、計算與寄送報價等工作。",
+   "tags": [
+    "n8n",
+    "MCP",
+    "AI Agent",
+    "自動化"
+   ]
+  },
+  {
+   "video_id": "wRWEVkjfvZA",
+   "title": "你不敢相信Google AI能做的免費功能：讓你秒殺所有付費AI！（Gemini、NotebookLM、AI Studio、AI Mode、Opal、Labs），全網最深度的免費AI工具大對比！",
+   "channel": "孔老師AI研習社",
+   "duration_seconds": 957,
+   "published_at": "2025-09-24T11:40:26Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/wRWEVkjfvZA/mqdefault.jpg",
+   "view_count": 94085,
+   "category": "工具教學",
+   "summary": "深度對比 Google 旗下 Gemini、NotebookLM 與 AI Studio 等多款免費 AI 工具，帶領觀眾了解各自的應用場景。",
+   "tags": [
+    "Google AI",
+    "Gemini",
+    "NotebookLM",
+    "工具教學"
+   ]
+  },
+  {
+   "video_id": "7hJDPhjm-MM",
+   "title": "【n8n實戰教學】(已失效) 打造Threads爬蟲助理(二) - Apify爬蟲應用",
+   "channel": "DongStudio",
+   "duration_seconds": 832,
+   "published_at": "2025-09-21T10:03:11Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/7hJDPhjm-MM/mqdefault.jpg",
+   "view_count": 1908,
+   "category": "自動化工作流",
+   "summary": "介紹如何使用 Apify 搭配 n8n 打造 Threads 爬蟲助理，實作網頁內容抓取並作為替代方案。",
+   "tags": [
+    "n8n",
+    "Apify",
+    "自動化工作流",
+    "爬蟲"
+   ]
+  },
+  {
+   "video_id": "jE2mkGrA974",
+   "title": "n8n 教學：認識 n8n Code 節點",
+   "channel": "紅色死神",
+   "duration_seconds": 659,
+   "published_at": "2025-09-21T02:49:10Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/jE2mkGrA974/mqdefault.jpg",
+   "view_count": 358,
+   "category": "自動化工作流",
+   "summary": "帶領觀眾深入認識 n8n 自動化工具中的 Code 節點，學習如何處理程式碼及文字內容。",
+   "tags": [
+    "n8n",
+    "自動化工作流",
+    "Code節點"
+   ]
+  },
+  {
+   "video_id": "wbGRx_HyKoQ",
+   "title": "比較 Google Gemini 在 Workspace 中的整合應用 與 n8n  Workspace 中的整合應用。",
+   "channel": "瑋翔程",
+   "duration_seconds": 121,
+   "published_at": "2025-09-20T10:23:53Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/wbGRx_HyKoQ/mqdefault.jpg",
+   "view_count": 33,
+   "category": "入門觀念",
+   "summary": "比較 Google Gemini 在 Workspace 中的智慧助理應用與 n8n 工作流程建造平台的差異與核心理念。",
+   "tags": [
+    "n8n",
+    "Gemini",
+    "Workspace",
+    "入門觀念"
+   ]
+  },
+  {
+   "video_id": "LtQK5U47n5A",
+   "title": "n8n 真的不難！你只是少了這個「關鍵 No Code 秘訣」，無痛打造你的自動化工作流",
+   "channel": "P & H",
+   "duration_seconds": 1156,
+   "published_at": "2025-09-20T10:07:19Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/LtQK5U47n5A/mqdefault.jpg",
+   "view_count": 16223,
+   "category": "自動化工作流",
+   "summary": "分享 n8n 的 No Code 秘訣與思維框架，一步步實作每日生活資訊 Line 自動推播通知。",
+   "tags": [
+    "n8n",
+    "自動化工作流",
+    "NoCode",
+    "LINE"
+   ]
+  },
+  {
+   "video_id": "DTd0i-2Ogpc",
+   "title": "【n8n x LINE 必修課】怎麼用n8n傳LINE圖片？70分鐘保母級實作教學，讓你的LINE比其他人更專業  （有超方便模板直接用）",
+   "channel": "Frankie全自動 | AI自動化",
+   "duration_seconds": 4459,
+   "published_at": "2025-09-17T12:09:16Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/DTd0i-2Ogpc/mqdefault.jpg",
+   "view_count": 4798,
+   "category": "自動化工作流",
+   "summary": "詳細教學如何使用 n8n 傳送 LINE 圖片、影片與貼圖，包含免費與付費訊息設定及完整實作流程。",
+   "tags": [
+    "n8n",
+    "LINE",
+    "自動化工作流",
+    "實作教學"
+   ]
+  },
+  {
+   "video_id": "jVdo5VOgTzI",
+   "title": "深入解析 n8n 工具用法。同時用 GPT-5 與 Gemini 兩個 AI Agent 分工例子",
+   "channel": "阿石OMP",
+   "duration_seconds": 580,
+   "published_at": "2025-09-11T13:49:14Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/jVdo5VOgTzI/mqdefault.jpg",
+   "view_count": 2612,
+   "category": "自動化工作流",
+   "summary": "深入解析 n8n 工具用法，並示範如何透過 GPT 與 Gemini 兩個 AI Agent 進行分工合作。",
+   "tags": [
+    "n8n",
+    "AI Agent",
+    "GPT",
+    "Gemini"
+   ]
+  },
+  {
+   "video_id": "quIXlAacG6Q",
+   "title": "免费n8n工作流：一键监控X、公众号、小红书、抖音、YouTube所有动态，保姆级教程！",
+   "channel": "AI学长小林",
+   "duration_seconds": 1655,
+   "published_at": "2025-09-10T09:01:21Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/quIXlAacG6Q/mqdefault.jpg",
+   "view_count": 7949,
+   "category": "自動化工作流",
+   "summary": "保姆級教學如何建立免費 n8n 工作流，一鍵監控 X、小紅書、抖音與 YouTube 等各大平台動態。",
+   "tags": [
+    "n8n",
+    "自動化工作流",
+    "社群監控",
+    "跨平台"
+   ]
+  },
+  {
+   "video_id": "F5XZrpNDZfE",
+   "title": "教師必看！學生AI設計班服教學全攻略_AI製作班服_教師版",
+   "channel": "三師爸Sense Bar",
+   "duration_seconds": 562,
+   "published_at": "2025-09-08T13:34:23Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/F5XZrpNDZfE/mqdefault.jpg",
+   "view_count": 1777,
+   "category": "AI 影像與影片生成",
+   "summary": "手把手教導老師引導學生利用 Google Gemini AI 生圖工具與 Padlet 平台，完成獨一無二的班服設計與票選活動。",
+   "tags": [
+    "Gemini",
+    "AI生圖",
+    "班服設計",
+    "教學應用"
+   ]
+  },
+  {
+   "video_id": "n1p5jPReCNo",
+   "title": "【谷歌王炸Nano-Banana生圖實操】5種利用Nano-Banana賺錢的方法，應用場景分享！Gemini 2.5 Flash Image 全面超越GPT，人人免費使用！0門檻，學完立即落地！",
+   "channel": "孔老師AI研習社",
+   "duration_seconds": 705,
+   "published_at": "2025-09-08T11:41:14Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/n1p5jPReCNo/mqdefault.jpg",
+   "view_count": 7605,
+   "category": "AI 影像與影片生成",
+   "summary": "實操谷歌 Nano-Banana 生圖技術與 Gemini 2.5 Flash Image，分享 5 種結合生圖工具的落地應用與賺錢方法。",
+   "tags": [
+    "AI生圖",
+    "Nano-Banana",
+    "Gemini",
+    "圖像生成"
+   ]
+  },
+  {
+   "video_id": "1ZW9Eui40gU",
+   "title": "AI製作班服全攻略｜設計、試穿、上傳一次學會_用Google Gemini製作超酷班服！AI設計全流程教學",
+   "channel": "三師爸Sense Bar",
+   "duration_seconds": 481,
+   "published_at": "2025-09-07T11:26:43Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/1ZW9Eui40gU/mqdefault.jpg",
+   "view_count": 5860,
+   "category": "AI 影像與影片生成",
+   "summary": "完整教學如何使用 Google Gemini 從零開始設計班服 Logo、模擬試穿並上傳至指定平台參與票選，展現 AI 實作應用。",
+   "tags": [
+    "Gemini",
+    "AI設計",
+    "班服製作",
+    "實作教學"
+   ]
+  },
+  {
+   "video_id": "nNqayBAwgww",
+   "title": "n8n + Nano Banana 零代碼自製AI廣告圖生成器：普通產品圖 秒變 專業廣告圖 #n8n教學 #nanobanana #免費API #香港AI教學 #ai工具 #廣東話 #gemini",
+   "channel": "我想用Ai賺錢",
+   "duration_seconds": 1048,
+   "published_at": "2025-09-05T12:01:38Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/nNqayBAwgww/mqdefault.jpg",
+   "view_count": 1044,
+   "category": "辦公應用",
+   "summary": "結合 n8n 與 Nano Banana API，教你零代碼自製 AI 廣告圖生成器，將普通產品圖秒變專業圖片。",
+   "tags": [
+    "n8n",
+    "AI生圖",
+    "辦公應用",
+    "自動化"
+   ]
+  },
+  {
+   "video_id": "biJv5xi0rfo",
+   "title": "【下班後能做】GPT-5賺錢的3種方法！潛力極高的超賺錢副業，讓你悶聲暴富！普通人也能做，任選1個你最感興趣的，在2025年結束前用AI致富的最後機會，學完立即能落地！",
+   "channel": "孔老師AI研習社",
+   "duration_seconds": 789,
+   "published_at": "2025-08-31T12:01:11Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/biJv5xi0rfo/mqdefault.jpg",
+   "view_count": 5378,
+   "category": "入門觀念",
+   "summary": "介紹透過 GPT-5 進行副業賺錢的 3 種方法，教導普通人如何運用 AI 工具在日常生活中創造額外收入。",
+   "tags": [
+    "GPT-5",
+    "副業賺錢",
+    "AI應用",
+    "入門觀念"
+   ]
+  },
+  {
+   "video_id": "b6AEsVRJjzI",
+   "title": "【超詳細N8N教學】0基礎入門到進階，教你從0-1搭建第一個AI Agent，打造全自動內容工廠",
+   "channel": "七七行銷筆記",
+   "duration_seconds": 1337,
+   "published_at": "2025-08-30T14:07:54Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/b6AEsVRJjzI/mqdefault.jpg",
+   "view_count": 53874,
+   "category": "自動化工作流",
+   "summary": "從 0 基礎入門到進階，詳細教學如何使用 n8n 搭建第一個 AI Agent，打造全自動內容工廠。",
+   "tags": [
+    "n8n",
+    "AI Agent",
+    "自動化工作流",
+    "內容創作"
+   ]
+  },
+  {
+   "video_id": "kAxHdZMsq_I",
+   "title": "n8n Taiwan User Group X AI共學會 (系列三) AI 實戰應用 X 智慧製造升級關鍵 (8/27 20:00-21:00)",
+   "channel": "虎智科技TigerAI",
+   "duration_seconds": 3352,
+   "published_at": "2025-08-28T00:54:34Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/kAxHdZMsq_I/mqdefault.jpg",
+   "view_count": 578,
+   "category": "自動化工作流",
+   "summary": "結合 n8n 與生成式 AI，探討智慧製造升級關鍵，並實作異常分析、逐字稿摘要及 AI 協作報告。",
+   "tags": [
+    "n8n",
+    "智慧製造",
+    "生成式AI",
+    "實戰應用"
+   ]
+  },
+  {
+   "video_id": "w02WAdbwKj0",
+   "title": "【n8n實戰教學】(已失效) 打造Threads爬蟲助理 - Firecrawl爬蟲應用",
+   "channel": "DongStudio",
+   "duration_seconds": 873,
+   "published_at": "2025-08-28T00:48:51Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/w02WAdbwKj0/mqdefault.jpg",
+   "view_count": 3350,
+   "category": "自動化工作流",
+   "summary": "示範如何使用 Firecrawl 搭配 n8n 從 Threads 抓取內容，交由 Gemini 分析並推送到 Telegram。",
+   "tags": [
+    "n8n",
+    "Firecrawl",
+    "Gemini",
+    "自動化"
+   ]
+  },
+  {
+   "video_id": "TnTfabFmdEY",
+   "title": "NotebookLM中文語音也能加字幕！免費教學來了～NotebookLM中文影片摘要上字幕",
+   "channel": "三師爸Sense Bar",
+   "duration_seconds": 526,
+   "published_at": "2025-08-26T16:53:03Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/TnTfabFmdEY/mqdefault.jpg",
+   "view_count": 8456,
+   "category": "工具教學",
+   "summary": "介紹三種免費工具與方法，教導觀眾如何為 NotebookLM 生成的中文語音摘要自動加上中文字幕，並進行文字校正。",
+   "tags": [
+    "NotebookLM",
+    "自動上字幕",
+    "語音轉文字",
+    "免費工具"
+   ]
+  },
+  {
+   "video_id": "uyNQTUiKXu0",
+   "title": "教育工作者必看！Google Gemini NotebookLM你一定要知道的五件事",
+   "channel": "三師爸Sense Bar",
+   "duration_seconds": 457,
+   "published_at": "2025-08-25T17:11:51Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/uyNQTUiKXu0/mqdefault.jpg",
+   "view_count": 19739,
+   "category": "工具教學",
+   "summary": "整理教育工作者必知的 Google Gemini 與 NotebookLM 五大應用技巧，包含互動網站產出與筆記本擴充功能。",
+   "tags": [
+    "Gemini",
+    "NotebookLM",
+    "教育應用",
+    "AI工具"
+   ]
+  },
+  {
+   "video_id": "xhVPtoQWSMw",
+   "title": "AI做的簡報總是翻車？改用這種方式！用GPT-5和AiPPT再也不用浪费生命制作簡報！全流程教程分享，讓一切變得簡單！從PPT小白秒變匯報大神！AiPPT一鍵排版，職場/學生/學術人士必備神器！",
+   "channel": "孔老師AI研習社",
+   "duration_seconds": 762,
+   "published_at": "2025-08-25T09:16:36Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/xhVPtoQWSMw/mqdefault.jpg",
+   "view_count": 42602,
+   "category": "辦公應用",
+   "summary": "結合 GPT-5 與 AiPPT 示範一鍵排版製作簡報的全流程教程，幫助職場與學生族群快速擺脫繁瑣的簡報製作。",
+   "tags": [
+    "AiPPT",
+    "GPT-5",
+    "簡報製作",
+    "辦公應用"
+   ]
+  },
+  {
+   "video_id": "mqVkei03Hpk",
+   "title": "六大步驟搞定 Wayground 教學流程_老師們必看！用 Wayground 打造高互動 AI 數位課堂_feat_康軒",
+   "channel": "三師爸Sense Bar",
+   "duration_seconds": 5053,
+   "published_at": "2025-08-22T01:15:42Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/mqVkei03Hpk/mqdefault.jpg",
+   "view_count": 6621,
+   "category": "工具教學",
+   "summary": "介紹互動教學平台 Wayground 的六大備課與教學流程，結合 AI 教材與即時測驗功能，打造高互動的數位課堂。",
+   "tags": [
+    "Wayground",
+    "數位教學",
+    "互動課堂",
+    "備課技巧"
+   ]
+  },
+  {
+   "video_id": "F6sROXvslG8",
+   "title": "N8N 小白教程 - Excel 助手 AI Agent(No Code, Step-by-Step Tutorial)",
+   "channel": "赛博程序员赵师傅",
+   "duration_seconds": 747,
+   "published_at": "2025-08-20T22:00:21Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/F6sROXvslG8/mqdefault.jpg",
+   "view_count": 454,
+   "category": "辦公應用",
+   "summary": "無程式碼小白教程，手把手教你建立 Excel 資料分析 AI Agent，節省大量學習複雜公式的時間。",
+   "tags": [
+    "n8n",
+    "Excel",
+    "AI Agent",
+    "辦公應用"
+   ]
+  },
+  {
+   "video_id": "6VJ4tB6ZbpA",
+   "title": "【粵語】第一日玩工作流？n8n 自動化新手教學，由零開始接 API 同 Gmail！",
+   "channel": "CodingStartup",
+   "duration_seconds": 1220,
+   "published_at": "2025-08-20T10:31:50Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/6VJ4tB6ZbpA/mqdefault.jpg",
+   "view_count": 6920,
+   "category": "自動化工作流",
+   "summary": "粵語零基礎入門教學，帶領新手從零開始連接 API 與 Gmail，建立專屬的 n8n 自動化工作流。",
+   "tags": [
+    "n8n",
+    "粵語教學",
+    "自動化工作流",
+    "Gmail"
+   ]
+  },
+  {
+   "video_id": "v7ur0PFGd1w",
+   "title": "🤖 用n8n打造LINE官方AI客服機器人！(保姆級教學！) | 0程式基礎也能上手！",
+   "channel": "G股團長 金睿",
+   "duration_seconds": 1348,
+   "published_at": "2025-08-17T13:01:42Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/v7ur0PFGd1w/mqdefault.jpg",
+   "view_count": 7804,
+   "category": "自動化工作流",
+   "summary": "保姆級教學如何使用 n8n 串接 LINE Webhook，零程式基礎打造 24 小時不間斷的 AI 客服機器人。",
+   "tags": [
+    "n8n",
+    "LINE客服",
+    "AI機器人",
+    "自動化"
+   ]
+  },
+  {
+   "video_id": "CEXpBNf6Vog",
+   "title": "「別再背提示詞了！」教師福音！用這五問套路駕馭任何大型語言模型",
+   "channel": "三師爸Sense Bar",
+   "duration_seconds": 603,
+   "published_at": "2025-08-16T13:14:53Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/CEXpBNf6Vog/mqdefault.jpg",
+   "view_count": 82154,
+   "category": "入門觀念",
+   "summary": "教導教師如何跳脫死背提示詞的框架，透過向 AI 詢問五個關鍵後設問題，輕鬆駕馭並精準引導任何大型語言模型。",
+   "tags": [
+    "提示詞",
+    "大語言模型",
+    "觀念教學",
+    "AI溝通"
+   ]
+  },
+  {
+   "video_id": "3kvZtEGuy_w",
+   "title": "notebookLM影片摘要的終極應用_最簡單上中文字幕的方式_影片測驗",
+   "channel": "三師爸Sense Bar",
+   "duration_seconds": 349,
+   "published_at": "2025-08-14T13:28:10Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/3kvZtEGuy_w/mqdefault.jpg",
+   "view_count": 8260,
+   "category": "工具教學",
+   "summary": "示範如何利用 NotebookLM 製作影片摘要並搭配雙語字幕，再透過 Edcafe 與 Wayground 平台快速建立影片互動測驗。",
+   "tags": [
+    "NotebookLM",
+    "Edcafe",
+    "Wayground",
+    "影片測驗"
+   ]
+  },
+  {
+   "video_id": "XoaGjnQrhp4",
+   "title": "原來GPT-5還能這樣玩！10個你不知道的隱藏功能（但是應該知道），學會後從AI小白秒變高手！一次性徹底掌握10個ChatGPT核心技巧，讓你超越99%的人，工作效率瞬間提升10倍！",
+   "channel": "孔老師AI研習社",
+   "duration_seconds": 791,
+   "published_at": "2025-08-12T10:17:23Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/XoaGjnQrhp4/mqdefault.jpg",
+   "view_count": 91506,
+   "category": "工具教學",
+   "summary": "詳細解析 GPT-5 的 10 個隱藏功能與核心操作技巧，帶領使用者從基礎快速掌握 ChatGPT，大幅提升工作效率。",
+   "tags": [
+    "ChatGPT",
+    "GPT-5",
+    "提示詞技巧",
+    "工具教學"
+   ]
+  },
+  {
+   "video_id": "D-VEcKZ3NV0",
+   "title": "學會 n8n 為你省下 80% 時間！(EP.3) 「本地安裝」/「雲端部署」比你想的還要簡單！",
+   "channel": "PAPAYA 電腦教室",
+   "duration_seconds": 558,
+   "published_at": "2025-08-11T13:58:54Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/D-VEcKZ3NV0/mqdefault.jpg",
+   "view_count": 57083,
+   "category": "自動化工作流",
+   "summary": "本影片手把手示範 n8n 的本地安裝與雲端部署教學，教你透過 Docker、Google Cloud 及 Hostinger 輕鬆架設自動化工具。",
+   "tags": [
+    "n8n",
+    "自動化工作流",
+    "Docker",
+    "雲端部署"
+   ]
+  },
+  {
+   "video_id": "eQCtbMqya6w",
+   "title": "拳打ChatGPT，腳踢Gamma！Skywork憑什麼這麼狂？Skywork Al Agents評測：多模態AI工作神器，把工作時間縮短90%！文檔、PPT、數據分析一鍵完成!保姆級實操，0門檻上手",
+   "channel": "孔老師AI研習社",
+   "duration_seconds": 731,
+   "published_at": "2025-08-10T12:01:11Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/eQCtbMqya6w/mqdefault.jpg",
+   "view_count": 374637,
+   "category": "辦公應用",
+   "summary": "實測 Skywork AI Agents 多模態工作神器，示範如何一鍵完成文檔、PPT 與數據分析，實現零門檻的高效辦公。",
+   "tags": [
+    "Skywork",
+    "AI Agents",
+    "辦公應用",
+    "工具評測"
+   ]
+  },
+  {
+   "video_id": "35LUEGryhyg",
+   "title": "AI + MyViewBoard：3招讓教材製作超簡單_myViewBoard打造最強互動白板",
+   "channel": "三師爸Sense Bar",
+   "duration_seconds": 6012,
+   "published_at": "2025-08-09T14:22:27Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/35LUEGryhyg/mqdefault.jpg",
+   "view_count": 1028,
+   "category": "工具教學",
+   "summary": "介紹 MyViewBoard 的新功能與 AI 整合應用，教導老師利用投票、共編白板與外部資源嵌入，輕鬆製作互動教材。",
+   "tags": [
+    "MyViewBoard",
+    "互動白板",
+    "數位教材",
+    "教學工具"
+   ]
+  },
+  {
+   "video_id": "JnepOnstpAQ",
+   "title": "最完整的N8N自動化9小時全套教學！（從新手到高手）",
+   "channel": "李哈利Harry",
+   "duration_seconds": 33052,
+   "published_at": "2025-08-06T11:00:39Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/JnepOnstpAQ/mqdefault.jpg",
+   "view_count": 48419,
+   "category": "自動化工作流",
+   "summary": "提供最完整的 n8n 自動化全套教學，帶領學員從新手一路進階到高手，掌握自動化與 AI 整合。",
+   "tags": [
+    "n8n",
+    "自動化工作流",
+    "全套教學",
+    "新手入門"
+   ]
+  },
+  {
+   "video_id": "sRU6Y7DXkLI",
+   "title": "學會 n8n 為你省下 80% 時間！(EP.2) 這個 AI 助理只認你這個主人，不但使命必達且全天候待命！",
+   "channel": "PAPAYA 電腦教室",
+   "duration_seconds": 1187,
+   "published_at": "2025-08-06T06:25:00Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/sRU6Y7DXkLI/mqdefault.jpg",
+   "view_count": 71608,
+   "category": "自動化工作流",
+   "summary": "教學如何建立 n8n AI Agent 節點並設定工具、Webhook 接收指令，串接 Telegram 與 Gmail。",
+   "tags": [
+    "n8n",
+    "AI Agent",
+    "Telegram",
+    "Gmail"
+   ]
+  },
+  {
+   "video_id": "0XDMA7hAQ-8",
+   "title": "2025年AI Agents全面爆發！到底什麼是AI Agents？它是如何工作的？哪些應用場景？手把手教你0基礎入門！說真的，有史以來最簡單的解釋！這個改變一切的技術，讓你睡覺都在賺錢！",
+   "channel": "孔老師AI研習社",
+   "duration_seconds": 740,
+   "published_at": "2025-08-02T12:00:02Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/0XDMA7hAQ-8/mqdefault.jpg",
+   "view_count": 4133,
+   "category": "入門觀念",
+   "summary": "以最簡單易懂的方式解釋 2025 年爆紅的 AI Agents 概念、運作原理與應用場景，帶領零基礎新手快速入門。",
+   "tags": [
+    "AI Agents",
+    "入門觀念",
+    "自動化",
+    "AI趨勢"
+   ]
+  },
+  {
+   "video_id": "NqZ6mYZeKN4",
+   "title": "n8n 案例分析，24/7 自動報價 AI Agent (整合 Google Sheets, WhatsApp, Gmail, Slack)",
+   "channel": "阿石OMP",
+   "duration_seconds": 341,
+   "published_at": "2025-07-30T13:15:02Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/NqZ6mYZeKN4/mqdefault.jpg",
+   "view_count": 4932,
+   "category": "辦公應用",
+   "summary": "分析 n8n 案例，教你打造 24/7 自動報價 AI Agent，整合 Google Sheets、WhatsApp 等工具。",
+   "tags": [
+    "n8n",
+    "AI Agent",
+    "自動報價",
+    "辦公應用"
+   ]
+  },
+  {
+   "video_id": "VVxCFJqG3WU",
+   "title": "【n8n 案例】告別手動輸入！ AI 自動 OCR 收據並存入 Google Sheets",
+   "channel": "阿石OMP",
+   "duration_seconds": 282,
+   "published_at": "2025-07-29T08:19:36Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/VVxCFJqG3WU/mqdefault.jpg",
+   "view_count": 5626,
+   "category": "辦公應用",
+   "summary": "示範如何利用 n8n 結合 AI 自動辨識收據文字（OCR），分類帳目並自動存入 Google Sheets。",
+   "tags": [
+    "n8n",
+    "OCR",
+    "GoogleSheets",
+    "自動化"
+   ]
+  },
+  {
+   "video_id": "r9mi3ZJIWbg",
+   "title": "學會 n8n 為你省下 80% 時間！(EP.1) 這個 AI 助理只認你這個主人，不但使命必達且全天候待命！",
+   "channel": "PAPAYA 電腦教室",
+   "duration_seconds": 884,
+   "published_at": "2025-07-28T11:05:09Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/r9mi3ZJIWbg/mqdefault.jpg",
+   "view_count": 209837,
+   "category": "自動化工作流",
+   "summary": "介紹 n8n 自動化工作流工具的基礎操作，教你建立觸發器、擷取Google日曆與RSS新聞，並整合AI節點打造專屬AI助理。",
+   "tags": [
+    "n8n",
+    "自動化",
+    "AI助理",
+    "工作流"
+   ]
+  },
+  {
+   "video_id": "bCAORb5eb5E",
+   "title": "Agent時代來臨！！ChatGPT史上最強Agent Mode正式上線！一鍵完成深度調研+安排日曆+數據整理+生成簡報，工作效率暴增！手把手教學，看完秒變AI專家！趕緊收藏，別讓同事發現⋯",
+   "channel": "孔老師AI研習社",
+   "duration_seconds": 677,
+   "published_at": "2025-07-27T12:01:04Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/bCAORb5eb5E/mqdefault.jpg",
+   "view_count": 23107,
+   "category": "辦公應用",
+   "summary": "實操教學 ChatGPT 全新上線的 Agent Mode，示範如何一鍵完成深度調研、日曆安排與簡報生成，全面提升工作效率。",
+   "tags": [
+    "ChatGPT",
+    "Agent Mode",
+    "辦公應用",
+    "工作流"
    ]
   },
   {
