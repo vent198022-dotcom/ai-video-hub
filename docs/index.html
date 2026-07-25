@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI 教學影片知識平台</title>
+<style>
+  :root { --bg:#f6f7f9; --card:#fff; --text:#1a1d21; --muted:#6b7280; --accent:#2563eb; }
+  * { box-sizing:border-box; margin:0; }
+  body { font-family:"Microsoft JhengHei",system-ui,sans-serif; background:var(--bg); color:var(--text); }
+  header { background:#fff; border-bottom:1px solid #e5e7eb; padding:16px 24px; position:sticky; top:0; z-index:10; }
+  h1 { font-size:20px; margin-bottom:12px; }
+  .controls { display:flex; gap:8px; flex-wrap:wrap; align-items:center; }
+  #search { padding:8px 12px; border:1px solid #d1d5db; border-radius:8px; width:240px; font-size:14px; }
+  #tabs { display:flex; gap:6px; flex-wrap:wrap; }
+  .tab { padding:6px 14px; border-radius:999px; border:1px solid #d1d5db; background:#fff; cursor:pointer; font-size:14px; }
+  .tab.active { background:var(--accent); color:#fff; border-color:var(--accent); }
+  main { max-width:1200px; margin:0 auto; padding:24px; }
+  #meta { color:var(--muted); font-size:13px; margin-bottom:16px; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(280px,1fr)); gap:16px; }
+  .card { background:var(--card); border-radius:12px; overflow:hidden; border:1px solid #e5e7eb; transition:box-shadow .15s; }
+  .card:hover { box-shadow:0 4px 16px rgba(0,0,0,.1); }
+  .card a { color:inherit; text-decoration:none; display:flex; flex-direction:column; height:100%; }
+  .thumb { width:100%; aspect-ratio:16/9; object-fit:cover; background:#e5e7eb; }
+  .body { padding:12px 14px 14px; display:flex; flex-direction:column; gap:8px; flex:1; }
+  .cat { font-size:11px; color:var(--accent); font-weight:700; }
+  .title { font-size:15px; font-weight:700; line-height:1.4; }
+  .channel { font-size:12px; color:var(--muted); }
+  .summary { font-size:13px; line-height:1.6; color:#374151; flex:1; }
+  .tags { display:flex; gap:6px; flex-wrap:wrap; }
+  .tag { font-size:11px; background:#eef2ff; color:#3730a3; padding:2px 8px; border-radius:999px; }
+  .empty { text-align:center; color:var(--muted); padding:60px 0; }
+</style>
+</head>
+<body>
+<header>
+  <h1>AI 教學影片知識平台</h1>
+  <div class="controls">
+    <input id="search" type="search" placeholder="搜尋標題、摘要、標籤…">
+    <div id="tabs"></div>
+  </div>
+</header>
+<main>
+  <div id="meta"></div>
+  <div id="grid" class="grid"></div>
+  <div id="empty" class="empty" hidden>沒有符合條件的影片</div>
+</main>
+<script>
+let videos = [];
+let activeCat = '全部';
+const $ = id => document.getElementById(id);
+
+function esc(s) {
+  const d = document.createElement('div');
+  d.textContent = s ?? '';
+  return d.innerHTML;
+}
+
+function render() {
+  const q = $('search').value.trim().toLowerCase();
+  const shown = videos.filter(v =>
+    (activeCat === '全部' || v.category === activeCat) &&
+    (!q || (v.title + ' ' + v.summary + ' ' + (v.tags || []).join(' ') + ' ' + v.channel)
+      .toLowerCase().includes(q)));
+  $('grid').innerHTML = shown.map(v => `
+    <div class="card"><a href="https://www.youtube.com/watch?v=${encodeURIComponent(v.video_id)}" target="_blank" rel="noopener">
+      <img class="thumb" src="${esc(v.thumbnail_url)}" alt="" loading="lazy">
+      <div class="body">
+        <span class="cat">${esc(v.category)}</span>
+        <div class="title">${esc(v.title)}</div>
+        <div class="channel">${esc(v.channel)}｜${new Date(v.published_at).toLocaleDateString('zh-TW')}</div>
+        <div class="summary">${esc(v.summary)}</div>
+        <div class="tags">${(v.tags || []).map(t => `<span class="tag">${esc(t)}</span>`).join('')}</div>
+      </div></a></div>`).join('');
+  $('empty').hidden = shown.length > 0;
+}
+
+$('search').addEventListener('input', render);
+$('tabs').addEventListener('click', e => {
+  if (!e.target.classList.contains('tab')) return;
+  document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+  e.target.classList.add('active');
+  activeCat = e.target.dataset.cat;
+  render();
+});
+
+fetch('videos.json').then(r => r.json()).then(data => {
+  videos = data.videos;
+  $('meta').textContent = '共 ' + data.count + ' 部影片｜更新時間：'
+    + new Date(data.generated_at).toLocaleString('zh-TW');
+  const cats = ['全部', ...new Set(videos.map(v => v.category))];
+  $('tabs').innerHTML = cats.map(c =>
+    `<button class="tab${c === '全部' ? ' active' : ''}" data-cat="${esc(c)}">${esc(c)}</button>`).join('');
+  render();
+}).catch(() => {
+  $('meta').textContent = '載入 videos.json 失敗，請稍後再試';
+});
+</script>
+</body>
+</html>

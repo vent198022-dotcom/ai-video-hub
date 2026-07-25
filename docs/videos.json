@@ -1,0 +1,30 @@
+{
+ "generated_at": "2026-07-25T00:00:00+00:00",
+ "count": 2,
+ "videos": [
+  {
+   "video_id": "dQw4w9WgXcQ",
+   "title": "ChatGPT 完全入門：從註冊到進階技巧",
+   "channel": "AI 學習頻道",
+   "duration_seconds": 900,
+   "published_at": "2026-07-20T08:00:00Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/dQw4w9WgXcQ/mqdefault.jpg",
+   "view_count": 12345,
+   "category": "工具教學",
+   "summary": "本片示範 ChatGPT 從註冊、介面導覽到進階對話技巧的完整流程，適合完全沒用過的新手。",
+   "tags": ["ChatGPT", "入門"]
+  },
+  {
+   "video_id": "abc123def45",
+   "title": "提示詞工程實戰：讓 AI 輸出品質翻倍",
+   "channel": "提示詞研究所",
+   "duration_seconds": 1500,
+   "published_at": "2026-07-18T08:00:00Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/abc123def45/mqdefault.jpg",
+   "view_count": 6789,
+   "category": "提示詞技巧",
+   "summary": "介紹角色設定、範例引導、思維鏈等提示詞技巧，並以實際案例比較改寫前後的輸出差異。",
+   "tags": ["提示詞", "實戰"]
+  }
+ ]
+}
