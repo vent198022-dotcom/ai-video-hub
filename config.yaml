@@ -35,6 +35,6 @@ filters:
   initial_days: 180           # 首次執行往回抓的天數
 
 gemini:
-  model: gemini-3.6-flash
+  model: gemini-3.5-flash
   batch_size: 30
   pause_seconds: 7   # 批次間隔秒數，避開免費層每分鐘請求上限
