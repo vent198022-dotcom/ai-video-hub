@@ -69,6 +69,7 @@ def main():
     ok, skip, fail = classifier.classify_pending(
         conn, gemini_key, cfg["gemini"]["model"], cfg["categories"],
         batch_size=cfg["gemini"]["batch_size"],
+        pause_seconds=cfg["gemini"].get("pause_seconds", 6),
     )
     log.info("分類完成：上架 %d、排除 %d、失敗待重試 %d", ok, skip, fail)
 

@@ -17,6 +17,14 @@ class FakeResp:
         return self._payload
 
 
+def test_safe_err_masks_api_key():
+    msg = collector._safe_err(
+        Exception("404 for url: https://x/videos?part=id&key=AIzaSECRET123&q=a")
+    )
+    assert "AIzaSECRET123" not in msg
+    assert "key=***" in msg
+
+
 def test_parse_duration():
     assert collector.parse_duration("PT1H2M3S") == 3723
     assert collector.parse_duration("PT5M") == 300

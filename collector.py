@@ -18,6 +18,11 @@ log = logging.getLogger(__name__)
 _DURATION_RE = re.compile(r"PT(?:(?P<h>\d+)H)?(?:(?P<m>\d+)M)?(?:(?P<s>\d+)S)?")
 
 
+def _safe_err(e):
+    """遮蔽錯誤訊息中的 API 金鑰（YouTube API 金鑰必須放在網址參數，錯誤訊息會帶出完整網址）。"""
+    return re.sub(r"key=[^&\s]+", "key=***", str(e))
+
+
 def parse_duration(iso):
     m = _DURATION_RE.fullmatch(iso or "")
     if not m or not any(m.groups()):
@@ -55,8 +60,12 @@ def fetch_video_details(api_key, video_ids):
             "id": ",".join(chunk),
             "key": api_key,
         }
-        resp = requests.get(VIDEOS_URL, params=params, timeout=30)
-        resp.raise_for_status()
+        try:
+            resp = requests.get(VIDEOS_URL, params=params, timeout=30)
+            resp.raise_for_status()
+        except requests.RequestException as e:
+            # 換成遮蔽金鑰後的訊息再往上拋，避免呼叫端把原始網址寫進 log
+            raise RuntimeError(f"影片詳情查詢失敗：{_safe_err(e)}") from None
         for it in resp.json().get("items", []):
             sn = it.get("snippet", {})
             videos.append({
@@ -85,7 +94,7 @@ def collect(conn, api_key, keywords, published_after,
         try:
             ids = search_videos(api_key, kw, published_after, language, max_results)
         except requests.RequestException as e:
-            log.warning("關鍵字「%s」搜尋失敗：%s", kw, e)
+            log.warning("關鍵字「%s」搜尋失敗：%s", kw, _safe_err(e))
             continue
         success_count += 1
         candidate_ids.extend(i for i in ids if not db.video_exists(conn, i))

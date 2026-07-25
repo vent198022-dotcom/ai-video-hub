@@ -23,6 +23,37 @@ def test_build_prompt_requires_chinese_language():
     assert "非中文影片一律不相關" in prompt
 
 
+def test_classify_batch_key_in_header_not_url(monkeypatch):
+    captured = {}
+
+    def fake_post(url, **kwargs):
+        captured.update(kwargs)
+        captured["url"] = url
+
+        class R:
+            def raise_for_status(self):
+                pass
+
+            def json(self):
+                return {"candidates": [{"content": {"parts": [{"text": "[]"}]}}]}
+        return R()
+
+    monkeypatch.setattr(classifier.requests, "post", fake_post)
+    classifier.classify_batch("secret-key", "m", [make_video("v1")], CATS)
+    assert captured["headers"]["x-goog-api-key"] == "secret-key"
+    assert "secret-key" not in captured["url"]
+    assert "key" not in (captured.get("params") or {})
+
+
+def test_classify_pending_paces_batches(tmp_path, monkeypatch):
+    conn = _setup(tmp_path, "v1", "v2")
+    sleeps = []
+    monkeypatch.setattr(classifier.time, "sleep", lambda s: sleeps.append(s))
+    monkeypatch.setattr(classifier, "classify_batch", lambda *a, **k: [])
+    classifier.classify_pending(conn, "k", "m", CATS, batch_size=1, pause_seconds=7)
+    assert sleeps == [7]  # 兩批之間恰好停一次
+
+
 def test_parse_response_plain_json():
     assert classifier.parse_response('[{"video_id": "a"}]') == [{"video_id": "a"}]
 

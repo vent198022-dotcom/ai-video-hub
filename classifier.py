@@ -1,6 +1,7 @@
 """AI 分類模組：批次呼叫 Gemini 做相關性過濾、分類、摘要、標籤。"""
 import json
 import logging
+import time
 
 import requests
 
@@ -58,18 +59,21 @@ def classify_batch(api_key, model, videos, categories):
         "contents": [{"parts": [{"text": build_prompt(videos, categories)}]}],
         "generationConfig": {"responseMimeType": "application/json"},
     }
-    resp = requests.post(url, params={"key": api_key}, json=body, timeout=120)
+    # 金鑰放 header 而非網址參數，避免錯誤訊息把金鑰寫進 log
+    resp = requests.post(url, headers={"x-goog-api-key": api_key}, json=body, timeout=120)
     resp.raise_for_status()
     text = resp.json()["candidates"][0]["content"]["parts"][0]["text"]
     return parse_response(text)
 
 
-def classify_pending(conn, api_key, model, categories, batch_size=10):
+def classify_pending(conn, api_key, model, categories, batch_size=10, pause_seconds=6):
     """分類所有 pending 與 failed 影片。回傳 (上架數, 排除數, 失敗數)。"""
     queue = db.get_videos_by_status(conn, "pending") + db.get_videos_by_status(conn, "failed")
     ok = skip = fail = 0
 
     for i in range(0, len(queue), batch_size):
+        if i > 0 and pause_seconds:
+            time.sleep(pause_seconds)  # 批次間隔，避免超過 Gemini 免費層每分鐘請求上限
         batch = queue[i:i + batch_size]
         try:
             results = classify_batch(api_key, model, batch, categories)
