@@ -99,6 +99,61 @@ def test_collect_skips_existing_and_short(tmp_path, monkeypatch):
     assert not db.video_exists(conn, "short1")
 
 
+def test_fetch_channel_video_ids(monkeypatch):
+    responses = iter([
+        # 第一步：channels.list 回傳上傳清單 ID
+        FakeResp({"items": [{"contentDetails": {"relatedPlaylists": {"uploads": "UUabc"}}}]}),
+        # 第二步：playlistItems.list 回傳影片
+        FakeResp({"items": [
+            {"contentDetails": {"videoId": "c1"}},
+            {"contentDetails": {"videoId": "c2"}},
+            {"contentDetails": {}},  # 缺 videoId 要略過
+        ]}),
+    ])
+    monkeypatch.setattr(collector.requests, "get", lambda *a, **k: next(responses))
+    assert collector.fetch_channel_video_ids("key", "@test") == ["c1", "c2"]
+
+
+def test_fetch_channel_video_ids_unknown_handle(monkeypatch):
+    monkeypatch.setattr(collector.requests, "get", lambda *a, **k: FakeResp({"items": []}))
+    assert collector.fetch_channel_video_ids("key", "@notexist") == []
+
+
+def test_collect_includes_channel_videos(tmp_path, monkeypatch):
+    conn = db.connect(tmp_path / "t.db")
+    db.insert_video(conn, make_video("existing"))
+    monkeypatch.setattr(
+        collector, "fetch_channel_video_ids",
+        lambda key, ch, mr: ["existing", "ch1"],
+    )
+    monkeypatch.setattr(
+        collector, "fetch_video_details",
+        lambda key, ids: [make_video(i, duration_seconds=600) for i in ids],
+    )
+    added = collector.collect(conn, "key", [], "2026-01-01T00:00:00Z",
+                              channels=["@test"])
+    assert added == 1
+    assert db.video_exists(conn, "ch1")
+
+
+def test_collect_channel_failure_does_not_abort(tmp_path, monkeypatch):
+    conn = db.connect(tmp_path / "t.db")
+
+    def fail_channel(key, ch, mr):
+        if ch == "@壞頻道":
+            raise collector.requests.ConnectionError("網路錯誤")
+        return ["ok1"]
+
+    monkeypatch.setattr(collector, "fetch_channel_video_ids", fail_channel)
+    monkeypatch.setattr(
+        collector, "fetch_video_details",
+        lambda key, ids: [make_video(i, duration_seconds=600) for i in ids],
+    )
+    added = collector.collect(conn, "key", [], "2026-01-01T00:00:00Z",
+                              channels=["@壞頻道", "@好頻道"])
+    assert added == 1
+
+
 def test_collect_one_keyword_failure_does_not_abort(tmp_path, monkeypatch):
     conn = db.connect(tmp_path / "t.db")
     calls = []

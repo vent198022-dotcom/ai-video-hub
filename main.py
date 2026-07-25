@@ -60,6 +60,7 @@ def main():
             min_duration=cfg["filters"]["min_duration_seconds"],
             language=cfg["filters"]["relevance_language"],
             max_results=cfg["filters"]["max_results_per_keyword"],
+            channels=cfg.get("channels") or [],
         )
         db.set_meta(conn, "last_collect_at", _utc_iso(now))
         log.info("收集完成：新增 %d 部影片", added)

@@ -13,12 +13,17 @@ keywords:
 
 categories:
   - 入門觀念
-  - 提示詞技巧
   - 工具教學
   - 辦公應用
-  - 影像與影片生成
+  - 自動化工作流
+  - AI 影像與影片生成
   - 程式開發
-  - 產業趨勢
+
+channels:                # 追蹤的頻道（handle），每次執行抓取最新上傳
+  - "@sensebar"
+  - "@yuiraymond"
+  - "@papayaclass"
+  - "@Teacher_Kong"
 
 filters:
   min_duration_seconds: 120   # 排除 Shorts

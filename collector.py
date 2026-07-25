@@ -12,6 +12,8 @@ import db
 
 SEARCH_URL = "https://www.googleapis.com/youtube/v3/search"
 VIDEOS_URL = "https://www.googleapis.com/youtube/v3/videos"
+CHANNELS_URL = "https://www.googleapis.com/youtube/v3/channels"
+PLAYLIST_ITEMS_URL = "https://www.googleapis.com/youtube/v3/playlistItems"
 
 log = logging.getLogger(__name__)
 
@@ -81,8 +83,38 @@ def fetch_video_details(api_key, video_ids):
     return videos
 
 
+def fetch_channel_video_ids(api_key, handle, max_results=25):
+    """抓取指定頻道（handle，如 @sensebar）最新上傳的影片 ID。
+
+    每頻道僅花 2 個配額單位（channels.list + playlistItems.list），
+    不經 publishedAfter 過濾——靠 video_id 去重避免重複入庫。
+    """
+    params = {"part": "contentDetails", "forHandle": handle, "key": api_key}
+    resp = requests.get(CHANNELS_URL, params=params, timeout=30)
+    resp.raise_for_status()
+    items = resp.json().get("items", [])
+    if not items:
+        log.warning("找不到頻道：%s", handle)
+        return []
+    uploads = items[0]["contentDetails"]["relatedPlaylists"]["uploads"]
+
+    params = {
+        "part": "contentDetails",
+        "playlistId": uploads,
+        "maxResults": max_results,
+        "key": api_key,
+    }
+    resp = requests.get(PLAYLIST_ITEMS_URL, params=params, timeout=30)
+    resp.raise_for_status()
+    return [
+        it["contentDetails"]["videoId"]
+        for it in resp.json().get("items", [])
+        if it.get("contentDetails", {}).get("videoId")
+    ]
+
+
 def collect(conn, api_key, keywords, published_after,
-            min_duration=120, language="zh-Hant", max_results=25):
+            min_duration=120, language="zh-Hant", max_results=25, channels=()):
     """搜尋所有關鍵字並寫入新影片，回傳新增數。單一關鍵字失敗不中斷整體。
 
     若所有關鍵字皆搜尋失敗，會擲出 RuntimeError，避免呼叫端誤以為本次收集
@@ -101,6 +133,14 @@ def collect(conn, api_key, keywords, published_after,
 
     if keywords and success_count == 0:
         raise RuntimeError("所有關鍵字搜尋皆失敗，本次不推進 last_collect_at")
+
+    for ch in channels:
+        try:
+            ids = fetch_channel_video_ids(api_key, ch, max_results)
+        except requests.RequestException as e:
+            log.warning("頻道「%s」抓取失敗：%s", ch, _safe_err(e))
+            continue
+        candidate_ids.extend(i for i in ids if not db.video_exists(conn, i))
 
     unique_ids = list(dict.fromkeys(candidate_ids))  # 去重且保序
     added = 0
