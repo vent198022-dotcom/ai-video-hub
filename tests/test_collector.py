@@ -100,6 +100,7 @@ def test_collect_skips_existing_and_short(tmp_path, monkeypatch):
 
 
 def test_fetch_channel_video_ids(monkeypatch):
+    calls = []
     responses = iter([
         # 第一步：channels.list 回傳上傳清單 ID
         FakeResp({"items": [{"contentDetails": {"relatedPlaylists": {"uploads": "UUabc"}}}]}),
@@ -110,8 +111,24 @@ def test_fetch_channel_video_ids(monkeypatch):
             {"contentDetails": {}},  # 缺 videoId 要略過
         ]}),
     ])
-    monkeypatch.setattr(collector.requests, "get", lambda *a, **k: next(responses))
+
+    def fake_get(url, params=None, **k):
+        calls.append((url, params or {}))
+        return next(responses)
+
+    monkeypatch.setattr(collector.requests, "get", fake_get)
     assert collector.fetch_channel_video_ids("key", "@test") == ["c1", "c2"]
+    assert calls[0][1]["forHandle"] == "@test"          # 第一步用 handle 查頻道
+    assert calls[1][1]["playlistId"] == "UUabc"          # 第二步查上傳清單
+
+
+def test_fetch_channel_video_ids_missing_uploads(monkeypatch):
+    # 頻道存在但缺 relatedPlaylists 結構：應回傳空清單而非炸掉
+    monkeypatch.setattr(
+        collector.requests, "get",
+        lambda *a, **k: FakeResp({"items": [{"contentDetails": {}}]}),
+    )
+    assert collector.fetch_channel_video_ids("key", "@broken") == []
 
 
 def test_fetch_channel_video_ids_unknown_handle(monkeypatch):
@@ -181,9 +198,27 @@ def test_collect_all_keywords_failed_raises(tmp_path, monkeypatch):
         raise collector.requests.ConnectionError("網路未連線")
 
     monkeypatch.setattr(collector, "search_videos", always_fail)
-    monkeypatch.setattr(
-        collector, "fetch_video_details",
-        lambda key, ids: (_ for _ in ()).throw(AssertionError("不應呼叫")),
-    )
+    monkeypatch.setattr(collector, "fetch_video_details", lambda key, ids: [])
     with pytest.raises(RuntimeError):
         collector.collect(conn, "key", ["kw1", "kw2"], "2026-01-01T00:00:00Z")
+
+
+def test_collect_keywords_failed_but_channel_videos_saved(tmp_path, monkeypatch):
+    """關鍵字全失敗仍要擲例外（保護水位），但頻道影片必須先入庫不得丟失。"""
+    conn = db.connect(tmp_path / "t.db")
+
+    def always_fail(*a, **k):
+        raise collector.requests.ConnectionError("網路未連線")
+
+    monkeypatch.setattr(collector, "search_videos", always_fail)
+    monkeypatch.setattr(
+        collector, "fetch_channel_video_ids", lambda key, ch, mr: ["ch1"],
+    )
+    monkeypatch.setattr(
+        collector, "fetch_video_details",
+        lambda key, ids: [make_video(i, duration_seconds=600) for i in ids],
+    )
+    with pytest.raises(RuntimeError):
+        collector.collect(conn, "key", ["kw1"], "2026-01-01T00:00:00Z",
+                          channels=["@test"])
+    assert db.video_exists(conn, "ch1")

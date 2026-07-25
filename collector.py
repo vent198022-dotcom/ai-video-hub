@@ -96,7 +96,12 @@ def fetch_channel_video_ids(api_key, handle, max_results=25):
     if not items:
         log.warning("找不到頻道：%s", handle)
         return []
-    uploads = items[0]["contentDetails"]["relatedPlaylists"]["uploads"]
+    uploads = (
+        items[0].get("contentDetails", {}).get("relatedPlaylists", {}).get("uploads")
+    )
+    if not uploads:
+        log.warning("頻道 %s 缺少上傳清單資訊，略過", handle)
+        return []
 
     params = {
         "part": "contentDetails",
@@ -131,13 +136,10 @@ def collect(conn, api_key, keywords, published_after,
         success_count += 1
         candidate_ids.extend(i for i in ids if not db.video_exists(conn, i))
 
-    if keywords and success_count == 0:
-        raise RuntimeError("所有關鍵字搜尋皆失敗，本次不推進 last_collect_at")
-
     for ch in channels:
         try:
             ids = fetch_channel_video_ids(api_key, ch, max_results)
-        except requests.RequestException as e:
+        except (requests.RequestException, KeyError, IndexError) as e:
             log.warning("頻道「%s」抓取失敗：%s", ch, _safe_err(e))
             continue
         candidate_ids.extend(i for i in ids if not db.video_exists(conn, i))
@@ -149,4 +151,8 @@ def collect(conn, api_key, keywords, published_after,
             continue
         db.insert_video(conn, v)
         added += 1
+
+    # 放在寫入之後才擲出：頻道影片已保住，僅阻止呼叫端推進 last_collect_at
+    if keywords and success_count == 0:
+        raise RuntimeError("所有關鍵字搜尋皆失敗，本次不推進 last_collect_at")
     return added
