@@ -11,7 +11,9 @@ GEMINI_URL = "https://generativelanguage.googleapis.com/v1beta/models/{model}:ge
 log = logging.getLogger(__name__)
 
 _PROMPT_TEMPLATE = """你是影片內容分類助手。以下是 YouTube 影片清單（JSON），請逐一判斷：
-1. is_relevant：是否為「AI 相關教學影片」（教學、實作、應用示範才算；純新聞、廣告、閒聊、蹭關鍵字的不算）
+1. is_relevant：是否為「中文的 AI 相關教學影片」，必須同時滿足兩個條件：
+   (a) 語言為中文（繁體或簡體皆可）；英文、日文、韓文等非中文影片一律不相關
+   (b) 內容為教學、實作、應用示範；純新聞、廣告、閒聊、蹭關鍵字的不算
 2. category：從固定清單中選一個，不得自創：{categories}
 3. summary：50~80 字的繁體中文摘要，說明這部影片教什麼
 4. tags：1~4 個簡短標籤

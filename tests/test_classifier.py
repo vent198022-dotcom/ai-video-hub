@@ -16,6 +16,13 @@ def test_build_prompt_contains_categories_and_ids():
     assert "標題一" in prompt
 
 
+def test_build_prompt_requires_chinese_language():
+    prompt = classifier.build_prompt([make_video("v1")], CATS)
+    assert "中文" in prompt
+    assert "繁體或簡體" in prompt
+    assert "非中文影片一律不相關" in prompt
+
+
 def test_parse_response_plain_json():
     assert classifier.parse_response('[{"video_id": "a"}]') == [{"video_id": "a"}]
 
