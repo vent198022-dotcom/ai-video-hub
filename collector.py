@@ -74,15 +74,24 @@ def fetch_video_details(api_key, video_ids):
 
 def collect(conn, api_key, keywords, published_after,
             min_duration=120, language="zh-Hant", max_results=25):
-    """搜尋所有關鍵字並寫入新影片，回傳新增數。單一關鍵字失敗不中斷整體。"""
+    """搜尋所有關鍵字並寫入新影片，回傳新增數。單一關鍵字失敗不中斷整體。
+
+    若所有關鍵字皆搜尋失敗，會擲出 RuntimeError，避免呼叫端誤以為本次收集
+    成功而推進 last_collect_at，造成這段期間的影片被永久跳過。
+    """
     candidate_ids = []
+    success_count = 0
     for kw in keywords:
         try:
             ids = search_videos(api_key, kw, published_after, language, max_results)
         except requests.RequestException as e:
             log.warning("關鍵字「%s」搜尋失敗：%s", kw, e)
             continue
+        success_count += 1
         candidate_ids.extend(i for i in ids if not db.video_exists(conn, i))
+
+    if keywords and success_count == 0:
+        raise RuntimeError("所有關鍵字搜尋皆失敗，本次不推進 last_collect_at")
 
     unique_ids = list(dict.fromkeys(candidate_ids))  # 去重且保序
     added = 0

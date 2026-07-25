@@ -1,4 +1,5 @@
 """collector 模組測試（不打真實 API，一律 mock）。"""
+import pytest
 from conftest import make_video
 
 import collector
@@ -108,3 +109,18 @@ def test_collect_one_keyword_failure_does_not_abort(tmp_path, monkeypatch):
     added = collector.collect(conn, "key", ["壞關鍵字", "好關鍵字"], "2026-01-01T00:00:00Z")
     assert calls == ["壞關鍵字", "好關鍵字"]
     assert added == 1
+
+
+def test_collect_all_keywords_failed_raises(tmp_path, monkeypatch):
+    conn = db.connect(tmp_path / "t.db")
+
+    def always_fail(*a, **k):
+        raise collector.requests.ConnectionError("網路未連線")
+
+    monkeypatch.setattr(collector, "search_videos", always_fail)
+    monkeypatch.setattr(
+        collector, "fetch_video_details",
+        lambda key, ids: (_ for _ in ()).throw(AssertionError("不應呼叫")),
+    )
+    with pytest.raises(RuntimeError):
+        collector.collect(conn, "key", ["kw1", "kw2"], "2026-01-01T00:00:00Z")
