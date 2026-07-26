@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-07-26T05:17:46+00:00",
- "count": 1114,
+ "generated_at": "2026-07-26T05:22:01+00:00",
+ "count": 1128,
  "videos": [
   {
    "video_id": "AnsBslflrBQ",
@@ -1874,6 +1874,35 @@
    "content_type": "video"
   },
   {
+   "video_id": "art_c8f1359f442e",
+   "title": "Claude Cowork推「Record a skill」新功能！3步驟複製你的工作流程，把SOP變AI技能庫",
+   "channel": "數位時代 Businessnext",
+   "duration_seconds": 0,
+   "published_at": "2026-07-22T00:00:00Z",
+   "thumbnail_url": "https://image-cdn.learnin.tw/bnextmedia/image/album/2026-07/s6zf-1784708925.jpg?w=900&output=webp",
+   "view_count": 0,
+   "category": "自動化工作流",
+   "summary": "Anthropic 在 Claude Cowork 中推出全新「Record a skill」功能，讓用戶透過螢幕錄製與口述說明，3步驟將日常操作自動整理為結構化工作流程並存入技能庫。此功能大幅降低非技術用戶導入 AI 自動化的門檻，實現將 SOP 變身為 AI 技能庫的目標。",
+   "tags": [
+    "Claude",
+    "AI自動化",
+    "工作流程",
+    "SOP"
+   ],
+   "search_terms": [
+    "Claude Cowork",
+    "Record a skill",
+    "AI技能庫",
+    "工作流程自動化",
+    "錄製技能",
+    "AI員工",
+    "Anthropic",
+    "自動化SOP"
+   ],
+   "url": "https://www.bnext.com.tw/article/91585/claude-cowork-record-a-skill",
+   "content_type": "article"
+  },
+  {
    "video_id": "art_c74d4bda22a6",
    "title": "如何用ChatGPT把YouTube轉簡報？「直接貼連結」3步驟輸出、完整提示詞範例一次看",
    "channel": "數位時代 Businessnext",
@@ -2276,6 +2305,92 @@
    "search_terms": [],
    "url": null,
    "content_type": "video"
+  },
+  {
+   "video_id": "art_dbf74e2c58da",
+   "title": "Claude Code 新手友善教學：開發你的第一個AI專案 | 遠見雜誌",
+   "channel": "遠見雜誌 - 前進的動力",
+   "duration_seconds": 0,
+   "published_at": "2026-07-20T00:00:00Z",
+   "thumbnail_url": "https://imgs.gvm.com.tw/upload/gallery/20260303/226471.jpg",
+   "view_count": 0,
+   "category": "程式開發",
+   "summary": "本文提供 Claude Code 新手完整教學，從下載桌面版 App、設定執行環境與權限模式，到實作第一個 AI 專案，教導使用者如何透過自然語言指派任務，讓 AI 直接讀取本機資料夾、編寫程式並將簡報檔轉換為互動式網頁。",
+   "tags": [
+    "Claude Code",
+    "AI 程式開發",
+    "新手教學",
+    "Anthropic"
+   ],
+   "search_terms": [
+    "Claude Code",
+    "Claude Code 教學",
+    "AI 寫程式",
+    "終端機 AI",
+    "Claude 桌面版",
+    "AI 專案開發",
+    "Anthropic 代理式開發"
+   ],
+   "url": "https://www.gvm.com.tw/article/131681",
+   "content_type": "article"
+  },
+  {
+   "video_id": "art_4537d1a0aa30",
+   "title": "Gemini Notebook(NotebookLM)整理保單！建一本隨時能問的理賠筆記",
+   "channel": "數位時代 Businessnext",
+   "duration_seconds": 0,
+   "published_at": "2026-07-20T00:00:00Z",
+   "thumbnail_url": "https://image-cdn.learnin.tw/bnextmedia/image/album/2026-07/xsbw-1784517437.jpg?w=900&output=webp",
+   "view_count": 0,
+   "category": "辦公應用",
+   "summary": "本文介紹如何使用 Gemini Notebook（NotebookLM）建立隨時能問的理賠筆記。步驟包含申請保險存摺取得保單清單、向客服索取電子保單並去除個資後上傳至 Gemini Notebook，並透過具體提問與防呆規則來整理保單保障內容與理賠額度。",
+   "tags": [
+    "Gemini Notebook",
+    "NotebookLM",
+    "保單整理",
+    "辦公應用"
+   ],
+   "search_terms": [
+    "Gemini Notebook",
+    "NotebookLM",
+    "保單整理",
+    "理賠筆記",
+    "保險存摺",
+    "電子保單",
+    "AI 保險顧問",
+    "保單管理"
+   ],
+   "url": "https://www.bnext.com.tw/article/91550/gemini-notebook-insurance-claim-notes",
+   "content_type": "article"
+  },
+  {
+   "video_id": "art_959447518024",
+   "title": "ChatGPT深度研究怎麼用？2026最新Deep Research、5步驟操作與提示詞範例一次看",
+   "channel": "數位時代 Businessnext",
+   "duration_seconds": 0,
+   "published_at": "2026-07-20T00:00:00Z",
+   "thumbnail_url": "https://image-cdn.learnin.tw/bnextmedia/image/album/2026-07/gf8r-1784308065.png?w=900&output=webp",
+   "view_count": 0,
+   "category": "工具教學",
+   "summary": "本文梳理 ChatGPT Deep Research（深度研究）2026 年 2 月的大改版與 5 步驟操作指南。內容說明如何透過指定搜尋範圍、整合私有文件、微調研究計畫與使用 5 要素提示詞框架，產出結構完整的深度決策報告，並提供查證重點。",
+   "tags": [
+    "ChatGPT",
+    "Deep Research",
+    "深度研究",
+    "提示詞"
+   ],
+   "search_terms": [
+    "ChatGPT Deep Research",
+    "深度研究",
+    "AI 搜尋",
+    "提示詞框架",
+    "長文報告生成",
+    "資訊檢索",
+    "AI 研究助理",
+    "ChatGPT 技巧"
+   ],
+   "url": "https://www.bnext.com.tw/article/91532/chatgpt-deep-research-tutorial",
+   "content_type": "article"
   },
   {
    "video_id": "jvJDPqjNQBE",
@@ -2953,6 +3068,64 @@
    "search_terms": [],
    "url": null,
    "content_type": "video"
+  },
+  {
+   "video_id": "art_b98979aeb9f0",
+   "title": "如何建立AI Agent？實戰教學：先「反向拆解工作流」",
+   "channel": "數位時代 Businessnext",
+   "duration_seconds": 0,
+   "published_at": "2026-07-17T00:00:00Z",
+   "thumbnail_url": "https://image-cdn.learnin.tw/bnextmedia/image/album/2026-07/5z2h-1784261831.jpg?w=900&output=webp",
+   "view_count": 0,
+   "category": "自動化工作流",
+   "summary": "本文分享如何非工程師也能建立 AI Agent，核心方法為「反向拆解工作流」。從最終輸出結果往回推導每步所需的輸入資料與工具、技能搭配，並透過管理過程與檢核指令來修正錯誤，同時評估自動化帶來的投資報酬率（ROI）。",
+   "tags": [
+    "AI Agent",
+    "工作流",
+    "自動化",
+    "提示詞"
+   ],
+   "search_terms": [
+    "AI Agent",
+    "工作流拆解",
+    "自動化工作流",
+    "建立 Agent",
+    "HR Agent",
+    "微型組織設計",
+    "AI 實戰教學",
+    "流程自動化"
+   ],
+   "url": "https://www.bnext.com.tw/article/91536/how-to-build-ai-agent",
+   "content_type": "article"
+  },
+  {
+   "video_id": "art_3d6378037489",
+   "title": "ChatGPT Sites教學：用對話就能把網頁部署上線，全程沒寫程式碼",
+   "channel": "數位時代 Businessnext",
+   "duration_seconds": 0,
+   "published_at": "2026-07-17T00:00:00Z",
+   "thumbnail_url": "https://image-cdn.learnin.tw/bnextmedia/image/album/2026-07/5jj6-1784261109.jpg?w=900&output=webp",
+   "view_count": 0,
+   "category": "工具教學",
+   "summary": "本文介紹 ChatGPT 的 Sites 新功能，教導使用者如何透過簡單對話，將 HTML 檔案或點子直接部署上線成為網頁。內容涵蓋將檔案丟入對話框、透過指令建立網站、確認並移除機敏個資以確保安全、發布為公開或私人網頁，以及後續如何利用對話修改網頁內容，適合用於展示型與輕量互動型網頁的快速部署。",
+   "tags": [
+    "ChatGPT",
+    "網頁部署",
+    "AI工具",
+    "vibe coding"
+   ],
+   "search_terms": [
+    "ChatGPT Sites",
+    "網頁部署教學",
+    "AI架站",
+    "免寫程式架站",
+    "ChatGPT 網站功能",
+    "上傳網頁",
+    "網頁發布",
+    "AI 網頁開發"
+   ],
+   "url": "https://www.bnext.com.tw/article/91537/gdd37kufmda5u2gbzdgq",
+   "content_type": "article"
   },
   {
    "video_id": "ODqE61qpK4Q",
@@ -4475,6 +4648,33 @@
    "content_type": "video"
   },
   {
+   "video_id": "art_f7902dd74bad",
+   "title": "Claude Dispatch與龍蝦誰強？手機遠端呼叫AI比較 | 遠見雜誌",
+   "channel": "遠見雜誌 - 前進的動力",
+   "duration_seconds": 0,
+   "published_at": "2026-07-10T00:00:00Z",
+   "thumbnail_url": "https://imgs.gvm.com.tw/upload/gallery/20260710/236035.jpg",
+   "view_count": 0,
+   "category": "自動化工作流",
+   "summary": "本文介紹 Claude Dispatch 遠端遙控功能的操作步驟與應用場景。使用者只要保持電腦開機並開啟桌面版 App，就能透過手機版 App 遠端指派 AI 查詢本機檔案、彙整會議紀錄或將試算表製作成簡報，並隨時接收推播與成果摘要。",
+   "tags": [
+    "Claude Dispatch",
+    "手機遠端操控",
+    "AI Agent",
+    "自動化"
+   ],
+   "search_terms": [
+    "Claude Dispatch",
+    "手機遠端 AI",
+    "手機呼叫 AI",
+    "遠端遙控電腦 AI",
+    "Claude 手機版",
+    "AI 辦公自動化"
+   ],
+   "url": "https://www.gvm.com.tw/article/131458",
+   "content_type": "article"
+  },
+  {
    "video_id": "CaMHeWSo4mU",
    "title": "Claude Code Agent View 背景代理教學：同時開好幾個任務不用一直盯著（對照官方文件）",
    "channel": "Ai-Wisdom・Claude 學習筆記",
@@ -5073,6 +5273,34 @@
    "search_terms": [],
    "url": null,
    "content_type": "video"
+  },
+  {
+   "video_id": "art_db252f77c6c5",
+   "title": "Claude Cowork像「龍蝦」卻更適合上班族！新手教學 | 遠見雜誌",
+   "channel": "遠見雜誌 - 前進的動力",
+   "duration_seconds": 0,
+   "published_at": "2026-07-06T00:00:00Z",
+   "thumbnail_url": "https://imgs.gvm.com.tw/upload/gallery/20260706/235664.jpg",
+   "view_count": 0,
+   "category": "辦公應用",
+   "summary": "本文詳細介紹 Claude Cowork 的三大辦公應用場景與設定方式。非工程師使用者可透過內建的 Connectors 串接 Gmail 自動彙整信件、利用 Skills 套用視覺主題修改簡報，以及透過圖片辨識將收據照片自動整理為報帳 Excel 清單。",
+   "tags": [
+    "Claude Cowork",
+    "辦公自動化",
+    "AI 助理",
+    "文件處理"
+   ],
+   "search_terms": [
+    "Claude Cowork",
+    "AI 辦公應用",
+    "自動整理報帳",
+    "Gmail 自動彙整",
+    "AI 做簡報",
+    "非工程師 AI",
+    "AI 助理"
+   ],
+   "url": "https://www.gvm.com.tw/article/131351",
+   "content_type": "article"
   },
   {
    "video_id": "-kIzGOf0bZA",
@@ -6273,6 +6501,32 @@
    "search_terms": [],
    "url": null,
    "content_type": "video"
+  },
+  {
+   "video_id": "art_87994e2479f9",
+   "title": "Claude Chat、Cowork、Code差異？一表看懂 | 遠見雜誌",
+   "channel": "遠見雜誌 - 前進的動力",
+   "duration_seconds": 0,
+   "published_at": "2026-06-29T00:00:00Z",
+   "thumbnail_url": "https://imgs.gvm.com.tw/upload/gallery/20260629/234842.jpg",
+   "view_count": 0,
+   "category": "入門觀念",
+   "summary": "本文透過對比表格與實際案例，詳細解析 Claude 桌面版 App 中 Chat、Cowork 與 Code 三種模式的差異、優缺點與適用對象，幫助新手了解如何依據日常對話、文書自動化工作流或軟體專案開發需求來切換合適模式。",
+   "tags": [
+    "Claude 模式差異",
+    "Chat",
+    "Cowork",
+    "Code"
+   ],
+   "search_terms": [
+    "Claude Chat Cowork Code 差異",
+    "Claude 桌面版教學",
+    "AI 助理模式",
+    "新手學 Claude",
+    "Claude 功能比較"
+   ],
+   "url": "https://www.gvm.com.tw/article/131143",
+   "content_type": "article"
   },
   {
    "video_id": "wfqkJb0_zeg",
@@ -7533,6 +7787,33 @@
    "search_terms": [],
    "url": null,
    "content_type": "video"
+  },
+  {
+   "video_id": "art_73b41c89b6c1",
+   "title": "Codex簡報教學：PPT圖文全可改，附資安技巧 | 遠見雜誌",
+   "channel": "遠見雜誌 - 前進的動力",
+   "duration_seconds": 0,
+   "published_at": "2026-06-19T00:00:00Z",
+   "thumbnail_url": "https://imgs.gvm.com.tw/upload/gallery/20260525/232002.jpg",
+   "view_count": 0,
+   "category": "辦公應用",
+   "summary": "本文介紹如何使用 OpenAI Codex 製作可編輯的 PowerPoint 簡報。透過連接 Presentations 外掛與技能、指定專案資料夾並下達指令，即可將雜亂數據轉為清晰圖表與圖文獨立編輯的簡報，同時提供相關資安防護技巧。",
+   "tags": [
+    "Codex",
+    "AI 做簡報",
+    "PPT 製作",
+    "OpenAI"
+   ],
+   "search_terms": [
+    "Codex 簡報教學",
+    "AI 做 PPT",
+    "OpenAI Codex",
+    "AI 製作簡報",
+    "Codex 外掛",
+    "自動化簡報"
+   ],
+   "url": "https://www.gvm.com.tw/article/130831",
+   "content_type": "article"
   },
   {
    "video_id": "kjznvcziJTY",
@@ -9791,6 +10072,35 @@
    "content_type": "video"
   },
   {
+   "video_id": "art_75713dbe26e9",
+   "title": "Gemini Omni怎麼用？文字生成影片、風格改造四大實測 | 遠見雜誌",
+   "channel": "遠見雜誌 - 前進的動力",
+   "duration_seconds": 0,
+   "published_at": "2026-06-02T00:00:00Z",
+   "thumbnail_url": "https://imgs.gvm.com.tw/upload/gallery/20260602/233089.jpg",
+   "view_count": 0,
+   "category": "AI 影像與影片生成",
+   "summary": "本文實測Google最新AI影片生成工具Gemini Omni的四大應用，包含文字、圖片、影片與分鏡圖轉動態影像，並分析其優缺點，同時比較另一熱門AI影片生成模型Seedance 2的費用方案與使用門檻。",
+   "tags": [
+    "Gemini Omni",
+    "AI影片生成",
+    "Seedance",
+    "Google AI"
+   ],
+   "search_terms": [
+    "Gemini Omni",
+    "AI影片生成",
+    "Google AI影片",
+    "文字生成影片",
+    "AI風格轉換",
+    "Seedance 2",
+    "影片生成工具",
+    "AI短片創作"
+   ],
+   "url": "https://www.gvm.com.tw/article/130544",
+   "content_type": "article"
+  },
+  {
    "video_id": "qYpXa4UO4rc",
    "title": "比 NotebookLM 強 10 倍？ChatGPT 直接生成精緻 PPT！圖片、文案、版面一次做好｜AI簡報教學、PowerPoint AI、PPTX、簡報 prompt",
    "channel": "Jelena 耶萊娜 AIGC",
@@ -10685,6 +10995,35 @@
    "content_type": "video"
   },
   {
+   "video_id": "art_f08265310e6d",
+   "title": "Codex免費怎麼用？上班族3大指令+手機遠端操控教學 | 遠見雜誌",
+   "channel": "遠見雜誌 - 前進的動力",
+   "duration_seconds": 0,
+   "published_at": "2026-05-25T00:00:00Z",
+   "thumbnail_url": "https://imgs.gvm.com.tw/upload/gallery/20260525/232002.jpg",
+   "view_count": 0,
+   "category": "自動化工作流",
+   "summary": "本文介紹OpenAI推出的AI Agent工具Codex，透過桌面版APP實測3大白領實用指令，包含自動寫網頁、整理會議紀錄並同步Google日曆、設定每日自動收集新聞寫進試算表，以及最新的手機遠端監控功能。",
+   "tags": [
+    "Codex",
+    "AI Agent",
+    "自動化工作流",
+    "OpenAI"
+   ],
+   "search_terms": [
+    "Codex",
+    "AI Agent",
+    "自動化辦公",
+    "OpenAI Codex",
+    "AI自動化任務",
+    "會議紀錄自動化",
+    "AI寫網頁",
+    "遠端操控AI"
+   ],
+   "url": "https://www.gvm.com.tw/article/130317",
+   "content_type": "article"
+  },
+  {
    "video_id": "ZNdaQJOu8AU",
    "title": "AI Agents 時代下的教學簡報完全體：HTML 簡報_別再被傳統簡報軟體綁架！帶你看見未來教學簡報的完全體。",
    "channel": "三師爸Sense Bar",
@@ -11139,6 +11478,35 @@
    "search_terms": [],
    "url": null,
    "content_type": "video"
+  },
+  {
+   "video_id": "art_aad17892a88e",
+   "title": "Gemini免費版與Pro、Ultra比較》費用、功能、福利差在哪？ | 遠見雜誌",
+   "channel": "遠見雜誌 - 前進的動力",
+   "duration_seconds": 0,
+   "published_at": "2026-05-22T00:00:00Z",
+   "thumbnail_url": "https://imgs.gvm.com.tw/upload/gallery/20260521/231870.jpg",
+   "view_count": 0,
+   "category": "入門觀念",
+   "summary": "本文詳細比較Google AI免費版、Pro與Ultra三大訂閱方案的費用、功能差異與家庭共享機制，並解析訂閱Google AI Pro額外贈送的YouTube Premium Lite福利以及Gemini Personal Intelligence個人智慧功能。",
+   "tags": [
+    "Google AI",
+    "Gemini",
+    "AI訂閱方案",
+    "Google One"
+   ],
+   "search_terms": [
+    "Gemini付費方案",
+    "Google AI Pro",
+    "Google AI Ultra",
+    "Gemini免費版",
+    "YouTube Premium Lite",
+    "Google AI費用",
+    "Gemini Personal Intelligence",
+    "Google訂閱比較"
+   ],
+   "url": "https://www.gvm.com.tw/article/126891",
+   "content_type": "article"
   },
   {
    "video_id": "M42CYyWOKIM",
@@ -11959,6 +12327,35 @@
    "search_terms": [],
    "url": null,
    "content_type": "video"
+  },
+  {
+   "video_id": "art_2d296b3d9463",
+   "title": "Google財經怎麼用？免費AI四功能，台股ETF一次追蹤 | 遠見雜誌",
+   "channel": "遠見雜誌 - 前進的動力",
+   "duration_seconds": 0,
+   "published_at": "2026-05-15T00:00:00Z",
+   "thumbnail_url": "https://imgs.gvm.com.tw/upload/gallery/20260415/229234.jpg",
+   "view_count": 0,
+   "category": "辦公應用",
+   "summary": "本文實測新版Google財經的4大免費AI功能，包含台股個股與ETF追蹤、ETF績效比較、深度搜尋生成投資報告，以及收聽與摘要台股法說會內容，幫助投資人免費運用AI工具進行理財分析。",
+   "tags": [
+    "Google財經",
+    "AI理財",
+    "台股ETF",
+    "股票分析"
+   ],
+   "search_terms": [
+    "Google財經",
+    "AI理財工具",
+    "台股ETF比較",
+    "Google財經AI",
+    "法說會摘要",
+    "存股AI",
+    "股票追蹤工具",
+    "AI投資報告"
+   ],
+   "url": "https://www.gvm.com.tw/article/130130",
+   "content_type": "article"
   },
   {
    "video_id": "haolDUI1U2o",
