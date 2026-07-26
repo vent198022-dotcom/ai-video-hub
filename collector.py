@@ -119,7 +119,7 @@ def fetch_channel_video_ids(api_key, handle, max_results=25):
 
 
 def collect(conn, api_key, keywords, published_after,
-            min_duration=120, language="zh-Hant", max_results=25, channels=()):
+            min_duration=120, language="zh-Hant", max_results=25, channels=(), extra_ids=()):
     """搜尋所有關鍵字並寫入新影片，回傳新增數。單一關鍵字失敗不中斷整體。
 
     若所有關鍵字皆搜尋失敗，會擲出 RuntimeError，避免呼叫端誤以為本次收集
@@ -144,11 +144,18 @@ def collect(conn, api_key, keywords, published_after,
             continue
         candidate_ids.extend(i for i in ids if not db.video_exists(conn, i))
 
+    # 人工提交的影片：不套用時長過濾（人工判斷優先於自動規則）
+    submitted = [i for i in extra_ids if not db.video_exists(conn, i)]
+
     unique_ids = list(dict.fromkeys(candidate_ids))  # 去重且保序
     added = 0
     for v in fetch_video_details(api_key, unique_ids):
         if v["duration_seconds"] < min_duration:
             continue
+        db.insert_video(conn, v)
+        added += 1
+
+    for v in fetch_video_details(api_key, list(dict.fromkeys(submitted))):
         db.insert_video(conn, v)
         added += 1
 

@@ -36,8 +36,8 @@ def fetch(video_id, max_chars=3000):
     """回傳影片字幕純文字（截斷至 max_chars）；取不到時回傳空字串。"""
     try:
         segments = _raw_segments(video_id, LANGUAGES)
+        text = " ".join(s["text"].strip() for s in segments if s.get("text"))
+        return text[:max_chars]
     except Exception as e:  # 套件會擲出多種自訂例外，一律視為「沒有字幕」
         log.debug("影片 %s 無可用字幕：%s", video_id, e)
         return ""
-    text = " ".join(s["text"].strip() for s in segments if s.get("text"))
-    return text[:max_chars]

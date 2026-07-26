@@ -89,8 +89,8 @@ def test_collect_skips_existing_and_short(tmp_path, monkeypatch):
     monkeypatch.setattr(
         collector, "fetch_video_details",
         lambda key, ids: [
-            make_video("new1", duration_seconds=600),
-            make_video("short1", duration_seconds=60),
+            make_video(i, duration_seconds=600 if i == "new1" else 60)
+            for i in ids
         ],
     )
     added = collector.collect(conn, "key", ["kw"], "2026-01-01T00:00:00Z")
@@ -222,3 +222,29 @@ def test_collect_keywords_failed_but_channel_videos_saved(tmp_path, monkeypatch)
         collector.collect(conn, "key", ["kw1"], "2026-01-01T00:00:00Z",
                           channels=["@test"])
     assert db.video_exists(conn, "ch1")
+
+
+def test_collect_extra_ids_bypass_duration_filter(tmp_path, monkeypatch):
+    conn = db.connect(tmp_path / "t.db")
+    monkeypatch.setattr(collector, "search_videos", lambda *a, **k: [])
+    monkeypatch.setattr(
+        collector, "fetch_video_details",
+        lambda key, ids: [make_video(i, duration_seconds=30) for i in ids],
+    )
+    added = collector.collect(conn, "key", [], "2026-01-01T00:00:00Z",
+                              extra_ids=["short_sub1"])
+    assert added == 1                          # 30 秒仍收錄
+    assert db.video_exists(conn, "short_sub1")
+
+
+def test_collect_extra_ids_skip_existing(tmp_path, monkeypatch):
+    conn = db.connect(tmp_path / "t.db")
+    db.insert_video(conn, make_video("dup1"))
+    monkeypatch.setattr(collector, "search_videos", lambda *a, **k: [])
+    monkeypatch.setattr(
+        collector, "fetch_video_details",
+        lambda key, ids: [make_video(i, duration_seconds=600) for i in ids],
+    )
+    added = collector.collect(conn, "key", [], "2026-01-01T00:00:00Z",
+                              extra_ids=["dup1"])
+    assert added == 0

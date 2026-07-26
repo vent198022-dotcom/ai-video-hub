@@ -21,3 +21,9 @@ def test_fetch_returns_empty_on_error(monkeypatch):
 def test_fetch_returns_empty_on_no_segments(monkeypatch):
     monkeypatch.setattr(transcript, "_raw_segments", lambda vid, langs: [])
     assert transcript.fetch("v1") == ""
+
+
+def test_fetch_returns_empty_on_malformed_segments(monkeypatch):
+    # 未來套件改回傳非 dict 物件時也不能擲出例外
+    monkeypatch.setattr(transcript, "_raw_segments", lambda vid, langs: ["不是字典"])
+    assert transcript.fetch("v1") == ""
