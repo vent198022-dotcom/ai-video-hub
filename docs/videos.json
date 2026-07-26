@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-07-26T12:01:15+00:00",
- "count": 1218,
+ "generated_at": "2026-07-26T12:10:23+00:00",
+ "count": 1223,
  "videos": [
   {
    "video_id": "gh_CodeGraphContext_CodeGraphContext",
@@ -1157,6 +1157,37 @@
    "safety": null
   },
   {
+   "video_id": "gh_0xPlaygrounds_rig",
+   "title": "0xPlaygrounds/rig",
+   "channel": "0xPlaygrounds",
+   "duration_seconds": 0,
+   "published_at": "2026-07-25T23:16:09Z",
+   "thumbnail_url": "https://opengraph.githubassets.com/1/0xPlaygrounds/rig",
+   "view_count": 8053,
+   "category": "程式開發",
+   "summary": "Rig 是一個基於 Rust 語言編寫的模組化 LLM 開發框架，專注於構建可擴展的 AI 代理應用。它支援多種模型供應商，提供 Agent 運行時環境與開箱即用的工作流元件，是 Rust 開發者構建 AI 應用的高效選擇。",
+   "tags": [
+    "Rust",
+    "Agent",
+    "LLM框架",
+    "開發工具"
+   ],
+   "search_terms": [
+    "Rig Rust",
+    "Rust AI開發",
+    "LLM應用框架",
+    "Agentic Workflow",
+    "Rig框架"
+   ],
+   "url": "https://github.com/0xPlaygrounds/rig",
+   "content_type": "repo",
+   "difficulty": "進階",
+   "region": "國外",
+   "license": "MIT",
+   "security_score": null,
+   "safety": "安全"
+  },
+  {
    "video_id": "gh_earendil-works_pi",
    "title": "earendil-works/pi",
    "channel": "earendil-works",
@@ -2138,6 +2169,38 @@
    "safety": null
   },
   {
+   "video_id": "gh_dataelement_bisheng",
+   "title": "dataelement/bisheng",
+   "channel": "dataelement",
+   "duration_seconds": 0,
+   "published_at": "2026-07-24T13:31:28Z",
+   "thumbnail_url": "https://opengraph.githubassets.com/1/dataelement/bisheng",
+   "view_count": 11768,
+   "category": "開源工具",
+   "summary": "BISHENG 是一個專注於企業級場景的開源 LLM 應用開發平台，提供應用編排框架、Agent 引導語言（AGL）以及支援人員介入（Human-in-the-loop）的獨特工作流，幫助企業高效構建並落地各類智慧化應用。",
+   "tags": [
+    "LLM平台",
+    "應用編排",
+    "企業級AI",
+    "Agent"
+   ],
+   "search_terms": [
+    "Bisheng",
+    "LLM開發平台",
+    "企業AI應用",
+    "AI工作流",
+    "DataElement",
+    "大模型編排"
+   ],
+   "url": "https://github.com/dataelement/bisheng",
+   "content_type": "repo",
+   "difficulty": "進階",
+   "region": "國外",
+   "license": "Apache-2.0",
+   "security_score": null,
+   "safety": "安全"
+  },
+  {
    "video_id": "gh_HarleyCoops_Math-To-Manim",
    "title": "HarleyCoops/Math-To-Manim",
    "channel": "HarleyCoops",
@@ -2434,6 +2497,38 @@
    "license": null,
    "security_score": null,
    "safety": null
+  },
+  {
+   "video_id": "gh_cloudwego_eino",
+   "title": "cloudwego/eino",
+   "channel": "cloudwego",
+   "duration_seconds": 0,
+   "published_at": "2026-07-24T09:25:48Z",
+   "thumbnail_url": "https://opengraph.githubassets.com/1/cloudwego/eino",
+   "view_count": 12469,
+   "category": "程式開發",
+   "summary": "Eino 是專為 Golang 設計的 LLM 應用開發框架，提供組件化架構、Agent 開發工具包（ADK）及工作流編排功能。它支援串接 OpenAI、Ollama 等模型，並透過簡潔的 API 幫助開發者快速構建具備工具呼叫與自動化運作能力的 AI Agent。",
+   "tags": [
+    "Golang",
+    "Agent",
+    "LLM框架",
+    "開發工具"
+   ],
+   "search_terms": [
+    "Golang AI",
+    "Eino框架",
+    "AI Agent開發",
+    "大模型開發工具",
+    "LLM Application Framework",
+    "Go語言 AI"
+   ],
+   "url": "https://github.com/cloudwego/eino",
+   "content_type": "repo",
+   "difficulty": "進階",
+   "region": "國外",
+   "license": "Apache-2.0",
+   "security_score": null,
+   "safety": "安全"
   },
   {
    "video_id": "LcdBcy-L0QU",
@@ -3480,6 +3575,37 @@
    "license": null,
    "security_score": null,
    "safety": null
+  },
+  {
+   "video_id": "gh_mark3labs_mcp-go",
+   "title": "mark3labs/mcp-go",
+   "channel": "mark3labs",
+   "duration_seconds": 0,
+   "published_at": "2026-07-23T09:19:12Z",
+   "thumbnail_url": "https://opengraph.githubassets.com/1/mark3labs/mcp-go",
+   "view_count": 8923,
+   "category": "程式開發",
+   "summary": "MCP Go 是一個用 Go 語言實作的模型上下文協定（Model Context Protocol）開發套件。該 SDK 封裝了複雜的通訊協定細節，協助開發者輕鬆建立 MCP 伺服器，將外部資料來源與工具整合至各類 LLM 應用程式中。",
+   "tags": [
+    "MCP",
+    "Golang",
+    "LLM",
+    "API"
+   ],
+   "search_terms": [
+    "MCP Go",
+    "Model Context Protocol",
+    "Go SDK",
+    "AI整合",
+    "LLM工具開發"
+   ],
+   "url": "https://github.com/mark3labs/mcp-go",
+   "content_type": "repo",
+   "difficulty": "進階",
+   "region": "國外",
+   "license": "MIT",
+   "security_score": null,
+   "safety": "安全"
   },
   {
    "video_id": "SF608Ah1SSI",
@@ -6281,6 +6407,37 @@
    "license": null,
    "security_score": null,
    "safety": null
+  },
+  {
+   "video_id": "gh_jeecgboot_JeecgBoot",
+   "title": "jeecgboot/JeecgBoot",
+   "channel": "jeecgboot",
+   "duration_seconds": 0,
+   "published_at": "2026-07-15T06:35:00Z",
+   "thumbnail_url": "https://opengraph.githubassets.com/1/jeecgboot/JeecgBoot",
+   "view_count": 47185,
+   "category": "開源工具",
+   "summary": "JeecgBoot 是一款企業級 AI 低代碼開發平台，具備「低代碼 + 零代碼」雙模式。透過強大的 AI Skills 自然語言編程能力，開發者僅需輸入自然語言即可自動生成代碼、設計表單、規劃流程圖及建置報表大屏，顯著提升開發效率。",
+   "tags": [
+    "低代碼",
+    "Java",
+    "AI開發",
+    "企業系統"
+   ],
+   "search_terms": [
+    "JeecgBoot",
+    "低代碼平台",
+    "AI生成代碼",
+    "零代碼開發",
+    "Java開發平台"
+   ],
+   "url": "https://github.com/jeecgboot/JeecgBoot",
+   "content_type": "repo",
+   "difficulty": "進階",
+   "region": "國內",
+   "license": "Apache-2.0",
+   "security_score": null,
+   "safety": "安全"
   },
   {
    "video_id": "oBBZfjBS0ps",
