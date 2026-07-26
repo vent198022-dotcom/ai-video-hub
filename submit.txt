@@ -1,5 +1,7 @@
-# 手動提交清單：影片與文章都可以
-# 貼 YouTube 連結 → 收錄為影片；貼一般網頁連結 → 收錄為文章（自動抓正文）
+# 手動提交清單：影片、文章、開源專案都可以
+# 貼 YouTube 連結        → 收錄為影片（不受兩分鐘時長下限限制）
+# 貼 GitHub 專案網址     → 收錄為開源專案（不套用授權檢查，但仍經 AI 風險審視）
+# 貼其他網頁連結         → 收錄為文章（自動抓正文）
 # 下次執行 run.bat 就會自動收進來、分類、上架。
 # 以 # 開頭的是註解，會被略過。重複貼同一個不會重複收錄。
 
@@ -25,3 +27,7 @@ https://www.managertoday.com.tw/articles/view/71772
 https://www.managertoday.com.tw/articles/view/71725
 https://www.managertoday.com.tw/articles/view/71262
 
+
+# 手動專案入口驗收
+https://github.com/n8n-io/n8n
+https://github.com/microsoft/autogen/tree/main
