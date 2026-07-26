@@ -103,6 +103,14 @@ def discover(site, keywords, max_items=20):
         subs = parse_sitemap_locs(index_xml)
         if not subs:
             return []
+        # 若站台設定 sitemap_filter，僅保留網址含該子字串的子檔
+        # （避免像 media/podcast 這類非文章子檔排在最後，誤被當成最新文章）
+        needle = site.get("sitemap_filter")
+        if needle:
+            subs = [s for s in subs if needle in s]
+        if not subs:
+            log.warning("網站「%s」的 sitemap 找不到符合的子檔，略過", name)
+            return []
         # 子 sitemap 由舊到新排列，最後一個才是最新文章
         last_xml = fetch_xml(subs[-1])
         if not last_xml:

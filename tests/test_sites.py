@@ -108,6 +108,34 @@ def test_discover_sitemap_uses_last_subsitemap(monkeypatch):
     ]
 
 
+SITEMAP_INDEX_MIXED = """<?xml version="1.0"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <sitemap><loc>https://z.com/feed/article/1.xml</loc></sitemap>
+  <sitemap><loc>https://z.com/feed/article/2.xml</loc></sitemap>
+  <sitemap><loc>https://z.com/feed/media/1.xml</loc></sitemap>
+</sitemapindex>"""
+
+
+def test_discover_sitemap_filter_picks_last_matching(monkeypatch):
+    """索引尾端接了非文章子檔時，要取最後一個「文章」子檔而非最後一個。"""
+    seen = []
+
+    def fake_fetch(url):
+        seen.append(url)
+        return SITEMAP_INDEX_MIXED if url.endswith("sitemap.xml") else SITEMAP_URLS
+
+    monkeypatch.setattr(sites, "fetch_xml", fake_fetch)
+    sites.discover({"name": "某站", "sitemap": "https://z.com/feed/sitemap.xml",
+                    "sitemap_filter": "/article/"}, KW)
+    assert seen[1] == "https://z.com/feed/article/2.xml"
+
+
+def test_discover_sitemap_filter_no_match_returns_empty(monkeypatch):
+    monkeypatch.setattr(sites, "fetch_xml", lambda url: SITEMAP_INDEX_MIXED)
+    assert sites.discover({"name": "某站", "sitemap": "https://z.com/feed/sitemap.xml",
+                           "sitemap_filter": "/nothing/"}, KW) == []
+
+
 def test_discover_network_failure_returns_empty(monkeypatch):
     monkeypatch.setattr(sites, "fetch_xml", lambda url: None)
     assert sites.discover({"name": "某站", "feed": "https://x.com/rss"}, KW) == []
