@@ -37,7 +37,9 @@ def fetch_scorecard(full_name):
                             timeout=TIMEOUT)
         resp.raise_for_status()
         score = resp.json().get("score")
-        return float(score) if isinstance(score, (int, float)) else None
+        return (float(score)
+                if isinstance(score, (int, float)) and not isinstance(score, bool)
+                else None)
     except (requests.RequestException, ValueError, TypeError, AttributeError) as e:
         log.debug("專案 %s 查無安全評分：%s", full_name, collector._safe_err(e))
         return None

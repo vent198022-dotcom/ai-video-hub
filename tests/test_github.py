@@ -94,6 +94,7 @@ def test_to_item_falls_back_to_description_when_no_readme():
 def test_discover_dedups_across_queries(monkeypatch):
     monkeypatch.setattr(github, "search", lambda *a, **k: [REPO])
     monkeypatch.setattr(github, "fetch_readme", lambda *a, **k: "README")
+    monkeypatch.setattr(github, "fetch_scorecard", lambda *a, **k: None)
     items = github.discover("tok", ["AI agent", "LLM"], 2000, 180)
     assert len(items) == 1                                  # 兩個查詢撈到同一個專案只留一筆
 
@@ -137,6 +138,11 @@ def test_fetch_scorecard_missing_returns_none(monkeypatch):
 
 def test_fetch_scorecard_bad_payload_returns_none(monkeypatch):
     monkeypatch.setattr(github.requests, "get", lambda *a, **k: FakeResp({"nope": 1}))
+    assert github.fetch_scorecard("a/b") is None
+
+
+def test_fetch_scorecard_bool_score_returns_none(monkeypatch):
+    monkeypatch.setattr(github.requests, "get", lambda *a, **k: FakeResp({"score": True}))
     assert github.fetch_scorecard("a/b") is None
 
 
