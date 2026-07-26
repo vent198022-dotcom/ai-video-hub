@@ -129,22 +129,25 @@ def test_fetch_uses_download_helper(monkeypatch):
 
 
 def test_fetch_rejects_javascript_scheme(monkeypatch):
-    def boom(*a, **k):
-        raise AssertionError("不應嘗試下載非 http(s) 網址")
-    monkeypatch.setattr(article, "download", boom)
+    called = []
+    monkeypatch.setattr(article, "download", lambda u: called.append(u))
     assert article.fetch("javascript:alert(1)") is None
+    assert called == []          # 連下載都不該嘗試
 
 
 def test_fetch_rejects_data_scheme(monkeypatch):
-    monkeypatch.setattr(article, "download", lambda u: (_ for _ in ()).throw(
-        AssertionError("不應嘗試下載")))
+    called = []
+    monkeypatch.setattr(article, "download", lambda u: called.append(u))
     assert article.fetch("data:text/html,<script>alert(1)</script>") is None
+    assert called == []
 
 
 def test_fetch_rejects_non_string_url(monkeypatch):
-    monkeypatch.setattr(article, "download", lambda u: None)
+    called = []
+    monkeypatch.setattr(article, "download", lambda u: called.append(u))
     assert article.fetch(None) is None
     assert article.fetch(123) is None
+    assert called == []
 
 
 def test_fetch_accepts_https(monkeypatch):
