@@ -134,3 +134,50 @@ def test_migration_adds_column_to_existing_db(tmp_path):
     assert len(site) == 1
     assert site[0]["title"] == "舊影片"
     assert site[0]["search_terms"] == []
+
+
+def test_insert_defaults_to_video_type(tmp_path):
+    conn = _conn(tmp_path)
+    db.insert_video(conn, make_video())
+    db.update_classification(conn, "abc123", True, "工具教學", "摘要", [])
+    v = db.get_site_videos(conn)[0]
+    assert v["content_type"] == "video"
+    assert v["url"] is None
+
+
+def test_insert_article_with_url(tmp_path):
+    conn = _conn(tmp_path)
+    item = make_video("art_abc")
+    item["content_type"] = "article"
+    item["url"] = "https://example.com/post"
+    db.insert_video(conn, item)
+    db.update_classification(conn, "art_abc", True, "工具教學", "摘要", [])
+    v = db.get_site_videos(conn)[0]
+    assert v["content_type"] == "article"
+    assert v["url"] == "https://example.com/post"
+
+
+def test_migration_adds_content_type_to_existing_db(tmp_path):
+    """舊資料庫（無 content_type／url）遷移後，既有列預設為 video。"""
+    import sqlite3
+    path = tmp_path / "old.db"
+    old = sqlite3.connect(str(path))
+    old.executescript("""
+        CREATE TABLE videos (
+            video_id TEXT PRIMARY KEY, title TEXT NOT NULL, channel TEXT,
+            description TEXT, published_at TEXT, thumbnail_url TEXT,
+            duration_seconds INTEGER, view_count INTEGER, category TEXT,
+            summary TEXT, tags TEXT, search_terms TEXT,
+            status TEXT NOT NULL DEFAULT 'pending', collected_at TEXT);
+        CREATE TABLE meta (key TEXT PRIMARY KEY, value TEXT);
+        INSERT INTO videos (video_id, title, status, category, summary, tags)
+        VALUES ('old1', '舊影片', 'classified', '工具教學', '舊摘要', '[]');
+    """)
+    old.commit()
+    old.close()
+
+    conn = db.connect(path)
+    v = db.get_site_videos(conn)[0]
+    assert v["title"] == "舊影片"
+    assert v["content_type"] == "video"
+    assert v["url"] is None

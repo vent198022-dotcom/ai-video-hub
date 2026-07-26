@@ -14,7 +14,9 @@ log = logging.getLogger(__name__)
 
 def remove_dead_videos(conn, api_key):
     """檢查所有上架影片是否仍公開可看，標記失效者。回傳標記筆數。"""
-    live_ids = [v["video_id"] for v in db.get_site_videos(conn)]
+    # 只檢查影片：文章的 ID 不是 YouTube 影片 ID，送去查會全部查無此片而被誤刪
+    live_ids = [v["video_id"] for v in db.get_site_videos(conn)
+                if v.get("content_type", "video") == "video"]
     if not live_ids:
         return 0
 

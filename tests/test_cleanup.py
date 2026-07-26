@@ -62,3 +62,39 @@ def test_malformed_response_skips_chunk(tmp_path, monkeypatch):
                         lambda *a, **k: FakeResp({"items": [{"noid": True}]}))
     assert cleanup.remove_dead_videos(conn, "key") == 0
     assert len(db.get_site_videos(conn)) == 2
+
+
+def test_articles_are_never_checked_or_removed(tmp_path, monkeypatch):
+    """文章 ID 不是 YouTube 影片 ID，絕不可送去查、更不可被誤標失效。"""
+    conn = db.connect(tmp_path / "t.db")
+    db.insert_video(conn, make_video("vid1"))
+    art = make_video("art_xyz")
+    art["content_type"] = "article"
+    art["url"] = "https://example.com/post"
+    db.insert_video(conn, art)
+    for i in ("vid1", "art_xyz"):
+        db.update_classification(conn, i, True, "工具教學", "摘要", [])
+
+    asked = {}
+
+    def fake_get(url, params=None, **k):
+        asked["ids"] = (params or {}).get("id", "")
+        return FakeResp({"items": [{"id": "vid1", "status": {"privacyStatus": "public"}}]})
+
+    monkeypatch.setattr(cleanup.requests, "get", fake_get)
+    assert cleanup.remove_dead_videos(conn, "key") == 0
+    assert "art_xyz" not in asked["ids"]          # 文章不得被送去查
+    assert len(db.get_site_videos(conn)) == 2      # 兩筆都要留著
+
+
+def test_only_articles_makes_no_request(tmp_path, monkeypatch):
+    conn = db.connect(tmp_path / "t.db")
+    art = make_video("art_only")
+    art["content_type"] = "article"
+    db.insert_video(conn, art)
+    db.update_classification(conn, "art_only", True, "工具教學", "摘要", [])
+
+    def boom(*a, **k):
+        raise AssertionError("全是文章時不應發出請求")
+    monkeypatch.setattr(cleanup.requests, "get", boom)
+    assert cleanup.remove_dead_videos(conn, "key") == 0

@@ -16,6 +16,8 @@ CREATE TABLE IF NOT EXISTS videos (
     summary          TEXT,
     tags             TEXT,
     search_terms     TEXT,
+    url              TEXT,
+    content_type     TEXT NOT NULL DEFAULT 'video',
     status           TEXT NOT NULL DEFAULT 'pending',
     collected_at     TEXT DEFAULT (datetime('now'))
 );
@@ -37,8 +39,19 @@ def connect(db_path):
 def _migrate(conn):
     """既有資料庫缺新欄位時補上（ALTER TABLE，不動既有資料）。"""
     cols = {r["name"] for r in conn.execute("PRAGMA table_info(videos)")}
+    added = False
     if "search_terms" not in cols:
         conn.execute("ALTER TABLE videos ADD COLUMN search_terms TEXT")
+        added = True
+    if "url" not in cols:
+        conn.execute("ALTER TABLE videos ADD COLUMN url TEXT")
+        added = True
+    if "content_type" not in cols:
+        # 既有列一律視為影片
+        conn.execute(
+            "ALTER TABLE videos ADD COLUMN content_type TEXT NOT NULL DEFAULT 'video'")
+        added = True
+    if added:
         conn.commit()
 
 
@@ -48,13 +61,16 @@ def video_exists(conn, video_id):
 
 
 def insert_video(conn, video):
+    """寫入一筆內容（影片或文章）。content_type 未給時預設為 video。"""
+    row = {"content_type": "video", "url": None, **video}
     conn.execute(
         "INSERT OR IGNORE INTO videos"
         " (video_id, title, channel, description, published_at,"
-        "  thumbnail_url, duration_seconds, view_count, status)"
+        "  thumbnail_url, duration_seconds, view_count, url, content_type, status)"
         " VALUES (:video_id, :title, :channel, :description, :published_at,"
-        "  :thumbnail_url, :duration_seconds, :view_count, 'pending')",
-        video,
+        "  :thumbnail_url, :duration_seconds, :view_count, :url, :content_type,"
+        "  'pending')",
+        row,
     )
     conn.commit()
 
@@ -115,7 +131,7 @@ def set_meta(conn, key, value):
 def get_site_videos(conn):
     rows = conn.execute(
         "SELECT video_id, title, channel, duration_seconds, published_at,"
-        " thumbnail_url, view_count, category, summary, tags, search_terms"
+        " thumbnail_url, view_count, category, summary, tags, search_terms, url, content_type"
         " FROM videos WHERE status = 'classified' ORDER BY published_at DESC"
     ).fetchall()
     out = []
