@@ -6,6 +6,7 @@
 import logging
 import re
 import xml.etree.ElementTree as ET
+from urllib.parse import urljoin
 
 import requests
 
@@ -87,24 +88,50 @@ def slug_matches(url, keywords):
     return bool(tokens & latin)
 
 
+_HREF_RE = re.compile(r'href=["\']([^"\']+)["\']', re.IGNORECASE)
+
+
+def extract_links(html, base_url, pattern):
+    """從 HTML 列表頁抽出符合 pattern 的文章連結，轉為絕對網址並去重保序。
+
+    pattern 無效或輸入為空時回傳空清單——單一來源設定寫錯不得中斷管線。
+    """
+    if not html or not pattern:
+        return []
+    try:
+        pat = re.compile(pattern)
+    except re.error as e:
+        log.warning("link_pattern 無效（%s）：%s", pattern, e)
+        return []
+    out = []
+    for href in _HREF_RE.findall(html):
+        if pat.search(href):
+            out.append(urljoin(base_url, href))
+    return list(dict.fromkeys(out))
+
+
 def discover(site, keywords, max_items=20):
-    """回傳該站篩選後的文章網址（最多 max_items 筆）。"""
+    """回傳該來源篩選後的文章網址（最多 max_items 筆）。
+
+    來源型態擇一：feed（RSS／Atom）、sitemap（sitemap index）、page（HTML 列表頁）。
+    site["filter"] 設為 False 時略過關鍵字預篩——分類頁本身已鎖定主題，
+    再篩會誤殺（例如遠見的文章網址是純數字，比對不到任何關鍵字）。
+    """
     name = site.get("name", "?")
+    use_filter = site.get("filter", True)
+
     if site.get("feed"):
         xml_text = fetch_xml(site["feed"])
         if not xml_text:
             return []
-        hits = [url for title, url in parse_rss(xml_text)
-                if title_matches(title, keywords)]
+        entries = parse_rss(xml_text)
+        hits = [url for title, url in entries
+                if not use_filter or title_matches(title, keywords)]
     elif site.get("sitemap"):
         index_xml = fetch_xml(site["sitemap"])
         if not index_xml:
             return []
         subs = parse_sitemap_locs(index_xml)
-        if not subs:
-            return []
-        # 若站台設定 sitemap_filter，僅保留網址含該子字串的子檔
-        # （避免像 media/podcast 這類非文章子檔排在最後，誤被當成最新文章）
         needle = site.get("sitemap_filter")
         if needle:
             subs = [s for s in subs if needle in s]
@@ -116,12 +143,23 @@ def discover(site, keywords, max_items=20):
         if not last_xml:
             return []
         # 檔內同樣由舊到新，反轉後取最新的
-        hits = [u for u in reversed(parse_sitemap_locs(last_xml))
-                if slug_matches(u, keywords)]
+        locs = list(reversed(parse_sitemap_locs(last_xml)))
+        hits = [u for u in locs if not use_filter or slug_matches(u, keywords)]
+    elif site.get("page"):
+        pattern = site.get("link_pattern")
+        if not pattern:
+            log.warning("網站「%s」設定了 page 但缺少 link_pattern，略過", name)
+            return []
+        html = fetch_xml(site["page"])
+        if not html:
+            return []
+        links = extract_links(html, site["page"], pattern)
+        hits = [u for u in links if not use_filter or slug_matches(u, keywords)]
     else:
-        log.warning("網站「%s」未設定 feed 或 sitemap，略過", name)
+        log.warning("網站「%s」未設定 feed／sitemap／page，略過", name)
         return []
 
     result = hits[:max_items]
-    log.info("網站「%s」：篩出 %d 篇（上限 %d）", name, len(result), max_items)
+    log.info("來源「%s」：取得 %d 篇（上限 %d%s）", name, len(result), max_items,
+             "" if use_filter else "，未套關鍵字篩選")
     return result
