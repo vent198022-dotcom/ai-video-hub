@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-07-26T09:52:16+00:00",
- "count": 1131,
+ "generated_at": "2026-07-26T10:07:06+00:00",
+ "count": 1145,
  "videos": [
   {
    "video_id": "PLFu6EdGibc",
@@ -4165,6 +4165,36 @@
    "difficulty": "入門"
   },
   {
+   "video_id": "art_e1ac1d7f0988",
+   "title": "Gemini 提示詞懶人包：客服、主管、人資、行銷、專案管理、銷售 6 大情境範例|經理人",
+   "channel": "經理人 Managertoday",
+   "duration_seconds": 0,
+   "published_at": "2026-07-13T00:00:00Z",
+   "thumbnail_url": "https://image-cdn.learnin.tw/bnextmedia/image/album/2026-06/npgb-1781124181.jpg?w=900&output=webp",
+   "view_count": 0,
+   "category": "辦公應用",
+   "summary": "本文整理了 Google 發布的《Gemini for Google Workspace 提示撰寫指南》，針對客服、高階主管、人資、行銷、專案管理與銷售等 6 大部門，提供豐富的中文與英文提示詞範例與運用工具。文中並歸納出撰寫提示詞的共通訣竅，包含適當拆解任務、設下限制、指派角色、徵求意見與斟酌語氣，協助使用者在 Gmail、試算表與文件等工具中下達更精準的指令。",
+   "tags": [
+    "Gemini",
+    "提示詞",
+    "Google Workspace",
+    "辦公應用"
+   ],
+   "search_terms": [
+    "Gemini提示詞",
+    "Google Workspace教學",
+    "AI 辦公室",
+    "AI 寫信",
+    "客服提示詞",
+    "行銷 AI 指令",
+    "經理人",
+    "AI 職場應用"
+   ],
+   "url": "https://www.managertoday.com.tw/articles/view/72510",
+   "content_type": "article",
+   "difficulty": "入門"
+  },
+  {
    "video_id": "g2q9sfo4pkg",
    "title": "Gemini Study Notebooks 學習筆記本實戰｜AI 互動教學、個人化診斷、弱點補強，把複雜知識變成你的記憶！",
    "channel": "T客邦影新聞",
@@ -5117,6 +5147,36 @@
    "difficulty": "入門"
   },
   {
+   "video_id": "art_ca5f22d8625f",
+   "title": "Claude 提示詞：Claude Code、Cowork、簡報全攻略，19 篇教學一次看|經理人",
+   "channel": "經理人 Managertoday",
+   "duration_seconds": 0,
+   "published_at": "2026-07-09T00:00:00Z",
+   "thumbnail_url": "https://image-cdn.learnin.tw/bnextmedia/image/album/2026-07/bpqp-1783586232.jpg?w=900&output=webp",
+   "view_count": 0,
+   "category": "工具教學",
+   "summary": "本文完整收錄 19 篇與 Claude 提示詞相關的教學文章，分為通用技巧、Claude Code 與 Claude Cowork 等 7 大類。內容從基礎的聊天對話、角色扮演、設定專案記憶，到進階的終端機工具資料夾攻略、自動化知識庫架設，以及桌面版執行助理的自動化操作，帶領讀者由淺入深掌握 Claude 的各種高階實戰應用。",
+   "tags": [
+    "Claude",
+    "提示詞",
+    "AI 工具",
+    "自動化"
+   ],
+   "search_terms": [
+    "Claude 教學",
+    "Claude 提示詞",
+    "Claude Code",
+    "Claude Cowork",
+    "AI 助理",
+    "自動化辦公",
+    "經理人",
+    "AI 知識庫"
+   ],
+   "url": "https://www.managertoday.com.tw/articles/view/72484",
+   "content_type": "article",
+   "difficulty": "進階"
+  },
+  {
    "video_id": "k2jTYltc9Nc",
    "title": "AI 完美複製你的聲音！影片多國語言配音生成教學",
    "channel": "I'm 阿湯",
@@ -5646,6 +5706,36 @@
     "AI 助理"
    ],
    "url": "https://www.gvm.com.tw/article/131351",
+   "content_type": "article",
+   "difficulty": "進階"
+  },
+  {
+   "video_id": "art_ef33f6c52a45",
+   "title": "AI 簡報全攻略｜Claude、ChatGPT、NotebookLM、Gemini 教學一次看|經理人",
+   "channel": "經理人 Managertoday",
+   "duration_seconds": 0,
+   "published_at": "2026-07-06T00:00:00Z",
+   "thumbnail_url": "https://image-cdn.learnin.tw/bnextmedia/image/album/2026-07/i2cr-1783322100.png?w=900&output=webp",
+   "view_count": 0,
+   "category": "辦公應用",
+   "summary": "本文提供一份 AI 簡報製作的全攻略地圖，涵蓋心法、資料整理、YAML 視覺風格設定及各大 AI 工具實戰。教導讀者如何利用 NotebookLM 整理雜亂資料與錄音檔避免幻覺，配合 Claude 或 ChatGPT 規劃架構，並透過 YAML 語法精準控制簡報配色與排版，大幅提升商用提案的製作效率與說服力。",
+   "tags": [
+    "AI 簡報",
+    "NotebookLM",
+    "YAML 語法",
+    "辦公應用"
+   ],
+   "search_terms": [
+    "AI 做簡報",
+    "NotebookLM 教學",
+    "YAML 簡報排版",
+    "AI 簡報設計",
+    "職場 AI",
+    "自動生成簡報",
+    "經理人",
+    "商用簡報技巧"
+   ],
+   "url": "https://www.managertoday.com.tw/articles/view/72462",
    "content_type": "article",
    "difficulty": "進階"
   },
@@ -6677,6 +6767,34 @@
    "url": null,
    "content_type": "video",
    "difficulty": "入門"
+  },
+  {
+   "video_id": "art_75c17601e4a6",
+   "title": "如何用 Claude 把 SOP 寫成 SKILL？實戰 4 步驟，讓 AI 幫你搞定繁雜工作|經理人",
+   "channel": "經理人 Managertoday",
+   "duration_seconds": 0,
+   "published_at": "2026-06-30T00:00:00Z",
+   "thumbnail_url": "https://image-cdn.learnin.tw/bnextmedia/image/album/2026-06/vuw3-1782448906.jpg?w=900&output=webp",
+   "view_count": 0,
+   "category": "自動化工作流",
+   "summary": "本文介紹如何使用 Claude 將工作 SOP 轉換為可重複呼叫的 SKILL.md 技能包。文章透過實戰 4 步驟教學，教導使用者從原始 SOP 文件整理出執行步驟與規則，並點出 AI 產出不佳時往往是因為原始文件缺乏判斷標準與例外處理機制。",
+   "tags": [
+    "Claude",
+    "SOP",
+    "工作流",
+    "提示詞"
+   ],
+   "search_terms": [
+    "Claude SOP",
+    "AI SKILL",
+    "工作流程自動化",
+    "經理人",
+    "提示詞技巧",
+    "SOP轉AI技能"
+   ],
+   "url": "https://www.managertoday.com.tw/articles/view/72427",
+   "content_type": "article",
+   "difficulty": "進階"
   },
   {
    "video_id": "nJ-vmTJHc7o",
@@ -11290,6 +11408,34 @@
    "difficulty": "入門"
   },
   {
+   "video_id": "art_505c15f6225e",
+   "title": "教學｜NotebookLM 簡報怎麼去除 AI 味？3 步驟學會 YAML 指令，配色、字體、排版一次設定|經理人",
+   "channel": "經理人 Managertoday",
+   "duration_seconds": 0,
+   "published_at": "2026-05-28T00:00:00Z",
+   "thumbnail_url": "https://image-cdn.learnin.tw/bnextmedia/image/album/2026-05/bn5a-1779941355.png?w=900&output=webp",
+   "view_count": 0,
+   "category": "辦公應用",
+   "summary": "本文教學如何透過結構化的 YAML 語法精準控制 AI 生成簡報的視覺風格。文章說明 YAML 點菜單的 4 個核心參數（配色、字體、風格、禁止清單），教導使用者如何將色碼與排版規範貼給 AI，藉此去除簡報的 AI 感並產出符合商業水準的投影片。",
+   "tags": [
+    "YAML",
+    "簡報設計",
+    "NotebookLM",
+    "AI簡報"
+   ],
+   "search_terms": [
+    "YAML 指令",
+    "AI 簡報設計",
+    "NotebookLM 簡報",
+    "簡報排版",
+    "企業標準色",
+    "Gamma 簡報"
+   ],
+   "url": "https://www.managertoday.com.tw/articles/view/72247",
+   "content_type": "article",
+   "difficulty": "進階"
+  },
+  {
    "video_id": "1DyhOLo_hcw",
    "title": "Gemini + NotebookLM 深度結合，最新功能使用教學！",
    "channel": "I'm 阿湯",
@@ -11540,6 +11686,34 @@
    "url": null,
    "content_type": "video",
    "difficulty": "進階"
+  },
+  {
+   "video_id": "art_3067bc4dbaf1",
+   "title": "ChatGPT Images 2.0 簡報教學｜幾乎沒錯字！６步驟做完投影片、講稿、PPT 與 PDF|經理人",
+   "channel": "經理人 Managertoday",
+   "duration_seconds": 0,
+   "published_at": "2026-05-26T00:00:00Z",
+   "thumbnail_url": "https://image-cdn.learnin.tw/bnextmedia/image/album/2026-05/6zqk-1779185092.jpg?w=900&output=webp",
+   "view_count": 0,
+   "category": "辦公應用",
+   "summary": "本文介紹如何使用 ChatGPT Images 2.0 模型製作簡報。文章分享六個實戰步驟，從上傳企劃書定義任務、對焦說服邏輯、建立統一視覺風格，到分批生成 16:9 投影片圖片，讓使用者能在單一介面中快速產出幾近無錯字的商業簡報。",
+   "tags": [
+    "ChatGPT",
+    "AI生圖",
+    "簡報製作",
+    "辦公效率"
+   ],
+   "search_terms": [
+    "ChatGPT Images 2.0",
+    "AI 做簡報",
+    "投影片製作",
+    "簡報設計教學",
+    "OpenAI 生圖",
+    "商業簡報"
+   ],
+   "url": "https://www.managertoday.com.tw/articles/view/72100",
+   "content_type": "article",
+   "difficulty": "入門"
   },
   {
    "video_id": "SFwlLbtbQVs",
@@ -12604,6 +12778,34 @@
    "url": null,
    "content_type": "video",
    "difficulty": "進階"
+  },
+  {
+   "video_id": "art_db73e90ec166",
+   "title": "ChatGPT 圖片生成指令大全！LINE貼圖、旅行插畫、簡報設計......50組提示詞一次看|經理人",
+   "channel": "經理人 Managertoday",
+   "duration_seconds": 0,
+   "published_at": "2026-05-18T00:00:00Z",
+   "thumbnail_url": "https://image-cdn.learnin.tw/bnextmedia/image/album/2026-05/82gk-1778827662.png?w=900&output=webp",
+   "view_count": 0,
+   "category": "AI 影像與影片生成",
+   "summary": "本文整理了 50 組 ChatGPT Image 2.0 圖片生成的實用提示詞，涵蓋品牌社群類、工作應用類、生活實用類、靈感點子類及照片風格轉換等五大類別，協助行銷人員、創作者與上班族透過精準指令快速產出專業級圖像與設計素材。",
+   "tags": [
+    "ChatGPT",
+    "提示詞",
+    "圖片生成",
+    "設計靈感"
+   ],
+   "search_terms": [
+    "ChatGPT 圖片生成",
+    "AI 繪圖提示詞",
+    "簡報封面設計",
+    "LINE貼圖生成",
+    "AI 圖像指令",
+    "社群圖片製作"
+   ],
+   "url": "https://www.managertoday.com.tw/articles/view/72181",
+   "content_type": "article",
+   "difficulty": "入門"
   },
   {
    "video_id": "on9V9wO615Y",
@@ -14271,6 +14473,34 @@
    "url": null,
    "content_type": "video",
    "difficulty": "入門"
+  },
+  {
+   "video_id": "art_764a651c619f",
+   "title": "Codex 是什麼？可以怎麼用？新手入門教學、一周上手 AI 自動化工作流|經理人",
+   "channel": "經理人 Managertoday",
+   "duration_seconds": 0,
+   "published_at": "2026-05-06T00:00:00Z",
+   "thumbnail_url": "https://image-cdn.learnin.tw/bnextmedia/image/album/2026-05/qez5-1777976400.png?w=900&output=webp",
+   "view_count": 0,
+   "category": "自動化工作流",
+   "summary": "本文介紹 OpenAI 的 Codex AI 工作代理人，並透過十大步驟新手教學，說明如何建立專案資料夾、操作介面、使用 @ 符號引用檔案、設定權限與模型，以及將重複執行的任務自動化，協助使用者打造流暢的 AI 協作工作流。",
+   "tags": [
+    "Codex",
+    "自動化",
+    "AI代理人",
+    "工作流"
+   ],
+   "search_terms": [
+    "Codex 教學",
+    "OpenAI Codex",
+    "AI 自動化工作流",
+    "AI 代理人",
+    "專案資料夾設定",
+    "新手入門"
+   ],
+   "url": "https://www.managertoday.com.tw/articles/view/72111",
+   "content_type": "article",
+   "difficulty": "進階"
   },
   {
    "video_id": "r-CGDAGeXLU",
@@ -16454,6 +16684,63 @@
    "difficulty": "專家"
   },
   {
+   "video_id": "art_c8476bb22017",
+   "title": "教學｜Claude Design 怎麼用？９步驟圖解、３亮點實操，比 Cowork 好用在這！|經理人",
+   "channel": "經理人 Managertoday",
+   "duration_seconds": 0,
+   "published_at": "2026-04-20T00:00:00Z",
+   "thumbnail_url": "https://image-cdn.learnin.tw/bnextmedia/image/album/2026-04/9egc-1776689141.jpg?w=900&output=webp",
+   "view_count": 0,
+   "category": "辦公應用",
+   "summary": "本文詳細介紹 Anthropic 推出的對話式設計工作台「Claude Design」，透過 9 個實作步驟與 3 大模式（Tweaks、Edit、Draw），示範如何將 Word 等素材轉換為精美簡報，大幅提升辦公效率。",
+   "tags": [
+    "Claude Design",
+    "AI簡報",
+    "辦公應用",
+    "簡報製作"
+   ],
+   "search_terms": [
+    "Claude Design 教學",
+    "AI 做簡報",
+    "Claude 簡報工具",
+    "經理人 AI 簡報",
+    "簡報自動生成",
+    "Slide deck",
+    "AI 辦公自動化"
+   ],
+   "url": "https://www.managertoday.com.tw/articles/view/72033",
+   "content_type": "article",
+   "difficulty": "入門"
+  },
+  {
+   "video_id": "art_d757e01c3696",
+   "title": "教學｜PPT 能免費裝 Claude！AI 簡報流３情境拆解，排版設計、數據圖表一次生成|經理人",
+   "channel": "經理人 Managertoday",
+   "duration_seconds": 0,
+   "published_at": "2026-04-20T00:00:00Z",
+   "thumbnail_url": "https://image-cdn.learnin.tw/bnextmedia/image/album/2026-04/bfyj-1776424585.jpg?w=900&output=webp",
+   "view_count": 0,
+   "category": "辦公應用",
+   "summary": "本文介紹如何在 PowerPoint 中安裝並使用「Claude for PowerPoint」增益集，透過 3 個步驟將 AI 助理融入簡報工作流，並拆解從 100 到 1、從 0.5 到 1、從 0 到 1 等三大應用情境。",
+   "tags": [
+    "Claude for PowerPoint",
+    "AI簡報",
+    "PowerPoint",
+    "辦公應用"
+   ],
+   "search_terms": [
+    "PPT AI 外掛",
+    "Claude PowerPoint 教學",
+    "PPT 裝 Claude",
+    "AI 簡報助理",
+    "Office AI 應用",
+    "簡報排版 AI"
+   ],
+   "url": "https://www.managertoday.com.tw/articles/view/72011",
+   "content_type": "article",
+   "difficulty": "入門"
+  },
+  {
    "video_id": "LDvdcA3robQ",
    "title": "Claude Cowork (1) 安裝與 Skill 技能全攻略：名片轉 Excel、下載區自動分類，AI Agent快速上手",
    "channel": "T客邦影新聞",
@@ -16619,6 +16906,35 @@
    "search_terms": [],
    "url": null,
    "content_type": "video",
+   "difficulty": "進階"
+  },
+  {
+   "video_id": "art_e9fd6134fa59",
+   "title": "Claude Code 資料夾該怎麼用？從 Agents 到 skills，7 大設定檔完整攻略|經理人",
+   "channel": "經理人 Managertoday",
+   "duration_seconds": 0,
+   "published_at": "2026-04-17T00:00:00Z",
+   "thumbnail_url": "https://image-cdn.learnin.tw/bnextmedia/image/album/2026-04/9gdn-1776420358.png?w=900&output=webp",
+   "view_count": 0,
+   "category": "程式開發",
+   "summary": "本文深入解析 Claude Code 的專屬設定資料夾 `.claude/`，逐一介紹 agents、commands、hooks、rules、skills 與 settings.json 等 7 大設定檔的用途與實作範例，協助開發者打造自動化工作流程。",
+   "tags": [
+    "Claude Code",
+    "程式開發",
+    "AI 輔助編程",
+    "開發工具"
+   ],
+   "search_terms": [
+    "Claude Code 設定",
+    "claude 資料夾",
+    "AI 程式開發",
+    "Claude skills",
+    "Claude agents",
+    "Claude hooks",
+    "程式自動化"
+   ],
+   "url": "https://www.managertoday.com.tw/articles/view/72030",
+   "content_type": "article",
    "difficulty": "進階"
   },
   {
@@ -17250,6 +17566,34 @@
    "url": null,
    "content_type": "video",
    "difficulty": "進階"
+  },
+  {
+   "video_id": "art_d7c72bb58f26",
+   "title": "20 分鐘產出 100 頁 PPT！實測 Claude Cowork 模式，5 步驟打造高效 AI 簡報工作流|經理人",
+   "channel": "經理人 Managertoday",
+   "duration_seconds": 0,
+   "published_at": "2026-04-10T00:00:00Z",
+   "thumbnail_url": "https://image-cdn.learnin.tw/bnextmedia/image/album/2026-04/kfbd-1775092322.jpg?w=900&output=webp",
+   "view_count": 0,
+   "category": "辦公應用",
+   "summary": "本文實測 Claude 桌面版的 Cowork 模式，介紹 5 個步驟打造高效 AI 簡報工作流。透過授權資料夾讀取與下達明確指令，讓 AI 在 20 分鐘內產出高達 100 頁的可編輯 PPT，提升辦公生產力。",
+   "tags": [
+    "Claude Cowork",
+    "AI簡報",
+    "辦公應用",
+    "工作流"
+   ],
+   "search_terms": [
+    "Claude Cowork 模式",
+    "AI 產出 100 頁 PPT",
+    "Claude 桌面版簡報",
+    "AI 快速做簡報",
+    "簡報工作流",
+    "經理人 AI 課程"
+   ],
+   "url": "https://www.managertoday.com.tw/articles/view/71988",
+   "content_type": "article",
+   "difficulty": "入門"
   },
   {
    "video_id": "_V1g1sg1L5E",
@@ -19853,6 +20197,34 @@
    "search_terms": [],
    "url": null,
    "content_type": "video",
+   "difficulty": "進階"
+  },
+  {
+   "video_id": "art_d1070147512f",
+   "title": "Claude Code 實戰指南：從數據視覺化到產品開發，10 個部門實際應用案例一次看|經理人",
+   "channel": "經理人 Managertoday",
+   "duration_seconds": 0,
+   "published_at": "2026-02-27T00:00:00Z",
+   "thumbnail_url": "https://image-cdn.learnin.tw/bnextmedia/image/album/2026-02/u648-1772077454.png?w=900&output=webp",
+   "view_count": 0,
+   "category": "自動化工作流",
+   "summary": "本文整理 Anthropic 內部報告，展示 Claude Code 在資料基礎架構、成長行銷、法務與產品設計等 10 個部門的實際應用案例，說明非技術員工如何透過 AI 程式工具建立自動化工作流與應用程式。",
+   "tags": [
+    "Claude Code",
+    "自動化工作流",
+    "企業應用",
+    "AI 實戰"
+   ],
+   "search_terms": [
+    "Claude Code 應用",
+    "AI 自動化工作流",
+    "Anthropic 內部報告",
+    "非工程人員 AI 開發",
+    "部門 AI 應用案例",
+    "Claude 實戰指南"
+   ],
+   "url": "https://www.managertoday.com.tw/articles/view/71772",
+   "content_type": "article",
    "difficulty": "進階"
   },
   {
@@ -22646,6 +23018,36 @@
    "search_terms": [],
    "url": null,
    "content_type": "video",
+   "difficulty": "入門"
+  },
+  {
+   "video_id": "art_7482d2d44835",
+   "title": "5 個上班族必學 Claude 提示詞：規畫工作進度、專案狀態報告...範例一次看|經理人",
+   "channel": "經理人 Managertoday",
+   "duration_seconds": 0,
+   "published_at": "2025-11-24T00:00:00Z",
+   "thumbnail_url": "https://image-cdn.learnin.tw/bnextmedia/image/album/2023-11/img-1701139728-83732.jpg?w=900&output=webp",
+   "view_count": 0,
+   "category": "辦公應用",
+   "summary": "本文介紹 5 個上班族必學的 Claude 提示詞與應用場景，包含如何授權 Microsoft 365 連接器來自動規劃一週工作行程、從多個通訊與雲端來源自動整合資訊並生成專案狀態報告，幫助職場工作者提升效率、減輕手動彙整的負擔。",
+   "tags": [
+    "Claude",
+    "提示詞",
+    "辦公應用",
+    "專案管理"
+   ],
+   "search_terms": [
+    "Claude 提示詞",
+    "AI 辦公",
+    "工作排程",
+    "專案狀態報告",
+    "經理人",
+    "AI 生產力工具",
+    "自動化辦公",
+    "Outlook 行事曆整合"
+   ],
+   "url": "https://www.managertoday.com.tw/articles/view/71262",
+   "content_type": "article",
    "difficulty": "入門"
   },
   {
