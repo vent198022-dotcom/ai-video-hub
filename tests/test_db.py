@@ -316,3 +316,63 @@ def test_migration_adds_region(tmp_path):
     assert v["title"] == "舊影片"
     assert v["difficulty"] == "入門"
     assert v["region"] is None
+
+
+def test_insert_repo_with_license_and_score(tmp_path):
+    conn = _conn(tmp_path)
+    item = make_video("gh_a_b")
+    item.update({"content_type": "repo", "url": "https://github.com/a/b",
+                 "license": "MIT", "security_score": 7.4})
+    db.insert_video(conn, item)
+    db.update_classification(conn, "gh_a_b", True, "開源工具", "摘要", [])
+    v = db.get_site_videos(conn)[0]
+    assert v["license"] == "MIT"
+    assert v["security_score"] == 7.4
+
+
+def test_insert_defaults_license_and_score_null(tmp_path):
+    conn = _conn(tmp_path)
+    db.insert_video(conn, make_video())
+    db.update_classification(conn, "abc123", True, "工具教學", "摘要", [])
+    v = db.get_site_videos(conn)[0]
+    assert v["license"] is None
+    assert v["security_score"] is None
+
+
+def test_safety_roundtrip_and_invalid(tmp_path):
+    conn = _conn(tmp_path)
+    db.insert_video(conn, make_video("s1"))
+    db.update_classification(conn, "s1", True, "工具教學", "摘要", [], safety="安全")
+    assert db.get_site_videos(conn)[0]["safety"] == "安全"
+    db.insert_video(conn, make_video("s2"))
+    db.update_classification(conn, "s2", True, "工具教學", "摘要", [], safety="超危險")
+    got = {v["video_id"]: v["safety"] for v in db.get_site_videos(conn)}
+    assert got["s2"] is None          # 非法值存 NULL
+    assert len(got) == 2              # 但仍然上架
+
+
+def test_migration_adds_safety_columns(tmp_path):
+    """舊資料庫遷移後三個新欄位皆為 NULL 且既有資料不損。"""
+    import sqlite3
+    path = tmp_path / "old.db"
+    old = sqlite3.connect(str(path))
+    old.executescript("""
+        CREATE TABLE videos (
+            video_id TEXT PRIMARY KEY, title TEXT NOT NULL, channel TEXT,
+            description TEXT, published_at TEXT, thumbnail_url TEXT,
+            duration_seconds INTEGER, view_count INTEGER, category TEXT,
+            summary TEXT, tags TEXT, search_terms TEXT, url TEXT,
+            content_type TEXT NOT NULL DEFAULT 'video', difficulty TEXT,
+            region TEXT, status TEXT NOT NULL DEFAULT 'pending',
+            collected_at TEXT);
+        CREATE TABLE meta (key TEXT PRIMARY KEY, value TEXT);
+        INSERT INTO videos (video_id, title, status, category, summary, tags,
+                            difficulty, region)
+        VALUES ('old1', '舊影片', 'classified', '工具教學', '摘要', '[]', '入門', '國內');
+    """)
+    old.commit()
+    old.close()
+    conn = db.connect(path)
+    v = db.get_site_videos(conn)[0]
+    assert v["title"] == "舊影片" and v["region"] == "國內"
+    assert v["license"] is None and v["security_score"] is None and v["safety"] is None

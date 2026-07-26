@@ -4,6 +4,7 @@ import sqlite3
 
 DIFFICULTIES = ("入門", "進階", "專家")
 REGIONS = ("國內", "國外")
+SAFETY = ("安全", "疑慮")
 
 _SCHEMA = """
 CREATE TABLE IF NOT EXISTS videos (
@@ -23,6 +24,9 @@ CREATE TABLE IF NOT EXISTS videos (
     content_type     TEXT NOT NULL DEFAULT 'video',
     difficulty       TEXT,
     region           TEXT,
+    license          TEXT,
+    security_score   REAL,
+    safety           TEXT,
     status           TEXT NOT NULL DEFAULT 'pending',
     collected_at     TEXT DEFAULT (datetime('now'))
 );
@@ -62,6 +66,15 @@ def _migrate(conn):
     if "region" not in cols:
         conn.execute("ALTER TABLE videos ADD COLUMN region TEXT")
         added = True
+    if "license" not in cols:
+        conn.execute("ALTER TABLE videos ADD COLUMN license TEXT")
+        added = True
+    if "security_score" not in cols:
+        conn.execute("ALTER TABLE videos ADD COLUMN security_score REAL")
+        added = True
+    if "safety" not in cols:
+        conn.execute("ALTER TABLE videos ADD COLUMN safety TEXT")
+        added = True
     if added:
         conn.commit()
 
@@ -73,14 +86,14 @@ def video_exists(conn, video_id):
 
 def insert_video(conn, video):
     """寫入一筆內容（影片或文章）。content_type 未給時預設為 video。"""
-    row = {"content_type": "video", "url": None, **video}
+    row = {"content_type": "video", "url": None, "license": None, "security_score": None, **video}
     conn.execute(
         "INSERT OR IGNORE INTO videos"
         " (video_id, title, channel, description, published_at,"
-        "  thumbnail_url, duration_seconds, view_count, url, content_type, status)"
+        "  thumbnail_url, duration_seconds, view_count, url, content_type, license, security_score, status)"
         " VALUES (:video_id, :title, :channel, :description, :published_at,"
         "  :thumbnail_url, :duration_seconds, :view_count, :url, :content_type,"
-        "  'pending')",
+        "  :license, :security_score, 'pending')",
         row,
     )
     conn.commit()
@@ -94,16 +107,17 @@ def get_videos_by_status(conn, status):
 
 
 def update_classification(conn, video_id, is_relevant, category, summary, tags,
-                          search_terms=None, difficulty=None, region=None):
+                          search_terms=None, difficulty=None, region=None, safety=None):
     status = "classified" if is_relevant else "excluded"
     conn.execute(
         "UPDATE videos SET status = ?, category = ?, summary = ?, tags = ?,"
-        " search_terms = ?, difficulty = ?, region = ? WHERE video_id = ?",
+        " search_terms = ?, difficulty = ?, region = ?, safety = ? WHERE video_id = ?",
         (status, category, summary,
          json.dumps(tags or [], ensure_ascii=False),
          json.dumps(search_terms or [], ensure_ascii=False),
          difficulty if difficulty in DIFFICULTIES else None,
          region if region in REGIONS else None,
+         safety if safety in SAFETY else None,
          video_id),
     )
     conn.commit()
@@ -165,7 +179,7 @@ def get_site_videos(conn):
     rows = conn.execute(
         "SELECT video_id, title, channel, duration_seconds, published_at,"
         " thumbnail_url, view_count, category, summary, tags, search_terms, url, content_type,"
-        " difficulty, region"
+        " difficulty, region, license, security_score, safety"
         " FROM videos WHERE status = 'classified' ORDER BY published_at DESC"
     ).fetchall()
     out = []
