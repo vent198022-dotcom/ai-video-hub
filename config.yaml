@@ -51,3 +51,28 @@ transcript:
 
 article:
   max_chars: 3000    # 文章正文送進 AI 的字數上限
+
+sites:                     # 自動訂閱的網站（只支援有 RSS 或 sitemap 的站）
+  - name: 遠見
+    feed: https://www.gvm.com.tw/rss
+  - name: 科技島
+    feed: https://www.technice.com.tw/feed
+  - name: 數位時代
+    sitemap: https://www.bnext.com.tw/feed/sitemap.xml
+    sitemap_filter: /article/
+
+site_filter:
+  max_per_site: 20         # 每站每次最多取幾篇（先關鍵字篩選再取）
+  match:                   # 標題或網址命中任一詞才收；之後仍由 AI 判斷是否為教學內容
+    - AI
+    - ChatGPT
+    - Claude
+    - Gemini
+    - Copilot
+    - LLM
+    - agent
+    - n8n
+    - 生成式
+    - 自動化
+    - 提示詞
+    - 機器學習

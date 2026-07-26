@@ -15,6 +15,7 @@ import collector
 import db
 import generator
 import publisher
+import sites
 import submissions
 import transcript
 
@@ -78,10 +79,24 @@ def main():
     except Exception:
         log.exception("收集階段失敗，繼續處理既有待分類影片")
 
+    site_urls = []
+    try:
+        site_list = cfg.get("sites") or []
+        if site_list:
+            sf = cfg.get("site_filter") or {}
+            kw = sf.get("match") or []
+            cap = sf.get("max_per_site", 20)
+            for site in site_list:
+                site_urls.extend(sites.discover(site, kw, cap))
+            if site_urls:
+                log.info("網站訂閱共發現 %d 篇候選文章", len(site_urls))
+    except Exception:
+        log.exception("網站訂閱階段失敗，略過本次訂閱")
+
     art_max = (cfg.get("article") or {}).get("max_chars", 3000)
     art_added = 0
     try:
-        for url in submitted_articles:
+        for url in dict.fromkeys(list(submitted_articles) + site_urls):
             if db.video_exists(conn, article.make_id(url)):
                 continue
             item = article.fetch(url, art_max)
@@ -89,10 +104,10 @@ def main():
                 continue          # article.fetch 已記錄原因
             db.insert_video(conn, item)
             art_added += 1
-        if art_added:
-            log.info("文章收集完成：新增 %d 篇", art_added)
     except Exception:
-        log.exception("文章收集階段失敗，繼續處理既有待分類影片")
+        log.exception("文章收集階段失敗，已寫入的文章不受影響")
+    if art_added:
+        log.info("文章收集完成：新增 %d 篇", art_added)
 
     tcfg = cfg.get("transcript") or {}
     use_transcript = bool(tcfg.get("enabled"))
