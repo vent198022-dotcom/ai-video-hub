@@ -15,6 +15,7 @@ CREATE TABLE IF NOT EXISTS videos (
     category         TEXT,
     summary          TEXT,
     tags             TEXT,
+    search_terms     TEXT,
     status           TEXT NOT NULL DEFAULT 'pending',
     collected_at     TEXT DEFAULT (datetime('now'))
 );
@@ -29,7 +30,16 @@ def connect(db_path):
     conn = sqlite3.connect(str(db_path))
     conn.row_factory = sqlite3.Row
     conn.executescript(_SCHEMA)
+    _migrate(conn)
     return conn
+
+
+def _migrate(conn):
+    """既有資料庫缺新欄位時補上（ALTER TABLE，不動既有資料）。"""
+    cols = {r["name"] for r in conn.execute("PRAGMA table_info(videos)")}
+    if "search_terms" not in cols:
+        conn.execute("ALTER TABLE videos ADD COLUMN search_terms TEXT")
+        conn.commit()
 
 
 def video_exists(conn, video_id):
@@ -56,12 +66,16 @@ def get_videos_by_status(conn, status):
     return [dict(r) for r in rows]
 
 
-def update_classification(conn, video_id, is_relevant, category, summary, tags):
+def update_classification(conn, video_id, is_relevant, category, summary, tags,
+                          search_terms=None):
     status = "classified" if is_relevant else "excluded"
     conn.execute(
-        "UPDATE videos SET status = ?, category = ?, summary = ?, tags = ?"
-        " WHERE video_id = ?",
-        (status, category, summary, json.dumps(tags or [], ensure_ascii=False), video_id),
+        "UPDATE videos SET status = ?, category = ?, summary = ?, tags = ?,"
+        " search_terms = ? WHERE video_id = ?",
+        (status, category, summary,
+         json.dumps(tags or [], ensure_ascii=False),
+         json.dumps(search_terms or [], ensure_ascii=False),
+         video_id),
     )
     conn.commit()
 
@@ -69,6 +83,19 @@ def update_classification(conn, video_id, is_relevant, category, summary, tags):
 def mark_failed(conn, video_id):
     conn.execute("UPDATE videos SET status = 'failed' WHERE video_id = ?", (video_id,))
     conn.commit()
+
+
+def mark_removed(conn, video_ids):
+    """批次標記影片為已失效（下架／轉私人），回傳筆數。"""
+    if not video_ids:
+        return 0
+    placeholders = ",".join("?" * len(video_ids))
+    cur = conn.execute(
+        f"UPDATE videos SET status = 'removed' WHERE video_id IN ({placeholders})",
+        list(video_ids),
+    )
+    conn.commit()
+    return cur.rowcount
 
 
 def get_meta(conn, key):
@@ -88,12 +115,13 @@ def set_meta(conn, key, value):
 def get_site_videos(conn):
     rows = conn.execute(
         "SELECT video_id, title, channel, duration_seconds, published_at,"
-        " thumbnail_url, view_count, category, summary, tags"
+        " thumbnail_url, view_count, category, summary, tags, search_terms"
         " FROM videos WHERE status = 'classified' ORDER BY published_at DESC"
     ).fetchall()
     out = []
     for r in rows:
         d = dict(r)
         d["tags"] = json.loads(d["tags"] or "[]")
+        d["search_terms"] = json.loads(d["search_terms"] or "[]")
         out.append(d)
     return out
