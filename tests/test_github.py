@@ -167,3 +167,36 @@ def test_discover_queries_scorecard_once_per_repo(monkeypatch):
     items = github.discover("tok", ["A", "B"], 100, 30)
     assert calls == ["langgenius/dify"]      # 兩個查詢撈到同一專案只查一次
     assert items[0]["security_score"] == 6.5
+
+
+def test_fetch_repo_returns_repo(monkeypatch):
+    captured = {}
+
+    def fake_get(url, headers=None, **k):
+        captured["url"] = url
+        captured["headers"] = headers or {}
+        return FakeResp(REPO)
+
+    monkeypatch.setattr(github.requests, "get", fake_get)
+    assert github.fetch_repo("tok", "langgenius/dify") == REPO
+    assert captured["url"].endswith("/repos/langgenius/dify")
+    assert captured["headers"]["Authorization"] == "Bearer tok"
+    assert "tok" not in captured["url"]
+
+
+def test_fetch_repo_failure_returns_none(monkeypatch):
+    def boom(*a, **k):
+        raise github.requests.HTTPError("404")
+    monkeypatch.setattr(github.requests, "get", boom)
+    assert github.fetch_repo("tok", "a/b") is None
+
+
+def test_fetch_repo_bad_payload_returns_none(monkeypatch):
+    monkeypatch.setattr(github.requests, "get", lambda *a, **k: FakeResp("不是 dict"))
+    assert github.fetch_repo("tok", "a/b") is None
+
+
+def test_fetch_repo_skips_archived(monkeypatch):
+    monkeypatch.setattr(github.requests, "get",
+                        lambda *a, **k: FakeResp(dict(REPO, archived=True)))
+    assert github.fetch_repo("tok", "a/b") is None

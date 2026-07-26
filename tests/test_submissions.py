@@ -41,17 +41,18 @@ https://youtu.be/bbbbbbbbbbb
 https://medium.com/@someone/post-title
 隨手打的字
 """)
-    videos, articles = submissions.read_entries(p)
+    videos, articles, repos = submissions.read_entries(p)
     assert videos == ["aaaaaaaaaaa", "bbbbbbbbbbb"]
     assert articles == [
         "https://www.inside.com.tw/article/12345",
         "https://medium.com/@someone/post-title",
     ]
+    assert repos == []
 
 
 def test_read_entries_dedups_articles(tmp_path):
     p = _write(tmp_path, "https://x.com/a\nhttps://x.com/a\nhttps://x.com/b\n")
-    _, articles = submissions.read_entries(p)
+    _, articles, _ = submissions.read_entries(p)
     assert articles == ["https://x.com/a", "https://x.com/b"]
 
 
@@ -61,4 +62,68 @@ def test_read_ids_still_returns_only_videos(tmp_path):
 
 
 def test_read_entries_missing_file(tmp_path):
-    assert submissions.read_entries(tmp_path / "nope.txt") == ([], [])
+    assert submissions.read_entries(tmp_path / "nope.txt") == ([], [], [])
+
+
+def test_parse_repo_accepts_common_forms():
+    cases = [
+        "https://github.com/langgenius/dify",
+        "https://github.com/langgenius/dify/",
+        "https://github.com/langgenius/dify.git",
+        "https://github.com/langgenius/dify/tree/main",
+        "https://github.com/langgenius/dify/blob/main/README.md",
+        "https://github.com/langgenius/dify?tab=readme-ov-file",
+        "https://github.com/langgenius/dify#installation",
+        "http://github.com/langgenius/dify",
+        "https://www.github.com/langgenius/dify",
+    ]
+    for u in cases:
+        assert submissions.parse_repo(u) == "langgenius/dify", u
+
+
+def test_parse_repo_rejects_non_repo_urls():
+    for u in [
+        "https://github.com/langgenius",
+        "https://github.com/orgs/langgenius/repositories",
+        "https://gist.github.com/someone/abc123",
+        "https://gitlab.com/foo/bar",
+        "https://example.com/foo/bar",
+        "https://github.com/settings/profile",
+        "https://github.com/topics/ai",
+        "https://github.com/marketplace/actions/x",
+        "not a url",
+    ]:
+        assert submissions.parse_repo(u) is None, u
+
+
+def test_read_entries_splits_three_ways(tmp_path):
+    p = _write(tmp_path, """
+# 註解
+https://www.youtube.com/watch?v=aaaaaaaaaaa
+https://github.com/langgenius/dify
+https://www.inside.com.tw/article/12345
+https://github.com/langflow-ai/langflow/tree/main
+https://youtu.be/bbbbbbbbbbb
+""")
+    videos, articles, repos = submissions.read_entries(p)
+    assert videos == ["aaaaaaaaaaa", "bbbbbbbbbbb"]
+    assert articles == ["https://www.inside.com.tw/article/12345"]
+    assert repos == ["langgenius/dify", "langflow-ai/langflow"]
+
+
+def test_read_entries_dedups_repos(tmp_path):
+    p = _write(tmp_path,
+               "https://github.com/a/b\nhttps://github.com/a/b/tree/main\n"
+               "https://github.com/c/d\n")
+    _, _, repos = submissions.read_entries(p)
+    assert repos == ["a/b", "c/d"]
+
+
+def test_read_entries_missing_file_three_empty(tmp_path):
+    assert submissions.read_entries(tmp_path / "nope.txt") == ([], [], [])
+
+
+def test_read_ids_still_only_videos(tmp_path):
+    p = _write(tmp_path, "https://youtu.be/bbbbbbbbbbb\n"
+                         "https://github.com/a/b\nhttps://example.com/post\n")
+    assert submissions.read_ids(p) == ["bbbbbbbbbbb"]

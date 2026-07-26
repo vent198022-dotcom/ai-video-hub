@@ -79,6 +79,32 @@ def search(token, query, min_stars, pushed_after, per_page=20):
     return kept
 
 
+REPO_URL = "https://api.github.com/repos/{full_name}"
+
+
+def fetch_repo(token, full_name):
+    """查詢單一專案（供手動指定使用）；查不到、已封存或失敗回傳 None。
+
+    不檢查授權條款——手動指定代表使用者已自行判斷，與手動提交影片
+    不受時長限制同理。
+    """
+    try:
+        resp = requests.get(REPO_URL.format(full_name=full_name),
+                            headers=_headers(token), timeout=TIMEOUT)
+        resp.raise_for_status()
+        repo = resp.json()
+    except (requests.RequestException, ValueError) as e:
+        log.warning("查詢專案「%s」失敗：%s", full_name, collector._safe_err(e))
+        return None
+    if not isinstance(repo, dict) or not repo.get("full_name"):
+        log.warning("專案「%s」回應格式異常，略過", full_name)
+        return None
+    if repo.get("archived"):
+        log.info("專案「%s」已封存，略過", full_name)
+        return None
+    return repo
+
+
 def fetch_readme(token, full_name, max_chars=3000):
     """抓取專案 README 純文字（截斷）；抓不到回傳空字串。"""
     try:
