@@ -8,6 +8,7 @@ from pathlib import Path
 import yaml
 from dotenv import load_dotenv
 
+import article
 import classifier
 import cleanup
 import collector
@@ -57,22 +58,38 @@ def main():
         now - timedelta(days=cfg["filters"]["initial_days"])
     )
 
+    submitted_articles = []
     try:
-        submitted = submissions.read_ids(ROOT / "submit.txt")
-        if submitted:
-            log.info("讀到 %d 筆手動提交", len(submitted))
+        submitted_videos, submitted_articles = submissions.read_entries(
+            ROOT / "submit.txt")
+        if submitted_videos or submitted_articles:
+            log.info("讀到手動提交：影片 %d 筆、文章 %d 筆",
+                     len(submitted_videos), len(submitted_articles))
         added = collector.collect(
             conn, yt_key, cfg["keywords"], published_after,
             min_duration=cfg["filters"]["min_duration_seconds"],
             language=cfg["filters"]["relevance_language"],
             max_results=cfg["filters"]["max_results_per_keyword"],
             channels=cfg.get("channels") or [],
-            extra_ids=submitted,
+            extra_ids=submitted_videos,
         )
         db.set_meta(conn, "last_collect_at", _utc_iso(now))
         log.info("收集完成：新增 %d 部影片", added)
     except Exception:
         log.exception("收集階段失敗，繼續處理既有待分類影片")
+
+    art_max = (cfg.get("article") or {}).get("max_chars", 3000)
+    art_added = 0
+    for url in submitted_articles:
+        if db.video_exists(conn, article.make_id(url)):
+            continue
+        item = article.fetch(url, art_max)
+        if item is None:
+            continue          # article.fetch 已記錄原因
+        db.insert_video(conn, item)
+        art_added += 1
+    if art_added:
+        log.info("文章收集完成：新增 %d 篇", art_added)
 
     tcfg = cfg.get("transcript") or {}
     use_transcript = bool(tcfg.get("enabled"))

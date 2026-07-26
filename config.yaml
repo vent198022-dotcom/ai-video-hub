@@ -48,3 +48,6 @@ transcript:
   enabled: true
   max_chars: 3000
   batch_size: 5    # 有字幕時每批影片數（字幕佔 token，批次必須調小）
+
+article:
+  max_chars: 3000    # 文章正文送進 AI 的字數上限

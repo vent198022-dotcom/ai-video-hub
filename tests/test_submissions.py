@@ -30,3 +30,35 @@ def test_missing_file_returns_empty(tmp_path):
 def test_ignores_unparseable_lines(tmp_path):
     p = _write(tmp_path, "https://example.com/foo\n隨手打的字\n")
     assert submissions.read_ids(p) == []
+
+
+def test_read_entries_splits_videos_and_articles(tmp_path):
+    p = _write(tmp_path, """
+# 註解
+https://www.youtube.com/watch?v=aaaaaaaaaaa
+https://www.inside.com.tw/article/12345
+https://youtu.be/bbbbbbbbbbb
+https://medium.com/@someone/post-title
+隨手打的字
+""")
+    videos, articles = submissions.read_entries(p)
+    assert videos == ["aaaaaaaaaaa", "bbbbbbbbbbb"]
+    assert articles == [
+        "https://www.inside.com.tw/article/12345",
+        "https://medium.com/@someone/post-title",
+    ]
+
+
+def test_read_entries_dedups_articles(tmp_path):
+    p = _write(tmp_path, "https://x.com/a\nhttps://x.com/a\nhttps://x.com/b\n")
+    _, articles = submissions.read_entries(p)
+    assert articles == ["https://x.com/a", "https://x.com/b"]
+
+
+def test_read_ids_still_returns_only_videos(tmp_path):
+    p = _write(tmp_path, "https://youtu.be/bbbbbbbbbbb\nhttps://example.com/post\n")
+    assert submissions.read_ids(p) == ["bbbbbbbbbbb"]
+
+
+def test_read_entries_missing_file(tmp_path):
+    assert submissions.read_entries(tmp_path / "nope.txt") == ([], [])

@@ -20,7 +20,7 @@ def test_build_prompt_requires_chinese_language():
     prompt = classifier.build_prompt([make_video("v1")], CATS)
     assert "中文" in prompt
     assert "繁體或簡體" in prompt
-    assert "非中文影片一律不相關" in prompt
+    assert "非中文內容一律不相關" in prompt
 
 
 def test_classify_batch_key_in_header_not_url(monkeypatch):
@@ -147,6 +147,19 @@ def test_build_prompt_includes_transcript_when_present():
 def test_build_prompt_omits_empty_transcript():
     prompt = classifier.build_prompt([make_video("v1")], CATS)
     assert "transcript" not in prompt
+
+
+def test_build_prompt_gives_articles_full_body():
+    v = make_video("art_1", description="正" * 2000)
+    v["content_type"] = "article"
+    prompt = classifier.build_prompt([v], CATS)
+    assert prompt.count("正") > 1000        # 文章用長版正文，不是 300 字截斷
+
+
+def test_build_prompt_keeps_video_description_short():
+    v = make_video("v1", description="甲" * 2000)
+    prompt = classifier.build_prompt([v], CATS)
+    assert prompt.count("甲") == 300        # 影片維持 300 字
 
 
 def test_classify_pending_fetches_and_stores_search_terms(tmp_path, monkeypatch):

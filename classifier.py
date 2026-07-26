@@ -11,12 +11,13 @@ GEMINI_URL = "https://generativelanguage.googleapis.com/v1beta/models/{model}:ge
 
 log = logging.getLogger(__name__)
 
-_PROMPT_TEMPLATE = """你是影片內容分類助手。以下是 YouTube 影片清單（JSON），請逐一判斷：
+_PROMPT_TEMPLATE = """你是影片內容分類助手。以下是內容清單（JSON，可能是 YouTube 影片或網路文章），請逐一判斷：
 1. is_relevant：是否為「中文的 AI 相關教學影片」，必須同時滿足兩個條件：
-   (a) 語言為中文（繁體或簡體皆可）；英文、日文、韓文等非中文影片一律不相關
+   (a) 語言為中文（繁體或簡體皆可）；英文、日文、韓文等非中文內容一律不相關
    (b) 內容為教學、實作、應用示範；純新聞、廣告、閒聊、蹭關鍵字的不算
 2. category：從固定清單中選一個，不得自創：{categories}
 3. summary：繁體中文摘要。**若該影片附有字幕逐字稿內容，必須依據逐字稿內容撰寫 80~120 字的具體摘要，說明實際教了哪些步驟或工具**；沒有字幕逐字稿時，依標題與描述寫 50~80 字摘要
+   若該筆為文章（content_type 為 article），依 description 內的正文撰寫 80~120 字摘要。
 4. tags：1~4 個簡短標籤
 5. search_terms：5~10 個搜尋詞，涵蓋同義詞、口語說法、英文對照與相關情境用語。
    例如一部教 AI 寫 email 的影片可給：["回信", "email", "電子郵件", "郵件回覆", "客服回信", "書信"]。
@@ -33,12 +34,15 @@ _PROMPT_TEMPLATE = """你是影片內容分類助手。以下是 YouTube 影片�
 def build_prompt(videos, categories):
     slim = []
     for v in videos:
+        is_article = v.get("content_type") == "article"
         item = {
             "video_id": v["video_id"],
             "title": v["title"],
             "channel": v.get("channel", ""),
-            "description": (v.get("description") or "")[:300],
+            "description": (v.get("description") or "")[:3000 if is_article else 300],
         }
+        if is_article:
+            item["content_type"] = "article"
         if v.get("transcript"):
             item["transcript"] = v["transcript"]
         slim.append(item)
