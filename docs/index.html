@@ -19,13 +19,24 @@
   #types .tab { font-size:13px; padding:5px 12px; }
   #levels { display:flex; gap:6px; }
   #levels .tab { font-size:13px; padding:5px 12px; }
+  #regions { display:flex; gap:6px; }
+  #regions .tab { font-size:13px; padding:5px 12px; }
   .badge { font-size:11px; background:#fef3c7; color:#92400e; padding:2px 8px;
            border-radius:999px; font-weight:700; }
+  .badge-repo { background:#e0e7ff; color:#3730a3; }
   .lvtag { font-size:11px; padding:2px 8px; border-radius:999px; font-weight:700; }
   .lv-入門 { background:#dcfce7; color:#166534; }
   .lv-進階 { background:#dbeafe; color:#1e40af; }
   .lv-專家 { background:#fee2e2; color:#991b1b; }
+  .rgtag { font-size:11px; background:#f1f5f9; color:#475569; padding:2px 8px;
+           border-radius:999px; font-weight:700; }
+  .stars { font-size:12px; color:#b45309; font-weight:700; }
+  .lictag { font-size:11px; background:#ecfdf5; color:#065f46; padding:2px 8px;
+            border-radius:999px; font-weight:700; }
+  .sectag { font-size:11px; background:#fef9c3; color:#854d0e; padding:2px 8px;
+            border-radius:999px; font-weight:700; }
   .meta-row { display:flex; gap:6px; align-items:center; flex-wrap:wrap; }
+  .disclaimer { margin-top:28px; font-size:12px; color:var(--muted); line-height:1.7; }
   main { max-width:1200px; margin:0 auto; padding:24px; }
   #meta { color:var(--muted); font-size:13px; margin-bottom:16px; }
   .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(280px,1fr)); gap:16px; }
@@ -52,12 +63,18 @@
       <button class="tab type active" data-type="全部">全部</button>
       <button class="tab type" data-type="video">影片</button>
       <button class="tab type" data-type="article">文章</button>
+      <button class="tab type" data-type="repo">專案</button>
     </div>
     <div id="levels">
       <button class="tab lv active" data-lv="全部">不限程度</button>
       <button class="tab lv" data-lv="入門">入門</button>
       <button class="tab lv" data-lv="進階">進階</button>
       <button class="tab lv" data-lv="專家">專家</button>
+    </div>
+    <div id="regions">
+      <button class="tab rg active" data-rg="全部">不限地區</button>
+      <button class="tab rg" data-rg="國內">國內</button>
+      <button class="tab rg" data-rg="國外">國外</button>
     </div>
     <div id="tabs"></div>
   </div>
@@ -66,12 +83,15 @@
   <div id="meta"></div>
   <div id="grid" class="grid"></div>
   <div id="empty" class="empty" hidden>沒有符合條件的影片</div>
+  <p class="disclaimer">開源專案僅經過授權條款、AI 風險審視與 OpenSSF 評分等風險訊號檢查，
+  不等於原始碼安全稽核；實際導入前請自行評估。</p>
 </main>
 <script>
 let videos = [];
 let activeCat = '全部';
 let activeType = '全部';
 let activeLevel = '全部';
+let activeRegion = '全部';
 const $ = id => document.getElementById(id);
 
 function esc(s) {
@@ -86,22 +106,30 @@ function render() {
     (activeCat === '全部' || v.category === activeCat) &&
     (activeType === '全部' || (v.content_type || 'video') === activeType) &&
     (activeLevel === '全部' || v.difficulty === activeLevel) &&
+    (activeRegion === '全部' || v.region === activeRegion) &&
     (!q || (v.title + ' ' + v.summary + ' ' + (v.tags || []).join(' ') + ' ' + v.channel
       + ' ' + (v.search_terms || []).join(' '))
       .toLowerCase().includes(q)));
   $('grid').innerHTML = shown.map(v => {
-    const isArticle = (v.content_type || 'video') === 'article';
-    const href = isArticle
-      ? (v.url || '#')
-      : 'https://www.youtube.com/watch?v=' + encodeURIComponent(v.video_id);
+    const ctype = v.content_type || 'video';
+    const isRepo = ctype === 'repo';
+    const href = (ctype === 'video')
+      ? 'https://www.youtube.com/watch?v=' + encodeURIComponent(v.video_id)
+      : (v.url || '#');
+    const typeBadge = ctype === 'article' ? '<span class="badge">文章</span>'
+      : isRepo ? '<span class="badge badge-repo">專案</span>' : '';
     return `
     <div class="card"><a href="${esc(href)}" target="_blank" rel="noopener">
       <img class="thumb" src="${esc(v.thumbnail_url)}" alt="" loading="lazy">
       <div class="body">
         <div class="meta-row">
           <span class="cat">${esc(v.category)}</span>
-          ${isArticle ? '<span class="badge">文章</span>' : ''}
+          ${typeBadge}
           ${v.difficulty ? `<span class="lvtag lv-${esc(v.difficulty)}">${esc(v.difficulty)}</span>` : ''}
+          ${v.region ? `<span class="rgtag">${esc(v.region)}</span>` : ''}
+          ${isRepo && v.view_count ? `<span class="stars">★ ${v.view_count.toLocaleString()}</span>` : ''}
+          ${isRepo && v.license ? `<span class="lictag">${esc(v.license)}</span>` : ''}
+          ${isRepo && v.security_score != null ? `<span class="sectag">安全評分 ${esc(String(v.security_score))}</span>` : ''}
         </div>
         <div class="title">${esc(v.title)}</div>
         <div class="channel">${esc(v.channel)}${v.published_at ? '｜' + new Date(v.published_at).toLocaleDateString('zh-TW') : ''}</div>
@@ -134,12 +162,20 @@ $('levels').addEventListener('click', e => {
   activeLevel = e.target.dataset.lv;
   render();
 });
+$('regions').addEventListener('click', e => {
+  if (!e.target.classList.contains('tab')) return;
+  document.querySelectorAll('#regions .tab').forEach(t => t.classList.remove('active'));
+  e.target.classList.add('active');
+  activeRegion = e.target.dataset.rg;
+  render();
+});
 
 fetch('videos.json').then(r => r.json()).then(data => {
   videos = data.videos;
   const nv = videos.filter(v => (v.content_type || 'video') === 'video').length;
-  const na = videos.length - nv;
-  $('meta').textContent = `共 ${nv} 部影片、${na} 篇文章｜更新時間：`
+  const na = videos.filter(v => v.content_type === 'article').length;
+  const nr = videos.filter(v => v.content_type === 'repo').length;
+  $('meta').textContent = `共 ${nv} 部影片、${na} 篇文章、${nr} 個專案｜更新時間：`
     + new Date(data.generated_at).toLocaleString('zh-TW');
   const cats = ['全部', ...new Set(videos.map(v => v.category))];
   $('tabs').innerHTML = cats.map(c =>
