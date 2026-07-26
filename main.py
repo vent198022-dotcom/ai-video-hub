@@ -61,12 +61,14 @@ def main():
     )
 
     submitted_articles = []
+    submitted_repos = []
     try:
-        submitted_videos, submitted_articles = submissions.read_entries(
-            ROOT / "submit.txt")
-        if submitted_videos or submitted_articles:
-            log.info("讀到手動提交：影片 %d 筆、文章 %d 筆",
-                     len(submitted_videos), len(submitted_articles))
+        submitted_videos, submitted_articles, submitted_repos = (
+            submissions.read_entries(ROOT / "submit.txt"))
+        if submitted_videos or submitted_articles or submitted_repos:
+            log.info("讀到手動提交：影片 %d 筆、文章 %d 筆、專案 %d 筆",
+                     len(submitted_videos), len(submitted_articles),
+                     len(submitted_repos))
         added = collector.collect(
             conn, yt_key, cfg["keywords"], published_after,
             min_duration=cfg["filters"]["min_duration_seconds"],
@@ -110,6 +112,31 @@ def main():
                 log.info("GitHub 發現 %d 個候選專案", len(repo_items))
     except Exception:
         log.exception("GitHub 收集階段失敗，略過本次收集")
+
+    if submitted_repos:
+        try:
+            gh_token = os.environ.get("GITHUB_TOKEN")
+            if not gh_token:
+                log.warning("缺少 GITHUB_TOKEN，略過手動指定的專案")
+            else:
+                gcfg = cfg.get("github") or {}
+                readme_chars = gcfg.get("readme_chars", 3000)
+                known = {i["video_id"] for i in repo_items}
+                for name in submitted_repos:
+                    vid = "gh_" + name.replace("/", "_")
+                    if vid in known or db.video_exists(conn, vid):
+                        continue
+                    repo = github.fetch_repo(gh_token, name)
+                    if repo is None:
+                        continue      # fetch_repo 已記錄原因
+                    repo_items.append(github.to_item(
+                        repo,
+                        github.fetch_readme(gh_token, repo["full_name"],
+                                             max_chars=readme_chars),
+                        github.fetch_scorecard(repo["full_name"])))
+                    log.info("手動指定專案「%s」已收錄（未套用授權檢查）", name)
+        except Exception:
+            log.exception("手動專案階段失敗，略過")
 
     repo_added = 0
     try:
