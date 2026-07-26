@@ -134,3 +134,43 @@ def test_classify_pending_missing_result_marks_failed(tmp_path, monkeypatch):
     ])
     ok, skip, fail = classifier.classify_pending(conn, "key", "model", CATS)
     assert (ok, skip, fail) == (1, 0, 1)
+
+
+def test_build_prompt_includes_transcript_when_present():
+    v = make_video("v1")
+    v["transcript"] = "這是字幕逐字稿內容"
+    prompt = classifier.build_prompt([v], CATS)
+    assert "這是字幕逐字稿內容" in prompt
+    assert "search_terms" in prompt
+
+
+def test_build_prompt_omits_empty_transcript():
+    prompt = classifier.build_prompt([make_video("v1")], CATS)
+    assert "transcript" not in prompt
+
+
+def test_classify_pending_fetches_and_stores_search_terms(tmp_path, monkeypatch):
+    conn = _setup(tmp_path, "v1")
+    seen = {}
+
+    def fake_batch(api_key, model, videos, categories):
+        seen["transcript"] = videos[0].get("transcript")
+        return [{"video_id": "v1", "is_relevant": True, "category": "工具教學",
+                 "summary": "深度摘要", "tags": ["t"],
+                 "search_terms": ["回信", "email"]}]
+
+    monkeypatch.setattr(classifier, "classify_batch", fake_batch)
+    classifier.classify_pending(conn, "k", "m", CATS,
+                                transcript_fn=lambda vid: f"字幕-{vid}")
+    assert seen["transcript"] == "字幕-v1"
+    assert db.get_site_videos(conn)[0]["search_terms"] == ["回信", "email"]
+
+
+def test_classify_pending_without_transcript_fn(tmp_path, monkeypatch):
+    conn = _setup(tmp_path, "v1")
+    monkeypatch.setattr(classifier, "classify_batch", lambda *a, **k: [
+        {"video_id": "v1", "is_relevant": True, "category": "工具教學",
+         "summary": "一般摘要", "tags": [], "search_terms": []},
+    ])
+    ok, skip, fail = classifier.classify_pending(conn, "k", "m", CATS)
+    assert (ok, skip, fail) == (1, 0, 0)

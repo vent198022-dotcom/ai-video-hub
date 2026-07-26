@@ -16,27 +16,32 @@ _PROMPT_TEMPLATE = """你是影片內容分類助手。以下是 YouTube 影片�
    (a) 語言為中文（繁體或簡體皆可）；英文、日文、韓文等非中文影片一律不相關
    (b) 內容為教學、實作、應用示範；純新聞、廣告、閒聊、蹭關鍵字的不算
 2. category：從固定清單中選一個，不得自創：{categories}
-3. summary：50~80 字的繁體中文摘要，說明這部影片教什麼
+3. summary：繁體中文摘要。**若該影片附有字幕逐字稿內容，必須依據逐字稿內容撰寫 80~120 字的具體摘要，說明實際教了哪些步驟或工具**；沒有字幕逐字稿時，依標題與描述寫 50~80 字摘要
 4. tags：1~4 個簡短標籤
+5. search_terms：5~10 個搜尋詞，涵蓋同義詞、口語說法、英文對照與相關情境用語。
+   例如一部教 AI 寫 email 的影片可給：["回信", "email", "電子郵件", "郵件回覆", "客服回信", "書信"]。
+   目的是讓使用者用日常說法也搜得到這部影片。
 
 影片清單：
 {videos}
 
 只回傳 JSON 陣列，每部影片一個物件，格式：
-[{{"video_id": "...", "is_relevant": true, "category": "...", "summary": "...", "tags": ["..."]}}]
+[{{"video_id": "...", "is_relevant": true, "category": "...", "summary": "...", "tags": ["..."], "search_terms": ["..."]}}]
 不相關的影片 is_relevant 填 false、category 填 null、summary 填空字串、tags 填空陣列。"""
 
 
 def build_prompt(videos, categories):
-    slim = [
-        {
+    slim = []
+    for v in videos:
+        item = {
             "video_id": v["video_id"],
             "title": v["title"],
             "channel": v.get("channel", ""),
             "description": (v.get("description") or "")[:300],
         }
-        for v in videos
-    ]
+        if v.get("transcript"):
+            item["transcript"] = v["transcript"]
+        slim.append(item)
     return _PROMPT_TEMPLATE.format(
         categories="、".join(categories),
         videos=json.dumps(slim, ensure_ascii=False, indent=1),
@@ -66,8 +71,13 @@ def classify_batch(api_key, model, videos, categories):
     return parse_response(text)
 
 
-def classify_pending(conn, api_key, model, categories, batch_size=10, pause_seconds=6):
-    """分類所有 pending 與 failed 影片。回傳 (上架數, 排除數, 失敗數)。"""
+def classify_pending(conn, api_key, model, categories, batch_size=10,
+                     pause_seconds=6, transcript_fn=None):
+    """分類所有 pending 與 failed 影片。回傳 (上架數, 排除數, 失敗數)。
+
+    transcript_fn 若提供，會在分類前對每部影片取字幕併入 prompt，
+    讓 AI 依實際內容寫出更深入的摘要。
+    """
     queue = db.get_videos_by_status(conn, "pending") + db.get_videos_by_status(conn, "failed")
     ok = skip = fail = 0
 
@@ -75,6 +85,9 @@ def classify_pending(conn, api_key, model, categories, batch_size=10, pause_seco
         if i > 0 and pause_seconds:
             time.sleep(pause_seconds)  # 批次間隔，避免超過 Gemini 免費層每分鐘請求上限
         batch = queue[i:i + batch_size]
+        if transcript_fn:
+            for v in batch:
+                v["transcript"] = transcript_fn(v["video_id"])
         try:
             results = classify_batch(api_key, model, batch, categories)
             by_id = {r["video_id"]: r for r in results if isinstance(r, dict) and "video_id" in r}
@@ -101,8 +114,9 @@ def classify_pending(conn, api_key, model, categories, batch_size=10, pause_seco
             if relevant:
                 db.update_classification(
                     conn, v["video_id"], True, category,
-                    str(r.get("summary") or "")[:200],
+                    str(r.get("summary") or "")[:300],
                     [str(t) for t in (r.get("tags") or [])][:4],
+                    search_terms=[str(s) for s in (r.get("search_terms") or [])][:10],
                 )
                 ok += 1
             else:
