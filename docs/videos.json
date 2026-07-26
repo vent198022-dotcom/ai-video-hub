@@ -1,7 +1,39 @@
 {
- "generated_at": "2026-07-26T11:49:48+00:00",
- "count": 1179,
+ "generated_at": "2026-07-26T12:01:15+00:00",
+ "count": 1218,
  "videos": [
+  {
+   "video_id": "gh_CodeGraphContext_CodeGraphContext",
+   "title": "CodeGraphContext/CodeGraphContext",
+   "channel": "CodeGraphContext",
+   "duration_seconds": 0,
+   "published_at": "2026-07-26T11:32:12Z",
+   "thumbnail_url": "https://opengraph.githubassets.com/1/CodeGraphContext/CodeGraphContext",
+   "view_count": 3991,
+   "category": "程式開發",
+   "summary": "CodeGraphContext (CGC) 是一個將程式碼庫轉換為可查詢圖譜的開源工具，專為 AI 代理設計。它能有效填合深層程式碼圖譜與 AI 上下文之間的差距，支援多國語言，並相容於 MCP 協議，幫助 AI 更準確地理解複雜專案結構。",
+   "tags": [
+    "CodeGraphContext",
+    "代碼圖譜",
+    "AI Context",
+    "MCP"
+   ],
+   "search_terms": [
+    "程式碼圖譜",
+    "code graph",
+    "AI 上下文",
+    "CGC",
+    "代碼分析",
+    "程式碼檢索"
+   ],
+   "url": "https://github.com/CodeGraphContext/CodeGraphContext",
+   "content_type": "repo",
+   "difficulty": "進階",
+   "region": "國外",
+   "license": "MIT",
+   "security_score": null,
+   "safety": "安全"
+  },
   {
    "video_id": "XTCP1qoa3cc",
    "title": "20 分鐘看完 Google AI 課程 Day 2+3 精華。MCP, A2A, Skills 解析",
@@ -36,6 +68,39 @@
    "safety": null
   },
   {
+   "video_id": "gh_comet-ml_opik",
+   "title": "comet-ml/opik",
+   "channel": "comet-ml",
+   "duration_seconds": 0,
+   "published_at": "2026-07-26T11:25:36Z",
+   "thumbnail_url": "https://opengraph.githubassets.com/1/comet-ml/opik",
+   "view_count": 20872,
+   "category": "開源工具",
+   "summary": "Opik 是一套開源的大型語言模型（LLM）可觀測性與評估平台，專為 AI 代理追蹤、LLM 評估、提示詞管理及生產環境監控而設計。由 Comet 開發且基於 Apache-2.0 授權，支援免費自架，並提供 Python SDK 協助開發者優化 AI 應用。",
+   "tags": [
+    "Opik",
+    "LLM Observability",
+    "AI Evaluation",
+    "Prompt Management"
+   ],
+   "search_terms": [
+    "Opik",
+    "Comet Opik",
+    "LLM 監控",
+    "大模型評估",
+    "AI Agent 追蹤",
+    "提示詞管理",
+    "開源工具"
+   ],
+   "url": "https://github.com/comet-ml/opik",
+   "content_type": "repo",
+   "difficulty": "進階",
+   "region": "國外",
+   "license": "Apache-2.0",
+   "security_score": null,
+   "safety": "安全"
+  },
+  {
    "video_id": "luNgxz7QzQ4",
    "title": "规则越多 AI 越笨？Anthropic删掉80%Claude Code系统提示词，零损失",
    "channel": "夜讀電臺",
@@ -68,6 +133,39 @@
    "license": null,
    "security_score": null,
    "safety": null
+  },
+  {
+   "video_id": "gh_dagucloud_dagu",
+   "title": "dagucloud/dagu",
+   "channel": "dagucloud",
+   "duration_seconds": 0,
+   "published_at": "2026-07-26T11:15:17Z",
+   "thumbnail_url": "https://opengraph.githubassets.com/1/dagucloud/dagu",
+   "view_count": 3674,
+   "category": "自動化工作流",
+   "summary": "Dagu 是一個本機優先的工作流程引擎，專為維運自動化與 AI 輔助操作設計。它採用單一二進位檔案架構，內建網頁介面，支援以宣告式 YAML 格式定義 DAG，並具備排程、重試與 AI 代理整合功能。",
+   "tags": [
+    "工作流程",
+    "自動化",
+    "AI代理",
+    "維運工具"
+   ],
+   "search_terms": [
+    "工作流引擎",
+    "自動化工作流",
+    "DAGs",
+    "ops automation",
+    "workflow engine",
+    "AI 輔助維運",
+    "YAML 流程"
+   ],
+   "url": "https://github.com/dagucloud/dagu",
+   "content_type": "repo",
+   "difficulty": "進階",
+   "region": "國外",
+   "license": "GPL-3.0",
+   "security_score": null,
+   "safety": "安全"
   },
   {
    "video_id": "gh_NousResearch_hermes-agent",
@@ -338,6 +436,103 @@
    "safety": "安全"
   },
   {
+   "video_id": "gh_pipeshub-ai_pipeshub-ai",
+   "title": "pipeshub-ai/pipeshub-ai",
+   "channel": "pipeshub-ai",
+   "duration_seconds": 0,
+   "published_at": "2026-07-26T09:32:59Z",
+   "thumbnail_url": "https://opengraph.githubassets.com/1/pipeshub-ai/pipeshub-ai",
+   "view_count": 3107,
+   "category": "開源工具",
+   "summary": "PipesHub 是一個開源的職場 AI 平台，提供企業與團隊整合人工智慧應用的開發工具與 SDK，支援 Node.js、Python 與 Go 等多種程式語言，協助打造現代化的 AI 工作環境。",
+   "tags": [
+    "AI平台",
+    "開源專案",
+    "職場應用",
+    "開發工具"
+   ],
+   "search_terms": [
+    "PipesHub",
+    "開源 AI 平台",
+    "職場 AI",
+    "AI workspace",
+    "LLM 平台",
+    "開源工具"
+   ],
+   "url": "https://github.com/pipeshub-ai/pipeshub-ai",
+   "content_type": "repo",
+   "difficulty": "進階",
+   "region": "國外",
+   "license": "Apache-2.0",
+   "security_score": null,
+   "safety": "安全"
+  },
+  {
+   "video_id": "gh_mlflow_mlflow",
+   "title": "mlflow/mlflow",
+   "channel": "mlflow",
+   "duration_seconds": 0,
+   "published_at": "2026-07-26T09:09:52Z",
+   "thumbnail_url": "https://opengraph.githubassets.com/1/mlflow/mlflow",
+   "view_count": 27217,
+   "category": "開源工具",
+   "summary": "MLflow 是一個開源的 AI 工程平台，專門用於代理、大型語言模型（LLM）及機器學習模型的除錯、評估、監控與最佳化。它提供完整的生成式 AI 觀察性、提示詞管理以及 AI 閘道器，協助團隊安全且高效地將 AI 應用推向生產環境。",
+   "tags": [
+    "MLflow",
+    "LLMOps",
+    "開源工具",
+    "AI工程平台"
+   ],
+   "search_terms": [
+    "MLflow",
+    "AI工程平台",
+    "LLMOps",
+    "模型監控",
+    "提示詞管理",
+    "AI tracing",
+    "開源AI工具"
+   ],
+   "url": "https://github.com/mlflow/mlflow",
+   "content_type": "repo",
+   "difficulty": "專家",
+   "region": "國外",
+   "license": "Apache-2.0",
+   "security_score": 5.5,
+   "safety": "安全"
+  },
+  {
+   "video_id": "gh_Skyvern-AI_skyvern",
+   "title": "Skyvern-AI/skyvern",
+   "channel": "Skyvern-AI",
+   "duration_seconds": 0,
+   "published_at": "2026-07-26T09:07:06Z",
+   "thumbnail_url": "https://opengraph.githubassets.com/1/Skyvern-AI/skyvern",
+   "view_count": 22594,
+   "category": "自動化工作流",
+   "summary": "Skyvern 是一個利用大型語言模型與電腦視覺來自動化瀏覽器基礎工作流的開源工具。它提供相容於 Playwright 的 SDK 以及無程式碼工作流程產生器，能夠替代脆弱且依賴 DOM 解析的傳統自動化腳本，讓技術與非技術使用者都能在任何網站上執行自動化操作。",
+   "tags": [
+    "瀏覽器自動化",
+    "Vision LLM",
+    "Playwright",
+    "工作流自動化"
+   ],
+   "search_terms": [
+    "Skyvern",
+    "瀏覽器自動化",
+    "AI 自動化",
+    "網頁自動化工具",
+    "Playwright AI",
+    "Computer Vision"
+   ],
+   "url": "https://github.com/Skyvern-AI/skyvern",
+   "content_type": "repo",
+   "difficulty": "進階",
+   "region": "國外",
+   "license": "AGPL-3.0",
+   "security_score": null,
+   "safety": "安全"
+  },
+  {
    "video_id": "gh_langchain-ai_langchain",
    "title": "langchain-ai/langchain",
    "channel": "langchain-ai",
@@ -367,6 +562,70 @@
    "region": "國外",
    "license": "MIT",
    "security_score": 6.1,
+   "safety": "安全"
+  },
+  {
+   "video_id": "gh_off-grid-ai_OGAM",
+   "title": "off-grid-ai/OGAM",
+   "channel": "off-grid-ai",
+   "duration_seconds": 0,
+   "published_at": "2026-07-26T08:39:42Z",
+   "thumbnail_url": "https://opengraph.githubassets.com/1/off-grid-ai/OGAM",
+   "view_count": 2809,
+   "category": "開源工具",
+   "summary": "Off Grid AI 是一個可在手機與 Mac 上離線執行的端側 AI 工具，支援對話、影像生成與工具呼叫。Pro 版本更加入語音互動、自訂角色與 MCP 伺服器整合，讓使用者在確保資料隱私的前提下進行智慧化操作。",
+   "tags": [
+    "端側 AI",
+    "離線大模型",
+    "開源工具",
+    "行動端 AI"
+   ],
+   "search_terms": [
+    "Off Grid AI",
+    "離線 AI",
+    "手機跑大模型",
+    "端側大模型",
+    "本機 AI 助理",
+    "開源 APP"
+   ],
+   "url": "https://github.com/off-grid-ai/OGAM",
+   "content_type": "repo",
+   "difficulty": "進階",
+   "region": "國外",
+   "license": "MIT",
+   "security_score": null,
+   "safety": "安全"
+  },
+  {
+   "video_id": "gh_promptslab_Awesome-Prompt-Engineering",
+   "title": "promptslab/Awesome-Prompt-Engineering",
+   "channel": "promptslab",
+   "duration_seconds": 0,
+   "published_at": "2026-07-26T08:35:27Z",
+   "thumbnail_url": "https://opengraph.githubassets.com/1/promptslab/Awesome-Prompt-Engineering",
+   "view_count": 6189,
+   "category": "開源工具",
+   "summary": "這是一個精選的提示詞工程與上下文工程資源庫，涵蓋大型語言模型的相關論文、工具、模型、API、基準測試、課程與社群，協助開發人員掌握提示詞設計與最佳實踐。",
+   "tags": [
+    "Prompt Engineering",
+    "LLM",
+    "AI",
+    "Open Source"
+   ],
+   "search_terms": [
+    "提示詞工程",
+    "Prompt Engineering",
+    "LLM 資源",
+    "大語言模型",
+    "AI 開源專案",
+    "上下文工程"
+   ],
+   "url": "https://github.com/promptslab/Awesome-Prompt-Engineering",
+   "content_type": "repo",
+   "difficulty": "進階",
+   "region": "國外",
+   "license": "Apache-2.0",
+   "security_score": null,
    "safety": "安全"
   },
   {
@@ -435,6 +694,39 @@
    "license": null,
    "security_score": null,
    "safety": null
+  },
+  {
+   "video_id": "gh_ai-boost_awesome-prompts",
+   "title": "ai-boost/awesome-prompts",
+   "channel": "ai-boost",
+   "duration_seconds": 0,
+   "published_at": "2026-07-26T07:47:54Z",
+   "thumbnail_url": "https://opengraph.githubassets.com/1/ai-boost/awesome-prompts",
+   "view_count": 8569,
+   "category": "開源工具",
+   "summary": "Awesome Prompts 是一個精選的提示詞、框架與研究論文開源專案，兼具傳統提示詞範本與工程化提示詞（如提示編程、自動優化等），涵蓋寫作、開發、資料工程等多個領域的實用資源。",
+   "tags": [
+    "提示詞",
+    "工程框架",
+    "開發資源",
+    "開源專案"
+   ],
+   "search_terms": [
+    "Awesome Prompts",
+    "提示詞收集",
+    "prompt engineering",
+    "AI 框架",
+    "提示詞範本",
+    "DSPy",
+    "開源工具"
+   ],
+   "url": "https://github.com/ai-boost/awesome-prompts",
+   "content_type": "repo",
+   "difficulty": "進階",
+   "region": "國外",
+   "license": "GPL-3.0",
+   "security_score": null,
+   "safety": "安全"
   },
   {
    "video_id": "gh_langflow-ai_langflow",
@@ -602,6 +894,40 @@
    "safety": null
   },
   {
+   "video_id": "gh_cobusgreyling_loop-engineering",
+   "title": "cobusgreyling/loop-engineering",
+   "channel": "cobusgreyling",
+   "duration_seconds": 0,
+   "published_at": "2026-07-26T03:25:50Z",
+   "thumbnail_url": "https://opengraph.githubassets.com/1/cobusgreyling/loop-engineering",
+   "view_count": 9415,
+   "category": "開源工具",
+   "summary": "Loop Engineering 是一個設計系統與提示代理的開源專案與工具集，提供命令列工具、稽核、成本控制與上下文管理等模組，協助開發者設計與優化AI代理的互動迴圈。",
+   "tags": [
+    "AI代理",
+    "提示工程",
+    "開發工具",
+    "開源專案"
+   ],
+   "search_terms": [
+    "Loop Engineering",
+    "AI agents",
+    "prompt loop",
+    "代理設計",
+    "AI 開發框架",
+    "MCP server",
+    "上下文管理",
+    "開源工具"
+   ],
+   "url": "https://github.com/cobusgreyling/loop-engineering",
+   "content_type": "repo",
+   "difficulty": "專家",
+   "region": "國外",
+   "license": "MIT",
+   "security_score": null,
+   "safety": "安全"
+  },
+  {
    "video_id": "gh_browser-use_browser-use",
    "title": "browser-use/browser-use",
    "channel": "browser-use",
@@ -733,6 +1059,70 @@
    "safety": "安全"
   },
   {
+   "video_id": "gh_Fission-AI_OpenSpec",
+   "title": "Fission-AI/OpenSpec",
+   "channel": "Fission-AI",
+   "duration_seconds": 0,
+   "published_at": "2026-07-26T00:34:02Z",
+   "thumbnail_url": "https://opengraph.githubassets.com/1/Fission-AI/OpenSpec",
+   "view_count": 62600,
+   "category": "程式開發",
+   "summary": "OpenSpec 是一個專為 AI 輔助開發設計的規格框架，強調流暢、迭代與易用性。透過全新的指令導向工作流（如 /opsx:propose 與 /opsx:apply），協助開發者快速定義需求、建立規格並自動化實作專案。",
+   "tags": [
+    "規格框架",
+    "AI 開發",
+    "軟體工程",
+    "工作流"
+   ],
+   "search_terms": [
+    "OpenSpec",
+    "AI 軟體開發",
+    "專案規格工具",
+    "程式開發工作流",
+    "自動化編程",
+    "AI 輔助開發"
+   ],
+   "url": "https://github.com/Fission-AI/OpenSpec",
+   "content_type": "repo",
+   "difficulty": "進階",
+   "region": "國外",
+   "license": "MIT",
+   "security_score": null,
+   "safety": "安全"
+  },
+  {
+   "video_id": "gh_enricoros_big-AGI",
+   "title": "enricoros/big-AGI",
+   "channel": "enricoros",
+   "duration_seconds": 0,
+   "published_at": "2026-07-26T00:12:47Z",
+   "thumbnail_url": "https://opengraph.githubassets.com/1/enricoros/big-AGI",
+   "view_count": 7058,
+   "category": "開源工具",
+   "summary": "Big-AGI 是一個功能強大的開源生成式 AI 網頁介面，支援多種大型語言模型，提供聊天、多模態互動、角色設定與本地部署等功能，適合作為個人或團隊的 AI 操作中心。",
+   "tags": [
+    "AGI",
+    "LLM前端",
+    "開源專案",
+    "AI聊天介面"
+   ],
+   "search_terms": [
+    "big-agi",
+    "AI 網頁介面",
+    "大模型前端",
+    "LLM client",
+    "開源 AI 介面",
+    "ChatGPT 替代品"
+   ],
+   "url": "https://github.com/enricoros/big-AGI",
+   "content_type": "repo",
+   "difficulty": "進階",
+   "region": "國外",
+   "license": "MIT",
+   "security_score": null,
+   "safety": "安全"
+  },
+  {
    "video_id": "-zzHD9bDAFs",
    "title": "把題目改寫成生活情境題＋建立「現象庫」｜Codex 實戰",
    "channel": "林春煌 永春高中",
@@ -796,6 +1186,38 @@
    "difficulty": "進階",
    "region": "國外",
    "license": "MIT",
+   "security_score": null,
+   "safety": "安全"
+  },
+  {
+   "video_id": "gh_the-open-agent_openagent",
+   "title": "the-open-agent/openagent",
+   "channel": "the-open-agent",
+   "duration_seconds": 0,
+   "published_at": "2026-07-25T16:24:22Z",
+   "thumbnail_url": "https://opengraph.githubassets.com/1/the-open-agent/openagent",
+   "view_count": 5451,
+   "category": "開源工具",
+   "summary": "OpenAgent 是一個基於 LLM、RAG 與自主代理循環的次世代個人 AI 助手，以單一二進位檔案發布且無需安裝。支援電腦操作、網頁瀏覽與編碼代理，讓使用者能自架平台、連接各大模型供應商，並透過知識庫與各種工具執行日常與開發任務。",
+   "tags": [
+    "OpenAgent",
+    "AI Agent",
+    "RAG",
+    "開源專案"
+   ],
+   "search_terms": [
+    "AI 代理",
+    "個人 AI 助手",
+    "自架 AI",
+    "RAG 知識庫",
+    "openagent",
+    "開源 AI 工具"
+   ],
+   "url": "https://github.com/the-open-agent/openagent",
+   "content_type": "repo",
+   "difficulty": "進階",
+   "region": "國外",
+   "license": "Apache-2.0",
    "security_score": null,
    "safety": "安全"
   },
@@ -1016,6 +1438,70 @@
    "safety": null
   },
   {
+   "video_id": "gh_github_CopilotForXcode",
+   "title": "github/CopilotForXcode",
+   "channel": "github",
+   "duration_seconds": 0,
+   "published_at": "2026-07-25T09:35:56Z",
+   "thumbnail_url": "https://opengraph.githubassets.com/1/github/CopilotForXcode",
+   "view_count": 6220,
+   "category": "工具教學",
+   "summary": "GitHub Copilot for Xcode 是針對 Swift、Objective-C 及 iOS/macOS 開發的 AI 程式碼助理。提供智慧完成、聊天、程式碼審查、Agent 模式以及下一次編輯建議等功能，能與 Xcode 環境深度整合，協助開發者快速編寫與重構程式碼。",
+   "tags": [
+    "GitHub Copilot",
+    "Xcode",
+    "iOS開發",
+    "AI助理"
+   ],
+   "search_terms": [
+    "Xcode Copilot",
+    "GitHub Copilot 蘋果開發",
+    "Swift AI",
+    "AI 寫程式",
+    "程式碼自動完成",
+    "Xcode AI 插件"
+   ],
+   "url": "https://github.com/github/CopilotForXcode",
+   "content_type": "repo",
+   "difficulty": "入門",
+   "region": "國外",
+   "license": "MIT",
+   "security_score": null,
+   "safety": "安全"
+  },
+  {
+   "video_id": "gh_openlit_openlit",
+   "title": "openlit/openlit",
+   "channel": "openlit",
+   "duration_seconds": 0,
+   "published_at": "2026-07-25T07:52:14Z",
+   "thumbnail_url": "https://opengraph.githubassets.com/1/openlit/openlit",
+   "view_count": 2640,
+   "category": "開源工具",
+   "summary": "OpenLIT 是一個用於生成式 AI 與大型語言模型的開源工程平台，提供一鍵式 OpenTelemetry 原生可觀測性、分析儀控面板、內建評估、防護欄與提示詞管理，協助開發者順利將 AI 應用從測試推進至生產環境。",
+   "tags": [
+    "OpenLIT",
+    "Observability",
+    "OpenTelemetry",
+    "LLMOps"
+   ],
+   "search_terms": [
+    "AI 可觀測性",
+    "LLM 監控",
+    "OpenLIT",
+    "OpenTelemetry",
+    "AI 工程平台",
+    "模型評估"
+   ],
+   "url": "https://github.com/openlit/openlit",
+   "content_type": "repo",
+   "difficulty": "專家",
+   "region": "國外",
+   "license": "Apache-2.0",
+   "security_score": null,
+   "safety": "安全"
+  },
+  {
    "video_id": "VtI9A4rP2B8",
    "title": "【Seedance 2.0教學】不用即夢AI帳號也能玩！DomoAI一站搞定AI影片＋對嘴神器",
    "channel": "萊丘 Laichu",
@@ -1174,6 +1660,39 @@
    "safety": "安全"
   },
   {
+   "video_id": "gh_deepset-ai_haystack",
+   "title": "deepset-ai/haystack",
+   "channel": "deepset-ai",
+   "duration_seconds": 0,
+   "published_at": "2026-07-25T03:05:22Z",
+   "thumbnail_url": "https://opengraph.githubassets.com/1/deepset-ai/haystack",
+   "view_count": 26015,
+   "category": "開源工具",
+   "summary": "Haystack 是由 deepset 開發的開源 AI 框架，專門用於建構生產級的檢索增強生成（RAG）與 AI 代理系統。它提供強大的 CI/CD 測試、類型檢查與完整的說明文件，幫助開發者在企業應用中靈活串接搜尋、文件處理、代理與雲端系統。",
+   "tags": [
+    "Haystack",
+    "RAG",
+    "AI Framework",
+    "Python"
+   ],
+   "search_terms": [
+    "Haystack",
+    "deepset",
+    "RAG 框架",
+    "LLM 框架",
+    "開源 AI 工具",
+    "AI Agents",
+    "檢索增強生成"
+   ],
+   "url": "https://github.com/deepset-ai/haystack",
+   "content_type": "repo",
+   "difficulty": "專家",
+   "region": "國外",
+   "license": "Apache-2.0",
+   "security_score": 9.4,
+   "safety": "安全"
+  },
+  {
    "video_id": "2emjLP-i51Y",
    "title": "Claude Cowork並不複雜: 14個核心概念一次講清！",
    "channel": "李厂长来了",
@@ -1274,6 +1793,38 @@
    "safety": null
   },
   {
+   "video_id": "gh_NVIDIA_NeMo-Retriever",
+   "title": "NVIDIA/NeMo-Retriever",
+   "channel": "NVIDIA",
+   "duration_seconds": 0,
+   "published_at": "2026-07-24T23:47:03Z",
+   "thumbnail_url": "https://opengraph.githubassets.com/1/NVIDIA/NeMo-Retriever",
+   "view_count": 2952,
+   "category": "開源工具",
+   "summary": "NeMo Retriever Library 是 NVIDIA 開發的高效能文件內容與後設資料擷取框架。支援處理 PDF 等文件中的文字、表格、圖表與資訊圖表，並透過 OCR 與嵌入計算將內容存入 LanceDB，適用於 RAG 檢索增強生成系統。",
+   "tags": [
+    "NVIDIA",
+    "NeMo Retriever",
+    "RAG",
+    "文件解析"
+   ],
+   "search_terms": [
+    "NeMo Retriever",
+    "NVIDIA 檢索",
+    "RAG 框架",
+    "文件擷取",
+    "向量檢索",
+    "PDF 解析"
+   ],
+   "url": "https://github.com/NVIDIA/NeMo-Retriever",
+   "content_type": "repo",
+   "difficulty": "專家",
+   "region": "國外",
+   "license": "Apache-2.0",
+   "security_score": null,
+   "safety": "安全"
+  },
+  {
    "video_id": "L5VCXCWHcvQ",
    "title": "【L4·工程】Graph:一群 AI 怎麼分工:一個 agent 扛不動時,把很多個接成一張分工圖",
    "channel": "ttsing",
@@ -1353,6 +1904,39 @@
    "difficulty": "進階",
    "region": "國外",
    "license": "Apache-2.0",
+   "security_score": null,
+   "safety": "安全"
+  },
+  {
+   "video_id": "gh_StarTrail-org_LEANN",
+   "title": "StarTrail-org/LEANN",
+   "channel": "StarTrail-org",
+   "duration_seconds": 0,
+   "published_at": "2026-07-24T22:36:21Z",
+   "thumbnail_url": "https://opengraph.githubassets.com/1/StarTrail-org/LEANN",
+   "view_count": 12731,
+   "category": "開源工具",
+   "summary": "LEANN 是一套創新的輕量級向量資料庫，旨在實現個人 AI 的民主化。透過圖基於選擇性重新計算與高效保留剪枝技術，它能在不損失準確度的情況下，較傳統解決方案節省 97% 的儲存空間，將筆記型電腦轉化為強大的本地 RAG 與語義搜尋系統。",
+   "tags": [
+    "LEANN",
+    "Vector Database",
+    "RAG",
+    "Semantic Search"
+   ],
+   "search_terms": [
+    "LEANN",
+    "向量資料庫",
+    "輕量級 RAG",
+    "本地 AI",
+    "語義搜尋",
+    "向量索引",
+    "開源資料庫"
+   ],
+   "url": "https://github.com/StarTrail-org/LEANN",
+   "content_type": "repo",
+   "difficulty": "專家",
+   "region": "國外",
+   "license": "MIT",
    "security_score": null,
    "safety": "安全"
   },
@@ -1439,6 +2023,71 @@
    "safety": null
   },
   {
+   "video_id": "gh_calesthio_OpenMontage",
+   "title": "calesthio/OpenMontage",
+   "channel": "calesthio",
+   "duration_seconds": 0,
+   "published_at": "2026-07-24T19:25:54Z",
+   "thumbnail_url": "https://opengraph.githubassets.com/1/calesthio/OpenMontage",
+   "view_count": 42376,
+   "category": "AI 影像與影片生成",
+   "summary": "OpenMontage 是首個開源的代理式（agentic）影片生產系統。它支援串接多種 AI 代理（如 Claude、ChatGPT、DeepSeek 等），透過對話或提示詞協同運作，實現自動化、雲端的影片剪輯與製作管線。",
+   "tags": [
+    "影片生成",
+    "AI 剪輯",
+    "Agent",
+    "開源工具"
+   ],
+   "search_terms": [
+    "OpenMontage",
+    "AI 影片製作",
+    "代理式影片生成",
+    "自動剪輯工具",
+    "AI 影音工作流",
+    "開源影片編輯"
+   ],
+   "url": "https://github.com/calesthio/OpenMontage",
+   "content_type": "repo",
+   "difficulty": "專家",
+   "region": "國外",
+   "license": "AGPL-3.0",
+   "security_score": null,
+   "safety": "安全"
+  },
+  {
+   "video_id": "gh_iOfficeAI_AionUi",
+   "title": "iOfficeAI/AionUi",
+   "channel": "iOfficeAI",
+   "duration_seconds": 0,
+   "published_at": "2026-07-24T14:05:40Z",
+   "thumbnail_url": "https://opengraph.githubassets.com/1/iOfficeAI/AionUi",
+   "view_count": 30866,
+   "category": "工具教學",
+   "summary": "AionUi 是一個免費且開源的跨平臺 AI 代理協作（Cowork）應用程式。具備零設定、支援任意 API 金鑰、多代理協作、遠端存取與 24 小時自動化等特色，讓使用者能在統一介面中與多個 AI 助理共同辦公。",
+   "tags": [
+    "AI 助理",
+    "多代理協作",
+    "開源工具",
+    "辦公工具"
+   ],
+   "search_terms": [
+    "AionUi",
+    "AI 代理客戶端",
+    "多 AI 協作",
+    "開源 AI 工具",
+    "自動化辦公",
+    "AI 聊天介面",
+    "跨平臺 AI"
+   ],
+   "url": "https://github.com/iOfficeAI/AionUi",
+   "content_type": "repo",
+   "difficulty": "入門",
+   "region": "國外",
+   "license": "Apache-2.0",
+   "security_score": null,
+   "safety": "安全"
+  },
+  {
    "video_id": "k6AlrVzO498",
    "title": "Claude 桌面版完全手冊 EP06｜每次都要跟 Claude 重講一遍背景？用 Projects 專案，它永遠記得你做到哪",
    "channel": "Ai-Wisdom・Claude 學習筆記",
@@ -1487,6 +2136,71 @@
    "license": null,
    "security_score": null,
    "safety": null
+  },
+  {
+   "video_id": "gh_HarleyCoops_Math-To-Manim",
+   "title": "HarleyCoops/Math-To-Manim",
+   "channel": "HarleyCoops",
+   "duration_seconds": 0,
+   "published_at": "2026-07-24T13:19:42Z",
+   "thumbnail_url": "https://opengraph.githubassets.com/1/HarleyCoops/Math-To-Manim",
+   "view_count": 2437,
+   "category": "程式開發",
+   "summary": "Math To Manim 是一個能將數學或物理問題轉化為結構化視覺化解釋的開源工具。它透過 AI 推理分析學習需求、驗證數學公式，並自動生成 Manim 動畫程式碼，產出高品質的科學動畫影片。",
+   "tags": [
+    "Manim",
+    "數學動畫",
+    "Python",
+    "視覺化"
+   ],
+   "search_terms": [
+    "Math To Manim",
+    "數學動畫生成",
+    "Manim 教學",
+    "AI 數學視覺化",
+    "物理動畫製作",
+    "Python 數學動畫",
+    "AI 繪圖工具"
+   ],
+   "url": "https://github.com/HarleyCoops/Math-To-Manim",
+   "content_type": "repo",
+   "difficulty": "進階",
+   "region": "國外",
+   "license": "MIT",
+   "security_score": null,
+   "safety": "安全"
+  },
+  {
+   "video_id": "gh_Wirasm_prp",
+   "title": "Wirasm/prp",
+   "channel": "Wirasm",
+   "duration_seconds": 0,
+   "published_at": "2026-07-24T12:20:36Z",
+   "thumbnail_url": "https://opengraph.githubassets.com/1/Wirasm/prp",
+   "view_count": 2224,
+   "category": "自動化工作流",
+   "summary": "PRP (Product Requirement Prompts) 是一個專為 Claude Code 等 AI 輔助開發打造的提示詞與代理工作流集合。它結合了產品需求文件（PRD）、整理後的程式碼庫情報與代理執行手冊，提供互動式 PRD 產生器與實作計畫建立工具，讓 AI 代理在第一次嘗試就能產出符合生產環境標準的可靠程式碼。",
+   "tags": [
+    "Claude Code",
+    "AI 輔助開發",
+    "PRD",
+    "自動化工作流"
+   ],
+   "search_terms": [
+    "PRP",
+    "Product Requirement Prompts",
+    "Claude Code 教學",
+    "AI 程式開發",
+    "自動化工作流",
+    "AI 代理"
+   ],
+   "url": "https://github.com/Wirasm/prp",
+   "content_type": "repo",
+   "difficulty": "進階",
+   "region": "國外",
+   "license": "MIT",
+   "security_score": null,
+   "safety": "安全"
   },
   {
    "video_id": "ga5DaUVEkcs",
@@ -1795,6 +2509,38 @@
    "license": null,
    "security_score": null,
    "safety": null
+  },
+  {
+   "video_id": "gh_langchain4j_langchain4j",
+   "title": "langchain4j/langchain4j",
+   "channel": "langchain4j",
+   "duration_seconds": 0,
+   "published_at": "2026-07-24T07:44:16Z",
+   "thumbnail_url": "https://opengraph.githubassets.com/1/langchain4j/langchain4j",
+   "view_count": 12693,
+   "category": "開源工具",
+   "summary": "LangChain4j 是一個專為 JVM 設計的習慣用法開源 Java 函式庫，旨在簡化將大型語言模型（LLM）整合至 Java 應用程式的流程。它提供統一的 API 以支援多種 LLM 供應商與向量資料庫，並內建提示詞範本、聊天記憶管理、Agent 及 RAG 等豐富工具。",
+   "tags": [
+    "LangChain4j",
+    "Java",
+    "LLM",
+    "JVM"
+   ],
+   "search_terms": [
+    "LangChain4j",
+    "Java AI",
+    "JVM LLM",
+    "Java 開發大模型",
+    "LangChain Java",
+    "向量資料庫整合"
+   ],
+   "url": "https://github.com/langchain4j/langchain4j",
+   "content_type": "repo",
+   "difficulty": "進階",
+   "region": "國外",
+   "license": "Apache-2.0",
+   "security_score": null,
+   "safety": "安全"
   },
   {
    "video_id": "WkaxxeMmTdk",
@@ -2251,6 +2997,37 @@
    "difficulty": "進階",
    "region": "國外",
    "license": "MIT",
+   "security_score": null,
+   "safety": "安全"
+  },
+  {
+   "video_id": "gh_google_agents-cli",
+   "title": "google/agents-cli",
+   "channel": "google",
+   "duration_seconds": 0,
+   "published_at": "2026-07-23T19:53:43Z",
+   "thumbnail_url": "https://opengraph.githubassets.com/1/google/agents-cli",
+   "view_count": 5360,
+   "category": "程式開發",
+   "summary": "Google agents-cli 是一個命令列工具與技能包，旨在協助開發者將慣用的 AI 編碼助理轉化為打造與部署 Google Cloud 企業級 Agent 的專家。支援專案鷹架建立、ADK Python API 開發、評估方法及工作流最佳化。",
+   "tags": [
+    "Google Cloud",
+    "Gemini",
+    "AI Agents",
+    "CLI"
+   ],
+   "search_terms": [
+    "Google agents-cli",
+    "Gemini Enterprise",
+    "AI 代理開發",
+    "命令列工具",
+    "Google 代理平台"
+   ],
+   "url": "https://github.com/google/agents-cli",
+   "content_type": "repo",
+   "difficulty": "專家",
+   "region": "國外",
+   "license": "Apache-2.0",
    "security_score": null,
    "safety": "安全"
   },
@@ -3228,6 +4005,38 @@
    "safety": null
   },
   {
+   "video_id": "gh_wesammustafa_Claude-Code-Everything-You-Need-to-Know",
+   "title": "wesammustafa/Claude-Code-Everything-You-Need-to-Know",
+   "channel": "wesammustafa",
+   "duration_seconds": 0,
+   "published_at": "2026-07-22T10:51:14Z",
+   "thumbnail_url": "https://opengraph.githubassets.com/1/wesammustafa/Claude-Code-Everything-You-Need-to-Know",
+   "view_count": 2380,
+   "category": "開源工具",
+   "summary": "這是一個關於 Claude Code 的實用完整指南，從基礎安裝設定、提示詞工程深造，到自訂技能、鉤子、模型上下文協議以及多代理自動化團隊工作流程，適合各階段開發者使用。",
+   "tags": [
+    "Claude Code",
+    "Anthropic",
+    "AI Coding",
+    "Developer Tools"
+   ],
+   "search_terms": [
+    "Claude Code",
+    "Anthropic 開發工具",
+    "AI 程式輔助",
+    "Claude 技能",
+    "MCP 協議",
+    "開發者指南"
+   ],
+   "url": "https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know",
+   "content_type": "repo",
+   "difficulty": "進階",
+   "region": "國外",
+   "license": "MIT",
+   "security_score": null,
+   "safety": "安全"
+  },
+  {
    "video_id": "Q9GrCuap0-4",
    "title": "JoyAI Image Edit 全流程教学：手把手教你实现像素级精准对齐与图片编辑",
    "channel": "AI老腊肉",
@@ -3476,6 +4285,38 @@
    "license": null,
    "security_score": null,
    "safety": null
+  },
+  {
+   "video_id": "gh_darrenhinde_OpenAgentsControl",
+   "title": "darrenhinde/OpenAgentsControl",
+   "channel": "darrenhinde",
+   "duration_seconds": 0,
+   "published_at": "2026-07-21T22:24:58Z",
+   "thumbnail_url": "https://opengraph.githubassets.com/1/darrenhinde/OpenAgentsControl",
+   "view_count": 4633,
+   "category": "程式開發",
+   "summary": "OpenAgents Control (OAC) 是一個基於 OpenCode 開發的開源 AI 程式碼控制框架。它允許開發者定義自己的編碼模式與架構標準，讓 AI 代理在產生程式碼前先載入這些規範並提出實作計畫，確保 AI 產出的程式碼符合團隊風格，減少重構時間並提供可重複的高品質結果。",
+   "tags": [
+    "AI 程式開發",
+    "OpenCode",
+    "程式碼規範",
+    "開發工具"
+   ],
+   "search_terms": [
+    "OpenAgentsControl",
+    "OAC",
+    "AI 程式碼生成",
+    "程式開發工具",
+    "OpenCode 框架",
+    "AI 代理控制"
+   ],
+   "url": "https://github.com/darrenhinde/OpenAgentsControl",
+   "content_type": "repo",
+   "difficulty": "進階",
+   "region": "國外",
+   "license": "MIT",
+   "security_score": null,
+   "safety": "安全"
   },
   {
    "video_id": "8gOvY_4X4Uo",
@@ -4784,6 +5625,39 @@
    "safety": null
   },
   {
+   "video_id": "gh_jd-opensource_JoyAI-Image",
+   "title": "jd-opensource/JoyAI-Image",
+   "channel": "jd-opensource",
+   "duration_seconds": 0,
+   "published_at": "2026-07-17T08:38:54Z",
+   "thumbnail_url": "https://opengraph.githubassets.com/1/jd-opensource/JoyAI-Image",
+   "view_count": 2243,
+   "category": "AI 影像與影片生成",
+   "summary": "JoyAI-Image 是一個結合統一多模態理解與生成的開源項目，主打喚醒空間智慧。該項目支援 ComfyUI 與 Diffusers 框架，提供多款圖像編輯檢查點與工作流，讓使用者能輕鬆進行高階的空間與通用圖像編輯。",
+   "tags": [
+    "影像生成",
+    "ComfyUI",
+    "Diffusers",
+    "多模態"
+   ],
+   "search_terms": [
+    "JoyAI-Image",
+    "圖像編輯",
+    "空間智慧",
+    "ComfyUI 工作流",
+    "AI 繪圖",
+    "Diffusers 模型",
+    "多模態生成"
+   ],
+   "url": "https://github.com/jd-opensource/JoyAI-Image",
+   "content_type": "repo",
+   "difficulty": "進階",
+   "region": "國外",
+   "license": "Apache-2.0",
+   "security_score": null,
+   "safety": "安全"
+  },
+  {
    "video_id": "rAt5QZ99Smk",
    "title": "Claude Code最强平替来了：Kimi K3超越Opus 4.8，登榜史上最大开源模型！",
    "channel": "AI学长小林",
@@ -5915,6 +6789,39 @@
    "license": null,
    "security_score": null,
    "safety": null
+  },
+  {
+   "video_id": "gh_TommyLemon_APIAuto",
+   "title": "TommyLemon/APIAuto",
+   "channel": "TommyLemon",
+   "duration_seconds": 0,
+   "published_at": "2026-07-13T02:47:12Z",
+   "thumbnail_url": "https://opengraph.githubassets.com/1/TommyLemon/APIAuto",
+   "view_count": 2214,
+   "category": "開源工具",
+   "summary": "APIAuto 是一款結合機器學習的零程式碼 HTTP 介面測試與智慧開發管理工具。支援自動生成程式碼、靜態檢查、檔案與光標懸浮註釋，並具備 AI 問答功能，能提供一站式的文檔、測試、Mock 與除錯體驗，廣受各大企業與開發團隊採用。",
+   "tags": [
+    "APIAuto",
+    "HTTP測試",
+    "零程式碼",
+    "AI問答"
+   ],
+   "search_terms": [
+    "APIAuto",
+    "API自動測試",
+    "零代碼測試",
+    "介面測試工具",
+    "HTTP測試工具",
+    "APIJSON",
+    "AI測試"
+   ],
+   "url": "https://github.com/TommyLemon/APIAuto",
+   "content_type": "repo",
+   "difficulty": "進階",
+   "region": "國外",
+   "license": "Apache-2.0",
+   "security_score": null,
+   "safety": "安全"
   },
   {
    "video_id": "art_e1ac1d7f0988",
@@ -8498,6 +9405,40 @@
    "license": null,
    "security_score": null,
    "safety": null
+  },
+  {
+   "video_id": "gh_ZeroLu_awesome-nanobanana-pro",
+   "title": "ZeroLu/awesome-nanobanana-pro",
+   "channel": "ZeroLu",
+   "duration_seconds": 0,
+   "published_at": "2026-07-02T14:16:18Z",
+   "thumbnail_url": "https://opengraph.githubassets.com/1/ZeroLu/awesome-nanobanana-pro",
+   "view_count": 10194,
+   "category": "開源工具",
+   "summary": "收集最佳 Nano Banana 提示詞、圖像生成風格與資源的精選開源專案，專注於提供來自 X、微信、Replicate 及頂尖提示詞工程師的高保真圖像提示詞，解鎖AI模型的潛能。",
+   "tags": [
+    "提示詞",
+    "圖像生成",
+    "AI繪畫",
+    "開源專案"
+   ],
+   "search_terms": [
+    "Nano Banana",
+    "AI 提示詞",
+    "prompt 收集",
+    "圖像生成風格",
+    "AI 影像資源",
+    "高保真提示詞",
+    "AI 繪畫技巧",
+    "開源工具"
+   ],
+   "url": "https://github.com/ZeroLu/awesome-nanobanana-pro",
+   "content_type": "repo",
+   "difficulty": "進階",
+   "region": "國外",
+   "license": "MIT",
+   "security_score": null,
+   "safety": "安全"
   },
   {
    "video_id": "uXk6JNdcE0A",
@@ -14445,6 +15386,38 @@
    "safety": null
   },
   {
+   "video_id": "gh_EgoAlpha_prompt-in-context-learning",
+   "title": "EgoAlpha/prompt-in-context-learning",
+   "channel": "EgoAlpha",
+   "duration_seconds": 0,
+   "published_at": "2026-05-29T01:00:03Z",
+   "thumbnail_url": "https://opengraph.githubassets.com/1/EgoAlpha/prompt-in-context-learning",
+   "view_count": 2247,
+   "category": "入門觀念",
+   "summary": "這是一個專為 Prompt 學習與工程打造的開源工程指南，由 EgoAlpha Lab 維護。內容包含最新論文追蹤、可用於提示詞實驗的 Playground、提示詞工程技巧、ChatGPT 實用提示範例，以及結合 LangChain 的大語言模型快速入門指南，協助開發者掌握 AIGC 時代的核心技能。",
+   "tags": [
+    "Prompt Engineering",
+    "提示詞工程",
+    "In-Context Learning",
+    "LangChain"
+   ],
+   "search_terms": [
+    "prompt-in-context-learning",
+    "提示詞工程",
+    "Prompt Engineering 教學",
+    "EgoAlpha",
+    "LLM 學習指南",
+    "上下文學習"
+   ],
+   "url": "https://github.com/EgoAlpha/prompt-in-context-learning",
+   "content_type": "repo",
+   "difficulty": "進階",
+   "region": "國外",
+   "license": "MIT",
+   "security_score": null,
+   "safety": "安全"
+  },
+  {
    "video_id": "2B3U9bq2lsg",
    "title": "懶人包大放送！用 4 大 AI Agent 全自動產出 3 種實用影片_Hyperframes 懶人包福利大放送 三大類型影片包_",
    "channel": "三師爸Sense Bar",
@@ -14567,6 +15540,38 @@
    "license": null,
    "security_score": null,
    "safety": null
+  },
+  {
+   "video_id": "gh_Meirtz_Awesome-Context-Engineering",
+   "title": "Meirtz/Awesome-Context-Engineering",
+   "channel": "Meirtz",
+   "duration_seconds": 0,
+   "published_at": "2026-05-28T05:40:26Z",
+   "thumbnail_url": "https://opengraph.githubassets.com/1/Meirtz/Awesome-Context-Engineering",
+   "view_count": 3248,
+   "category": "開源工具",
+   "summary": "此專案是一個關於上下文工程的綜合性調查與資源收集庫，探討從靜態提示詞演進至動態、具備上下文感知能力的 AI 系統，涵蓋代理執行階段、記憶系統與協議等最新發展。",
+   "tags": [
+    "Context Engineering",
+    "AI Agents",
+    "LLM",
+    "Survey"
+   ],
+   "search_terms": [
+    "上下文工程",
+    "Context Engineering",
+    "AI 代理",
+    "大語言模型文獻",
+    "開源資源",
+    "Prompt 演進"
+   ],
+   "url": "https://github.com/Meirtz/Awesome-Context-Engineering",
+   "content_type": "repo",
+   "difficulty": "專家",
+   "region": "國外",
+   "license": "MIT",
+   "security_score": null,
+   "safety": "安全"
   },
   {
    "video_id": "5ZFm1uRI-IE",
@@ -16352,6 +17357,38 @@
    "license": null,
    "security_score": null,
    "safety": null
+  },
+  {
+   "video_id": "gh_tnm_zclaw",
+   "title": "tnm/zclaw",
+   "channel": "tnm",
+   "duration_seconds": 0,
+   "published_at": "2026-05-17T03:43:36Z",
+   "thumbnail_url": "https://opengraph.githubassets.com/1/tnm/zclaw",
+   "view_count": 2199,
+   "category": "開源工具",
+   "summary": "zclaw 是專為 ESP32 開發板設計的極小型 AI 個人助理，以 C 語言編寫，韌體大小嚴格控制在 888 KiB 以內。支援排程任務、GPIO 控制、長期記憶，並可透過自然語言進行自訂工具組合，提供 Telegram 聊天及網頁互動介面。",
+   "tags": [
+    "ESP32",
+    "AI助理",
+    "嵌入式AI",
+    "C語言"
+   ],
+   "search_terms": [
+    "zclaw",
+    "ESP32 AI",
+    "物聯網AI助理",
+    "嵌入式大模型",
+    "ESP32 chatbot",
+    "微型AI"
+   ],
+   "url": "https://github.com/tnm/zclaw",
+   "content_type": "repo",
+   "difficulty": "專家",
+   "region": "國外",
+   "license": "MIT",
+   "security_score": null,
+   "safety": "安全"
   },
   {
    "video_id": "rCw1fDAMCnI",
@@ -20417,6 +21454,38 @@
    "safety": null
   },
   {
+   "video_id": "gh_QwenLM_Qwen3-Omni",
+   "title": "QwenLM/Qwen3-Omni",
+   "channel": "QwenLM",
+   "duration_seconds": 0,
+   "published_at": "2026-04-23T10:58:01Z",
+   "thumbnail_url": "https://opengraph.githubassets.com/1/QwenLM/Qwen3-Omni",
+   "view_count": 3906,
+   "category": "開源工具",
+   "summary": "Qwen3-Omni 是阿里開源的端到端多模態基礎模型，支援文字、圖像、音訊與影片等多種輸入，並能提供文字與自然語音的即時串流回應。專案提供模型下載、Transformers 與 vLLM 整合方式以及 DashScope API 呼叫範例。",
+   "tags": [
+    "Qwen3-Omni",
+    "多模態模型",
+    "語音識別",
+    "開源專案"
+   ],
+   "search_terms": [
+    "Qwen3-Omni",
+    "千問多模態",
+    "語音模型",
+    "開源大模型",
+    "vLLM 部署",
+    "Qwen 模型"
+   ],
+   "url": "https://github.com/QwenLM/Qwen3-Omni",
+   "content_type": "repo",
+   "difficulty": "專家",
+   "region": "國外",
+   "license": "Apache-2.0",
+   "security_score": 3.9,
+   "safety": "安全"
+  },
+  {
    "video_id": "BRXKuaCWDVQ",
    "title": "【 Gemini 教學 】睇完呢支 你係辦公室最識用 AI 嘅人 ( 廣東話 )",
    "channel": "Tim Chan AI",
@@ -23137,6 +24206,38 @@
    "safety": null
   },
   {
+   "video_id": "gh_promptslab_Promptify",
+   "title": "promptslab/Promptify",
+   "channel": "promptslab",
+   "duration_seconds": 0,
+   "published_at": "2026-03-27T01:09:45Z",
+   "thumbnail_url": "https://opengraph.githubassets.com/1/promptslab/Promptify",
+   "view_count": 4625,
+   "category": "開源工具",
+   "summary": "Promptify 是一個基於任務的自然語言處理引擎，支援 Pydantic 結構化輸出、內建評估機制，並使用 LiteLLM 作為通用 LLM 後端，讓開發者能以類似 scikit-learn 的方式輕鬆進行命名實體識別、分類與問答等 AI 任務。",
+   "tags": [
+    "NLP",
+    "Promptify",
+    "Python",
+    "LLM"
+   ],
+   "search_terms": [
+    "Promptify",
+    "NLP 工具",
+    "LLM 開發框架",
+    "命名實體識別",
+    "結構化輸出",
+    "Python AI 庫"
+   ],
+   "url": "https://github.com/promptslab/Promptify",
+   "content_type": "repo",
+   "difficulty": "進階",
+   "region": "國外",
+   "license": "Apache-2.0",
+   "security_score": null,
+   "safety": "安全"
+  },
+  {
    "video_id": "QwlShxJV_iw",
    "title": "用Gemini AI一鍵生成公司標語（10分鐘做完100張）｜辦公AI工具應用EP21",
    "channel": "程曦資訊",
@@ -23810,6 +24911,39 @@
    "license": null,
    "security_score": null,
    "safety": null
+  },
+  {
+   "video_id": "gh_coleam00_context-engineering-intro",
+   "title": "coleam00/context-engineering-intro",
+   "channel": "coleam00",
+   "duration_seconds": 0,
+   "published_at": "2026-03-16T12:13:59Z",
+   "thumbnail_url": "https://opengraph.githubassets.com/1/coleam00/context-engineering-intro",
+   "view_count": 13740,
+   "category": "程式開發",
+   "summary": "這是一個上下文工程（Context Engineering）的入門範本與實作指南，專為 AI 編碼助理設計。透過結構化的專案規則、程式碼範例與 PRP 產品需求提示詞工作流，幫助開發者提供更全面的上下文資訊，以減少 AI 失敗率並確保多步驟功能的正確實現。",
+   "tags": [
+    "Context Engineering",
+    "AI Coding",
+    "Claude Code",
+    "提示詞工程"
+   ],
+   "search_terms": [
+    "上下文工程",
+    "context engineering",
+    "prompt engineering",
+    "AI寫扣",
+    "AI編碼",
+    "Claude Code",
+    "開發工具"
+   ],
+   "url": "https://github.com/coleam00/context-engineering-intro",
+   "content_type": "repo",
+   "difficulty": "進階",
+   "region": "國外",
+   "license": "MIT",
+   "security_score": null,
+   "safety": "安全"
   },
   {
    "video_id": "r8r_yaqStbw",
@@ -25112,6 +26246,39 @@
    "safety": null
   },
   {
+   "video_id": "gh_jasontang-ai_Context-Engineering",
+   "title": "jasontang-ai/Context-Engineering",
+   "channel": "jasontang-ai",
+   "duration_seconds": 0,
+   "published_at": "2026-02-27T05:04:18Z",
+   "thumbnail_url": "https://opengraph.githubassets.com/1/jasontang-ai/Context-Engineering",
+   "view_count": 9176,
+   "category": "開源工具",
+   "summary": "Context Engineering 是一個超越傳統提示工程的上下文設計前沿手冊與資源庫，結合最新研究成果、第一原理與視覺化圖表，協助開發者在大型語言模型中精準管理與填入上下文資訊。",
+   "tags": [
+    "上下文工程",
+    "大型語言模型",
+    "提示工程",
+    "開源專案"
+   ],
+   "search_terms": [
+    "Context Engineering",
+    "上下文設計",
+    "LLM context",
+    "prompt 最佳實踐",
+    "大模型優化",
+    "AI 研發資源",
+    "開源工具"
+   ],
+   "url": "https://github.com/jasontang-ai/Context-Engineering",
+   "content_type": "repo",
+   "difficulty": "專家",
+   "region": "國外",
+   "license": "MIT",
+   "security_score": null,
+   "safety": "安全"
+  },
+  {
    "video_id": "art_d1070147512f",
    "title": "Claude Code 實戰指南：從數據視覺化到產品開發，10 個部門實際應用案例一次看|經理人",
    "channel": "經理人 Managertoday",
@@ -25267,6 +26434,38 @@
    "license": null,
    "security_score": null,
    "safety": null
+  },
+  {
+   "video_id": "gh_vibrantlabsai_ragas",
+   "title": "vibrantlabsai/ragas",
+   "channel": "vibrantlabsai",
+   "duration_seconds": 0,
+   "published_at": "2026-02-24T07:47:19Z",
+   "thumbnail_url": "https://opengraph.githubassets.com/1/vibrantlabsai/ragas",
+   "view_count": 14990,
+   "category": "開源工具",
+   "summary": "Ragas 是一個專門用來評估與優化大型語言模型（LLM）應用的開源工具包。它提供客觀指標、自動化測試資料生成以及無縫整合 LangChain 等主流框架的功能，幫助開發者告別主觀評估，建立資料驅動的回饋迴圈以提升 RAG 系統效能。",
+   "tags": [
+    "Ragas",
+    "LLM Evaluation",
+    "RAG",
+    "Python"
+   ],
+   "search_terms": [
+    "Ragas",
+    "RAG 評估",
+    "大模型測試",
+    "LLM 評估工具",
+    "測試資料生成",
+    "LangChain 整合"
+   ],
+   "url": "https://github.com/vibrantlabsai/ragas",
+   "content_type": "repo",
+   "difficulty": "進階",
+   "region": "國外",
+   "license": "Apache-2.0",
+   "security_score": null,
+   "safety": "安全"
   },
   {
    "video_id": "bPvATU2ZOLU",
@@ -26092,6 +27291,69 @@
    "license": null,
    "security_score": null,
    "safety": null
+  },
+  {
+   "video_id": "gh_breezedeus_Pix2Text",
+   "title": "breezedeus/Pix2Text",
+   "channel": "breezedeus",
+   "duration_seconds": 0,
+   "published_at": "2026-02-07T11:13:23Z",
+   "thumbnail_url": "https://opengraph.githubassets.com/1/breezedeus/Pix2Text",
+   "view_count": 3195,
+   "category": "開源工具",
+   "summary": "Pix2Text 是一個支援多模態與數學公式辨識（MFD/MFR）的 OCR 開源工具。最新版本整合了 VLM 介面模型、DocLayout-YOLO 排版分析模型與全新的數學公式檢測模型，大幅提升複雜文件與公式的辨識準確度。",
+   "tags": [
+    "Pix2Text",
+    "OCR",
+    "公式辨識",
+    "開源工具"
+   ],
+   "search_terms": [
+    "Pix2Text",
+    "文字辨識",
+    "OCR 工具",
+    "數學公式識別",
+    "排版分析",
+    "開源 OCR"
+   ],
+   "url": "https://github.com/breezedeus/Pix2Text",
+   "content_type": "repo",
+   "difficulty": "進階",
+   "region": "國外",
+   "license": "MIT",
+   "security_score": null,
+   "safety": "安全"
+  },
+  {
+   "video_id": "gh_greggh_claude-code.nvim",
+   "title": "greggh/claude-code.nvim",
+   "channel": "greggh",
+   "duration_seconds": 0,
+   "published_at": "2026-02-04T14:44:51Z",
+   "thumbnail_url": "https://opengraph.githubassets.com/1/greggh/claude-code.nvim",
+   "view_count": 2089,
+   "category": "開源工具",
+   "summary": "claude-code.nvim 是一個 Neovim 外掛，無縫整合了 Claude Code AI 助手。支援在終端機中透過快捷鍵快速開關、自動載入被 Claude 修改的檔案、即時緩衝區更新，並可自訂視窗大小與位置，提升開發效率。",
+   "tags": [
+    "Neovim",
+    "Claude Code",
+    "AI輔助編程",
+    "Vim外掛"
+   ],
+   "search_terms": [
+    "claude-code.nvim",
+    "Neovim Claude",
+    "Vim AI coding",
+    "Anthropic Claude plugin",
+    "Neovim 終端機外掛"
+   ],
+   "url": "https://github.com/greggh/claude-code.nvim",
+   "content_type": "repo",
+   "difficulty": "進階",
+   "region": "國外",
+   "license": "MIT",
+   "security_score": null,
+   "safety": "安全"
   },
   {
    "video_id": "6_RP-rrLEp4",
