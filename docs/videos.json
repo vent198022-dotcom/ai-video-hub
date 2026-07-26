@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-07-26T04:23:00+00:00",
- "count": 1108,
+ "generated_at": "2026-07-26T04:25:21+00:00",
+ "count": 1109,
  "videos": [
   {
    "video_id": "-zzHD9bDAFs",
@@ -890,6 +890,35 @@
    "search_terms": [],
    "url": null,
    "content_type": "video"
+  },
+  {
+   "video_id": "art_1da821d2a510",
+   "title": "Claude模型Fable、Opus怎麼選？CP值高用法教學 | 遠見雜誌",
+   "channel": "遠見雜誌 - 前進的動力",
+   "duration_seconds": 0,
+   "published_at": "2026-07-24T00:00:00Z",
+   "thumbnail_url": "https://imgs.gvm.com.tw/upload/gallery/20260724/236980.jpg",
+   "view_count": 0,
+   "category": "工具教學",
+   "summary": "本文介紹 Claude 各模型定位與收費，並分享高CP值教學。讀者能以免費百元額度體驗 Fable 5，並透過建立派工規範，將任務分流給 Opus 或 Sonnet 等模型。此外，調整「努力程度」能優化生成品質，幫助使用者在預算內高效發揮 AI 工具價值。",
+   "tags": [
+    "Claude",
+    "模型選擇",
+    "省錢技巧",
+    "AI工具"
+   ],
+   "search_terms": [
+    "Claude教學",
+    "Claude模型比較",
+    "Fable 5",
+    "Opus 4.8",
+    "Anthropic",
+    "Claude省錢",
+    "AI代理派工",
+    "努力程度設定"
+   ],
+   "url": "https://www.gvm.com.tw/article/131794",
+   "content_type": "article"
   },
   {
    "video_id": "art_7dde2a715bfd",
