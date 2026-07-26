@@ -276,3 +276,49 @@ def test_classify_pending_bad_region_still_publishes(tmp_path, monkeypatch):
     ok, skip, fail = classifier.classify_pending(conn, "k", "m", CATS)
     assert (ok, skip, fail) == (1, 0, 0)
     assert db.get_site_videos(conn)[0]["region"] is None
+
+
+def test_prompt_asks_repo_safety():
+    prompt = classifier.build_prompt([make_video("v1")], CATS)
+    assert "safety" in prompt
+    assert "疑慮" in prompt
+
+
+def test_repo_flagged_unsafe_is_not_published(tmp_path, monkeypatch):
+    conn = db.connect(tmp_path / "t.db")
+    item = make_video("gh_x_y")
+    item["content_type"] = "repo"
+    db.insert_video(conn, item)
+    monkeypatch.setattr(classifier, "classify_batch", lambda *a, **k: [
+        {"video_id": "gh_x_y", "is_relevant": True, "category": "開源工具",
+         "summary": "摘要", "tags": [], "search_terms": [], "safety": "疑慮"},
+    ])
+    ok, skip, fail = classifier.classify_pending(conn, "k", "m", CATS + ["開源工具"])
+    assert (ok, skip, fail) == (0, 1, 0)          # 記為排除而非失敗
+    assert db.get_site_videos(conn) == []
+
+
+def test_repo_marked_safe_is_published(tmp_path, monkeypatch):
+    conn = db.connect(tmp_path / "t.db")
+    item = make_video("gh_ok")
+    item["content_type"] = "repo"
+    db.insert_video(conn, item)
+    monkeypatch.setattr(classifier, "classify_batch", lambda *a, **k: [
+        {"video_id": "gh_ok", "is_relevant": True, "category": "開源工具",
+         "summary": "摘要", "tags": [], "search_terms": [], "safety": "安全"},
+    ])
+    ok, skip, fail = classifier.classify_pending(conn, "k", "m", CATS + ["開源工具"])
+    assert (ok, skip, fail) == (1, 0, 0)
+    assert db.get_site_videos(conn)[0]["safety"] == "安全"
+
+
+def test_non_repo_unaffected_by_safety(tmp_path, monkeypatch):
+    """影片即使沒有 safety 欄位也要正常上架。"""
+    conn = db.connect(tmp_path / "t.db")
+    db.insert_video(conn, make_video("v1"))
+    monkeypatch.setattr(classifier, "classify_batch", lambda *a, **k: [
+        {"video_id": "v1", "is_relevant": True, "category": "工具教學",
+         "summary": "摘要", "tags": [], "search_terms": []},
+    ])
+    ok, skip, fail = classifier.classify_pending(conn, "k", "m", CATS)
+    assert (ok, skip, fail) == (1, 0, 0)

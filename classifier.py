@@ -35,12 +35,17 @@ _PROMPT_TEMPLATE = """你是影片內容分類助手。以下是內容清單（J
 7. region：內容來源地區，只能填「國內」或「國外」：
    國內＝文件或內容以繁體中文撰寫
    國外＝以英文或簡體中文撰寫
+8. safety：**僅開源專案（content_type 為 repo）需要填**，只能填「安全」或「疑慮」：
+   疑慮＝README 顯示這是爬蟲/破解/繞過驗證類工具、要求使用者交出帳號密碼或 API 金鑰給第三方
+        服務、主要用途涉及規避付費或服務條款、或以「僅供學習研究」包裝的攻擊性工具
+   安全＝一般的框架、函式庫、應用或開發工具
+   影片與文章不需填此欄位。
 
 影片清單：
 {videos}
 
 只回傳 JSON 陣列，每部影片一個物件，格式：
-[{{"video_id": "...", "is_relevant": true, "category": "...", "summary": "...", "tags": ["..."], "search_terms": ["..."], "difficulty": "入門", "region": "國內"}}]
+[{{"video_id": "...", "is_relevant": true, "category": "...", "summary": "...", "tags": ["..."], "search_terms": ["..."], "difficulty": "入門", "region": "國內", "safety": "安全"}}]
 不相關的影片 is_relevant 填 false、category 填 null、summary 填空字串、tags 填空陣列。"""
 
 
@@ -130,6 +135,13 @@ def classify_pending(conn, api_key, model, categories, batch_size=10,
                 db.mark_failed(conn, v["video_id"])
                 fail += 1
                 continue
+            is_repo = (v.get("content_type") or "video") == "repo"
+            if relevant and is_repo and r.get("safety") == "疑慮":
+                # 安全疑慮的專案不上架（記為排除，不是失敗——重試也不會改變結論）
+                log.info("專案 %s 被判定有安全疑慮，不予上架", v["video_id"])
+                db.update_classification(conn, v["video_id"], False, None, "", [])
+                skip += 1
+                continue
             if relevant:
                 db.update_classification(
                     conn, v["video_id"], True, category,
@@ -138,6 +150,7 @@ def classify_pending(conn, api_key, model, categories, batch_size=10,
                     search_terms=[str(s) for s in (r.get("search_terms") or [])][:10],
                     difficulty=r.get("difficulty"),
                     region=r.get("region"),
+                    safety=r.get("safety"),
                 )
                 ok += 1
             else:
