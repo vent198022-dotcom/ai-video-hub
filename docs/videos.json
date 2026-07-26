@@ -1,7 +1,36 @@
 {
- "generated_at": "2026-07-26T04:25:21+00:00",
- "count": 1109,
+ "generated_at": "2026-07-26T04:30:29+00:00",
+ "count": 1111,
  "videos": [
+  {
+   "video_id": "AnsBslflrBQ",
+   "title": "ChatGPT + Claude Code 打造高轉化 Shopify 網站｜零基礎完整教學",
+   "channel": "karson leung",
+   "duration_seconds": 932,
+   "published_at": "2026-07-26T04:00:06Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/AnsBslflrBQ/mqdefault.jpg",
+   "view_count": 1,
+   "category": "程式開發",
+   "summary": "本影片完整示範如何零基礎使用 ChatGPT 與 Claude Code 打造高轉化的 Shopify 網站。內容包含利用 ChatGPT 規劃網站架構、撰寫銷售文案，並透過 Claude Code 建立網站版面、調整設計排版、優化電腦與手機版體驗，讓使用者在短時間內完成專業電商網站製作。",
+   "tags": [
+    "Shopify",
+    "Claude Code",
+    "ChatGPT",
+    "網頁開發"
+   ],
+   "search_terms": [
+    "Shopify 教學",
+    "架站",
+    "AI 架站",
+    "電商網站",
+    "網頁設計",
+    "ChatGPT 寫code",
+    "Claude Code 教學",
+    "低程式碼"
+   ],
+   "url": null,
+   "content_type": "video"
+  },
   {
    "video_id": "-zzHD9bDAFs",
    "title": "把題目改寫成生活情境題＋建立「現象庫」｜Codex 實戰",
@@ -918,6 +947,34 @@
     "努力程度設定"
    ],
    "url": "https://www.gvm.com.tw/article/131794",
+   "content_type": "article"
+  },
+  {
+   "video_id": "art_9cfbdca4f961",
+   "title": "【8/18新北場】從零打造企業內部 AI 問答系統#Open WebUI與RAG 實戰 - 華梵大學",
+   "channel": "科技島-掌握科技新聞、科技職場最新資訊",
+   "duration_seconds": 0,
+   "published_at": "2026-07-24T00:00:00Z",
+   "thumbnail_url": "https://www.technice.com.tw/wp-content/uploads/2025/10/223850432_1200_0.jpg",
+   "view_count": 0,
+   "category": "入門觀念",
+   "summary": "本課程介紹如何從零打造企業內部 AI 問答系統，帶領學員實作 Open WebUI 與 RAG 架構。無需程式背景即可建置安全可控的企業 AI 應用，內容涵蓋模型部署、提示詞設計及知識庫建置，協助提升工作效率與組織數位轉型。",
+   "tags": [
+    "Open WebUI",
+    "RAG",
+    "企業AI",
+    "知識庫"
+   ],
+   "search_terms": [
+    "Open WebUI",
+    "RAG架構",
+    "企業內部AI",
+    "AI問答系統",
+    "知識庫建置",
+    "私有化AI",
+    "企業數位轉型"
+   ],
+   "url": "https://www.technice.com.tw/course/243389/",
    "content_type": "article"
   },
   {
