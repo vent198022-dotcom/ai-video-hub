@@ -1,7 +1,40 @@
 {
- "generated_at": "2026-07-26T12:55:53+00:00",
- "count": 1223,
+ "generated_at": "2026-07-26T13:05:42+00:00",
+ "count": 1226,
  "videos": [
+  {
+   "video_id": "Lle_EJljIoo",
+   "title": "删掉80%提示词后，Claude 5反而变强了？Anthropic官方的做减法哲学",
+   "channel": "为什么叫QQ",
+   "duration_seconds": 722,
+   "published_at": "2026-07-26T12:15:33Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/Lle_EJljIoo/mqdefault.jpg",
+   "view_count": 105,
+   "category": "程式開發",
+   "summary": "本影片探討 Claude 5 模型如何透過刪除 80% 的系統提示詞（System Prompt）反而提升效能。作者從工程師視角解析「做減法」的哲學，說明從過度規範轉向提供空間與設計接口的開發轉移，並探討上下文工程與智能路由架構在處理複雜程式重構任務中的實際應用價值。",
+   "tags": [
+    "Claude 5",
+    "提示詞工程",
+    "AI開發",
+    "上下文工程"
+   ],
+   "search_terms": [
+    "Claude 5",
+    "提示詞優化",
+    "系統提示詞",
+    "AI程式開發",
+    "Prompt Engineering",
+    "上下文工程",
+    "大型語言模型"
+   ],
+   "url": null,
+   "content_type": "video",
+   "difficulty": "進階",
+   "region": "國內",
+   "license": null,
+   "security_score": null,
+   "safety": null
+  },
   {
    "video_id": "gh_CodeGraphContext_CodeGraphContext",
    "title": "CodeGraphContext/CodeGraphContext",
@@ -1088,6 +1121,38 @@
    "region": "國外",
    "license": "MIT",
    "security_score": null,
+   "safety": "安全"
+  },
+  {
+   "video_id": "gh_n8n-io_n8n",
+   "title": "n8n-io/n8n",
+   "channel": "n8n-io",
+   "duration_seconds": 0,
+   "published_at": "2026-07-26T00:12:55Z",
+   "thumbnail_url": "https://opengraph.githubassets.com/1/n8n-io/n8n",
+   "view_count": 198065,
+   "category": "自動化工作流",
+   "summary": "n8n 是一個功能強大的開源自動化平台，專為構建 AI 代理和複雜工作流而設計。它提供視覺化編輯介面，可與 1500 多種應用程式整合，並支援自行託管或雲端部署。使用者可結合 JavaScript 與 Python 編寫邏輯，實現從原型開發到正式生產環境的自動化部署。",
+   "tags": [
+    "自動化",
+    "AI 代理",
+    "n8n",
+    "工作流"
+   ],
+   "search_terms": [
+    "n8n",
+    "流程自動化",
+    "自動化工具",
+    "AI 工作流",
+    "workflow automation",
+    "開源自動化"
+   ],
+   "url": "https://github.com/n8n-io/n8n",
+   "content_type": "repo",
+   "difficulty": "進階",
+   "region": "國外",
+   "license": "NOASSERTION",
+   "security_score": 6.6,
    "safety": "安全"
   },
   {
@@ -22588,6 +22653,37 @@
    "license": null,
    "security_score": null,
    "safety": null
+  },
+  {
+   "video_id": "gh_microsoft_autogen",
+   "title": "microsoft/autogen",
+   "channel": "microsoft",
+   "duration_seconds": 0,
+   "published_at": "2026-04-15T11:59:09Z",
+   "thumbnail_url": "https://opengraph.githubassets.com/1/microsoft/autogen",
+   "view_count": 59987,
+   "category": "程式開發",
+   "summary": "AutoGen 是微軟推出的多代理 AI 應用框架，可協助開發者建立能自主行動或與人類協作的 AI 代理系統。該框架支援多模型接入與複雜任務編排。目前專案已進入維護模式，官方建議新專案採用後繼者「Microsoft Agent Framework」，以獲取長期支援與生產環境等級的 API 穩定性。",
+   "tags": [
+    "AutoGen",
+    "多代理",
+    "AI 框架",
+    "開發工具"
+   ],
+   "search_terms": [
+    "AutoGen",
+    "Agent Framework",
+    "多代理系統",
+    "AI 開發框架",
+    "microsoft agent"
+   ],
+   "url": "https://github.com/microsoft/autogen",
+   "content_type": "repo",
+   "difficulty": "專家",
+   "region": "國外",
+   "license": "CC-BY-4.0",
+   "security_score": 5.6,
+   "safety": "安全"
   },
   {
    "video_id": "JLgFZelbW9Y",
