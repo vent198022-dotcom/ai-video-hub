@@ -5,6 +5,7 @@
 """
 import hashlib
 import logging
+import re
 from urllib.parse import urlparse
 
 import requests
@@ -15,6 +16,8 @@ import collector
 MIN_BODY_CHARS = 200   # 少於這個長度視為沒抽到正文
 
 log = logging.getLogger(__name__)
+
+_HTTP_RE = re.compile(r"^https?://", re.IGNORECASE)
 
 # 部分網站（如經理人 managertoday.com.tw）會用反爬轉址：302 到驗證頁設 cookie 後
 # 再導回原網址。trafilatura.fetch_url 不會在轉址過程中保留 cookie，因而卡在無限
@@ -53,6 +56,9 @@ def download(url):
 
 def fetch(url, max_chars=3000):
     """抓取文章並回傳可寫入資料庫的 dict；失敗回傳 None。"""
+    if not isinstance(url, str) or not _HTTP_RE.match(url):
+        log.warning("非 http(s) 網址，略過：%s", str(url)[:80])
+        return None
     try:
         html = download(url)
         if not html:

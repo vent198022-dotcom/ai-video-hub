@@ -126,3 +126,32 @@ def test_fetch_uses_download_helper(monkeypatch):
                                                  "image": None})())
     r = article.fetch("https://x.com/a")
     assert r["title"] == "標題"
+
+
+def test_fetch_rejects_javascript_scheme(monkeypatch):
+    def boom(*a, **k):
+        raise AssertionError("不應嘗試下載非 http(s) 網址")
+    monkeypatch.setattr(article, "download", boom)
+    assert article.fetch("javascript:alert(1)") is None
+
+
+def test_fetch_rejects_data_scheme(monkeypatch):
+    monkeypatch.setattr(article, "download", lambda u: (_ for _ in ()).throw(
+        AssertionError("不應嘗試下載")))
+    assert article.fetch("data:text/html,<script>alert(1)</script>") is None
+
+
+def test_fetch_rejects_non_string_url(monkeypatch):
+    monkeypatch.setattr(article, "download", lambda u: None)
+    assert article.fetch(None) is None
+    assert article.fetch(123) is None
+
+
+def test_fetch_accepts_https(monkeypatch):
+    monkeypatch.setattr(article, "download", lambda u: "<html/>")
+    monkeypatch.setattr(article.trafilatura, "extract", lambda h, **k: "正" * 500)
+    monkeypatch.setattr(article.trafilatura, "extract_metadata",
+                        lambda h: type("M", (), {"title": "標題", "author": None,
+                                                 "sitename": "站", "date": None,
+                                                 "image": None})())
+    assert article.fetch("https://example.com/post")["title"] == "標題"

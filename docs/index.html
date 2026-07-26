@@ -100,6 +100,10 @@ function esc(s) {
   return d.innerHTML.replace(/"/g, '&quot;').replace(/'/g, '&#39;');
 }
 
+function safeUrl(u) {
+  return /^https?:\/\//i.test(u || '') ? u : '#';
+}
+
 function render() {
   const q = $('search').value.trim().toLowerCase();
   const shown = videos.filter(v =>
@@ -115,7 +119,7 @@ function render() {
     const isRepo = ctype === 'repo';
     const href = (ctype === 'video')
       ? 'https://www.youtube.com/watch?v=' + encodeURIComponent(v.video_id)
-      : (v.url || '#');
+      : safeUrl(v.url);
     const typeBadge = ctype === 'article' ? '<span class="badge">文章</span>'
       : isRepo ? '<span class="badge badge-repo">專案</span>' : '';
     return `
