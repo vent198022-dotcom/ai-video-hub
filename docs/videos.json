@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-07-26T04:43:30+00:00",
- "count": 1111,
+ "generated_at": "2026-07-26T05:17:46+00:00",
+ "count": 1114,
  "videos": [
   {
    "video_id": "AnsBslflrBQ",
@@ -1874,6 +1874,63 @@
    "content_type": "video"
   },
   {
+   "video_id": "art_c74d4bda22a6",
+   "title": "如何用ChatGPT把YouTube轉簡報？「直接貼連結」3步驟輸出、完整提示詞範例一次看",
+   "channel": "數位時代 Businessnext",
+   "duration_seconds": 0,
+   "published_at": "2026-07-22T00:00:00Z",
+   "thumbnail_url": "https://image-cdn.learnin.tw/bnextmedia/image/album/2026-07/vs89-1784681938.png?w=900&output=webp",
+   "view_count": 0,
+   "category": "辦公應用",
+   "summary": "本文介紹如何利用 ChatGPT 將 YouTube 影片轉換為 PPT 簡報。文中拆解了「直接貼連結」與「逐字稿優先」兩種實作方法與提示詞範例。使用者可先確認字幕源或清洗逐字稿，再透過 AI 角色設定與排版指令，快速匯出結構化的 .pptx 檔案並進行人工校潤，大幅提升簡報製作效率。",
+   "tags": [
+    "ChatGPT",
+    "PPT製作",
+    "簡報生成",
+    "YouTube轉簡報"
+   ],
+   "search_terms": [
+    "ChatGPT簡報",
+    "YouTube轉PPT",
+    "AI做簡報",
+    "生成PPT",
+    "提示詞範例",
+    "逐字稿轉簡報",
+    "簡報生成器",
+    "PPT自動化"
+   ],
+   "url": "https://www.bnext.com.tw/article/91570/chatgpt-youtube-to-ppt-tutorial",
+   "content_type": "article"
+  },
+  {
+   "video_id": "art_04ff0288dadf",
+   "title": "ChatGPT Work教學：上傳會議紀錄，自動整理成專案進度簡報",
+   "channel": "數位時代 Businessnext",
+   "duration_seconds": 0,
+   "published_at": "2026-07-22T00:00:00Z",
+   "thumbnail_url": "https://image-cdn.learnin.tw/bnextmedia/image/album/2026-07/c6r1-1784604327.jpg?w=900&output=webp",
+   "view_count": 0,
+   "category": "辦公應用",
+   "summary": "本教學介紹如何利用 ChatGPT 的 Work 功能與 Presentations 外掛，將會議紀錄自動整理成專案進度簡報。使用者只需切換至 Work 介面、安裝外掛，並上傳記錄與提示詞，AI 即可拆解目標、里程碑與負責人等資訊，快速產出符合需求的簡報，顯著提升辦公效率。",
+   "tags": [
+    "ChatGPT Work",
+    "會議紀錄",
+    "專案簡報",
+    "辦公效率"
+   ],
+   "search_terms": [
+    "ChatGPT做簡報",
+    "會議紀錄轉簡報",
+    "專案進度報告",
+    "Presentations外掛",
+    "AI簡報",
+    "會議整理",
+    "自動做PPT"
+   ],
+   "url": "https://www.bnext.com.tw/article/91563/chatgpt-work-meeting-notes-presentation",
+   "content_type": "article"
+  },
+  {
    "video_id": "s0rbb_NjLHQ",
    "title": "Claude Code 基本功 EP14:Remote Control 完全解放，手機、筆電、電腦同步協作",
    "channel": "三師爸Sense Bar",
@@ -2052,6 +2109,34 @@
    "search_terms": [],
    "url": null,
    "content_type": "video"
+  },
+  {
+   "video_id": "art_a80f2ea86a96",
+   "title": "用AI越久越笨？答得好時反問「這一句」，學會底層邏輯",
+   "channel": "數位時代 Businessnext",
+   "duration_seconds": 0,
+   "published_at": "2026-07-21T00:00:00Z",
+   "thumbnail_url": "https://image-cdn.learnin.tw/bnextmedia/image/album/2026-07/rnxg-1784603765.jpg?w=900&output=webp",
+   "view_count": 0,
+   "category": "入門觀念",
+   "summary": "本文分享使用 AI 時避免陷入「自動販賣機模式」的關鍵思考法。當 AI 提供優質解答時，不應僅停留在接收答案，而應主動追問其背後的推理過程與思考框架。透過關鍵提示詞，引導 AI 拆解解題的底層邏輯與思維模型，進而學習優質的思考方式。",
+   "tags": [
+    "AI思考框架",
+    "提示詞技巧",
+    "底層邏輯",
+    "學習方法"
+   ],
+   "search_terms": [
+    "AI提問技巧",
+    "提示詞學習",
+    "AI底層邏輯",
+    "反問提示詞",
+    "AI思考模型",
+    "避免腦腐",
+    "提問邏輯"
+   ],
+   "url": "https://www.bnext.com.tw/article/91562/ai-follow-up-question-reasoning",
+   "content_type": "article"
   },
   {
    "video_id": "W-nyTjanJSY",
