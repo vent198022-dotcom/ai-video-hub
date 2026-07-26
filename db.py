@@ -3,6 +3,7 @@ import json
 import sqlite3
 
 DIFFICULTIES = ("入門", "進階", "專家")
+REGIONS = ("國內", "國外")
 
 _SCHEMA = """
 CREATE TABLE IF NOT EXISTS videos (
@@ -21,6 +22,7 @@ CREATE TABLE IF NOT EXISTS videos (
     url              TEXT,
     content_type     TEXT NOT NULL DEFAULT 'video',
     difficulty       TEXT,
+    region           TEXT,
     status           TEXT NOT NULL DEFAULT 'pending',
     collected_at     TEXT DEFAULT (datetime('now'))
 );
@@ -57,6 +59,9 @@ def _migrate(conn):
     if "difficulty" not in cols:
         conn.execute("ALTER TABLE videos ADD COLUMN difficulty TEXT")
         added = True
+    if "region" not in cols:
+        conn.execute("ALTER TABLE videos ADD COLUMN region TEXT")
+        added = True
     if added:
         conn.commit()
 
@@ -89,15 +94,16 @@ def get_videos_by_status(conn, status):
 
 
 def update_classification(conn, video_id, is_relevant, category, summary, tags,
-                          search_terms=None, difficulty=None):
+                          search_terms=None, difficulty=None, region=None):
     status = "classified" if is_relevant else "excluded"
     conn.execute(
         "UPDATE videos SET status = ?, category = ?, summary = ?, tags = ?,"
-        " search_terms = ?, difficulty = ? WHERE video_id = ?",
+        " search_terms = ?, difficulty = ?, region = ? WHERE video_id = ?",
         (status, category, summary,
          json.dumps(tags or [], ensure_ascii=False),
          json.dumps(search_terms or [], ensure_ascii=False),
          difficulty if difficulty in DIFFICULTIES else None,
+         region if region in REGIONS else None,
          video_id),
     )
     conn.commit()
@@ -131,6 +137,16 @@ def set_difficulty(conn, video_id, difficulty):
     return True
 
 
+def set_region(conn, video_id, region):
+    """單獨設定國內／國外（供補標腳本使用）。值不合法時不寫入並回傳 False。"""
+    if region not in REGIONS:
+        return False
+    conn.execute("UPDATE videos SET region = ? WHERE video_id = ?",
+                 (region, video_id))
+    conn.commit()
+    return True
+
+
 def get_meta(conn, key):
     row = conn.execute("SELECT value FROM meta WHERE key = ?", (key,)).fetchone()
     return row["value"] if row else None
@@ -149,7 +165,7 @@ def get_site_videos(conn):
     rows = conn.execute(
         "SELECT video_id, title, channel, duration_seconds, published_at,"
         " thumbnail_url, view_count, category, summary, tags, search_terms, url, content_type,"
-        " difficulty"
+        " difficulty, region"
         " FROM videos WHERE status = 'classified' ORDER BY published_at DESC"
     ).fetchall()
     out = []
