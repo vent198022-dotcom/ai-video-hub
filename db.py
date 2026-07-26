@@ -2,6 +2,8 @@
 import json
 import sqlite3
 
+DIFFICULTIES = ("入門", "進階", "專家")
+
 _SCHEMA = """
 CREATE TABLE IF NOT EXISTS videos (
     video_id         TEXT PRIMARY KEY,
@@ -18,6 +20,7 @@ CREATE TABLE IF NOT EXISTS videos (
     search_terms     TEXT,
     url              TEXT,
     content_type     TEXT NOT NULL DEFAULT 'video',
+    difficulty       TEXT,
     status           TEXT NOT NULL DEFAULT 'pending',
     collected_at     TEXT DEFAULT (datetime('now'))
 );
@@ -51,6 +54,9 @@ def _migrate(conn):
         conn.execute(
             "ALTER TABLE videos ADD COLUMN content_type TEXT NOT NULL DEFAULT 'video'")
         added = True
+    if "difficulty" not in cols:
+        conn.execute("ALTER TABLE videos ADD COLUMN difficulty TEXT")
+        added = True
     if added:
         conn.commit()
 
@@ -83,14 +89,15 @@ def get_videos_by_status(conn, status):
 
 
 def update_classification(conn, video_id, is_relevant, category, summary, tags,
-                          search_terms=None):
+                          search_terms=None, difficulty=None):
     status = "classified" if is_relevant else "excluded"
     conn.execute(
         "UPDATE videos SET status = ?, category = ?, summary = ?, tags = ?,"
-        " search_terms = ? WHERE video_id = ?",
+        " search_terms = ?, difficulty = ? WHERE video_id = ?",
         (status, category, summary,
          json.dumps(tags or [], ensure_ascii=False),
          json.dumps(search_terms or [], ensure_ascii=False),
+         difficulty if difficulty in DIFFICULTIES else None,
          video_id),
     )
     conn.commit()
@@ -114,6 +121,16 @@ def mark_removed(conn, video_ids):
     return cur.rowcount
 
 
+def set_difficulty(conn, video_id, difficulty):
+    """單獨設定難易度（供補標腳本使用）。值不合法時不寫入並回傳 False。"""
+    if difficulty not in DIFFICULTIES:
+        return False
+    conn.execute("UPDATE videos SET difficulty = ? WHERE video_id = ?",
+                 (difficulty, video_id))
+    conn.commit()
+    return True
+
+
 def get_meta(conn, key):
     row = conn.execute("SELECT value FROM meta WHERE key = ?", (key,)).fetchone()
     return row["value"] if row else None
@@ -131,7 +148,8 @@ def set_meta(conn, key, value):
 def get_site_videos(conn):
     rows = conn.execute(
         "SELECT video_id, title, channel, duration_seconds, published_at,"
-        " thumbnail_url, view_count, category, summary, tags, search_terms, url, content_type"
+        " thumbnail_url, view_count, category, summary, tags, search_terms, url, content_type,"
+        " difficulty"
         " FROM videos WHERE status = 'classified' ORDER BY published_at DESC"
     ).fetchall()
     out = []

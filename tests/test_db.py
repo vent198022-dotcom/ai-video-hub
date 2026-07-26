@@ -181,3 +181,71 @@ def test_migration_adds_content_type_to_existing_db(tmp_path):
     assert v["title"] == "舊影片"
     assert v["content_type"] == "video"
     assert v["url"] is None
+
+
+def test_difficulty_roundtrip(tmp_path):
+    conn = _conn(tmp_path)
+    db.insert_video(conn, make_video())
+    db.update_classification(conn, "abc123", True, "工具教學", "摘要", [],
+                             difficulty="進階")
+    assert db.get_site_videos(conn)[0]["difficulty"] == "進階"
+
+
+def test_difficulty_defaults_none(tmp_path):
+    conn = _conn(tmp_path)
+    db.insert_video(conn, make_video())
+    db.update_classification(conn, "abc123", True, "工具教學", "摘要", [])
+    assert db.get_site_videos(conn)[0]["difficulty"] is None
+
+
+def test_invalid_difficulty_stored_as_null(tmp_path):
+    """AI 亂回難易度時存 NULL，但影片仍要正常上架。"""
+    conn = _conn(tmp_path)
+    db.insert_video(conn, make_video())
+    db.update_classification(conn, "abc123", True, "工具教學", "摘要", [],
+                             difficulty="超級難")
+    site = db.get_site_videos(conn)
+    assert len(site) == 1                    # 仍然上架
+    assert site[0]["difficulty"] is None
+
+
+def test_set_difficulty(tmp_path):
+    conn = _conn(tmp_path)
+    db.insert_video(conn, make_video())
+    db.update_classification(conn, "abc123", True, "工具教學", "摘要", [])
+    assert db.set_difficulty(conn, "abc123", "入門") is True
+    assert db.get_site_videos(conn)[0]["difficulty"] == "入門"
+
+
+def test_set_difficulty_rejects_invalid(tmp_path):
+    conn = _conn(tmp_path)
+    db.insert_video(conn, make_video())
+    db.update_classification(conn, "abc123", True, "工具教學", "摘要", [])
+    assert db.set_difficulty(conn, "abc123", "地獄級") is False
+    assert db.get_site_videos(conn)[0]["difficulty"] is None
+
+
+def test_migration_adds_difficulty(tmp_path):
+    """舊資料庫（無 difficulty 欄位）遷移後既有列為 NULL 且資料不損。"""
+    import sqlite3
+    path = tmp_path / "old.db"
+    old = sqlite3.connect(str(path))
+    old.executescript("""
+        CREATE TABLE videos (
+            video_id TEXT PRIMARY KEY, title TEXT NOT NULL, channel TEXT,
+            description TEXT, published_at TEXT, thumbnail_url TEXT,
+            duration_seconds INTEGER, view_count INTEGER, category TEXT,
+            summary TEXT, tags TEXT, search_terms TEXT, url TEXT,
+            content_type TEXT NOT NULL DEFAULT 'video',
+            status TEXT NOT NULL DEFAULT 'pending', collected_at TEXT);
+        CREATE TABLE meta (key TEXT PRIMARY KEY, value TEXT);
+        INSERT INTO videos (video_id, title, status, category, summary, tags)
+        VALUES ('old1', '舊影片', 'classified', '工具教學', '舊摘要', '[]');
+    """)
+    old.commit()
+    old.close()
+
+    conn = db.connect(path)
+    v = db.get_site_videos(conn)[0]
+    assert v["title"] == "舊影片"
+    assert v["difficulty"] is None

@@ -24,12 +24,16 @@ _PROMPT_TEMPLATE = """你是影片內容分類助手。以下是內容清單（J
 5. search_terms：5~10 個搜尋詞，涵蓋同義詞、口語說法、英文對照與相關情境用語。
    例如一部教 AI 寫 email 的影片可給：["回信", "email", "電子郵件", "郵件回覆", "客服回信", "書信"]。
    目的是讓使用者用日常說法也搜得到這部影片。
+6. difficulty：難易度，只能填「入門」「進階」「專家」三者之一：
+   入門＝不需任何前置知識，看完就能照做（概念介紹、工具初次使用、介面導覽）
+   進階＝預期已用過相關工具，涉及多步驟流程、參數調校、跨工具整合
+   專家＝需要程式、API、部署或系統架構背景才能跟上
 
 影片清單：
 {videos}
 
 只回傳 JSON 陣列，每部影片一個物件，格式：
-[{{"video_id": "...", "is_relevant": true, "category": "...", "summary": "...", "tags": ["..."], "search_terms": ["..."]}}]
+[{{"video_id": "...", "is_relevant": true, "category": "...", "summary": "...", "tags": ["..."], "search_terms": ["..."], "difficulty": "入門"}}]
 不相關的影片 is_relevant 填 false、category 填 null、summary 填空字串、tags 填空陣列。"""
 
 
@@ -124,6 +128,7 @@ def classify_pending(conn, api_key, model, categories, batch_size=10,
                     str(r.get("summary") or "")[:300],
                     [str(t) for t in (r.get("tags") or [])][:4],
                     search_terms=[str(s) for s in (r.get("search_terms") or [])][:10],
+                    difficulty=r.get("difficulty"),
                 )
                 ok += 1
             else:

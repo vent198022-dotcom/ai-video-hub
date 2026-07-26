@@ -212,3 +212,31 @@ def test_classify_pending_without_transcript_fn(tmp_path, monkeypatch):
     ])
     ok, skip, fail = classifier.classify_pending(conn, "k", "m", CATS)
     assert (ok, skip, fail) == (1, 0, 0)
+
+
+def test_build_prompt_asks_for_difficulty():
+    prompt = classifier.build_prompt([make_video("v1")], CATS)
+    assert "difficulty" in prompt
+    assert "入門" in prompt and "進階" in prompt and "專家" in prompt
+
+
+def test_classify_pending_stores_difficulty(tmp_path, monkeypatch):
+    conn = _setup(tmp_path, "v1")
+    monkeypatch.setattr(classifier, "classify_batch", lambda *a, **k: [
+        {"video_id": "v1", "is_relevant": True, "category": "工具教學",
+         "summary": "摘要", "tags": [], "search_terms": [], "difficulty": "專家"},
+    ])
+    classifier.classify_pending(conn, "k", "m", CATS)
+    assert db.get_site_videos(conn)[0]["difficulty"] == "專家"
+
+
+def test_classify_pending_bad_difficulty_still_publishes(tmp_path, monkeypatch):
+    """難易度亂填不得害整筆變成失敗。"""
+    conn = _setup(tmp_path, "v1")
+    monkeypatch.setattr(classifier, "classify_batch", lambda *a, **k: [
+        {"video_id": "v1", "is_relevant": True, "category": "工具教學",
+         "summary": "摘要", "tags": [], "search_terms": [], "difficulty": "無敵難"},
+    ])
+    ok, skip, fail = classifier.classify_pending(conn, "k", "m", CATS)
+    assert (ok, skip, fail) == (1, 0, 0)
+    assert db.get_site_videos(conn)[0]["difficulty"] is None
