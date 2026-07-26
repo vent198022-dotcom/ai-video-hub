@@ -179,6 +179,31 @@ def test_classify_pending_fetches_and_stores_search_terms(tmp_path, monkeypatch)
     assert db.get_site_videos(conn)[0]["search_terms"] == ["回信", "email"]
 
 
+def test_classify_pending_skips_transcript_fn_for_articles(tmp_path, monkeypatch):
+    conn = db.connect(tmp_path / "t.db")
+    v_video = make_video("v1")
+    v_article = make_video("art1")
+    v_article["content_type"] = "article"
+    db.insert_video(conn, v_video)
+    db.insert_video(conn, v_article)
+
+    called = []
+
+    def fake_transcript_fn(vid):
+        called.append(vid)
+        return f"字幕-{vid}"
+
+    monkeypatch.setattr(classifier, "classify_batch", lambda *a, **k: [
+        {"video_id": "v1", "is_relevant": True, "category": "工具教學",
+         "summary": "摘要", "tags": [], "search_terms": []},
+        {"video_id": "art1", "is_relevant": True, "category": "工具教學",
+         "summary": "摘要", "tags": [], "search_terms": []},
+    ])
+    classifier.classify_pending(conn, "k", "m", CATS, batch_size=10,
+                                transcript_fn=fake_transcript_fn)
+    assert called == ["v1"]
+
+
 def test_classify_pending_without_transcript_fn(tmp_path, monkeypatch):
     conn = _setup(tmp_path, "v1")
     monkeypatch.setattr(classifier, "classify_batch", lambda *a, **k: [

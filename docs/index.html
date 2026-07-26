@@ -15,6 +15,11 @@
   #tabs { display:flex; gap:6px; flex-wrap:wrap; }
   .tab { padding:6px 14px; border-radius:999px; border:1px solid #d1d5db; background:#fff; cursor:pointer; font-size:14px; }
   .tab.active { background:var(--accent); color:#fff; border-color:var(--accent); }
+  #types { display:flex; gap:6px; }
+  #types .tab { font-size:13px; padding:5px 12px; }
+  .badge { font-size:11px; background:#fef3c7; color:#92400e; padding:2px 8px;
+           border-radius:999px; font-weight:700; }
+  .meta-row { display:flex; gap:6px; align-items:center; flex-wrap:wrap; }
   main { max-width:1200px; margin:0 auto; padding:24px; }
   #meta { color:var(--muted); font-size:13px; margin-bottom:16px; }
   .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(280px,1fr)); gap:16px; }
@@ -37,6 +42,11 @@
   <h1>AI 教學影片知識平台</h1>
   <div class="controls">
     <input id="search" type="search" placeholder="搜尋主題、工具名稱、想解決的問題…">
+    <div id="types">
+      <button class="tab type active" data-type="全部">全部</button>
+      <button class="tab type" data-type="video">影片</button>
+      <button class="tab type" data-type="article">文章</button>
+    </div>
     <div id="tabs"></div>
   </div>
 </header>
@@ -48,6 +58,7 @@
 <script>
 let videos = [];
 let activeCat = '全部';
+let activeType = '全部';
 const $ = id => document.getElementById(id);
 
 function esc(s) {
@@ -60,34 +71,53 @@ function render() {
   const q = $('search').value.trim().toLowerCase();
   const shown = videos.filter(v =>
     (activeCat === '全部' || v.category === activeCat) &&
+    (activeType === '全部' || (v.content_type || 'video') === activeType) &&
     (!q || (v.title + ' ' + v.summary + ' ' + (v.tags || []).join(' ') + ' ' + v.channel
       + ' ' + (v.search_terms || []).join(' '))
       .toLowerCase().includes(q)));
-  $('grid').innerHTML = shown.map(v => `
-    <div class="card"><a href="https://www.youtube.com/watch?v=${encodeURIComponent(v.video_id)}" target="_blank" rel="noopener">
+  $('grid').innerHTML = shown.map(v => {
+    const isArticle = (v.content_type || 'video') === 'article';
+    const href = isArticle
+      ? (v.url || '#')
+      : 'https://www.youtube.com/watch?v=' + encodeURIComponent(v.video_id);
+    return `
+    <div class="card"><a href="${esc(href)}" target="_blank" rel="noopener">
       <img class="thumb" src="${esc(v.thumbnail_url)}" alt="" loading="lazy">
       <div class="body">
-        <span class="cat">${esc(v.category)}</span>
+        <div class="meta-row">
+          <span class="cat">${esc(v.category)}</span>
+          ${isArticle ? '<span class="badge">文章</span>' : ''}
+        </div>
         <div class="title">${esc(v.title)}</div>
-        <div class="channel">${esc(v.channel)}｜${new Date(v.published_at).toLocaleDateString('zh-TW')}</div>
+        <div class="channel">${esc(v.channel)}${v.published_at ? '｜' + new Date(v.published_at).toLocaleDateString('zh-TW') : ''}</div>
         <div class="summary">${esc(v.summary)}</div>
         <div class="tags">${(v.tags || []).map(t => `<span class="tag">${esc(t)}</span>`).join('')}</div>
-      </div></a></div>`).join('');
+      </div></a></div>`;
+  }).join('');
   $('empty').hidden = shown.length > 0;
 }
 
 $('search').addEventListener('input', render);
 $('tabs').addEventListener('click', e => {
   if (!e.target.classList.contains('tab')) return;
-  document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+  document.querySelectorAll('#tabs .tab').forEach(t => t.classList.remove('active'));
   e.target.classList.add('active');
   activeCat = e.target.dataset.cat;
+  render();
+});
+$('types').addEventListener('click', e => {
+  if (!e.target.classList.contains('tab')) return;
+  document.querySelectorAll('#types .tab').forEach(t => t.classList.remove('active'));
+  e.target.classList.add('active');
+  activeType = e.target.dataset.type;
   render();
 });
 
 fetch('videos.json').then(r => r.json()).then(data => {
   videos = data.videos;
-  $('meta').textContent = '共 ' + data.count + ' 部影片｜更新時間：'
+  const nv = videos.filter(v => (v.content_type || 'video') === 'video').length;
+  const na = videos.length - nv;
+  $('meta').textContent = `共 ${nv} 部影片、${na} 篇文章｜更新時間：`
     + new Date(data.generated_at).toLocaleString('zh-TW');
   const cats = ['全部', ...new Set(videos.map(v => v.category))];
   $('tabs').innerHTML = cats.map(c =>

@@ -80,16 +80,19 @@ def main():
 
     art_max = (cfg.get("article") or {}).get("max_chars", 3000)
     art_added = 0
-    for url in submitted_articles:
-        if db.video_exists(conn, article.make_id(url)):
-            continue
-        item = article.fetch(url, art_max)
-        if item is None:
-            continue          # article.fetch 已記錄原因
-        db.insert_video(conn, item)
-        art_added += 1
-    if art_added:
-        log.info("文章收集完成：新增 %d 篇", art_added)
+    try:
+        for url in submitted_articles:
+            if db.video_exists(conn, article.make_id(url)):
+                continue
+            item = article.fetch(url, art_max)
+            if item is None:
+                continue          # article.fetch 已記錄原因
+            db.insert_video(conn, item)
+            art_added += 1
+        if art_added:
+            log.info("文章收集完成：新增 %d 篇", art_added)
+    except Exception:
+        log.exception("文章收集階段失敗，繼續處理既有待分類影片")
 
     tcfg = cfg.get("transcript") or {}
     use_transcript = bool(tcfg.get("enabled"))

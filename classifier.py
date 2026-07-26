@@ -16,8 +16,10 @@ _PROMPT_TEMPLATE = """你是影片內容分類助手。以下是內容清單（J
    (a) 語言為中文（繁體或簡體皆可）；英文、日文、韓文等非中文內容一律不相關
    (b) 內容為教學、實作、應用示範；純新聞、廣告、閒聊、蹭關鍵字的不算
 2. category：從固定清單中選一個，不得自創：{categories}
-3. summary：繁體中文摘要。**若該影片附有字幕逐字稿內容，必須依據逐字稿內容撰寫 80~120 字的具體摘要，說明實際教了哪些步驟或工具**；沒有字幕逐字稿時，依標題與描述寫 50~80 字摘要
-   若該筆為文章（content_type 為 article），依 description 內的正文撰寫 80~120 字摘要。
+3. summary：繁體中文摘要，依下列三種情況擇一（互斥，只符合一種）：
+   (a) 附有字幕逐字稿內容 → 必須依據逐字稿內容撰寫 80~120 字的具體摘要，說明實際教了哪些步驟或工具
+   (b) 屬於文章（content_type 為 article）→ 依 description 內的正文撰寫 80~120 字摘要
+   (c) 以上皆非（無逐字稿的影片）→ 依標題與描述撰寫 50~80 字摘要
 4. tags：1~4 個簡短標籤
 5. search_terms：5~10 個搜尋詞，涵蓋同義詞、口語說法、英文對照與相關情境用語。
    例如一部教 AI 寫 email 的影片可給：["回信", "email", "電子郵件", "郵件回覆", "客服回信", "書信"]。
@@ -91,7 +93,8 @@ def classify_pending(conn, api_key, model, categories, batch_size=10,
         batch = queue[i:i + batch_size]
         if transcript_fn:
             for v in batch:
-                v["transcript"] = transcript_fn(v["video_id"])
+                if v.get("content_type") != "article":
+                    v["transcript"] = transcript_fn(v["video_id"])
         try:
             results = classify_batch(api_key, model, batch, categories)
             by_id = {r["video_id"]: r for r in results if isinstance(r, dict) and "video_id" in r}

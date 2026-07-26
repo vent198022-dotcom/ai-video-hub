@@ -49,6 +49,8 @@ schtasks /Run /TN "AIVideoHub"
 - 修改關鍵字/分類：編輯 `config.yaml`（改分類清單時注意：舊影片不會重新分類）
 - YouTube 配額用量：Google Cloud Console → APIs & Services → Quotas
 
-## 7. 手動提交影片
-在 `submit.txt` 裡貼上 YouTube 連結（一行一個），下次執行 `run.bat` 就會自動收錄、分類、上架。
-支援 `watch?v=`、`youtu.be`、`shorts` 等格式；重複貼同一支不會重複收錄；人工提交的影片不受兩分鐘時長下限限制。
+## 7. 手動提交影片或文章
+在 `submit.txt` 裡貼上連結（一行一個），下次執行 `run.bat` 就會自動收錄、分類、上架。
+- 貼 **YouTube 連結** → 收錄為影片（支援 watch?v=、youtu.be、shorts 等格式），且不受兩分鐘時長下限限制
+- 貼 **一般網頁連結** → 收錄為文章，系統會自動抓取正文並由 AI 撰寫摘要
+重複貼同一個連結不會重複收錄；抓不到正文的網頁會自動略過並記錄在 `logs\run.log`。
