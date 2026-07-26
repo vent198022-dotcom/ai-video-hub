@@ -61,6 +61,10 @@ def test_fetch_falls_back_to_url_when_no_title(monkeypatch):
 
 def test_fetch_returns_none_on_download_failure(monkeypatch):
     monkeypatch.setattr(article.trafilatura, "fetch_url", lambda u: None)
+
+    def boom(*a, **k):
+        raise article.requests.ConnectionError("連線失敗")
+    monkeypatch.setattr(article._SESSION, "get", boom)
     assert article.fetch("https://example.com/post") is None
 
 
