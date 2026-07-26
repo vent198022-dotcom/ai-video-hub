@@ -281,3 +281,63 @@ def test_main_no_sites_configured(tmp_path, monkeypatch):
         raise AssertionError("不應呼叫 discover")
     monkeypatch.setattr(main_mod.sites, "discover", boom)
     assert main_mod.main() == 0
+
+
+def test_main_collects_github_repos(tmp_path, monkeypatch):
+    _stub_stages(monkeypatch)
+    monkeypatch.setenv("YOUTUBE_API_KEY", "yt")
+    monkeypatch.setenv("GEMINI_API_KEY", "gm")
+    monkeypatch.setenv("GITHUB_TOKEN", "gh")
+    monkeypatch.setattr(main_mod, "ROOT", tmp_path)
+    _write_cfg(tmp_path,
+               "github: {enabled: true, queries: [AI agent], min_stars: 2000,"
+               " pushed_days: 180, per_query: 20, readme_chars: 3000}\n")
+
+    monkeypatch.setattr(main_mod.github, "discover", lambda *a, **k: [{
+        "video_id": "gh_foo_bar", "title": "foo/bar", "channel": "foo",
+        "description": "README", "published_at": "2026-07-01T00:00:00Z",
+        "thumbnail_url": "https://img", "duration_seconds": 0,
+        "view_count": 100, "url": "https://github.com/foo/bar",
+        "content_type": "repo",
+    }])
+
+    assert main_mod.main() == 0
+    conn = main_mod.db.connect(tmp_path / "videos.db")
+    assert main_mod.db.video_exists(conn, "gh_foo_bar")
+
+
+def test_main_github_failure_does_not_stop_pipeline(tmp_path, monkeypatch):
+    _stub_stages(monkeypatch)
+    monkeypatch.setenv("YOUTUBE_API_KEY", "yt")
+    monkeypatch.setenv("GEMINI_API_KEY", "gm")
+    monkeypatch.setenv("GITHUB_TOKEN", "gh")
+    monkeypatch.setattr(main_mod, "ROOT", tmp_path)
+    _write_cfg(tmp_path,
+               "github: {enabled: true, queries: [AI], min_stars: 1,"
+               " pushed_days: 30, per_query: 5, readme_chars: 3000}\n")
+
+    stages = []
+
+    def boom(*a, **k):
+        raise RuntimeError("GitHub 掛了")
+    monkeypatch.setattr(main_mod.github, "discover", boom)
+    monkeypatch.setattr(main_mod.generator, "generate",
+                        lambda *a, **k: stages.append("generate") or 0)
+    monkeypatch.setattr(main_mod.publisher, "publish",
+                        lambda *a, **k: stages.append("publish") or False)
+
+    assert main_mod.main() == 0
+    assert stages == ["generate", "publish"]
+
+
+def test_main_github_disabled(tmp_path, monkeypatch):
+    _stub_stages(monkeypatch)
+    monkeypatch.setenv("YOUTUBE_API_KEY", "yt")
+    monkeypatch.setenv("GEMINI_API_KEY", "gm")
+    monkeypatch.setattr(main_mod, "ROOT", tmp_path)
+    _write_cfg(tmp_path, "github: {enabled: false, queries: [AI]}\n")
+
+    def boom(*a, **k):
+        raise AssertionError("關閉時不應呼叫 discover")
+    monkeypatch.setattr(main_mod.github, "discover", boom)
+    assert main_mod.main() == 0

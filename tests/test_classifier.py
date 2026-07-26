@@ -20,7 +20,7 @@ def test_build_prompt_requires_chinese_language():
     prompt = classifier.build_prompt([make_video("v1")], CATS)
     assert "中文" in prompt
     assert "繁體或簡體" in prompt
-    assert "非中文內容一律不相關" in prompt
+    assert "非中文內容、純新聞、廣告、閒聊一律不相關" in prompt
 
 
 def test_classify_batch_key_in_header_not_url(monkeypatch):
@@ -240,3 +240,39 @@ def test_classify_pending_bad_difficulty_still_publishes(tmp_path, monkeypatch):
     ok, skip, fail = classifier.classify_pending(conn, "k", "m", CATS)
     assert (ok, skip, fail) == (1, 0, 0)
     assert db.get_site_videos(conn)[0]["difficulty"] is None
+
+
+def test_build_prompt_marks_repo_type():
+    v = make_video("gh_a_b", description="English README content")
+    v["content_type"] = "repo"
+    prompt = classifier.build_prompt([v], CATS)
+    assert "repo" in prompt
+    assert prompt.count("English README content") == 1
+
+
+def test_prompt_exempts_repos_from_chinese_rule():
+    prompt = classifier.build_prompt([make_video("v1")], CATS)
+    assert "開源專案" in prompt          # 語言例外規則有寫進 prompt
+    assert "region" in prompt
+
+
+def test_classify_pending_stores_region(tmp_path, monkeypatch):
+    conn = _setup(tmp_path, "v1")
+    monkeypatch.setattr(classifier, "classify_batch", lambda *a, **k: [
+        {"video_id": "v1", "is_relevant": True, "category": "工具教學",
+         "summary": "摘要", "tags": [], "search_terms": [],
+         "difficulty": "入門", "region": "國外"},
+    ])
+    classifier.classify_pending(conn, "k", "m", CATS)
+    assert db.get_site_videos(conn)[0]["region"] == "國外"
+
+
+def test_classify_pending_bad_region_still_publishes(tmp_path, monkeypatch):
+    conn = _setup(tmp_path, "v1")
+    monkeypatch.setattr(classifier, "classify_batch", lambda *a, **k: [
+        {"video_id": "v1", "is_relevant": True, "category": "工具教學",
+         "summary": "摘要", "tags": [], "search_terms": [], "region": "外太空"},
+    ])
+    ok, skip, fail = classifier.classify_pending(conn, "k", "m", CATS)
+    assert (ok, skip, fail) == (1, 0, 0)
+    assert db.get_site_videos(conn)[0]["region"] is None

@@ -83,3 +83,18 @@ site_filter:
     - 自動化
     - 提示詞
     - 機器學習
+
+github:
+  enabled: true
+  min_stars: 2000          # 星數門檻
+  pushed_days: 180         # 只收近半年有更新的專案（排除停更）
+  per_query: 20            # 每個查詢最多取幾個
+  readme_chars: 3000       # README 送進 AI 的字數上限
+  queries:
+    - AI agent
+    - LLM application
+    - RAG
+    - prompt engineering
+    - AI automation workflow
+    - text to image
+    - AI coding assistant

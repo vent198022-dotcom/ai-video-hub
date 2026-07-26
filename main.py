@@ -14,6 +14,7 @@ import cleanup
 import collector
 import db
 import generator
+import github
 import publisher
 import sites
 import submissions
@@ -92,6 +93,35 @@ def main():
                 log.info("網站訂閱共發現 %d 篇候選文章", len(site_urls))
     except Exception:
         log.exception("網站訂閱階段失敗，略過本次訂閱")
+
+    repo_items = []
+    try:
+        gcfg = cfg.get("github") or {}
+        if gcfg.get("enabled"):
+            gh_token = os.environ.get("GITHUB_TOKEN")
+            if not gh_token:
+                log.warning("缺少 GITHUB_TOKEN，略過 GitHub 收集")
+            else:
+                repo_items = github.discover(
+                    gh_token, gcfg.get("queries") or [],
+                    gcfg.get("min_stars", 2000), gcfg.get("pushed_days", 180),
+                    per_query=gcfg.get("per_query", 20),
+                )
+                log.info("GitHub 發現 %d 個候選專案", len(repo_items))
+    except Exception:
+        log.exception("GitHub 收集階段失敗，略過本次收集")
+
+    repo_added = 0
+    try:
+        for item in repo_items:
+            if db.video_exists(conn, item["video_id"]):
+                continue
+            db.insert_video(conn, item)
+            repo_added += 1
+    except Exception:
+        log.exception("專案寫入階段失敗，已寫入的不受影響")
+    if repo_added:
+        log.info("開源專案收集完成：新增 %d 個", repo_added)
 
     art_max = (cfg.get("article") or {}).get("max_chars", 3000)
     art_added = 0
