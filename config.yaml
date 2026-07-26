@@ -52,14 +52,22 @@ transcript:
 article:
   max_chars: 3000    # 文章正文送進 AI 的字數上限
 
-sites:                     # 自動訂閱的網站（只支援有 RSS 或 sitemap 的站）
-  - name: 遠見
-    feed: https://www.gvm.com.tw/rss
-  - name: 科技島
-    feed: https://www.technice.com.tw/feed
-  - name: 數位時代
-    sitemap: https://www.bnext.com.tw/feed/sitemap.xml
-    sitemap_filter: /article/
+sites:                     # 訂閱來源：分類頁命中率遠高於全站 feed
+  - name: 科技島｜AI 工具
+    feed: https://www.technice.com.tw/category/project/ai-tool/feed
+    filter: false          # 分類頁已鎖定主題，交由 AI 分類階段判斷即可
+  - name: 遠見｜方法
+    page: https://www.gvm.com.tw/category/how-to
+    link_pattern: '/article/\d+'
+    filter: false
+  - name: 數位時代｜AI
+    page: https://www.bnext.com.tw/categories/ai
+    link_pattern: '/article/\d+/[a-z0-9-]+'
+    filter: false
+  - name: 數位時代｜數位技能
+    page: https://www.bnext.com.tw/categories/digitalskill
+    link_pattern: '/article/\d+/[a-z0-9-]+'
+    filter: false
 
 site_filter:
   max_per_site: 20         # 每站每次最多取幾篇（先關鍵字篩選再取）
