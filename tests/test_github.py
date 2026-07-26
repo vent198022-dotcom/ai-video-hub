@@ -22,6 +22,7 @@ REPO = {
     "pushed_at": "2026-07-20T10:00:00Z",
     "owner": {"login": "langgenius"},
     "archived": False,
+    "license": {"spdx_id": "MIT"},
 }
 
 
@@ -102,3 +103,61 @@ def test_discover_empty_queries(monkeypatch):
         raise AssertionError("不應呼叫")
     monkeypatch.setattr(github, "search", boom)
     assert github.discover("tok", [], 2000, 180) == []
+
+
+def test_has_open_license():
+    assert github.has_open_license({"license": {"spdx_id": "MIT"}}) is True
+    assert github.has_open_license({"license": {"spdx_id": "NOASSERTION"}}) is False
+    assert github.has_open_license({"license": {"spdx_id": ""}}) is False
+    assert github.has_open_license({"license": None}) is False
+    assert github.has_open_license({}) is False
+
+
+def test_search_drops_unlicensed(monkeypatch):
+    licensed = dict(REPO, license={"spdx_id": "Apache-2.0"})
+    unlicensed = dict(REPO, full_name="x/no-license", license={"spdx_id": "NOASSERTION"})
+    monkeypatch.setattr(github.requests, "get",
+                        lambda *a, **k: FakeResp({"items": [licensed, unlicensed]}))
+    out = github.search("tok", "AI", 100, "2026-01-01")
+    assert [r["full_name"] for r in out] == ["langgenius/dify"]
+
+
+def test_fetch_scorecard_returns_score(monkeypatch):
+    monkeypatch.setattr(github.requests, "get",
+                        lambda *a, **k: FakeResp({"score": 7.4, "checks": []}))
+    assert github.fetch_scorecard("a/b") == 7.4
+
+
+def test_fetch_scorecard_missing_returns_none(monkeypatch):
+    def boom(*a, **k):
+        raise github.requests.HTTPError("404")
+    monkeypatch.setattr(github.requests, "get", boom)
+    assert github.fetch_scorecard("a/b") is None
+
+
+def test_fetch_scorecard_bad_payload_returns_none(monkeypatch):
+    monkeypatch.setattr(github.requests, "get", lambda *a, **k: FakeResp({"nope": 1}))
+    assert github.fetch_scorecard("a/b") is None
+
+
+def test_to_item_carries_license_and_score():
+    repo = dict(REPO, license={"spdx_id": "MIT"})
+    item = github.to_item(repo, "README", score=8.1)
+    assert item["license"] == "MIT"
+    assert item["security_score"] == 8.1
+
+
+def test_to_item_score_none_by_default():
+    item = github.to_item(dict(REPO, license={"spdx_id": "MIT"}), "README")
+    assert item["security_score"] is None
+
+
+def test_discover_queries_scorecard_once_per_repo(monkeypatch):
+    calls = []
+    monkeypatch.setattr(github, "search", lambda *a, **k: [dict(REPO, license={"spdx_id": "MIT"})])
+    monkeypatch.setattr(github, "fetch_readme", lambda *a, **k: "README")
+    monkeypatch.setattr(github, "fetch_scorecard",
+                        lambda n: calls.append(n) or 6.5)
+    items = github.discover("tok", ["A", "B"], 100, 30)
+    assert calls == ["langgenius/dify"]      # 兩個查詢撈到同一專案只查一次
+    assert items[0]["security_score"] == 6.5

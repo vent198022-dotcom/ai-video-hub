@@ -12,9 +12,35 @@ import collector
 SEARCH_URL = "https://api.github.com/search/repositories"
 README_URL = "https://api.github.com/repos/{full_name}/readme"
 OG_IMAGE_URL = "https://opengraph.githubassets.com/1/{full_name}"
+SCORECARD_URL = "https://api.securityscorecards.dev/projects/github.com/{full_name}"
 TIMEOUT = 30
 
+_NO_LICENSE = {"", "NOASSERTION", "NONE"}
+
 log = logging.getLogger(__name__)
+
+
+def has_open_license(repo):
+    """是否有明確的開源授權條款。無授權的專案公司採用有法律風險，一律不收。"""
+    spdx = ((repo.get("license") or {}).get("spdx_id") or "").strip()
+    return bool(spdx) and spdx.upper() not in _NO_LICENSE
+
+
+def fetch_scorecard(full_name):
+    """查 OpenSSF 安全評分（0~10）；查無或失敗回 None。
+
+    涵蓋率不完整是正常現象——查無資料代表「未知」，不代表不安全，
+    因此絕不可用它來排除專案。
+    """
+    try:
+        resp = requests.get(SCORECARD_URL.format(full_name=full_name),
+                            timeout=TIMEOUT)
+        resp.raise_for_status()
+        score = resp.json().get("score")
+        return float(score) if isinstance(score, (int, float)) else None
+    except (requests.RequestException, ValueError, TypeError, AttributeError) as e:
+        log.debug("專案 %s 查無安全評分：%s", full_name, collector._safe_err(e))
+        return None
 
 
 def _headers(token, raw=False):
@@ -38,7 +64,17 @@ def search(token, query, min_stars, pushed_after, per_page=20):
     except (requests.RequestException, ValueError, AttributeError) as e:
         log.warning("GitHub 搜尋「%s」失敗：%s", query, collector._safe_err(e))
         return []
-    return [r for r in items if isinstance(r, dict) and not r.get("archived")]
+    kept, no_license = [], 0
+    for r in items:
+        if not isinstance(r, dict) or r.get("archived"):
+            continue
+        if not has_open_license(r):
+            no_license += 1
+            continue
+        kept.append(r)
+    if no_license:
+        log.info("查詢「%s」：%d 個專案因無明確開源授權被排除", query, no_license)
+    return kept
 
 
 def fetch_readme(token, full_name, max_chars=3000):
@@ -53,7 +89,7 @@ def fetch_readme(token, full_name, max_chars=3000):
         return ""
 
 
-def to_item(repo, readme):
+def to_item(repo, readme, score=None):
     """把 GitHub repo 轉成可寫入資料庫的內容 dict。"""
     full_name = repo["full_name"]
     return {
@@ -67,6 +103,8 @@ def to_item(repo, readme):
         "view_count": int(repo.get("stargazers_count") or 0),
         "url": repo.get("html_url", ""),
         "content_type": "repo",
+        "license": ((repo.get("license") or {}).get("spdx_id") or ""),
+        "security_score": score,
     }
 
 
@@ -83,4 +121,5 @@ def discover(token, queries, min_stars, pushed_days, per_query=20):
             if name and name not in seen:
                 seen[name] = repo
         log.info("GitHub 查詢「%s」：累計 %d 個專案", q, len(seen))
-    return [to_item(r, fetch_readme(token, n)) for n, r in seen.items()]
+    return [to_item(r, fetch_readme(token, n), fetch_scorecard(n))
+            for n, r in seen.items()]
