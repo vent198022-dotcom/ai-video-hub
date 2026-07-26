@@ -30,19 +30,52 @@ python main.py
 ```
 確認 `logs\run.log` 顯示四個階段完成、GitHub Pages 網站有內容。
 
-## 5. 設定每日排程（系統管理員 PowerShell）
-```powershell
-schtasks /Create /SC DAILY /ST 09:00 /TN "AIVideoHub" /TR '"C:\Users\user\Desktop\AI用\claue 工作\AI 知識平台\ai-video-hub\run.bat"'
-```
-建立後立即驗證排程可正常執行：
-```powershell
-schtasks /Run /TN "AIVideoHub"
-```
-然後檢查 `logs\scheduler.log` 是否多出新的執行紀錄，代表排程可正常執行。
+## 5. 設定每日排程（PowerShell）
+本專案路徑含空格與中文，**必須用 PowerShell 的排程 API 建立**，不要用 `schtasks /Create`
+（原因見本節末的「踩過的坑」）：
 
-- 排程預設僅在該使用者登入時執行；電腦關機或未登入的日子不會跑，下次執行會自動補齊遺漏的影片。
-- 查看排程：`schtasks /Query /TN "AIVideoHub"`
-- 刪除排程：`schtasks /Delete /TN "AIVideoHub" /F`
+```powershell
+$bat = "C:\Users\user\Desktop\AI用\claue 工作\AI 知識平台\ai-video-hub\run.bat"
+Register-ScheduledTask -TaskName "AIVideoHub" -Force `
+  -Action (New-ScheduledTaskAction -Execute $bat) `
+  -Trigger (New-ScheduledTaskTrigger -Daily -At 16:00) `
+  -Description "AI 教學影片知識平台每日更新"
+```
+
+**時間建議設 16:00**：Gemini 免費配額在太平洋時間午夜重置，換算為台灣時間夏令 15:00、
+冬令 16:00。設 16:00 可讓兩個季節都落在重置之後，不必隨換季調整。
+
+建立後**必須驗證儲存正確**——只看到「建立成功」不代表能執行：
+```powershell
+$x = [xml](schtasks /Query /TN "AIVideoHub" /XML)
+$x.Task.Actions.Exec.Command      # 必須是完整路徑（到 run.bat 結尾）
+$x.Task.Actions.Exec.Arguments    # 必須是空的
+```
+
+再實際觸發一次，確認真的跑得動：
+```powershell
+Start-ScheduledTask -TaskName "AIVideoHub"
+```
+等約一分鐘後檢查 `logs\scheduler.log` 與 `logs\run.log` 是否增長。
+
+- 排程預設僅在該使用者登入時執行；電腦關機或未登入的日子不會跑，
+  漏掉的影片會在下次執行時由 `publishedAfter` 增量補齊。
+- 查看狀態：`Get-ScheduledTaskInfo -TaskName "AIVideoHub"`
+  （`LastTaskResult` 為 `0` 代表成功、`267009` 代表正在執行中）
+- 刪除排程：`Unregister-ScheduledTask -TaskName "AIVideoHub" -Confirm:$false`
+
+### 踩過的坑：為什麼不用 schtasks /Create
+`schtasks /Create /TR "<含空格的路徑>"` 會把路徑在**第一個空格處切開**，前半當成程式、
+後半當成引數，於是執行時回報 `-2147024894`（找不到檔案）。實測結果：
+
+| 寫法 | 儲存結果 |
+|------|---------|
+| `/TR "C:\...\AI用\claue 工作\...\run.bat"` | Command=`C:\...\AI用\claue`、Arguments=`工作\...\run.bat` ❌ |
+| `/TR '"C:\...\run.bat"'`（單引號包雙引號） | 同上，PowerShell 5.1 會把內層引號吃掉 ❌ |
+| `Register-ScheduledTask -Execute $bat` | Command=完整路徑、Arguments 為空 ✅ |
+
+關鍵是**建立成功不等於能執行**——`schtasks /Create` 兩種寫法都回報 SUCCESS，
+只有實際觸發或檢查儲存的 XML 才會發現路徑被切壞。
 
 ## 6. 日常維運
 - 執行紀錄：`logs\run.log`（管線日誌）、`logs\scheduler.log`（排程器輸出）
