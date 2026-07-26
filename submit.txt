@@ -5,3 +5,7 @@
 
 # 測試提交（驗收用）
 https://www.youtube.com/watch?v=MjlEH9Ik9Gc
+
+# 文章功能驗收
+https://raymondhouch.com/lifehacker/digital-workflow/n8n-beginner-guide/
+https://storyofdream.com/n8n-tutorial-for-beginner/
