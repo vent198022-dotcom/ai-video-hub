@@ -1,7 +1,34 @@
 {
- "generated_at": "2026-07-25T16:55:01+00:00",
- "count": 1103,
+ "generated_at": "2026-07-26T00:49:06+00:00",
+ "count": 1104,
  "videos": [
+  {
+   "video_id": "-zzHD9bDAFs",
+   "title": "把題目改寫成生活情境題＋建立「現象庫」｜Codex 實戰",
+   "channel": "林春煌 永春高中",
+   "duration_seconds": 253,
+   "published_at": "2026-07-25T23:55:31Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/-zzHD9bDAFs/mqdefault.jpg",
+   "view_count": 1,
+   "category": "辦公應用",
+   "summary": "本影片展示如何利用 Codex 將一般考試題目改寫為貼近生活的情境題，並建立可持續調用的「現象庫」資料庫，讓 AI 在出題時有充足素材可供參考，提升教師備課與出題的效率。",
+   "tags": [
+    "Codex",
+    "AI教學",
+    "題目改寫",
+    "備課技巧"
+   ],
+   "search_terms": [
+    "Codex",
+    "出題",
+    "題目改寫",
+    "生活情境題",
+    "現象庫",
+    "AI備課",
+    "教師AI",
+    "教學應用"
+   ]
+  },
   {
    "video_id": "LF6z1KTj2qU",
    "title": "AI 是什麼？新手 AI 入門教學｜ChatGPT、生成式 AI 怎麼用",
@@ -17,7 +44,8 @@
     "ChatGPT",
     "Prompt技巧",
     "生成式AI"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "MjlEH9Ik9Gc",
@@ -34,7 +62,8 @@
     "Artifacts",
     "工具教學",
     "成果分享"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "VAWYTElMuAQ",
@@ -51,7 +80,8 @@
     "教師備課",
     "Skill建立",
     "辦公應用"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "6l_467w83gI",
@@ -68,7 +98,8 @@
     "Suno",
     "AI音樂",
     "音樂創作"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "pcSuAkkStS4",
@@ -85,7 +116,8 @@
     "AIAgent",
     "AI觀念",
     "入門教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "GdPNNwHiuIk",
@@ -102,7 +134,8 @@
     "Agent view",
     "AI代理人",
     "工具教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "VtI9A4rP2B8",
@@ -119,7 +152,8 @@
     "Seedance",
     "AI影片生成",
     "對嘴神器"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "P-gbJmRb13U",
@@ -136,7 +170,8 @@
     "AI影片",
     "工作流",
     "影片複刻"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "OtEaEf8SdDM",
@@ -153,7 +188,8 @@
     "基礎教學",
     "LangChain",
     "RAG"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "XLqYZwSXmiM",
@@ -170,7 +206,8 @@
     "MCP",
     "多Agent協作",
     "自動化工作流"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "GaTZkSI-AIg",
@@ -187,7 +224,8 @@
     "TradingView",
     "AI看盤",
     "自動化工作流"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "2emjLP-i51Y",
@@ -204,7 +242,8 @@
     "入門觀念",
     "AI協作",
     "工作流概念"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "FI2GwpI92IM",
@@ -221,7 +260,8 @@
     "Plugins",
     "程式開發",
     "外掛開發"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "l8Y1__CEyMo",
@@ -238,7 +278,8 @@
     "資料摘要",
     "學習工具",
     "工具教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "lOKiP55B4wA",
@@ -255,7 +296,8 @@
     "AI工具",
     "簡報教學",
     "影片剪輯"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "L5VCXCWHcvQ",
@@ -272,7 +314,8 @@
     "Graph架構",
     "多Agent分工",
     "程式開發"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "KZK0tvrjWN8",
@@ -289,7 +332,8 @@
     "RAG",
     "MCP",
     "觀念解析"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "eugU38BZaf4",
@@ -306,7 +350,8 @@
     "Hooks",
     "AI開發",
     "程式開發"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "aUJ_i1wmzxg",
@@ -323,7 +368,8 @@
     "Claude Code",
     "軟體開發",
     "工作流"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "k6AlrVzO498",
@@ -340,7 +386,8 @@
     "Projects",
     "AI工具",
     "教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "o263aCYpwnY",
@@ -357,7 +404,8 @@
     "Chat Agent",
     "工作流",
     "新手教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "ga5DaUVEkcs",
@@ -374,7 +422,8 @@
     "學術研究",
     "文獻回顧",
     "AI應用"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "p6b8cMB-Zag",
@@ -391,7 +440,8 @@
     "進階設定",
     "AI工具",
     "效率提升"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "exH8GQyXLrM",
@@ -408,7 +458,8 @@
     "WordPress",
     "Elementor",
     "網站開發"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "Lsp-JpunA7I",
@@ -425,7 +476,8 @@
     "AI教學",
     "TVC廣告",
     "分鏡生成"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "iI2AehKW2dw",
@@ -442,7 +494,8 @@
     "AI畫質提升",
     "影片修復",
     "影像上色"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "jVArJUhxvEs",
@@ -459,7 +512,8 @@
     "行銷自動化",
     "SEO",
     "AI應用"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "3ASuF03L4j4",
@@ -476,7 +530,8 @@
     "ChatCut",
     "AI剪輯",
     "影片生成"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "mPywsCF8l8o",
@@ -493,7 +548,8 @@
     "AIAgent",
     "自動化",
     "無程式碼"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "LcdBcy-L0QU",
@@ -510,7 +566,8 @@
     "AI影片生成",
     "縮時影片",
     "短影音"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "cyXwmAYn8no",
@@ -527,7 +584,8 @@
     "Subagent",
     "AI開發",
     "平行處理"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "wtP-qK9Rv8w",
@@ -544,7 +602,8 @@
     "ClaudeResearch",
     "資料搜尋",
     "報告生成"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "WkaxxeMmTdk",
@@ -561,7 +620,8 @@
     "LINE貼圖",
     "Q版繪圖",
     "AI生圖"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "9JNf4CJumJk",
@@ -578,7 +638,8 @@
     "AI教材",
     "影片生成",
     "教學應用"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "4QTeVvBb3Hk",
@@ -595,7 +656,8 @@
     "MCP",
     "大型語言模型",
     "工具教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "8gooNWnmeYk",
@@ -612,7 +674,8 @@
     "Slack",
     "GitHub",
     "自動化"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "A7mTgjVlgIo",
@@ -629,7 +692,8 @@
     "Anthropic",
     "程式開發",
     "AI助手"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "Rn088YPBnTo",
@@ -646,7 +710,8 @@
     "AI漫劇",
     "影片生成",
     "創作教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "YaMMow5GmYg",
@@ -663,7 +728,8 @@
     "白板影片",
     "AI影片生成",
     "簡報製作"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "cD8xFfxljhI",
@@ -680,7 +746,8 @@
     "Claude",
     "技能開發",
     "自動化"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "SWTKuDnbaPY",
@@ -697,7 +764,8 @@
     "AI電影",
     "AI影片生成",
     "動漫短劇"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "2rB5AWhlySs",
@@ -714,7 +782,8 @@
     "AI網紅",
     "帶貨影片",
     "AI影片生成"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "sPmSHLnurnM",
@@ -731,7 +800,8 @@
     "Routines",
     "自動化工作流",
     "AI管家"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "vqj1Qj9TonU",
@@ -748,7 +818,8 @@
     "AI音樂",
     "音樂創作",
     "新手教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "CTVuEaWIOoc",
@@ -765,7 +836,8 @@
     "Subagent",
     "AI開發",
     "程式編寫"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "WiNJBsPZFSA",
@@ -782,7 +854,8 @@
     "Claude Code",
     "AI Agent",
     "程式開發"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "13jpBoqy_GI",
@@ -799,7 +872,8 @@
     "程式測試",
     "MCP",
     "除錯教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "bS1HfY6ANyo",
@@ -816,7 +890,8 @@
     "AI Agent",
     "MCP",
     "程式開發"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "Unvy-vsb6QA",
@@ -833,7 +908,8 @@
     "MCP",
     "程式教學",
     "複習"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "U8u19JDLmDU",
@@ -850,7 +926,8 @@
     "工具開發",
     "Python",
     "程式教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "VXtCo5jtfsQ",
@@ -867,7 +944,8 @@
     "MCP",
     "Claude",
     "入門觀念"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "oiiaqsNgNlA",
@@ -884,7 +962,8 @@
     "AI Agent",
     "程式開發",
     "除錯教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "OB8dCg7ZVNA",
@@ -901,7 +980,8 @@
     "MCP",
     "AI Agent",
     "程式觀察"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "uj1SWqmoA8w",
@@ -918,7 +998,8 @@
     "寫入工具",
     "程式實作",
     "MCP"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "ms1OSuTcE54",
@@ -935,7 +1016,8 @@
     "記憶功能",
     "AI助教",
     "教育應用"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "lIhireqfpTo",
@@ -952,7 +1034,8 @@
     "快捷技巧",
     "AI工具",
     "程式開發"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "n2kOHHfW-WQ",
@@ -969,7 +1052,8 @@
     "AI Agent",
     "RAG",
     "資料庫"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "GaNwUBPHu6I",
@@ -986,7 +1070,8 @@
     "職場應用",
     "專案管理",
     "辦公自動化"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "DfButgzUPro",
@@ -1003,7 +1088,8 @@
     "ChatGPT",
     "AI短影音",
     "影片生成"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "ASLirZRw_C0",
@@ -1020,7 +1106,8 @@
     "AI繪圖",
     "設計應用",
     "提示詞"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "bMfOm34YDFA",
@@ -1037,7 +1124,8 @@
     "AI短影音",
     "影片生成",
     "角色一致性"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "oGmn3hDowzg",
@@ -1054,7 +1142,8 @@
     "報告生成",
     "提示詞技巧",
     "辦公應用"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "LqvRlwROmbQ",
@@ -1071,7 +1160,8 @@
     "AI繪圖",
     "AI影片生成",
     "短影音"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "SF608Ah1SSI",
@@ -1088,7 +1178,8 @@
     "影片剪輯",
     "AI文字",
     "工具教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "nZfzaCH-yYE",
@@ -1105,7 +1196,8 @@
     "AI去背",
     "局部重繪",
     "電商修圖"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "AgczcUZJ2Qg",
@@ -1122,7 +1214,8 @@
     "實價登錄",
     "資料串接",
     "自動化"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "KV40W7SDEcI",
@@ -1139,7 +1232,8 @@
     "Notebook",
     "PPT生成",
     "辦公應用"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "x5qqHNKcUYE",
@@ -1156,7 +1250,8 @@
     "Skill開發",
     "AI實戰",
     "程式開發"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "h4rsGP8vPfQ",
@@ -1173,7 +1268,8 @@
     "AI廣告",
     "圖像轉影片",
     "AI影片生成"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "yOPFw270gtU",
@@ -1190,7 +1286,8 @@
     "豆包AI",
     "影片生成",
     "AI漫劇"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "1qZQIVXS2Z8",
@@ -1207,7 +1304,8 @@
     "排程任務",
     "自動監測",
     "自動化工作流"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "QtZmcfxOSTo",
@@ -1224,7 +1322,8 @@
     "LINEBot",
     "AI客服",
     "自動化工作流"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "X17u2erVncc",
@@ -1241,7 +1340,8 @@
     "LINE機器人",
     "AI客服",
     "自動化工作流"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "L4FyS_RDlI8",
@@ -1258,7 +1358,8 @@
     "英文學習",
     "無程式碼",
     "AI應用"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "3CELUW1W0oU",
@@ -1275,7 +1376,8 @@
     "AI Podcast",
     "影片生成",
     "工具教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "K_-UpZXvYyA",
@@ -1292,7 +1394,8 @@
     "AI剪輯",
     "自動化工作流",
     "AI創作"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "b4LR5QPA-cM",
@@ -1309,7 +1412,8 @@
     "辦公自動化",
     "Excel處理",
     "工作流"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "qnLqVbmYtTY",
@@ -1326,7 +1430,8 @@
     "AI剪輯",
     "自動化剪片",
     "Skill設定"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "dqTBcorvdyc",
@@ -1343,7 +1448,8 @@
     "AI動畫",
     "原型設計",
     "提示詞"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "GltNql7kp4o",
@@ -1360,7 +1466,8 @@
     "ChatGPT",
     "Canva",
     "AI繪圖"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "Q9GrCuap0-4",
@@ -1377,7 +1484,8 @@
     "圖像編輯",
     "AI修圖",
     "工作流"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "ExaD80wvINI",
@@ -1394,7 +1502,8 @@
     "Avatar",
     "虛擬分身",
     "AI影片生成"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "t2UnITmrsNw",
@@ -1411,7 +1520,8 @@
     "Seedance2.0",
     "AI影片生成",
     "工具教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "lCfHhphO_aM",
@@ -1427,7 +1537,8 @@
     "Claude Code",
     "程式開發",
     "跨裝置協作"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "7ljG_EDBzeA",
@@ -1444,7 +1555,8 @@
     "Codex",
     "入門觀念",
     "工作流程"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "s0rbb_NjLHQ",
@@ -1461,7 +1573,8 @@
     "Remote Control",
     "跨裝置",
     "工具教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "8gOvY_4X4Uo",
@@ -1478,7 +1591,8 @@
     "動漫風格",
     "數位分身",
     "Seedance2.0"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "J3r9tXaCc1E",
@@ -1495,7 +1609,8 @@
     "圖文製作",
     "簡報生成",
     "工具教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "JXHEIt5sh3A",
@@ -1512,7 +1627,8 @@
     "即夢AI",
     "Gemini",
     "自媒體"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "JuTmgZw4E2c",
@@ -1529,7 +1645,8 @@
     "Sailflow",
     "VSCode",
     "程式開發"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "83tXbvx668Y",
@@ -1546,7 +1663,8 @@
     "ChatGPT外掛",
     "辦公應用",
     "教學應用"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "M3aJWEUZ4mQ",
@@ -1563,7 +1681,8 @@
     "簡報製作",
     "辦公應用",
     "YAML"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "6irZTeFsRnw",
@@ -1580,7 +1699,8 @@
     "Gemini GEM",
     "教學備課",
     "數學出題"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "j3BAUv61qX0",
@@ -1597,7 +1717,8 @@
     "AI音樂",
     "MV生成",
     "AI寫歌"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "W-nyTjanJSY",
@@ -1614,7 +1735,8 @@
     "YAML",
     "簡報生成",
     "Subagent"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "0IJOWZHFSJg",
@@ -1631,7 +1753,8 @@
     "Codex",
     "工具教學",
     "桌面寵物"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "hQH-iRdqwfw",
@@ -1648,7 +1771,8 @@
     "AI影片生成",
     "分鏡製作",
     "AI工作流"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "Ew7W7MPKBSU",
@@ -1665,7 +1789,8 @@
     "免費API",
     "Hermes Agent",
     "工具教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "WZV5u_ykQZA",
@@ -1682,7 +1807,8 @@
     "API整合",
     "開源工具",
     "AI工作站"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "vOLHC0y7m_g",
@@ -1698,7 +1824,8 @@
     "Claude AI",
     "模型比較",
     "入門觀念"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "lbqmYgtEieY",
@@ -1715,7 +1842,8 @@
     "工作流",
     "跨平台",
     "教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "jvJDPqjNQBE",
@@ -1732,7 +1860,8 @@
     "Codex",
     "簡報生成",
     "辦公應用"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "0KsTYVWiDBo",
@@ -1749,7 +1878,8 @@
     "auth.json",
     "登入教學",
     "AI工具"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "mnFdJaAmeUM",
@@ -1766,7 +1896,8 @@
     "工作流",
     "chezmoi",
     "專案管理"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "ttjZDQMNyjk",
@@ -1783,7 +1914,8 @@
     "AI剪片",
     "ChatGPT Work",
     "影片後製"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "BfmlKdGtCu0",
@@ -1800,7 +1932,8 @@
     "圖生影片",
     "紀錄片製作",
     "提示詞"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "lW10fELFZTg",
@@ -1817,7 +1950,8 @@
     "CodingAgent",
     "程式開發",
     "MCP"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "pI17KFtLq-E",
@@ -1834,7 +1968,8 @@
     "遊戲開發",
     "語音控制",
     "實作示範"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "wpiqMoM5h60",
@@ -1851,7 +1986,8 @@
     "Agent Swarm",
     "AI團隊",
     "工具實測"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "j7v281qoVzo",
@@ -1868,7 +2004,8 @@
     "Kimi K3",
     "LLM模型",
     "程式開發"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "-eOEWWba1r0",
@@ -1885,7 +2022,8 @@
     "Gemini",
     "辦公效率",
     "AI應用"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "DJdL7NeT4v0",
@@ -1902,7 +2040,8 @@
     "自動化工作流",
     "GCP",
     "OAuth2"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "OnodbSuhiCY",
@@ -1919,7 +2058,8 @@
     "Gemini",
     "入門教學",
     "效率工具"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "oOgl--QcoPs",
@@ -1936,7 +2076,8 @@
     "影片摘要",
     "教材製作",
     "辦公應用"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "rMANAgFcmkg",
@@ -1953,7 +2094,8 @@
     "Kimi K3",
     "程式開發",
     "AI模型"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "i2zn2etUIvs",
@@ -1970,7 +2112,8 @@
     "Codex",
     "模型選擇",
     "AI教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "8SlxRmC4Ci0",
@@ -1987,7 +2130,8 @@
     "Codex",
     "程式開發",
     "工具搬遷"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "dcjLirJbm1U",
@@ -2004,7 +2148,8 @@
     "Claude教學",
     "Artifacts",
     "AI工具"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "i7X6P73g6U0",
@@ -2021,7 +2166,8 @@
     "銀髮族",
     "語音互動",
     "入門教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "7H9uInrUqs0",
@@ -2038,7 +2184,8 @@
     "字幕生成",
     "PDF摘要",
     "資料整理"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "cGqQY346BC8",
@@ -2055,7 +2202,8 @@
     "辦公效率",
     "Codex",
     "AI助理"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "A9smRAJzTHk",
@@ -2072,7 +2220,8 @@
     "Prompt",
     "AI入門",
     "觀念教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "aZgvDDJmUCs",
@@ -2089,7 +2238,8 @@
     "GPT-5.6",
     "AI代理",
     "OpenAI"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "5Rhqni_KcrI",
@@ -2106,7 +2256,8 @@
     "AI電影生成",
     "動畫生成",
     "AI Agent"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "xW8E6PE5Hvs",
@@ -2123,7 +2274,8 @@
     "Hermes Agent",
     "本地部署",
     "開源AI"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "fh0VxcKWYjA",
@@ -2139,7 +2291,8 @@
     "Codex",
     "Kimi K3",
     "AI模型配置"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "3-mT_iW7N64",
@@ -2156,7 +2309,8 @@
     "自動化工作流",
     "AI廣告影片",
     "UGC生成"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "GUXGj-XJ35M",
@@ -2173,7 +2327,8 @@
     "AI影片生成",
     "廣告影片",
     "新手教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "ggPPcQ2iYFo",
@@ -2190,7 +2345,8 @@
     "AI工具",
     "新手教學",
     "功能操作"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "2pByFIkLfGU",
@@ -2206,7 +2362,8 @@
     "Codex Sites",
     "無程式碼架站",
     "網頁設計"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "kVgAQEuP77E",
@@ -2223,7 +2380,8 @@
     "GPT-5.6",
     "Computer Use",
     "實測教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "BFqFs9mh_S4",
@@ -2240,7 +2398,8 @@
     "AI Agent",
     "AI工具",
     "多模態AI"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "ajOdExVgJV0",
@@ -2257,7 +2416,8 @@
     "ClaudeCode",
     "程式開發",
     "AI編程"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "rAt5QZ99Smk",
@@ -2274,7 +2434,8 @@
     "n8n",
     "自動化工作流",
     "AI實戰"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "lOK8yb_CVCI",
@@ -2290,7 +2451,8 @@
     "Codex安裝",
     "環境配置",
     "新手教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "ODqE61qpK4Q",
@@ -2307,7 +2469,8 @@
     "多智能體",
     "自動化工作流",
     "AI團隊"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "-xdEWlogLxI",
@@ -2324,7 +2487,8 @@
     "登入錯誤",
     "疑難排解",
     "Windows教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "mwB5eNQQOm0",
@@ -2341,7 +2505,8 @@
     "Codex",
     "影片製作",
     "AI教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "p8e9zdRgh2E",
@@ -2358,7 +2523,8 @@
     "自動化工作流",
     "AI聊天",
     "無程式碼"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "CAHz16B-Ddg",
@@ -2375,7 +2541,8 @@
     "自動化工作流",
     "n8nForm",
     "產品思維"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "B-MJGPejk4E",
@@ -2392,7 +2559,8 @@
     "Claude Code",
     "AI Agent",
     "自動化"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "Frorrgdd2Og",
@@ -2409,7 +2577,8 @@
     "Claude教學",
     "工作流",
     "生產力"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "Vt4YMp3BvLA",
@@ -2426,7 +2595,8 @@
     "語音生成",
     "提示詞技巧",
     "辦公應用"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "utPeo6WAP7c",
@@ -2443,7 +2613,8 @@
     "AI MV",
     "AI影片生成",
     "影音創作"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "NrOXeGOIO_w",
@@ -2460,7 +2631,8 @@
     "ChatGPT Search",
     "網頁搜尋",
     "AI教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "7PIN7303jeY",
@@ -2477,7 +2649,8 @@
     "文字生成影片",
     "AI配音",
     "工具教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "Osa6_ri-b4U",
@@ -2494,7 +2667,8 @@
     "自動化工作流",
     "n8nForm",
     "產品思維"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "P3a9ft2pT2M",
@@ -2511,7 +2685,8 @@
     "自動化工作流",
     "手機控制AI",
     "辦公效率"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "ClxpzkaqVew",
@@ -2528,7 +2703,8 @@
     "自動剪輯",
     "自動化工作流",
     "AI剪片"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "lBFXhdmFkWk",
@@ -2545,7 +2721,8 @@
     "Codex",
     "Token優化",
     "模式比較"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "11P0mBHvUcU",
@@ -2562,7 +2739,8 @@
     "GPT Live",
     "即時口譯",
     "語音模型"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "LBGOUah-8zM",
@@ -2579,7 +2757,8 @@
     "二次元繪圖",
     "AI繪圖",
     "Lora"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "saGXJaLB_v8",
@@ -2596,7 +2775,8 @@
     "Codex",
     "入門觀念",
     "AI模式"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "Ozr75-oQEFg",
@@ -2613,7 +2793,8 @@
     "訂閱方案",
     "方案比較",
     "AI教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "oBBZfjBS0ps",
@@ -2630,7 +2811,8 @@
     "AI工作流",
     "AI Agent",
     "畫布教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "4Ts1pmFAhN8",
@@ -2647,7 +2829,8 @@
     "Codex",
     "自動化工作流",
     "工作流優化"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "thpkLNr5fHM",
@@ -2664,7 +2847,8 @@
     "Work模式",
     "Codex",
     "GPT-5.6"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "S3m56h6eJ14",
@@ -2681,7 +2865,8 @@
     "Claude Code",
     "AI智能體",
     "評測比較"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "LoZs0LbjZN8",
@@ -2698,7 +2883,8 @@
     "心智圖",
     "字體修復",
     "辦公應用"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "U7KiIMmEOOg",
@@ -2715,7 +2901,8 @@
     "辦公應用",
     "資料整理",
     "AI短片"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "1ZvSWsVNnj4",
@@ -2732,7 +2919,8 @@
     "連線問題",
     "工具教學",
     "GPT修復"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "H_9HaQP20Rc",
@@ -2749,7 +2937,8 @@
     "Deep Research",
     "深度研究",
     "AI教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "3fSnt9LuEGs",
@@ -2766,7 +2955,8 @@
     "Codex",
     "功能對比",
     "入門觀念"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "iTtGKSz35SE",
@@ -2783,7 +2973,8 @@
     "NotebookLM",
     "AIStudio",
     "免費工具"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "BYxXTc_SHIY",
@@ -2800,7 +2991,8 @@
     "自動化工作流",
     "AI聊天",
     "無程式碼"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "3QboyWUwOtw",
@@ -2817,7 +3009,8 @@
     "辦公應用",
     "自動化",
     "Google Workspace"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "IMu43pnc-KA",
@@ -2834,7 +3027,8 @@
     "簡報製作",
     "資料梳理",
     "辦公應用"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "IR8xFGeJVN8",
@@ -2851,7 +3045,8 @@
     "模型比較",
     "額度優化",
     "預算配置"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "FtUc4x3H_nk",
@@ -2868,7 +3063,8 @@
     "遠端控制",
     "工具教學",
     "手機控制"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "QU23YrocATY",
@@ -2885,7 +3081,8 @@
     "Google地圖",
     "旅遊規劃",
     "工具教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "mub70Zg-3uI",
@@ -2902,7 +3099,8 @@
     "AgenticAI",
     "程式開發",
     "CLAUDE.md"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "m1d2SXJ4CNg",
@@ -2919,7 +3117,8 @@
     "製造業AI",
     "AX成熟度",
     "入門觀念"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "uDXwQgJksAI",
@@ -2936,7 +3135,8 @@
     "PPT製作",
     "YouTube轉簡報",
     "辦公應用"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "g2q9sfo4pkg",
@@ -2953,7 +3153,8 @@
     "學習筆記",
     "知識管理",
     "工具教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "QsysyXWde-s",
@@ -2970,7 +3171,8 @@
     "AI教育",
     "辦公應用",
     "數位工具"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "RFV2eb-DNfs",
@@ -2987,7 +3189,8 @@
     "自動化工作流",
     "資料處理",
     "新手教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "b4gIauc_hxo",
@@ -3004,7 +3207,8 @@
     "工作流",
     "架構解析",
     "教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "nunfFoS3-Xs",
@@ -3021,7 +3225,8 @@
     "工作流",
     "系統建置",
     "教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "MMx4k3emXHk",
@@ -3038,7 +3243,8 @@
     "AI Agent",
     "工具教學",
     "免費部署"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "XkaA-95EMv4",
@@ -3055,7 +3261,8 @@
     "會議記錄",
     "數據分析",
     "辦公應用"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "L9sduQxuoqY",
@@ -3072,7 +3279,8 @@
     "AI影片",
     "圖生影片",
     "提示詞"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "yvWrOS4Krhw",
@@ -3089,7 +3297,8 @@
     "Fish Audio",
     "文字轉語音",
     "語音合成"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "o4DpbrvnWyc",
@@ -3106,7 +3315,8 @@
     "MP4轉MP3",
     "工具教學",
     "檔案轉換"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "pJR6I9_06e4",
@@ -3123,7 +3333,8 @@
     "AI工具",
     "RecordAndReplay",
     "Skill錄製"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "mOjkcrH0gYo",
@@ -3140,7 +3351,8 @@
     "提示詞模板",
     "辦公應用",
     "生產力工具"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "O3XWVi12hZg",
@@ -3157,7 +3369,8 @@
     "免費AI",
     "影片生成",
     "圖片生成"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "IKwMJpp3VTw",
@@ -3174,7 +3387,8 @@
     "AI影片生成",
     "短劇製作",
     "變現教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "mBoxAlg7V3M",
@@ -3191,7 +3405,8 @@
     "Gemini",
     "辦公應用",
     "工作流程"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "dwNFoMUg4Nk",
@@ -3208,7 +3423,8 @@
     "自動化工作流",
     "RecordAndReplay",
     "無程式碼"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "yZlKpaGbbQY",
@@ -3225,7 +3441,8 @@
     "AI工具",
     "網頁託管",
     "教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "RJ50khVFCRk",
@@ -3242,7 +3459,8 @@
     "AI工具",
     "遠端控制",
     "教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "Au206yH7ufE",
@@ -3259,7 +3477,8 @@
     "GPT-5.6",
     "ChatGPT Work",
     "工具教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "zZ6Rc0jrJZc",
@@ -3276,7 +3495,8 @@
     "程式開發",
     "MCP",
     "Subagents"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "iP9Oy7naM1s",
@@ -3293,7 +3513,8 @@
     "ChatGPT Work",
     "電腦操作",
     "即時翻譯"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "OkFmCO6rJZs",
@@ -3310,7 +3531,8 @@
     "AI影片生成",
     "AI Agent",
     "影音剪輯"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "wqypuVmCmPw",
@@ -3327,7 +3549,8 @@
     "AI自動化",
     "短影音生成",
     "自動化工作流"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "JMxLulPqAGo",
@@ -3344,7 +3567,8 @@
     "AI工作流",
     "Podcast生成",
     "新手教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "FqqYoitaj3U",
@@ -3361,7 +3585,8 @@
     "短影音",
     "AI影片生成",
     "Antigravity"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "v4lMp5KZcok",
@@ -3378,7 +3603,8 @@
     "提示詞教學",
     "AI影片",
     "電影感短片"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "9UBl7brVuIk",
@@ -3395,7 +3621,8 @@
     "批量影片生成",
     "腳本設計",
     "工具教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "cxKjVef0LHw",
@@ -3412,7 +3639,8 @@
     "API申請",
     "AI Studio",
     "程式開發"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "g3ysnqYnBEw",
@@ -3429,7 +3657,8 @@
     "自動化排程",
     "信件整理",
     "投資追蹤"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "_C5zIyBgLOc",
@@ -3446,7 +3675,8 @@
     "AI影片生成",
     "YouTube副業",
     "批量生成"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "U-c5EUwPZ_E",
@@ -3463,7 +3693,8 @@
     "FlexClip",
     "短影音",
     "AI影片生成"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "xUeqrT723MM",
@@ -3480,7 +3711,8 @@
     "Codex",
     "AI實測",
     "工具教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "1_p5Cr1JX0o",
@@ -3497,7 +3729,8 @@
     "教師研習",
     "AI教育",
     "入門觀念"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "GRhg_ZZswmQ",
@@ -3514,7 +3747,8 @@
     "Claude Code",
     "Codex",
     "記憶系統"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "jiICrMVprfY",
@@ -3531,7 +3765,8 @@
     "資訊科技",
     "程式思維",
     "入門觀念"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "OFHKo56WTwY",
@@ -3548,7 +3783,8 @@
     "資安防護",
     "沙箱技術",
     "工具教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "0p_JhkHQQJ0",
@@ -3565,7 +3801,8 @@
     "AI倫理",
     "資訊素養",
     "入門觀念"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "yA-U9153D-c",
@@ -3582,7 +3819,8 @@
     "AI工作流",
     "ChatGPT Projects",
     "GPTs"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "CaMHeWSo4mU",
@@ -3599,7 +3837,8 @@
     "Agent View",
     "背景代理",
     "程式開發"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "nFaWwsOc8uI",
@@ -3616,7 +3855,8 @@
     "AI影片生成",
     "AI Avatar",
     "Google Docs"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "-xSLJjICWxk",
@@ -3633,7 +3873,8 @@
     "數學公式",
     "亂碼解決",
     "排版語法"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "CUzBCRxlQdk",
@@ -3650,7 +3891,8 @@
     "PDNob",
     "OCR文字識別",
     "簡報修改"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "nZqKGPLKeEI",
@@ -3667,7 +3909,8 @@
     "SEO教學",
     "關鍵字分析",
     "網路行銷"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "iIEdwU1hoxI",
@@ -3684,7 +3927,8 @@
     "NotebookLM",
     "AI學習",
     "出題系統"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "k2jTYltc9Nc",
@@ -3701,7 +3945,8 @@
     "AI配音",
     "字幕翻譯",
     "影音創作"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "pQH-DqYfZzA",
@@ -3718,7 +3963,8 @@
     "Codex",
     "AI教學",
     "免費工具"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "wjhH_4Idrgo",
@@ -3735,7 +3981,8 @@
     "AI Agent",
     "自動化工作流",
     "工具教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "ZC8AI_jFWnU",
@@ -3752,7 +3999,8 @@
     "LLM Wiki",
     "Codex",
     "第二大腦"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "YpTmyJbUXE0",
@@ -3769,7 +4017,8 @@
     "AI廣告",
     "AI影片生成",
     "工作流"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "8-e2p7IM_oI",
@@ -3786,7 +4035,8 @@
     "AI短劇",
     "影片生成",
     "新手教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "AGTAyXbpO64",
@@ -3803,7 +4053,8 @@
     "AI Agent",
     "自動化工作流",
     "廣東話教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "TbQbzFolY1M",
@@ -3820,7 +4071,8 @@
     "LM Studio",
     "本地模型",
     "Codex"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "x_JR2ugjdDM",
@@ -3837,7 +4089,8 @@
     "AI影片生成",
     "鏡頭控制",
     "Superi"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "doG9QNBgF6c",
@@ -3854,7 +4107,8 @@
     "AI影片生成",
     "4K畫質",
     "短影音"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "PLuf5wEenbQ",
@@ -3871,7 +4125,8 @@
     "AI音樂",
     "Suno",
     "工具教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "8ZxvzcYPXRE",
@@ -3888,7 +4143,8 @@
     "AI短影音",
     "自動剪輯",
     "Edimakor"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "o8Vw4dF4FRY",
@@ -3905,7 +4161,8 @@
     "VPS部署",
     "Tailscale",
     "安全設定"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "LWA2nleOjyk",
@@ -3922,7 +4179,8 @@
     "圖像生成",
     "職場應用",
     "文案寫作"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "pZNHFfhvt9o",
@@ -3939,7 +4197,8 @@
     "AI漫劇",
     "漫畫生成",
     "影片變現"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "24zRHdrwnaQ",
@@ -3956,7 +4215,8 @@
     "Canva",
     "MCP",
     "批量製作"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "v3qF5K0_c8Q",
@@ -3973,7 +4233,8 @@
     "職場應用",
     "辦公應用",
     "工作效率"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "n3AqCccCn4k",
@@ -3990,7 +4251,8 @@
     "Google Maps",
     "旅遊規劃",
     "指令教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "wHjnEahFmZU",
@@ -4007,7 +4269,8 @@
     "AI Agent",
     "遊戲開發",
     "程式入門"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "psv8s1BjJc0",
@@ -4024,7 +4287,8 @@
     "AI助理",
     "辦公應用",
     "新手教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "4fFYeeoGrNs",
@@ -4041,7 +4305,8 @@
     "Google AI",
     "辦公應用",
     "資料整理"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "7v2DHqARNNQ",
@@ -4058,7 +4323,8 @@
     "Plan Mode",
     "程式開發",
     "AI工具"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "cqEgtk4rpmY",
@@ -4075,7 +4341,8 @@
     "Subagent",
     "程式開發",
     "工作流優化"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "4agikgWGpPw",
@@ -4092,7 +4359,8 @@
     "MCP",
     "工具整合",
     "工作流"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "-kIzGOf0bZA",
@@ -4109,7 +4377,8 @@
     "MCP",
     "自動化工作流",
     "API"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "DWxa7JvhY4k",
@@ -4126,7 +4395,8 @@
     "小紅書",
     "自動化發文",
     "Playwright"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "tb2yD5D47BA",
@@ -4143,7 +4413,8 @@
     "AI影片生成",
     "提示詞",
     "動畫製作"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "DESUN1Smf94",
@@ -4160,7 +4431,8 @@
     "教材生成",
     "台語教學",
     "辦公應用"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "11ROttp_5zk",
@@ -4177,7 +4449,8 @@
     "台語教材",
     "備課工具",
     "辦公應用"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "qZ-uYiT_IkA",
@@ -4194,7 +4467,8 @@
     "AI影片生成",
     "短影音",
     "教學實測"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "Nbg4Kc-oslk",
@@ -4211,7 +4485,8 @@
     "AI求職",
     "自動化工作流",
     "廣東話教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "-zHnG0sELiQ",
@@ -4228,7 +4503,8 @@
     "辦公應用",
     "自動化工作流",
     "AI助理"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "7uD--8Jm100",
@@ -4245,7 +4521,8 @@
     "Higgsfield MCP",
     "AI影片生成",
     "廣告製作"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "GDL5IMXqEKo",
@@ -4262,7 +4539,8 @@
     "ChatGPT",
     "AI工具",
     "隱藏功能"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "dfFgt9WjORM",
@@ -4279,7 +4557,8 @@
     "AI觀念",
     "ChatGPT",
     "Codex"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "VIjCRqSX4ag",
@@ -4296,7 +4575,8 @@
     "自動化工作流",
     "AI系統",
     "效率提升"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "7tfvthMNQeg",
@@ -4313,7 +4593,8 @@
     "ChatGPT專案",
     "工作區管理",
     "AI教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "alb9Bq2PhOk",
@@ -4330,7 +4611,8 @@
     "Codex",
     "AI開發",
     "工具教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "ObJoSfq1-6s",
@@ -4347,7 +4629,8 @@
     "Claude Code",
     "UI設計",
     "工具教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "wL9UlANB6S4",
@@ -4364,7 +4647,8 @@
     "Claude AI",
     "辦公應用",
     "企業培訓"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "IiNYpXB5izA",
@@ -4381,7 +4665,8 @@
     "LinkedIn",
     "履歷優化",
     "個人品牌"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "aC_ytmaWX_0",
@@ -4398,7 +4683,8 @@
     "Seedance 2.0",
     "角色一致性",
     "工作流"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "dOfAx1cSI6w",
@@ -4415,7 +4701,8 @@
     "Claude Code",
     "自動化工作流",
     "AI工具"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "F0W47vLysm0",
@@ -4432,7 +4719,8 @@
     "全端開發",
     "資料庫",
     "工具教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "lPrVCMQ207A",
@@ -4449,7 +4737,8 @@
     "個人化記憶",
     "AI設定",
     "工具教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "Z9z24ueFcWY",
@@ -4466,7 +4755,8 @@
     "新手入門",
     "AI Agent",
     "工作流"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "W2_wryx8pS4",
@@ -4483,7 +4773,8 @@
     "多模態教材",
     "教學應用",
     "提示詞技巧"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "pn7VmDl1p3A",
@@ -4500,7 +4791,8 @@
     "Anthropic",
     "程式開發",
     "學習筆記"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "qmS1gOHrrLw",
@@ -4517,7 +4809,8 @@
     "AI Agent",
     "Codex",
     "程式開發"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "eLyrq8sWxUI",
@@ -4534,7 +4827,8 @@
     "ChatGPT",
     "職場效率",
     "觀念引導"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "uXk6JNdcE0A",
@@ -4551,7 +4845,8 @@
     "AI工具",
     "帳號註冊",
     "實測教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "GFE7Qwk58BM",
@@ -4568,7 +4863,8 @@
     "自動化",
     "簡報生成",
     "廣東話教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "_TvF0E2_1Ds",
@@ -4585,7 +4881,8 @@
     "資料整理",
     "中文Podcast",
     "簡報生成"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "LOPOEl5U9n8",
@@ -4602,7 +4899,8 @@
     "Gemini",
     "AI教育",
     "NotebookLM"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "ZxYvpsalamU",
@@ -4619,7 +4917,8 @@
     "Gemini",
     "Apps Script",
     "程式開發"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "Jh4IXQoq6wM",
@@ -4636,7 +4935,8 @@
     "Cowork",
     "Claude Code",
     "AI自動化"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "Y-O-jwXD48Q",
@@ -4653,7 +4953,8 @@
     "工具教學",
     "新手入門",
     "軟體安裝"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "SPJFsXj53yQ",
@@ -4670,7 +4971,8 @@
     "AI工具",
     "即時情報",
     "教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "dZUJdf3igFM",
@@ -4687,7 +4989,8 @@
     "Codex",
     "語音輸入",
     "工具教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "SEAgrNItCyY",
@@ -4704,7 +5007,8 @@
     "Codex",
     "AI管家",
     "入門教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "npF5zgyobhI",
@@ -4721,7 +5025,8 @@
     "AI繪圖",
     "Stable Diffusion",
     "教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "RV2BUk5KmfA",
@@ -4738,7 +5043,8 @@
     "AI影片生成",
     "新手教學",
     "自媒體"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "0yOHrd5U0gw",
@@ -4755,7 +5061,8 @@
     "AIAgent",
     "自動化工作流",
     "PCD框架"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "sGbCEtEwFaY",
@@ -4772,7 +5079,8 @@
     "M365",
     "辦公應用",
     "廣東話教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "E__UKK-FcGs",
@@ -4789,7 +5097,8 @@
     "AI影片生成",
     "Openart",
     "自媒體創作"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "DPHor8MX5SE",
@@ -4806,7 +5115,8 @@
     "提示詞",
     "辦公應用",
     "AI工具"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "MbzDDFfCrks",
@@ -4823,7 +5133,8 @@
     "Codex",
     "專案管理",
     "AI教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "iHV_l8gxvV8",
@@ -4840,7 +5151,8 @@
     "CC Switch",
     "程式開發",
     "AI寫程式"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "zHk_bULAul0",
@@ -4857,7 +5169,8 @@
     "Python",
     "程式開發",
     "提示詞"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "pPtiYKzdrbY",
@@ -4874,7 +5187,8 @@
     "Python",
     "程式開發",
     "提示詞"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "76Y6efHSh1o",
@@ -4891,7 +5205,8 @@
     "AI繪圖",
     "工作流",
     "提示詞"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "iJG3iJEFe0g",
@@ -4908,7 +5223,8 @@
     "AI繪畫",
     "插件教學",
     "影像生成"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "C3IzMx0s-ek",
@@ -4925,7 +5241,8 @@
     "自動化工作流",
     "無程式碼",
     "新手教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "nJ-vmTJHc7o",
@@ -4942,7 +5259,8 @@
     "Codex",
     "工具教學",
     "實操演示"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "b8YgyYGjJEU",
@@ -4959,7 +5277,8 @@
     "基礎教學",
     "自動化寫程式",
     "實作示範"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "mK3DWwTZ-5U",
@@ -4976,7 +5295,8 @@
     "Gemini",
     "備課工作流",
     "教學科技"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "DcREVW6B2rU",
@@ -4993,7 +5313,8 @@
     "入門觀念",
     "註冊教學",
     "Prompt技巧"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "pXfb0U-ZWRY",
@@ -5010,7 +5331,8 @@
     "辦公應用",
     "教學流程",
     "備課自動化"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "hKA9BDgNqM4",
@@ -5027,7 +5349,8 @@
     "自動化工作流",
     "AI開發客戶",
     "跨境電商"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "tRRAkZh7avI",
@@ -5044,7 +5367,8 @@
     "LitVideo",
     "AI影片生成",
     "教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "jixGDBir2TA",
@@ -5061,7 +5385,8 @@
     "程式開發",
     "Cursor",
     "APP開發"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "Lf3BC5FEbeM",
@@ -5078,7 +5403,8 @@
     "LitMedia",
     "影片模型實測",
     "AI工作流"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "5adiEqGFKFE",
@@ -5095,7 +5421,8 @@
     "股票分析",
     "辦公應用",
     "財報分析"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "L4_0psVL2yk",
@@ -5112,7 +5439,8 @@
     "AI Agent",
     "入門教學",
     "ChatGPT"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "wfqkJb0_zeg",
@@ -5129,7 +5457,8 @@
     "Gemini腳本",
     "Canva",
     "AI影片生成"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "yShlwYrZxzg",
@@ -5146,7 +5475,8 @@
     "基礎教學",
     "工具應用",
     "實作"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "3Dfp8PdPw5o",
@@ -5163,7 +5493,8 @@
     "Gemini",
     "生活應用",
     "長輩教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "hu32LuezqVA",
@@ -5180,7 +5511,8 @@
     "ChatGPT",
     "Gemini",
     "Claude"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "sthNBn-pP88",
@@ -5197,7 +5529,8 @@
     "辦公應用",
     "AI工具",
     "效率提升"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "oPMNal71xKE",
@@ -5214,7 +5547,8 @@
     "騰訊AI",
     "辦公應用",
     "AI助理"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "YBi7MCVxUTw",
@@ -5231,7 +5565,8 @@
     "OpenAI",
     "入門觀念",
     "模型比較"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "M1ko4rL0Rdc",
@@ -5248,7 +5583,8 @@
     "語音輸入",
     "辦公應用",
     "免費工具"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "Ws64ikbn3qA",
@@ -5265,7 +5601,8 @@
     "Codex Skills",
     "SOP自動化",
     "自動化工作流"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "cXp0Cj3u7jE",
@@ -5282,7 +5619,8 @@
     "AI Agent",
     "免費工具",
     "教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "F_eMaWlxAtU",
@@ -5299,7 +5637,8 @@
     "AI Agent",
     "免費模型",
     "新手教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "4-341hYit_4",
@@ -5316,7 +5655,8 @@
     "SDXL",
     "本地部署",
     "AI繪圖"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "10h322PRc2M",
@@ -5333,7 +5673,8 @@
     "n8n",
     "AI工具比較",
     "入門觀念"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "w0i9wklw_ng",
@@ -5350,7 +5691,8 @@
     "NotebookLM",
     "自動化工作流",
     "AI應用"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "AZA8OYGlEnE",
@@ -5367,7 +5709,8 @@
     "AI Agent",
     "內容創作",
     "自動化工作流"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "9PBbl9TNYgI",
@@ -5384,7 +5727,8 @@
     "AI音樂",
     "MV生成",
     "即時影片生成"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "yCHKf422m38",
@@ -5401,7 +5745,8 @@
     "Cursor",
     "教學",
     "實戰"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "jtN6y2fGms4",
@@ -5418,7 +5763,8 @@
     "AI工具",
     "工具教學",
     "新手教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "dSZw3IaPsck",
@@ -5435,7 +5781,8 @@
     "Gemini",
     "AI訓練防範",
     "工具教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "YeZi_nkku7Q",
@@ -5452,7 +5799,8 @@
     "VBA",
     "辦公應用",
     "提示詞"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "yVTAnMJps7Q",
@@ -5469,7 +5817,8 @@
     "VBA",
     "辦公應用",
     "提示詞"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "52xgvlrmYzk",
@@ -5486,7 +5835,8 @@
     "AI廣告影片",
     "圖生影片",
     "影片剪輯"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "3s6kDz5EaCs",
@@ -5503,7 +5853,8 @@
     "程式開發",
     "指令教學",
     "/powerup"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "rDtUJIcAzxw",
@@ -5520,7 +5871,8 @@
     "LTX Video",
     "工作流實作",
     "影片生成"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "UCr7yBA6evI",
@@ -5537,7 +5889,8 @@
     "n8n",
     "AI影片生成",
     "自動化工作流"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "rT4IsvDo-Ag",
@@ -5554,7 +5907,8 @@
     "任務排程",
     "自動化",
     "工作流"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "ZixwUG7XQ1s",
@@ -5571,7 +5925,8 @@
     "DataForSEO",
     "SEO分析",
     "MCP"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "veH4496xH2Q",
@@ -5588,7 +5943,8 @@
     "跨境電商",
     "辦公應用",
     "AI Agent"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "UeemyD7gLdQ",
@@ -5605,7 +5961,8 @@
     "Flux",
     "AI繪圖",
     "工作流"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "2z4NPKPzefI",
@@ -5622,7 +5979,8 @@
     "Zeabur",
     "伺服器部署",
     "自動化工作流"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "6cI15TNRSH8",
@@ -5639,7 +5997,8 @@
     "Gemini Gem",
     "入門觀念",
     "AI Agent"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "rH_dyTxks8M",
@@ -5656,7 +6015,8 @@
     "提示詞技巧",
     "AI助教",
     "備課應用"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "edTpyO1UWb0",
@@ -5673,7 +6033,8 @@
     "辦公應用",
     "生產力",
     "AI教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "afmPMfGrvy4",
@@ -5690,7 +6051,8 @@
     "角色一致性",
     "影片分鏡",
     "工具教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "P4Yf3TVze54",
@@ -5707,7 +6069,8 @@
     "ChatGPT",
     "Seedance",
     "AI影片生成"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "22nibJSe6CU",
@@ -5724,7 +6087,8 @@
     "Wait節點",
     "自動化工作流",
     "郵件自動化"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "uX4FZzJQ7rQ",
@@ -5741,7 +6105,8 @@
     "提示詞優化",
     "Midjourney",
     "影片質感提升"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "EPEQsavJL6E",
@@ -5758,7 +6123,8 @@
     "3D建模",
     "AI教學應用",
     "研習課程"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "ZQh6nz5qhpg",
@@ -5775,7 +6141,8 @@
     "TradingView",
     "程式開發",
     "自動交易"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "iDLsXRT7GFE",
@@ -5792,7 +6159,8 @@
     "Tool Use",
     "程式開發",
     "Anthropic"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "9nCSYq7alGE",
@@ -5809,7 +6177,8 @@
     "AI寫作",
     "工具教學",
     "內容修改"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "SFWYaF0HJiw",
@@ -5826,7 +6195,8 @@
     "Record&Replay",
     "AI自動化",
     "工具教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "LnYtQWC2300",
@@ -5843,7 +6213,8 @@
     "圖生圖",
     "工作流",
     "AI繪圖"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "oaAVooQ6mDE",
@@ -5860,7 +6231,8 @@
     "圖生影片",
     "影音Agent",
     "影片生成"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "6FmieOcsPp4",
@@ -5877,7 +6249,8 @@
     "NotebookLM",
     "辦公應用",
     "簡報製作"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "iDvQiUrTEmk",
@@ -5894,7 +6267,8 @@
     "AIAgent",
     "成績分析",
     "辦公自動化"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "RK_PNicBbmk",
@@ -5911,7 +6285,8 @@
     "AI短劇",
     "AI影片生成",
     "劇本生成"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "A35H1ijBEkU",
@@ -5928,7 +6303,8 @@
     "排定動作",
     "自動化工作流",
     "固定排程"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "QGt2W0YGG9w",
@@ -5945,7 +6321,8 @@
     "辦公應用",
     "入門教學",
     "生產力"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "gm1ln1Z0hHo",
@@ -5962,7 +6339,8 @@
     "基礎觀念",
     "初始化設定",
     "入門"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "8nwjYouFJoE",
@@ -5979,7 +6357,8 @@
     "核心觀念",
     "記憶機制",
     "Token優化"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "F8je9D-v9t8",
@@ -5996,7 +6375,8 @@
     "Kling 3.0",
     "一站式影片生成",
     "實測教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "RWAZUSR7kwo",
@@ -6013,7 +6393,8 @@
     "簡報更新",
     "Kortex插件",
     "工具教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "QZgZFd0noOI",
@@ -6030,7 +6411,8 @@
     "自訂AI",
     "工具教學",
     "專屬助手"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "sDGhcO3fx4w",
@@ -6047,7 +6429,8 @@
     "新手指南",
     "企劃撰寫",
     "辦公應用"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "Bu6TLIs_Cdc",
@@ -6064,7 +6447,8 @@
     "AI簡報",
     "英語教學",
     "教學工作坊"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "-rfDxF3dx2s",
@@ -6081,7 +6465,8 @@
     "自動化工作流",
     "郵箱管理",
     "AI助理"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "YM0o7t1QpPc",
@@ -6098,7 +6483,8 @@
     "AI影片模型",
     "盲測對決",
     "影片生成"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "HSDyr8bmuOI",
@@ -6115,7 +6501,8 @@
     "Codex",
     "AI Agent",
     "工具教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "VI-HGXV64hM",
@@ -6132,7 +6519,8 @@
     "自動化工作流",
     "YouTube自動化",
     "影片自動生成"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "YCfohs75wZc",
@@ -6149,7 +6537,8 @@
     "Mac",
     "DeepSeek",
     "工具教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "WPbgdZEpgpQ",
@@ -6166,7 +6555,8 @@
     "圖生影片",
     "免費工具",
     "微課教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "EVREOkL4wkc",
@@ -6183,7 +6573,8 @@
     "VoxCPM2",
     "AI Agent",
     "工具教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "kjznvcziJTY",
@@ -6200,7 +6591,8 @@
     "桌面版",
     "程式開發",
     "網頁開發"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "5jj4W5XU3nw",
@@ -6217,7 +6609,8 @@
     "語音克隆",
     "Antigravity",
     "工具教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "c_F5Y8Di2hw",
@@ -6234,7 +6627,8 @@
     "入門觀念",
     "ChatGPT",
     "Claude"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "0OBdAvs_UqE",
@@ -6251,7 +6645,8 @@
     "AI動畫",
     "分鏡腳本",
     "提示詞"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "OGFlPyJgSqQ",
@@ -6268,7 +6663,8 @@
     "自動化",
     "資訊整理",
     "教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "e-9zHHzGM3k",
@@ -6285,7 +6681,8 @@
     "Codex",
     "AI Skills",
     "工具教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "5gJuR7TEWOc",
@@ -6301,7 +6698,8 @@
     "AI工具",
     "免費資源",
     "工具教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "xmhpHovsO8w",
@@ -6318,7 +6716,8 @@
     "AI影片生成",
     "AI Agent",
     "影音創作"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "bt19wlUES8k",
@@ -6335,7 +6734,8 @@
     "數位教具",
     "Prompt技巧",
     "教學實作"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "kW1vGsbgY3U",
@@ -6352,7 +6752,8 @@
     "GoogleAPI",
     "ServiceAccount",
     "自動化工作流"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "geecqaNyO5E",
@@ -6369,7 +6770,8 @@
     "MusicFX",
     "AI影像生成",
     "AI音樂"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "2wBS4qFoTHo",
@@ -6386,7 +6788,8 @@
     "影片生成",
     "實測教學",
     "AI影像"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "So6xDR449W0",
@@ -6403,7 +6806,8 @@
     "自動化工作流",
     "Manus AI",
     "新手教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "9M8TtoJKUC0",
@@ -6420,7 +6824,8 @@
     "網站製作",
     "程式開發",
     "AI建站"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "0AoejTPI3EQ",
@@ -6437,7 +6842,8 @@
     "Google Flow",
     "AI影片生成",
     "Gemini"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "MGWX3jE0wQo",
@@ -6454,7 +6860,8 @@
     "Loop迴圈",
     "自動化工作流",
     "批次處理"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "IPyBeQgHXOU",
@@ -6471,7 +6878,8 @@
     "Claude Code",
     "系統開發",
     "程式開發"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "FsXm6H8z_qw",
@@ -6488,7 +6896,8 @@
     "AI工具推薦",
     "Runway",
     "Kling"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "zJqgbNn2RR0",
@@ -6505,7 +6914,8 @@
     "角色一致性",
     "分鏡規劃",
     "虛擬IP"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "s8Okr8dl9tI",
@@ -6522,7 +6932,8 @@
     "真人影片生成",
     "Seedance 2.0",
     "保姆級教程"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "3s2Q1nViZ1w",
@@ -6539,7 +6950,8 @@
     "自動化工作流",
     "知識庫",
     "GitHub"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "X-Lk-NBpsQE",
@@ -6556,7 +6968,8 @@
     "本機模型",
     "新手教學",
     "Ollama"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "_cDDG2EMJZw",
@@ -6573,7 +6986,8 @@
     "Codex",
     "AGENTS.md",
     "程式開發"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "5zunrr5fV3s",
@@ -6590,7 +7004,8 @@
     "Gemini",
     "工具教學",
     "工作效率"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "8QzfB8_LcH0",
@@ -6607,7 +7022,8 @@
     "入門觀念",
     "學習方法",
     "新手引導"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "0Wa4JgM9xFY",
@@ -6624,7 +7040,8 @@
     "Notion",
     "Claude AI",
     "自動化工作流"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "-EivK7vpOXY",
@@ -6641,7 +7058,8 @@
     "AI Agent",
     "自動化",
     "工具教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "xFPiU5sit7g",
@@ -6658,7 +7076,8 @@
     "AI Agent",
     "新手教學",
     "工具教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "tDzNXs31Dl4",
@@ -6675,7 +7094,8 @@
     "Chrome Skills",
     "AI工具",
     "提示詞"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "JbNTSwevk3w",
@@ -6692,7 +7112,8 @@
     "程式開發",
     "經驗分享",
     "上下文管理"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "dMiV7Yx9yk4",
@@ -6709,7 +7130,8 @@
     "工具教學",
     "自動化工作流",
     "AI Agent"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "oSMJ65UdCz8",
@@ -6726,7 +7148,8 @@
     "AI Tutor",
     "學習工具",
     "工具教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "c7hoCXYLH1o",
@@ -6743,7 +7166,8 @@
     "Hermes Agent",
     "Gemini API",
     "自動化"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "N0UEDiSEWVU",
@@ -6760,7 +7184,8 @@
     "SimpleMemory",
     "AI機器人",
     "自動化工作流"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "wdCzPBO6ayI",
@@ -6777,7 +7202,8 @@
     "AI影片生成",
     "模型PK",
     "影片剪輯"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "CNHPTDoBwA8",
@@ -6794,7 +7220,8 @@
     "Procreate",
     "投影映射",
     "AI創作"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "7v6jgb3BSUQ",
@@ -6811,7 +7238,8 @@
     "Gemini",
     "新手教學",
     "學習技巧"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "hiq9Md2UOcg",
@@ -6828,7 +7256,8 @@
     "商品圖轉影片",
     "廣告影片生成",
     "行銷工具"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "qtedWLLmyU4",
@@ -6845,7 +7274,8 @@
     "Codex",
     "AI影片生成",
     "影片製作"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "JwSx2KdizAE",
@@ -6862,7 +7292,8 @@
     "入門觀念",
     "新手教學",
     "生產力"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "WrIEGchR1Lw",
@@ -6879,7 +7310,8 @@
     "DeepSeek",
     "桌面版",
     "程式開發"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "E-vsmiB4Pjc",
@@ -6896,7 +7328,8 @@
     "程式開發",
     "選股腳本",
     "交易策略"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "TZgSKsMbq3s",
@@ -6913,7 +7346,8 @@
     "HeyGen",
     "Seedance",
     "數字人"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "tu4LrRr-3pQ",
@@ -6930,7 +7364,8 @@
     "工作流",
     "AI自動化",
     "教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "pI2nitfc8Tg",
@@ -6947,7 +7382,8 @@
     "Padlet",
     "自動化",
     "教學應用"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "yvIuZehFBww",
@@ -6964,7 +7400,8 @@
     "AI影片生成",
     "MV製作",
     "對嘴唱歌"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "VNgx2EJFSOw",
@@ -6981,7 +7418,8 @@
     "辦公應用",
     "AI Agent",
     "資料整理"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "wrSYyOxf7n4",
@@ -6998,7 +7436,8 @@
     "AI Agent",
     "自動化工作流",
     "教學工具"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "xtKf3-h4m80",
@@ -7015,7 +7454,8 @@
     "AI動畫",
     "IP角色",
     "角色設計"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "U1ez1hXMJkc",
@@ -7032,7 +7472,8 @@
     "Gemini",
     "Lyria 3",
     "工具教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "7UVz0FMJ9Xg",
@@ -7049,7 +7490,8 @@
     "MCP",
     "入門觀念",
     "大語言模型"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "ZNALSXbmR0c",
@@ -7066,7 +7508,8 @@
     "Claude Code",
     "程式開發",
     "macOS App"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "iE974yYzmrU",
@@ -7083,7 +7526,8 @@
     "工具教學",
     "桌面應用",
     "新手教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "VtehqGqpcjE",
@@ -7100,7 +7544,8 @@
     "程式開發",
     "程式重構",
     "AI工程師"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "6vrqRhM_oZY",
@@ -7117,7 +7562,8 @@
     "空鏡技巧",
     "AI創作",
     "剪接教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "IuHAYtgtAsE",
@@ -7134,7 +7580,8 @@
     "AI同事",
     "自動化工作流",
     "效率工具"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "ND6d1GUATGY",
@@ -7151,7 +7598,8 @@
     "Notion",
     "自動化工作流",
     "零基礎教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "qiIo1Z_LRXk",
@@ -7168,7 +7616,8 @@
     "自動化",
     "AI工作流",
     "條件判斷"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "4H8u3uHLCsE",
@@ -7185,7 +7634,8 @@
     "AI動畫",
     "影片生成",
     "工具教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "l0hV2qAeE5I",
@@ -7202,7 +7652,8 @@
     "LINE貼圖",
     "AI生圖",
     "貼圖製作"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "trtd977aArU",
@@ -7219,7 +7670,8 @@
     "UI設計",
     "AI 影像與影片生成",
     "簡報生成"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "JU-YmaCEVGI",
@@ -7236,7 +7688,8 @@
     "自訂GPT",
     "GPTs",
     "AI助手"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "BeKc7-1zQwU",
@@ -7253,7 +7706,8 @@
     "Agnes AI",
     "自動化工作流",
     "AI影片生成"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "Pa9Ejzdcrpg",
@@ -7270,7 +7724,8 @@
     "Gemini",
     "AI工具",
     "效率提升"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "zRNUkqRq2xE",
@@ -7287,7 +7742,8 @@
     "AI影片",
     "工具教學",
     "Google AI"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "HViaBQW3OF4",
@@ -7304,7 +7760,8 @@
     "Codex",
     "CC Switch",
     "DeepSeek"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "ls_MxvCPkt4",
@@ -7321,7 +7778,8 @@
     "AI繪圖",
     "商業授權",
     "工具教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "FdSVeOAd480",
@@ -7338,7 +7796,8 @@
     "工具教學",
     "新手上手",
     "跨平台"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "sZcN4kNW1-I",
@@ -7355,7 +7814,8 @@
     "Codex Pets",
     "AI工具",
     "提示詞"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "oXKUgm3u6Pk",
@@ -7372,7 +7832,8 @@
     "Gemini",
     "自動化工作流",
     "簡報生成"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "Tyk5Xi-MgS0",
@@ -7389,7 +7850,8 @@
     "Excel",
     "辦公應用",
     "數據分析"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "RSEYF_lZORU",
@@ -7406,7 +7868,8 @@
     "Hermes Desktop",
     "新手教學",
     "開源工具"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "MnWWS1WbafQ",
@@ -7423,7 +7886,8 @@
     "Google Flow",
     "AI影片生成",
     "影片修改"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "-cplfCsPJXs",
@@ -7440,7 +7904,8 @@
     "本地模型",
     "Token優化",
     "工具教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "KnYGUgn5_Wo",
@@ -7457,7 +7922,8 @@
     "AI助理",
     "專屬助手",
     "入門教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "uyGBboTLB3s",
@@ -7474,7 +7940,8 @@
     "AI 動畫",
     "AI Agent",
     "影片生成"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "kOZUNSvyrgU",
@@ -7491,7 +7958,8 @@
     "OpenCode",
     "AI Agent",
     "本地部署"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "Czky9q7sOWU",
@@ -7508,7 +7976,8 @@
     "AI Agent",
     "MCP",
     "程式開發"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "kZa0ORedIIU",
@@ -7525,7 +7994,8 @@
     "AI Agent",
     "AI 團隊",
     "自動化工作流"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "QOsWBcs1RAQ",
@@ -7542,7 +8012,8 @@
     "AI Agent",
     "自動化辦公",
     "教學應用"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "vYb87aqvBuE",
@@ -7559,7 +8030,8 @@
     "Google Classroom",
     "自動化工作流",
     "教育應用"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "uWpeb7rYFxQ",
@@ -7576,7 +8048,8 @@
     "遠端辦公",
     "Telegram",
     "AI Agent"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "Bc1aFzYB2jc",
@@ -7593,7 +8066,8 @@
     "AI Tutor",
     "高效學習",
     "工具教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "IU3m9MaOkSk",
@@ -7610,7 +8084,8 @@
     "Gemini",
     "AI Agent",
     "工作流"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "Ykf6apBwVNQ",
@@ -7627,7 +8102,8 @@
     "程式開發",
     "開發技巧",
     "Fork"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "fwdzsY9KWKk",
@@ -7644,7 +8120,8 @@
     "智能體",
     "吳恩達",
     "入門觀念"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "f4dVXMNY4dM",
@@ -7661,7 +8138,8 @@
     "AI繪圖",
     "工作流",
     "工具教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "jLjIuUVkP3s",
@@ -7678,7 +8156,8 @@
     "AI 智能體",
     "桌面端 App",
     "工具教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "39_iw_KLEFk",
@@ -7695,7 +8174,8 @@
     "AI Agent",
     "ChatGPT",
     "入門教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "BWL92Bh9ex8",
@@ -7712,7 +8192,8 @@
     "Notion",
     "MCP",
     "自動化工作流"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "G03nMfznTTI",
@@ -7729,7 +8210,8 @@
     "桌面 App",
     "工具教學",
     "AI 智能體"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "BR1mhGxfdho",
@@ -7746,7 +8228,8 @@
     "Flow AI",
     "Gemini",
     "教師教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "8INcIHIYnMA",
@@ -7762,7 +8245,8 @@
     "AI 教學",
     "網頁開發",
     "入門觀念"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "hRdQCQSozY0",
@@ -7778,7 +8262,8 @@
     "AI 網頁",
     "教學工具",
     "AI 助教"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "bDzdRFVlkmc",
@@ -7795,7 +8280,8 @@
     "ChatGPT",
     "資料整理",
     "第二大腦"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "TN3ZrSQ4DTc",
@@ -7812,7 +8298,8 @@
     "Gemini",
     "旅遊規劃",
     "工具教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "082N1uD-M0U",
@@ -7829,7 +8316,8 @@
     "ChatGPT",
     "帳號註冊",
     "香港教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "TnUrrn2wmIY",
@@ -7846,7 +8334,8 @@
     "教學第二大腦",
     "教師備課",
     "實戰工作坊"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "NpBfe9LfEUA",
@@ -7862,7 +8351,8 @@
     "Gemini",
     "AI Agent",
     "工具教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "srzf_7oDags",
@@ -7879,7 +8369,8 @@
     "數位分身",
     "3D角色",
     "封面設計"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "kmmYXntln_E",
@@ -7896,7 +8387,8 @@
     "Skills",
     "AI Agent",
     "工具教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "JUTJ8yAdqUw",
@@ -7913,7 +8405,8 @@
     "Shopify",
     "跨境電商",
     "辦公應用"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "voT90LxL_l0",
@@ -7930,7 +8423,8 @@
     "Claude Skill",
     "AI工作流",
     "自動化"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "iQBx_kWBg6o",
@@ -7947,7 +8441,8 @@
     "Gemini",
     "AI影片生成",
     "角色一致性"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "1hxYehwb9j0",
@@ -7964,7 +8459,8 @@
     "影片換臉",
     "人物替換",
     "AI影片生成"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "6JZll_ICRO0",
@@ -7981,7 +8477,8 @@
     "Figma",
     "MCP",
     "UI設計"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "1UqzMLFiejQ",
@@ -7998,7 +8495,8 @@
     "AI繪圖",
     "影像生成",
     "進階應用"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "CJ8tL4arsds",
@@ -8015,7 +8513,8 @@
     "API",
     "自動化",
     "HTTP Request"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "po2wQXfYKGQ",
@@ -8032,7 +8531,8 @@
     "Gemini",
     "提案撰寫",
     "資料整理"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "kw6FNY311Yk",
@@ -8049,7 +8549,8 @@
     "Claude Cowork",
     "辦公效率",
     "AI團隊"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "L1fP4cmNjg0",
@@ -8066,7 +8567,8 @@
     "Gemini",
     "簡報製作",
     "辦公應用"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "Ia1cBa1QJSY",
@@ -8083,7 +8585,8 @@
     "Canva",
     "IG貼文",
     "批次生成"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "TPnxKMi6Rz0",
@@ -8100,7 +8603,8 @@
     "電商製圖",
     "BANNER製作",
     "AI影片生成"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "qYpXa4UO4rc",
@@ -8117,7 +8621,8 @@
     "AI簡報",
     "PowerPoint",
     "辦公應用"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "ObD0Dudmnes",
@@ -8134,7 +8639,8 @@
     "NotebookLM",
     "自動化工作流",
     "系統部署"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "Du8rG3Q8DKk",
@@ -8151,7 +8657,8 @@
     "Google Flow",
     "虛擬角色",
     "AI影片生成"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "-oBHrpEsJs8",
@@ -8167,7 +8674,8 @@
     "AI Agent",
     "程式開發",
     "網頁架設"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "yoUZ5Gkcbgw",
@@ -8184,7 +8692,8 @@
     "知識管理",
     "Markdown",
     "筆記工具"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "wH2tXQY5MOU",
@@ -8201,7 +8710,8 @@
     "自動化工作流",
     "備課教學",
     "GAS"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "d7qmp6gjpiU",
@@ -8218,7 +8728,8 @@
     "Claude Code",
     "AI Agent",
     "工具教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "bq9ly827WOY",
@@ -8235,7 +8746,8 @@
     "AI助理",
     "教師備課",
     "角色設定"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "agQOf09rXlk",
@@ -8251,7 +8763,8 @@
     "Antigravity",
     "自動化工作流",
     "教學應用"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "U4C0dGbQtQA",
@@ -8268,7 +8781,8 @@
     "自動化工作流",
     "備課工具",
     "OCR"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "Bw8lxVPj8rQ",
@@ -8285,7 +8799,8 @@
     "GPTImage2",
     "NoviAI",
     "AI短劇"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "AYaXUGH1vjA",
@@ -8302,7 +8817,8 @@
     "Claude Code",
     "教學應用",
     "教材生成"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "vWzKHp9yl3M",
@@ -8319,7 +8835,8 @@
     "新手入門",
     "學習路線",
     "效率提升"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "VccxnWOeDDo",
@@ -8335,7 +8852,8 @@
     "OpenCode",
     "AI 訂閱",
     "工具教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "E9lv0NJTfzg",
@@ -8352,7 +8870,8 @@
     "Grok",
     "AI Agent",
     "工具教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "r59BNhIuh_4",
@@ -8368,7 +8887,8 @@
     "OpenCode",
     "模型分工",
     "AI 工具"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "DPzC_hF9Hc4",
@@ -8385,7 +8905,8 @@
     "教學應用",
     "課堂互動",
     "AI教育"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "ToGs75kOClo",
@@ -8402,7 +8923,8 @@
     "AI動漫",
     "影片生成",
     "自動化"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "vmk4ToeAgpU",
@@ -8419,7 +8941,8 @@
     "簡報製作",
     "工作流",
     "辦公應用"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "VLv0NDLuzxw",
@@ -8436,7 +8959,8 @@
     "MCP",
     "工具教學",
     "AI助理"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "41eyUBTDn3U",
@@ -8453,7 +8977,8 @@
     "Gemini",
     "自訂角色",
     "儀表盤"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "eaBRGdYOtn0",
@@ -8470,7 +8995,8 @@
     "Dynamic Workflows",
     "AI Agent",
     "自動化工作流"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "EH8QG6S4mJY",
@@ -8486,7 +9012,8 @@
     "AI 生成影片",
     "Hyperframes",
     "自動化"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "2B3U9bq2lsg",
@@ -8502,7 +9029,8 @@
     "AI Agent",
     "影片生成",
     "自動化剪輯"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "Q05UaHVufo8",
@@ -8519,7 +9047,8 @@
     "NotebookLM",
     "Gemini",
     "Canva"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "gp_LsIzAe9g",
@@ -8536,7 +9065,8 @@
     "AI影片",
     "分鏡腳本",
     "短片製作"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "7xlQkLXeR6Q",
@@ -8553,7 +9083,8 @@
     "簡報模板",
     "辦公應用",
     "簡報設計"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "boW53RZdeNg",
@@ -8570,7 +9101,8 @@
     "AI Agent",
     "新手教學",
     "工具教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "5ZFm1uRI-IE",
@@ -8587,7 +9119,8 @@
     "提示詞技巧",
     "股票分析",
     "AI應用"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "1DyhOLo_hcw",
@@ -8604,7 +9137,8 @@
     "NotebookLM",
     "知識庫",
     "新功能教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "VS5bMOQ4DFs",
@@ -8621,7 +9155,8 @@
     "Suno",
     "ElevenLabs",
     "工作流"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "lDNHOxuNDOA",
@@ -8638,7 +9173,8 @@
     "Webhook",
     "自動化",
     "觸發器"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "VQLhwAZdWk8",
@@ -8655,7 +9191,8 @@
     "GeminiAvatar",
     "數位分身",
     "AI影片生成"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "7L2zX_Z4jPo",
@@ -8672,7 +9209,8 @@
     "Sora",
     "Veo 3",
     "影片生成"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "oNO4Z5X5YyQ",
@@ -8689,7 +9227,8 @@
     "辦公應用",
     "職場效率",
     "協作心法"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "mpuaOKSYkqM",
@@ -8706,7 +9245,8 @@
     "Ollama",
     "本地部署",
     "AI Agent"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "kfSqT36sflg",
@@ -8723,7 +9263,8 @@
     "Kling 3.0",
     "古裝短劇",
     "AI影片生成"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "j7mDdQJw4Lg",
@@ -8740,7 +9281,8 @@
     "Codex",
     "企業自動化",
     "工作流"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "beqMQevayx4",
@@ -8757,7 +9299,8 @@
     "畢業影片",
     "AI影片生成",
     "資訊科技"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "7RRtN-wdy-A",
@@ -8774,7 +9317,8 @@
     "Gemini",
     "AI自動化",
     "新手教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "ppWG11UxKck",
@@ -8791,7 +9335,8 @@
     "Seedance 2.0",
     "Edimakor",
     "畫質提升"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "SFwlLbtbQVs",
@@ -8808,7 +9353,8 @@
     "行政減量",
     "實戰指南",
     "辦公應用"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "WOyUml6nqkk",
@@ -8825,7 +9371,8 @@
     "AI Agent",
     "自動化工作流",
     "實戰案例"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "HIbY8TXVJmU",
@@ -8842,7 +9389,8 @@
     "AI影片生成",
     "分鏡控制",
     "影片教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "LywwjUQp0N0",
@@ -8859,7 +9407,8 @@
     "圖片分析",
     "語音對話",
     "入門教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "ZNdaQJOu8AU",
@@ -8875,7 +9424,8 @@
     "HTML 簡報",
     "AI 應用",
     "辦公應用"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "eV0BTIIwpuk",
@@ -8891,7 +9441,8 @@
     "HTML 簡報",
     "教學簡報",
     "AI 應用"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "PpeCur6fEXc",
@@ -8908,7 +9459,8 @@
     "Claude Code",
     "提示詞工程",
     "程式開發"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "ozVTJm3n2U4",
@@ -8925,7 +9477,8 @@
     "Workflow",
     "AI Agent",
     "程式開發"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "ER7mb6-hdvs",
@@ -8942,7 +9495,8 @@
     "MCP",
     "AI助理",
     "辦公自動化"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "hZmoxvsFpA0",
@@ -8959,7 +9513,8 @@
     "Gemini",
     "數據儀表板",
     "Dashboard"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "bRZrqILySCg",
@@ -8976,7 +9531,8 @@
     "Claude Code",
     "自動化工作流",
     "AI教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "ApdLW40gNEk",
@@ -8993,7 +9549,8 @@
     "AI Agent",
     "程式開發",
     "網頁製作"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "tiWSQNaunwg",
@@ -9009,7 +9566,8 @@
     "OpenCode",
     "開源 AI",
     "工具教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "FJnZG5lNabA",
@@ -9026,7 +9584,8 @@
     "AI Agent",
     "無程式碼",
     "自動化工作流"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "U87EGssCzDY",
@@ -9043,7 +9602,8 @@
     "AI Agent",
     "工具教學",
     "開源工具"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "lxjTov_pbXQ",
@@ -9060,7 +9620,8 @@
     "Google Flow",
     "分鏡轉影片",
     "AI網紅"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "RwMIsPADJuI",
@@ -9077,7 +9638,8 @@
     "Veo 3",
     "文字生影片",
     "工作流教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "bdnIwVXmtPo",
@@ -9094,7 +9656,8 @@
     "Veo 3",
     "影片生成教學",
     "提示詞"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "hBEXshEnWRY",
@@ -9110,7 +9673,8 @@
     "AntiGravity",
     "自動化工作流",
     "AI 助理"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "LyiiMVZE7uM",
@@ -9127,7 +9691,8 @@
     "Claude Code",
     "AI Agent",
     "自動化工作流"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "Hu7fjlnhFvs",
@@ -9144,7 +9709,8 @@
     "AI簡報",
     "辦公應用",
     "多模型實測"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "BJ0ZssT2kpI",
@@ -9161,7 +9727,8 @@
     "AI長片",
     "多鏡頭",
     "角色一致性"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "EywHObEO-7w",
@@ -9178,7 +9745,8 @@
     "Seedance 2.0",
     "AI影片剪輯",
     "Kling"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "pTO85XkruHI",
@@ -9195,7 +9763,8 @@
     "知識庫",
     "自動化",
     "工作流"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "lFNUx1JI6z4",
@@ -9212,7 +9781,8 @@
     "MCP",
     "CLI",
     "AI基礎知識"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "WKe078iKQJk",
@@ -9229,7 +9799,8 @@
     "Skill",
     "Live Artifacts",
     "工具教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "XCYLTQ8ECn4",
@@ -9246,7 +9817,8 @@
     "Gemini",
     "Prompt法則",
     "廣東話"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "M42CYyWOKIM",
@@ -9263,7 +9835,8 @@
     "GPT Image 2.0",
     "Seedance 2.0",
     "AI影片"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "L7hUBvxYEo8",
@@ -9280,7 +9853,8 @@
     "Seedance",
     "GPTImage2",
     "AI影片生成"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "Oa6M7k5oK6M",
@@ -9297,7 +9871,8 @@
     "OpenAI",
     "新手教學",
     "AI工具"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "8244knXN9e0",
@@ -9314,7 +9889,8 @@
     "Claude Cowork",
     "Claude Code",
     "AI教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "mP_RSdSn8qk",
@@ -9331,7 +9907,8 @@
     "數位教具",
     "教師實作",
     "提示詞"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "W5ymBPi53Tw",
@@ -9348,7 +9925,8 @@
     "AI辦公",
     "辦公應用",
     "自動化"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "WBctlLzlk8w",
@@ -9365,7 +9943,8 @@
     "ToMoviee",
     "Seedance",
     "AI動畫"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "8TS2K3ACYw0",
@@ -9382,7 +9961,8 @@
     "Trigger",
     "自動化觀念",
     "數位分身"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "bqt8vpXgwL8",
@@ -9399,7 +9979,8 @@
     "CherryStudio",
     "API教學",
     "GoogleAIStudio"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "fvmTvkY4tlU",
@@ -9416,7 +9997,8 @@
     "AI繪圖",
     "免費部署",
     "工具教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "0RPVIiIcD4g",
@@ -9433,7 +10015,8 @@
     "CLI",
     "程式開發",
     "GCP驗證"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "Eux3CfppoBY",
@@ -9450,7 +10033,8 @@
     "NotebookLM",
     "辦公應用",
     "生產力工具"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "ZxQCd8MMPI8",
@@ -9467,7 +10051,8 @@
     "GensparkClaw",
     "AI工具",
     "效率提升"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "sBZOZyGheZ8",
@@ -9484,7 +10069,8 @@
     "程式開發",
     "AI編程",
     "大型專案"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "V_O4YvMRE9E",
@@ -9501,7 +10087,8 @@
     "Nano Banana 2",
     "歷史故事影片",
     "教材製作"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "3ctehY53fS8",
@@ -9518,7 +10105,8 @@
     "工具教學",
     "UI設計",
     "AI應用"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "yfiV1ExXaq0",
@@ -9535,7 +10123,8 @@
     "Codex",
     "影片剪輯",
     "AI工作流"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "VFzECrlW7H0",
@@ -9552,7 +10141,8 @@
     "可靈AI",
     "提示詞公式",
     "AI影片生成"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "fSGqiQm2JXo",
@@ -9569,7 +10159,8 @@
     "AI繪圖",
     "提示詞",
     "影像生成"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "qGe2sq2i9uo",
@@ -9586,7 +10177,8 @@
     "ChatGPT",
     "Claude",
     "免費AI工具"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "kxBCLl6eexE",
@@ -9603,7 +10195,8 @@
     "AI Agent",
     "外掛插件",
     "自動化"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "on9V9wO615Y",
@@ -9620,7 +10213,8 @@
     "備課實務",
     "簡報生成",
     "工具教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "lB7Pl8Dl_Rw",
@@ -9637,7 +10231,8 @@
     "免費 AI",
     "AI Agent",
     "工具教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "fglWLj0OgIE",
@@ -9654,7 +10249,8 @@
     "讀書筆記",
     "工具教學",
     "AI學習"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "w9EH50zArMk",
@@ -9671,7 +10267,8 @@
     "AI Agent",
     "工具教學",
     "自動化"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "rCw1fDAMCnI",
@@ -9688,7 +10285,8 @@
     "GPT Image 2",
     "Seedance 2.0",
     "AI漫劇"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "MfeOnVJmk0A",
@@ -9705,7 +10303,8 @@
     "自動交易",
     "Python",
     "程式開發"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "QgFqVJS6QCk",
@@ -9722,7 +10321,8 @@
     "Obsidian",
     "工作流",
     "AI助理"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "9RJbWhKpPqk",
@@ -9739,7 +10339,8 @@
     "Codex",
     "AI生圖",
     "自動化工作流"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "SJsP22EO5RQ",
@@ -9756,7 +10357,8 @@
     "Vibe Coding",
     "網頁開發",
     "程式開發"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "sNgpNPwkXIw",
@@ -9773,7 +10375,8 @@
     "ComfyUI",
     "人臉參考",
     "AI影片生成"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "6iONJKrFs1k",
@@ -9790,7 +10393,8 @@
     "Ollama",
     "本地模型",
     "工具教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "R9qKY5sBIcY",
@@ -9807,7 +10411,8 @@
     "AI口播",
     "自動化工作流",
     "角色一致性"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "02Q4OIjODGg",
@@ -9824,7 +10429,8 @@
     "簡報教學",
     "亂碼修正",
     "PDF轉檔"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "UMBPsjKjLRs",
@@ -9841,7 +10447,8 @@
     "Gemini",
     "辦公應用",
     "自動化"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "qIB5HWKoUqI",
@@ -9858,7 +10465,8 @@
     "Firebase",
     "VibeCoding",
     "網頁開發"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "DN7meY95LB4",
@@ -9875,7 +10483,8 @@
     "NotebookLM",
     "入門觀念",
     "AI教育"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "HDLCBMJOwHE",
@@ -9892,7 +10501,8 @@
     "AI生圖",
     "故事創作",
     "AI教育"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "RElLfjDUs7Y",
@@ -9909,7 +10519,8 @@
     "影像生成",
     "資訊科技",
     "中文生圖"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "QwnvPcn2lmk",
@@ -9926,7 +10537,8 @@
     "AI寫作",
     "部落格創作",
     "工具教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "zTchta70j0M",
@@ -9943,7 +10555,8 @@
     "AI音樂",
     "資訊教育",
     "音樂生成"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "haolDUI1U2o",
@@ -9960,7 +10573,8 @@
     "AI Agent",
     "工具教學",
     "免費資源"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "_96FEeppn40",
@@ -9977,7 +10591,8 @@
     "自動化",
     "社群行銷",
     "工作流"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "6fxgVc9TqSM",
@@ -9994,7 +10609,8 @@
     "AI工具",
     "文獻整理",
     "辦公應用"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "cJs0hM2FVww",
@@ -10011,7 +10627,8 @@
     "Gmail",
     "OpenAI",
     "辦公自動化"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "WPAZ7AF3BoU",
@@ -10028,7 +10645,8 @@
     "Vheer AI",
     "混元AI",
     "AI影片生成"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "13JuHq4mUh8",
@@ -10045,7 +10663,8 @@
     "職場應用",
     "辦公效率",
     "提示詞"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "RvrS9sowSME",
@@ -10062,7 +10681,8 @@
     "履歷健檢",
     "防AI幻覺",
     "辦公應用"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "zD3pBiQOcbY",
@@ -10079,7 +10699,8 @@
     "GPT Image 2",
     "Seedance 2.0",
     "角色一致性"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "xMN5ECp9L_U",
@@ -10096,7 +10717,8 @@
     "光影調整",
     "AI生圖",
     "影片生成"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "nwcaZtrUXNE",
@@ -10113,7 +10735,8 @@
     "簡報生成",
     "PPT製作",
     "辦公應用"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "a0eKuZdSGGI",
@@ -10130,7 +10753,8 @@
     "AI簡報",
     "PPT製作",
     "辦公應用"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "B9OSVCTDA5o",
@@ -10147,7 +10771,8 @@
     "GCP",
     "程式開發",
     "Cloud Models"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "o3jlxoVa_1g",
@@ -10164,7 +10789,8 @@
     "GeminiCanvas",
     "工具教學",
     "廣東話"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "5IuqqZY_FtQ",
@@ -10181,7 +10807,8 @@
     "提問公式",
     "ChatGPT",
     "入門觀念"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "jxma5udXF-g",
@@ -10198,7 +10825,8 @@
     "Claude",
     "辦公效率",
     "Excel整合"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "KgL-VE8xIZw",
@@ -10215,7 +10843,8 @@
     "工具教學",
     "AI指令",
     "新功能介紹"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "XjQ_3XL1CNw",
@@ -10232,7 +10861,8 @@
     "GoogleCloud",
     "AgentStudio",
     "工具教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "z9YoXdK9uDM",
@@ -10249,7 +10879,8 @@
     "辦公應用",
     "AI寫作",
     "提示詞"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "Ws1oZwJBikU",
@@ -10266,7 +10897,8 @@
     "工具教學",
     "Hostinger",
     "記憶庫"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "Kigo8LnrVEI",
@@ -10283,7 +10915,8 @@
     "Chrome",
     "行程規劃",
     "辦公應用"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "3O2hMqbVMRo",
@@ -10300,7 +10933,8 @@
     "Codex",
     "AI簡報",
     "辦公應用"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "Nms56KhvIQw",
@@ -10317,7 +10951,8 @@
     "本地部署",
     "開源模型",
     "AI影片模型"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "JrJycoEO2_Q",
@@ -10334,7 +10969,8 @@
     "UI設計",
     "工具教學",
     "設計系統"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "gXmI8gFioY4",
@@ -10351,7 +10987,8 @@
     "工具教學",
     "DeepSeek",
     "API串接"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "k4WORgD0XA4",
@@ -10368,7 +11005,8 @@
     "VibeCoding",
     "程式開發",
     "AI寫程式"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "TU_Upg_whtk",
@@ -10384,7 +11022,8 @@
     "自動化剪輯",
     "AI Agent",
     "影片後製"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "gw8sI9bbIvc",
@@ -10401,7 +11040,8 @@
     "使用技巧",
     "新手教學",
     "工具教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "fyMKWqm3DbA",
@@ -10418,7 +11058,8 @@
     "AI繪圖",
     "設計應用",
     "AI影像生成"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "uE1XDwDOtbU",
@@ -10435,7 +11076,8 @@
     "NotebookLM",
     "AI知識庫",
     "Google AI"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "3GhAFC-zNvk",
@@ -10452,7 +11094,8 @@
     "AI辦公",
     "開源項目",
     "文件自動化"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "IbpuIPJbm9A",
@@ -10469,7 +11112,8 @@
     "AI影片教學",
     "人臉突破",
     "腳本創作"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "4iVAIX981lo",
@@ -10486,7 +11130,8 @@
     "AI MV",
     "Seedance 2.0",
     "音樂影片生成"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "biy_bKu4gDk",
@@ -10503,7 +11148,8 @@
     "Harness",
     "工作系統",
     "提示詞優化"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "TlLx4Iy6n2Q",
@@ -10520,7 +11166,8 @@
     "工具教學",
     "代理工具",
     "NVIDIA API"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "6qU1In35BSI",
@@ -10537,7 +11184,8 @@
     "角色一致性",
     "新手教學",
     "提示詞技巧"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "P2VVmUIoGx0",
@@ -10554,7 +11202,8 @@
     "AI影片",
     "自動化工作流",
     "YouTube自動化"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "3l25EIZKqN0",
@@ -10571,7 +11220,8 @@
     "提示詞",
     "Gemini",
     "入門觀念"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "dpwKGp89X6o",
@@ -10588,7 +11238,8 @@
     "AI影片生成",
     "Seedance",
     "Kling"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "vrsuOrfD8ms",
@@ -10605,7 +11256,8 @@
     "AI生圖",
     "照片修復",
     "AI影像生成"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "xLO4ODRYt80",
@@ -10622,7 +11274,8 @@
     "AI影片生成",
     "手機AI",
     "Seedance"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "vpHX-WzpHTw",
@@ -10639,7 +11292,8 @@
     "AI自動化",
     "Skills",
     "工作流"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "7q2jUth57X8",
@@ -10656,7 +11310,8 @@
     "GeminiAPI",
     "GoogleAIStudio",
     "程式開發"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "j5fWb9lkj4s",
@@ -10673,7 +11328,8 @@
     "AI客服",
     "語音機器人",
     "程式開發"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "-TwCLMKFLYg",
@@ -10690,7 +11346,8 @@
     "ChatGPT",
     "Seedance",
     "AI影片工作流"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "r5M0W66xcGc",
@@ -10707,7 +11364,8 @@
     "Gemma 4",
     "本地AI",
     "工具教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "6lWbfTJKe3o",
@@ -10724,7 +11382,8 @@
     "程式開發",
     "AI Agent",
     "實戰教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "v52DeHHKomw",
@@ -10741,7 +11400,8 @@
     "AI Agent",
     "應用示範",
     "教學工具"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "MRS15KdaVas",
@@ -10758,7 +11418,8 @@
     "AI Agent",
     "應用示範",
     "教學工具"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "0ygGHYl7aTA",
@@ -10775,7 +11436,8 @@
     "AI短劇",
     "影片生成",
     "新手教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "YHAuz0g3KSY",
@@ -10792,7 +11454,8 @@
     "AI動畫",
     "自動化工作流",
     "影片生成"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "YhC5zhToHEQ",
@@ -10809,7 +11472,8 @@
     "GPTImage",
     "AI繪圖",
     "圖像生成"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "VW6R-501CBI",
@@ -10826,7 +11490,8 @@
     "資訊圖表",
     "萬用提示詞",
     "辦公應用"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "g3JVLLtjcLw",
@@ -10843,7 +11508,8 @@
     "Seedance",
     "Grok",
     "免費AI工具"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "X5Le9yrG5qs",
@@ -10860,7 +11526,8 @@
     "Suno AI",
     "人聲分離",
     "CapCut"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "J3GxiOS1Cso",
@@ -10877,7 +11544,8 @@
     "資料視覺化",
     "資訊圖表",
     "辦公應用"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "3bL5JHixDw0",
@@ -10894,7 +11562,8 @@
     "Kling",
     "AI影片",
     "電商廣告"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "OZcvP-2Smuw",
@@ -10911,7 +11580,8 @@
     "簡報製作",
     "辦公應用",
     "財務分析"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "W_ngHkQAV3Y",
@@ -10928,7 +11598,8 @@
     "Codex",
     "自訂指令",
     "工具教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "r-CGDAGeXLU",
@@ -10945,7 +11616,8 @@
     "程式開發",
     "AI編程",
     "教學指南"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "XGl3XrOWCfw",
@@ -10962,7 +11634,8 @@
     "YAML對話",
     "原型渲染",
     "隱藏功能"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "UFY-KYWjEg0",
@@ -10979,7 +11652,8 @@
     "辦公應用",
     "廣東話教學",
     "AI助理"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "COQ2GPhxNbM",
@@ -10996,7 +11670,8 @@
     "工具教學",
     "DeepSeek",
     "環境設定"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "g5Zr15yaQVw",
@@ -11013,7 +11688,8 @@
     "Excel",
     "辦公應用",
     "公式生成"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "J8iJjXpyNp8",
@@ -11030,7 +11706,8 @@
     "ChatGPT",
     "單字卡",
     "辦公應用"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "eKW9ITaltWw",
@@ -11047,7 +11724,8 @@
     "LLM",
     "Agentic Workflow",
     "入門觀念"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "tfeCwDT-5m0",
@@ -11064,7 +11742,8 @@
     "AI Agent",
     "自動化",
     "工具教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "5KWRJtnVeY8",
@@ -11081,7 +11760,8 @@
     "角色一致性",
     "AI繪圖",
     "生圖技巧"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "oWXRGQYBxqo",
@@ -11098,7 +11778,8 @@
     "Threads API",
     "自動發文",
     "社群自動化"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "uCBz00TUK7M",
@@ -11115,7 +11796,8 @@
     "AI工具",
     "知識管理",
     "學習效率"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "4Sev-e0jndA",
@@ -11132,7 +11814,8 @@
     "工具教學",
     "新手指南",
     "GoogleAI"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "-LbzVPED938",
@@ -11149,7 +11832,8 @@
     "自動化工作流",
     "辦公應用",
     "AI技巧"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "JX7b6AMKGAg",
@@ -11166,7 +11850,8 @@
     "教學自動化",
     "自動寄信",
     "辦公應用"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "zHB_TUBG7N8",
@@ -11183,7 +11868,8 @@
     "自動化",
     "Google表單",
     "工作流"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "a0U62XeQqig",
@@ -11200,7 +11886,8 @@
     "ChatGPT",
     "HTML5動畫",
     "AI動畫"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "n70bPQ7quPQ",
@@ -11216,7 +11903,8 @@
     "AI Skills",
     "AI Agent",
     "自動化工作流"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "4QRg5ee-UYA",
@@ -11233,7 +11921,8 @@
     "AI繪圖",
     "新手教學",
     "手機繪圖"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "kSgxHy-mqxI",
@@ -11250,7 +11939,8 @@
     "NotebookLM",
     "自動化工作流",
     "生產力"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "HLe-mn5CPhM",
@@ -11267,7 +11957,8 @@
     "LINE貼圖",
     "AI繪圖",
     "貼圖上架"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "IZ99PuM39ng",
@@ -11284,7 +11975,8 @@
     "Claude Code",
     "GPT Codex",
     "辦公應用"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "TLmA2ygclvQ",
@@ -11301,7 +11993,8 @@
     "Gemini",
     "辦公應用",
     "教學備課"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "KI-TXDFPKU4",
@@ -11318,7 +12011,8 @@
     "Claude",
     "入門觀念",
     "AI檢定"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "-_ELSqJSeJM",
@@ -11335,7 +12029,8 @@
     "自動化",
     "Google Sheets",
     "工作流"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "rEYXPEzStY4",
@@ -11352,7 +12047,8 @@
     "提示詞",
     "AI家教",
     "教育科技"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "w1M9tS7oyiU",
@@ -11369,7 +12065,8 @@
     "工具教學",
     "付費版比較",
     "效率提升"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "nt8ktm9Kh-8",
@@ -11386,7 +12083,8 @@
     "提問技巧",
     "Prompt",
     "AI工具"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "BN40JSi1EBk",
@@ -11403,7 +12101,8 @@
     "Firebase",
     "程式開發",
     "自動化工作流"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "DPjqsKEsjh0",
@@ -11420,7 +12119,8 @@
     "Claude Desktop",
     "工具教學",
     "PPT製作"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "M7dWiKcMJA0",
@@ -11437,7 +12137,8 @@
     "AI繪圖",
     "繁體中文生成",
     "生圖教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "6PJ-Jz74VIk",
@@ -11454,7 +12155,8 @@
     "AI短劇",
     "Seedance",
     "AI動畫"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "C1Ns72EBirg",
@@ -11471,7 +12173,8 @@
     "LINE貼圖",
     "AI繪圖",
     "副業賺錢"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "5smuPeIw10A",
@@ -11488,7 +12191,8 @@
     "Gemini CLI",
     "自動化工作流",
     "簡報生成"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "B5aXOAF2b9o",
@@ -11505,7 +12209,8 @@
     "Agent Skill",
     "辦公自動化",
     "AI編程"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "yeVPBxIIZ5U",
@@ -11522,7 +12227,8 @@
     "Gemini",
     "高效學習",
     "AI教育"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "W0dq6Ek-eBk",
@@ -11539,7 +12245,8 @@
     "GalaxyAI",
     "Perplexity",
     "工具教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "6D23VAXr3Jc",
@@ -11556,7 +12263,8 @@
     "UI設計",
     "工具教學",
     "原型設計"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "w8Xjs3CnRvw",
@@ -11573,7 +12281,8 @@
     "Gemini",
     "AI生圖比較",
     "Prompt測試"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "hGaKA3cfMjk",
@@ -11590,7 +12299,8 @@
     "AI Agent",
     "工具教學",
     "自動化"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "qLMKZC7tb5I",
@@ -11607,7 +12317,8 @@
     "桌面版",
     "工具教學",
     "基礎設定"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "WdwKLyZwNKE",
@@ -11624,7 +12335,8 @@
     "互動學習",
     "AI導師",
     "Podcast生成"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "yuIbPmOw8ZE",
@@ -11641,7 +12353,8 @@
     "網頁製作",
     "AI工具",
     "網站部署"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "gKib6KpNIJs",
@@ -11658,7 +12371,8 @@
     "AI繪圖",
     "安裝教學",
     "硬體優化"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "9Fcy0HwG0vc",
@@ -11675,7 +12389,8 @@
     "辦公小工具",
     "自製AI",
     "試算表"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "VEbBbFubCZ8",
@@ -11692,7 +12407,8 @@
     "GitHub",
     "Obsidian",
     "程式開發"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "PqMZYZuqSvg",
@@ -11709,7 +12425,8 @@
     "PDF處理",
     "資料摘要",
     "生產力提升"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "qNV0HdYLB8o",
@@ -11726,7 +12443,8 @@
     "工具教學",
     "API串接",
     "大模型"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "RjZP_yp7XxI",
@@ -11743,7 +12461,8 @@
     "Seedance",
     "AI短劇",
     "工作流"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "Qkzbz4PtFNM",
@@ -11760,7 +12479,8 @@
     "Images 2.0",
     "AI生圖",
     "工作流"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "4gciWspBVHw",
@@ -11777,7 +12497,8 @@
     "AI編程",
     "自動化",
     "程式開發"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "JtvSCXz3A6w",
@@ -11794,7 +12515,8 @@
     "工具教學",
     "簡報優化",
     "備考神器"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "3fCXzantTvI",
@@ -11810,7 +12532,8 @@
     "Claude Code",
     "網頁開發",
     "AI 遊戲設計"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "UZxPRF3yWSs",
@@ -11827,7 +12550,8 @@
     "論文寫作",
     "醫學研究",
     "自動化目錄"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "b0iNeidmlLs",
@@ -11844,7 +12568,8 @@
     "PDNob",
     "簡報修改",
     "PDF編輯"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "YHXGxGcAIXI",
@@ -11861,7 +12586,8 @@
     "AI動畫",
     "影片生成",
     "動畫教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "5Aha8QOVke4",
@@ -11878,7 +12604,8 @@
     "工具教學",
     "Skills",
     "AI助理"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "5FM_O66g2Ng",
@@ -11895,7 +12622,8 @@
     "AI 助理",
     "工具教學",
     "外掛安裝"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "Bzjy23ywicg",
@@ -11912,7 +12640,8 @@
     "銀髮族",
     "入門觀念",
     "AI新手"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "j5kOjHtMXZc",
@@ -11929,7 +12658,8 @@
     "教師備課",
     "教材整理",
     "AI教育"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "SnmVmTF4y_I",
@@ -11946,7 +12676,8 @@
     "Edimakor",
     "影片生成",
     "去浮水印"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "wA0xFcvl0rQ",
@@ -11963,7 +12694,8 @@
     "新手教學",
     "介面導覽",
     "入門指南"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "0bPRJCvSu0E",
@@ -11980,7 +12712,8 @@
     "提示詞範本",
     "工具教學",
     "AI造型師"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "YpJQ1JNOqVg",
@@ -11997,7 +12730,8 @@
     "Claude Code",
     "GPT Codex",
     "入門觀念"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "RZEb6FLZSHE",
@@ -12014,7 +12748,8 @@
     "Claude Code",
     "第二大腦",
     "自動化工作流"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "JxaI6HK2onc",
@@ -12031,7 +12766,8 @@
     "Claude Code",
     "網頁設計",
     "程式開發"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "NMlB6HNFir8",
@@ -12048,7 +12784,8 @@
     "Gemini",
     "AI生圖",
     "評測"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "RN4yv8-lGGA",
@@ -12065,7 +12802,8 @@
     "AI學英文",
     "語言學習",
     "提示詞技巧"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "Lq-wedAiffo",
@@ -12082,7 +12820,8 @@
     "Claude Code",
     "自動化工作流",
     "AI員工"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "tcgaNhfY9pY",
@@ -12099,7 +12838,8 @@
     "Labnana",
     "AI繪圖",
     "免費額度"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "w55CG-5qvRU",
@@ -12116,7 +12856,8 @@
     "AI Agent",
     "自動化工作流",
     "實作應用"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "Yc80L9ZV6GQ",
@@ -12133,7 +12874,8 @@
     "React開發",
     "AI編程",
     "環境建置"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "ecUpvk889R8",
@@ -12150,7 +12892,8 @@
     "Gemini",
     "ChatGPT",
     "多工具協作"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "0IKrl7nNIM0",
@@ -12167,7 +12910,8 @@
     "程式開發",
     "AI代理",
     "實作教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "KdcB2dsZNFk",
@@ -12184,7 +12928,8 @@
     "AI工具",
     "終端機",
     "安裝教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "P1Q6ideBacw",
@@ -12201,7 +12946,8 @@
     "品牌設計",
     "AI生圖",
     "一人公司"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "sIjrti6LIGI",
@@ -12218,7 +12964,8 @@
     "API對接",
     "免費AI",
     "工具教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "cXEZ50vgDPw",
@@ -12235,7 +12982,8 @@
     "AI工具",
     "檔案處理",
     "免寫程式"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "4jNT5g5qtzo",
@@ -12252,7 +13000,8 @@
     "GPT-5.5",
     "AI編程",
     "網頁製作"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "1SPxiko-NbU",
@@ -12269,7 +13018,8 @@
     "AI交易員",
     "自動化工作流",
     "免代碼開發"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "dPA_S5PD7lU",
@@ -12286,7 +13036,8 @@
     "Image 2",
     "教材製作",
     "簡報生成"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "MA5eIwVKa34",
@@ -12303,7 +13054,8 @@
     "GPT-5.5",
     "自動化工作流",
     "ComputerUse"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "0u66hSXFEoI",
@@ -12320,7 +13072,8 @@
     "AI生圖",
     "設計應用",
     "AI影像生成"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "ItedFLk6Vko",
@@ -12337,7 +13090,8 @@
     "Images 2.0",
     "提示詞",
     "AI繪圖"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "JqoZH5__gsk",
@@ -12354,7 +13108,8 @@
     "GPT-Image",
     "API 串接",
     "工具教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "dSQYUXbWkTI",
@@ -12371,7 +13126,8 @@
     "AI繪圖",
     "設計工具",
     "排版技巧"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "3UHPH1A9KnM",
@@ -12388,7 +13144,8 @@
     "AI工作流",
     "自動化",
     "生產力工具"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "BRXKuaCWDVQ",
@@ -12405,7 +13162,8 @@
     "NotebookLM",
     "辦公應用",
     "廣東話教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "PBk12ptKR9Q",
@@ -12422,7 +13180,8 @@
     "Gemini",
     "辦公神器",
     "思考思維"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "vUds3MjFkh4",
@@ -12439,7 +13198,8 @@
     "Claude",
     "全端開發",
     "實戰教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "WmkMmVwtTo4",
@@ -12456,7 +13216,8 @@
     "AI生圖實測",
     "角色一致性",
     "圖表生成"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "m3k7tR4ZvtA",
@@ -12473,7 +13234,8 @@
     "粵語教學",
     "AI Agent",
     "自動化"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "uT6Txi4hegA",
@@ -12490,7 +13252,8 @@
     "Excel",
     "辦公自動化",
     "VBA"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "NqG4aQuWTUk",
@@ -12507,7 +13270,8 @@
     "會議紀錄",
     "AI秘書",
     "辦公效率"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "dx3b8ujO8Jk",
@@ -12524,7 +13288,8 @@
     "心智圖",
     "重點摘要",
     "多檔案處理"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "114H9EWKfzM",
@@ -12541,7 +13306,8 @@
     "辦公應用",
     "工具教學",
     "工作流"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "9WL8HOrMH2s",
@@ -12558,7 +13324,8 @@
     "自動化工作流",
     "電腦操控",
     "生產力工具"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "Yf9h7HHPX4A",
@@ -12575,7 +13342,8 @@
     "工具教學",
     "AI Agent",
     "工作流"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "GPuDxpiicLU",
@@ -12592,7 +13360,8 @@
     "AI Agent",
     "團隊協作",
     "架構解析"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "OsjF4dsZ4Lc",
@@ -12609,7 +13378,8 @@
     "影片總結",
     "簡報生成",
     "AI播客"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "227K1Vy82ag",
@@ -12626,7 +13396,8 @@
     "全端自動化",
     "Excel應用",
     "高效辦公"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "iUiLXpcGXHk",
@@ -12643,7 +13414,8 @@
     "Voyager",
     "AI外掛",
     "效率工具"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "RZMHdYar_DM",
@@ -12659,7 +13431,8 @@
     "Claude Design",
     "網頁優化",
     "程式開發"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "wW6_Q-5aH5o",
@@ -12676,7 +13449,8 @@
     "程式開發",
     "AI編程",
     "一人公司"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "-wb0QKHcyds",
@@ -12693,7 +13467,8 @@
     "專案管理",
     "程式開發",
     "自動化工作流"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "LDvdcA3robQ",
@@ -12710,7 +13485,8 @@
     "AI Agent",
     "辦公自動化",
     "教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "uiB6MpSdrII",
@@ -12727,7 +13503,8 @@
     "NotebookLM",
     "工具比較",
     "實測"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "kIwJxehzg20",
@@ -12744,7 +13521,8 @@
     "AI教育",
     "教師備課",
     "行政減量"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "VQh6L25DnYY",
@@ -12761,7 +13539,8 @@
     "Gemini",
     "工具教學",
     "效率提升"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "9iaSFh78ebI",
@@ -12778,7 +13557,8 @@
     "AI Agent",
     "自動化工作流",
     "實作教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "s_a84iv6EtM",
@@ -12795,7 +13575,8 @@
     "影片剪輯",
     "工具教學",
     "換臉教程"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "22bjps4LMmU",
@@ -12812,7 +13593,8 @@
     "Claude",
     "程式開發",
     "Token優化"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "78YQMfgPlwA",
@@ -12829,7 +13611,8 @@
     "AI 中控台",
     "工具教學",
     "自動化"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "D-xGULjCAB4",
@@ -12846,7 +13629,8 @@
     "自媒體",
     "文案創作",
     "簡報生成"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "DRgkh8IRk9k",
@@ -12863,7 +13647,8 @@
     "AI工作流",
     "自動化",
     "Routines"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "aiY74SlGLNk",
@@ -12880,7 +13665,8 @@
     "Manus",
     "Claude Cowork",
     "趨勢觀念"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "rxhRl65Psqg",
@@ -12897,7 +13683,8 @@
     "Manus",
     "簡報生成",
     "自動排版"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "FZ-UEOkJmmw",
@@ -12914,7 +13701,8 @@
     "Claude Code",
     "AI工具",
     "入門觀念"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "Qi0YewbjO4U",
@@ -12931,7 +13719,8 @@
     "深度研究",
     "快速研究",
     "文獻整理"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "rBkKxDxG0zc",
@@ -12948,7 +13737,8 @@
     "Canva",
     "工作流",
     "教材製作"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "qjbEgBB6AfE",
@@ -12965,7 +13755,8 @@
     "學習方法",
     "AI教育",
     "高效學習"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "JLgFZelbW9Y",
@@ -12982,7 +13773,8 @@
     "自動化",
     "簡報生成",
     "工具開箱"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "R80ZOBQ7buM",
@@ -12999,7 +13791,8 @@
     "圖片辨識",
     "手寫整理",
     "報告分析"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "NaDftIn1YLk",
@@ -13016,7 +13809,8 @@
     "自動化寫程式",
     "AI 智能體",
     "實測"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "Dc5mpf285y0",
@@ -13033,7 +13827,8 @@
     "工具實測",
     "筆記工具",
     "AI內容創作"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "EBwFeyTvcR8",
@@ -13050,7 +13845,8 @@
     "Firebase",
     "資料庫",
     "程式開發"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "ZgTpaB0TSMQ",
@@ -13067,7 +13863,8 @@
     "Magic Layers",
     "圖層編輯",
     "設計工具"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "JAxsyLwlaJ8",
@@ -13084,7 +13881,8 @@
     "Google Vids",
     "影片生成",
     "製作流程"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "aRpZL-CyS7k",
@@ -13101,7 +13899,8 @@
     "Supabase",
     "資料庫",
     "AI開發"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "RcBh6dFwh8k",
@@ -13118,7 +13917,8 @@
     "Seedance",
     "AI廣告",
     "影片生成"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "GKQggmMJ2lw",
@@ -13135,7 +13935,8 @@
     "教學應用",
     "行政減量",
     "AI備課"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "MHGFkOPEBVk",
@@ -13152,7 +13953,8 @@
     "自動化工作流",
     "AI Agent",
     "辦公自動化"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "ip8nC7lqatE",
@@ -13169,7 +13971,8 @@
     "Claude",
     "簡報製作",
     "實作教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "VvUnw--b6bM",
@@ -13186,7 +13989,8 @@
     "AI繪圖",
     "角色一致性",
     "視覺生成"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "2yyyYp3Umv0",
@@ -13203,7 +14007,8 @@
     "Hermes Agent",
     "開源 AI",
     "自動化"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "laSfvJmD5nc",
@@ -13220,7 +14025,8 @@
     "語音輸入",
     "API整合",
     "AI開發"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "UeI3nR9HLoQ",
@@ -13237,7 +14043,8 @@
     "知識庫",
     "微信整合",
     "RAG"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "uPaPMR87PFQ",
@@ -13254,7 +14061,8 @@
     "AI Agent",
     "提示詞工程",
     "入門教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "03Tggt3gTnc",
@@ -13271,7 +14079,8 @@
     "NotebookLM",
     "知識庫",
     "AI筆記"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "hLiN_X7dzdw",
@@ -13288,7 +14097,8 @@
     "新手技巧",
     "工具教學",
     "設定指南"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "pAHJod5o200",
@@ -13305,7 +14115,8 @@
     "Cloudflare Tunnel",
     "外部串接",
     "自動化"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "B--U8vUogTk",
@@ -13322,7 +14133,8 @@
     "Telegram",
     "Google Sheet",
     "自動化應用"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "Ajh8JXCI75k",
@@ -13339,7 +14151,8 @@
     "自動化",
     "內容創作",
     "AI工具"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "_V1g1sg1L5E",
@@ -13356,7 +14169,8 @@
     "Docker",
     "Python",
     "系統安裝"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "mN4uL8l-mlQ",
@@ -13373,7 +14187,8 @@
     "Veo",
     "AI影片生成",
     "簡報轉影片"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "zMY13NnbFK4",
@@ -13390,7 +14205,8 @@
     "AI跳舞",
     "影片生成",
     "角色動畫"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "q1IpSi0fGUs",
@@ -13407,7 +14223,8 @@
     "AI換臉",
     "證件照",
     "影像生成"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "PvLadnpyK3s",
@@ -13424,7 +14241,8 @@
     "自動化助理",
     "概念解析",
     "應用示範"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "V1aZnMiR8zk",
@@ -13441,7 +14259,8 @@
     "工作流自動化",
     "RAG",
     "Low-code"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "zy9quj2Tuyc",
@@ -13458,7 +14277,8 @@
     "VEO",
     "Nano Banana",
     "影片生成"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "NdJrsxK62b4",
@@ -13475,7 +14295,8 @@
     "Gemini",
     "中小企業",
     "AI自動化"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "YVuj_0NpHmA",
@@ -13492,7 +14313,8 @@
     "AI Agent",
     "安裝教學",
     "工具解析"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "80kCvbsuniw",
@@ -13509,7 +14331,8 @@
     "Vibe Coding",
     "自動化工作流",
     "Notion整合"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "xo7dE80ktu4",
@@ -13526,7 +14349,8 @@
     "AI助理",
     "MCP工具",
     "環境配置"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "MccRn13fW48",
@@ -13543,7 +14367,8 @@
     "票據整理",
     "工具開發",
     "Skill平台"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "b21TUOL1JdI",
@@ -13560,7 +14385,8 @@
     "Claude",
     "第二大腦",
     "知識管理"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "XrcQrD-Lf04",
@@ -13577,7 +14403,8 @@
     "Obsidian",
     "MCP協定",
     "自動化"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "e6oMbuP3D2Q",
@@ -13594,7 +14421,8 @@
     "NotebookLM",
     "GitHub",
     "數位教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "YKxu_Nf40WY",
@@ -13611,7 +14439,8 @@
     "AI Agent",
     "RAG",
     "財經應用"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "_cVTzXvb7xs",
@@ -13628,7 +14457,8 @@
     "AI工具",
     "教學",
     "自動化"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "xyCZTWFqoq4",
@@ -13645,7 +14475,8 @@
     "RAG",
     "向量資料庫",
     "財經分析"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "EKJ832yOLLw",
@@ -13662,7 +14493,8 @@
     "Claude Code",
     "版本控制",
     "新手教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "4jnEiZJSEf0",
@@ -13679,7 +14511,8 @@
     "Claude Code",
     "自動部署",
     "懶人包"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "hr6pgjEUFj4",
@@ -13696,7 +14529,8 @@
     "Claude",
     "Obsidian",
     "跨工具整合"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "YsUITwEXUnY",
@@ -13713,7 +14547,8 @@
     "NotebookLM",
     "MCP懶人包",
     "自動化工作流"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "u3FvQCm5CO4",
@@ -13730,7 +14565,8 @@
     "AI Skills",
     "工作流優化",
     "工具教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "NqWHCz-xSYE",
@@ -13747,7 +14583,8 @@
     "Claude Cowork",
     "辦公自動化",
     "AI工具"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "Lhy0Z0qN4G8",
@@ -13764,7 +14601,8 @@
     "室內設計渲染",
     "Sketchup",
     "效果圖生成"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "GL4uEPCdezE",
@@ -13781,7 +14619,8 @@
     "自動化",
     "教學",
     "匯率"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "B1DfDWkmKSY",
@@ -13798,7 +14637,8 @@
     "AI沙盒",
     "互動教學",
     "數位課堂"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "AWd8zdHL8L4",
@@ -13815,7 +14655,8 @@
     "自動化",
     "Google Sheets",
     "後台管理"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "0l4ydSYQYZE",
@@ -13832,7 +14673,8 @@
     "CAD製圖",
     "工具教學",
     "工程設計"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "rHYikzv2Osw",
@@ -13849,7 +14691,8 @@
     "AI影片生成",
     "短影音製作",
     "影片剪輯"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "iC6SwO8ITX4",
@@ -13866,7 +14709,8 @@
     "AI生圖",
     "角色一致性",
     "新手教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "zm3K831v470",
@@ -13883,7 +14727,8 @@
     "AI入門",
     "工具教學",
     "自動化"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "4w_RK3hZtWo",
@@ -13900,7 +14745,8 @@
     "AI Agent",
     "自動化",
     "工作流"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "VylP-hnx6ss",
@@ -13917,7 +14763,8 @@
     "騰訊",
     "AI桌面智能體",
     "工具教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "K37mtYCHWlg",
@@ -13934,7 +14781,8 @@
     "OpenClaw",
     "辦公自動化",
     "AI Agent"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "jUcA4rhI6o0",
@@ -13951,7 +14799,8 @@
     "ChatGPT",
     "辦公應用",
     "試算表"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "qqTAvViioyU",
@@ -13968,7 +14817,8 @@
     "Notion",
     "辦公應用",
     "Illustrator"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "S4B6d85H0JA",
@@ -13985,7 +14835,8 @@
     "AI備課",
     "教材生成",
     "教育應用"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "luRFvHW0SF8",
@@ -14002,7 +14853,8 @@
     "全生態介紹",
     "自動化",
     "入門觀念"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "jzlrSpg59Dg",
@@ -14019,7 +14871,8 @@
     "Gmail",
     "API串接",
     "OAuth2"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "4Nf0FjZf61E",
@@ -14036,7 +14889,8 @@
     "AI Agent",
     "自動化",
     "工作流"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "qn3LH4OmbvM",
@@ -14053,7 +14907,8 @@
     "短影片",
     "自動化",
     "AI 應用"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "xBl73LxoG7E",
@@ -14070,7 +14925,8 @@
     "AI編程",
     "插件開發",
     "程式開發"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "bRO2C9p6EiI",
@@ -14087,7 +14943,8 @@
     "AI Agent",
     "ChatGPT",
     "自動化"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "xX6e0l-TaWg",
@@ -14104,7 +14961,8 @@
     "API串接",
     "自動化",
     "工具教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "QwlShxJV_iw",
@@ -14121,7 +14979,8 @@
     "辦公應用",
     "標語生成",
     "簡報自動化"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "Dhq9d70yENY",
@@ -14138,7 +14997,8 @@
     "ChatGPT",
     "Claude",
     "工具教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "mNRphFUPzjE",
@@ -14155,7 +15015,8 @@
     "自動化",
     "AI助理",
     "新手教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "kMv8Wp2L5Mc",
@@ -14172,7 +15033,8 @@
     "AI影片生成",
     "角色一致性",
     "背景修正"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "u3WiMRVwKks",
@@ -14189,7 +15051,8 @@
     "手機下載",
     "工具教學",
     "安裝教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "ICjh3N41rJ8",
@@ -14206,7 +15069,8 @@
     "AI虛擬角色",
     "影片生成",
     "動畫製作"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "GqxcZFgDoP8",
@@ -14223,7 +15087,8 @@
     "AI工作流",
     "工具教學",
     "Gemini"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "MUtOAYVHxhM",
@@ -14240,7 +15105,8 @@
     "Gemini",
     "AI動畫",
     "影片製作教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "D6XxSD8Mc70",
@@ -14257,7 +15123,8 @@
     "ChatGPT",
     "短影片製作",
     "影片生成"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "IJxf1jfGOQU",
@@ -14274,7 +15141,8 @@
     "AI繪圖",
     "AI動畫",
     "角色創作"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "KLXnugDLQq0",
@@ -14291,7 +15159,8 @@
     "LINE Bot",
     "API串接",
     "自動化"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "Zh7gdDhrMsE",
@@ -14308,7 +15177,8 @@
     "Claude Code",
     "MCP",
     "AI開發"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "FxyOHVZb5ew",
@@ -14325,7 +15195,8 @@
     "數位教材",
     "RAG技術",
     "備課實作"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "a5OTTbSCpO8",
@@ -14342,7 +15213,8 @@
     "Skills",
     "AI自動化",
     "工作流"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "2pM-7fBXc_M",
@@ -14359,7 +15231,8 @@
     "Vibe Coding",
     "程式開發",
     "AI編程"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "KZKT27Gk9lA",
@@ -14376,7 +15249,8 @@
     "Clawbot",
     "微信AI",
     "自動化工作流"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "2mgZTRea-Ms",
@@ -14393,7 +15267,8 @@
     "AI教學",
     "隱私設定",
     "Prompt技巧"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "rGb3KxCL9iA",
@@ -14410,7 +15285,8 @@
     "Claude",
     "自動化",
     "新手教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "EYNIjbUoUaQ",
@@ -14427,7 +15303,8 @@
     "n8n",
     "自動化",
     "AI編程"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "64O1LSpGJYI",
@@ -14444,7 +15321,8 @@
     "遠端控制",
     "瀏覽器自動化",
     "遠端出卷"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "v0Y9zMJuYb0",
@@ -14461,7 +15339,8 @@
     "無程式碼",
     "App開發",
     "程式開發"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "thuza5B7dJY",
@@ -14478,7 +15357,8 @@
     "YouTube",
     "自動化",
     "AI生成"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "Q2k-2grof6o",
@@ -14495,7 +15375,8 @@
     "工作流",
     "入門觀念",
     "自動化"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "Ah177OyIprE",
@@ -14512,7 +15393,8 @@
     "辦公應用",
     "知識庫",
     "AI工具"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "YKoo7xsk2E4",
@@ -14529,7 +15411,8 @@
     "AI動畫",
     "角色一致性",
     "短影音製作"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "1s6AQoXdRfE",
@@ -14546,7 +15429,8 @@
     "雲端部署",
     "Zeabur",
     "工具教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "1xZDNesUEBk",
@@ -14563,7 +15447,8 @@
     "生成式AI",
     "提示詞工程",
     "AI工具"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "r8r_yaqStbw",
@@ -14580,7 +15465,8 @@
     "Gemini",
     "Cloudflare",
     "免程式教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "5RBkxjCpdQo",
@@ -14597,7 +15483,8 @@
     "AI Agent",
     "MCP",
     "辦公自動化"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "kg4OYWxDFvE",
@@ -14614,7 +15501,8 @@
     "職場應用",
     "AI生圖",
     "提示詞優化"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "BRBjV1yT4TE",
@@ -14631,7 +15519,8 @@
     "Docker",
     "工具教學",
     "本機架設"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "I47WonVX-vk",
@@ -14648,7 +15537,8 @@
     "Cloudflare",
     "Webhook",
     "工具教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "JXexdAckn38",
@@ -14665,7 +15555,8 @@
     "教學自動化",
     "教材生成",
     "教育AI"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "_hVXMQjofbA",
@@ -14682,7 +15573,8 @@
     "AI自動化",
     "工作流",
     "實戰教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "43kNQQDjcXk",
@@ -14699,7 +15591,8 @@
     "AI Agent",
     "微信",
     "自動化"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "63LNX1qLcxI",
@@ -14716,7 +15609,8 @@
     "AI繪圖",
     "CherryStudio",
     "提示詞教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "HJErCSvryhQ",
@@ -14733,7 +15627,8 @@
     "智能選股",
     "辦公應用",
     "自動化"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "pVSqKkHq14Q",
@@ -14750,7 +15645,8 @@
     "Filmora",
     "Seedance",
     "影片生成"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "ocM8h-Vboj8",
@@ -14767,7 +15663,8 @@
     "ChatGPT",
     "VBA",
     "辦公自動化"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "unvTR6DfrFQ",
@@ -14784,7 +15681,8 @@
     "免費工具",
     "工作流",
     "Filmora"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "SembJoeBm_Q",
@@ -14801,7 +15699,8 @@
     "AI繪圖",
     "風格鎖定",
     "JSON提示詞"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "BHNqg0qDa7c",
@@ -14818,7 +15717,8 @@
     "自動化工作流",
     "Openclaw",
     "一人公司"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "E7FMZpc2yYk",
@@ -14835,7 +15735,8 @@
     "Google Sheets",
     "Google Apps Script",
     "辦公自動化"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "X7LPU5q8mn4",
@@ -14852,7 +15753,8 @@
     "檔案管理",
     "桌面版教學",
     "效率工具"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "cTjh7x8Pz30",
@@ -14869,7 +15771,8 @@
     "GoogleWhisk",
     "AI生圖",
     "圖片編輯"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "vv3EbvjGemY",
@@ -14886,7 +15789,8 @@
     "自動化",
     "IG行銷",
     "AI應用"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "2D1c-phNJwY",
@@ -14903,7 +15807,8 @@
     "Docker",
     "伺服器架設",
     "工具教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "kbHjFoklTyU",
@@ -14920,7 +15825,8 @@
     "MCP",
     "AI自動生成",
     "工具教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "esAvD0R36IE",
@@ -14937,7 +15843,8 @@
     "AI繪圖",
     "提示詞教學",
     "圖像生成"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "0Vf7qOUbgtE",
@@ -14954,7 +15861,8 @@
     "CodeBuddy",
     "AI工具",
     "效率提升"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "d25fcWem0ME",
@@ -14971,7 +15879,8 @@
     "AI Agent",
     "多智能體",
     "自動化工作流"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "DGIN7aMimuQ",
@@ -14988,7 +15897,8 @@
     "AI繪圖",
     "提示詞公式",
     "指令教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "-vKewrChihk",
@@ -15005,7 +15915,8 @@
     "自動化",
     "新手教學",
     "工作流"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "CkAs29S4ZxY",
@@ -15022,7 +15933,8 @@
     "Gemini",
     "提示詞優化",
     "AI外掛"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "FrAAhSP9hPA",
@@ -15039,7 +15951,8 @@
     "AI自動化",
     "提示詞",
     "工作流"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "mA7ntMSxbrw",
@@ -15056,7 +15969,8 @@
     "n8n",
     "Agentic Workflow",
     "入門觀念"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "tEp5XAvnrAA",
@@ -15073,7 +15987,8 @@
     "GoogleAI",
     "AI繪圖",
     "香港免VPN"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "A4VjqbHvOCs",
@@ -15090,7 +16005,8 @@
     "飛書",
     "辦公自動化",
     "AI Agent"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "cx0VteT7YhY",
@@ -15107,7 +16023,8 @@
     "LoFi",
     "自動化",
     "網站實作"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "2FH2tAUMYBw",
@@ -15124,7 +16041,8 @@
     "Excel自動化",
     "AI辦公",
     "免程式碼"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "o3JhjjpuuRU",
@@ -15141,7 +16059,8 @@
     "圖片編輯",
     "角色一致性",
     "WebEditor"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "eRYgJT_ln2I",
@@ -15158,7 +16077,8 @@
     "AI配音",
     "Canva",
     "影片製作"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "F1pdRdUdTXk",
@@ -15175,7 +16095,8 @@
     "辦公自動化",
     "動態同步",
     "Google應用"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "Vwhcz3xhoHQ",
@@ -15192,7 +16113,8 @@
     "Midjourney",
     "AI繪圖",
     "粵語教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "tTqbWIM7ekY",
@@ -15209,7 +16131,8 @@
     "AI影片生成",
     "短影音製作",
     "影片教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "y29QCXfB9_4",
@@ -15226,7 +16149,8 @@
     "OpenCode",
     "AI團隊",
     "自動化工作流"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "2ZZCyHzo9as",
@@ -15243,7 +16167,8 @@
     "AI Agent",
     "自動化",
     "工具教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "0miP0RGx4uQ",
@@ -15260,7 +16185,8 @@
     "Zeabur",
     "雲端部署",
     "自動化"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "TIFDJNo0O3Q",
@@ -15277,7 +16203,8 @@
     "簡報生成",
     "提示詞工程",
     "班親會備課"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "m2cFidR6v7g",
@@ -15294,7 +16221,8 @@
     "WhatsApp AI",
     "AI客服",
     "自動化"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "TTwtm9O0Rck",
@@ -15311,7 +16239,8 @@
     "n8n",
     "AI編程",
     "自動化"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "CcS5YUmZPWk",
@@ -15328,7 +16257,8 @@
     "Gemini",
     "工具對比",
     "教學場景"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "kNHhAskkid8",
@@ -15345,7 +16275,8 @@
     "Gemini",
     "自動化助理",
     "免寫程式"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "TH7cQ_FMy6U",
@@ -15362,7 +16293,8 @@
     "AI Agent",
     "YouTube選題",
     "工作流"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "UkcMNFxeVKk",
@@ -15379,7 +16311,8 @@
     "AI自動化",
     "團隊協作",
     "案例解析"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "MAv3ff_yf4o",
@@ -15396,7 +16329,8 @@
     "Vibe Coding",
     "網頁開發",
     "AI自動化"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "gETs3o7uqSQ",
@@ -15413,7 +16347,8 @@
     "NanoBanana2",
     "AI繪圖",
     "影片編輯"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "jqmmvirJg1o",
@@ -15430,7 +16365,8 @@
     "AI辦公",
     "入門觀念",
     "硬體選擇"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "2CyY1lpa8Ag",
@@ -15447,7 +16383,8 @@
     "Agentic RAG",
     "企業AI",
     "智慧辦公"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "NyQfydqnnzA",
@@ -15464,7 +16401,8 @@
     "NanoBananaPro",
     "Seedance",
     "Gemini"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "TO-I5Jht-5c",
@@ -15481,7 +16419,8 @@
     "自動化工作流",
     "實戰模版",
     "工具教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "6S0tYXJodP8",
@@ -15498,7 +16437,8 @@
     "AI框架",
     "Agent開發",
     "開源工具"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "lyD48SFUX3c",
@@ -15515,7 +16455,8 @@
     "AI遊戲生成",
     "互動教學",
     "數位工具"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "qxs-Bqgz7G0",
@@ -15532,7 +16473,8 @@
     "Seedance",
     "AI影片生成",
     "運鏡控制"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "bPvATU2ZOLU",
@@ -15549,7 +16491,8 @@
     "語音輸入",
     "AI工具",
     "辦公效率"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "Vf5n-efKNS4",
@@ -15566,7 +16509,8 @@
     "LINE串接",
     "自動化通知",
     "錯誤排查"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "D5WAiVgyYc0",
@@ -15583,7 +16527,8 @@
     "WhatsApp AI",
     "AI客服",
     "自動化工作流"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "Zh9IscszDQg",
@@ -15600,7 +16545,8 @@
     "部署架構",
     "AI Agent",
     "自動化工作流"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "5vN85dUrbVw",
@@ -15617,7 +16563,8 @@
     "AI影片生成",
     "AI數位人",
     "工具教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "-d8qL2I0Eas",
@@ -15634,7 +16581,8 @@
     "YAML框架",
     "簡報設計",
     "視覺自訂"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "YxZOALvdssc",
@@ -15651,7 +16599,8 @@
     "AI除錯",
     "錯誤排查",
     "新手教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "VyV2GJSzwkY",
@@ -15668,7 +16617,8 @@
     "Vibe Coding",
     "寫作協作",
     "網頁開發"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "K8OUMk40hec",
@@ -15685,7 +16635,8 @@
     "OPAL工作流",
     "自動化",
     "YAML設定"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "E6xcKAfwcVw",
@@ -15702,7 +16653,8 @@
     "AI繪圖",
     "Gemini",
     "素材製作"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "nEZf25wuuJo",
@@ -15719,7 +16671,8 @@
     "免費資源",
     "學習路線",
     "入門觀念"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "loufrrdSRqw",
@@ -15736,7 +16689,8 @@
     "ChatGPT",
     "VBA",
     "辦公應用"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "P5W8wlXwPYw",
@@ -15753,7 +16707,8 @@
     "YouTube爬蟲",
     "AI分析",
     "自動化工作流"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "Rv_uZziVIDE",
@@ -15770,7 +16725,8 @@
     "角色一致性",
     "AI繪本",
     "Canva"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "MGwKj_ia1jk",
@@ -15787,7 +16743,8 @@
     "AI繪圖",
     "角色一致性",
     "資訊圖表"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "N3fFMfoHmXg",
@@ -15804,7 +16761,8 @@
     "AI工具",
     "自動化排程",
     "圖片生成"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "l-LL5vq_-vk",
@@ -15821,7 +16779,8 @@
     "辦公應用",
     "商業系統",
     "效率提升"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "WCmP7-WkmJE",
@@ -15838,7 +16797,8 @@
     "AI搜索",
     "資料蒐集",
     "學術研究"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "9yGqot-zEbg",
@@ -15855,7 +16815,8 @@
     "AI助理",
     "API串接",
     "環境部署"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "A_li4QIhIHM",
@@ -15872,7 +16833,8 @@
     "AI繪圖",
     "影像修復",
     "文字轉圖片"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "ZjKBKo9ZUhM",
@@ -15889,7 +16851,8 @@
     "Vibe Coding",
     "數據抓取",
     "自動化"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "I3AR41U8qxw",
@@ -15906,7 +16869,8 @@
     "Seedance",
     "Filmora",
     "批量生成"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "S0c4bD3daN8",
@@ -15923,7 +16887,8 @@
     "開源AI",
     "AI模型",
     "本地部署"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "aQEdqtgK47M",
@@ -15940,7 +16905,8 @@
     "智慧鏡頭",
     "Typeless",
     "新手入門"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "xnjPlkPgncY",
@@ -15957,7 +16923,8 @@
     "Agent Skills",
     "文件自動化",
     "效率工具"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "OB6o29I78rY",
@@ -15974,7 +16941,8 @@
     "雲端部署",
     "自動化排程",
     "AI工作流"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "saRhsLNvLeo",
@@ -15991,7 +16959,8 @@
     "動態貼圖",
     "Gemini",
     "Veo 3.1"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "SeECQi5Dgic",
@@ -16008,7 +16977,8 @@
     "AI繪圖",
     "3D列印",
     "SVG轉換"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "pbds1YRoXJw",
@@ -16025,7 +16995,8 @@
     "Gemini 3",
     "AI工具",
     "筆記整理"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "LLWKD-yHFno",
@@ -16042,7 +17013,8 @@
     "AI繪圖",
     "教材設計",
     "新手教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "8isYRGhtgps",
@@ -16059,7 +17031,8 @@
     "AI影片生成",
     "Sora 2",
     "Kling"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "9UOnDDXQCwQ",
@@ -16076,7 +17049,8 @@
     "會議記錄",
     "Gemini",
     "辦公效率"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "qppnx7ajcno",
@@ -16093,7 +17067,8 @@
     "唇形同步",
     "InfiniteTalk",
     "工作流"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "6_RP-rrLEp4",
@@ -16110,7 +17085,8 @@
     "自動化辦公",
     "大模型開發",
     "深度學習"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "X7eOBJhHb6k",
@@ -16127,7 +17103,8 @@
     "OpenCode",
     "自動化工作",
     "開源工具"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "-rP11cb0YtU",
@@ -16144,7 +17121,8 @@
     "OCR",
     "PDF轉PPT",
     "簡報編輯"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "SmSUQPtgj5g",
@@ -16161,7 +17139,8 @@
     "LINE機器人",
     "Gemini",
     "無程式碼"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "7r4zxBy1ylE",
@@ -16178,7 +17157,8 @@
     "自動化",
     "AI秘書",
     "辦公提效"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "657wlbtrzG8",
@@ -16195,7 +17175,8 @@
     "AI Agent",
     "本地部署",
     "自動化"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "_bhMbZNvDpk",
@@ -16212,7 +17193,8 @@
     "自動化",
     "短劇生成",
     "AI應用"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "h5PwHhXNb7g",
@@ -16229,7 +17211,8 @@
     "AI簡報",
     "PDF轉PPT",
     "辦公應用"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "TFyZcAElx7s",
@@ -16246,7 +17229,8 @@
     "AI工具",
     "快速上手",
     "工具教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "MUMTzDHcZ9g",
@@ -16263,7 +17247,8 @@
     "Apps SDK",
     "Codex",
     "程式開發"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "1wHEOoJRNsg",
@@ -16280,7 +17265,8 @@
     "AI影片生成",
     "自動化",
     "YouTube創作"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "8o737qKO3IM",
@@ -16297,7 +17283,8 @@
     "Google AI",
     "簡報製作",
     "工具教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "psnOOFOQKT8",
@@ -16314,7 +17301,8 @@
     "VPS",
     "伺服器架設",
     "教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "e-WNdM4JO2U",
@@ -16331,7 +17319,8 @@
     "自動化工作流",
     "AI應用",
     "教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "o5C7_lnUdO4",
@@ -16348,7 +17337,8 @@
     "零代碼",
     "自動化工作流",
     "工具評測"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "mU-IpkbFFMo",
@@ -16365,7 +17355,8 @@
     "自動化辦公",
     "安裝教學",
     "AI員工"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "vUNdK6MIMEM",
@@ -16382,7 +17373,8 @@
     "AI MV",
     "影片生成",
     "自動化系統"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "tB1cvnl1o70",
@@ -16399,7 +17391,8 @@
     "Gemini",
     "Google Classroom",
     "辦公自動化"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "dtA0fFfMLVM",
@@ -16416,7 +17409,8 @@
     "n8n",
     "AI自動化",
     "新手指南"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "PsmIkegv7SA",
@@ -16433,7 +17427,8 @@
     "Google AI",
     "AI自動化",
     "工具實測"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "zvWy_7dVC_Q",
@@ -16450,7 +17445,8 @@
     "NotebookLM",
     "Canva",
     "Whisper"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "Yg3CDQrTgL4",
@@ -16467,7 +17463,8 @@
     "JSON",
     "入門教學",
     "基礎觀念"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "JBZeoaAsziE",
@@ -16484,7 +17481,8 @@
     "NotebookLM",
     "Edcafe",
     "數位教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "ibtCYZPoQZE",
@@ -16501,7 +17499,8 @@
     "NotebookLM",
     "數位觀課",
     "教學輔助"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "QtlZJBpVUhQ",
@@ -16518,7 +17517,8 @@
     "AI工具",
     "生活應用",
     "提示詞"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "Q8W6my0J7Ig",
@@ -16535,7 +17535,8 @@
     "工具教學",
     "實用技巧",
     "生產力"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "p6eKAU3h8mo",
@@ -16552,7 +17553,8 @@
     "辦公自動化",
     "生產力工具",
     "AI助理"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "TQtsdeXfMBE",
@@ -16569,7 +17571,8 @@
     "AI自動化",
     "API",
     "節點邏輯"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "HTSYJddedg4",
@@ -16586,7 +17589,8 @@
     "API",
     "入門教學",
     "基礎觀念"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "YiVdH2HGytE",
@@ -16603,7 +17607,8 @@
     "AI Agent",
     "電腦自動化",
     "數據分析"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "fm3GtQbw_wU",
@@ -16620,7 +17625,8 @@
     "Banana AI",
     "保姆級教程",
     "設計渲染"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "vzzOziq9jCI",
@@ -16637,7 +17643,8 @@
     "影片生成",
     "電商應用",
     "寵物服裝"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "sZF_bMslCkk",
@@ -16654,7 +17661,8 @@
     "Chatbot",
     "數位學習",
     "教學設計"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "r0Q_Ubz8MT4",
@@ -16671,7 +17679,8 @@
     "LaTeX公式",
     "排版轉換",
     "辦公應用"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "TNROzZtVj1U",
@@ -16688,7 +17697,8 @@
     "Vibe Coding",
     "Web App",
     "AI程式開發"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "Jb7lmQyL4Zw",
@@ -16705,7 +17715,8 @@
     "n8n",
     "Ollama",
     "本地部署"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "nHMTuCt4fQw",
@@ -16722,7 +17733,8 @@
     "Filomail",
     "辦公應用",
     "AI自動化"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "96LG1nms23Q",
@@ -16739,7 +17751,8 @@
     "Claude Agent",
     "AI自動化",
     "工具對比"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "SqI3y54TK-4",
@@ -16756,7 +17769,8 @@
     "Kling",
     "AI音樂",
     "AI影片生成"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "WaiD_c-WGQM",
@@ -16773,7 +17787,8 @@
     "Google試算表",
     "AI評語",
     "行政效率"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "XkPvmjNm4YI",
@@ -16790,7 +17805,8 @@
     "部署教學",
     "環境架設",
     "極速上手"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "02U_eT1S-AY",
@@ -16807,7 +17823,8 @@
     "AI自動化",
     "JSON",
     "新手教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "Ue_cxIgIDko",
@@ -16824,7 +17841,8 @@
     "AI助手",
     "自動化工作流",
     "知識庫"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "-iY2B9WF_1Q",
@@ -16841,7 +17859,8 @@
     "自動化工作流",
     "AI應用",
     "表單處理"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "_5UtgixClSE",
@@ -16858,7 +17877,8 @@
     "YAML",
     "AI簡報",
     "工具教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "LYPjThk0CG0",
@@ -16875,7 +17895,8 @@
     "AI語音轉寫",
     "辦公效率",
     "工具實測"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "K9Q4aS1wPXk",
@@ -16892,7 +17913,8 @@
     "AI Agent",
     "LINE整合",
     "自動化工作流"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "BE3Q2-Gy8Kk",
@@ -16909,7 +17931,8 @@
     "AI Agent",
     "自動化",
     "職場應用"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "ElNZ0fcGsyY",
@@ -16926,7 +17949,8 @@
     "Gemini",
     "工具教學",
     "辦公效率"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "8pfEPootCYg",
@@ -16943,7 +17967,8 @@
     "即夢AI",
     "年會影片",
     "配音工具"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "rLHbROdryH4",
@@ -16960,7 +17985,8 @@
     "Gemini",
     "系統架構",
     "AI助理"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "8sxrodp9WUA",
@@ -16977,7 +18003,8 @@
     "n8n",
     "廣東話教學",
     "自動化工作流"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "81NSW8ey2HA",
@@ -16994,7 +18021,8 @@
     "自動化工作流",
     "Dify",
     "n8n"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "fN6tB5hZvRw",
@@ -17011,7 +18039,8 @@
     "AI Agent",
     "時間管理",
     "廣東話教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "w69Y36kf3MU",
@@ -17028,7 +18057,8 @@
     "Claude",
     "自動化工作流",
     "瀏覽器自動化"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "aUg6i7JK2dk",
@@ -17045,7 +18075,8 @@
     "PPT製作",
     "Excel應用",
     "辦公應用"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "N9Dwbm8wzZQ",
@@ -17062,7 +18093,8 @@
     "廣告自動化",
     "工作流",
     "AI應用"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "S13Zgkhjo18",
@@ -17079,7 +18111,8 @@
     "Claude",
     "辦公應用",
     "AI排版"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "2AZwUiJV1HY",
@@ -17096,7 +18129,8 @@
     "Gemini",
     "自動化工作流",
     "辦公效率"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "ea7QFaE_gSY",
@@ -17113,7 +18147,8 @@
     "AI剪輯",
     "Filmora",
     "剪輯教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "6hYptpyvjUc",
@@ -17130,7 +18165,8 @@
     "AI Agent",
     "廣東話教學",
     "工具教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "Dqvdu4EPE-o",
@@ -17147,7 +18183,8 @@
     "Mistral OCR",
     "收據辨識",
     "辦公自動化"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "rnI6sBLhX1w",
@@ -17164,7 +18201,8 @@
     "AI工具",
     "內容創作",
     "工具教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "NH_TdarJX44",
@@ -17181,7 +18219,8 @@
     "n8n 2.0",
     "工具教學",
     "工作流優化"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "JsdqJFpA93k",
@@ -17198,7 +18237,8 @@
     "AI影片生成",
     "圖片生成",
     "繪本製作"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "4qcMFfT3wqg",
@@ -17215,7 +18255,8 @@
     "Docker",
     "Windows自架",
     "工具教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "Y7j8Uu44780",
@@ -17232,7 +18273,8 @@
     "求職自動化",
     "LinkedIn爬蟲",
     "AI寫作"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "i1z-nfZOI_U",
@@ -17249,7 +18291,8 @@
     "Google API",
     "雲端自動化",
     "廣東話教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "y0l0tjFm534",
@@ -17266,7 +18309,8 @@
     "Zeabur",
     "伺服器配置",
     "廣東話教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "4n8jswc2pAI",
@@ -17283,7 +18327,8 @@
     "Google AI",
     "NotebookLM",
     "工具教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "4eK3oCcTUxM",
@@ -17300,7 +18345,8 @@
     "Threads API",
     "自媒體自動化",
     "貼文排程"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "jQvHumkxPAM",
@@ -17317,7 +18363,8 @@
     "AI Agent",
     "工具教學",
     "自動化"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "dHknQINzPdg",
@@ -17334,7 +18381,8 @@
     "Google Workspace",
     "AI助手",
     "NotebookLM"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "2PgECVZ8nNE",
@@ -17351,7 +18399,8 @@
     "n8n",
     "AI模型整合",
     "工具教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "QliMzK7aTAg",
@@ -17368,7 +18417,8 @@
     "社群自動化",
     "多平台發佈",
     "排程工作流"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "A2Ga7xg1lEg",
@@ -17385,7 +18435,8 @@
     "AI生圖",
     "人臉置換",
     "影像生成"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "ETTPdyLgX8k",
@@ -17402,7 +18453,8 @@
     "AI女友",
     "Telegram Bot",
     "真人語音"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "37r3FH-37NU",
@@ -17419,7 +18471,8 @@
     "NotebookLM",
     "簡報製作",
     "資訊圖表"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "U31-ztYkOok",
@@ -17436,7 +18489,8 @@
     "AI Agent",
     "工作流",
     "自動化"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "GKjnQSlWGI4",
@@ -17453,7 +18507,8 @@
     "生產力工具",
     "工作效率",
     "工具教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "LvaUGgGrXao",
@@ -17470,7 +18525,8 @@
     "Nano Banana Pro",
     "提示詞",
     "AI應用"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "C8CjZDaIOgc",
@@ -17487,7 +18543,8 @@
     "AI生圖",
     "縮圖製作",
     "貼圖設計"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "MOXljrGV2AY",
@@ -17504,7 +18561,8 @@
     "Gemini",
     "免費AI",
     "工具教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "6s_Z9Tl0sHU",
@@ -17521,7 +18579,8 @@
     "自動化工作流",
     "AI應用",
     "零代碼"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "ag1LTHfsWKw",
@@ -17538,7 +18597,8 @@
     "ChatGPT",
     "AI比較",
     "入門觀念"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "H287l2zSy_8",
@@ -17555,7 +18615,8 @@
     "Gemini",
     "RAG",
     "防禦節點"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "zwL3NhJjREI",
@@ -17572,7 +18633,8 @@
     "OpenAI串接",
     "自動化工作流",
     "AI實戰"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "IJXaOXu3PoA",
@@ -17589,7 +18651,8 @@
     "圖片轉影片",
     "提示詞",
     "AI生成"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "Ie15edG73uQ",
@@ -17606,7 +18669,8 @@
     "NotebookLM",
     "AI簡報",
     "工具教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "9hsjKG32KKI",
@@ -17623,7 +18687,8 @@
     "RAG",
     "AI Agent",
     "知識庫"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "cFbT4Sqlt_Y",
@@ -17640,7 +18705,8 @@
     "RAG",
     "企業知識庫",
     "自動化"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "VfGhvplMNhw",
@@ -17657,7 +18723,8 @@
     "n8n工作流",
     "AI生圖",
     "工具教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "n_jUVJ6Ibxk",
@@ -17674,7 +18741,8 @@
     "Gemini",
     "ChatGPT",
     "海報設計"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "4s7dIJAyolo",
@@ -17691,7 +18759,8 @@
     "社群自動化",
     "Human in the loop",
     "Nano Banana"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "5XT__SJcrf8",
@@ -17708,7 +18777,8 @@
     "提示詞工程",
     "AI技能",
     "工具教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "2fTqduml_CY",
@@ -17725,7 +18795,8 @@
     "NotebookLM",
     "AI生圖",
     "視覺化簡報"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "DVeJGQCycjI",
@@ -17742,7 +18813,8 @@
     "Prompt技巧",
     "ChatGPT",
     "Gemini"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "tSU_K1dlnew",
@@ -17759,7 +18831,8 @@
     "辦公應用",
     "企劃撰寫",
     "Word轉換"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "a1Tq-LH2AuA",
@@ -17776,7 +18849,8 @@
     "AI瀏覽器",
     "工具教學",
     "自動化"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "y-cny_qIUw4",
@@ -17793,7 +18867,8 @@
     "RAG",
     "向量搜尋",
     "AI自動化"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "lVVSY59EcYE",
@@ -17810,7 +18885,8 @@
     "AI Agent",
     "自動化",
     "教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "paJpjzzEcjY",
@@ -17827,7 +18903,8 @@
     "Make.com",
     "AI助理",
     "自動化工作流"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "sZlhQQ4XTIM",
@@ -17844,7 +18921,8 @@
     "RAG",
     "NotebookLM",
     "知識庫"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "bQkbq97hnQY",
@@ -17861,7 +18939,8 @@
     "DeepSeek",
     "Google Sheets",
     "自動化監控"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "04cz8zNr33Y",
@@ -17878,7 +18957,8 @@
     "AI技巧",
     "工具教學",
     "效率提升"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "mrjS-t0L6yI",
@@ -17895,7 +18975,8 @@
     "Veo 3.1",
     "AI影片生成",
     "工具評測"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "TZHu811aViM",
@@ -17912,7 +18993,8 @@
     "AI字幕",
     "雙語字幕",
     "影片剪輯"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "VFw6l8oCxGc",
@@ -17929,7 +19011,8 @@
     "AI工作流",
     "自動生成",
     "實測"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "6oimAqpdzLk",
@@ -17946,7 +19029,8 @@
     "互動教學",
     "Gemini",
     "寓教於樂"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "jGs91L-6-XE",
@@ -17963,7 +19047,8 @@
     "AI Agent",
     "Agentic Workflow",
     "自動化"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "Lbi_YrlOutM",
@@ -17980,7 +19065,8 @@
     "AI瀏覽器",
     "工具教學",
     "工作自動化"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "aEsBezW_6Js",
@@ -17997,7 +19083,8 @@
     "ChatGPT",
     "自動化",
     "AI應用"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "KfvDYvos8EM",
@@ -18014,7 +19101,8 @@
     "Skywork",
     "Gamma",
     "辦公應用"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "BE6ZWv5Ljmw",
@@ -18031,7 +19119,8 @@
     "自動化賺錢",
     "入門觀念",
     "商業應用"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "KHCHTCXGyug",
@@ -18048,7 +19137,8 @@
     "Freepik",
     "分鏡設計",
     "AI影片生成"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "PjmGJznPMSI",
@@ -18065,7 +19155,8 @@
     "MCP",
     "AI Agent",
     "自動化"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "wRWEVkjfvZA",
@@ -18082,7 +19173,8 @@
     "Gemini",
     "NotebookLM",
     "工具教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "7hJDPhjm-MM",
@@ -18099,7 +19191,8 @@
     "Apify",
     "自動化工作流",
     "爬蟲"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "jE2mkGrA974",
@@ -18115,7 +19208,8 @@
     "n8n",
     "自動化工作流",
     "Code節點"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "wbGRx_HyKoQ",
@@ -18132,7 +19226,8 @@
     "Gemini",
     "Workspace",
     "入門觀念"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "LtQK5U47n5A",
@@ -18149,7 +19244,8 @@
     "自動化工作流",
     "NoCode",
     "LINE"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "DTd0i-2Ogpc",
@@ -18166,7 +19262,8 @@
     "LINE",
     "自動化工作流",
     "實作教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "jVdo5VOgTzI",
@@ -18183,7 +19280,8 @@
     "AI Agent",
     "GPT",
     "Gemini"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "quIXlAacG6Q",
@@ -18200,7 +19298,8 @@
     "自動化工作流",
     "社群監控",
     "跨平台"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "F5XZrpNDZfE",
@@ -18217,7 +19316,8 @@
     "AI生圖",
     "班服設計",
     "教學應用"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "n1p5jPReCNo",
@@ -18234,7 +19334,8 @@
     "Nano-Banana",
     "Gemini",
     "圖像生成"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "1ZW9Eui40gU",
@@ -18251,7 +19352,8 @@
     "AI設計",
     "班服製作",
     "實作教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "nNqayBAwgww",
@@ -18268,7 +19370,8 @@
     "AI生圖",
     "辦公應用",
     "自動化"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "biJv5xi0rfo",
@@ -18285,7 +19388,8 @@
     "副業賺錢",
     "AI應用",
     "入門觀念"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "b6AEsVRJjzI",
@@ -18302,7 +19406,8 @@
     "AI Agent",
     "自動化工作流",
     "內容創作"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "kAxHdZMsq_I",
@@ -18319,7 +19424,8 @@
     "智慧製造",
     "生成式AI",
     "實戰應用"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "w02WAdbwKj0",
@@ -18336,7 +19442,8 @@
     "Firecrawl",
     "Gemini",
     "自動化"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "TnTfabFmdEY",
@@ -18353,7 +19460,8 @@
     "自動上字幕",
     "語音轉文字",
     "免費工具"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "uyNQTUiKXu0",
@@ -18370,7 +19478,8 @@
     "NotebookLM",
     "教育應用",
     "AI工具"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "xhVPtoQWSMw",
@@ -18387,7 +19496,8 @@
     "GPT-5",
     "簡報製作",
     "辦公應用"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "mqVkei03Hpk",
@@ -18404,7 +19514,8 @@
     "數位教學",
     "互動課堂",
     "備課技巧"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "F6sROXvslG8",
@@ -18421,7 +19532,8 @@
     "Excel",
     "AI Agent",
     "辦公應用"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "6VJ4tB6ZbpA",
@@ -18438,7 +19550,8 @@
     "粵語教學",
     "自動化工作流",
     "Gmail"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "v7ur0PFGd1w",
@@ -18455,7 +19568,8 @@
     "LINE客服",
     "AI機器人",
     "自動化"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "CEXpBNf6Vog",
@@ -18472,7 +19586,8 @@
     "大語言模型",
     "觀念教學",
     "AI溝通"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "3kvZtEGuy_w",
@@ -18489,7 +19604,8 @@
     "Edcafe",
     "Wayground",
     "影片測驗"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "XoaGjnQrhp4",
@@ -18506,7 +19622,8 @@
     "GPT-5",
     "提示詞技巧",
     "工具教學"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "D-VEcKZ3NV0",
@@ -18523,7 +19640,8 @@
     "自動化工作流",
     "Docker",
     "雲端部署"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "eQCtbMqya6w",
@@ -18540,7 +19658,8 @@
     "AI Agents",
     "辦公應用",
     "工具評測"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "35LUEGryhyg",
@@ -18557,7 +19676,8 @@
     "互動白板",
     "數位教材",
     "教學工具"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "JnepOnstpAQ",
@@ -18574,7 +19694,8 @@
     "自動化工作流",
     "全套教學",
     "新手入門"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "sRU6Y7DXkLI",
@@ -18591,7 +19712,8 @@
     "AI Agent",
     "Telegram",
     "Gmail"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "0XDMA7hAQ-8",
@@ -18608,7 +19730,8 @@
     "入門觀念",
     "自動化",
     "AI趨勢"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "NqZ6mYZeKN4",
@@ -18625,7 +19748,8 @@
     "AI Agent",
     "自動報價",
     "辦公應用"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "VVxCFJqG3WU",
@@ -18642,7 +19766,8 @@
     "OCR",
     "GoogleSheets",
     "自動化"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "r9mi3ZJIWbg",
@@ -18659,7 +19784,8 @@
     "自動化",
     "AI助理",
     "工作流"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "bCAORb5eb5E",
@@ -18676,7 +19802,8 @@
     "Agent Mode",
     "辦公應用",
     "工作流"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "dO45dBx-WNE",
@@ -18693,7 +19820,8 @@
     "AI繪圖",
     "圖片生成",
     "設計應用"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "CgPEN3sewwA",
@@ -18710,7 +19838,8 @@
     "Webhook",
     "自動化工作流",
     "AI整合"
-   ]
+   ],
+   "search_terms": []
   },
   {
    "video_id": "gJ7TF3Uiv1o",
@@ -18727,7 +19856,8 @@
     "Zeabur",
     "自動化工具",
     "部署教學"
-   ]
+   ],
+   "search_terms": []
   }
  ]
 }

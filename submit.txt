@@ -3,3 +3,5 @@
 # 下次執行 run.bat 就會自動收進來、分類、上架。
 # 以 # 開頭的是註解，會被略過。重複貼同一支影片不會重複收錄。
 
+# 測試提交（驗收用）
+https://www.youtube.com/watch?v=MjlEH9Ik9Gc
