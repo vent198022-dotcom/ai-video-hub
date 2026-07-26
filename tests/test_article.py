@@ -79,3 +79,46 @@ def test_fetch_returns_none_on_exception(monkeypatch):
 def test_fetch_handles_missing_date(monkeypatch):
     _stub(monkeypatch, meta=FakeMeta(title="標題"))
     assert article.fetch("https://example.com/post")["published_at"] == ""
+
+
+def test_download_uses_trafilatura_first(monkeypatch):
+    monkeypatch.setattr(article.trafilatura, "fetch_url", lambda u: "<html>主要</html>")
+
+    def boom(*a, **k):
+        raise AssertionError("不應走到備援")
+    monkeypatch.setattr(article._SESSION, "get", boom)
+    assert article.download("https://x.com/a") == "<html>主要</html>"
+
+
+def test_download_falls_back_to_session(monkeypatch):
+    monkeypatch.setattr(article.trafilatura, "fetch_url", lambda u: None)
+
+    class R:
+        text = "<html>備援</html>"
+
+        def raise_for_status(self):
+            pass
+
+    monkeypatch.setattr(article._SESSION, "get", lambda *a, **k: R())
+    assert article.download("https://x.com/a") == "<html>備援</html>"
+
+
+def test_download_returns_none_when_both_fail(monkeypatch):
+    monkeypatch.setattr(article.trafilatura, "fetch_url", lambda u: None)
+
+    def boom(*a, **k):
+        raise article.requests.ConnectionError("轉址過多")
+    monkeypatch.setattr(article._SESSION, "get", boom)
+    assert article.download("https://x.com/a") is None
+
+
+def test_fetch_uses_download_helper(monkeypatch):
+    """fetch 必須透過 download 取得 HTML（含備援），而非直接呼叫 trafilatura。"""
+    monkeypatch.setattr(article, "download", lambda u: "<html/>")
+    monkeypatch.setattr(article.trafilatura, "extract", lambda h, **k: "正" * 500)
+    monkeypatch.setattr(article.trafilatura, "extract_metadata",
+                        lambda h: type("M", (), {"title": "標題", "author": None,
+                                                 "sitename": "站", "date": None,
+                                                 "image": None})())
+    r = article.fetch("https://x.com/a")
+    assert r["title"] == "標題"
