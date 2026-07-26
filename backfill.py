@@ -1,10 +1,17 @@
 """一次性回補腳本：補收近一年的影片。
 
-用法：python backfill.py
+用法：
+    python backfill.py
+        回補 config.yaml 內所有關鍵字，並回補所有頻道。
+    python backfill.py --keywords "ChatGPT" "AI 自動化"
+        只回補指定的關鍵字，並「跳過頻道回補」（頻道通常已回補過，
+        重新走一次頻道上傳清單不會有新影片，只會浪費配額）。
+
 - 關鍵字：每組往回翻頁最多 MAX_SEARCH_PAGES 頁（每頁 50 筆、100 配額單位）
 - 頻道：沿上傳清單往回翻頁，直到影片發佈日早於截止日（每頁 50 筆、1 配額單位）
 收集完成後請執行 python main.py 進行分類與發佈（分類量大時會分多天自動消化）。
 """
+import argparse
 import logging
 import os
 import sys
@@ -122,7 +129,38 @@ def backfill_channel(api_key, handle, cutoff_iso, max_pages=MAX_CHANNEL_PAGES):
     return ids, used
 
 
-def main():
+def resolve_scope(cfg, keywords_arg):
+    """回傳 (要搜尋的關鍵字, 要回補的頻道)。指定關鍵字時不補頻道。"""
+    if keywords_arg:
+        return keywords_arg, []
+    return cfg["keywords"], cfg.get("channels") or []
+
+
+def parse_args(argv=None):
+    parser = argparse.ArgumentParser(
+        description="一次性回補腳本：補收近一年的影片。",
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog=(
+            "未指定 --keywords 時：回補 config.yaml 內所有關鍵字，並回補所有頻道。\n"
+            "指定 --keywords 時：只回補指定的關鍵字，並「跳過頻道回補」\n"
+            "（頻道通常已回補過，重新走一次頻道上傳清單不會有新影片，只會浪費配額）。"
+        ),
+    )
+    parser.add_argument(
+        "--keywords",
+        nargs="+",
+        default=None,
+        metavar="KEYWORD",
+        help=(
+            "只回補指定的關鍵字（可多個），並跳過頻道回補。"
+            "不指定則回補 config.yaml 全部關鍵字與所有頻道。"
+        ),
+    )
+    return parser.parse_args(argv)
+
+
+def main(argv=None):
+    args = parse_args(argv)
     logging.basicConfig(level=logging.INFO,
                         format="%(asctime)s %(levelname)s %(message)s")
     load_dotenv(ROOT / ".env")
@@ -136,11 +174,16 @@ def main():
     cutoff = _utc_iso(datetime.now(timezone.utc) - timedelta(days=BACKFILL_DAYS))
     log.info("回補範圍：%s 之後發佈的影片", cutoff)
 
+    keywords, channels = resolve_scope(cfg, args.keywords)
+    log.info("本次回補關鍵字（%d 組）：%s", len(keywords), "、".join(keywords))
+    if args.keywords:
+        log.info("已指定 --keywords，跳過頻道回補（頻道視為已回補過，避免浪費配額）")
+
     kw_ids, used_kw = backfill_keywords(
-        api_key, cfg["keywords"], cutoff, cfg["filters"]["relevance_language"])
+        api_key, keywords, cutoff, cfg["filters"]["relevance_language"])
     ch_ids = []
     used_ch = 0
-    for ch in cfg.get("channels") or []:
+    for ch in channels:
         try:
             ids, used = backfill_channel(api_key, ch, cutoff)
         except (requests.RequestException, KeyError, IndexError) as e:

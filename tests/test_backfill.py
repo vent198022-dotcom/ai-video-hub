@@ -92,3 +92,34 @@ def test_backfill_channel_missing_uploads(monkeypatch):
     ids, used = backfill.backfill_channel("key", "@broken", "2025-07-26T00:00:00Z")
     assert ids == []
     assert used == 1
+
+
+def test_resolve_scope_no_override_returns_all_keywords_and_channels():
+    cfg = {"keywords": ["ChatGPT", "AI 自動化"], "channels": ["@chanA", "@chanB"]}
+    keywords, channels = backfill.resolve_scope(cfg, None)
+    assert keywords == ["ChatGPT", "AI 自動化"]
+    assert channels == ["@chanA", "@chanB"]
+
+
+def test_resolve_scope_no_override_missing_channels_key_defaults_empty():
+    cfg = {"keywords": ["ChatGPT"]}
+    keywords, channels = backfill.resolve_scope(cfg, None)
+    assert keywords == ["ChatGPT"]
+    assert channels == []
+
+
+def test_resolve_scope_with_override_skips_channels():
+    cfg = {"keywords": ["ChatGPT", "AI 自動化", "其他"], "channels": ["@chanA"]}
+    keywords, channels = backfill.resolve_scope(cfg, ["ChatGPT", "AI 自動化"])
+    assert keywords == ["ChatGPT", "AI 自動化"]
+    assert channels == []
+
+
+def test_parse_args_default_keywords_is_none():
+    args = backfill.parse_args([])
+    assert args.keywords is None
+
+
+def test_parse_args_with_keywords():
+    args = backfill.parse_args(["--keywords", "ChatGPT", "AI 自動化"])
+    assert args.keywords == ["ChatGPT", "AI 自動化"]
