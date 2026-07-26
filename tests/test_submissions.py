@@ -127,3 +127,29 @@ def test_read_ids_still_only_videos(tmp_path):
     p = _write(tmp_path, "https://youtu.be/bbbbbbbbbbb\n"
                          "https://github.com/a/b\nhttps://example.com/post\n")
     assert submissions.read_ids(p) == ["bbbbbbbbbbb"]
+
+
+def test_repo_url_containing_video_like_path_is_still_a_repo(tmp_path):
+    """GitHub 網址中含 /embed/、/shorts/ 或 ?v= 時，不得被誤判為影片。"""
+    p = _write(tmp_path, """
+https://github.com/a/b/embed/abcdefghijk
+https://github.com/c/d/tree/main/shorts/abcdefghijk
+https://github.com/e/f?v=abcdefghijk12
+""")
+    videos, articles, repos = submissions.read_entries(p)
+    assert videos == []
+    assert articles == []
+    assert repos == ["a/b", "c/d", "e/f"]
+
+
+def test_youtube_urls_still_parse_as_videos(tmp_path):
+    """反向確認：改順序後 YouTube 連結仍正確歸為影片。"""
+    p = _write(tmp_path, """
+https://www.youtube.com/watch?v=aaaaaaaaaaa
+https://youtu.be/bbbbbbbbbbb
+https://www.youtube.com/shorts/ccccccccccc
+ddddddddddd
+""")
+    videos, articles, repos = submissions.read_entries(p)
+    assert videos == ["aaaaaaaaaaa", "bbbbbbbbbbb", "ccccccccccc", "ddddddddddd"]
+    assert repos == []

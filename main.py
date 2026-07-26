@@ -121,10 +121,18 @@ def main():
             else:
                 gcfg = cfg.get("github") or {}
                 readme_chars = gcfg.get("readme_chars", 3000)
-                known = {i["video_id"] for i in repo_items}
+                # 大小寫僅在「本次已收集」的比對中正規化：known 與 vid 都是
+                # 尚未寫入 DB 的候選值，此時大小寫不一致只是使用者輸入與
+                # 自動搜尋結果的巧合差異，可以安全地忽略。DB 那一側的
+                # video_id 是先前執行時依 GitHub 回傳的 full_name（可能為
+                # 混合大小寫）存入的既定值，不能靠轉小寫比對——那只會讓
+                # 這裡的查詢對不上真正存在的值，無法解決問題，因此仍用原始
+                # 大小寫查詢；查不到頂多多打一次 API，真正防重的是
+                # insert_video 對 video_id 主鍵的 INSERT OR IGNORE，不受影響。
+                known = {i["video_id"].lower() for i in repo_items}
                 for name in submitted_repos:
                     vid = "gh_" + name.replace("/", "_")
-                    if vid in known or db.video_exists(conn, vid):
+                    if vid.lower() in known or db.video_exists(conn, vid):
                         continue
                     repo = github.fetch_repo(gh_token, name)
                     if repo is None:

@@ -48,7 +48,10 @@ def parse_repo(url):
 def read_entries(path):
     """解析提交檔，回傳 (影片ID, 文章網址, 專案 owner/repo)，三者皆去重保序。
 
-    判斷順序：YouTube 影片 → GitHub 專案 → 其餘 http(s) 視為文章。
+    判斷順序：GitHub 專案 → YouTube 影片 → 其餘 http(s) 視為文章。
+    GitHub 專案網址的路徑可能剛好含有 /embed/、/shorts/ 或 ?v= 這類看似
+    YouTube 的片段（例如子目錄名稱剛好叫 embed），須先判斷是否為 GitHub
+    專案網址，避免被 YouTube 樣式（不限定網域的 .search()）誤先攔截。
     """
     p = Path(path)
     if not p.exists():
@@ -58,6 +61,10 @@ def read_entries(path):
         line = line.strip()
         if not line or line.startswith("#"):
             continue
+        name = parse_repo(line)
+        if name:
+            repos.append(name)
+            continue
         vid = None
         for pat in _PATTERNS:
             m = pat.search(line)
@@ -66,10 +73,6 @@ def read_entries(path):
                 break
         if vid:
             videos.append(vid)
-            continue
-        name = parse_repo(line)
-        if name:
-            repos.append(name)
             continue
         if _HTTP_RE.match(line):
             articles.append(line)
