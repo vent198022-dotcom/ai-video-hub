@@ -124,6 +124,8 @@ def collect(conn, api_key, keywords, published_after,
 
     若所有關鍵字皆搜尋失敗，會擲出 RuntimeError，避免呼叫端誤以為本次收集
     成功而推進 last_collect_at，造成這段期間的影片被永久跳過。
+
+    人工提交的影片（extra_ids）不套用時長過濾（人工判斷優先於自動規則）。
     """
     candidate_ids = []
     success_count = 0
@@ -144,10 +146,14 @@ def collect(conn, api_key, keywords, published_after,
             continue
         candidate_ids.extend(i for i in ids if not db.video_exists(conn, i))
 
-    # 人工提交的影片：不套用時長過濾（人工判斷優先於自動規則）
-    submitted = [i for i in extra_ids if not db.video_exists(conn, i)]
-
     unique_ids = list(dict.fromkeys(candidate_ids))  # 去重且保序
+
+    # 人工提交的影片：不套用時長過濾（人工判斷優先於自動規則）。
+    # 排除已在搜尋結果中的，避免重複查詳情與重複計數。
+    already = set(unique_ids)
+    submitted = [i for i in dict.fromkeys(extra_ids)
+                 if i not in already and not db.video_exists(conn, i)]
+
     added = 0
     for v in fetch_video_details(api_key, unique_ids):
         if v["duration_seconds"] < min_duration:
@@ -155,7 +161,7 @@ def collect(conn, api_key, keywords, published_after,
         db.insert_video(conn, v)
         added += 1
 
-    for v in fetch_video_details(api_key, list(dict.fromkeys(submitted))):
+    for v in fetch_video_details(api_key, submitted):
         db.insert_video(conn, v)
         added += 1
 

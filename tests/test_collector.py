@@ -248,3 +248,20 @@ def test_collect_extra_ids_skip_existing(tmp_path, monkeypatch):
     added = collector.collect(conn, "key", [], "2026-01-01T00:00:00Z",
                               extra_ids=["dup1"])
     assert added == 0
+
+
+def test_collect_extra_ids_deduped_against_search_results(tmp_path, monkeypatch):
+    """同一支影片同時被關鍵字搜到又被人工提交時，只能計入一次、只查一次詳情。"""
+    conn = db.connect(tmp_path / "t.db")
+    fetched = []
+    monkeypatch.setattr(collector, "search_videos", lambda *a, **k: ["both1"])
+
+    def fake_details(key, ids):
+        fetched.extend(ids)
+        return [make_video(i, duration_seconds=600) for i in ids]
+
+    monkeypatch.setattr(collector, "fetch_video_details", fake_details)
+    added = collector.collect(conn, "key", ["kw"], "2026-01-01T00:00:00Z",
+                              extra_ids=["both1"])
+    assert added == 1              # 不得重複計數
+    assert fetched.count("both1") == 1   # 不得重複查詳情
