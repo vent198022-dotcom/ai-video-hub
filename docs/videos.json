@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-07-26T03:33:06+00:00",
- "count": 1106,
+ "generated_at": "2026-07-26T04:23:00+00:00",
+ "count": 1108,
  "videos": [
   {
    "video_id": "-zzHD9bDAFs",
@@ -892,6 +892,35 @@
    "content_type": "video"
   },
   {
+   "video_id": "art_7dde2a715bfd",
+   "title": "Claude金融Agent怎麼用？10款AI代理搞定提案簡報、財報對帳，安裝教學一次看",
+   "channel": "數位時代 Businessnext",
+   "duration_seconds": 0,
+   "published_at": "2026-07-24T00:00:00Z",
+   "thumbnail_url": "https://image-cdn.learnin.tw/bnextmedia/image/album/2026-07/8hdk-1784823182.png?w=900&output=webp",
+   "view_count": 0,
+   "category": "工具教學",
+   "summary": "本文介紹 Anthropic 官方推出的 10 款 Claude 金融 AI 代理應用與安裝教學。內容解析 Agent 核心元件，並針對非技術人員及工程師提供 Claude Cowork、Claude Code 等三種部署方式，協助金融團隊自動化處理財報對帳、估值建模與簡報製作。",
+   "tags": [
+    "Claude",
+    "AI Agent",
+    "金融應用",
+    "安裝教學"
+   ],
+   "search_terms": [
+    "Claude Agent",
+    "金融AI",
+    "Claude Code",
+    "財報對帳",
+    "估值建模",
+    "Claude Cowork",
+    "Anthropic",
+    "自動化簡報"
+   ],
+   "url": "https://www.bnext.com.tw/article/91588/anthropic-claude-financial-agents-guide",
+   "content_type": "article"
+  },
+  {
    "video_id": "vqj1Qj9TonU",
    "title": "零基礎也能做詩歌！快速學會用 AI 將心中的禱告變成感動讚美詩 🕊️｜新手萬用教學",
    "channel": "王永銘（Yeong-Ming Wang）",
@@ -1510,6 +1539,34 @@
    "search_terms": [],
    "url": null,
    "content_type": "video"
+  },
+  {
+   "video_id": "art_8369b35d78c0",
+   "title": "NotebookLM、Gemini、Claude 三個AI分工術！券商分析師的產業研究工作流，用Markdown檔接力",
+   "channel": "數位時代 Businessnext",
+   "duration_seconds": 0,
+   "published_at": "2026-07-23T00:00:00Z",
+   "thumbnail_url": "https://image-cdn.learnin.tw/bnextmedia/image/album/2026-07/ecib-1784797349.jpg?w=900&output=webp",
+   "view_count": 0,
+   "category": "自動化工作流",
+   "summary": "本文介紹如何整合 NotebookLM、Gemini 與 Claude 進行產業研究。將財報與逐字稿經 AI 整理後輸出為 Markdown 格式存於雲端，讓各工具接力進行橫向資料對比及生成互動式估值網頁，透過標準化檔案實現跨工具的高效 AI 協作工作流。",
+   "tags": [
+    "AI工作流",
+    "NotebookLM",
+    "Gemini",
+    "Claude"
+   ],
+   "search_terms": [
+    "產業研究",
+    "Markdown",
+    "Gemini Notebook",
+    "AI協作",
+    "估值模型",
+    "自動化工作流",
+    "Google Drive"
+   ],
+   "url": "https://www.bnext.com.tw/article/91590/notebooklm-gemini-claude-ai-research-workflow",
+   "content_type": "article"
   },
   {
    "video_id": "3CELUW1W0oU",
