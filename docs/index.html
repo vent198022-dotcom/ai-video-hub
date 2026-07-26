@@ -36,7 +36,7 @@
 <header>
   <h1>AI 教學影片知識平台</h1>
   <div class="controls">
-    <input id="search" type="search" placeholder="搜尋標題、摘要、標籤…">
+    <input id="search" type="search" placeholder="搜尋主題、工具名稱、想解決的問題…">
     <div id="tabs"></div>
   </div>
 </header>
@@ -60,7 +60,8 @@ function render() {
   const q = $('search').value.trim().toLowerCase();
   const shown = videos.filter(v =>
     (activeCat === '全部' || v.category === activeCat) &&
-    (!q || (v.title + ' ' + v.summary + ' ' + (v.tags || []).join(' ') + ' ' + v.channel)
+    (!q || (v.title + ' ' + v.summary + ' ' + (v.tags || []).join(' ') + ' ' + v.channel
+      + ' ' + (v.search_terms || []).join(' '))
       .toLowerCase().includes(q)));
   $('grid').innerHTML = shown.map(v => `
     <div class="card"><a href="https://www.youtube.com/watch?v=${encodeURIComponent(v.video_id)}" target="_blank" rel="noopener">

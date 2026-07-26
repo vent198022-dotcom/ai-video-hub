@@ -43,3 +43,8 @@ gemini:
   model: gemini-3.6-flash
   batch_size: 30
   pause_seconds: 7   # 批次間隔秒數，避開免費層每分鐘請求上限
+
+transcript:
+  enabled: true
+  max_chars: 3000
+  batch_size: 5    # 有字幕時每批影片數（字幕佔 token，批次必須調小）

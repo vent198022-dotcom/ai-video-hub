@@ -9,10 +9,13 @@ import yaml
 from dotenv import load_dotenv
 
 import classifier
+import cleanup
 import collector
 import db
 import generator
 import publisher
+import submissions
+import transcript
 
 ROOT = Path(__file__).parent
 
@@ -55,24 +58,44 @@ def main():
     )
 
     try:
+        submitted = submissions.read_ids(ROOT / "submit.txt")
+        if submitted:
+            log.info("讀到 %d 筆手動提交", len(submitted))
         added = collector.collect(
             conn, yt_key, cfg["keywords"], published_after,
             min_duration=cfg["filters"]["min_duration_seconds"],
             language=cfg["filters"]["relevance_language"],
             max_results=cfg["filters"]["max_results_per_keyword"],
             channels=cfg.get("channels") or [],
+            extra_ids=submitted,
         )
         db.set_meta(conn, "last_collect_at", _utc_iso(now))
         log.info("收集完成：新增 %d 部影片", added)
     except Exception:
         log.exception("收集階段失敗，繼續處理既有待分類影片")
 
+    tcfg = cfg.get("transcript") or {}
+    use_transcript = bool(tcfg.get("enabled"))
+    batch_size = (tcfg.get("batch_size", 5) if use_transcript
+                  else cfg["gemini"]["batch_size"])
+    transcript_fn = (
+        (lambda vid: transcript.fetch(vid, tcfg.get("max_chars", 3000)))
+        if use_transcript else None
+    )
     ok, skip, fail = classifier.classify_pending(
         conn, gemini_key, cfg["gemini"]["model"], cfg["categories"],
-        batch_size=cfg["gemini"]["batch_size"],
+        batch_size=batch_size,
         pause_seconds=cfg["gemini"].get("pause_seconds", 6),
+        transcript_fn=transcript_fn,
     )
     log.info("分類完成：上架 %d、排除 %d、失敗待重試 %d", ok, skip, fail)
+
+    try:
+        removed = cleanup.remove_dead_videos(conn, yt_key)
+        if removed:
+            log.info("失效清理：移除 %d 部影片", removed)
+    except Exception:
+        log.exception("失效清理階段失敗，略過本次清理")
 
     count = generator.generate(conn, ROOT / "docs")
     log.info("網頁資料已產出：共 %d 部影片", count)

@@ -53,3 +53,12 @@ def test_api_failure_marks_nothing(tmp_path, monkeypatch):
     monkeypatch.setattr(cleanup.requests, "get", boom)
     assert cleanup.remove_dead_videos(conn, "key") == 0
     assert len(db.get_site_videos(conn)) == 2  # 一部都不能被誤刪
+
+
+def test_malformed_response_skips_chunk(tmp_path, monkeypatch):
+    """200 但格式異常時略過該批，不得崩潰、也不得誤刪。"""
+    conn = _live(tmp_path, "v1", "v2")
+    monkeypatch.setattr(cleanup.requests, "get",
+                        lambda *a, **k: FakeResp({"items": [{"noid": True}]}))
+    assert cleanup.remove_dead_videos(conn, "key") == 0
+    assert len(db.get_site_videos(conn)) == 2

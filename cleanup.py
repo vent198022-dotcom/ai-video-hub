@@ -26,14 +26,17 @@ def remove_dead_videos(conn, api_key):
             resp = requests.get(collector.VIDEOS_URL, params=params, timeout=30)
             resp.raise_for_status()
             items = resp.json().get("items", [])
-        except requests.RequestException as e:
+            public = set()
+            for it in items:
+                vid = it.get("id")
+                if not vid:
+                    raise ValueError("回應項目缺少 id，格式異常")
+                if it.get("status", {}).get("privacyStatus") == "public":
+                    public.add(vid)
+        except (requests.RequestException, ValueError, AttributeError, TypeError) as e:
             log.warning("第 %d 批失效檢查失敗，略過該批：%s",
                         i // 50 + 1, collector._safe_err(e))
             continue
-        public = {
-            it["id"] for it in items
-            if it.get("status", {}).get("privacyStatus") == "public"
-        }
         dead.extend(vid for vid in chunk if vid not in public)
 
     if dead:
