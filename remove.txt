@@ -6,4 +6,3 @@
 # 把某一行刪掉再跑一次，該筆內容就會自動回到網站上。
 # 以 # 開頭的是註解，會被略過。
 
-https://www.bnext.com.tw/article/91566/ai-management-fable-5-opus

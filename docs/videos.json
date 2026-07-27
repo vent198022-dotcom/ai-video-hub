@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-07-27T09:49:42+00:00",
- "count": 1254,
+ "generated_at": "2026-07-27T09:54:47+00:00",
+ "count": 1255,
  "videos": [
   {
    "video_id": "o7AUbq28-Ss",
@@ -495,6 +495,39 @@
    "url": null,
    "content_type": "video",
    "difficulty": "入門",
+   "region": "國內",
+   "license": null,
+   "security_score": null,
+   "safety": null
+  },
+  {
+   "video_id": "art_c539c15c27ca",
+   "title": "Fable 5單價貴一倍，帳單卻大降！Cognition實測3000次發現：AI代理成本關鍵在委派",
+   "channel": "數位時代 Businessnext",
+   "duration_seconds": 0,
+   "published_at": "2026-07-27T00:00:00Z",
+   "thumbnail_url": "https://image-cdn.learnin.tw/bnextmedia/image/album/2026-07/hqpk-1784620343.jpg?w=900&output=webp",
+   "view_count": 0,
+   "category": "入門觀念",
+   "summary": "Cognition 實測指出，將 AI 代理領導模型換成單價更高的 Claude Fable 5 後，總任務成本反而降低 54%。主因在於高階模型具備優異的委派能力，能精確交付任務給低成本副代理，大幅減少重複嘗試與 Token 消耗，顯示出模型的分工管理能力是影響 AI 代理成本的重要關鍵。",
+   "tags": [
+    "AI成本優化",
+    "Claude Fable",
+    "AI Agent",
+    "Cognition"
+   ],
+   "search_terms": [
+    "AI代理成本",
+    "Claude Fable 5",
+    "Cognition",
+    "Devin AI",
+    "模型委派",
+    "AI Agent架構",
+    "Token成本降低"
+   ],
+   "url": "https://www.bnext.com.tw/article/91566/ai-management-fable-5-opus",
+   "content_type": "article",
+   "difficulty": "進階",
    "region": "國內",
    "license": null,
    "security_score": null,
