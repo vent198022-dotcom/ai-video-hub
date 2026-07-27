@@ -141,6 +141,45 @@ def mark_removed(conn, video_ids):
     return cur.rowcount
 
 
+def drop_items(conn, video_ids):
+    """把指定項目標記為人工下架，回傳實際變更筆數。
+
+    不刪除資料列——保留紀錄，下次收集才不會又把它抓回來。
+    """
+    ids = [i for i in dict.fromkeys(video_ids) if i]
+    if not ids:
+        return 0
+    placeholders = ",".join("?" * len(ids))
+    cur = conn.execute(
+        f"UPDATE videos SET status = 'dropped'"
+        f" WHERE video_id IN ({placeholders}) AND status != 'dropped'",
+        ids,
+    )
+    conn.commit()
+    return cur.rowcount
+
+
+def restore_dropped(conn, keep_ids):
+    """復原不在 keep_ids 內的人工下架項目，回傳復原筆數。
+
+    先前分類過的（有 category）回到 classified；未分類過的回到 pending 重新分類。
+    """
+    keep = [i for i in dict.fromkeys(keep_ids) if i]
+    where = "status = 'dropped'"
+    params = []
+    if keep:
+        where += f" AND video_id NOT IN ({','.join('?' * len(keep))})"
+        params = keep
+    cur = conn.execute(
+        f"UPDATE videos SET status ="
+        f" CASE WHEN category IS NOT NULL THEN 'classified' ELSE 'pending' END"
+        f" WHERE {where}",
+        params,
+    )
+    conn.commit()
+    return cur.rowcount
+
+
 def set_difficulty(conn, video_id, difficulty):
     """單獨設定難易度（供補標腳本使用）。值不合法時不寫入並回傳 False。"""
     if difficulty not in DIFFICULTIES:

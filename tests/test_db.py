@@ -376,3 +376,82 @@ def test_migration_adds_safety_columns(tmp_path):
     v = db.get_site_videos(conn)[0]
     assert v["title"] == "舊影片" and v["region"] == "國內"
     assert v["license"] is None and v["security_score"] is None and v["safety"] is None
+
+
+def _classified(conn, *ids):
+    for i in ids:
+        db.insert_video(conn, make_video(i))
+        db.update_classification(conn, i, True, "工具教學", "摘要", [])
+
+
+def test_drop_items_hides_from_site(tmp_path):
+    conn = _conn(tmp_path)
+    _classified(conn, "v1", "v2")
+    assert db.drop_items(conn, ["v1"]) == 1
+    assert [v["video_id"] for v in db.get_site_videos(conn)] == ["v2"]
+    assert len(db.get_videos_by_status(conn, "dropped")) == 1
+
+
+def test_drop_items_empty_list(tmp_path):
+    conn = _conn(tmp_path)
+    assert db.drop_items(conn, []) == 0
+
+
+def test_drop_items_idempotent(tmp_path):
+    conn = _conn(tmp_path)
+    _classified(conn, "v1")
+    assert db.drop_items(conn, ["v1"]) == 1
+    assert db.drop_items(conn, ["v1"]) == 0      # 已下架者不重複計數
+
+
+def test_drop_items_unknown_id_is_noop(tmp_path):
+    conn = _conn(tmp_path)
+    _classified(conn, "v1")
+    assert db.drop_items(conn, ["不存在"]) == 0
+    assert len(db.get_site_videos(conn)) == 1
+
+
+def test_drop_also_affects_pending(tmp_path):
+    """尚未分類的項目也要能下架，否則它之後會自己冒出來。"""
+    conn = _conn(tmp_path)
+    db.insert_video(conn, make_video("p1"))
+    assert db.drop_items(conn, ["p1"]) == 1
+    assert db.get_videos_by_status(conn, "pending") == []
+
+
+def test_restore_dropped_returns_classified(tmp_path):
+    conn = _conn(tmp_path)
+    _classified(conn, "v1", "v2")
+    db.drop_items(conn, ["v1", "v2"])
+    assert db.restore_dropped(conn, ["v2"]) == 1        # v2 仍在清單內，只復原 v1
+    site = [v["video_id"] for v in db.get_site_videos(conn)]
+    assert site == ["v1"]
+    assert len(db.get_videos_by_status(conn, "dropped")) == 1
+
+
+def test_restore_dropped_unclassified_goes_to_pending(tmp_path):
+    conn = _conn(tmp_path)
+    db.insert_video(conn, make_video("p1"))            # 從未分類，沒有 category
+    db.drop_items(conn, ["p1"])
+    assert db.restore_dropped(conn, []) == 1
+    assert [v["video_id"] for v in db.get_videos_by_status(conn, "pending")] == ["p1"]
+
+
+def test_restore_dropped_empty_keep_restores_all(tmp_path):
+    conn = _conn(tmp_path)
+    _classified(conn, "v1", "v2")
+    db.drop_items(conn, ["v1", "v2"])
+    assert db.restore_dropped(conn, []) == 2
+    assert len(db.get_site_videos(conn)) == 2
+
+
+def test_restore_dropped_does_not_touch_other_statuses(tmp_path):
+    """excluded／removed 是不同原因造成的，不得被復原邏輯誤改。"""
+    conn = _conn(tmp_path)
+    db.insert_video(conn, make_video("e1"))
+    db.update_classification(conn, "e1", False, None, "", [])   # excluded
+    _classified(conn, "r1")
+    db.mark_removed(conn, ["r1"])                                # removed
+    assert db.restore_dropped(conn, []) == 0
+    assert len(db.get_videos_by_status(conn, "excluded")) == 1
+    assert len(db.get_videos_by_status(conn, "removed")) == 1
