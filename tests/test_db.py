@@ -455,3 +455,14 @@ def test_restore_dropped_does_not_touch_other_statuses(tmp_path):
     assert db.restore_dropped(conn, []) == 0
     assert len(db.get_videos_by_status(conn, "excluded")) == 1
     assert len(db.get_videos_by_status(conn, "removed")) == 1
+
+
+def test_drop_does_not_touch_removed_and_cannot_revive_it(tmp_path):
+    """死連結（removed）不得經由下架→復原被復活。"""
+    conn = _conn(tmp_path)
+    _classified(conn, "dead1")
+    db.mark_removed(conn, ["dead1"])           # category 仍在
+    assert db.drop_items(conn, ["dead1"]) == 0  # 不得被轉成 dropped
+    assert len(db.get_videos_by_status(conn, "removed")) == 1
+    assert db.restore_dropped(conn, []) == 0    # 也就無從復原
+    assert db.get_site_videos(conn) == []       # 網站上不得出現

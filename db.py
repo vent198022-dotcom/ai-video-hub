@@ -145,6 +145,11 @@ def drop_items(conn, video_ids):
     """把指定項目標記為人工下架，回傳實際變更筆數。
 
     不刪除資料列——保留紀錄，下次收集才不會又把它抓回來。
+
+    已標記為 removed（失效清理判定的死連結）的項目略過不處理：
+    它已經不會出現在網站上、也已被 video_id 主鍵擋掉重複收集，
+    若讓它轉成 dropped，日後從 remove.txt 移除該行會被
+    restore_dropped 誤判為「要復原」而讓死連結重新上架。
     """
     ids = [i for i in dict.fromkeys(video_ids) if i]
     if not ids:
@@ -152,7 +157,8 @@ def drop_items(conn, video_ids):
     placeholders = ",".join("?" * len(ids))
     cur = conn.execute(
         f"UPDATE videos SET status = 'dropped'"
-        f" WHERE video_id IN ({placeholders}) AND status != 'dropped'",
+        f" WHERE video_id IN ({placeholders})"
+        f" AND status NOT IN ('dropped', 'removed')",
         ids,
     )
     conn.commit()
