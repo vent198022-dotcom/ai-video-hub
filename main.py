@@ -191,6 +191,21 @@ def main():
     log.info("分類完成：上架 %d、排除 %d、失敗待重試 %d", ok, skip, fail)
 
     try:
+        rm_videos, rm_articles, rm_repos = submissions.read_entries(
+            ROOT / "remove.txt")
+        drop_ids = (list(rm_videos)
+                    + ["gh_" + n.replace("/", "_") for n in rm_repos]
+                    + [article.make_id(u) for u in rm_articles])
+        dropped = db.drop_items(conn, drop_ids)
+        restored = db.restore_dropped(conn, drop_ids)
+        if dropped:
+            log.info("人工下架：%d 筆", dropped)
+        if restored:
+            log.info("已從下架清單移除而復原：%d 筆", restored)
+    except Exception:
+        log.exception("下架階段失敗，略過本次對帳")
+
+    try:
         removed = cleanup.remove_dead_videos(conn, yt_key)
         if removed:
             log.info("失效清理：移除 %d 部影片", removed)

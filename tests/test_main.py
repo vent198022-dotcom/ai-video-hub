@@ -431,3 +431,89 @@ def test_main_manual_repo_without_token_warns(tmp_path, monkeypatch):
                         lambda t, n: calls.append(n) or None)
     assert main_mod.main() == 0
     assert calls == []          # 沒 token 不應查 API
+
+
+def test_main_drops_listed_items(tmp_path, monkeypatch):
+    _stub_stages(monkeypatch)
+    monkeypatch.setenv("YOUTUBE_API_KEY", "yt")
+    monkeypatch.setenv("GEMINI_API_KEY", "gm")
+    monkeypatch.setattr(main_mod, "ROOT", tmp_path)
+    _write_cfg(tmp_path)
+    (tmp_path / "remove.txt").write_text(
+        "https://www.youtube.com/watch?v=aaaaaaaaaaa\n", encoding="utf-8")
+
+    conn = main_mod.db.connect(tmp_path / "videos.db")
+    main_mod.db.insert_video(conn, {
+        "video_id": "aaaaaaaaaaa", "title": "要下架的", "channel": "c",
+        "description": "d", "published_at": "", "thumbnail_url": "",
+        "duration_seconds": 300, "view_count": 0})
+    main_mod.db.update_classification(conn, "aaaaaaaaaaa", True, "工具教學", "摘要", [])
+
+    assert main_mod.main() == 0
+    conn2 = main_mod.db.connect(tmp_path / "videos.db")
+    assert main_mod.db.get_site_videos(conn2) == []
+    assert len(main_mod.db.get_videos_by_status(conn2, "dropped")) == 1
+
+
+def test_main_restores_when_removed_from_list(tmp_path, monkeypatch):
+    _stub_stages(monkeypatch)
+    monkeypatch.setenv("YOUTUBE_API_KEY", "yt")
+    monkeypatch.setenv("GEMINI_API_KEY", "gm")
+    monkeypatch.setattr(main_mod, "ROOT", tmp_path)
+    _write_cfg(tmp_path)
+    (tmp_path / "remove.txt").write_text("", encoding="utf-8")   # 清單已清空
+
+    conn = main_mod.db.connect(tmp_path / "videos.db")
+    main_mod.db.insert_video(conn, {
+        "video_id": "bbbbbbbbbbb", "title": "先前下架的", "channel": "c",
+        "description": "d", "published_at": "", "thumbnail_url": "",
+        "duration_seconds": 300, "view_count": 0})
+    main_mod.db.update_classification(conn, "bbbbbbbbbbb", True, "工具教學", "摘要", [])
+    main_mod.db.drop_items(conn, ["bbbbbbbbbbb"])
+
+    assert main_mod.main() == 0
+    conn2 = main_mod.db.connect(tmp_path / "videos.db")
+    assert [v["video_id"] for v in main_mod.db.get_site_videos(conn2)] == ["bbbbbbbbbbb"]
+
+
+def test_main_no_remove_file_restores_all(tmp_path, monkeypatch):
+    """remove.txt 不存在時，等同空清單——先前下架的應全部復原。"""
+    _stub_stages(monkeypatch)
+    monkeypatch.setenv("YOUTUBE_API_KEY", "yt")
+    monkeypatch.setenv("GEMINI_API_KEY", "gm")
+    monkeypatch.setattr(main_mod, "ROOT", tmp_path)
+    _write_cfg(tmp_path)
+
+    conn = main_mod.db.connect(tmp_path / "videos.db")
+    main_mod.db.insert_video(conn, {
+        "video_id": "ccccccccccc", "title": "x", "channel": "c",
+        "description": "d", "published_at": "", "thumbnail_url": "",
+        "duration_seconds": 300, "view_count": 0})
+    main_mod.db.update_classification(conn, "ccccccccccc", True, "工具教學", "摘要", [])
+    main_mod.db.drop_items(conn, ["ccccccccccc"])
+
+    assert main_mod.main() == 0
+    conn2 = main_mod.db.connect(tmp_path / "videos.db")
+    assert len(main_mod.db.get_site_videos(conn2)) == 1
+
+
+def test_main_drop_stage_failure_does_not_stop_pipeline(tmp_path, monkeypatch):
+    _stub_stages(monkeypatch)
+    monkeypatch.setenv("YOUTUBE_API_KEY", "yt")
+    monkeypatch.setenv("GEMINI_API_KEY", "gm")
+    monkeypatch.setattr(main_mod, "ROOT", tmp_path)
+    _write_cfg(tmp_path)
+    (tmp_path / "remove.txt").write_text("https://youtu.be/ddddddddddd\n",
+                                         encoding="utf-8")
+
+    def boom(*a, **k):
+        raise RuntimeError("下架階段掛了")
+    monkeypatch.setattr(main_mod.db, "drop_items", boom)
+    stages = []
+    monkeypatch.setattr(main_mod.generator, "generate",
+                        lambda *a, **k: stages.append("generate") or 0)
+    monkeypatch.setattr(main_mod.publisher, "publish",
+                        lambda *a, **k: stages.append("publish") or False)
+
+    assert main_mod.main() == 0
+    assert stages == ["generate", "publish"]
