@@ -1,7 +1,39 @@
 {
- "generated_at": "2026-08-06T10:04:49+00:00",
- "count": 1421,
+ "generated_at": "2026-08-06T10:12:11+00:00",
+ "count": 1432,
  "videos": [
+  {
+   "video_id": "vuUunhtWJPA",
+   "title": "發票自動記帳：用 Gemini AI 產生 VBA，為什麼第一次執行竟然是 0 筆資料？",
+   "channel": "贊贊小屋",
+   "duration_seconds": 454,
+   "published_at": "2026-08-06T09:57:43Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/vuUunhtWJPA/mqdefault.jpg",
+   "view_count": 1,
+   "category": "自動化工作流",
+   "summary": "本影片分享如何使用 Gemini AI 產生 VBA 來實現發票自動記帳。內容從設計發票明細表、會科主檔與日記簿等資料流程切入，並示範如何解決第一次執行出現零筆資料的問題，透過修正 Prompt 成功將發票資料轉換為會計分錄。",
+   "tags": [
+    "Gemini",
+    "VBA",
+    "自動記帳",
+    "工作流程"
+   ],
+   "search_terms": [
+    "發票自動記帳",
+    "Gemini 寫 VBA",
+    "AI 記帳",
+    "Excel 自動化",
+    "會計分錄",
+    "贊贊小屋"
+   ],
+   "url": null,
+   "content_type": "video",
+   "difficulty": "進階",
+   "region": "國內",
+   "license": null,
+   "security_score": null,
+   "safety": null
+  },
   {
    "video_id": "bRdZKdRQVHw",
    "title": "Gemini 4.0 倒數計時！2026 台灣 Google AI 重大更新與 Agentic AI 實戰",
@@ -35,6 +67,40 @@
    "license": null,
    "security_score": null,
    "safety": null
+  },
+  {
+   "video_id": "bQoDbxnISxo",
+   "title": "用 AI 讓照片開口唱歌，搭配自動 KTV 歌詞字幕，0基礎包教包會的卡拉OK字幕教學！mv製作|AI字幕自動生成",
+   "channel": "Official Edimakor Taiwan",
+   "duration_seconds": 175,
+   "published_at": "2026-08-06T09:11:12Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/bQoDbxnISxo/mqdefault.jpg",
+   "view_count": 5,
+   "category": "AI 影像與影片生成",
+   "summary": "本影片介紹如何使用 HitPaw Edimakor AI 剪輯神器製作音樂影片。內容涵蓋音訊下載、利用 AI 數位人歌手讓照片開口唱歌、挑選 MV 素材，以及一鍵生成動態 KTV 字幕的完整操作流程，帶領新手輕鬆完成 AI 歌曲 MV 製作。",
+   "tags": [
+    "AI剪輯",
+    "MV製作",
+    "AI數位人",
+    "自動字幕"
+   ],
+   "search_terms": [
+    "AI 唱歌",
+    "照片唱歌",
+    "KTV 字幕",
+    "自動生成字幕",
+    "HitPaw Edimakor",
+    "AI 音樂影片",
+    "MV 製作教學",
+    "AI 剪輯神器"
+   ],
+   "url": null,
+   "content_type": "video",
+   "difficulty": "入門",
+   "region": "國內",
+   "license": null,
+   "security_score": null,
+   "safety": "安全"
   },
   {
    "video_id": "NlR3Vbl94lo",
@@ -267,6 +333,38 @@
    "license": null,
    "security_score": null,
    "safety": null
+  },
+  {
+   "video_id": "art_5b494d6b333f",
+   "title": "Gemini教學大全！37篇實測整理，Notebooks知識庫、Spark、Workspace辦公自動化一次收",
+   "channel": "數位時代 Businessnext",
+   "duration_seconds": 0,
+   "published_at": "2026-08-06T00:00:00Z",
+   "thumbnail_url": "https://image-cdn.learnin.tw/bnextmedia/image/album/2026-08/nfvu-1785985714.jpg?w=900&output=webp",
+   "view_count": 0,
+   "category": "辦公應用",
+   "summary": "本文整理了37篇關於Google Gemini的實用教學，涵蓋訂閱方案選擇、Notebooks知識庫建立、Workspace辦公自動化、Canvas網頁與互動文件生成、Chrome側邊欄與Mac桌面版應用術，以及Spark AI代理與提示詞架構，幫助使用者全面提升辦公效率與跨平台操作能力。",
+   "tags": [
+    "Gemini",
+    "Google Workspace",
+    "AI 知識庫",
+    "辦公自動化"
+   ],
+   "search_terms": [
+    "Gemini 教學",
+    "Google 辦公 AI",
+    "Gemini 知識庫",
+    "Workspace 整合",
+    "Gemini 應用",
+    "AI 助理"
+   ],
+   "url": "https://www.bnext.com.tw/article/91249/gemini-learning-map",
+   "content_type": "article",
+   "difficulty": "入門",
+   "region": "國內",
+   "license": null,
+   "security_score": null,
+   "safety": "安全"
   },
   {
    "video_id": "ZkGr1ReGp54",
@@ -765,6 +863,39 @@
    "license": null,
    "security_score": null,
    "safety": null
+  },
+  {
+   "video_id": "-RA3s6NKkF8",
+   "title": "【Citrix】打造 AI Agent 的最後一哩路：NetScaler MCP Gateway 如何串聯企業工具？｜MetaAge 邁達特",
+   "channel": "MetaAge 邁達特",
+   "duration_seconds": 127,
+   "published_at": "2026-08-05T09:54:43Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/-RA3s6NKkF8/mqdefault.jpg",
+   "view_count": 8,
+   "category": "自動化工作流",
+   "summary": "本影片介紹 NetScaler MCP Gateway 如何串聯企業工具，示範 AI 助理透過 Model Context Protocol 自動探索並呼叫分散各處的內部與外部工具，在短短 20 秒內完成跨系統故障排除操作。",
+   "tags": [
+    "AI Agent",
+    "MCP",
+    "自動化工作流",
+    "企業工具"
+   ],
+   "search_terms": [
+    "AI Agent",
+    "MCP Gateway",
+    "Model Context Protocol",
+    "企業AI",
+    "自動化工作流",
+    "系統串聯",
+    "故障排除"
+   ],
+   "url": null,
+   "content_type": "video",
+   "difficulty": "進階",
+   "region": "國內",
+   "license": null,
+   "security_score": null,
+   "safety": "安全"
   },
   {
    "video_id": "z0oHq7QDJAo",
@@ -1367,6 +1498,72 @@
    "safety": null
   },
   {
+   "video_id": "art_c2a94e1db07b",
+   "title": "Gemini Spark是什麼？完整教學：功能、開啟資格與3大應用實測",
+   "channel": "數位時代 Businessnext",
+   "duration_seconds": 0,
+   "published_at": "2026-08-05T00:00:00Z",
+   "thumbnail_url": "https://image-cdn.learnin.tw/bnextmedia/image/album/2026-08/wt6w-1785902200.jpg?w=900&output=webp",
+   "view_count": 0,
+   "category": "辦公應用",
+   "summary": "本文詳細介紹 Google 推出由 Gemini 3.6 Flash 驅動的個人 AI 代理「Gemini Spark」。內容說明其使用資格與開啟方式，並透過三大實測情境展示其功能：一鍵啟用並自動生成使用者工作輪廓與排程任務、在既有 Google 文件中精準插入比較表格，以及將雜亂的電子報內容整理成每日晨報，協助用戶提升 Google Workspace 的辦公效率。",
+   "tags": [
+    "Gemini Spark",
+    "Google Workspace",
+    "AI 助理",
+    "辦公自動化"
+   ],
+   "search_terms": [
+    "Gemini Spark",
+    "Google AI",
+    "個人AI代理",
+    "AI助理",
+    "自動化排程",
+    "Google文件修改",
+    "電子報整理"
+   ],
+   "url": "https://www.bnext.com.tw/article/91735/gemini-spark-2026-tutorial",
+   "content_type": "article",
+   "difficulty": "進階",
+   "region": "國內",
+   "license": null,
+   "security_score": null,
+   "safety": null
+  },
+  {
+   "video_id": "art_a2c1e6501e2d",
+   "title": "大型AI專案怎麼規劃？/wayfinder用決策地圖拆解任務，安裝教學一次看懂",
+   "channel": "數位時代 Businessnext",
+   "duration_seconds": 0,
+   "published_at": "2026-08-05T00:00:00Z",
+   "thumbnail_url": "https://image-cdn.learnin.tw/bnextmedia/image/album/2026-08/d8eq-1785837508.jpg?w=900&output=webp",
+   "view_count": 0,
+   "category": "自動化工作流",
+   "summary": "本文介紹用 /wayfinder 決策地圖工具來規劃大型 AI 開發專案與任務。透過終點定義、霧與前緣的概念，將模糊想法拆解成可管理的子票，並提供 Claude Code 或 skills.sh 的安裝與實際操作教學，避免 AI 開發走偏。",
+   "tags": [
+    "wayfinder",
+    "AI專案管理",
+    "自動化工作流",
+    "開發工具"
+   ],
+   "search_terms": [
+    "wayfinder",
+    "AI 專案規劃",
+    "決策地圖",
+    "mattpocock",
+    "自動化工作流",
+    "AI 寫程式",
+    "軟體開發工具"
+   ],
+   "url": "https://www.bnext.com.tw/article/91730/matt-pocock-wayfinder",
+   "content_type": "article",
+   "difficulty": "進階",
+   "region": "國內",
+   "license": null,
+   "security_score": null,
+   "safety": null
+  },
+  {
    "video_id": "dSMv8rQh9dM",
    "title": "ChatGPT 香港用唔到？教你用呢個免費 AI，講廣東話都得（長輩都學得識）",
    "channel": "Shilu Varma",
@@ -1597,6 +1794,40 @@
    "license": null,
    "security_score": null,
    "safety": null
+  },
+  {
+   "video_id": "GiMUYgPTejA",
+   "title": "EP81 Plaud录音笔：AI时代提升工作效率的最佳利器",
+   "channel": "科技翔谈 Rolling Tech",
+   "duration_seconds": 931,
+   "published_at": "2026-08-04T10:30:10Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/GiMUYgPTejA/mqdefault.jpg",
+   "view_count": 2,
+   "category": "辦公應用",
+   "summary": "介紹 Plaud AI 錄音筆的實際應用經驗，展示如何透過 AI 裝置將會議對話自動轉化為結構化的會議記錄與報告格式，有效提升職場工作效率與個人助理的功能。",
+   "tags": [
+    "Plaud",
+    "AI錄音筆",
+    "會議記錄",
+    "工作效率"
+   ],
+   "search_terms": [
+    "Plaud",
+    "AI錄音筆",
+    "會議記錄",
+    "語音轉文字",
+    "智能錄音",
+    "辦公效率",
+    "AI助理",
+    "逐字稿"
+   ],
+   "url": null,
+   "content_type": "video",
+   "difficulty": "入門",
+   "region": "國內",
+   "license": null,
+   "security_score": null,
+   "safety": "安全"
   },
   {
    "video_id": "jVkD2WM8AL8",
@@ -2034,6 +2265,71 @@
    "safety": null
   },
   {
+   "video_id": "art_c73f17b479be",
+   "title": "Claude Code Skills怎麼用？新手教學 | 遠見雜誌",
+   "channel": "遠見雜誌 - 40年來陪你前進的動力",
+   "duration_seconds": 0,
+   "published_at": "2026-08-04T00:00:00Z",
+   "thumbnail_url": "https://imgs.gvm.com.tw/upload/gallery/20260804/237742.jpg",
+   "view_count": 0,
+   "category": "工具教學",
+   "summary": "本文介紹如何在 Claude Code 中使用與建立 Skills 功能，將指令、腳本與素材整合，讓 AI 在執行重複性任務時保持一致標準。內容涵蓋官方 Skills 的使用方法、透過對話建立自訂 Skills 的步驟、高效率 Skills 的品質條件清單，以及利用 /doctor 進行健檢與維護的實用技巧，幫助新手快速上手 AI Agent 的工作流程。",
+   "tags": [
+    "Claude Code",
+    "AI Agent",
+    "Skills 教學",
+    "自動化工作"
+   ],
+   "search_terms": [
+    "Claude Code",
+    "Skills",
+    "AI代理",
+    "自動化工作流程",
+    "Anthropic",
+    "AI指令設定",
+    "新手教學"
+   ],
+   "url": "https://www.gvm.com.tw/article/132049",
+   "content_type": "article",
+   "difficulty": "進階",
+   "region": "國內",
+   "license": null,
+   "security_score": null,
+   "safety": null
+  },
+  {
+   "video_id": "art_664681df80ae",
+   "title": "AI Agent加了記憶，表現反而變差了？研究發現：關鍵不是記得多，是懂得改寫記憶！",
+   "channel": "數位時代 Businessnext",
+   "duration_seconds": 0,
+   "published_at": "2026-08-04T00:00:00Z",
+   "thumbnail_url": "https://image-cdn.learnin.tw/bnextmedia/image/album/2026-08/id3z-1785826151.png?w=900&output=webp",
+   "view_count": 0,
+   "category": "入門觀念",
+   "summary": "本文探討 AI Agent 加上記憶系統後表現反而變差的原因，並介紹 MemHarness 論文提出的三階段機制（取回、重構、行動）。核心概念在於 agent 不該死背過去經驗，而是要根據當下環境狀態進行記憶「重構」，以此大幅提升代理的任務執行表現。",
+   "tags": [
+    "AI Agent",
+    "記憶系統",
+    "MemHarness",
+    "認知科學"
+   ],
+   "search_terms": [
+    "AI Agent 記憶",
+    "MemHarness",
+    "大語言模型記憶",
+    "記憶重構",
+    "AI 代理",
+    "智能體記憶優化"
+   ],
+   "url": "https://www.bnext.com.tw/article/91727/ai-agent-memory-reconstruction",
+   "content_type": "article",
+   "difficulty": "進階",
+   "region": "國內",
+   "license": null,
+   "security_score": null,
+   "safety": null
+  },
+  {
    "video_id": "r1UrR92E-mI",
    "title": "實測全新Gemini Spark!你專屬24小時AI助理｜自動整理Email/文件建立/排程工作｜AI體驗",
    "channel": "MrBoris科技站",
@@ -2330,6 +2626,40 @@
    "safety": null
   },
   {
+   "video_id": "SDnWhL2RSag",
+   "title": "一份教材生出 30 種遊戲 AI Agent 全自動操作 Wordwall",
+   "channel": "三師爸Sense Bar",
+   "duration_seconds": 2694,
+   "published_at": "2026-08-02T22:39:44Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/SDnWhL2RSag/mqdefault.jpg",
+   "view_count": 2131,
+   "category": "自動化工作流",
+   "summary": "介紹如何使用 AI Agent 全自動操作沒有開放 API 的 Wordwall 平台，將單一教材自動化生成多種互動遊戲。示範讓 Agent 自行開網頁、選模板與填內容的工作流操作。",
+   "tags": [
+    "AI Agent",
+    "自動化工作流",
+    "Wordwall",
+    "教學工具"
+   ],
+   "search_terms": [
+    "AI Agent",
+    "自動化操作",
+    "Wordwall",
+    "教學遊戲",
+    "網頁自動化",
+    "教材製作",
+    "AI工作流",
+    "智能代理"
+   ],
+   "url": null,
+   "content_type": "video",
+   "difficulty": "進階",
+   "region": "國內",
+   "license": null,
+   "security_score": null,
+   "safety": "安全"
+  },
+  {
    "video_id": "wThqNW1Rd1c",
    "title": "Gemini Spark 全實測：Google 生態系的最強自動化助理！(自動化、任務排程、SOP 建立)",
    "channel": "Communeify",
@@ -2420,6 +2750,39 @@
     "AI對獎",
     "發票辨識",
     "LINE通知"
+   ],
+   "url": null,
+   "content_type": "video",
+   "difficulty": "進階",
+   "region": "國內",
+   "license": null,
+   "security_score": null,
+   "safety": null
+  },
+  {
+   "video_id": "h4H5hXTUdA8",
+   "title": "AI Agent 教學應用：一份教材生成 30 種遊戲_用 Agent 來操控 Wordwall",
+   "channel": "三師爸Sense Bar",
+   "duration_seconds": 4688,
+   "published_at": "2026-08-02T14:26:09Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/h4H5hXTUdA8/mqdefault.jpg",
+   "view_count": 1951,
+   "category": "自動化工作流",
+   "summary": "本影片介紹如何利用 AI Agent 結合自製工具來操控 Wordwall，實現從一份教材自動生成 30 種不同遊戲的應用，示範自動化教學內容製作的實際操作邏輯與流程。",
+   "tags": [
+    "AI Agent",
+    "自動化",
+    "教學應用",
+    "Wordwall"
+   ],
+   "search_terms": [
+    "AI Agent 教學",
+    "教材生成",
+    "自動化工作流",
+    "Wordwall 應用",
+    "AI 自動化",
+    "三師爸Sense Bar",
+    "AI 教學製作"
    ],
    "url": null,
    "content_type": "video",
