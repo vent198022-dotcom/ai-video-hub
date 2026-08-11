@@ -1,7 +1,72 @@
 {
- "generated_at": "2026-08-11T05:16:30+00:00",
- "count": 1516,
+ "generated_at": "2026-08-11T05:21:30+00:00",
+ "count": 1522,
  "videos": [
+  {
+   "video_id": "kQfudZxp_WE",
+   "title": "Insta360 GO Ultra Al語音助理使用教學",
+   "channel": "先創國際",
+   "duration_seconds": 247,
+   "published_at": "2026-08-11T05:15:21Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/kQfudZxp_WE/mqdefault.jpg",
+   "view_count": 1,
+   "category": "工具教學",
+   "summary": "本教學介紹 Insta360 GO Ultra AI 語音助理的實際操作方式。內容包含裝置連線、聲紋識別、語音喚醒、面對面互譯、語音問答與圖片問答等功能，帶領使用者快速掌握相機的 AI 互動技巧。",
+   "tags": [
+    "Insta360",
+    "AI語音助理",
+    "相機教學",
+    "智慧翻譯"
+   ],
+   "search_terms": [
+    "Insta360",
+    "AI語音助理",
+    "相機AI功能",
+    "語音問答",
+    "面對面翻譯",
+    "Insta360教學"
+   ],
+   "url": null,
+   "content_type": "video",
+   "difficulty": "入門",
+   "region": "國內",
+   "license": null,
+   "security_score": null,
+   "safety": "安全"
+  },
+  {
+   "video_id": "44V0EYY86MI",
+   "title": "AI视频制作教程：ChatGPT + OpenArt 从0到1制作爆款AI短剧｜角色一致性+图生视频完整教学",
+   "channel": "littlefish小鱼儿AI技术学堂",
+   "duration_seconds": 958,
+   "published_at": "2026-08-11T05:01:44Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/44V0EYY86MI/mqdefault.jpg",
+   "view_count": 4,
+   "category": "AI 影像與影片生成",
+   "summary": "本影片介紹如何使用 ChatGPT 結合 OpenArt 平台從零到一製作爆款 AI 短劇。內容涵蓋角色一致性設定、圖生影片的完整教學，並推薦了多款實用的 AI 影音生成與剪輯工具，適合想創作短影片的學習者。",
+   "tags": [
+    "AI短劇",
+    "OpenArt",
+    "ChatGPT",
+    "圖生影片"
+   ],
+   "search_terms": [
+    "AI短劇",
+    "影片生成",
+    "OpenArt教學",
+    "ChatGPT做影片",
+    "圖生影片",
+    "角色一致性",
+    "AI影片製作"
+   ],
+   "url": null,
+   "content_type": "video",
+   "difficulty": "進階",
+   "region": "國外",
+   "license": null,
+   "security_score": null,
+   "safety": "安全"
+  },
   {
    "video_id": "gh_simstudioai_sim",
    "title": "simstudioai/sim",
@@ -562,6 +627,39 @@
    "safety": null
   },
   {
+   "video_id": "WyJJFzbdjuY",
+   "title": "我用一個 Claude Skill (技能) 省下了所有生成圖片和影片的訂閱費用！每個月現省上千元！",
+   "channel": "PAPAYA 電腦教室",
+   "duration_seconds": 797,
+   "published_at": "2026-08-10T05:35:49Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/WyJJFzbdjuY/mqdefault.jpg",
+   "view_count": 43173,
+   "category": "程式開發",
+   "summary": "本教學示範如何利用 Claude Skill 結合 FAL AI 的 API，建立自動化生成圖片與影片的技能，省下訂閱費用。內容包含設定專案資料夾、取得 API 金鑰、建立圖影生成技能、優化提示詞，並將技能打包成桌面版 App 的完整流程。",
+   "tags": [
+    "Claude",
+    "API",
+    "AI繪圖",
+    "影片生成"
+   ],
+   "search_terms": [
+    "Claude Skill",
+    "AI圖片生成",
+    "AI影片生成",
+    "API串接",
+    "節省訂閱費",
+    "Claude桌面版",
+    "FAL AI"
+   ],
+   "url": null,
+   "content_type": "video",
+   "difficulty": "專家",
+   "region": "國內",
+   "license": null,
+   "security_score": null,
+   "safety": "安全"
+  },
+  {
    "video_id": "yj_lGlVbgs0",
    "title": "認識AI-Agent系列05-AI Agent靠什麼工具辦事？大腦＋手腳的真相大公開",
    "channel": "AI 好友實驗室",
@@ -693,6 +791,40 @@
    "safety": null
   },
   {
+   "video_id": "aDvGJYxcndM",
+   "title": "查遍四大官方定價頁才發現：沒有一家會告訴你免費版到底能問幾次｜日常AI教學 1-2",
+   "channel": "Herbert AI 開發筆記",
+   "duration_seconds": 681,
+   "published_at": "2026-08-10T02:36:03Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/aDvGJYxcndM/mqdefault.jpg",
+   "view_count": 35,
+   "category": "入門觀念",
+   "summary": "這支影片帶領觀眾對比四大文字型 AI 助理（ChatGPT、Claude、Gemini、Perplexity）的免費版方案與官方定價頁面，深入解析各工具的定位與強項。作者透過三步驟方法教導使用者如何自行測試免費版額度是否夠用，並順便提醒隱私設定中資料訓練開關的檢查方式。",
+   "tags": [
+    "AI工具",
+    "ChatGPT",
+    "Claude",
+    "Gemini"
+   ],
+   "search_terms": [
+    "AI助理比較",
+    "ChatGPT免費版",
+    "Claude免費",
+    "Gemini額度",
+    "Perplexity評測",
+    "AI定價",
+    "日常AI教學",
+    "AI工具選擇"
+   ],
+   "url": null,
+   "content_type": "video",
+   "difficulty": "入門",
+   "region": "國內",
+   "license": null,
+   "security_score": null,
+   "safety": "安全"
+  },
+  {
    "video_id": "IxqV7wUfrs8",
    "title": "关机之后，谁在动你的 Gmail？— Gemini Spark 登陆香港 #Shorts",
    "channel": "Greate (HK) Limited",
@@ -725,6 +857,72 @@
    "license": null,
    "security_score": null,
    "safety": null
+  },
+  {
+   "video_id": "art_26f6e11a037d",
+   "title": "Claude Code推出跨Session傳訊！兩個AI終端機可「自己溝通」，工程師不用再當傳話筒",
+   "channel": "數位時代 Businessnext",
+   "duration_seconds": 0,
+   "published_at": "2026-08-10T00:00:00Z",
+   "thumbnail_url": "https://image-cdn.learnin.tw/bnextmedia/image/album/2026-08/19jk-1786333513.jpg?w=900&output=webp",
+   "view_count": 0,
+   "category": "工具教學",
+   "summary": "本文介紹 Claude Code v2.1.224 推出的跨 session 傳訊功能，讓多個 AI 終端機可以互相傳遞純文字摘要，解決工程師需手動在不同 session 間同步進度與脈絡的麻煩，並說明其三種典型用法與安全限制。",
+   "tags": [
+    "Claude Code",
+    "AI 終端機",
+    "跨 session 傳訊",
+    "開發工具"
+   ],
+   "search_terms": [
+    "Claude Code",
+    "跨session傳訊",
+    "AI工程師",
+    "終端機",
+    "AI代理",
+    "Anthropic",
+    "程式開發"
+   ],
+   "url": "https://www.bnext.com.tw/article/91794/claude-code-cross-session-messaging",
+   "content_type": "article",
+   "difficulty": "進階",
+   "region": "國內",
+   "license": null,
+   "security_score": null,
+   "safety": "安全"
+  },
+  {
+   "video_id": "art_6bfa6472c8fa",
+   "title": "當AI開始幫消費者做決定，品牌怎麼做？iKala Connection Day揭企業轉型解方",
+   "channel": "數位時代 Businessnext",
+   "duration_seconds": 0,
+   "published_at": "2026-08-10T00:00:00Z",
+   "thumbnail_url": "https://image-cdn.learnin.tw/bnextmedia/image/album/2026-08/hwgf-1786332679.jpg?w=900&output=webp",
+   "view_count": 0,
+   "category": "入門觀念",
+   "summary": "本文探討在代理式 AI（Agentic AI）與 B2A 時代下，企業面臨的轉型解方。分析搜尋行為從關鍵字轉向生成式搜尋（GEO），強調企業需建立穩固的雲端基礎建設、整合數據與導入 AI 代理，以搶佔決策新戰場。",
+   "tags": [
+    "代理式 AI",
+    "B2A",
+    "GEO",
+    "企業轉型"
+   ],
+   "search_terms": [
+    "Agentic AI",
+    "B2A",
+    "生成式搜尋",
+    "GEO",
+    "企業AI轉型",
+    "iKala",
+    "AI行銷"
+   ],
+   "url": "https://www.bnext.com.tw/article/91795/ikala20260810",
+   "content_type": "article",
+   "difficulty": "入門",
+   "region": "國內",
+   "license": null,
+   "security_score": null,
+   "safety": "安全"
   },
   {
    "video_id": "art_e26f4b1f0dc2",
