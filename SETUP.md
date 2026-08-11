@@ -104,6 +104,42 @@ Start-ScheduledTask -TaskName "AIVideoHub"
 | `StopIfGoingOnBatteries` | 執行中拔電就中止 | `-DontStopIfGoingOnBatteries` |
 | `StartWhenAvailable=False` | 關機那天永久跳過，不補跑 | `-StartWhenAvailable` |
 
+### 踩過的坑之四：.bat 一定要用 CRLF 換行
+`.bat` 若存成 LF 換行（在 Git Bash、VS Code 或多數編輯器裡很容易發生），
+而檔案裡又有中文註解，在排程的 cp950 主控台下 cmd.exe 會算錯位移、
+執行到不存在的指令，**回傳 1 卻不留任何訊息**——log 檔連一個字都不會寫。
+
+實測同一支 `notify.bat`：
+
+| 版本 | 排程執行結果 |
+|------|-------------|
+| 中文註解 + LF | `LastTaskResult=1`，`watchdog.log` 增長 0 bytes ❌ |
+| 中文註解 + CRLF | `LastTaskResult=0`，log 正常寫入 ✅ |
+| ASCII 註解 + LF | `LastTaskResult=0`（僅代表該位移剛好沒中，**不是安全寫法**） |
+
+要注意這是**位移相依**的錯誤：`run.bat` 當時同樣是中文＋LF 卻沒出事，純粹是
+位移剛好躲過——改動一個字的註解就可能讓主管線開始靜默失敗。所以第三列不能
+讀成「改用 ASCII 註解就安全」；唯一可靠的是 CRLF。
+
+專案已加 `.gitattributes`（`*.bat text eol=crlf`），效果是**保證 clone／checkout
+出來的 `.bat` 一定是 CRLF**。但它管不到你本機的編輯器——存檔時被改回 LF，
+git 也不會警告（正規化後 blob 相同，`git status` 看起來是乾淨的）。
+所以編輯過 `.bat` 之後要自己檢查，而且要檢查「有沒有落單的 LF」而不是
+「有沒有 CRLF」——混合換行同樣會出事，只看有無 CRLF 會漏掉：
+```powershell
+if ([regex]::Matches((Get-Content -Raw notify.bat), "(?<!`r)`n").Count) { "有落單的 LF！要修" } else { "CRLF 正常" }
+```
+
+新增或修改 `.gitattributes` 後還有兩個必要的收尾步驟，漏掉等於沒修：
+```bash
+git add --renormalize .   # 否則 git status 會一直顯示 .bat 已修改（索引的大小快取過期）
+git add .gitattributes    # 這個檔案本身沒進版控，其他 clone 就完全不受保護
+```
+
+診斷這類「排程失敗但手動成功」的問題時，關鍵是**手動測試必須連工作目錄與
+主控台字碼頁都一致**。互動式 PowerShell 常是 UTF-8（65001），排程是 cp950，
+所以同一支 bat 手動跑得過、排程跑不過。
+
 ## 6. 設定更新失敗告警（建議）
 系統若連續多天沒成功更新，會主動寄 Email 通知，不必自己盯著網站。
 
@@ -125,6 +161,9 @@ Register-ScheduledTask -TaskName "AIVideoHubWatchdog" -Force `
 ```
 
 門檻可在 `config.yaml` 的 `watchdog.threshold_hours` 調整，預設 48 小時。
+
+**若看門狗排程回報 `LastTaskResult=1` 而 `logs\watchdog.log` 完全沒寫入**，
+先看 §5 的「踩過的坑之四」——`notify.bat` 的換行格式就是最可能的原因。
 
 **為什麼要獨立排程**：主管線若執行到一半被中止，寫在管線裡的通知也不會被執行——
 壞掉的系統無法通報自己壞掉。看門狗獨立執行且只跑幾秒，才能可靠地抓到各種故障。
