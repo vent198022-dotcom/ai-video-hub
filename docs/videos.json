@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-11T04:49:17+00:00",
- "count": 1483,
+ "generated_at": "2026-08-11T05:00:52+00:00",
+ "count": 1486,
  "videos": [
   {
    "video_id": "bqzcLOLy3B0",
@@ -570,6 +570,40 @@
    "safety": null
   },
   {
+   "video_id": "gzNm6ur6FoY",
+   "title": "每月報告只更新數據？用 Notebook 快速找異動、核對來源、產生本月草稿",
+   "channel": "Mica AI 小劇場",
+   "duration_seconds": 184,
+   "published_at": "2026-08-08T14:54:21Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/gzNm6ur6FoY/mqdefault.jpg",
+   "view_count": 3,
+   "category": "辦公應用",
+   "summary": "影片示範運用 Mica 與 Notebook AI 助理 Dora 自動比對每月營運報告數據。透過匯入資料找出異動並標明來源，協助人工核對後快速產生報告草稿，節省重複搜尋的時間。",
+   "tags": [
+    "Mica",
+    "Notebook AI",
+    "營運報告",
+    "辦公自動化"
+   ],
+   "search_terms": [
+    "月報",
+    "營運報告",
+    "數據核對",
+    "Mica",
+    "Dora",
+    "Notebook AI",
+    "自動生成草稿",
+    "數據比對"
+   ],
+   "url": null,
+   "content_type": "video",
+   "difficulty": "入門",
+   "region": "國內",
+   "license": null,
+   "security_score": null,
+   "safety": null
+  },
+  {
    "video_id": "MS5Z5X2Uzh0",
    "title": "【Buzz 教學】1 個 Setup，3 個 AI 員工，10 倍工作效率！AI Agent 分工自動化，唔使寫 Code（廣東話）",
    "channel": "Marco Refuses To Code",
@@ -594,6 +628,40 @@
     "工作流自動化",
     "AI員工",
     "廣東話AI教學"
+   ],
+   "url": null,
+   "content_type": "video",
+   "difficulty": "入門",
+   "region": "國內",
+   "license": null,
+   "security_score": null,
+   "safety": null
+  },
+  {
+   "video_id": "CCgkTANBtAE",
+   "title": "整本公司規章，3 秒給你答案",
+   "channel": "牛逼咻咻丸",
+   "duration_seconds": 231,
+   "published_at": "2026-08-08T13:19:16Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/CCgkTANBtAE/mqdefault.jpg",
+   "view_count": 5,
+   "category": "辦公應用",
+   "summary": "本影片展示 AI 規章助理的應用，能將複雜的公司規章轉化為可對答的智能助手。使用者可用日常用語提問，助理會精準解答並附上條文出處，條件不足時主動反問，避免隨意捏造答案。",
+   "tags": [
+    "規章助理",
+    "企業AI",
+    "知識庫",
+    "辦公應用"
+   ],
+   "search_terms": [
+    "公司規章",
+    "規章查詢",
+    "規章助理",
+    "企業知識庫",
+    "問答系統",
+    "條文對照",
+    "出差報銷",
+    "人事規章"
    ],
    "url": null,
    "content_type": "video",
@@ -698,6 +766,40 @@
    "url": null,
    "content_type": "video",
    "difficulty": "入門",
+   "region": "國內",
+   "license": null,
+   "security_score": null,
+   "safety": null
+  },
+  {
+   "video_id": "HunnyevMpKs",
+   "title": "台灣莞林AI知識長疏湄執行例行工作(內部新人教育演示)",
+   "channel": "liydon林亮宏",
+   "duration_seconds": 232,
+   "published_at": "2026-08-08T02:42:13Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/HunnyevMpKs/mqdefault.jpg",
+   "view_count": 10,
+   "category": "自動化工作流",
+   "summary": "影片示範 AI 知識長執行日常巡查工作，展現如何整合 Gmail、Google 日曆與雲端硬碟資料並自動整理工作回報，協助企業將重複性的搜尋與確認作業交由 AI 處理。",
+   "tags": [
+    "AI知識長",
+    "自動化工作流",
+    "Google整合",
+    "行政自動化"
+   ],
+   "search_terms": [
+    "AI知識長",
+    "工作巡查",
+    "Gmail自動化",
+    "Google Calendar整合",
+    "Google Drive比對",
+    "行政自動化",
+    "內部教育",
+    "工作回報"
+   ],
+   "url": null,
+   "content_type": "video",
+   "difficulty": "進階",
    "region": "國內",
    "license": null,
    "security_score": null,
