@@ -36,11 +36,13 @@ def hours_since_success(conn, now=None):
         return None
     try:
         last = datetime.fromisoformat(raw.replace("Z", "+00:00"))
-    except ValueError:
-        log.warning("last_success_at 格式異常：%s", raw)
+        if last.tzinfo is None:                    # 舊資料或手動編輯可能沒有時區
+            last = last.replace(tzinfo=timezone.utc)
+        now = now or datetime.now(timezone.utc)
+        return (now - last).total_seconds() / 3600
+    except (ValueError, TypeError) as e:
+        log.warning("last_success_at 無法解析（%s）：%s", raw, e)
         return None
-    now = now or datetime.now(timezone.utc)
-    return (now - last).total_seconds() / 3600
 
 
 def build_message(hours, last_success, log_tail):
@@ -118,16 +120,23 @@ def check(conn, env, threshold_hours, log_path, now=None):
 
 
 def main(argv=None):
+    """看門狗進入點。這是修復靜默故障的最後一道防線，本身絕不能再靜默掛掉，
+    因此整段用 try/except 包住——任何未預期的例外都記錄下來並回傳 1，而不是
+    讓看門狗自己也悄悄消失。"""
     logging.basicConfig(level=logging.INFO,
                         format="%(asctime)s %(levelname)s %(message)s")
-    from dotenv import load_dotenv
-    load_dotenv(ROOT / ".env")
-    cfg = yaml.safe_load((ROOT / "config.yaml").read_text(encoding="utf-8"))
-    threshold = (cfg.get("watchdog") or {}).get("threshold_hours", 48)
-    conn = db.connect(ROOT / "videos.db")
-    result = check(conn, os.environ, threshold, ROOT / "logs" / "run.log")
-    log.info("看門狗結果：%s", result)
-    return 0
+    try:
+        from dotenv import load_dotenv
+        load_dotenv(ROOT / ".env")
+        cfg = yaml.safe_load((ROOT / "config.yaml").read_text(encoding="utf-8"))
+        threshold = (cfg.get("watchdog") or {}).get("threshold_hours", 48)
+        conn = db.connect(ROOT / "videos.db")
+        result = check(conn, os.environ, threshold, ROOT / "logs" / "run.log")
+        log.info("看門狗結果：%s", result)
+        return 0
+    except Exception:
+        log.exception("看門狗自身執行失敗")
+        return 1
 
 
 if __name__ == "__main__":

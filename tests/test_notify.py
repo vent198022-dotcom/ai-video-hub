@@ -1,8 +1,6 @@
 """告警模組測試（絕不寄出真實郵件）。"""
 from datetime import datetime, timedelta, timezone
 
-from conftest import make_video
-
 import db
 import notify
 
@@ -32,12 +30,24 @@ def test_hours_since_success_bad_timestamp(tmp_path):
     assert notify.hours_since_success(conn, now=NOW) is None
 
 
+def test_hours_since_success_naive_timestamp_treated_as_utc(tmp_path):
+    """沒有時區的時間戳（舊資料或手動編輯）應視為 UTC 正常算出小時數，不得擲出例外。"""
+    conn = _conn(tmp_path)
+    db.set_meta(conn, "last_success_at", "2026-08-10T12:00:00")   # 無 Z
+    assert notify.hours_since_success(conn, now=NOW) == 24.0
+
+
 def test_build_message_contains_key_facts():
     subject, body = notify.build_message(52.5, "2026-08-09T07:30:00Z", "最後幾行 log")
     assert "未更新" in subject
     assert "52" in body
     assert "2026-08-09" in body
     assert "最後幾行 log" in body
+
+
+def test_build_message_never_succeeded_wording():
+    subject, body = notify.build_message(None, None, "(無)")
+    assert "從未成功完成過" in body
 
 
 def test_send_email_success(monkeypatch):
@@ -126,3 +136,33 @@ def test_check_send_failure_reported(tmp_path, monkeypatch):
     conn = _conn(tmp_path)
     monkeypatch.setattr(notify, "send_email", lambda *a, **k: False)
     assert notify.check(conn, ENV, 48, None, now=NOW) == "alert_failed"
+
+
+def test_check_defaults_to_to_smtp_user_when_alert_to_missing(tmp_path, monkeypatch):
+    """沒設定 ALERT_TO 時應寄給自己（ALERT_SMTP_USER）。"""
+    conn = _conn(tmp_path)
+    calls = []
+    monkeypatch.setattr(notify, "send_email",
+                        lambda host, port, user, pw, to, subj, body: calls.append(to) or True)
+    env = {"ALERT_SMTP_USER": "me@gmail.com", "ALERT_SMTP_PASS": "pw"}   # 無 ALERT_TO
+    assert notify.check(conn, env, 48, None, now=NOW) == "alerted"
+    assert calls == ["me@gmail.com"]
+
+
+def test_check_alerts_exactly_at_threshold(tmp_path, monkeypatch):
+    """剛好等於門檻小時數也算逾時，應告警（與 < 比較一致）。"""
+    conn = _conn(tmp_path)
+    db.set_meta(conn, "last_success_at", "2026-08-09T12:00:00Z")   # 恰好 48 小時前
+    calls = []
+    monkeypatch.setattr(notify, "send_email",
+                        lambda *a, **k: calls.append(a) or True)
+    assert notify.check(conn, ENV, 48, None, now=NOW) == "alerted"
+    assert len(calls) == 1
+
+
+def test_main_returns_1_on_unexpected_failure(monkeypatch):
+    """看門狗自身若出錯也不得往外擲例外——這正是它要防的靜默故障。"""
+    def boom(*a, **k):
+        raise RuntimeError("資料庫打不開")
+    monkeypatch.setattr(notify.db, "connect", boom)
+    assert notify.main() == 1
