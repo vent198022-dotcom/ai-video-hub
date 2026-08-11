@@ -1,7 +1,76 @@
 {
- "generated_at": "2026-08-11T07:32:49+00:00",
- "count": 1525,
+ "generated_at": "2026-08-11T08:05:30+00:00",
+ "count": 1527,
  "videos": [
+  {
+   "video_id": "-mHjL245yiQ",
+   "title": "不懂AI的打工人，3个AI办公软件到底哪个能帮你出活 | WorkBuddy vs Codex vs KimiWork",
+   "channel": "新发帝",
+   "duration_seconds": 765,
+   "published_at": "2026-08-11T07:53:13Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/-mHjL245yiQ/mqdefault.jpg",
+   "view_count": 0,
+   "category": "辦公應用",
+   "summary": "本影片橫向評測 WorkBuddy、Codex 與 KimiWork 三款 AI 辦公軟體，實測撰寫周報、搜尋資訊、整理數據與製作 PPT 四大職場任務，幫助上班族挑選最實用的 AI 工具以提升工作效率。",
+   "tags": [
+    "AI辦公",
+    "WorkBuddy",
+    "Codex",
+    "KimiWork"
+   ],
+   "search_terms": [
+    "AI辦公軟體",
+    "寫周報",
+    "做PPT",
+    "數據整理",
+    "WorkBuddy",
+    "KimiWork",
+    "Codex",
+    "辦公工具",
+    "打工人AI"
+   ],
+   "url": null,
+   "content_type": "video",
+   "difficulty": "入門",
+   "region": "國外",
+   "license": null,
+   "security_score": null,
+   "safety": null
+  },
+  {
+   "video_id": "0k5MxS9yv6U",
+   "title": "【AI教學】用 Claude 將 PDF 轉成 Word 檔：一鍵將 PDF 文件轉成可編輯 DOCX 檔！教學",
+   "channel": "科技兔",
+   "duration_seconds": 228,
+   "published_at": "2026-08-11T07:50:19Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/0k5MxS9yv6U/mqdefault.jpg",
+   "view_count": 1,
+   "category": "辦公應用",
+   "summary": "本影片教學如何使用 Claude AI 將 PDF 文件快速轉換為可編輯的 Word（DOCX）檔案。透過簡單的操作步驟，幫助使用者輕鬆解決 PDF 無法直接編輯的痛點，有效提升辦公與文書處理效率。",
+   "tags": [
+    "Claude",
+    "PDF轉Word",
+    "文書處理",
+    "AI教學"
+   ],
+   "search_terms": [
+    "Claude",
+    "PDF轉檔",
+    "PDF轉Word",
+    "DOCX",
+    "轉成Word",
+    "文件轉換",
+    "檔案轉換",
+    "轉檔教學"
+   ],
+   "url": null,
+   "content_type": "video",
+   "difficulty": "入門",
+   "region": "國內",
+   "license": null,
+   "security_score": null,
+   "safety": null
+  },
   {
    "video_id": "cLbtCbAZwho",
    "title": "別再把 Token 燒光！OpenCode 多 Agent 協作全攻略：從零打造高效率 AI 團隊",
