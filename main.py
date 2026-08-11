@@ -223,6 +223,9 @@ def main():
     except Exception:
         log.exception("發佈階段失敗（資料已存檔，下次執行會一併推送）")
 
+    db.set_meta(conn, "last_success_at", _utc_iso(datetime.now(timezone.utc)))
+    log.info("本次管線執行完成")
+
     return 0
 
 

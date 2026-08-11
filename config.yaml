@@ -100,3 +100,6 @@ github:
     - AI automation workflow
     - text to image
     - AI coding assistant
+
+watchdog:
+  threshold_hours: 48    # 超過這麼久沒成功完成就寄告警信

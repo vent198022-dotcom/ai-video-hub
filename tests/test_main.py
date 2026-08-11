@@ -126,6 +126,30 @@ def test_main_cleanup_failure_does_not_stop_publish(tmp_path, monkeypatch):
     assert stages == ["generate", "publish"]
 
 
+def test_main_records_success_timestamp(tmp_path, monkeypatch):
+    _stub_stages(monkeypatch)
+    monkeypatch.setenv("YOUTUBE_API_KEY", "yt")
+    monkeypatch.setenv("GEMINI_API_KEY", "gm")
+    monkeypatch.setattr(main_mod, "ROOT", tmp_path)
+    _write_cfg(tmp_path)
+    assert main_mod.main() == 0
+    conn = main_mod.db.connect(tmp_path / "videos.db")
+    assert main_mod.db.get_meta(conn, "last_success_at") is not None
+
+
+def test_main_records_success_even_if_publish_reports_no_change(tmp_path, monkeypatch):
+    """沒有變更也算跑完——健康的空跑不應被當成故障。"""
+    _stub_stages(monkeypatch)
+    monkeypatch.setenv("YOUTUBE_API_KEY", "yt")
+    monkeypatch.setenv("GEMINI_API_KEY", "gm")
+    monkeypatch.setattr(main_mod, "ROOT", tmp_path)
+    _write_cfg(tmp_path)
+    monkeypatch.setattr(main_mod.publisher, "publish", lambda *a, **k: False)
+    assert main_mod.main() == 0
+    conn = main_mod.db.connect(tmp_path / "videos.db")
+    assert main_mod.db.get_meta(conn, "last_success_at") is not None
+
+
 def test_main_fetches_submitted_articles(tmp_path, monkeypatch):
     monkeypatch.setattr(main_mod, "load_dotenv", lambda *a, **k: None)
     monkeypatch.setenv("YOUTUBE_API_KEY", "yt")
