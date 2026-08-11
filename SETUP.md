@@ -34,13 +34,21 @@ python main.py
 本專案路徑含空格與中文，**必須用 PowerShell 的排程 API 建立**，不要用 `schtasks /Create`
 （原因見本節末的「踩過的坑」）：
 
+**務必透過 `run_hidden.vbs` 啟動，不要直接指向 `run.bat`**（原因見本節末第二個坑）：
+
 ```powershell
-$bat = "C:\Users\user\Desktop\AI用\claue 工作\AI 知識平台\ai-video-hub\run.bat"
+$vbs = "C:\Users\user\Desktop\AI用\claue 工作\AI 知識平台\ai-video-hub\run_hidden.vbs"
 Register-ScheduledTask -TaskName "AIVideoHub" -Force `
-  -Action (New-ScheduledTaskAction -Execute $bat) `
+  -Action (New-ScheduledTaskAction -Execute "wscript.exe" -Argument "`"$vbs`"") `
   -Trigger (New-ScheduledTaskTrigger -Daily -At 16:00) `
+  -Settings (New-ScheduledTaskSettingsSet -AllowStartIfOnBatteries `
+      -DontStopIfGoingOnBatteries -StartWhenAvailable -RestartCount 3 `
+      -RestartInterval (New-TimeSpan -Minutes 15) `
+      -ExecutionTimeLimit (New-TimeSpan -Hours 2)) `
   -Description "AI 教學影片知識平台每日更新"
 ```
+
+`-Settings` 那幾項也是必要的，預設值對筆電很不友善（見本節末第三個坑）。
 
 **時間建議設 16:00**：Gemini 免費配額在太平洋時間午夜重置，換算為台灣時間夏令 15:00、
 冬令 16:00。設 16:00 可讓兩個季節都落在重置之後，不必隨換季調整。
@@ -48,8 +56,8 @@ Register-ScheduledTask -TaskName "AIVideoHub" -Force `
 建立後**必須驗證儲存正確**——只看到「建立成功」不代表能執行：
 ```powershell
 $x = [xml](schtasks /Query /TN "AIVideoHub" /XML)
-$x.Task.Actions.Exec.Command      # 必須是完整路徑（到 run.bat 結尾）
-$x.Task.Actions.Exec.Arguments    # 必須是空的
+$x.Task.Actions.Exec.Command      # 必須是 wscript.exe
+$x.Task.Actions.Exec.Arguments    # 必須是完整的 run_hidden.vbs 路徑（含引號）
 ```
 
 再實際觸發一次，確認真的跑得動：
@@ -77,12 +85,59 @@ Start-ScheduledTask -TaskName "AIVideoHub"
 關鍵是**建立成功不等於能執行**——`schtasks /Create` 兩種寫法都回報 SUCCESS，
 只有實際觸發或檢查儲存的 XML 才會發現路徑被切壞。
 
-## 6. 日常維運
+### 踩過的坑之二：為什麼要透過 run_hidden.vbs
+排程若直接指向 `run.bat`，每天會彈出一個主控台視窗並停留十幾二十分鐘。
+視窗一旦被關掉（看到擋在螢幕上的黑視窗，任誰都會想關），Python 收到
+`CTRL_CLOSE_EVENT` 而中止，工作排程器回報 `3221225786`（`0xC000013A`），
+當天的更新就沒完成——而且**不會有任何錯誤提示**。
+
+實測：改用 `run_hidden.vbs`（視窗樣式 0）之前，多數日子在 5 分鐘內被中止；
+改用之後完整跑完 21 分鐘、`LastTaskResult=0`。
+
+### 踩過的坑之三：筆電的預設排程設定會讓它幾乎不會跑
+`Register-ScheduledTask` 的預設值中有三項對筆電特別不友善，疊加起來等於
+「只有在插著電、開著機、且不中途拔電的日子才會更新」：
+
+| 預設設定 | 後果 | 對策參數 |
+|---------|------|---------|
+| `DisallowStartIfOnBatteries` | 沒插電就不啟動 | `-AllowStartIfOnBatteries` |
+| `StopIfGoingOnBatteries` | 執行中拔電就中止 | `-DontStopIfGoingOnBatteries` |
+| `StartWhenAvailable=False` | 關機那天永久跳過，不補跑 | `-StartWhenAvailable` |
+
+## 6. 設定更新失敗告警（建議）
+系統若連續多天沒成功更新，會主動寄 Email 通知，不必自己盯著網站。
+
+**準備 Gmail 應用程式密碼**（不是登入密碼，可隨時單獨撤銷）：
+1. 到 https://myaccount.google.com/security 確認「兩步驟驗證」已開啟
+2. 到 https://myaccount.google.com/apppasswords 建立一組，名稱自取
+3. 把 Gmail 地址與 16 碼密碼填進 `.env` 的 `ALERT_SMTP_USER` / `ALERT_SMTP_PASS`
+
+**建立看門狗排程**（每天 20:00 檢查一次，只跑幾秒）：
+```powershell
+$vbs = "C:\Users\user\Desktop\AI用\claue 工作\AI 知識平台\ai-video-hub\run_hidden.vbs"
+Register-ScheduledTask -TaskName "AIVideoHubWatchdog" -Force `
+  -Action (New-ScheduledTaskAction -Execute "wscript.exe" -Argument "`"$vbs`" notify.bat") `
+  -Trigger (New-ScheduledTaskTrigger -Daily -At 20:00) `
+  -Settings (New-ScheduledTaskSettingsSet -AllowStartIfOnBatteries `
+      -DontStopIfGoingOnBatteries -StartWhenAvailable `
+      -ExecutionTimeLimit (New-TimeSpan -Minutes 10)) `
+  -Description "AI 知識平台更新失敗告警"
+```
+
+門檻可在 `config.yaml` 的 `watchdog.threshold_hours` 調整，預設 48 小時。
+
+**為什麼要獨立排程**：主管線若執行到一半被中止，寫在管線裡的通知也不會被執行——
+壞掉的系統無法通報自己壞掉。看門狗獨立執行且只跑幾秒，才能可靠地抓到各種故障。
+
+**限制**：若電腦整天關機，本機看門狗同樣不會執行，因此無法涵蓋「連續多天完全沒開機」
+的情況。要涵蓋那種情境需要外部的雲端監控服務。
+
+## 7. 日常維運
 - 執行紀錄：`logs\run.log`（管線日誌）、`logs\scheduler.log`（排程器輸出）
 - 修改關鍵字/分類：編輯 `config.yaml`（改分類清單時注意：舊影片不會重新分類）
 - YouTube 配額用量：Google Cloud Console → APIs & Services → Quotas
 
-## 7. 手動提交影片、文章或開源專案
+## 8. 手動提交影片、文章或開源專案
 在 `submit.txt` 裡貼上連結（一行一個），下次執行 `run.bat` 就會自動收錄、分類、上架。
 - 貼 **YouTube 連結** → 收錄為影片（支援 watch?v=、youtu.be、shorts 等格式），且不受兩分鐘時長下限限制
 - 貼 **GitHub 專案網址** → 收錄為開源專案，自動帶入星數、授權與安全評分
@@ -94,7 +149,7 @@ Start-ScheduledTask -TaskName "AIVideoHub"
 **手動指定的開源專案不套用授權檢查**（你指定就代表已自行判斷），但仍會經過 AI 風險審視——
 若被判定為爬蟲／破解／要求交出金鑰等類型，不會上架，原因會記錄在 `logs\run.log`。
 
-## 8. 手動下架內容
+## 9. 手動下架內容
 在 `remove.txt` 裡貼上要下架的連結（一行一個，影片／文章／專案皆可），
 下次執行 `run.bat` 就會從網站移除，而且不會被重新收錄。
 
@@ -108,7 +163,7 @@ Start-ScheduledTask -TaskName "AIVideoHub"
 **注意**：復原是以整份清單為準——清空或刪除整個 `remove.txt`（而不是只刪掉其中
 一行），等同一次把所有先前下架的項目全部復原，請小心操作。
 
-## 9. 難易度與國內外標示
+## 10. 難易度與國內外標示
 每筆內容會由 AI 標上「入門／進階／專家」與「國內／國外」，網站上可依程度、國內外篩選。
 新收的內容會自動標記；若要為既有內容補標，執行一次：
 `python tag_metadata.py`
@@ -116,7 +171,7 @@ Start-ScheduledTask -TaskName "AIVideoHub"
 一次執行會分批補齊所有難易度或國內外尚未標記的內容，每批 100 筆；若中途中斷，已標記的會保留，下次執行接續剩下的。
 補標後請再跑一次 `run.bat` 讓網站更新。）
 
-## 10. 開源專案的安全性說明
+## 11. 開源專案的安全性說明
 收錄的開源專案會經過三層風險訊號檢查：
 1. **授權條款**：沒有明確開源授權（例如顯示 NOASSERTION）的專案不予收錄
 2. **AI 風險審視**：AI 閱讀 README，若判定為爬蟲／破解／要求交出金鑰等類型則不上架

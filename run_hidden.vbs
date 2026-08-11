@@ -9,12 +9,18 @@
 ' 與執行時限反映真正的管線狀態，而不是啟動器本身。
 
 Option Explicit
-Dim shell, fso, scriptDir, exitCode
+Dim shell, fso, scriptDir, exitCode, target
 
 Set shell = CreateObject("WScript.Shell")
 Set fso = CreateObject("Scripting.FileSystemObject")
 scriptDir = fso.GetParentFolderName(WScript.ScriptFullName)
 
-exitCode = shell.Run("""" & scriptDir & "\run.bat""", 0, True)
+If WScript.Arguments.Count > 0 Then
+    target = WScript.Arguments(0)
+Else
+    target = "run.bat"
+End If
+
+exitCode = shell.Run("""" & scriptDir & "\" & target & """", 0, True)
 
 WScript.Quit exitCode
