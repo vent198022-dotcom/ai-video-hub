@@ -1,7 +1,75 @@
 {
- "generated_at": "2026-08-11T05:21:30+00:00",
- "count": 1522,
+ "generated_at": "2026-08-11T06:47:00+00:00",
+ "count": 1524,
  "videos": [
+  {
+   "video_id": "xU1QsB2dBd8",
+   "title": "AI 代理人的網頁導航儀：Firecrawl 全攻略，從 96% 覆蓋率到自動化擷取實戰",
+   "channel": "S.L. Chiang",
+   "duration_seconds": 308,
+   "published_at": "2026-08-11T05:59:43Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/xU1QsB2dBd8/mqdefault.jpg",
+   "view_count": 0,
+   "category": "程式開發",
+   "summary": "本影片解析專為 LLM 設計的網頁擷取 API Firecrawl，介紹將 HTML 轉為 Markdown 的功能，並教學透過 Docker 部署以建立 RAG 與 AI Agent。",
+   "tags": [
+    "Firecrawl",
+    "網頁擷取",
+    "RAG",
+    "AI Agent"
+   ],
+   "search_terms": [
+    "Firecrawl",
+    "網頁爬蟲",
+    "網路爬蟲",
+    "LLM爬蟲",
+    "RAG資料處理",
+    "Docker部署",
+    "AI代理人",
+    "網頁擷取"
+   ],
+   "url": null,
+   "content_type": "video",
+   "difficulty": "進階",
+   "region": "國內",
+   "license": null,
+   "security_score": null,
+   "safety": null
+  },
+  {
+   "video_id": "0w3EDFZKzXE",
+   "title": "別再讓 AI 瞎猜你的需求！OpenSpec：讓 AI 乖乖聽話的「規格驅動開發」完全指南",
+   "channel": "S.L. Chiang",
+   "duration_seconds": 252,
+   "published_at": "2026-08-11T05:29:18Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/0w3EDFZKzXE/mqdefault.jpg",
+   "view_count": 0,
+   "category": "程式開發",
+   "summary": "本影片介紹 OpenSpec 框架，帶領觀者透過「規格驅動開發」（SDD）解決 AI 即興編碼問題。內容包含環境安裝、初始化配置與完整工作流導覽，協助開發者精準引導 AI 編碼助手。",
+   "tags": [
+    "OpenSpec",
+    "規格驅動開發",
+    "AI程式開發",
+    "Claude Code"
+   ],
+   "search_terms": [
+    "OpenSpec",
+    "規格驅動開發",
+    "SDD",
+    "AI寫程式",
+    "Vibe Coding",
+    "Claude Code",
+    "Cursor",
+    "程式開發"
+   ],
+   "url": null,
+   "content_type": "video",
+   "difficulty": "進階",
+   "region": "國內",
+   "license": null,
+   "security_score": null,
+   "safety": null
+  },
   {
    "video_id": "kQfudZxp_WE",
    "title": "Insta360 GO Ultra Al語音助理使用教學",
