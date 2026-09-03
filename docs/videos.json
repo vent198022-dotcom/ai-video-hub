@@ -1,7 +1,108 @@
 {
- "generated_at": "2026-09-02T08:15:26+00:00",
- "count": 1983,
+ "generated_at": "2026-09-03T08:15:01+00:00",
+ "count": 1986,
  "videos": [
+  {
+   "video_id": "Pbrj-hTn0Gg",
+   "title": "AI 寫程式實戰：用 Gemini＋Apps Script 從自然語言做到自動化",
+   "channel": "贊贊小屋",
+   "duration_seconds": 559,
+   "published_at": "2026-09-02T09:58:49Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/Pbrj-hTn0Gg/mqdefault.jpg",
+   "view_count": 876,
+   "category": "程式開發",
+   "summary": "本影片實戰示範如何運用 Gemini 產生 Google Apps Script 程式碼處理發票明細，並針對 Apps Script 的六分鐘執行限制提出自動化解決方案。",
+   "tags": [
+    "Gemini",
+    "Apps Script",
+    "AI寫程式",
+    "工作自動化"
+   ],
+   "search_terms": [
+    "Gemini",
+    "Apps Script",
+    "Google Apps Script",
+    "AI寫程式",
+    "自動化工作流",
+    "發票處理",
+    "自然語言編程"
+   ],
+   "url": null,
+   "content_type": "video",
+   "difficulty": "進階",
+   "region": "國內",
+   "license": null,
+   "security_score": null,
+   "safety": null
+  },
+  {
+   "video_id": "xTJcHRGw8aw",
+   "title": "[2026/08/31課程錄影] Token Token ｜從 Cowork 到 Agent P3，AI 用量與預算編列大補帖--微軟Microsoft 365 Copilot 手把手線上教學工作坊",
+   "channel": "微軟政府教育醫療團隊 Public Sector, Microsoft Taiwan",
+   "duration_seconds": 2957,
+   "published_at": "2026-09-02T08:21:50Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/xTJcHRGw8aw/mqdefault.jpg",
+   "view_count": 60,
+   "category": "辦公應用",
+   "summary": "本影片為微軟 M365 Copilot 線上教學，解析對話式與委派式 AI 差異、GitHub Copilot 實戰應用、Agent P3 架構，以及 Token 用量成本試算與採購建議。",
+   "tags": [
+    "Copilot",
+    "M365",
+    "Token預算",
+    "AI Agent"
+   ],
+   "search_terms": [
+    "Copilot",
+    "微軟AI",
+    "M365 Copilot",
+    "Token計算",
+    "AI預算",
+    "Agent P3",
+    "GitHub Copilot",
+    "AI用量"
+   ],
+   "url": null,
+   "content_type": "video",
+   "difficulty": "進階",
+   "region": "國內",
+   "license": null,
+   "security_score": null,
+   "safety": null
+  },
+  {
+   "video_id": "smGckILdC-4",
+   "title": "AI AGENT 新手教學：為什麼 AI 有時會上網查資料失敗？教你如何在 IG、Facebook、Reddit、X 等平台/論壇爬取資料",
+   "channel": "Heison│AI 教育",
+   "duration_seconds": 684,
+   "published_at": "2026-09-02T08:08:27Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/smGckILdC-4/mqdefault.jpg",
+   "view_count": 82,
+   "category": "工具教學",
+   "summary": "本影片介紹 AI Agent 資料抓取技巧，說明社群平台擋爬蟲的原因，並示範安裝開源工具 Agent Reach，協助 AI 順利抓取 IG 與 Reddit 資料。",
+   "tags": [
+    "AI Agent",
+    "Agent Reach",
+    "網路爬蟲",
+    "資料抓取"
+   ],
+   "search_terms": [
+    "AI Agent",
+    "爬蟲",
+    "社群爬蟲",
+    "IG抓取",
+    "Reddit資料",
+    "Agent Reach",
+    "自動抓取",
+    "網頁爬蟲"
+   ],
+   "url": null,
+   "content_type": "video",
+   "difficulty": "入門",
+   "region": "國內",
+   "license": null,
+   "security_score": null,
+   "safety": null
+  },
   {
    "video_id": "rx_QE35gsHE",
    "title": "2026 iLink Corner微沙龍III｜從零開一門AI 協作課：臺北城市科技大學行銷與流通管理系 邱義盛 助理教授",
