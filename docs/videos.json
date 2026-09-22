@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-09-18T08:14:31+00:00",
- "count": 2276,
+ "generated_at": "2026-09-22T15:18:28+00:00",
+ "count": 2275,
  "videos": [
   {
    "video_id": "e84lVLfhD7s",
@@ -5601,38 +5601,6 @@
    "content_type": "video",
    "difficulty": "入門",
    "region": "國外",
-   "license": null,
-   "security_score": null,
-   "safety": null
-  },
-  {
-   "video_id": "6AM5pvx3ngI",
-   "title": "Codex AI 保姆級教學1",
-   "channel": "AI樂高學堂",
-   "duration_seconds": 514,
-   "published_at": "2026-09-08T13:05:45Z",
-   "thumbnail_url": "https://i.ytimg.com/vi/6AM5pvx3ngI/mqdefault.jpg",
-   "view_count": 0,
-   "category": "程式開發",
-   "summary": "本影片為 AI 樂高學堂製作的 Codex AI 保姆級教學第一集，主要針對初學者講解 Codex AI 的基本概念與上手步驟，協助使用者迅速掌握 AI 輔助程式開發的技巧。",
-   "tags": [
-    "Codex AI",
-    "程式開發",
-    "AI教學"
-   ],
-   "search_terms": [
-    "Codex",
-    "Codex AI",
-    "Codex教學",
-    "AI寫程式",
-    "保姆級教學",
-    "AI樂高學堂",
-    "程式AI"
-   ],
-   "url": null,
-   "content_type": "video",
-   "difficulty": "入門",
-   "region": "國內",
    "license": null,
    "security_score": null,
    "safety": null
