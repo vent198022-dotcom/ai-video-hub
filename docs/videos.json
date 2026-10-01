@@ -1,7 +1,171 @@
 {
- "generated_at": "2026-09-30T08:36:14+00:00",
- "count": 2295,
+ "generated_at": "2026-10-01T08:39:56+00:00",
+ "count": 2301,
  "videos": [
+  {
+   "video_id": "gh_JuliusBrussee_caveman",
+   "title": "JuliusBrussee/caveman",
+   "channel": "JuliusBrussee",
+   "duration_seconds": 0,
+   "published_at": "2026-10-01T03:43:47Z",
+   "thumbnail_url": "https://opengraph.githubassets.com/1/JuliusBrussee/caveman",
+   "view_count": 108636,
+   "category": "開源工具",
+   "summary": "Caveman 是一個開源工具，旨在壓縮 AI 編程 Agent 的 Token 輸出量。透過精簡 AI 的回答贅字，能在不損害程式碼品質的前提下，將 Token 費用降低 1.4 至 3 倍。",
+   "tags": [
+    "開源專案",
+    "Token優化",
+    "AI編程",
+    "成本降低"
+   ],
+   "search_terms": [
+    "caveman",
+    "token 節約",
+    "ai coding agent",
+    "程式開發工具",
+    "代碼生成",
+    "節省成本",
+    "llm prompt"
+   ],
+   "url": "https://github.com/JuliusBrussee/caveman",
+   "content_type": "repo",
+   "difficulty": "進階",
+   "region": "國外",
+   "license": "Apache-2.0",
+   "security_score": 6.5,
+   "safety": "安全"
+  },
+  {
+   "video_id": "LRCrB5mQxEY",
+   "title": "Robins Director 網頁版教學｜主要功能快速上手",
+   "channel": "service robinstech",
+   "duration_seconds": 187,
+   "published_at": "2026-10-01T01:29:00Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/LRCrB5mQxEY/mqdefault.jpg",
+   "view_count": 2,
+   "category": "工具教學",
+   "summary": "本影片介紹 Robins Director 網頁版的主要功能與基本操作流程，涵蓋介面配置、待辦事項、專案指揮台、行事曆、郵件整合以及 AI 助理對話與個人知識庫系統，協助使用者快速上手。",
+   "tags": [
+    "Robins Director",
+    "AI助理",
+    "工具教學",
+    "辦公效率"
+   ],
+   "search_terms": [
+    "Robins Director",
+    "AI助理",
+    "網頁版教學",
+    "專案管理",
+    "知識庫",
+    "辦公工具",
+    "數位導航"
+   ],
+   "url": null,
+   "content_type": "video",
+   "difficulty": "入門",
+   "region": "國內",
+   "license": null,
+   "security_score": null,
+   "safety": null
+  },
+  {
+   "video_id": "8KUCV8YfRwY",
+   "title": "T++教育+年華_方方老師_AI Agent初體驗：製作教學網頁",
+   "channel": "廣臻科技KJCStech",
+   "duration_seconds": 5320,
+   "published_at": "2026-09-30T13:45:45Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/8KUCV8YfRwY/mqdefault.jpg",
+   "view_count": 1398,
+   "category": "工具教學",
+   "summary": "本影片由方方老師示範如何運用 AI Agent 人工智慧代理製作教學網頁。內容針對無程式背景的新手，教導下達精準指令讓 AI 協助設計網頁，輕鬆整理教材與作品。",
+   "tags": [
+    "AI Agent",
+    "網頁設計",
+    "無程式碼",
+    "教學應用"
+   ],
+   "search_terms": [
+    "AI Agent",
+    "製作網頁",
+    "網頁設計",
+    "免寫程式",
+    "教學網頁",
+    "人工智慧代理",
+    "AI網頁生成"
+   ],
+   "url": null,
+   "content_type": "video",
+   "difficulty": "入門",
+   "region": "國內",
+   "license": null,
+   "security_score": null,
+   "safety": null
+  },
+  {
+   "video_id": "htjqGK4smHY",
+   "title": "🎯 研究人都在用！AI寫國科會計畫全攻略【Gemini × GEM × Spark × AI Agent 實戰教學】-提示詞見說明欄",
+   "channel": "YS Class",
+   "duration_seconds": 3061,
+   "published_at": "2026-09-30T13:02:38Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/htjqGK4smHY/mqdefault.jpg",
+   "view_count": 2221,
+   "category": "辦公應用",
+   "summary": "本課程為運用 Gemini、GEM、Spark 及 AI Agent 撰寫國科會計畫的實戰教學。內容涵蓋研究主題發想、文獻整理、研究架構設計與計畫書優化，協助提升計畫書撰寫效率與內容品質。",
+   "tags": [
+    "國科會計畫",
+    "Gemini",
+    "AI Agent",
+    "研究計畫"
+   ],
+   "search_terms": [
+    "國科會計畫",
+    "AI寫計畫",
+    "Gemini教學",
+    "研究計畫",
+    "論文寫作",
+    "AI研究助手",
+    "計畫書優化"
+   ],
+   "url": null,
+   "content_type": "video",
+   "difficulty": "進階",
+   "region": "國內",
+   "license": null,
+   "security_score": null,
+   "safety": null
+  },
+  {
+   "video_id": "UDmlTEq1HoQ",
+   "title": "ChatGPT Dots 廣東話實測：OpenAI 新 AI Agent 點用？5 個重點一次睇",
+   "channel": "ekcheungAI",
+   "duration_seconds": 355,
+   "published_at": "2026-09-30T11:14:08Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/UDmlTEq1HoQ/mqdefault.jpg",
+   "view_count": 847,
+   "category": "工具教學",
+   "summary": "本影片實測 OpenAI 推出的 ChatGPT Dots AI Agent。內容透過 5 大重點解析其特點與開通步驟，並親自示範交辦任務給 Dot，實測其任務跟進與資料抽查表現。",
+   "tags": [
+    "ChatGPT Dots",
+    "OpenAI",
+    "AI Agent",
+    "廣東話實測"
+   ],
+   "search_terms": [
+    "ChatGPT Dots",
+    "OpenAI Agent",
+    "ChatGPT點用",
+    "AI代理",
+    "ChatGPT教學",
+    "Dots實測"
+   ],
+   "url": null,
+   "content_type": "video",
+   "difficulty": "入門",
+   "region": "國內",
+   "license": null,
+   "security_score": null,
+   "safety": null
+  },
   {
    "video_id": "2doxloDiPO4",
    "title": "3步驟打造專屬AI助手，不寫一行程式碼｜日常AI教學5-3",
@@ -1002,6 +1166,40 @@
    "safety": null
   },
   {
+   "video_id": "_wthsTUQyy0",
+   "title": "我没写一行代码！用 ChatGPT 做出了 YouTube 和 X 平台素材收集工具",
+   "channel": "AI零成本实验室 (AI For Free)",
+   "duration_seconds": 686,
+   "published_at": "2026-09-17T07:00:30Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/_wthsTUQyy0/mqdefault.jpg",
+   "view_count": 48,
+   "category": "程式開發",
+   "summary": "本影片展示如何利用 ChatGPT 進行零程式碼開發，免寫程式即可打造出 YouTube 與 X 平台的素材收集工具。內容包含提示詞設計、網頁搭建與自動化工作流程實作。",
+   "tags": [
+    "ChatGPT",
+    "無程式碼開發",
+    "素材收集",
+    "AI開發"
+   ],
+   "search_terms": [
+    "無程式碼",
+    "零代碼",
+    "ChatGPT開發",
+    "網頁製作",
+    "素材收集",
+    "自媒體工具",
+    "AI寫程式",
+    "提示詞"
+   ],
+   "url": null,
+   "content_type": "video",
+   "difficulty": "入門",
+   "region": "國外",
+   "license": null,
+   "security_score": null,
+   "safety": null
+  },
+  {
    "video_id": "Zr89FacKBlg",
    "title": "Hermes Agent：會自我學習的AI",
    "channel": "Pluto Chang",
@@ -1402,6 +1600,72 @@
    "content_type": "video",
    "difficulty": "進階",
    "region": "國內",
+   "license": null,
+   "security_score": null,
+   "safety": null
+  },
+  {
+   "video_id": "kBUDisfjsgc",
+   "title": "Claude Code 第26课 — 远程控制:从手机继续一次会话",
+   "channel": "AI 从零到高级)",
+   "duration_seconds": 963,
+   "published_at": "2026-09-16T04:08:43Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/kBUDisfjsgc/mqdefault.jpg",
+   "view_count": 0,
+   "category": "程式開發",
+   "summary": "內容介紹 Claude Code 的遠端控制功能，說明其運作原理與啟用要求。影片示範如何透過手機或其他裝置追蹤並互動在電腦上執行的會話，實現跨裝置銜接 AI 開發流程。",
+   "tags": [
+    "Claude Code",
+    "遠端控制",
+    "AI編程",
+    "工具教學"
+   ],
+   "search_terms": [
+    "Claude Code",
+    "遠端控制",
+    "手機控制",
+    "遠程會話",
+    "AI寫程式",
+    "Claude",
+    "跨裝置"
+   ],
+   "url": null,
+   "content_type": "video",
+   "difficulty": "進階",
+   "region": "國外",
+   "license": null,
+   "security_score": null,
+   "safety": null
+  },
+  {
+   "video_id": "gWGej5Q1TY0",
+   "title": "Claude Code 第19课 — MCP:连接外部工具",
+   "channel": "AI 从零到高级)",
+   "duration_seconds": 973,
+   "published_at": "2026-09-16T03:38:40Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/gWGej5Q1TY0/mqdefault.jpg",
+   "view_count": 0,
+   "category": "程式開發",
+   "summary": "本課程介紹模型上下文協定（MCP）概念，說明 MCP 伺服器如何提供工具與資源。影片透過 GitHub 與 Notion 等整合實例，示範 MCP 如何改善 AI 自動化工作流程。",
+   "tags": [
+    "Claude Code",
+    "MCP",
+    "模型上下文協定",
+    "工具整合"
+   ],
+   "search_terms": [
+    "Claude Code",
+    "MCP",
+    "Model Context Protocol",
+    "GitHub整合",
+    "Notion整合",
+    "AI工具鏈",
+    "外部工具"
+   ],
+   "url": null,
+   "content_type": "video",
+   "difficulty": "進階",
+   "region": "國外",
    "license": null,
    "security_score": null,
    "safety": null
@@ -19407,40 +19671,6 @@
    "safety": null
   },
   {
-   "video_id": "9DocEccwPok",
-   "title": "Claude Code 權限與安全設定新手指南：先看懂它能碰什麼，再決定要不要放行",
-   "channel": "Ricky Huang",
-   "duration_seconds": 1209,
-   "published_at": "2026-08-20T04:29:24Z",
-   "thumbnail_url": "https://i.ytimg.com/vi/9DocEccwPok/mqdefault.jpg",
-   "view_count": 0,
-   "category": "工具教學",
-   "summary": "本影片為 Claude Code 的安全設定指南，解析登入憑證、工作範圍與工具權限授權，協助建立最小授權與執行確認流程，讓開發者在操作效率與資安防護間取得平衡。",
-   "tags": [
-    "Claude Code",
-    "資安設定",
-    "權限管理",
-    "AI程式開發"
-   ],
-   "search_terms": [
-    "Claude Code",
-    "Claude",
-    "權限設定",
-    "安全指南",
-    "最小授權",
-    "命令執行",
-    "資安防護",
-    "AI編程"
-   ],
-   "url": null,
-   "content_type": "video",
-   "difficulty": "入門",
-   "region": "國內",
-   "license": null,
-   "security_score": null,
-   "safety": null
-  },
-  {
    "video_id": "BLFFQmBMx-4",
    "title": "WJI 無限畫布教學｜劇本一鍵變動畫：分鏡、角色、配音到影片一次完成（廣東話版）",
    "channel": "Wayne Tam",
@@ -36510,40 +36740,6 @@
    "license": "Apache-2.0",
    "security_score": null,
    "safety": "安全"
-  },
-  {
-   "video_id": "luNgxz7QzQ4",
-   "title": "规则越多 AI 越笨？Anthropic删掉80%Claude Code系统提示词，零损失",
-   "channel": "夜讀電臺",
-   "duration_seconds": 963,
-   "published_at": "2026-07-26T11:20:53Z",
-   "thumbnail_url": "https://i.ytimg.com/vi/luNgxz7QzQ4/mqdefault.jpg",
-   "view_count": 0,
-   "category": "入門觀念",
-   "summary": "本影片拆解 Anthropic 官方報告，探討為何新版 Claude 模型刪除了 80% 的系統提示詞。內容分析指令衝突與限制探索等問題，並介紹 Prompt 工程的觀念轉變。",
-   "tags": [
-    "Prompt工程",
-    "Claude Code",
-    "Anthropic",
-    "提示詞優化"
-   ],
-   "search_terms": [
-    "Claude Code",
-    "提示詞",
-    "Prompt工程",
-    "Anthropic",
-    "系統提示詞",
-    "AI編程",
-    "上下文工程",
-    "Claude 5"
-   ],
-   "url": null,
-   "content_type": "video",
-   "difficulty": "進階",
-   "region": "國外",
-   "license": null,
-   "security_score": null,
-   "safety": null
   },
   {
    "video_id": "gh_dagucloud_dagu",
