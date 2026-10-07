@@ -1,7 +1,41 @@
 {
- "generated_at": "2026-10-06T08:45:50+00:00",
- "count": 2362,
+ "generated_at": "2026-10-07T08:51:44+00:00",
+ "count": 2372,
  "videos": [
+  {
+   "video_id": "art_db4cb2c2f488",
+   "title": "Claude Cowork改上雲端！10/6起Pro、Max用戶新任務不能再選本機，注意事項一次看",
+   "channel": "數位時代 Businessnext",
+   "duration_seconds": 0,
+   "published_at": "2026-10-07T00:00:00Z",
+   "thumbnail_url": "https://image-cdn.learnin.tw/bnextmedia/image/album/2026-10/img-mcp-e64af70f42081248.png?w=900&output=webp",
+   "view_count": 0,
+   "category": "工具教學",
+   "summary": "本文介紹 Claude Cowork 任務全面改為雲端執行的改版重點與操作指引。文中說明跨裝置接續、本機檔案讀取機制與隱私權設定，並詳細提供將 Cowork 任務匯出並移轉至 Claude Code 執行的三大步驟，幫助使用者順利調整 AI 協作與自動化流程。",
+   "tags": [
+    "Claude",
+    "Claude Cowork",
+    "Anthropic",
+    "Claude Code"
+   ],
+   "search_terms": [
+    "Claude",
+    "Claude Cowork",
+    "Claude Code",
+    "Anthropic",
+    "AI協作",
+    "雲端工作流",
+    "任務轉移",
+    "桌面版AI"
+   ],
+   "url": "https://www.bnext.com.tw/article/92536/claude-cowork-cloud-pro-max-october-6",
+   "content_type": "article",
+   "difficulty": "進階",
+   "region": "國內",
+   "license": null,
+   "security_score": null,
+   "safety": null
+  },
   {
    "video_id": "art_c941fef6248b",
    "title": "ChatGPT分支怎麼用？Branch功能教學、3種適用情境一次看",
@@ -94,6 +128,40 @@
     "SOP自動化"
    ],
    "url": "https://www.bnext.com.tw/article/92500/ai-agent-skills-llm-enterprise-app-sop",
+   "content_type": "article",
+   "difficulty": "入門",
+   "region": "國內",
+   "license": null,
+   "security_score": null,
+   "safety": null
+  },
+  {
+   "video_id": "art_59f9bef78ed0",
+   "title": "AOI、VLM是什麼？一文看懂視覺品檢的50年大躍進，它「睛驗」老道仍是工業AI主流",
+   "channel": "數位時代 Businessnext",
+   "duration_seconds": 0,
+   "published_at": "2026-10-06T00:00:00Z",
+   "thumbnail_url": "https://image-cdn.learnin.tw/bnextmedia/image/album/2026-09/img-mcp-2592b2759cd44d1a.jpg?w=900&output=webp",
+   "view_count": 0,
+   "category": "入門觀念",
+   "summary": "本文探討工業自動化中機器視覺與 AI 的演進歷程，解析傳統規則式 AOI 與深度學習的互補關係。內容介紹視覺語言模型（VLM）在情境理解上的突破，並分析工檢從過殺複判到智慧導航的實際應用，幫助讀者建立視覺品檢的核心概念。",
+   "tags": [
+    "AOI",
+    "VLM",
+    "機器視覺",
+    "工業AI"
+   ],
+   "search_terms": [
+    "AOI",
+    "VLM",
+    "機器視覺",
+    "瑕疵檢測",
+    "工業自動化",
+    "視覺語言模型",
+    "品檢AI",
+    "深度學習品檢"
+   ],
+   "url": "https://www.bnext.com.tw/article/92522/machine-vision-inspection-aoi-ai-vlm",
    "content_type": "article",
    "difficulty": "入門",
    "region": "國內",
@@ -2430,6 +2498,71 @@
    "safety": null
   },
   {
+   "video_id": "R2ca2IMYgNE",
+   "title": "02 用截圖方式向GPT提問與錄製巨集",
+   "channel": "吳老師EXCEL VBA設計(大數據自動化)教學",
+   "duration_seconds": 877,
+   "published_at": "2026-09-23T13:00:50Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/R2ca2IMYgNE/mqdefault.jpg",
+   "view_count": 0,
+   "category": "辦公應用",
+   "summary": "本影片教學如何透過截圖方式向ChatGPT提問以產生Excel公式，並展示錄製巨集與新增按鈕的基本操作，結合AI與VBA技術來提升試算表自動化與數據處理效率。",
+   "tags": [
+    "ChatGPT",
+    "Excel",
+    "VBA",
+    "巨集"
+   ],
+   "search_terms": [
+    "Excel AI",
+    "截圖問AI",
+    "ChatGPT試算表",
+    "錄製巨集",
+    "VBA生成",
+    "AI產生公式",
+    "自動化試算表"
+   ],
+   "url": null,
+   "content_type": "video",
+   "difficulty": "入門",
+   "region": "國內",
+   "license": null,
+   "security_score": null,
+   "safety": null
+  },
+  {
+   "video_id": "fRY4qcHuTWk",
+   "title": "03 截圖給AI產生公式",
+   "channel": "吳老師EXCEL VBA設計(大數據自動化)教學",
+   "duration_seconds": 547,
+   "published_at": "2026-09-23T12:51:24Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/fRY4qcHuTWk/mqdefault.jpg",
+   "view_count": 1,
+   "category": "辦公應用",
+   "summary": "本教學展示如何將Excel表格截圖發送給AI來自動生成函數公式，並介紹利用AI輔助編寫VBA程式碼與過濾錯誤資料的技巧，幫助使用者簡化試算表處理流程。",
+   "tags": [
+    "ChatGPT",
+    "Excel公式",
+    "截圖提問",
+    "VBA"
+   ],
+   "search_terms": [
+    "截圖產生公式",
+    "Excel AI公式",
+    "ChatGPT Excel",
+    "VBA程式碼",
+    "AI試算表",
+    "函數生成"
+   ],
+   "url": null,
+   "content_type": "video",
+   "difficulty": "入門",
+   "region": "國內",
+   "license": null,
+   "security_score": null,
+   "safety": null
+  },
+  {
    "video_id": "JFzMvAWdoeE",
    "title": "【Claude Artifacts 完整教學】不用寫程式的 AI 神器",
    "channel": "AI with Greyson",
@@ -2629,6 +2762,72 @@
    "safety": null
   },
   {
+   "video_id": "HhbhT7ATIV0",
+   "title": "Google Flow 完整教學！一鍵生成分鏡、角色、音效全流程實測！AI 做爆紅影片真係咁勁？",
+   "channel": "Mike Ng",
+   "duration_seconds": 587,
+   "published_at": "2026-09-17T13:30:13Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/HhbhT7ATIV0/mqdefault.jpg",
+   "view_count": 32,
+   "category": "AI 影像與影片生成",
+   "summary": "本影片深入解析 Google Flow AI 影片生成工具。內容涵蓋專案建立、點數分配，並透過 Storyboard Studio 自動生成故事分鏡、角色視覺設定與實測 AI 字幕生成功能。",
+   "tags": [
+    "Google Flow",
+    "AI影片生成",
+    "分鏡製作",
+    "短影音"
+   ],
+   "search_terms": [
+    "Google Flow",
+    "AI剪輯",
+    "AI影片",
+    "分鏡生成",
+    "故事板",
+    "字幕生成",
+    "影片創作"
+   ],
+   "url": null,
+   "content_type": "video",
+   "difficulty": "入門",
+   "region": "國內",
+   "license": null,
+   "security_score": null,
+   "safety": null
+  },
+  {
+   "video_id": "yb8CT9sOnuk",
+   "title": "最新!🔥由0到成條片! ChatGPT自動剪片全流程💪保證最簡易清晰! 詳盡示範教學! 💯全剪輯、特效、字幕、b-roll、聲效...全自動！(附上AI剪輯指令）@chuchuchutv",
+   "channel": "Chuchu豬 TV",
+   "duration_seconds": 727,
+   "published_at": "2026-09-17T13:20:42Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/yb8CT9sOnuk/mqdefault.jpg",
+   "view_count": 12716,
+   "category": "AI 影像與影片生成",
+   "summary": "本影片示範使用 ChatGPT 實現全自動影片剪輯流程。內容涵蓋 AI 剪輯指令應用，自動添加特效、字幕、B-roll 素材與聲效設定，幫助創作者高效完成影片製作。",
+   "tags": [
+    "ChatGPT",
+    "自動剪片",
+    "AI剪輯",
+    "影片製作"
+   ],
+   "search_terms": [
+    "ChatGPT剪輯",
+    "自動剪片",
+    "AI剪片指令",
+    "B-roll",
+    "影片特效",
+    "自動字幕",
+    "全自動剪輯"
+   ],
+   "url": null,
+   "content_type": "video",
+   "difficulty": "入門",
+   "region": "國內",
+   "license": null,
+   "security_score": null,
+   "safety": null
+  },
+  {
    "video_id": "e84lVLfhD7s",
    "title": "每次要配音都要開網站貼文字？MCP ＋ API 把 Fish Audio 接進 AI Agent｜所有聲音都在對話框裡直接生成",
    "channel": "Hei_Ai 成長日記",
@@ -2699,6 +2898,39 @@
    "safety": null
   },
   {
+   "video_id": "WZGW3722DmM",
+   "title": "[ 享玩AI ]一張圖片變 AI 短片？GPT+MiniMax H3 實測| 不用自己拍攝，AI 也能生成療癒系料理短片|",
+   "channel": "享知Cultiwise",
+   "duration_seconds": 361,
+   "published_at": "2026-09-17T11:30:17Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/WZGW3722DmM/mqdefault.jpg",
+   "view_count": 565,
+   "category": "AI 影像與影片生成",
+   "summary": "本影片示範如何結合 GPT 與海螺 AI（MiniMax H3），將單張圖片轉化為療癒系料理短片。教學引導觀眾發想內容、整理提示詞，並完成圖生影片的創作流程。",
+   "tags": [
+    "MiniMax H3",
+    "海螺AI",
+    "圖生影片",
+    "ChatGPT"
+   ],
+   "search_terms": [
+    "圖片變影片",
+    "海螺AI",
+    "MiniMax",
+    "GPT提示詞",
+    "AI短片",
+    "ASMR短片",
+    "圖生影片"
+   ],
+   "url": null,
+   "content_type": "video",
+   "difficulty": "入門",
+   "region": "國內",
+   "license": null,
+   "security_score": null,
+   "safety": null
+  },
+  {
    "video_id": "xD1hYakh8ys",
    "title": "Can AI Be Your 3D Modeling Assistant A Full Blender Workflow Test  |  AI 能當 3D 建模助理嗎？從找模型、掃毒到場景重建實測",
    "channel": "Mark的地球漫步",
@@ -2726,6 +2958,39 @@
    "url": null,
    "content_type": "video",
    "difficulty": "進階",
+   "region": "國內",
+   "license": null,
+   "security_score": null,
+   "safety": null
+  },
+  {
+   "video_id": "8SuhIwjV-D0",
+   "title": "【AI圖片轉影片 2026】教你1秒鐘生成AI繪圖，AI繪圖轉影片！",
+   "channel": "Megla Sokal",
+   "duration_seconds": 198,
+   "published_at": "2026-09-17T11:12:06Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/8SuhIwjV-D0/mqdefault.jpg",
+   "view_count": 13,
+   "category": "AI 影像與影片生成",
+   "summary": "本影片實測 HitPaw AI 軟體，示範如何將文字或圖片快速生成高畫質 4K/8K 動畫影片，協助創作者解決缺乏剪輯素材與技術的難題，輕鬆完成 AI 影片創作。",
+   "tags": [
+    "HitPaw",
+    "AI繪圖轉影片",
+    "圖片變動畫",
+    "高畫質影片"
+   ],
+   "search_terms": [
+    "HitPaw",
+    "圖片轉影片",
+    "AI繪圖",
+    "高畫質影片",
+    "文生影片",
+    "影片剪輯軟體",
+    "一鍵生成影片"
+   ],
+   "url": null,
+   "content_type": "video",
+   "difficulty": "入門",
    "region": "國內",
    "license": null,
    "security_score": null,
@@ -3103,6 +3368,39 @@
    "safety": null
   },
   {
+   "video_id": "-PNlsjiIKjk",
+   "title": "筆電一蓋 AI 就停工？4 層 Agent 工作站現在到底長什麼樣？",
+   "channel": "Ada Digital Alchemy",
+   "duration_seconds": 485,
+   "published_at": "2026-09-16T22:42:42Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/-PNlsjiIKjk/mqdefault.jpg",
+   "view_count": 3,
+   "category": "自動化工作流",
+   "summary": "本影片透過四層架構圖，深入剖析個人 AI Agent 工作站的核心層次：常開工作站、個人記憶層、可重複技能與成本治理。協助使用者從單點對話工具升級為可持續運作的個人 AI 作業系統。",
+   "tags": [
+    "AI Agent",
+    "工作站",
+    "自動化",
+    "架構設計"
+   ],
+   "search_terms": [
+    "AI Agent",
+    "Agent工作站",
+    "AI作業系統",
+    "自動化工作流",
+    "AI記憶層",
+    "個人AI",
+    "Agent架構"
+   ],
+   "url": null,
+   "content_type": "video",
+   "difficulty": "進階",
+   "region": "國內",
+   "license": null,
+   "security_score": null,
+   "safety": null
+  },
+  {
    "video_id": "tlEnf7P7wDA",
    "title": "這款開源軟體將顛覆你對地圖的認知！用語音操控上帝視角，一秒掌握情報局等級的全球即時動態！",
    "channel": "PAPAYA 電腦教室",
@@ -3166,6 +3464,39 @@
    "content_type": "video",
    "difficulty": "入門",
    "region": "國外",
+   "license": null,
+   "security_score": null,
+   "safety": null
+  },
+  {
+   "video_id": "b4PHXIvDrVk",
+   "title": "AI Agent 為什麼十個有九個做不起來？一支影片講完它會騙你、停不下來、又太聽話",
+   "channel": "一知半解研究室",
+   "duration_seconds": 1292,
+   "published_at": "2026-09-16T13:33:58Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/b4PHXIvDrVk/mqdefault.jpg",
+   "view_count": 5,
+   "category": "入門觀念",
+   "summary": "本影片運用生活化比喻與真實案例，無痛剖析 AI Agent 落地失敗的主因，探討模型幻覺、無限迴圈與過度服從等問題，協助無技術背景者建立正確的 AI 代理人概念與評估維度。",
+   "tags": [
+    "AI Agent",
+    "AI觀念",
+    "代理人",
+    "落地挑戰"
+   ],
+   "search_terms": [
+    "AI Agent",
+    "AI代理人",
+    "Agent失敗原因",
+    "AI幻覺",
+    "AI代理",
+    "Agent觀念",
+    "AI應用風險"
+   ],
+   "url": null,
+   "content_type": "video",
+   "difficulty": "入門",
+   "region": "國內",
    "license": null,
    "security_score": null,
    "safety": null
