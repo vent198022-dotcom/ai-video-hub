@@ -47,6 +47,7 @@ gemini:
   model: gemini-3.6-flash
   batch_size: 30
   pause_seconds: 7   # 批次間隔秒數，避開免費層每分鐘請求上限
+  max_consecutive_429: 5   # 連續幾批被 429 拒絕（且持續超過一分鐘）就判定當日額度用盡、停止分類；0 或留空停用
 
 transcript:
   enabled: true

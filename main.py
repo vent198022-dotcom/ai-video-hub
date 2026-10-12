@@ -186,6 +186,7 @@ def main():
         conn, gemini_key, cfg["gemini"]["model"], cfg["categories"],
         batch_size=batch_size,
         pause_seconds=cfg["gemini"].get("pause_seconds", 6),
+        max_consecutive_429=max(0, int(cfg["gemini"].get("max_consecutive_429", 5) or 0)),
         transcript_fn=transcript_fn,
     )
     log.info("分類完成：上架 %d、排除 %d、失敗待重試 %d", ok, skip, fail)

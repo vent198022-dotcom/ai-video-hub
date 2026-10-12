@@ -11,6 +11,10 @@ GEMINI_URL = "https://generativelanguage.googleapis.com/v1beta/models/{model}:ge
 
 log = logging.getLogger(__name__)
 
+# 連續 429 至少要持續這麼久才判定為額度用盡：每分鐘限流在一分鐘內就會恢復，
+# 觀察不滿一分鐘無法和每日額度用盡區分
+_MIN_429_STREAK_SECONDS = 60
+
 _PROMPT_TEMPLATE = """你是影片內容分類助手。以下是內容清單（JSON，可能是 YouTube 影片、網路文章或開源專案），請逐一判斷：
 1. is_relevant：是否值得收錄，依型態判斷：
    (a) 一般影片與文章：必須是「中文的 AI 相關教學內容」——語言為中文（繁體或簡體皆可），
@@ -94,17 +98,60 @@ def classify_batch(api_key, model, videos, categories):
     return parse_response(text)
 
 
+def error_detail(e):
+    """把 API 例外整理成可寫進 log 的說明；429 時附上 Google 回報的額度種類與建議等待時間。
+
+    在 except 區塊裡被呼叫，回應格式再怪都不得擲例外，否則會打斷整個每日管線。
+    """
+    resp = getattr(e, "response", None)
+    if resp is None:
+        return str(e)
+    head = f"HTTP {resp.status_code}"
+    try:
+        data = resp.json()
+        err = data.get("error") if isinstance(data, dict) else None
+        if not isinstance(err, dict):
+            return head
+        parts = [head]
+        if err.get("message"):
+            parts.append(str(err["message"])[:200])
+        details = err.get("details")
+        for d in details if isinstance(details, list) else []:
+            if not isinstance(d, dict):
+                continue
+            violations = d.get("violations")
+            for v in violations if isinstance(violations, list) else []:
+                if isinstance(v, dict):
+                    parts.append(f"額度 {v.get('quotaId')}（上限 {v.get('quotaValue')}）")
+            if d.get("retryDelay"):
+                parts.append(f"建議等待 {d['retryDelay']}")
+        return "；".join(parts)
+    except Exception:
+        return head
+
+
 def classify_pending(conn, api_key, model, categories, batch_size=10,
-                     pause_seconds=6, transcript_fn=None):
+                     pause_seconds=6, transcript_fn=None, max_consecutive_429=5):
     """分類所有 pending 與 failed 影片。回傳 (上架數, 排除數, 失敗數)。
 
     transcript_fn 若提供，會在分類前對每部影片取字幕併入 prompt，
     讓 AI 依實際內容寫出更深入的摘要。
+
+    連續 max_consecutive_429 批都被 429 擋下、且這串 429 已持續超過一分鐘，
+    視為當日額度用盡而提前停止：尚未輪到的項目維持原狀態留待下次，
+    不再白打 API、也不再抓字幕。max_consecutive_429 為 0、None 或負數時停用此機制。
     """
     queue = db.get_videos_by_status(conn, "pending") + db.get_videos_by_status(conn, "failed")
     ok = skip = fail = 0
+    consecutive_429 = 0
+    streak_started = None  # 這串連續 429 第一次出現的時間
 
     for i in range(0, len(queue), batch_size):
+        if ((max_consecutive_429 or 0) > 0 and consecutive_429 >= max_consecutive_429
+                and time.monotonic() - streak_started >= _MIN_429_STREAK_SECONDS):
+            log.warning("連續 %d 批遭 429 拒絕，判定額度用盡，停止分類；剩 %d 筆留待下次",
+                        consecutive_429, len(queue) - i)
+            break
         if i > 0 and pause_seconds:
             time.sleep(pause_seconds)  # 批次間隔，避免超過 Gemini 免費層每分鐘請求上限
         batch = queue[i:i + batch_size]
@@ -116,11 +163,19 @@ def classify_pending(conn, api_key, model, categories, batch_size=10,
             results = classify_batch(api_key, model, batch, categories)
             by_id = {r["video_id"]: r for r in results if isinstance(r, dict) and "video_id" in r}
         except (requests.RequestException, ValueError, KeyError, IndexError) as e:
-            log.warning("批次分類失敗，整批標記待重試：%s", e)
+            log.warning("批次分類失敗，整批標記待重試：%s", error_detail(e))
+            status = getattr(getattr(e, "response", None), "status_code", None)
+            if status == 429:
+                if consecutive_429 == 0:
+                    streak_started = time.monotonic()
+                consecutive_429 += 1
+            else:
+                consecutive_429 = 0
             for v in batch:
                 db.mark_failed(conn, v["video_id"])
             fail += len(batch)
             continue
+        consecutive_429 = 0
 
         for v in batch:
             r = by_id.get(v["video_id"])

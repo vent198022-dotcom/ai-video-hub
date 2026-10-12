@@ -541,3 +541,57 @@ def test_main_drop_stage_failure_does_not_stop_pipeline(tmp_path, monkeypatch):
 
     assert main_mod.main() == 0
     assert stages == ["generate", "publish"]
+
+
+def _run_main_capturing_classify_kwargs(tmp_path, monkeypatch, gemini_yaml):
+    monkeypatch.setattr(main_mod, "load_dotenv", lambda *a, **k: None)
+    monkeypatch.setenv("YOUTUBE_API_KEY", "yt")
+    monkeypatch.setenv("GEMINI_API_KEY", "gm")
+    monkeypatch.setattr(main_mod, "ROOT", tmp_path)
+    (tmp_path / "config.yaml").write_text(
+        "keywords: [kw1]\ncategories: [工具教學]\n"
+        "filters: {min_duration_seconds: 120, relevance_language: zh-Hant,"
+        " max_results_per_keyword: 25, initial_days: 180}\n"
+        f"gemini: {gemini_yaml}\n"
+        "transcript: {enabled: false, max_chars: 3000, batch_size: 5}\n",
+        encoding="utf-8",
+    )
+    captured = {}
+    monkeypatch.setattr(main_mod.collector, "collect", lambda *a, **k: 0)
+    monkeypatch.setattr(main_mod.classifier, "classify_pending",
+                        lambda *a, **k: captured.update(k) or (0, 0, 0))
+    monkeypatch.setattr(main_mod.cleanup, "remove_dead_videos", lambda *a, **k: 0)
+    monkeypatch.setattr(main_mod.generator, "generate", lambda *a, **k: 0)
+    monkeypatch.setattr(main_mod.publisher, "publish", lambda *a, **k: False)
+    main_mod.main()
+    return captured
+
+
+def test_main_passes_max_consecutive_429_from_config(tmp_path, monkeypatch):
+    kw = _run_main_capturing_classify_kwargs(
+        tmp_path, monkeypatch, "{model: m, batch_size: 10, max_consecutive_429: 3}")
+    assert kw["max_consecutive_429"] == 3
+
+
+def test_main_max_consecutive_429_defaults_to_5(tmp_path, monkeypatch):
+    kw = _run_main_capturing_classify_kwargs(
+        tmp_path, monkeypatch, "{model: m, batch_size: 10}")
+    assert kw["max_consecutive_429"] == 5
+
+
+def test_main_coerces_string_max_consecutive_429(tmp_path, monkeypatch):
+    kw = _run_main_capturing_classify_kwargs(
+        tmp_path, monkeypatch, '{model: m, batch_size: 10, max_consecutive_429: "3"}')
+    assert kw["max_consecutive_429"] == 3
+
+
+def test_main_blank_max_consecutive_429_disables(tmp_path, monkeypatch):
+    kw = _run_main_capturing_classify_kwargs(
+        tmp_path, monkeypatch, "{model: m, batch_size: 10, max_consecutive_429: ~}")
+    assert kw["max_consecutive_429"] == 0
+
+
+def test_main_clamps_negative_max_consecutive_429(tmp_path, monkeypatch):
+    kw = _run_main_capturing_classify_kwargs(
+        tmp_path, monkeypatch, "{model: m, batch_size: 10, max_consecutive_429: -1}")
+    assert kw["max_consecutive_429"] == 0

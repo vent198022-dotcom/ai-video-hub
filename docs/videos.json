@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-12T02:12:05+00:00",
- "count": 2404,
+ "generated_at": "2026-10-12T08:10:47+00:00",
+ "count": 2410,
  "videos": [
   {
    "video_id": "MAxnopErE1c",
@@ -3665,6 +3665,40 @@
    "safety": null
   },
   {
+   "video_id": "9vbDAquFkOs",
+   "title": "【2026 最全面 AI 影片生成教學】從零基礎到精通（2026 新手入門實用版 AI 生成影片教學）詳細從零開始學習 AI 漫劇腳本角色分鏡配音，全程乾貨無廢話！",
+   "channel": "AI视频制作教学",
+   "duration_seconds": 1554,
+   "published_at": "2026-09-18T07:22:20Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/9vbDAquFkOs/mqdefault.jpg",
+   "view_count": 3,
+   "category": "AI 影像與影片生成",
+   "summary": "本教學提供完整的 AI 漫劇製作流程，從劇本撰寫與分鏡腳本規劃開始，涵蓋 AI 圖片生成、角色一致性維持、影片生成、音色一致性控制，以及最終的後期剪輯步驟，適合新手零基礎學習。",
+   "tags": [
+    "AI影片生成",
+    "漫劇製作",
+    "分鏡腳本",
+    "角色一致性"
+   ],
+   "search_terms": [
+    "AI影片",
+    "AI漫劇",
+    "影片生成",
+    "分鏡腳本",
+    "角色一致",
+    "生成視頻",
+    "AI剪輯",
+    "動畫製作"
+   ],
+   "url": null,
+   "content_type": "video",
+   "difficulty": "入門",
+   "region": "國外",
+   "license": null,
+   "security_score": null,
+   "safety": null
+  },
+  {
    "video_id": "j5U62rZ8lpc",
    "title": "20260917 2 Gemini Notebook在教學上的應用",
    "channel": "商業與管理群科中心",
@@ -3830,6 +3864,40 @@
    "safety": null
   },
   {
+   "video_id": "B9xrcGuZDyA",
+   "title": "為什麼你打的prompt總畫不出你腦中的畫面？問題可能不是工具，是下指令的方式｜日常AI教學 4-1",
+   "channel": "Herbert AI 開發筆記",
+   "duration_seconds": 741,
+   "published_at": "2026-09-17T20:26:07Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/B9xrcGuZDyA/mqdefault.jpg",
+   "view_count": 11,
+   "category": "AI 影像與影片生成",
+   "summary": "本教學對比 OpenAI、Google 與 Midjourney 官方指南，拆解繪圖 Prompt 的撰寫技巧。說明「具體細節」的重要性，並分享跨平台通用的 Prompt 五要素框架與圖像輸出規格設定方法。",
+   "tags": [
+    "Prompt",
+    "Midjourney",
+    "AI繪圖",
+    "指令技巧"
+   ],
+   "search_terms": [
+    "Prompt技巧",
+    "AI繪圖",
+    "Midjourney",
+    "提示詞",
+    "圖像生成",
+    "GPT Image",
+    "繪圖指令",
+    "圖片生成"
+   ],
+   "url": null,
+   "content_type": "video",
+   "difficulty": "進階",
+   "region": "國內",
+   "license": null,
+   "security_score": null,
+   "safety": null
+  },
+  {
    "video_id": "HhbhT7ATIV0",
    "title": "Google Flow 完整教學！一鍵生成分鏡、角色、音效全流程實測！AI 做爆紅影片真係咁勁？",
    "channel": "Mike Ng",
@@ -3989,6 +4057,40 @@
     "AI短片",
     "ASMR短片",
     "圖生影片"
+   ],
+   "url": null,
+   "content_type": "video",
+   "difficulty": "入門",
+   "region": "國內",
+   "license": null,
+   "security_score": null,
+   "safety": null
+  },
+  {
+   "video_id": "aILhjo4pfGQ",
+   "title": "AI 都會自己做事了，還要學 n8n 嗎？｜我很久沒碰它，現在反而想撿回來的原因",
+   "channel": "追日Gucci-AI效率革命聯盟",
+   "duration_seconds": 727,
+   "published_at": "2026-09-17T11:26:21Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/aILhjo4pfGQ/mqdefault.jpg",
+   "view_count": 438,
+   "category": "自動化工作流",
+   "summary": "本影片探討在 AI 助手普及的時代，為何仍需學習 n8n 與 Make 等工作流自動化工具。作者分析 AI 適合處理作法動態的工作，而固定重複、需交接與出錯追查的任務則適合由 n8n 或 Make 執行。",
+   "tags": [
+    "n8n",
+    "Make",
+    "自動化",
+    "AI工作流"
+   ],
+   "search_terms": [
+    "n8n",
+    "Make",
+    "自動化工作流",
+    "AI Agent",
+    "工作效率",
+    "流程自動化",
+    "一人公司",
+    "任務自動化"
    ],
    "url": null,
    "content_type": "video",
@@ -4799,6 +4901,39 @@
    "safety": null
   },
   {
+   "video_id": "mHLuqnt8VHY",
+   "title": "GrokBot 實測教學：零門檻打造超強 AI 多代理自動化工作流！比想像中好用太多!",
+   "channel": "Desmond EdTech 教學頻道",
+   "duration_seconds": 998,
+   "published_at": "2026-09-16T11:06:20Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/mHLuqnt8VHY/mqdefault.jpg",
+   "view_count": 8527,
+   "category": "自動化工作流",
+   "summary": "本影片實測教學 xAI Grok Bot，介紹如何零門檻打造 AI 多代理自動化工作流。示範跨平台工具應用與任務指派，幫助非技術人員輕鬆提升日常工作效率。",
+   "tags": [
+    "Grok Bot",
+    "AI Agent",
+    "多代理",
+    "自動化工作流"
+   ],
+   "search_terms": [
+    "Grok Bot",
+    "xAI",
+    "AI Agent",
+    "多代理工作流",
+    "自動化工作流",
+    "AI機器人",
+    "Agent平台"
+   ],
+   "url": null,
+   "content_type": "video",
+   "difficulty": "入門",
+   "region": "國內",
+   "license": null,
+   "security_score": null,
+   "safety": null
+  },
+  {
    "video_id": "lMGoVScIt3k",
    "title": "[AI音樂教學] 用MP3歌曲製作卡拉OK伴唱帶 | 全攻略",
    "channel": "納爾森有話說",
@@ -4833,6 +4968,39 @@
    "safety": null
   },
   {
+   "video_id": "4q1--uwqkQw",
+   "title": "Hermes Agent 新手速成：5 步打造 24/7 在線 AI 助手",
+   "channel": "清單 (Qīngdān)",
+   "duration_seconds": 366,
+   "published_at": "2026-09-16T10:00:20Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/4q1--uwqkQw/mqdefault.jpg",
+   "view_count": 3,
+   "category": "工具教學",
+   "summary": "本影片為 Hermes Agent 新手速成教學，示範如何透過 VPS 設定與 Telegram 串接，5 步打造 24 小時在線的 AI 助手。內容涵蓋跨對話記憶與自動編寫技能，適合初學者上手。",
+   "tags": [
+    "Hermes Agent",
+    "AI 助手",
+    "Telegram 機器人",
+    "VPS"
+   ],
+   "search_terms": [
+    "Hermes Agent",
+    "AI Agent",
+    "Telegram機器人",
+    "AI機器人教學",
+    "24小時AI助手",
+    "VPS部署",
+    "Nous Research"
+   ],
+   "url": null,
+   "content_type": "video",
+   "difficulty": "進階",
+   "region": "國內",
+   "license": null,
+   "security_score": null,
+   "safety": null
+  },
+  {
    "video_id": "PO2Hd6qHiLo",
    "title": "告別 AI 抽卡地獄！GPT-6 Astra 白模搭配 Edimakor 的 Seedance 2.5 模型：精準控圖無痛教學 🎲",
    "channel": "Official Edimakor Taiwan",
@@ -4857,6 +5025,39 @@
     "抽卡地獄",
     "影片生成",
     "Seedance"
+   ],
+   "url": null,
+   "content_type": "video",
+   "difficulty": "進階",
+   "region": "國內",
+   "license": null,
+   "security_score": null,
+   "safety": null
+  },
+  {
+   "video_id": "UL7d2g-pSfc",
+   "title": "我整咗個識 13 種 Skills 嘅 24/7 AI 投資分析師：唔使寫 Code，一條免費 Connector 搞掂（Claude 實測・廣東話）",
+   "channel": "Tim Chan AI",
+   "duration_seconds": 1068,
+   "published_at": "2026-09-16T09:30:07Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/UL7d2g-pSfc/mqdefault.jpg",
+   "view_count": 4792,
+   "category": "辦公應用",
+   "summary": "本影片示範如何結合 LongBridge AI 與 Claude AI，免寫程式打造具備 13 種技能的 AI 投資分析師。實測數據連接前後差異，並教導核對來源與設定每日自動電郵報告。",
+   "tags": [
+    "Claude AI",
+    "LongBridge AI",
+    "投資分析",
+    "免程式碼"
+   ],
+   "search_terms": [
+    "Claude AI",
+    "LongBridge AI",
+    "AI投資分析",
+    "無程式碼",
+    "AI Connector",
+    "自動化報告",
+    "股票分析AI"
    ],
    "url": null,
    "content_type": "video",
