@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-12T08:10:47+00:00",
- "count": 2410,
+ "generated_at": "2026-10-13T08:35:01+00:00",
+ "count": 2409,
  "videos": [
   {
    "video_id": "MAxnopErE1c",
@@ -500,40 +500,6 @@
    "url": null,
    "content_type": "video",
    "difficulty": "進階",
-   "region": "國內",
-   "license": null,
-   "security_score": null,
-   "safety": null
-  },
-  {
-   "video_id": "AHQimBKeBVY",
-   "title": "【SkillOpt】AI 老是重複犯錯？不改 AI 本身，只改它讀的操作手冊，能讓它少犯錯嗎？",
-   "channel": "DataSci Ocean",
-   "duration_seconds": 1713,
-   "published_at": "2026-10-10T09:28:11Z",
-   "thumbnail_url": "https://i.ytimg.com/vi/AHQimBKeBVY/mqdefault.jpg",
-   "view_count": 11,
-   "category": "入門觀念",
-   "summary": "本影片介紹微軟開發的 SkillOpt 技術，說明如何透過不更改 AI 本身、僅微調技能操作手冊文字檔的方式進行訓練，有效減少 AI 在各類應用情境中重複犯錯的問題。",
-   "tags": [
-    "SkillOpt",
-    "AI優化",
-    "微軟",
-    "Prompt工程"
-   ],
-   "search_terms": [
-    "SkillOpt",
-    "AI犯錯",
-    "操作手冊",
-    "技能文件",
-    "微軟AI",
-    "Claude Code",
-    "AI優化",
-    "提示詞工程"
-   ],
-   "url": null,
-   "content_type": "video",
-   "difficulty": "入門",
    "region": "國內",
    "license": null,
    "security_score": null,
