@@ -1,14 +1,16 @@
 """YouTube 收集模組：搜尋關鍵字、補齊影片詳情、寫入資料庫。
 
 配額說明：search.list 每次 100 單位、videos.list 每次 1 單位。
-11 個關鍵字每天跑 1 次約 1,111 單位，遠低於每日 10,000 免費配額。
+21 個關鍵字每天跑 1 次約 2,100 單位，遠低於每日 10,000 免費配額。
 """
+import collections
 import logging
 import re
 
 import requests
 
 import db
+import title_filter
 
 SEARCH_URL = "https://www.googleapis.com/youtube/v3/search"
 VIDEOS_URL = "https://www.googleapis.com/youtube/v3/videos"
@@ -125,7 +127,7 @@ def collect(conn, api_key, keywords, published_after,
     若所有關鍵字皆搜尋失敗，會擲出 RuntimeError，避免呼叫端誤以為本次收集
     成功而推進 last_collect_at，造成這段期間的影片被永久跳過。
 
-    人工提交的影片（extra_ids）不套用時長過濾（人工判斷優先於自動規則）。
+    人工提交的影片（extra_ids）不套用時長與標題過濾（人工判斷優先於自動規則）。
     """
     candidate_ids = []
     success_count = 0
@@ -146,20 +148,28 @@ def collect(conn, api_key, keywords, published_after,
             continue
         candidate_ids.extend(i for i in ids if not db.video_exists(conn, i))
 
-    unique_ids = list(dict.fromkeys(candidate_ids))  # 去重且保序
-
-    # 人工提交的影片：不套用時長過濾（人工判斷優先於自動規則）。
-    # 排除已在搜尋結果中的，避免重複查詳情與重複計數。
-    already = set(unique_ids)
-    submitted = [i for i in dict.fromkeys(extra_ids)
-                 if i not in already and not db.video_exists(conn, i)]
+    # 人工提交的影片：不套用時長與標題過濾（人工判斷優先於自動規則）。
+    # 同一部若也被搜尋或頻道抓到，以人工提交為準，從自動收集的清單移除，
+    # 否則會走自動過濾而被擋下，且之後每天都會再被擋。
+    submitted_all = list(dict.fromkeys(extra_ids))
+    manual = set(submitted_all)
+    unique_ids = [i for i in dict.fromkeys(candidate_ids) if i not in manual]  # 去重且保序
+    submitted = [i for i in submitted_all if not db.video_exists(conn, i)]
 
     added = 0
+    rejected = collections.Counter()
     for v in fetch_video_details(api_key, unique_ids):
         if v["duration_seconds"] < min_duration:
             continue
+        reason = title_filter.reject_reason(v["title"])
+        if reason:
+            rejected[reason] += 1
+            continue
         db.insert_video(conn, v)
         added += 1
+    if rejected:
+        log.info("標題過濾略過 %d 部影片：%s", sum(rejected.values()),
+                 "、".join(f"{k} {n}" for k, n in rejected.items()))
 
     for v in fetch_video_details(api_key, submitted):
         db.insert_video(conn, v)

@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-14T08:19:01+00:00",
- "count": 2430,
+ "generated_at": "2026-10-15T08:08:33+00:00",
+ "count": 2352,
  "videos": [
   {
    "video_id": "S8qPh7DhbeE",
@@ -626,40 +626,6 @@
     "全端實戰",
     "Agent架構",
     "人機協同"
-   ],
-   "url": null,
-   "content_type": "video",
-   "difficulty": "進階",
-   "region": "國內",
-   "license": null,
-   "security_score": null,
-   "safety": null
-  },
-  {
-   "video_id": "dn0eaVmqB9M",
-   "title": "中小企必學 - AI用嘅第二大腦 ：手機講一次就記住，熄機都做野 | Hermes Agent 實測（廣東話 AI 教學）",
-   "channel": "Tim Chan AI",
-   "duration_seconds": 877,
-   "published_at": "2026-10-10T03:00:27Z",
-   "thumbnail_url": "https://i.ytimg.com/vi/dn0eaVmqB9M/mqdefault.jpg",
-   "view_count": 1713,
-   "category": "自動化工作流",
-   "summary": "本影片展示如何以 Obsidian、Jev AI 與 Hermes Agent 搭配 Hostinger VPS，建構 24 小時運作的 AI 第二大腦，實現自動訊息分類與長期記憶管理。",
-   "tags": [
-    "Hermes Agent",
-    "第二大腦",
-    "Obsidian",
-    "自動化"
-   ],
-   "search_terms": [
-    "Hermes Agent",
-    "第二大腦",
-    "Obsidian",
-    "Jev AI",
-    "VPS部署",
-    "廣東話AI",
-    "中小企AI",
-    "Telegram自動化"
    ],
    "url": null,
    "content_type": "video",
@@ -2635,38 +2601,6 @@
    "safety": "安全"
   },
   {
-   "video_id": "OTodKm312hY",
-   "title": "【廣東話】我請咗4個AI員工，每週慳咗20個鐘（有免費剪片方法）#AI #人工智能 #AI創業 #AI一人公司 #AI變現 #AI賺錢 #AI自動化 #自動化工作流",
-   "channel": "AI Lion一人公司",
-   "duration_seconds": 970,
-   "published_at": "2026-10-01T03:14:19Z",
-   "thumbnail_url": "https://i.ytimg.com/vi/OTodKm312hY/mqdefault.jpg",
-   "view_count": 7,
-   "category": "辦公應用",
-   "summary": "分享一人公司導入多名 AI 員工的自動化運作流程，結合行銷漏斗設計與免費剪片方案，示範如何省下大量時間並將流量轉化為穩定商業客戶。",
-   "tags": [
-    "AI員工",
-    "自動化工作流",
-    "一人公司",
-    "商業變現"
-   ],
-   "search_terms": [
-    "AI員工",
-    "AI創業",
-    "自動化工作流",
-    "剪片",
-    "行銷漏斗",
-    "一人公司"
-   ],
-   "url": null,
-   "content_type": "video",
-   "difficulty": "入門",
-   "region": "國內",
-   "license": null,
-   "security_score": null,
-   "safety": null
-  },
-  {
    "video_id": "rkPDEuOgQOo",
    "title": "ChatGPT Dots 首日實測！主動讀信、盯房價，只用手機就能派任務的24h個人助理",
    "channel": "丹妮tech",
@@ -2897,38 +2831,6 @@
    "safety": null
   },
   {
-   "video_id": "UDmlTEq1HoQ",
-   "title": "ChatGPT Dots 廣東話實測：OpenAI 新 AI Agent 點用？5 個重點一次睇",
-   "channel": "ekcheungAI",
-   "duration_seconds": 355,
-   "published_at": "2026-09-30T11:14:08Z",
-   "thumbnail_url": "https://i.ytimg.com/vi/UDmlTEq1HoQ/mqdefault.jpg",
-   "view_count": 847,
-   "category": "工具教學",
-   "summary": "本影片實測 OpenAI 推出的 ChatGPT Dots AI Agent。內容透過 5 大重點解析其特點與開通步驟，並親自示範交辦任務給 Dot，實測其任務跟進與資料抽查表現。",
-   "tags": [
-    "ChatGPT Dots",
-    "OpenAI",
-    "AI Agent",
-    "廣東話實測"
-   ],
-   "search_terms": [
-    "ChatGPT Dots",
-    "OpenAI Agent",
-    "ChatGPT點用",
-    "AI代理",
-    "ChatGPT教學",
-    "Dots實測"
-   ],
-   "url": null,
-   "content_type": "video",
-   "difficulty": "入門",
-   "region": "國內",
-   "license": null,
-   "security_score": null,
-   "safety": null
-  },
-  {
    "video_id": "35W_tuBO-GA",
    "title": "GPT6 ASTRA室內,產品及建築教學! 一鍵生成產品,室內設計及建築BUILDING! AI做3D真係今勁?",
    "channel": "Mike Ng",
@@ -3020,38 +2922,6 @@
    "url": null,
    "content_type": "video",
    "difficulty": "入門",
-   "region": "國內",
-   "license": null,
-   "security_score": null,
-   "safety": null
-  },
-  {
-   "video_id": "SLtrQbK1OqY",
-   "title": "唔好逐句問 AI！一人公司如何建立 SKILL 做個人品牌？Claude Opus 5.5 幫你一小時做十個素材（廣東話）",
-   "channel": "Tim Chan AI",
-   "duration_seconds": 951,
-   "published_at": "2026-09-30T09:30:36Z",
-   "thumbnail_url": "https://i.ytimg.com/vi/SLtrQbK1OqY/mqdefault.jpg",
-   "view_count": 2522,
-   "category": "自動化工作流",
-   "summary": "針對一人公司示範如何透過建立 Claude Skills，以接駁、研究、封裝三步驟教 AI 使用新工具，將單篇圖文快速自動衍生為多組行銷宣傳素材。",
-   "tags": [
-    "Claude",
-    "Claude Skills",
-    "一人公司",
-    "內容自動化"
-   ],
-   "search_terms": [
-    "Claude Skill",
-    "一人公司",
-    "素材生成",
-    "自媒體工具",
-    "工作流",
-    "Prompt"
-   ],
-   "url": null,
-   "content_type": "video",
-   "difficulty": "進階",
    "region": "國內",
    "license": null,
    "security_score": null,
@@ -3679,40 +3549,6 @@
    "url": null,
    "content_type": "video",
    "difficulty": "入門",
-   "region": "國內",
-   "license": null,
-   "security_score": null,
-   "safety": null
-  },
-  {
-   "video_id": "kupAAc3Q6B8",
-   "title": "學識 MCP，所有 AI agent 都通｜Gemini Spark 接 Notion 實測教學（廣東話）",
-   "channel": "Tim Chan AI",
-   "duration_seconds": 905,
-   "published_at": "2026-09-26T03:00:16Z",
-   "thumbnail_url": "https://i.ytimg.com/vi/kupAAc3Q6B8/mqdefault.jpg",
-   "view_count": 9360,
-   "category": "自動化工作流",
-   "summary": "本影片以廣東話示範如何透過 MCP 技術將 Gemini Spark 與 Notion 連結。內容涵蓋整合 Gmail、日曆與雲端硬碟資料，自動生成可更新的 Notion 報告，節省手動整理時間。",
-   "tags": [
-    "MCP",
-    "Gemini Spark",
-    "Notion",
-    "自動化"
-   ],
-   "search_terms": [
-    "MCP",
-    "Gemini Spark",
-    "Notion",
-    "AI Agent",
-    "自動化工作流",
-    "模型上下文協定",
-    "Google AI",
-    "廣東話AI教學"
-   ],
-   "url": null,
-   "content_type": "video",
-   "difficulty": "進階",
    "region": "國內",
    "license": null,
    "security_score": null,
@@ -5677,39 +5513,6 @@
    "safety": null
   },
   {
-   "video_id": "UL7d2g-pSfc",
-   "title": "我整咗個識 13 種 Skills 嘅 24/7 AI 投資分析師：唔使寫 Code，一條免費 Connector 搞掂（Claude 實測・廣東話）",
-   "channel": "Tim Chan AI",
-   "duration_seconds": 1068,
-   "published_at": "2026-09-16T09:30:07Z",
-   "thumbnail_url": "https://i.ytimg.com/vi/UL7d2g-pSfc/mqdefault.jpg",
-   "view_count": 4792,
-   "category": "辦公應用",
-   "summary": "本影片示範如何結合 LongBridge AI 與 Claude AI，免寫程式打造具備 13 種技能的 AI 投資分析師。實測數據連接前後差異，並教導核對來源與設定每日自動電郵報告。",
-   "tags": [
-    "Claude AI",
-    "LongBridge AI",
-    "投資分析",
-    "免程式碼"
-   ],
-   "search_terms": [
-    "Claude AI",
-    "LongBridge AI",
-    "AI投資分析",
-    "無程式碼",
-    "AI Connector",
-    "自動化報告",
-    "股票分析AI"
-   ],
-   "url": null,
-   "content_type": "video",
-   "difficulty": "進階",
-   "region": "國內",
-   "license": null,
-   "security_score": null,
-   "safety": null
-  },
-  {
    "video_id": "cam7XUQdufE",
    "title": "【2026最全面AI影片生成教學】從零基礎到精通（2026新手入門實用版AI生成影片教學）詳細從零開始學習AI漫劇腳本角色分鏡配音，全程乾貨無廢話！",
    "channel": "AI视频制作教学",
@@ -6132,40 +5935,6 @@
     "公務員AI",
     "法律助理",
     "文書自動化"
-   ],
-   "url": null,
-   "content_type": "video",
-   "difficulty": "進階",
-   "region": "國內",
-   "license": null,
-   "security_score": null,
-   "safety": null
-  },
-  {
-   "video_id": "5wy1SZhG0BE",
-   "title": "GPT-6 Astra 喺 Higgsfield 出 4 條廣告：一張產品相、四個世界、一個女主角（廣東話 AI 教學）",
-   "channel": "Tim Chan AI",
-   "duration_seconds": 533,
-   "published_at": "2026-09-15T14:16:35Z",
-   "thumbnail_url": "https://i.ytimg.com/vi/5wy1SZhG0BE/mqdefault.jpg",
-   "view_count": 1031,
-   "category": "AI 影像與影片生成",
-   "summary": "本教學示範利用 Higgsfield 與 GPT-6 Astra，以一張產品照生成角色一致的四種風格廣告。內容包含設定角色參考圖、拆解故事與鏡頭方向，協助一人品牌快速產出多樣化商業影片。",
-   "tags": [
-    "Higgsfield",
-    "GPT-6 Astra",
-    "AI廣告",
-    "影片生成"
-   ],
-   "search_terms": [
-    "Higgsfield",
-    "GPT-6",
-    "Astra",
-    "AI廣告",
-    "商業影片",
-    "產品廣告",
-    "角色一致性",
-    "廣東話AI教學"
    ],
    "url": null,
    "content_type": "video",
@@ -8883,40 +8652,6 @@
    "safety": null
   },
   {
-   "video_id": "4o7kZ7xZonY",
-   "title": "Gemini Spark 完整教學2026🔥｜Google 小龍蝦登陸香港！一人公司的 AI 員工｜Gemini Spark  AI Agent 廣東話教學｜自動化你的生意流程～",
-   "channel": "網絡創業舍 IG Marketing By Ming & Jen",
-   "duration_seconds": 2121,
-   "published_at": "2026-09-11T16:50:54Z",
-   "thumbnail_url": "https://i.ytimg.com/vi/4o7kZ7xZonY/mqdefault.jpg",
-   "view_count": 9822,
-   "category": "自動化工作流",
-   "summary": "本影片為 Gemini Spark 的廣東話 AI Agent 教學，專為一人公司與創業者的業務流程自動化設計。內容介紹如何搭建 AI 社群小編與自動化工作流，並提供 Prompt 提示詞及 Google Sheets 範本實作示範。",
-   "tags": [
-    "Gemini Spark",
-    "AI Agent",
-    "自動化工作流",
-    "AI小編"
-   ],
-   "search_terms": [
-    "Gemini Spark",
-    "AI Agent",
-    "自動化",
-    "工作流",
-    "AI小編",
-    "Google AI",
-    "廣東話教學",
-    "生意自動化"
-   ],
-   "url": null,
-   "content_type": "video",
-   "difficulty": "進階",
-   "region": "國內",
-   "license": null,
-   "security_score": null,
-   "safety": null
-  },
-  {
    "video_id": "86ALhc0udWI",
    "title": "我用 AI + Unreal 做出了 GTA 台灣版？ (含完整實作教學)",
    "channel": "臭臭虎",
@@ -9759,40 +9494,6 @@
    "safety": null
   },
   {
-   "video_id": "gSwbCNiAaTU",
-   "title": "請兩個 AI 同事住喺你個 chat：Claude ＋ Codex 自己合作出提案 | Buzz 教學 | 一人公司必用 AI Agent（廣東話）",
-   "channel": "Tim Chan AI",
-   "duration_seconds": 1078,
-   "published_at": "2026-09-10T12:45:09Z",
-   "thumbnail_url": "https://i.ytimg.com/vi/gSwbCNiAaTU/mqdefault.jpg",
-   "view_count": 2037,
-   "category": "自動化工作流",
-   "summary": "本影片採用廣東話教學，示範如何將 Claude 與 OpenAI Codex 兩款 AI Agent 接入同一個工作區。透過設定協同流程，讓兩個 AI 分別負責策略與執行，自動合作產出一頁式行銷提案。",
-   "tags": [
-    "Claude",
-    "Codex",
-    "AI Agent",
-    "行銷提案"
-   ],
-   "search_terms": [
-    "Claude",
-    "Codex",
-    "AI Agent",
-    "自動化提案",
-    "一人公司",
-    "協同作業",
-    "Buzz教學",
-    "廣東話AI"
-   ],
-   "url": null,
-   "content_type": "video",
-   "difficulty": "進階",
-   "region": "國內",
-   "license": null,
-   "security_score": null,
-   "safety": null
-  },
-  {
    "video_id": "2V11V-wDBuY",
    "title": "不會寫程式，怎麼自己做官網？從 AI 生成到自己修改",
    "channel": "安庭數位",
@@ -10096,39 +9797,6 @@
    "safety": null
   },
   {
-   "video_id": "wi7F0wQLmYg",
-   "title": "香港人用 AI 唔使 VPN，仲要免費？騰訊新 AI 全球第 7｜Hy4 Preview 只輸 GPT-6 3.4 分（廣東話）",
-   "channel": "Tim Chan AI",
-   "duration_seconds": 596,
-   "published_at": "2026-09-10T02:14:55Z",
-   "thumbnail_url": "https://i.ytimg.com/vi/wi7F0wQLmYg/mqdefault.jpg",
-   "view_count": 269,
-   "category": "辦公應用",
-   "summary": "本影片介紹騰訊 Hy4 Preview 與 Workbuddy AI Agent 工作流程，示範如何在短時間內跨文件整理雜亂資料並自動生成行銷企劃案。",
-   "tags": [
-    "Hy4 Preview",
-    "Workbuddy",
-    "辦公自動化",
-    "Proposal"
-   ],
-   "search_terms": [
-    "Hy4",
-    "Workbuddy",
-    "AI Agent",
-    "企劃案",
-    "文件整理",
-    "行銷Proposal",
-    "騰訊AI"
-   ],
-   "url": null,
-   "content_type": "video",
-   "difficulty": "入門",
-   "region": "國內",
-   "license": null,
-   "security_score": null,
-   "safety": null
-  },
-  {
    "video_id": "HzXT3MBc6yM",
    "title": "AI代理要的不是問題,是帳號|Meta Muse 授權前先問這3句",
    "channel": "上課瞜 Water",
@@ -10358,40 +10026,6 @@
    "url": null,
    "content_type": "video",
    "difficulty": "入門",
-   "region": "國內",
-   "license": null,
-   "security_score": null,
-   "safety": null
-  },
-  {
-   "video_id": "a3nNIfdmMHI",
-   "title": "三分鐘駁通 Claude ＋ Blender ＋ Higgsfield：鎖死每個鏡頭，Seedance 2.5 跟足四段運鏡（免費 Plugin 教學・廣東話）",
-   "channel": "Tim Chan AI",
-   "duration_seconds": 764,
-   "published_at": "2026-09-09T11:16:21Z",
-   "thumbnail_url": "https://i.ytimg.com/vi/a3nNIfdmMHI/mqdefault.jpg",
-   "view_count": 1103,
-   "category": "AI 影像與影片生成",
-   "summary": "本影片教學示範如何結合 Claude、Blender 與 Higgsfield 免費外掛，在 AI 影片生成前精準鎖定鏡頭運鏡，協助創作者打造電影級 AI 廣告工作流。",
-   "tags": [
-    "Higgsfield",
-    "Blender",
-    "AI影片生成",
-    "Claude"
-   ],
-   "search_terms": [
-    "Higgsfield",
-    "Blender",
-    "AI影片",
-    "運鏡",
-    "Claude",
-    "Seedance",
-    "3D AI",
-    "鏡頭控制"
-   ],
-   "url": null,
-   "content_type": "video",
-   "difficulty": "進階",
    "region": "國內",
    "license": null,
    "security_score": null,
@@ -10756,40 +10390,6 @@
     "ComfyUI教學",
     "Claude MCP",
     "ComfyUI連線"
-   ],
-   "url": null,
-   "content_type": "video",
-   "difficulty": "進階",
-   "region": "國內",
-   "license": null,
-   "security_score": null,
-   "safety": null
-  },
-  {
-   "video_id": "FIH4wjly7nk",
-   "title": "Gemini Notebook (NotebookLM)  9月份更新實測！中文短片一鍵生成，HeyGen 五分鐘變廣東話版",
-   "channel": "Desmond EdTech 教學頻道",
-   "duration_seconds": 708,
-   "published_at": "2026-09-09T04:19:14Z",
-   "thumbnail_url": "https://i.ytimg.com/vi/FIH4wjly7nk/mqdefault.jpg",
-   "view_count": 572,
-   "category": "AI 影像與影片生成",
-   "summary": "實測 Gemini Notebook (NotebookLM) 9月更新功能，示範一鍵生成中文短片，並整合 HeyGen 工具在五分鐘內將普通話短片自動翻譯配音為廣東話版本。",
-   "tags": [
-    "NotebookLM",
-    "HeyGen",
-    "影片生成",
-    "語言翻譯"
-   ],
-   "search_terms": [
-    "Gemini Notebook",
-    "NotebookLM",
-    "HeyGen",
-    "廣東話",
-    "影片翻譯",
-    "AI配音",
-    "短片生成",
-    "語言轉換"
    ],
    "url": null,
    "content_type": "video",
@@ -13664,39 +13264,6 @@
    "safety": null
   },
   {
-   "video_id": "6NHo--3kHLw",
-   "title": "Hermes Agent 實戰：18分鐘教你用免費AI模型製作CRM系統 #廣東話 #AI實戰 #AI應用教學 #香港AI #HermesAgent #免費AI工具 #CRM系統",
-   "channel": "我想用Ai賺錢",
-   "duration_seconds": 1110,
-   "published_at": "2026-09-04T12:00:29Z",
-   "thumbnail_url": "https://i.ytimg.com/vi/6NHo--3kHLw/mqdefault.jpg",
-   "view_count": 4260,
-   "category": "自動化工作流",
-   "summary": "本影片示範如何使用 Hermes Agent 搭配免費 AI 模型，在零程式碼的情況下建構 CRM 客戶管理系統。教學包含模型選擇與 Prompt 應用，輕鬆達成自動化客戶管理。",
-   "tags": [
-    "Hermes Agent",
-    "CRM系統",
-    "AI Agent",
-    "無程式碼"
-   ],
-   "search_terms": [
-    "Hermes Agent",
-    "CRM",
-    "客戶管理",
-    "AI Agent",
-    "免費AI",
-    "無程式碼",
-    "自動化"
-   ],
-   "url": null,
-   "content_type": "video",
-   "difficulty": "進階",
-   "region": "國內",
-   "license": null,
-   "security_score": null,
-   "safety": null
-  },
-  {
    "video_id": "uQGiiBjMbkk",
    "title": "n8n AI CCTV短片生成器｜自動產生首幀＋Kling V3 Turbo影片",
    "channel": "傑克自動化AI教學",
@@ -14663,39 +14230,6 @@
    "safety": null
   },
   {
-   "video_id": "cFW88nELz0o",
-   "title": "一人公司分身術｜我用 4 個 AI Agent，15 分鐘搞掂美容院預約收錢系統｜Vibe Coding 教學 | Atoms（廣東話）",
-   "channel": "Tim Chan AI",
-   "duration_seconds": 1623,
-   "published_at": "2026-09-03T10:02:37Z",
-   "thumbnail_url": "https://i.ytimg.com/vi/cFW88nELz0o/mqdefault.jpg",
-   "view_count": 6452,
-   "category": "自動化工作流",
-   "summary": "本影片示範使用 Atoms AI 與多個 AI Agent 建立自動化獲客、預約與收款系統。以香港美容院為例，透過廣東話教學協助一人公司與中小企簡化客戶跟進流程。",
-   "tags": [
-    "Atoms AI",
-    "AI Agent",
-    "自動化流程",
-    "Vibe Coding"
-   ],
-   "search_terms": [
-    "Atoms",
-    "AI Agent",
-    "自動化獲客",
-    "預約系統",
-    "一人公司",
-    "廣東話AI教學",
-    "商業自動化"
-   ],
-   "url": null,
-   "content_type": "video",
-   "difficulty": "進階",
-   "region": "國內",
-   "license": null,
-   "security_score": null,
-   "safety": null
-  },
-  {
    "video_id": "RYHiE5Cd30U",
    "title": "我只給 AI 一個想法，就生成了一支電影級影片｜Flova AI 教學",
    "channel": "紫孔雀科技",
@@ -15019,37 +14553,6 @@
    "url": "https://www.bnext.com.tw/article/92111/notebooklm-study-prompts-exam-prep",
    "content_type": "article",
    "difficulty": "入門",
-   "region": "國內",
-   "license": null,
-   "security_score": null,
-   "safety": null
-  },
-  {
-   "video_id": "lCMikXhKdkE",
-   "title": "【AI教學應用】啲人從 Gemini 轉曬去邊 ? | 一個月費計劃，包曬廣東話語音生成、文字、圖、片",
-   "channel": "AI4All",
-   "duration_seconds": 489,
-   "published_at": "2026-09-02T17:00:19Z",
-   "thumbnail_url": "https://i.ytimg.com/vi/lCMikXhKdkE/mqdefault.jpg",
-   "view_count": 616,
-   "category": "工具教學",
-   "summary": "本影片分析 AI 模型市場趨勢與多合一月費方案，並實際示範 Hermes Agent 搭配 Grok 生成廣東話語音，以及從硬碟取圖生成廣東話影片的操作流程。",
-   "tags": [
-    "Gemini",
-    "Grok",
-    "廣東話語音",
-    "影片生成"
-   ],
-   "search_terms": [
-    "Gemini替代",
-    "Grok廣東話",
-    "廣東話AI",
-    "AI語音生成",
-    "廣東話影片"
-   ],
-   "url": null,
-   "content_type": "video",
-   "difficulty": "進階",
    "region": "國內",
    "license": null,
    "security_score": null,
@@ -16240,40 +15743,6 @@
    "content_type": "video",
    "difficulty": "進階",
    "region": "國外",
-   "license": null,
-   "security_score": null,
-   "safety": null
-  },
-  {
-   "video_id": "yNFJJA1B_lQ",
-   "title": "點解AI人像成日「換樣」？🤯 一招學識情緒九宮格，AI角色表情終於一致！｜AI教學｜粵語",
-   "channel": "喵喵小博士",
-   "duration_seconds": 247,
-   "published_at": "2026-09-01T04:50:29Z",
-   "thumbnail_url": "https://i.ytimg.com/vi/yNFJJA1B_lQ/mqdefault.jpg",
-   "view_count": 2,
-   "category": "AI 影像與影片生成",
-   "summary": "本影片以粵語教學解構 AI 人像生成時臉部走樣的問題。介紹「情緒參考九宮格」的技巧，示範如何將微表情寫入 Prompt，讓 AI 角色在不同情緒下能保持一致的臉部特徵。",
-   "tags": [
-    "AI繪圖",
-    "情緒九宮格",
-    "Prompt技巧",
-    "角色一致性"
-   ],
-   "search_terms": [
-    "AI繪圖",
-    "AI生圖",
-    "AI人像",
-    "換臉問題",
-    "角色一致性",
-    "情緒九宮格",
-    "Prompt教學",
-    "微表情"
-   ],
-   "url": null,
-   "content_type": "video",
-   "difficulty": "入門",
-   "region": "國內",
    "license": null,
    "security_score": null,
    "safety": null
@@ -19758,39 +19227,6 @@
    "safety": null
   },
   {
-   "video_id": "fSur4XA08GY",
-   "title": "一條片都唔使睇！Gemini Spark 教學：Google AI Agent 自動煲片、出研究報告｜AI 教學（廣東話）",
-   "channel": "Tim Chan AI",
-   "duration_seconds": 1435,
-   "published_at": "2026-08-26T10:48:49Z",
-   "thumbnail_url": "https://i.ytimg.com/vi/fSur4XA08GY/mqdefault.jpg",
-   "view_count": 4475,
-   "category": "自動化工作流",
-   "summary": "本影片為廣東話教學，介紹如何使用 Google 的 Gemini Spark 設定 AI Agent 自動化工作流。示範拆解研究任務、自動分析影片、整理表格資料並產出研究報告。",
-   "tags": [
-    "Gemini Spark",
-    "AI Agent",
-    "自動化工作流",
-    "研究報告"
-   ],
-   "search_terms": [
-    "Gemini Spark",
-    "Google AI Agent",
-    "自動化研究",
-    "影片摘要",
-    "資料整理",
-    "廣東話 AI 教學",
-    "工作流自動化"
-   ],
-   "url": null,
-   "content_type": "video",
-   "difficulty": "進階",
-   "region": "國內",
-   "license": null,
-   "security_score": null,
-   "safety": null
-  },
-  {
    "video_id": "HcnY9FmSTCU",
    "title": "【AI教學】ChatGPT 照片換臉：一鍵將別人的人物照片換成自己的臉跟五官！教學",
    "channel": "科技兔",
@@ -22573,41 +22009,6 @@
    "safety": null
   },
   {
-   "video_id": "MxWgxrBQnpQ",
-   "title": "Grok Automation Skills 做圖做片 廣東話對答 詳盡解釋應用",
-   "channel": "aforadvice",
-   "duration_seconds": 1765,
-   "published_at": "2026-08-22T06:51:10Z",
-   "thumbnail_url": "https://i.ytimg.com/vi/MxWgxrBQnpQ/mqdefault.jpg",
-   "view_count": 74,
-   "category": "自動化工作流",
-   "summary": "本影片詳細介紹 Grok AI 的最新功能與 Automation Skills 自動化設定。內容涵蓋整合 Microsoft Word 與 Excel 等辦公軟體、自訂專屬 AI 指令、同步 Gmail 與日曆排程，以及自動生成 PowerPoint 簡報等實用的辦公與自動化應用示範。",
-   "tags": [
-    "Grok",
-    "AI自動化",
-    "辦公效率",
-    "簡報生成"
-   ],
-   "search_terms": [
-    "Grok",
-    "xAI",
-    "自動化工作流",
-    "AI辦公",
-    "PowerPoint生成",
-    "簡報AI",
-    "Gmail同步",
-    "日曆排程",
-    "Automation Skills"
-   ],
-   "url": null,
-   "content_type": "video",
-   "difficulty": "進階",
-   "region": "國內",
-   "license": null,
-   "security_score": null,
-   "safety": null
-  },
-  {
    "video_id": "zzFBv1zhiVQ",
    "title": "打造你的AI Agent技能樹：23個核心概念從新手村到頂級玩家｜AI Agent知識地圖",
    "channel": "Herbert AI 開發筆記",
@@ -23874,40 +23275,6 @@
    "safety": null
   },
   {
-   "video_id": "wL8rrO5mMAc",
-   "title": "【ChatGPT Work 教學】30 分鐘學懂 9 成 AI Agent 應用｜一人公司 AI 自動化（廣東話）",
-   "channel": "Tim Chan AI",
-   "duration_seconds": 1894,
-   "published_at": "2026-08-20T09:30:30Z",
-   "thumbnail_url": "https://i.ytimg.com/vi/wL8rrO5mMAc/mqdefault.jpg",
-   "view_count": 1234,
-   "category": "自動化工作流",
-   "summary": "這部廣東話教學影片針對一人公司與中小企，示範如何運用 ChatGPT Work 打造 AI 自動化工作流，快速處理郵件、整理數據與追蹤客戶，大幅減輕行政負擔。",
-   "tags": [
-    "ChatGPT Work",
-    "AI Agent",
-    "自動化工作流",
-    "辦公自動化"
-   ],
-   "search_terms": [
-    "ChatGPT Work",
-    "AI Agent",
-    "AI工作流",
-    "一人公司",
-    "自動化",
-    "辦公效率",
-    "行政自動化",
-    "廣東話教學"
-   ],
-   "url": null,
-   "content_type": "video",
-   "difficulty": "入門",
-   "region": "國內",
-   "license": null,
-   "security_score": null,
-   "safety": null
-  },
-  {
    "video_id": "JoJmVtuAIok",
    "title": "初學者專屬：5分鐘 AI 影片速成班",
    "channel": "BOBO 電腦教室",
@@ -23964,73 +23331,6 @@
     "提示詞寫作",
     "角色一致性",
     "寵物動畫"
-   ],
-   "url": null,
-   "content_type": "video",
-   "difficulty": "入門",
-   "region": "國內",
-   "license": null,
-   "security_score": null,
-   "safety": null
-  },
-  {
-   "video_id": "BLFFQmBMx-4",
-   "title": "WJI 無限畫布教學｜劇本一鍵變動畫：分鏡、角色、配音到影片一次完成（廣東話版）",
-   "channel": "Wayne Tam",
-   "duration_seconds": 345,
-   "published_at": "2026-08-20T03:48:52Z",
-   "thumbnail_url": "https://i.ytimg.com/vi/BLFFQmBMx-4/mqdefault.jpg",
-   "view_count": 0,
-   "category": "AI 影像與影片生成",
-   "summary": "本影片教學介紹如何運用 WJI 無限畫布整合 AI 影片創作流程。內容包含設定畫布與模型、建立角色與聲音素材庫、利用 AI 助手拆解劇本為分鏡，並匯出動態影片。",
-   "tags": [
-    "WJI",
-    "無限畫布",
-    "AI動畫",
-    "劇本轉影片"
-   ],
-   "search_terms": [
-    "WJI",
-    "無限畫布",
-    "無極WJI",
-    "AI劇本轉影片",
-    "AI分鏡",
-    "AI配音",
-    "AI動畫製作",
-    "角色一致性"
-   ],
-   "url": null,
-   "content_type": "video",
-   "difficulty": "進階",
-   "region": "國內",
-   "license": null,
-   "security_score": null,
-   "safety": null
-  },
-  {
-   "video_id": "lfsjI85XI8U",
-   "title": "AI 影片教學：Word 劇本變電影！WJI.ai 從分鏡到成片完整實戰 （廣東話版）",
-   "channel": "Wayne Tam",
-   "duration_seconds": 399,
-   "published_at": "2026-08-20T03:48:36Z",
-   "thumbnail_url": "https://i.ytimg.com/vi/lfsjI85XI8U/mqdefault.jpg",
-   "view_count": 0,
-   "category": "AI 影像與影片生成",
-   "summary": "本影片介紹如何使用 WJI.ai（無極）將 Word 劇本轉換為 AI 影片。內容包含建立工作區、匯入劇本、透過 AI 自動拆解角色與場景、設定角色一致性及故事版分鏡，最終生成電影感的動態片段。",
-   "tags": [
-    "WJI.ai",
-    "AI影片",
-    "劇本生成",
-    "分鏡製作"
-   ],
-   "search_terms": [
-    "WJI.ai",
-    "無極AI",
-    "劇本轉影片",
-    "AI分鏡",
-    "角色一致性",
-    "AI電影",
-    "劇本視覺化"
    ],
    "url": null,
    "content_type": "video",
@@ -24796,39 +24096,6 @@
     "AI Agent",
     "Skill安裝",
     "AI自動化"
-   ],
-   "url": null,
-   "content_type": "video",
-   "difficulty": "入門",
-   "region": "國內",
-   "license": null,
-   "security_score": null,
-   "safety": null
-  },
-  {
-   "video_id": "PG7qaTaz4ww",
-   "title": "AI Agent 入門教學：Skill 是什麼、去哪找、怎樣檢查、如何改成自己的 #香港 #廣東話 #ai教學",
-   "channel": "Heison│AI 教育",
-   "duration_seconds": 944,
-   "published_at": "2026-08-19T08:29:29Z",
-   "thumbnail_url": "https://i.ytimg.com/vi/PG7qaTaz4ww/mqdefault.jpg",
-   "view_count": 24,
-   "category": "工具教學",
-   "summary": "本影片為 AI Agent 入門教學，重點介紹 Agent 中「Skill」的概念、尋找資源的方法、檢查機制，以及如何將其修改為適合個人需求的客製化設定，幫助使用者掌握 AI Agent 操作。",
-   "tags": [
-    "AI Agent",
-    "Skill",
-    "教學",
-    "入門"
-   ],
-   "search_terms": [
-    "AI Agent",
-    "Agent Skill",
-    "AI代理",
-    "智能體",
-    "技能設定",
-    "Agent教學",
-    "客製化AI"
    ],
    "url": null,
    "content_type": "video",
@@ -25711,72 +24978,6 @@
    "safety": null
   },
   {
-   "video_id": "7SjH0bOoT3s",
-   "title": "實測Topview Canvas點解唔只係AI影片生成器咁簡單？|Video Agent自動排storyboard仲可局部編輯，唔怕重新生成| Seedance 2.5一鏡30秒| 影片生成教學",
-   "channel": "旅攝Henry Lo",
-   "duration_seconds": 905,
-   "published_at": "2026-08-17T12:00:05Z",
-   "thumbnail_url": "https://i.ytimg.com/vi/7SjH0bOoT3s/mqdefault.jpg",
-   "view_count": 1707,
-   "category": "AI 影像與影片生成",
-   "summary": "實測 Topview Canvas 影片工具，展示如何透過 Video Agent 自動編排分鏡、選景與寫劇本，並結合 Seedance 2.5 模型進行局部編輯與生成單鏡頭影片教學。",
-   "tags": [
-    "Topview Canvas",
-    "AI影片生成",
-    "Video Agent",
-    "分鏡腳本"
-   ],
-   "search_terms": [
-    "Topview",
-    "AI影片",
-    "storyboard",
-    "分鏡生成",
-    "Seedance",
-    "影片生成器",
-    "自動導演"
-   ],
-   "url": null,
-   "content_type": "video",
-   "difficulty": "進階",
-   "region": "國內",
-   "license": null,
-   "security_score": null,
-   "safety": null
-  },
-  {
-   "video_id": "Z47H_C34Z8Y",
-   "title": "OpenClaw只是起點：我用 7 個本地 AI Agent 管理字幕、帳目與 Email，但越強越危險｜文恩澄｜廣東話",
-   "channel": "文恩澄 Rannes Man",
-   "duration_seconds": 2138,
-   "published_at": "2026-08-17T11:06:46Z",
-   "thumbnail_url": "https://i.ytimg.com/vi/Z47H_C34Z8Y/mqdefault.jpg",
-   "view_count": 3753,
-   "category": "自動化工作流",
-   "summary": "本影片分享作者運用 OpenClaw 與 7 個本地 AI Agent 處理字幕、帳目及 Email 等日常工作的實務經驗，並探討自建本地 AI 代理人的風險、權限與應用取捨。",
-   "tags": [
-    "OpenClaw",
-    "AI Agent",
-    "本地AI",
-    "工作流自動化"
-   ],
-   "search_terms": [
-    "OpenClaw",
-    "本地AI Agent",
-    "AI代理人",
-    "工作流程自動化",
-    "開源AI Agent",
-    "字幕處理",
-    "Email自動化"
-   ],
-   "url": null,
-   "content_type": "video",
-   "difficulty": "進階",
-   "region": "國內",
-   "license": null,
-   "security_score": null,
-   "safety": null
-  },
-  {
    "video_id": "CmtnGvFHKGE",
    "title": "Leonardo AI 教學 L3 : Realtime Canvas 即時畫布！零畫功也能變藝術大師?  不用花錢也能無限次免費即時預覽生成圖像！放膽任意塗鴉！探索 AI 創作的無限可能！",
    "channel": "JTT Wild Camp",
@@ -25800,40 +25001,6 @@
     "生圖工具",
     "繪圖教學",
     "塗鴉生成"
-   ],
-   "url": null,
-   "content_type": "video",
-   "difficulty": "入門",
-   "region": "國內",
-   "license": null,
-   "security_score": null,
-   "safety": null
-  },
-  {
-   "video_id": "Vid1coeIask",
-   "title": "AI 剪片實測｜新手都出到專業級廣告片！我用 Codex 重做，結果！？｜Higgsfield × Codex 教學（廣東話)",
-   "channel": "Tim Chan AI",
-   "duration_seconds": 1251,
-   "published_at": "2026-08-17T09:31:44Z",
-   "thumbnail_url": "https://i.ytimg.com/vi/Vid1coeIask/mqdefault.jpg",
-   "view_count": 370,
-   "category": "AI 影像與影片生成",
-   "summary": "本影片介紹如何結合 Higgsfield 與 ChatGPT Codex 進行 AI 廣告影片生成。示範用三張產品照片製作 15 秒電影感產品廣告，包含網站設定、Prompt 撰寫與 AI 影片生成及修補教學。",
-   "tags": [
-    "Higgsfield",
-    "Codex",
-    "AI影片生成",
-    "廣告製作"
-   ],
-   "search_terms": [
-    "Higgsfield",
-    "Codex",
-    "AI剪片",
-    "AI影片生成",
-    "產品廣告",
-    "電影感影片",
-    "Prompt撰寫",
-    "AI生成影片"
    ],
    "url": null,
    "content_type": "video",
@@ -27982,73 +27149,6 @@
    "safety": null
   },
   {
-   "video_id": "ittWMUtExx4",
-   "title": "騰訊Workbuddy HY3免費用要同大家講! ｜過咗今年8月31號就要收錢! ｜一句指令搞掂旅遊行程｜幫你做YouTube SEO 及標題｜上網搵資料再做數據分析| ｜Workbuddy AI實測",
-   "channel": "旅攝Henry Lo",
-   "duration_seconds": 616,
-   "published_at": "2026-08-14T13:08:41Z",
-   "thumbnail_url": "https://i.ytimg.com/vi/ittWMUtExx4/mqdefault.jpg",
-   "view_count": 2672,
-   "category": "工具教學",
-   "summary": "本影片實測騰訊 WorkBuddy AI Agent，展示如何透過一句指令完成旅遊行程規劃、YouTube 內容整理與 SEO 標題發想，並可線上蒐集資料進行數據分析與製作 PPT。",
-   "tags": [
-    "WorkBuddy",
-    "騰訊AI",
-    "AI Agent",
-    "旅遊規劃"
-   ],
-   "search_terms": [
-    "WorkBuddy",
-    "騰訊AI",
-    "HY3模型",
-    "行程規劃",
-    "YouTube SEO",
-    "數據分析",
-    "AI實測",
-    "辦公工具"
-   ],
-   "url": null,
-   "content_type": "video",
-   "difficulty": "入門",
-   "region": "國內",
-   "license": null,
-   "security_score": null,
-   "safety": null
-  },
-  {
-   "video_id": "c_paNzLEiYI",
-   "title": "🔥唔想自己剪片? 🤣1條參考短片👉AI幫你複製剪輯風格➡️自動剪! 😎 最完整教學! 附AI指令 @chuchuchutv",
-   "channel": "Chuchu豬 TV",
-   "duration_seconds": 643,
-   "published_at": "2026-08-14T12:21:23Z",
-   "thumbnail_url": "https://i.ytimg.com/vi/c_paNzLEiYI/mqdefault.jpg",
-   "view_count": 1503,
-   "category": "AI 影像與影片生成",
-   "summary": "介紹如何利用 AI 複製參考短片的剪輯風格並實現自動化剪片，影片提供完整的 AI 指令與剪輯技巧教學，幫助創作者提升 YouTube 短影音製作效率。",
-   "tags": [
-    "AI剪片",
-    "剪輯風格",
-    "自動剪輯",
-    "AI指令"
-   ],
-   "search_terms": [
-    "複製剪輯風格",
-    "AI剪輯",
-    "自動剪片",
-    "短影音剪輯",
-    "YouTube剪輯",
-    "剪片教學",
-    "AI Prompt"
-   ],
-   "url": null,
-   "content_type": "video",
-   "difficulty": "入門",
-   "region": "國內",
-   "license": null,
-   "security_score": null,
-   "safety": null
-  },
-  {
    "video_id": "DQpaj6uugWs",
    "title": "【2026 最新】AI作曲平台 Suno 完整功能解析｜不用懂作曲也能上手，入門到進階一次搞懂",
    "channel": "GOLDFISH NOTE 金魚筆記",
@@ -28206,39 +27306,6 @@
     "LINE機器人",
     "圖表生成",
     "AI Agent"
-   ],
-   "url": null,
-   "content_type": "video",
-   "difficulty": "進階",
-   "region": "國內",
-   "license": null,
-   "security_score": null,
-   "safety": null
-  },
-  {
-   "video_id": "lpsR4XaNP3c",
-   "title": "AI 廣告影片生成教學 | 產品+分鏡+生成+後製｜學懂 Codex & Flova AI、一人公司唔使剪片師（廣東話 ）",
-   "channel": "Tim Chan AI",
-   "duration_seconds": 1769,
-   "published_at": "2026-08-14T09:30:23Z",
-   "thumbnail_url": "https://i.ytimg.com/vi/lpsR4XaNP3c/mqdefault.jpg",
-   "view_count": 768,
-   "category": "AI 影像與影片生成",
-   "summary": "本影片為廣東話 AI 商業廣告影片生成教學，教導一人公司與中小企如何結合 Codex 與 Flova AI，從創意發想、撰寫腳本、設計分鏡到後製影片，打造完整 30 秒直式廣告工作流。",
-   "tags": [
-    "Flova AI",
-    "Codex",
-    "AI廣告",
-    "影片生成"
-   ],
-   "search_terms": [
-    "Flova AI",
-    "Codex",
-    "AI影片生成",
-    "廣告製作",
-    "分鏡腳本",
-    "一人公司",
-    "影片後製"
    ],
    "url": null,
    "content_type": "video",
@@ -29541,39 +28608,6 @@
    "safety": null
   },
   {
-   "video_id": "x7_LEkzt8-c",
-   "title": "【教育做緊乜 】馮耀章校長——AI驅動的智能課程規劃與教學安排",
-   "channel": "瘋show同學會",
-   "duration_seconds": 1491,
-   "published_at": "2026-08-13T03:37:40Z",
-   "thumbnail_url": "https://i.ytimg.com/vi/x7_LEkzt8-c/mqdefault.jpg",
-   "view_count": 5,
-   "category": "辦公應用",
-   "summary": "本影片由馮耀章校長分享如何利用 AI 驅動智能課程規劃。內容介紹透過 AI 整合跨平台 Excel 數據建立校本課程地圖，方便跨學科靈活調配，並能一鍵篩選資訊科技素養指標，提升學校行政效率與未來的發展規劃。",
-   "tags": [
-    "課程規劃",
-    "教育 AI",
-    "Excel 整合",
-    "辦公應用"
-   ],
-   "search_terms": [
-    "AI教育",
-    "課程規劃",
-    "校本課程",
-    "Course Mapping",
-    "學校行政",
-    "Excel數據整合",
-    "教學安排"
-   ],
-   "url": null,
-   "content_type": "video",
-   "difficulty": "入門",
-   "region": "國內",
-   "license": null,
-   "security_score": null,
-   "safety": null
-  },
-  {
    "video_id": "GU-WCdzJg8E",
    "title": "Opencode 基本功EP07:新版本完全體_最佳搭配設定",
    "channel": "三師爸Sense Bar",
@@ -30039,40 +29073,6 @@
    "url": null,
    "content_type": "video",
    "difficulty": "入門",
-   "region": "國內",
-   "license": null,
-   "security_score": null,
-   "safety": null
-  },
-  {
-   "video_id": "146od5pkqsA",
-   "title": "AI Agent 覆客靠唔靠得住？實測用 Gemini Spark 自動處理訂單 + 出 Quotation | 減少出錯 + 節省時間",
-   "channel": "Hello AI | 快速應用AI",
-   "duration_seconds": 742,
-   "published_at": "2026-08-12T12:46:23Z",
-   "thumbnail_url": "https://i.ytimg.com/vi/146od5pkqsA/mqdefault.jpg",
-   "view_count": 611,
-   "category": "自動化工作流",
-   "summary": "本影片實測如何運用 Gemini Spark 結合 Skill 打造 AI Agent，自動化讀取客戶訂單、計算折扣優惠並偵測錯誤要求，最後一鍵生成報價單，幫助企業減少人為出錯並大幅節省處理時間。",
-   "tags": [
-    "AI Agent",
-    "Gemini Spark",
-    "訂單自動化",
-    "報價單生成"
-   ],
-   "search_terms": [
-    "Gemini Spark",
-    "AI Agent",
-    "自動回覆",
-    "自動報價",
-    "訂單處理",
-    "客服自動化",
-    "Quotation",
-    "辦公自動化"
-   ],
-   "url": null,
-   "content_type": "video",
-   "difficulty": "進階",
    "region": "國內",
    "license": null,
    "security_score": null,
@@ -32566,40 +31566,6 @@
    "safety": null
   },
   {
-   "video_id": "MS5Z5X2Uzh0",
-   "title": "【Buzz 教學】1 個 Setup，3 個 AI 員工，10 倍工作效率！AI Agent 分工自動化，唔使寫 Code（廣東話）",
-   "channel": "Marco Refuses To Code",
-   "duration_seconds": 365,
-   "published_at": "2026-08-08T14:21:37Z",
-   "thumbnail_url": "https://i.ytimg.com/vi/MS5Z5X2Uzh0/mqdefault.jpg",
-   "view_count": 23,
-   "category": "工具教學",
-   "summary": "本影片示範使用開源工具 Buzz 打造免程式碼的 3 人 AI Agent 團隊。影片透過實際工作流程範例，展示 AI 員工如何在群組中自行溝通分工、撰寫內容與審查品管，有效提升日常工作效率。",
-   "tags": [
-    "Buzz",
-    "AI Agent",
-    "免程式碼",
-    "自動化"
-   ],
-   "search_terms": [
-    "Buzz",
-    "buzz.xyz",
-    "AI Agent",
-    "無程式碼",
-    "AI團隊",
-    "工作流自動化",
-    "AI員工",
-    "廣東話AI教學"
-   ],
-   "url": null,
-   "content_type": "video",
-   "difficulty": "入門",
-   "region": "國內",
-   "license": null,
-   "security_score": null,
-   "safety": null
-  },
-  {
    "video_id": "CCgkTANBtAE",
    "title": "整本公司規章，3 秒給你答案",
    "channel": "牛逼咻咻丸",
@@ -33058,40 +32024,6 @@
     "AI配音",
     "Vegas去空白",
     "教學影片剪輯"
-   ],
-   "url": null,
-   "content_type": "video",
-   "difficulty": "進階",
-   "region": "國內",
-   "license": null,
-   "security_score": null,
-   "safety": null
-  },
-  {
-   "video_id": "U_FOINNbWqw",
-   "title": "【Codex 教學】一張產品相變 IG 短片 | AI剪片 唔使開剪映 | 一人公司 | AI 自動化 HyperFrames (廣東話）",
-   "channel": "Tim Chan AI",
-   "duration_seconds": 1107,
-   "published_at": "2026-08-07T09:30:18Z",
-   "thumbnail_url": "https://i.ytimg.com/vi/U_FOINNbWqw/mqdefault.jpg",
-   "view_count": 1245,
-   "category": "AI 影像與影片生成",
-   "summary": "本影片為廣東話教學，示範如何運用 Codex AI 搭配 HyperFrames，僅憑一張產品照片自動生成 IG Reels 短影片。影片介紹完整 AI 剪片工作流程，包含提示詞下達與成品修改，適合一人公司高效製作行銷影片。",
-   "tags": [
-    "Codex",
-    "AI剪片",
-    "HyperFrames",
-    "IG Reels"
-   ],
-   "search_terms": [
-    "Codex",
-    "AI剪片",
-    "HyperFrames",
-    "IG短片",
-    "自動剪輯",
-    "產品影片",
-    "廣東話教學",
-    "一人公司"
    ],
    "url": null,
    "content_type": "video",
@@ -34489,39 +33421,6 @@
    "safety": null
   },
   {
-   "video_id": "tAV-BtzIB5M",
-   "title": "示範 ChatGPT Sites 唔洗識 coding 寫 App、網站，用到自訂網址 .com！ #AI教學 #AI工具 #App開發 #ChatGPT",
-   "channel": "彼德 · 生活工程師",
-   "duration_seconds": 1412,
-   "published_at": "2026-08-05T12:00:18Z",
-   "thumbnail_url": "https://i.ytimg.com/vi/tAV-BtzIB5M/mqdefault.jpg",
-   "view_count": 2024,
-   "category": "工具教學",
-   "summary": "本影片示範如何使用全新的 ChatGPT Sites 工具，無需任何程式基礎，僅靠輸入中文提示詞，即可在十分鐘內快速構建出功能完整的網頁與 Web App，並詳細介紹如何綁定自訂網址。",
-   "tags": [
-    "ChatGPT",
-    "無程式碼",
-    "網頁生成",
-    "AI開發"
-   ],
-   "search_terms": [
-    "ChatGPT 網頁",
-    "AI 寫 App",
-    "不用寫程式",
-    "No code 網頁",
-    "自訂網址",
-    "網頁製作",
-    "ChatGPT Sites 教學"
-   ],
-   "url": null,
-   "content_type": "video",
-   "difficulty": "入門",
-   "region": "國內",
-   "license": null,
-   "security_score": null,
-   "safety": null
-  },
-  {
    "video_id": "rdyS5DQdR4E",
    "title": "PDF 也有 AI Agent 了？一句話搞定 OCR、翻譯、轉檔與壓縮｜AI PDF 編輯器實測 #pdnob",
    "channel": "Sam 6",
@@ -35289,39 +34188,6 @@
    "safety": null
   },
   {
-   "video_id": "FVguvCqTOYI",
-   "title": "Gemini Spark 香港登場：比普通 AI 強喺邊？唔使開電腦 24 小時運作，幾樣要注意！",
-   "channel": "DMP深度學習",
-   "duration_seconds": 750,
-   "published_at": "2026-08-05T03:00:37Z",
-   "thumbnail_url": "https://i.ytimg.com/vi/FVguvCqTOYI/mqdefault.jpg",
-   "view_count": 1823,
-   "category": "自動化工作流",
-   "summary": "本影片介紹 Google 雲端託管 AI Agent「Gemini Spark」，示範入門操作與語音提示詞設定，並透過編寫 Skills 手冊將整理電郵等工作流程完全自動化。",
-   "tags": [
-    "Gemini Spark",
-    "AI Agent",
-    "自動化",
-    "Google"
-   ],
-   "search_terms": [
-    "Gemini Spark",
-    "AI Agent",
-    "工作流自動化",
-    "Google AI",
-    "自動處理郵件",
-    "語音提示詞",
-    "Skills手冊"
-   ],
-   "url": null,
-   "content_type": "video",
-   "difficulty": "進階",
-   "region": "國內",
-   "license": null,
-   "security_score": null,
-   "safety": null
-  },
-  {
    "video_id": "dgVnu19a01w",
    "title": "分數漲了三個百分點，其實什麼都沒發生｜Agent 的評估｜AI Agent 白話課 EP07",
    "channel": "Colon & Code | 黃士峯 Fredric Huang",
@@ -35449,39 +34315,6 @@
    "url": "https://www.bnext.com.tw/article/91730/matt-pocock-wayfinder",
    "content_type": "article",
    "difficulty": "進階",
-   "region": "國內",
-   "license": null,
-   "security_score": null,
-   "safety": null
-  },
-  {
-   "video_id": "dSMv8rQh9dM",
-   "title": "ChatGPT 香港用唔到？教你用呢個免費 AI，講廣東話都得（長輩都學得識）",
-   "channel": "Shilu Varma",
-   "duration_seconds": 1295,
-   "published_at": "2026-08-04T23:01:08Z",
-   "thumbnail_url": "https://i.ytimg.com/vi/dSMv8rQh9dM/mqdefault.jpg",
-   "view_count": 10,
-   "category": "工具教學",
-   "summary": "影片教學如何在香港免翻牆使用 Google Gemini，示範無障礙登入、廣東話語音對話，以及拍下照片讓 AI 解答生活問題與辨識詐騙訊息的實戰步驟。",
-   "tags": [
-    "Gemini",
-    "免費AI",
-    "廣東話",
-    "入門教學"
-   ],
-   "search_terms": [
-    "Gemini",
-    "廣東話AI",
-    "長輩學AI",
-    "香港ChatGPT",
-    "免費AI工具",
-    "圖片辨識",
-    "語音對話"
-   ],
-   "url": null,
-   "content_type": "video",
-   "difficulty": "入門",
    "region": "國內",
    "license": null,
    "security_score": null,
@@ -35777,39 +34610,6 @@
     "自動核對數據",
     "Google AI",
     "會計自動化"
-   ],
-   "url": null,
-   "content_type": "video",
-   "difficulty": "進階",
-   "region": "國內",
-   "license": null,
-   "security_score": null,
-   "safety": null
-  },
-  {
-   "video_id": "Hy_krrNpqKw",
-   "title": "【Codex 教學】請唔起人？打造你的AI員工：幫你起網站 + 自動跟報價｜一人公司 AI 自動化（廣東話）",
-   "channel": "Tim Chan AI",
-   "duration_seconds": 1093,
-   "published_at": "2026-08-04T09:51:51Z",
-   "thumbnail_url": "https://i.ytimg.com/vi/Hy_krrNpqKw/mqdefault.jpg",
-   "view_count": 2625,
-   "category": "自動化工作流",
-   "summary": "本影片為廣東話教學，示範如何使用 Codex 為一人公司打造 AI 員工。內容教導從空資料夾建構架設咖啡廳網站，並建立自動處理報價與 Email 跟進的工作流程。",
-   "tags": [
-    "Codex",
-    "AI員工",
-    "自動化報價",
-    "一人公司"
-   ],
-   "search_terms": [
-    "Codex教學",
-    "AI建站",
-    "一人公司",
-    "自動跟報價",
-    "廣東話AI教學",
-    "AI Agent工作流",
-    "自動化Email"
    ],
    "url": null,
    "content_type": "video",
@@ -39927,39 +38727,6 @@
    "safety": null
   },
   {
-   "video_id": "o7AUbq28-Ss",
-   "title": "【ChatGPT 教學】最新最全 | 9成人冇用嘅功能＋新出 Work 自動幫你做嘢  | 免費都用到（廣東話 ）",
-   "channel": "Tim Chan AI",
-   "duration_seconds": 1809,
-   "published_at": "2026-07-27T09:30:21Z",
-   "thumbnail_url": "https://i.ytimg.com/vi/o7AUbq28-Ss/mqdefault.jpg",
-   "view_count": 16,
-   "category": "自動化工作流",
-   "summary": "這支廣東話教學影片介紹 ChatGPT 免費版、Projects 與 Work 功能。教導使用者如何透過單一 Prompt，自動完成研究、資料整理、寫信等多步驟工作，大幅提升工作效率。",
-   "tags": [
-    "ChatGPT",
-    "ChatGPT Work",
-    "自動化工作流",
-    "Prompt教學"
-   ],
-   "search_terms": [
-    "ChatGPT教學",
-    "ChatGPT Work",
-    "廣東話AI",
-    "自動化工作流",
-    "指令優化",
-    "AI辦公效率",
-    "Prompt技巧"
-   ],
-   "url": null,
-   "content_type": "video",
-   "difficulty": "進階",
-   "region": "國內",
-   "license": null,
-   "security_score": null,
-   "safety": null
-  },
-  {
    "video_id": "neRFrLDQS5k",
    "title": "AI 漫劇製作全流程教學來啦～0-1 從腳本生成到影片發布，每一步都有實操演示，看完立刻上手！",
    "channel": "AI视频制作教学",
@@ -40612,40 +39379,6 @@
     "規格書",
     "ChatGPT",
     "專案管理"
-   ],
-   "url": null,
-   "content_type": "video",
-   "difficulty": "進階",
-   "region": "國內",
-   "license": null,
-   "security_score": null,
-   "safety": null
-  },
-  {
-   "video_id": "bG1qnHIB-ys",
-   "title": "【Vibe Coding】用 Claude Opus 5 寫咗個鋼鐵俠 JARVIS AI 助理：手勢識別＋語音對話＋MCP 整合",
-   "channel": "阿石OMP",
-   "duration_seconds": 519,
-   "published_at": "2026-07-26T14:35:32Z",
-   "thumbnail_url": "https://i.ytimg.com/vi/bG1qnHIB-ys/mqdefault.jpg",
-   "view_count": 2165,
-   "category": "程式開發",
-   "summary": "本影片示範利用 Claude 進行 Vibe Coding，打造具備手勢識別、語音對話與 MCP 整合的 JARVIS 樣式 AI 助理，展示最新的 AI 輔助程式開發實戰流程。",
-   "tags": [
-    "Vibe Coding",
-    "Claude",
-    "MCP",
-    "AI助理"
-   ],
-   "search_terms": [
-    "Vibe Coding",
-    "Claude",
-    "JARVIS",
-    "語音對話",
-    "手勢辨識",
-    "MCP",
-    "AI寫程式",
-    "程式開發"
    ],
    "url": null,
    "content_type": "video",
@@ -43245,31 +41978,6 @@
    "content_type": "video",
    "difficulty": "進階",
    "region": "國內",
-   "license": null,
-   "security_score": null,
-   "safety": null
-  },
-  {
-   "video_id": "mPywsCF8l8o",
-   "title": "【Hermes Agent 教學】取消 ChatGPT、棄養 OpenClaw : 用 $84 請個 24/7 嘅 AI 員工 (零Code)｜廣東話",
-   "channel": "Tim Chan AI",
-   "duration_seconds": 1913,
-   "published_at": "2026-07-24T09:30:00Z",
-   "thumbnail_url": "https://i.ytimg.com/vi/mPywsCF8l8o/mqdefault.jpg",
-   "view_count": 5448,
-   "category": "自動化工作流",
-   "summary": "本影片採用廣東話教學，介紹如何使用 Hostinger VPS 零程式碼自主部署 24 小時待命的 Hermes AI Agent。透過詳細步驟帶領觀眾打造專屬 AI 員工，省去高額訂閱費並自動化處理日常重複工作。",
-   "tags": [
-    "HermesAgent",
-    "AIAgent",
-    "自動化",
-    "無程式碼"
-   ],
-   "search_terms": [],
-   "url": null,
-   "content_type": "video",
-   "difficulty": "專家",
-   "region": "國外",
    "license": null,
    "security_score": null,
    "safety": null
@@ -45879,31 +44587,6 @@
    "safety": null
   },
   {
-   "video_id": "-eOEWWba1r0",
-   "title": "Google Docs x Gemini 最新2026教學｜唔識呢5個 AI 秘技，每日返工浪費幾多時間？",
-   "channel": "DMP深度學習",
-   "duration_seconds": 451,
-   "published_at": "2026-07-19T03:00:19Z",
-   "thumbnail_url": "https://i.ytimg.com/vi/-eOEWWba1r0/mqdefault.jpg",
-   "view_count": 5476,
-   "category": "辦公應用",
-   "summary": "本影片示範 Google Docs 結合 Gemini AI 的五個實用辦公技巧，包含手寫文字 OCR 掃描、語音輸入、AI 表格化會議記錄、智慧型變數及自動化腳本應用。",
-   "tags": [
-    "Google Docs",
-    "Gemini",
-    "辦公效率",
-    "AI應用"
-   ],
-   "search_terms": [],
-   "url": null,
-   "content_type": "video",
-   "difficulty": "入門",
-   "region": "國內",
-   "license": null,
-   "security_score": null,
-   "safety": null
-  },
-  {
    "video_id": "DJdL7NeT4v0",
    "title": "【製造業AI實戰・EP7】雲端憑證設定教學：GCP Service Account 與 OAuth2（Google Sheets | Gmail API）",
    "channel": "虎智科技TigerAI",
@@ -48216,31 +46899,6 @@
    "safety": null
   },
   {
-   "video_id": "OkFmCO6rJZs",
-   "title": "真 · AI影片Agent：新手唔洗識剪片做出完美爆片 ｜ Flova AI 實測：Agent＋Skills＋Timeline 全流程教學 #FlovaAI #AI影片Agent #AI工具",
-   "channel": "我想用Ai賺錢",
-   "duration_seconds": 866,
-   "published_at": "2026-07-10T12:00:39Z",
-   "thumbnail_url": "https://i.ytimg.com/vi/OkFmCO6rJZs/mqdefault.jpg",
-   "view_count": 1602,
-   "category": "AI 影像與影片生成",
-   "summary": "本影片以廣東話實測 Flova AI 影片代理人工具，詳細講解 Agent 模式、Skills 設定與時間軸操作，協助不懂剪輯的新手快速製作高品質的短影音與宣傳片。",
-   "tags": [
-    "Flova AI",
-    "AI影片生成",
-    "AI Agent",
-    "影音剪輯"
-   ],
-   "search_terms": [],
-   "url": null,
-   "content_type": "video",
-   "difficulty": "進階",
-   "region": "國內",
-   "license": null,
-   "security_score": null,
-   "safety": null
-  },
-  {
    "video_id": "wqypuVmCmPw",
    "title": "我做了一套 AI 神器，0 成本每天自動產生爆款短片！#n8n",
    "channel": "傑克自動化AI教學",
@@ -48260,31 +46918,6 @@
    "url": null,
    "content_type": "video",
    "difficulty": "專家",
-   "region": "國內",
-   "license": null,
-   "security_score": null,
-   "safety": null
-  },
-  {
-   "video_id": "JMxLulPqAGo",
-   "title": "【AIAgent教學】3個超實用「AI自動工作流」私藏分享😍 包括自動生成「廣東話AI新聞 Podcast」😳太神奇了！｜AI新手入門｜Skywork教學",
-   "channel": "貝背包 PPBAG",
-   "duration_seconds": 1016,
-   "published_at": "2026-07-10T12:00:25Z",
-   "thumbnail_url": "https://i.ytimg.com/vi/JMxLulPqAGo/mqdefault.jpg",
-   "view_count": 41318,
-   "category": "自動化工作流",
-   "summary": "本影片介紹 Skywork 平台，分享三個超實用的 AI 自動化工作流，手把手教學如何自動生成廣東話 AI 新聞 Podcast、自動搜集資料等，適合 AI 新手入門。",
-   "tags": [
-    "Skywork",
-    "AI工作流",
-    "Podcast生成",
-    "新手教學"
-   ],
-   "search_terms": [],
-   "url": null,
-   "content_type": "video",
-   "difficulty": "進階",
    "region": "國內",
    "license": null,
    "security_score": null,
@@ -48623,31 +47256,6 @@
    "safety": null
   },
   {
-   "video_id": "nFaWwsOc8uI",
-   "title": "【AI教學】Google Gemini值得課金？實測 Omni 影片生成、Docs 寫稿工作流 🤖實測 AI Avatar 與 Google Flow 創作功能🤖Agentic AI係啲咩?",
-   "channel": "GadgetGang HK",
-   "duration_seconds": 1293,
-   "published_at": "2026-07-09T13:00:06Z",
-   "thumbnail_url": "https://i.ytimg.com/vi/nFaWwsOc8uI/mqdefault.jpg",
-   "view_count": 14505,
-   "category": "AI 影像與影片生成",
-   "summary": "本影片實測 Google Gemini 訂閱功能，展示 Gemini Omni 的影片生成與 AI Avatar 創作，同時示範整合至 Google Docs 的寫作工作流與 Agentic AI 概念。",
-   "tags": [
-    "Gemini",
-    "AI影片生成",
-    "AI Avatar",
-    "Google Docs"
-   ],
-   "search_terms": [],
-   "url": null,
-   "content_type": "video",
-   "difficulty": "進階",
-   "region": "國內",
-   "license": null,
-   "security_score": null,
-   "safety": null
-  },
-  {
    "video_id": "-xSLJjICWxk",
    "title": "Ep. 22 / 29 （降note 秘笈）NotebookLM 教學：解決數學公式亂碼的方法（專屬語法原生渲染）",
    "channel": "mjmc",
@@ -48926,31 +47534,6 @@
    "url": null,
    "content_type": "video",
    "difficulty": "入門",
-   "region": "國內",
-   "license": null,
-   "security_score": null,
-   "safety": null
-  },
-  {
-   "video_id": "AGTAyXbpO64",
-   "title": "【Genspark AI 教學】AI Agent 自動做哂 報告+簡報+電郵｜ChatGPT 做唔到，定要轉 Manus？（2026 廣東話）",
-   "channel": "Tim Chan AI",
-   "duration_seconds": 1137,
-   "published_at": "2026-07-08T09:30:07Z",
-   "thumbnail_url": "https://i.ytimg.com/vi/AGTAyXbpO64/mqdefault.jpg",
-   "view_count": 2238,
-   "category": "自動化工作流",
-   "summary": "影片以廣東話教學示範如何運用 Genspark AI Super Agent 自動化完成報告、簡報與電子郵件。說明只需單一提示詞即可指派 AI Agent 執行跨任務流程，幫助上班族省去重複繁瑣的操作。",
-   "tags": [
-    "Genspark AI",
-    "AI Agent",
-    "自動化工作流",
-    "廣東話教學"
-   ],
-   "search_terms": [],
-   "url": null,
-   "content_type": "video",
-   "difficulty": "進階",
    "region": "國內",
    "license": null,
    "security_score": null,
@@ -49665,31 +48248,6 @@
    "safety": null
   },
   {
-   "video_id": "Nbg4Kc-oslk",
-   "title": "AI自動搵工系統｜平價使用n8n教學（廣東話）",
-   "channel": "JP電腦教學",
-   "duration_seconds": 1619,
-   "published_at": "2026-07-05T01:48:26Z",
-   "thumbnail_url": "https://i.ytimg.com/vi/Nbg4Kc-oslk/mqdefault.jpg",
-   "view_count": 2783,
-   "category": "自動化工作流",
-   "summary": "本影片採用廣東話教學，帶領觀眾使用 n8n 與 Hostinger 伺服器建立 AI 自動求職系統。透過建置客製化的工作機會通知工作流，自動篩選符合個人履歷條件的職缺，大幅節省主動搜尋職缺的時間。",
-   "tags": [
-    "n8n",
-    "AI求職",
-    "自動化工作流",
-    "廣東話教學"
-   ],
-   "search_terms": [],
-   "url": null,
-   "content_type": "video",
-   "difficulty": "專家",
-   "region": "國內",
-   "license": null,
-   "security_score": null,
-   "safety": null
-  },
-  {
    "video_id": "-zHnG0sELiQ",
    "title": "豆包2.1接入办公任务模式，AI直接帮你整理文件、做PPT、发邮件！打工人分身有术",
    "channel": "王陈说",
@@ -50199,31 +48757,6 @@
    "safety": null
   },
   {
-   "video_id": "GFE7Qwk58BM",
-   "title": "唔好再淨係識得一問一答！免費 AI 教學 2026 必睇！實測最強免費 AI 工作流：資料搜集、文件生成、排版一條龍全自動搞掂 ｜#廣東話 #軟件教學",
-   "channel": "Price.com.hk 香港格價網",
-   "duration_seconds": 604,
-   "published_at": "2026-07-02T12:00:01Z",
-   "thumbnail_url": "https://i.ytimg.com/vi/GFE7Qwk58BM/mqdefault.jpg",
-   "view_count": 72249,
-   "category": "自動化工作流",
-   "summary": "本影片以廣東話講解如何串連多款免費 AI 工具，建立全自動工作流，包含精準資料搜集、長文消化、簡報生成與無痛修圖，打造無縫作業流程。",
-   "tags": [
-    "AI工作流",
-    "自動化",
-    "簡報生成",
-    "廣東話教學"
-   ],
-   "search_terms": [],
-   "url": null,
-   "content_type": "video",
-   "difficulty": "進階",
-   "region": "國內",
-   "license": null,
-   "security_score": null,
-   "safety": null
-  },
-  {
    "video_id": "_TvF0E2_1Ds",
    "title": "NotebookLM全攻略｜生成中文版Podcast｜超強AI筆記｜從筆記、心智圖到一鍵生成PPT｜資料整理 x 深度理解 x 智慧輸出",
    "channel": "H先生AI教室",
@@ -50493,31 +49026,6 @@
    "url": null,
    "content_type": "video",
    "difficulty": "進階",
-   "region": "國內",
-   "license": null,
-   "security_score": null,
-   "safety": null
-  },
-  {
-   "video_id": "sGbCEtEwFaY",
-   "title": "【Copilot 教學】30分鐘做哂 Word+Excel+PPT，但用錯版本 慘過白做（廣東話）",
-   "channel": "Tim Chan AI",
-   "duration_seconds": 846,
-   "published_at": "2026-07-01T10:28:58Z",
-   "thumbnail_url": "https://i.ytimg.com/vi/sGbCEtEwFaY/mqdefault.jpg",
-   "view_count": 5065,
-   "category": "辦公應用",
-   "summary": "本影片以廣東話教學 Microsoft Copilot 的應用，深入解析免費個人版、企業版與 M365 版的分別，並示範如何在 30 分鐘內利用 AI 高效處理 Word、Excel 及 PPT。",
-   "tags": [
-    "Copilot教學",
-    "M365",
-    "辦公應用",
-    "廣東話教學"
-   ],
-   "search_terms": [],
-   "url": null,
-   "content_type": "video",
-   "difficulty": "入門",
    "region": "國內",
    "license": null,
    "security_score": null,
@@ -51381,31 +49889,6 @@
    "url": null,
    "content_type": "video",
    "difficulty": "專家",
-   "region": "國內",
-   "license": null,
-   "security_score": null,
-   "safety": null
-  },
-  {
-   "video_id": "10h322PRc2M",
-   "title": "Claude Code 定 n8n？你根本攞緊兩樣唔同嘅嘢嚟比",
-   "channel": "Alvin @ AstraVenture",
-   "duration_seconds": 662,
-   "published_at": "2026-06-27T11:22:02Z",
-   "thumbnail_url": "https://i.ytimg.com/vi/10h322PRc2M/mqdefault.jpg",
-   "view_count": 239,
-   "category": "入門觀念",
-   "summary": "本影片以廣東話解析 Claude Code 與 n8n 的核心差異，矯正常見的比較誤區。影片詳細說明 AI 程式開發工具與自動化工作流平台的適用場景與本質不同，幫助觀眾釐清學習方向與工具選擇。",
-   "tags": [
-    "ClaudeCode",
-    "n8n",
-    "AI工具比較",
-    "入門觀念"
-   ],
-   "search_terms": [],
-   "url": null,
-   "content_type": "video",
-   "difficulty": "入門",
    "region": "國內",
    "license": null,
    "security_score": null,
@@ -52993,31 +51476,6 @@
    "safety": null
   },
   {
-   "video_id": "9M8TtoJKUC0",
-   "title": "【香港創業者必備】5 分鐘無痛上線專業網站：Readdy AI 全能網站製作教學及實測 ｜ 超簡易AI網站製作工具 #香港ai #網站AI #ai工具 #AI創業 #廣東話 #ReaddyAI",
-   "channel": "我想用Ai賺錢",
-   "duration_seconds": 728,
-   "published_at": "2026-06-17T12:00:09Z",
-   "thumbnail_url": "https://i.ytimg.com/vi/9M8TtoJKUC0/mqdefault.jpg",
-   "view_count": 653,
-   "category": "程式開發",
-   "summary": "本影片以廣東話示範如何使用 Readdy AI 全能網站建置工具，在 5 分鐘內快速架設專業網站。影片包含實測與操作教學，適合創作者與創業者無痛進行網站開發。",
-   "tags": [
-    "Readdy AI",
-    "網站製作",
-    "程式開發",
-    "AI建站"
-   ],
-   "search_terms": [],
-   "url": null,
-   "content_type": "video",
-   "difficulty": "入門",
-   "region": "國內",
-   "license": null,
-   "security_score": null,
-   "safety": null
-  },
-  {
    "video_id": "0AoejTPI3EQ",
    "title": "[ 享玩AI ] Google 最新 Omni 值不值得玩？不只 Gemini 能直接做影片，Google Flow 更新後連角色功能都一起補上了",
    "channel": "享知Cultiwise",
@@ -54043,31 +52501,6 @@
    "safety": null
   },
   {
-   "video_id": "IuHAYtgtAsE",
-   "title": "24小時實測將所有工作交俾 AI 同事 Kuse AI Coworker真係幫到手？ #Kuse #AICoworker #KuseAI #香港ai #ai工具 #廣東話 #ai實戰 #ai賺錢",
-   "channel": "我想用Ai賺錢",
-   "duration_seconds": 907,
-   "published_at": "2026-06-10T12:00:38Z",
-   "thumbnail_url": "https://i.ytimg.com/vi/IuHAYtgtAsE/mqdefault.jpg",
-   "view_count": 1895,
-   "category": "自動化工作流",
-   "summary": "本影片實測 Kuse AI Coworker 工具，示範如何建立 AI 自動化工作流，將日常繁瑣的手動工作移交給 AI 處理，藉此大幅提升個人工作效率。",
-   "tags": [
-    "KuseAI",
-    "AI同事",
-    "自動化工作流",
-    "效率工具"
-   ],
-   "search_terms": [],
-   "url": null,
-   "content_type": "video",
-   "difficulty": "進階",
-   "region": "國內",
-   "license": null,
-   "security_score": null,
-   "safety": null
-  },
-  {
    "video_id": "ND6d1GUATGY",
    "title": "還在從零搭 Notion 模板？用 Claude Code 幫你自動建好 Database＋排版｜零基礎教學",
    "channel": "Hei_Ai 成長日記",
@@ -55030,31 +53463,6 @@
     "Gemini",
     "旅遊規劃",
     "工具教學"
-   ],
-   "search_terms": [],
-   "url": null,
-   "content_type": "video",
-   "difficulty": "入門",
-   "region": "國內",
-   "license": null,
-   "security_score": null,
-   "safety": null
-  },
-  {
-   "video_id": "082N1uD-M0U",
-   "title": "【Claude 註冊教學】又被封號？教香港人如何選擇LLM: 一次解鎖 Claude/ChatGPT/Gemini（廣東話）",
-   "channel": "Tim Chan AI",
-   "duration_seconds": 1837,
-   "published_at": "2026-06-04T09:30:00Z",
-   "thumbnail_url": "https://i.ytimg.com/vi/082N1uD-M0U/mqdefault.jpg",
-   "view_count": 20727,
-   "category": "入門觀念",
-   "summary": "本影片以廣東話講解香港使用者在註冊與訂閱 Claude、ChatGPT 及 Gemini 等大型語言模型時常見的封號問題，並提供解決 IP、簡訊驗證與付款三大難關的完整指南。",
-   "tags": [
-    "Claude",
-    "ChatGPT",
-    "帳號註冊",
-    "香港教學"
    ],
    "search_terms": [],
    "url": null,
@@ -57301,31 +55709,6 @@
    "safety": null
   },
   {
-   "video_id": "XCYLTQ8ECn4",
-   "title": "【OT傾設計EP18】Gemini AI提示詞教學 | Google官方Prompting Guide | 4個寫Prompt黃金法則 | 廣東話Podcast",
-   "channel": "Mr Zaam設計研究所",
-   "duration_seconds": 5301,
-   "published_at": "2026-05-22T05:34:43Z",
-   "thumbnail_url": "https://i.ytimg.com/vi/XCYLTQ8ECn4/mqdefault.jpg",
-   "view_count": 128,
-   "category": "工具教學",
-   "summary": "本影片為廣東話教學，導讀 Google 官方發佈的 Prompting Guide，詳細解析四個寫 Prompt 的黃金法則，幫助使用者向 Gemini 下達更精準的指令。",
-   "tags": [
-    "提示詞教學",
-    "Gemini",
-    "Prompt法則",
-    "廣東話"
-   ],
-   "search_terms": [],
-   "url": null,
-   "content_type": "video",
-   "difficulty": "入門",
-   "region": "國外",
-   "license": null,
-   "security_score": null,
-   "safety": null
-  },
-  {
    "video_id": "art_aad17892a88e",
    "title": "Gemini免費版與Pro、Ultra比較》費用、功能、福利差在哪？ | 遠見雜誌",
    "channel": "遠見雜誌 - 前進的動力",
@@ -57835,31 +56218,6 @@
    "safety": null
   },
   {
-   "video_id": "qGe2sq2i9uo",
-   "title": "【粵語AI教學】AI新手入門！6大免費AI工具推薦｜學生＋打工仔必睇",
-   "channel": "喵喵小博士",
-   "duration_seconds": 449,
-   "published_at": "2026-05-19T01:57:08Z",
-   "thumbnail_url": "https://i.ytimg.com/vi/qGe2sq2i9uo/mqdefault.jpg",
-   "view_count": 327,
-   "category": "工具教學",
-   "summary": "本影片專為 AI 初學者設計，以粵語詳細介紹 ChatGPT、Claude、Canva AI 等 6 款免費 AI 工具的功能特色，帶領新手輕鬆入門並提升工作與學習效率。",
-   "tags": [
-    "AI入門",
-    "ChatGPT",
-    "Claude",
-    "免費AI工具"
-   ],
-   "search_terms": [],
-   "url": null,
-   "content_type": "video",
-   "difficulty": "入門",
-   "region": "國內",
-   "license": null,
-   "security_score": null,
-   "safety": null
-  },
-  {
    "video_id": "kxBCLl6eexE",
    "title": "Codex 10个必装插件！实战演示：自动生成酷炫动画、视频、网页游戏和手机App，快速上手AI Agent #chatgpt #codex #ai",
    "channel": "松小鼠呀",
@@ -57961,31 +56319,6 @@
    "url": null,
    "content_type": "video",
    "difficulty": "進階",
-   "region": "國內",
-   "license": null,
-   "security_score": null,
-   "safety": null
-  },
-  {
-   "video_id": "fglWLj0OgIE",
-   "title": "大學生必睇！NotebookLM 點用先啱？完整教學 + 真實心得分享 📚",
-   "channel": "Wilf Tsang",
-   "duration_seconds": 1304,
-   "published_at": "2026-05-17T10:01:01Z",
-   "thumbnail_url": "https://i.ytimg.com/vi/fglWLj0OgIE/mqdefault.jpg",
-   "view_count": 170,
-   "category": "工具教學",
-   "summary": "影片由香港創作者分享 NotebookLM 完整教學與真實心得，示範大學生如何利用此工具整理筆記、溫習功課與理解困難課題，是一部適合學生的實用 AI 讀書指南。",
-   "tags": [
-    "NotebookLM",
-    "讀書筆記",
-    "工具教學",
-    "AI學習"
-   ],
-   "search_terms": [],
-   "url": null,
-   "content_type": "video",
-   "difficulty": "入門",
    "region": "國內",
    "license": null,
    "security_score": null,
@@ -58652,31 +56985,6 @@
    "url": null,
    "content_type": "video",
    "difficulty": "專家",
-   "region": "國內",
-   "license": null,
-   "security_score": null,
-   "safety": null
-  },
-  {
-   "video_id": "o3jlxoVa_1g",
-   "title": "【NotebookLM 教學】6個必學隱藏用法：配 Gemini Canvas 10分鐘由資料變網站（廣東話）",
-   "channel": "Tim Chan AI",
-   "duration_seconds": 944,
-   "published_at": "2026-05-13T08:00:32Z",
-   "thumbnail_url": "https://i.ytimg.com/vi/o3jlxoVa_1g/mqdefault.jpg",
-   "view_count": 29473,
-   "category": "工具教學",
-   "summary": "本影片提供 NotebookLM 的六個隱藏實用技巧，並示範如何與 Gemini Canvas 結合使用。透過廣東話詳細教學，教導使用者如何將研究資料快速轉化為可執行的網站與報告，節省大量資料彙整時間。",
-   "tags": [
-    "NotebookLM",
-    "GeminiCanvas",
-    "工具教學",
-    "廣東話"
-   ],
-   "search_terms": [],
-   "url": null,
-   "content_type": "video",
-   "difficulty": "入門",
    "region": "國內",
    "license": null,
    "security_score": null,
@@ -59878,31 +58186,6 @@
     "YAML對話",
     "原型渲染",
     "隱藏功能"
-   ],
-   "search_terms": [],
-   "url": null,
-   "content_type": "video",
-   "difficulty": "進階",
-   "region": "國內",
-   "license": null,
-   "security_score": null,
-   "safety": null
-  },
-  {
-   "video_id": "UFY-KYWjEg0",
-   "title": "【Cowork 教學】你已經畀緊 $20 但完全冇用過嘅 Claude 功能，一人公司請 3 個 AI 員工（廣東話）",
-   "channel": "Tim Chan AI",
-   "duration_seconds": 519,
-   "published_at": "2026-05-05T11:10:44Z",
-   "thumbnail_url": "https://i.ytimg.com/vi/UFY-KYWjEg0/mqdefault.jpg",
-   "view_count": 2104,
-   "category": "辦公應用",
-   "summary": "影片以廣東話講解 Claude Cowork 模式的操作教學，示範如何運用 AI 員工建立簡報、企劃書與社群內容，協助一人公司與自由工作者提升辦公效率。",
-   "tags": [
-    "Claude Cowork",
-    "辦公應用",
-    "廣東話教學",
-    "AI助理"
    ],
    "search_terms": [],
    "url": null,
@@ -62019,31 +60302,6 @@
    "safety": "安全"
   },
   {
-   "video_id": "BRXKuaCWDVQ",
-   "title": "【 Gemini 教學 】睇完呢支 你係辦公室最識用 AI 嘅人 ( 廣東話 )",
-   "channel": "Tim Chan AI",
-   "duration_seconds": 699,
-   "published_at": "2026-04-23T09:00:00Z",
-   "thumbnail_url": "https://i.ytimg.com/vi/BRXKuaCWDVQ/mqdefault.jpg",
-   "view_count": 39990,
-   "category": "辦公應用",
-   "summary": "影片以廣東話教學，示範如何利用 Gemini 的 @ 整合功能連接 Google 服務，並結合 NotebookLM 解決 AI 幻覺，處理報價單整理與資料比對等辦公痛點。",
-   "tags": [
-    "Gemini",
-    "NotebookLM",
-    "辦公應用",
-    "廣東話教學"
-   ],
-   "search_terms": [],
-   "url": null,
-   "content_type": "video",
-   "difficulty": "入門",
-   "region": "國內",
-   "license": null,
-   "security_score": null,
-   "safety": null
-  },
-  {
    "video_id": "PBk12ptKR9Q",
    "title": "2026年4月分享《AI辦公神器》，解決日常工作與生活的80%問題",
    "channel": "台灣敏捷部落",
@@ -62113,31 +60371,6 @@
    "url": null,
    "content_type": "video",
    "difficulty": "入門",
-   "region": "國內",
-   "license": null,
-   "security_score": null,
-   "safety": null
-  },
-  {
-   "video_id": "m3k7tR4ZvtA",
-   "title": "[粵語教學] n8n 自動化實戰：從 0 到 1 打造你的 AI Agent！",
-   "channel": "煉碼師Caspar",
-   "duration_seconds": 1047,
-   "published_at": "2026-04-23T03:44:17Z",
-   "thumbnail_url": "https://i.ytimg.com/vi/m3k7tR4ZvtA/mqdefault.jpg",
-   "view_count": 337,
-   "category": "自動化工作流",
-   "summary": "以粵語生動講解 n8n 自動化平台的基礎概念如 API 與 Webhook，並實戰教導如何結合 AI Agent 與工具打造專屬 AI 助理。",
-   "tags": [
-    "n8n",
-    "粵語教學",
-    "AI Agent",
-    "自動化"
-   ],
-   "search_terms": [],
-   "url": null,
-   "content_type": "video",
-   "difficulty": "進階",
    "region": "國內",
    "license": null,
    "security_score": null,
@@ -62855,31 +61088,6 @@
     "Manus",
     "簡報生成",
     "自動排版"
-   ],
-   "search_terms": [],
-   "url": null,
-   "content_type": "video",
-   "difficulty": "入門",
-   "region": "國內",
-   "license": null,
-   "security_score": null,
-   "safety": null
-  },
-  {
-   "video_id": "FZ-UEOkJmmw",
-   "title": "【90%人都搞錯】N8N vs Claude Code vs AI Studio｜學錯直接浪費時間｜廣東話｜文恩澄",
-   "channel": "文恩澄 Rannes Man",
-   "duration_seconds": 1094,
-   "published_at": "2026-04-16T10:55:00Z",
-   "thumbnail_url": "https://i.ytimg.com/vi/FZ-UEOkJmmw/mqdefault.jpg",
-   "view_count": 46016,
-   "category": "入門觀念",
-   "summary": "用簡單比喻解析 N8N、Claude Code 與 AI Studio 三大 AI 工具的真正角色與差異，幫助學習者釐清定位，避免學錯工具浪費時間。",
-   "tags": [
-    "N8N",
-    "Claude Code",
-    "AI工具",
-    "入門觀念"
    ],
    "search_terms": [],
    "url": null,
@@ -63701,31 +61909,6 @@
     "AI換臉",
     "證件照",
     "影像生成"
-   ],
-   "search_terms": [],
-   "url": null,
-   "content_type": "video",
-   "difficulty": "入門",
-   "region": "國內",
-   "license": null,
-   "security_score": null,
-   "safety": null
-  },
-  {
-   "video_id": "PvLadnpyK3s",
-   "title": "AI Agent 終極進化！告別對答式 AI，自動化預訂、Email、CV、新聞摘要！Meta、微信爭相佈局，你嘅工作將被取代？",
-   "channel": "ekcheungAI",
-   "duration_seconds": 706,
-   "published_at": "2026-04-09T03:30:18Z",
-   "thumbnail_url": "https://i.ytimg.com/vi/PvLadnpyK3s/mqdefault.jpg",
-   "view_count": 250,
-   "category": "入門觀念",
-   "summary": "深入探討 AI Agent 的運作機制與進化金字塔，展示其如何執行新聞摘要、行程安排與履歷修改等自動化任務。",
-   "tags": [
-    "AI Agent",
-    "自動化助理",
-    "概念解析",
-    "應用示範"
    ],
    "search_terms": [],
    "url": null,
@@ -65202,31 +63385,6 @@
    "safety": null
   },
   {
-   "video_id": "2mgZTRea-Ms",
-   "title": "【Gemini抵港】小心鬼祟私隱陷阱！更有效使用Google Gemini AI 廣東話教學！",
-   "channel": "JP電腦教學",
-   "duration_seconds": 1100,
-   "published_at": "2026-03-22T01:26:05Z",
-   "thumbnail_url": "https://i.ytimg.com/vi/2mgZTRea-Ms/mqdefault.jpg",
-   "view_count": 103218,
-   "category": "工具教學",
-   "summary": "本影片為廣東話教學，詳細解析 Google Gemini 的隱私設定，並示範如何有效運用指令框架、Canvas 協作功能、生成圖片及 Deep Research 進行日常大小事務。",
-   "tags": [
-    "Gemini",
-    "AI教學",
-    "隱私設定",
-    "Prompt技巧"
-   ],
-   "search_terms": [],
-   "url": null,
-   "content_type": "video",
-   "difficulty": "入門",
-   "region": "國內",
-   "license": null,
-   "security_score": null,
-   "safety": null
-  },
-  {
    "video_id": "rGb3KxCL9iA",
    "title": "Claude + n8n 自動化教學 | 用Claude自動建立n8n Workflow｜新手都做到AI自動化",
    "channel": "AI Bun Bun",
@@ -65371,31 +63529,6 @@
    "url": null,
    "content_type": "video",
    "difficulty": "進階",
-   "region": "國內",
-   "license": null,
-   "security_score": null,
-   "safety": null
-  },
-  {
-   "video_id": "Ah177OyIprE",
-   "title": "【15分鐘打造 AI 資料庫】用NotebookLM 打造最強公司資料庫/ 適合客服、寫文、培訓、策略分析！全免費 + 唔洗再請人寫 Database！",
-   "channel": "Hello AI | 快速應用AI",
-   "duration_seconds": 946,
-   "published_at": "2026-03-19T10:35:04Z",
-   "thumbnail_url": "https://i.ytimg.com/vi/Ah177OyIprE/mqdefault.jpg",
-   "view_count": 16607,
-   "category": "辦公應用",
-   "summary": "介紹如何使用 NotebookLM 打造免費的企業內部資料庫，適合應用於客服、寫文與知識管理。",
-   "tags": [
-    "NotebookLM",
-    "辦公應用",
-    "知識庫",
-    "AI工具"
-   ],
-   "search_terms": [],
-   "url": null,
-   "content_type": "video",
-   "difficulty": "入門",
    "region": "國內",
    "license": null,
    "security_score": null,
@@ -65960,31 +64093,6 @@
    "safety": null
   },
   {
-   "video_id": "vv3EbvjGemY",
-   "title": "我用AI自動出Post 每日慳2個鐘！由搵新聞到出圖全自動｜n8n免費Template",
-   "channel": "karson leung",
-   "duration_seconds": 365,
-   "published_at": "2026-03-11T08:37:14Z",
-   "thumbnail_url": "https://i.ytimg.com/vi/vv3EbvjGemY/mqdefault.jpg",
-   "view_count": 139,
-   "category": "自動化工作流",
-   "summary": "示範如何用 n8n 結合 AI 與 RSS 建立自動化新聞出 Post 系統，從收集新聞、AI 改寫到生成 IG 文案全自動完成。",
-   "tags": [
-    "n8n",
-    "自動化",
-    "IG行銷",
-    "AI應用"
-   ],
-   "search_terms": [],
-   "url": null,
-   "content_type": "video",
-   "difficulty": "進階",
-   "region": "國內",
-   "license": null,
-   "security_score": null,
-   "safety": null
-  },
-  {
    "video_id": "2D1c-phNJwY",
    "title": "學會 n8n 讓電腦幫你工作！【基礎 EP. 2-1】 一步步帶你架設伺服器！跟著填參數，一分鐘開機成功！",
    "channel": "Hello Ivan :)",
@@ -66385,31 +64493,6 @@
    "safety": null
   },
   {
-   "video_id": "Vwhcz3xhoHQ",
-   "title": "【粵語AI教學】AI繪圖入門教學｜一次搞懂DALL·E同MidJourney",
-   "channel": "喵喵小博士",
-   "duration_seconds": 1399,
-   "published_at": "2026-03-04T11:28:06Z",
-   "thumbnail_url": "https://i.ytimg.com/vi/Vwhcz3xhoHQ/mqdefault.jpg",
-   "view_count": 82,
-   "category": "入門觀念",
-   "summary": "本影片為 20 分鐘的粵語入門教學，向初學者完整介紹兩大主流 AI 繪圖工具 DALL-E 3 與 Midjourney 的基礎概念、操作流程及提示詞撰寫技巧。",
-   "tags": [
-    "DALL-E",
-    "Midjourney",
-    "AI繪圖",
-    "粵語教學"
-   ],
-   "search_terms": [],
-   "url": null,
-   "content_type": "video",
-   "difficulty": "入門",
-   "region": "國內",
-   "license": null,
-   "security_score": null,
-   "safety": null
-  },
-  {
    "video_id": "tTqbWIM7ekY",
    "title": "[ 享玩AI ] 一句話製作完美AI影片？Seedance2驚人實測|一句話做出專業級AI創作，真假難辨|支援中文+超強可控性，影片製作小白友善",
    "channel": "享知Cultiwise",
@@ -66529,31 +64612,6 @@
    "url": null,
    "content_type": "video",
    "difficulty": "入門",
-   "region": "國內",
-   "license": null,
-   "security_score": null,
-   "safety": null
-  },
-  {
-   "video_id": "m2cFidR6v7g",
-   "title": "99%老闆都唔知！AI自動覆WhatsApp 零成本24/7客服｜n8n教學",
-   "channel": "karson leung",
-   "duration_seconds": 503,
-   "published_at": "2026-03-01T12:27:42Z",
-   "thumbnail_url": "https://i.ytimg.com/vi/m2cFidR6v7g/mqdefault.jpg",
-   "view_count": 822,
-   "category": "自動化工作流",
-   "summary": "本影片教導如何使用 n8n 結合 RAG 技術打造全天候運作的 WhatsApp AI 客服機器人，實現自動處理 FAQ、預約與問題分類，非常適合中小企業提升效率。",
-   "tags": [
-    "n8n",
-    "WhatsApp AI",
-    "AI客服",
-    "自動化"
-   ],
-   "search_terms": [],
-   "url": null,
-   "content_type": "video",
-   "difficulty": "專家",
    "region": "國內",
    "license": null,
    "security_score": null,
@@ -68195,31 +66253,6 @@
    "safety": null
   },
   {
-   "video_id": "psnOOFOQKT8",
-   "title": "點樣揀啱你嘅 VPS 跑 n8n | 新手到企業指南 2026",
-   "channel": "Alvin @ AstraVenture",
-   "duration_seconds": 1126,
-   "published_at": "2026-01-25T08:26:07Z",
-   "thumbnail_url": "https://i.ytimg.com/vi/psnOOFOQKT8/mqdefault.jpg",
-   "view_count": 238,
-   "category": "自動化工作流",
-   "summary": "本影片針對 2026 年提供新手到企業的 VPS 選擇指南，教導如何運用決策框架挑選適合執行 n8n 的雲端主機，並現場示範完整的 n8n 安裝與部署流程。",
-   "tags": [
-    "n8n",
-    "VPS",
-    "伺服器架設",
-    "教學"
-   ],
-   "search_terms": [],
-   "url": null,
-   "content_type": "video",
-   "difficulty": "進階",
-   "region": "國內",
-   "license": null,
-   "security_score": null,
-   "safety": null
-  },
-  {
    "video_id": "e-WNdM4JO2U",
    "title": "【凱文大叔】手把手教你 Antigravity 設定與應用：規則（Rules）＋神技能（Skills）＋自動化（Workflows）打造最強AI 超能力！",
    "channel": "凱文大叔AI程式設計教室",
@@ -69170,31 +67203,6 @@
    "safety": null
   },
   {
-   "video_id": "8sxrodp9WUA",
-   "title": "【廣東話】n8n玩完？Google Opal 實測！10分鐘做好AI中小企神器！",
-   "channel": "Hello AI | 快速應用AI",
-   "duration_seconds": 632,
-   "published_at": "2025-12-28T11:12:36Z",
-   "thumbnail_url": "https://i.ytimg.com/vi/8sxrodp9WUA/mqdefault.jpg",
-   "view_count": 14041,
-   "category": "自動化工作流",
-   "summary": "本影片使用廣東話介紹 Google Opal 工具，實測如何以自然語言快速構建自動化系統。影片示範了食譜生成器與裝修設計系統的搭建，並將其與 n8n 進行對比與實戰應用。",
-   "tags": [
-    "Google Opal",
-    "n8n",
-    "廣東話教學",
-    "自動化工作流"
-   ],
-   "search_terms": [],
-   "url": null,
-   "content_type": "video",
-   "difficulty": "入門",
-   "region": "國內",
-   "license": null,
-   "security_score": null,
-   "safety": null
-  },
-  {
    "video_id": "81NSW8ey2HA",
    "title": "工作流已死？谷歌Opal炸场实测：自然语言构建工作流，Dify和Coze还有活路吗？| 0代码开发新纪元 | N8N",
    "channel": "灵姐说AI  |  Ling Talk AI",
@@ -69220,31 +67228,6 @@
    "safety": null
   },
   {
-   "video_id": "fN6tB5hZvRw",
-   "title": "【n8n廣東話教學】每天省30 分鐘！我用 n8n 打造「AI 時間管理大師」(附Workflow)",
-   "channel": "Hello AI | 快速應用AI",
-   "duration_seconds": 762,
-   "published_at": "2025-12-27T15:24:20Z",
-   "thumbnail_url": "https://i.ytimg.com/vi/fN6tB5hZvRw/mqdefault.jpg",
-   "view_count": 4115,
-   "category": "自動化工作流",
-   "summary": "本影片採用廣東話教學，教導如何使用 n8n 打造 AI 時間管理助手。手把手示範 AI Agent 自動分類與 Telegram 觸發設定，並提供工作流模板下載實作。",
-   "tags": [
-    "n8n",
-    "AI Agent",
-    "時間管理",
-    "廣東話教學"
-   ],
-   "search_terms": [],
-   "url": null,
-   "content_type": "video",
-   "difficulty": "進階",
-   "region": "國內",
-   "license": null,
-   "security_score": null,
-   "safety": null
-  },
-  {
    "video_id": "w69Y36kf3MU",
    "title": "🚀独创思路真正实现AI办公自动化！将操作系统映射到浏览器后，Claude in Chrome竟然能全自动操控电脑操作系统！实测效果惊人！打开计算器、写代码、装软件全搞定！支持Atlas浏览器！",
    "channel": "AI超元域",
@@ -69265,31 +67248,6 @@
    "content_type": "video",
    "difficulty": "進階",
    "region": "國外",
-   "license": null,
-   "security_score": null,
-   "safety": null
-  },
-  {
-   "video_id": "aUg6i7JK2dk",
-   "title": "【AI辦公神器】用最新ChatGPT 5.2 製作 PowerPoint 及Excel ？效果超乎想像 #chatgpt #powerpoint #AI廣東話教學",
-   "channel": "Andy Suk - 粟米個粟",
-   "duration_seconds": 1068,
-   "published_at": "2025-12-25T22:37:44Z",
-   "thumbnail_url": "https://i.ytimg.com/vi/aUg6i7JK2dk/mqdefault.jpg",
-   "view_count": 710,
-   "category": "辦公應用",
-   "summary": "本影片為廣東話教學，介紹如何用 ChatGPT 5.2 快速製作 PowerPoint 簡報與 Excel 表格，並探討實際操作中的優缺點，適合辦公族學習。",
-   "tags": [
-    "ChatGPT",
-    "PPT製作",
-    "Excel應用",
-    "辦公應用"
-   ],
-   "search_terms": [],
-   "url": null,
-   "content_type": "video",
-   "difficulty": "入門",
-   "region": "國內",
    "license": null,
    "security_score": null,
    "safety": null
@@ -69395,56 +67353,6 @@
    "safety": null
   },
   {
-   "video_id": "6hYptpyvjUc",
-   "title": "【廣東話AI教學】n8n 新手入門指南：零編程基礎打造專屬 AI Agent，手把手建構自動化 AI 工作流！",
-   "channel": "阿Jack | AI Beyond Chatbots",
-   "duration_seconds": 604,
-   "published_at": "2025-12-22T12:00:11Z",
-   "thumbnail_url": "https://i.ytimg.com/vi/6hYptpyvjUc/mqdefault.jpg",
-   "view_count": 2958,
-   "category": "工具教學",
-   "summary": "本影片為廣東話 n8n 新手入門教學，專為零程式基礎設計。手把手示範如何透過拖拉節點連接 LLM 模型，引導觀眾輕鬆建立起第一個專屬的自動化 AI 應用程式。",
-   "tags": [
-    "n8n入門",
-    "AI Agent",
-    "廣東話教學",
-    "工具教學"
-   ],
-   "search_terms": [],
-   "url": null,
-   "content_type": "video",
-   "difficulty": "入門",
-   "region": "國內",
-   "license": null,
-   "security_score": null,
-   "safety": null
-  },
-  {
-   "video_id": "Dqvdu4EPE-o",
-   "title": "【廣東話AI教學】唔洗再手動入單！用n8n 由零自製超強AI 入收據神器",
-   "channel": "阿Jack | AI Beyond Chatbots",
-   "duration_seconds": 1033,
-   "published_at": "2025-12-21T04:53:38Z",
-   "thumbnail_url": "https://i.ytimg.com/vi/Dqvdu4EPE-o/mqdefault.jpg",
-   "view_count": 1089,
-   "category": "辦公應用",
-   "summary": "本影片採用廣東話教學，指導如何利用 n8n 結合 Mistral OCR 與大型語言模型，從零打造一台自動化收據掃描器。讓使用者免去手動輸入，高效完成記帳與發票處理。",
-   "tags": [
-    "n8n",
-    "Mistral OCR",
-    "收據辨識",
-    "辦公自動化"
-   ],
-   "search_terms": [],
-   "url": null,
-   "content_type": "video",
-   "difficulty": "進階",
-   "region": "國內",
-   "license": null,
-   "security_score": null,
-   "safety": null
-  },
-  {
    "video_id": "rnI6sBLhX1w",
    "title": "比ChatGPT更強！Nano Banana Pro十大必學用法和瘋狂應用，一人公司必備，輕鬆高效產出高質量圖文內容",
    "channel": "學長Ethan",
@@ -69534,81 +67442,6 @@
     "Docker",
     "Windows自架",
     "工具教學"
-   ],
-   "search_terms": [],
-   "url": null,
-   "content_type": "video",
-   "difficulty": "專家",
-   "region": "國內",
-   "license": null,
-   "security_score": null,
-   "safety": null
-  },
-  {
-   "video_id": "Y7j8Uu44780",
-   "title": "【n8n廣東話教學】我用 AI 建立「求職分身」？每晚自動寫Cover letter、自動爬Linkedlin、自動過濾【自動搵工✍🏻/ 零 Code 實戰】",
-   "channel": "Hello AI | 快速應用AI",
-   "duration_seconds": 1138,
-   "published_at": "2025-12-16T10:58:20Z",
-   "thumbnail_url": "https://i.ytimg.com/vi/Y7j8Uu44780/mqdefault.jpg",
-   "view_count": 3008,
-   "category": "自動化工作流",
-   "summary": "本影片採用廣東話教學，示範如何以零代碼方式用 n8n 打造「求職分身」工作流。系統可自動抓取 LinkedIn 職缺、過濾合適機會並自動撰寫求職信，大幅提升求職效率。",
-   "tags": [
-    "n8n",
-    "求職自動化",
-    "LinkedIn爬蟲",
-    "AI寫作"
-   ],
-   "search_terms": [],
-   "url": null,
-   "content_type": "video",
-   "difficulty": "進階",
-   "region": "國內",
-   "license": null,
-   "security_score": null,
-   "safety": null
-  },
-  {
-   "video_id": "i1z-nfZOI_U",
-   "title": "【n8n Google Cloud API 廣東話教學】讓 AI 自動讀寫你的雲端硬碟！解鎖 99% 自動化潛能",
-   "channel": "Hello AI | 快速應用AI",
-   "duration_seconds": 1438,
-   "published_at": "2025-12-16T10:49:09Z",
-   "thumbnail_url": "https://i.ytimg.com/vi/i1z-nfZOI_U/mqdefault.jpg",
-   "view_count": 3193,
-   "category": "工具教學",
-   "summary": "本影片為廣東話教學，指導如何將 n8n 與 Google Cloud 串接。手把手示範設定 Google Credential，以打通雲端硬碟、Gmail 與試算表的自動讀寫權限。",
-   "tags": [
-    "n8n",
-    "Google API",
-    "雲端自動化",
-    "廣東話教學"
-   ],
-   "search_terms": [],
-   "url": null,
-   "content_type": "video",
-   "difficulty": "專家",
-   "region": "國內",
-   "license": null,
-   "security_score": null,
-   "safety": null
-  },
-  {
-   "video_id": "y0l0tjFm534",
-   "title": "【n8n自架Server + 升級】廣東話示範安裝及n8n升級，$5 美金用 Zeabur (連獨家升級/備份教學)",
-   "channel": "Hello AI | 快速應用AI",
-   "duration_seconds": 1057,
-   "published_at": "2025-12-16T00:14:19Z",
-   "thumbnail_url": "https://i.ytimg.com/vi/y0l0tjFm534/mqdefault.jpg",
-   "view_count": 1817,
-   "category": "工具教學",
-   "summary": "本影片以廣東話詳細教學，示範如何使用雲端平台 Zeabur 以便宜成本自架 n8n 伺服器，並提供獨家的 n8n 升級與工作流備份流程教學，適合想擺脫官方付費版的觀眾。",
-   "tags": [
-    "n8n自架",
-    "Zeabur",
-    "伺服器配置",
-    "廣東話教學"
    ],
    "search_terms": [],
    "url": null,
@@ -69720,31 +67553,6 @@
    "safety": null
   },
   {
-   "video_id": "2PgECVZ8nNE",
-   "title": "【n8n廣東話教學】集合全世界AI 模型 - OpenRouter安裝及使用（免VPN/ 免外國信用卡)",
-   "channel": "Hello AI | 快速應用AI",
-   "duration_seconds": 463,
-   "published_at": "2025-12-14T00:33:03Z",
-   "thumbnail_url": "https://i.ytimg.com/vi/2PgECVZ8nNE/mqdefault.jpg",
-   "view_count": 3536,
-   "category": "工具教學",
-   "summary": "本影片為廣東話教學，介紹如何利用 OpenRouter 平台一站式整合多種 AI 模型。手把手教導免 VPN 註冊流程，並將其接入 n8n 中調用各大熱門大型語言模型。",
-   "tags": [
-    "OpenRouter",
-    "n8n",
-    "AI模型整合",
-    "工具教學"
-   ],
-   "search_terms": [],
-   "url": null,
-   "content_type": "video",
-   "difficulty": "進階",
-   "region": "國內",
-   "license": null,
-   "security_score": null,
-   "safety": null
-  },
-  {
    "video_id": "QliMzK7aTAg",
    "title": "【n8n 教學】一次自動發 IG/TikTok/YouTube！7 平台同步發布＋排程全自動化🔥",
    "channel": "傑克自動化AI教學",
@@ -69789,31 +67597,6 @@
    "url": null,
    "content_type": "video",
    "difficulty": "入門",
-   "region": "國內",
-   "license": null,
-   "security_score": null,
-   "safety": null
-  },
-  {
-   "video_id": "ETTPdyLgX8k",
-   "title": "【n8n 超詳細廣東話教學】由０開始打造 AI 女友 (真人語音)！每日都是情人節！AI 比真人更懂你？(附源代碼)",
-   "channel": "Hello AI | 快速應用AI",
-   "duration_seconds": 2479,
-   "published_at": "2025-12-09T21:53:14Z",
-   "thumbnail_url": "https://i.ytimg.com/vi/ETTPdyLgX8k/mqdefault.jpg",
-   "view_count": 4390,
-   "category": "自動化工作流",
-   "summary": "本影片為超詳細廣東話教學，指導如何使用 n8n 與 Telegram 機器人打造具有真人語音的 AI 女友。影片提供免費模組，教你如何免寫程式快速拼裝出專屬互動助理。",
-   "tags": [
-    "n8n",
-    "AI女友",
-    "Telegram Bot",
-    "真人語音"
-   ],
-   "search_terms": [],
-   "url": null,
-   "content_type": "video",
-   "difficulty": "進階",
    "region": "國內",
    "license": null,
    "security_score": null,
@@ -71103,31 +68886,6 @@
    "safety": null
   },
   {
-   "video_id": "nNqayBAwgww",
-   "title": "n8n + Nano Banana 零代碼自製AI廣告圖生成器：普通產品圖 秒變 專業廣告圖 #n8n教學 #nanobanana #免費API #香港AI教學 #ai工具 #廣東話 #gemini",
-   "channel": "我想用Ai賺錢",
-   "duration_seconds": 1048,
-   "published_at": "2025-09-05T12:01:38Z",
-   "thumbnail_url": "https://i.ytimg.com/vi/nNqayBAwgww/mqdefault.jpg",
-   "view_count": 1044,
-   "category": "辦公應用",
-   "summary": "結合 n8n 與 Nano Banana API，教你零代碼自製 AI 廣告圖生成器，將普通產品圖秒變專業圖片。",
-   "tags": [
-    "n8n",
-    "AI生圖",
-    "辦公應用",
-    "自動化"
-   ],
-   "search_terms": [],
-   "url": null,
-   "content_type": "video",
-   "difficulty": "進階",
-   "region": "國內",
-   "license": null,
-   "security_score": null,
-   "safety": null
-  },
-  {
    "video_id": "biJv5xi0rfo",
    "title": "【下班後能做】GPT-5賺錢的3種方法！潛力極高的超賺錢副業，讓你悶聲暴富！普通人也能做，任選1個你最感興趣的，在2025年結束前用AI致富的最後機會，學完立即能落地！",
    "channel": "孔老師AI研習社",
@@ -71348,31 +69106,6 @@
    "content_type": "video",
    "difficulty": "入門",
    "region": "國外",
-   "license": null,
-   "security_score": null,
-   "safety": null
-  },
-  {
-   "video_id": "6VJ4tB6ZbpA",
-   "title": "【粵語】第一日玩工作流？n8n 自動化新手教學，由零開始接 API 同 Gmail！",
-   "channel": "CodingStartup",
-   "duration_seconds": 1220,
-   "published_at": "2025-08-20T10:31:50Z",
-   "thumbnail_url": "https://i.ytimg.com/vi/6VJ4tB6ZbpA/mqdefault.jpg",
-   "view_count": 6920,
-   "category": "自動化工作流",
-   "summary": "粵語零基礎入門教學，帶領新手從零開始連接 API 與 Gmail，建立專屬的 n8n 自動化工作流。",
-   "tags": [
-    "n8n",
-    "粵語教學",
-    "自動化工作流",
-    "Gmail"
-   ],
-   "search_terms": [],
-   "url": null,
-   "content_type": "video",
-   "difficulty": "入門",
-   "region": "國內",
    "license": null,
    "security_score": null,
    "safety": null

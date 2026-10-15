@@ -265,3 +265,58 @@ def test_collect_extra_ids_deduped_against_search_results(tmp_path, monkeypatch)
                               extra_ids=["both1"])
     assert added == 1              # 不得重複計數
     assert fetched.count("both1") == 1   # 不得重複查詳情
+
+
+def test_collect_skips_rejected_titles(tmp_path, monkeypatch, caplog):
+    """非中文、日文、廣東話標題的影片不入庫，省下後續 AI 分類額度。"""
+    conn = db.connect(tmp_path / "t.db")
+    caplog.set_level("INFO", logger="collector")
+    titles = {
+        "zh": "ChatGPT 教學：寫提示詞",
+        "en": "How to use ChatGPT",
+        "jp": "ChatGPTの使い方を解説",
+        "yue": "睇完呢支 你係最識用 AI 嘅人",
+    }
+    monkeypatch.setattr(collector, "search_videos", lambda *a, **k: list(titles))
+    monkeypatch.setattr(collector, "fetch_video_details", lambda key, ids: [
+        make_video(i, title=titles[i], duration_seconds=600) for i in ids])
+    added = collector.collect(conn, "key", ["kw"], "2026-01-01T00:00:00Z")
+    assert added == 1
+    assert [v for v in titles if db.video_exists(conn, v)] == ["zh"]
+    assert "標題過濾略過 3 部影片：" in caplog.text
+    for reason in ("非中文 1", "日文 1", "廣東話 1"):
+        assert reason in caplog.text
+
+
+def test_collect_title_filter_applies_to_channel_videos(tmp_path, monkeypatch):
+    conn = db.connect(tmp_path / "t.db")
+    monkeypatch.setattr(collector, "search_videos", lambda *a, **k: [])
+    monkeypatch.setattr(collector, "fetch_channel_video_ids", lambda *a, **k: ["c1"])
+    monkeypatch.setattr(collector, "fetch_video_details", lambda key, ids: [
+        make_video(i, title="English only video", duration_seconds=600) for i in ids])
+    assert collector.collect(conn, "key", ["kw"], "2026-01-01T00:00:00Z", channels=["@x"]) == 0
+    assert not db.video_exists(conn, "c1")
+
+
+def test_collect_extra_ids_bypass_title_filter(tmp_path, monkeypatch):
+    """人工提交的影片不套用標題過濾（人工判斷優先於自動規則）。"""
+    conn = db.connect(tmp_path / "t.db")
+    monkeypatch.setattr(collector, "search_videos", lambda *a, **k: [])
+    monkeypatch.setattr(collector, "fetch_video_details", lambda key, ids: [
+        make_video(i, title="English tutorial", duration_seconds=600) for i in ids])
+    added = collector.collect(conn, "key", ["kw"], "2026-01-01T00:00:00Z", extra_ids=["m1"])
+    assert added == 1
+    assert db.video_exists(conn, "m1")
+
+
+def test_collect_extra_ids_bypass_title_filter_even_when_also_searched(tmp_path, monkeypatch):
+    """人工提交的影片若同時被搜尋或追蹤頻道抓到，仍以人工提交為準、不套用過濾。"""
+    conn = db.connect(tmp_path / "t.db")
+    monkeypatch.setattr(collector, "search_videos", lambda *a, **k: ["m1"])
+    monkeypatch.setattr(collector, "fetch_channel_video_ids", lambda *a, **k: ["m2"])
+    monkeypatch.setattr(collector, "fetch_video_details", lambda key, ids: [
+        make_video(i, title="English tutorial", duration_seconds=60) for i in ids])
+    added = collector.collect(conn, "key", ["kw"], "2026-01-01T00:00:00Z",
+                              channels=["@x"], extra_ids=["m1", "m2"])
+    assert added == 2
+    assert db.video_exists(conn, "m1") and db.video_exists(conn, "m2")

@@ -165,6 +165,25 @@ def drop_items(conn, video_ids):
     return cur.rowcount
 
 
+def exclude_items(conn, video_ids):
+    """把待分類、待重試或已上架的項目改為排除，回傳實際變更筆數。
+
+    只改狀態、保留原有分類與摘要，日後要救回來不必重新分類。
+    人工下架（dropped）與已失效（removed）的項目不動，以免打亂各自的復原規則。
+    """
+    ids = [i for i in dict.fromkeys(video_ids) if i]
+    if not ids:
+        return 0
+    placeholders = ",".join("?" * len(ids))
+    cur = conn.execute(
+        f"UPDATE videos SET status = 'excluded'"
+        f" WHERE video_id IN ({placeholders})"
+        f" AND status IN ('pending', 'failed', 'classified')",
+        ids,
+    )
+    conn.commit()
+    return cur.rowcount
+
 def restore_dropped(conn, keep_ids):
     """復原不在 keep_ids 內的人工下架項目，回傳復原筆數。
 

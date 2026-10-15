@@ -466,3 +466,29 @@ def test_drop_does_not_touch_removed_and_cannot_revive_it(tmp_path):
     assert len(db.get_videos_by_status(conn, "removed")) == 1
     assert db.restore_dropped(conn, []) == 0    # 也就無從復原
     assert db.get_site_videos(conn) == []       # 網站上不得出現
+
+
+def test_exclude_items_only_touches_active_statuses(tmp_path):
+    conn = db.connect(tmp_path / "t.db")
+    for vid in ("pend", "fail", "pub", "drop", "dead", "ex"):
+        db.insert_video(conn, make_video(vid))
+    db.mark_failed(conn, "fail")
+    db.update_classification(conn, "pub", True, "工具教學", "保留的摘要", ["t"])
+    db.update_classification(conn, "drop", True, "工具教學", "摘要", [])
+    db.drop_items(conn, ["drop"])
+    db.mark_removed(conn, ["dead"])
+    db.update_classification(conn, "ex", False, None, "", [])
+
+    n = db.exclude_items(conn, ["pend", "fail", "pub", "drop", "dead", "ex", "pend", "nope"])
+    assert n == 3
+    status = dict(conn.execute("SELECT video_id, status FROM videos"))
+    assert status == {"pend": "excluded", "fail": "excluded", "pub": "excluded",
+                      "drop": "dropped", "dead": "removed", "ex": "excluded"}
+    # 只改狀態、保留原分類資料，之後要救回來不必重新分類
+    row = conn.execute("SELECT category, summary FROM videos WHERE video_id='pub'").fetchone()
+    assert tuple(row) == ("工具教學", "保留的摘要")
+
+
+def test_exclude_items_empty_list(tmp_path):
+    conn = db.connect(tmp_path / "t.db")
+    assert db.exclude_items(conn, []) == 0
