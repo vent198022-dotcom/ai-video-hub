@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-19T01:27:04+00:00",
- "count": 2608,
+ "generated_at": "2026-10-19T08:08:24+00:00",
+ "count": 2638,
  "videos": [
   {
    "video_id": "bVruMm79JV8",
@@ -2217,38 +2217,6 @@
     "Claude網頁版",
     "Prompt設定",
     "AI說明書"
-   ],
-   "url": null,
-   "content_type": "video",
-   "difficulty": "入門",
-   "region": "國內",
-   "license": null,
-   "security_score": null,
-   "safety": null
-  },
-  {
-   "video_id": "-Rj51EIHj0A",
-   "title": "AI Agent：不只會回答，還能把事情做完｜三分鐘 AI 第 11 集｜iPAS AI 應用規劃師",
-   "channel": "akiki akiki",
-   "duration_seconds": 206,
-   "published_at": "2026-10-15T15:26:49Z",
-   "thumbnail_url": "https://i.ytimg.com/vi/-Rj51EIHj0A/mqdefault.jpg",
-   "view_count": 5,
-   "category": "入門觀念",
-   "summary": "說明 AI Agent 透過「思考、行動、觀察」的 ReAct 迴圈執行複雜任務的運作原理，並解析其潛在風險以及 iPAS 檢定常考的 Function Calling 與 MCP 機制。",
-   "tags": [
-    "AI Agent",
-    "ReAct迴圈",
-    "iPAS",
-    "MCP"
-   ],
-   "search_terms": [
-    "AI Agent原理",
-    "ReAct",
-    "Function Calling",
-    "MCP",
-    "iPAS考題",
-    "AI應用規劃師"
    ],
    "url": null,
    "content_type": "video",
@@ -6145,6 +6113,40 @@
    "safety": null
   },
   {
+   "video_id": "art_e576164933be",
+   "title": "ChatGPT、Claude怎麼一次使用多個Skill？AI工作流協作教學",
+   "channel": "數位時代 Businessnext",
+   "duration_seconds": 0,
+   "published_at": "2026-10-07T00:00:00Z",
+   "thumbnail_url": "https://image-cdn.learnin.tw/bnextmedia/image/album/2026-10/img-mcp-b5f80bf1302ba2c6.jpg",
+   "view_count": 0,
+   "category": "自動化工作流",
+   "summary": "本篇文章教學如何在 ChatGPT 與 Claude 中同時調用多個 Skill 工作流。文中以「數據洞察分析師」搭配「決策教練」為例，詳細說明 Skill 的安裝方法與分工邏輯，並提供具體的接力提示詞寫法，教導讀者透過呼叫紀錄確認 AI 是否順利執行多重任務，以提升複雜決策的處理效率。",
+   "tags": [
+    "ChatGPT",
+    "Claude Skills",
+    "AI工作流",
+    "Prompt工程"
+   ],
+   "search_terms": [
+    "ChatGPT Skills",
+    "Claude Skills",
+    "多個Skill",
+    "AI工作流",
+    "數據洞察分析師",
+    "決策教練",
+    "提示詞技巧",
+    "AI串接"
+   ],
+   "url": "https://www.bnext.com.tw/article/92530/use-multiple-ai-skills-workflows",
+   "content_type": "article",
+   "difficulty": "進階",
+   "region": "國內",
+   "license": null,
+   "security_score": null,
+   "safety": null
+  },
+  {
    "video_id": "-Ld82GN1Vo0",
    "title": "怕 AI 做完才發現方向全錯？Claude Code 這個計畫 skill 先把問題丟給你",
    "channel": "思思主播",
@@ -6311,6 +6313,39 @@
    "safety": null
   },
   {
+   "video_id": "Tv6n_JBrTEY",
+   "title": "Muse到底有多离谱？这个AI开始真正替你干活了",
+   "channel": "常勇 - 跨境电商 - 程序员",
+   "duration_seconds": 383,
+   "published_at": "2026-10-06T15:13:07Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/Tv6n_JBrTEY/mqdefault.jpg",
+   "view_count": 8,
+   "category": "工具教學",
+   "summary": "本影片解析 AI 工具 Meta Muse 的核心功能，展示其如何透過雲端電腦自主執行搜尋、比價、填表與取消訂閱等日常流程，呈現從傳統問答走向自主代辦任務的全新 AI 應用模式。",
+   "tags": [
+    "Meta Muse",
+    "AI Agent",
+    "自動化工具",
+    "雲端操作"
+   ],
+   "search_terms": [
+    "Meta Muse",
+    "Muse AI",
+    "AI代辦",
+    "雲端瀏覽器AI",
+    "AI Agent教學",
+    "自動化執行",
+    "AI個人助理"
+   ],
+   "url": null,
+   "content_type": "video",
+   "difficulty": "入門",
+   "region": "國外",
+   "license": null,
+   "security_score": null,
+   "safety": null
+  },
+  {
    "video_id": "PXP8blDQnaA",
    "title": "從零做一個 AI Agent：100 行就會動，難的是讓它出錯時停下來",
    "channel": "一知半解研究室",
@@ -6443,6 +6478,39 @@
    "safety": null
   },
   {
+   "video_id": "a1Kj_A0OHhk",
+   "title": "Meta又放大招了！这个AI助理，真的可以替你干活|Meta发布全能AI助理Muse！大陆用户怎么注册？还能领10亿Token",
+   "channel": "独立思维",
+   "duration_seconds": 708,
+   "published_at": "2026-10-06T12:00:29Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/a1Kj_A0OHhk/mqdefault.jpg",
+   "view_count": 3804,
+   "category": "工具教學",
+   "summary": "本影片介紹 Meta 推出的 AI 助理 Muse，詳細示範中國大陸使用者如何完成帳號註冊、透過邀請碼與雲端瀏覽器領取 10 億算力 Token，並體驗自主執行任務的 AI 助理功能。",
+   "tags": [
+    "Meta Muse",
+    "AI助理",
+    "註冊教學",
+    "免費Token"
+   ],
+   "search_terms": [
+    "Meta Muse",
+    "Muse註冊",
+    "AI Agent",
+    "免費算力",
+    "Muse邀請碼",
+    "AI個人助理",
+    "大陸註冊Muse"
+   ],
+   "url": null,
+   "content_type": "video",
+   "difficulty": "入門",
+   "region": "國外",
+   "license": null,
+   "security_score": null,
+   "safety": null
+  },
+  {
    "video_id": "2i3FT1vfcrA",
    "title": "Claude 近期最重要的更新：Mods 教學",
    "channel": "Gary Chen",
@@ -6470,6 +6538,39 @@
    "url": null,
    "content_type": "video",
    "difficulty": "進階",
+   "region": "國內",
+   "license": null,
+   "security_score": null,
+   "safety": null
+  },
+  {
+   "video_id": "I6mtlqX9CIU",
+   "title": "OpenAI 把搞砸的 Demo 重做一次！打電話指揮 AI 助理 dots：訂機票、分析回饋、回 Slack｜DevDay 2026 中文字幕",
+   "channel": "科技立委葛如鈞·寶博士",
+   "duration_seconds": 550,
+   "published_at": "2026-10-06T11:00:16Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/I6mtlqX9CIU/mqdefault.jpg",
+   "view_count": 196,
+   "category": "辦公應用",
+   "summary": "本影片提供 OpenAI DevDay 發表會 dots 的中文字幕實測展示，示範透過電話語音指揮 AI 助理 dots 訂購差旅機票與飯店，並同步分析用戶回饋與整理 Slack 待回覆草稿。",
+   "tags": [
+    "OpenAI dots",
+    "AI Agent",
+    "語音助理",
+    "辦公自動化"
+   ],
+   "search_terms": [
+    "OpenAI dots",
+    "DevDay 2026",
+    "dots展示",
+    "AI訂機票",
+    "AI語音助理",
+    "Slack自動化",
+    "AI代理實測"
+   ],
+   "url": null,
+   "content_type": "video",
+   "difficulty": "入門",
    "region": "國內",
    "license": null,
    "security_score": null,
@@ -6565,6 +6666,139 @@
     "AI生成影片",
     "AI Agent影片",
     "分鏡規劃"
+   ],
+   "url": null,
+   "content_type": "video",
+   "difficulty": "進階",
+   "region": "國內",
+   "license": null,
+   "security_score": null,
+   "safety": null
+  },
+  {
+   "video_id": "yvj8m0eP0gQ",
+   "title": "🎬【AI 影音剪輯入門｜ChatGPT × CapCut】",
+   "channel": "台灣工程研訓中心",
+   "duration_seconds": 3979,
+   "published_at": "2026-10-06T06:13:59Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/yvj8m0eP0gQ/mqdefault.jpg",
+   "view_count": 0,
+   "category": "AI 影像與影片生成",
+   "summary": "本影片帶領零基礎新手入門 AI 影音製作，示範如何運用 ChatGPT 撰寫腳本與規劃分鏡，結合 AI 生成影音素材，並使用 CapCut 進行剪輯、添加字幕與配音配樂以產出完整影片。",
+   "tags": [
+    "ChatGPT",
+    "CapCut",
+    "AI剪輯",
+    "影音創作"
+   ],
+   "search_terms": [
+    "ChatGPT腳本",
+    "CapCut教學",
+    "AI影片製作",
+    "剪映",
+    "自動字幕",
+    "AI配音",
+    "影音剪輯入門",
+    "分鏡規劃"
+   ],
+   "url": null,
+   "content_type": "video",
+   "difficulty": "入門",
+   "region": "國內",
+   "license": null,
+   "security_score": null,
+   "safety": null
+  },
+  {
+   "video_id": "OyEChszSAkY",
+   "title": "AI Agent 入門 23 集完整地圖｜零程式也能做出會跑的產品",
+   "channel": "大拇哥科技狂",
+   "duration_seconds": 504,
+   "published_at": "2026-10-06T05:09:00Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/OyEChszSAkY/mqdefault.jpg",
+   "view_count": 7,
+   "category": "入門觀念",
+   "summary": "本影片為零程式基礎打造的 AI Agent 系列課程總覽，說明如何不寫程式碼、透過指揮 AI 打造軟體產品並發布至公開網址，並全面解析 23 集學習地圖與三種必備的核心能力。",
+   "tags": [
+    "AI Agent",
+    "無程式碼",
+    "學習地圖",
+    "AI入門"
+   ],
+   "search_terms": [
+    "AI Agent教學",
+    "No-code AI",
+    "零程式碼建置",
+    "AI助理開發",
+    "AI代理",
+    "產品上線",
+    "AI Agent入門"
+   ],
+   "url": null,
+   "content_type": "video",
+   "difficulty": "入門",
+   "region": "國內",
+   "license": null,
+   "security_score": null,
+   "safety": null
+  },
+  {
+   "video_id": "MwZR8LK0Ryc",
+   "title": "別再盯著 AI 寫程式！Google Jules 教學：派工、看計畫、驗收 PR 一次搞懂｜免費 AI 打工仔 EP2```",
+   "channel": "AI觀測站(AI Watch)",
+   "duration_seconds": 454,
+   "published_at": "2026-10-06T04:52:21Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/MwZR8LK0Ryc/mqdefault.jpg",
+   "view_count": 2,
+   "category": "程式開發",
+   "summary": "本影片示範如何運用免費 AI 工具 Google Jules 自動修復程式 Bug，教學登入授權、撰寫 GitHub Issue 派工、AI 自動擬定計畫與測試，並開啟 PR 供開發者驗收。",
+   "tags": [
+    "Google Jules",
+    "GitHub",
+    "AI Code Agent",
+    "程式開發"
+   ],
+   "search_terms": [
+    "Google Jules",
+    "AI寫程式",
+    "GitHub Issue",
+    "Pull Request",
+    "AI Code Agent",
+    "自動化改Code",
+    "程式驗收"
+   ],
+   "url": null,
+   "content_type": "video",
+   "difficulty": "進階",
+   "region": "國內",
+   "license": null,
+   "security_score": null,
+   "safety": null
+  },
+  {
+   "video_id": "9Mr0sEgmHl0",
+   "title": "用自己的 AI 技能，一個指令做出 14 分鐘教學影片！（下）",
+   "channel": "AI觀測站(AI Watch)",
+   "duration_seconds": 370,
+   "published_at": "2026-10-06T02:39:57Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/9Mr0sEgmHl0/mqdefault.jpg",
+   "view_count": 2,
+   "category": "自動化工作流",
+   "summary": "本影片分享如何運用打造好的 Claude Skills 技能，從選題、SEO 規劃、腳本設計到 AI 配音，以一個指令自動化製作教學影片，並拆解圖卡檢查與實作過程踩坑經驗。",
+   "tags": [
+    "Claude Skills",
+    "工作流自動化",
+    "AI影片生成",
+    "Prompt工程"
+   ],
+   "search_terms": [
+    "Claude Skills",
+    "Claude教學",
+    "自動生成影片",
+    "AI腳本",
+    "AI配音",
+    "影片自動化",
+    "提示詞技能"
    ],
    "url": null,
    "content_type": "video",
@@ -6808,6 +7042,39 @@
    "safety": null
   },
   {
+   "video_id": "nghbcWU1aIY",
+   "title": "Threads爆紅的 AI 換人影片原來這樣做｜影片直接換角色！Higgsfield Genjutsu",
+   "channel": "AI 視覺實驗室",
+   "duration_seconds": 369,
+   "published_at": "2026-10-05T16:11:32Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/nghbcWU1aIY/mqdefault.jpg",
+   "view_count": 1121,
+   "category": "AI 影像與影片生成",
+   "summary": "本影片教學如何使用 Higgsfield Genjutsu 製作 AI 角色替換影片，實作示範如何準備圖片與撰寫提示詞，在保留原始影片動作、鏡頭與節奏的前提下順利更換角色。",
+   "tags": [
+    "Higgsfield",
+    "Genjutsu",
+    "AI換人",
+    "影片生成"
+   ],
+   "search_terms": [
+    "Higgsfield",
+    "Genjutsu",
+    "AI影片換人",
+    "角色替換",
+    "AI換臉",
+    "影片角色重繪",
+    "Threads爆紅AI"
+   ],
+   "url": null,
+   "content_type": "video",
+   "difficulty": "入門",
+   "region": "國內",
+   "license": null,
+   "security_score": null,
+   "safety": null
+  },
+  {
    "video_id": "G4HlH4Ov5Os",
    "title": "AI 助理變 AI Agent：讓 Django 從回答到執行｜一個人做公司系統 EP5",
    "channel": "住在老街溪的Lethe",
@@ -6831,6 +7098,137 @@
     "自動化流程",
     "Codex",
     "AI開發"
+   ],
+   "url": null,
+   "content_type": "video",
+   "difficulty": "進階",
+   "region": "國內",
+   "license": null,
+   "security_score": null,
+   "safety": null
+  },
+  {
+   "video_id": "2Uo6Ti9VFMA",
+   "title": "如何用 Hermes Agent 做第二大腦？記帳、知識管理、讀書筆記、朋友生日提醒通通交給它【超詳細AI教學】",
+   "channel": "Brayden Chen",
+   "duration_seconds": 759,
+   "published_at": "2026-10-05T12:30:01Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/2Uo6Ti9VFMA/mqdefault.jpg",
+   "view_count": 1528,
+   "category": "辦公應用",
+   "summary": "本影片詳細教學如何設定與使用 Hermes Agent 來打造個人第二大腦，涵蓋安裝設置、連接模型、撰寫個人說明書，以及將系統部署到 Hostinger VPS 上處理記帳與知識管理。",
+   "tags": [
+    "Hermes Agent",
+    "第二大腦",
+    "知識管理",
+    "VPS部署"
+   ],
+   "search_terms": [
+    "Hermes Agent",
+    "第二大腦",
+    "AI記帳",
+    "AI知識管理",
+    "Hostinger VPS",
+    "AI個人助理",
+    "讀書筆記AI"
+   ],
+   "url": null,
+   "content_type": "video",
+   "difficulty": "進階",
+   "region": "國內",
+   "license": null,
+   "security_score": null,
+   "safety": null
+  },
+  {
+   "video_id": "ESxQufG0USw",
+   "title": "LINE 找不到你的電腦？用 ngrok 開一扇對外的門｜AI Agent 入門 #5",
+   "channel": "AI-Muninn",
+   "duration_seconds": 439,
+   "published_at": "2026-10-05T12:00:21Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/ESxQufG0USw/mqdefault.jpg",
+   "view_count": 0,
+   "category": "程式開發",
+   "summary": "本影片教學如何利用免費的 ngrok 工具建立穿透內網的對外管道，讓手機 LINE 能順利連線至本機運行的 AI 助理，只需簡單指令即可設定固定網址與通訊埠連接。",
+   "tags": [
+    "ngrok",
+    "LINE Bot",
+    "AI Agent",
+    "內網穿透"
+   ],
+   "search_terms": [
+    "ngrok教學",
+    "LINE AI助理",
+    "內網穿透",
+    "Hermes Agent",
+    "Webhook設定",
+    "本機伺服器對外",
+    "AI Agent整合"
+   ],
+   "url": null,
+   "content_type": "video",
+   "difficulty": "進階",
+   "region": "國內",
+   "license": null,
+   "security_score": null,
+   "safety": null
+  },
+  {
+   "video_id": "QGg2UG-4Wxk",
+   "title": "不花一毛錢！Meta Muse 跨區白嫖10億Token全攻略，2026最強AI影片神器實測，零基礎秒出大片｜AI教學、免費AI工具、AI短劇、最新實測、自媒體、短影音、工作流、省錢攻略",
+   "channel": "AI 生活筆記",
+   "duration_seconds": 262,
+   "published_at": "2026-10-05T11:00:30Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/QGg2UG-4Wxk/mqdefault.jpg",
+   "view_count": 184,
+   "category": "AI 影像與影片生成",
+   "summary": "本影片介紹 AI 影片工具 Meta Muse 的跨區使用攻略，教學如何透過 VPN 免費取得算力 Token，並實測其影音生成功能，幫助零基礎創作者快速上手製作 AI 影片與短劇。",
+   "tags": [
+    "Meta Muse",
+    "AI影片生成",
+    "跨區教學",
+    "免費AI工具"
+   ],
+   "search_terms": [
+    "Meta Muse",
+    "Muse AI",
+    "AI影片工具",
+    "跨區VPN",
+    "免費 Token",
+    "AI短劇生成",
+    "白嫖算力"
+   ],
+   "url": null,
+   "content_type": "video",
+   "difficulty": "入門",
+   "region": "國內",
+   "license": null,
+   "security_score": null,
+   "safety": null
+  },
+  {
+   "video_id": "LuFpV_r1tQM",
+   "title": "【JetBrains】不會寫 SQL 也能輕鬆管資料庫？DataGrip AI Agent 實戰教學#DataGrip #jetbrains #aiassistant #sql",
+   "channel": "迪凱科技AHASOFT",
+   "duration_seconds": 807,
+   "published_at": "2026-10-05T09:30:30Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/LuFpV_r1tQM/mqdefault.jpg",
+   "view_count": 7,
+   "category": "程式開發",
+   "summary": "本影片實戰教學如何運用 DataGrip 的 AI Assistant 管理資料庫，示範以自然語言對話建立連線、生成 SQL 語法、自動檢測並清理廢棄表格與分析 CSV 資料瑕疵。",
+   "tags": [
+    "DataGrip",
+    "JetBrains",
+    "AI Assistant",
+    "SQL生成"
+   ],
+   "search_terms": [
+    "DataGrip AI",
+    "JetBrains AI",
+    "自然語言SQL",
+    "資料庫管理AI",
+    "SQL語法自動生成",
+    "DataGrip教學"
    ],
    "url": null,
    "content_type": "video",
@@ -6909,6 +7307,135 @@
    "safety": null
   },
   {
+   "video_id": "c4yBh0qfuNs",
+   "title": "1,123 筆技能、277 個來源：awesome-agent-skills 畫出 Agent Skills 生態地圖",
+   "channel": "Kimz",
+   "duration_seconds": 204,
+   "published_at": "2026-10-05T07:46:19Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/c4yBh0qfuNs/mqdefault.jpg",
+   "view_count": 0,
+   "category": "開源工具",
+   "summary": "本影片詳細解析 VoltAgent 所維護的開源清單 awesome-agent-skills，帶領觀者了解 AI 編碼助理技能的生態分佈、分類結構與安全風險評估方式。",
+   "tags": [
+    "awesome-agent-skills",
+    "Agent Skills",
+    "開源工具",
+    "AI coding"
+   ],
+   "search_terms": [
+    "awesome-agent-skills",
+    "Agent技能地圖",
+    "AI編碼助理",
+    "VoltAgent",
+    "開源Agent資源",
+    "AI技能資安"
+   ],
+   "url": null,
+   "content_type": "video",
+   "difficulty": "進階",
+   "region": "國內",
+   "license": null,
+   "security_score": null,
+   "safety": null
+  },
+  {
+   "video_id": "gh_langwatch_langwatch",
+   "title": "langwatch/langwatch",
+   "channel": "langwatch",
+   "duration_seconds": 0,
+   "published_at": "2026-10-05T07:26:57Z",
+   "thumbnail_url": "https://opengraph.githubassets.com/1/langwatch/langwatch",
+   "view_count": 4914,
+   "category": "開源工具",
+   "summary": "LangWatch 是專為生產環境 AI 打造的開源平台，提供 LLM 追蹤、Agent 測試、AI 閘道路由與 AI 治理等功能，協助企業監控大語言模型與程式碼 Agent 之調用狀況與營運成本。",
+   "tags": [
+    "LLM Ops",
+    "AI Gateway",
+    "Agent測試",
+    "開源平台"
+   ],
+   "search_terms": [
+    "LangWatch",
+    "LLM Ops",
+    "AI可視化",
+    "Prompt管理",
+    "AI Gateway",
+    "Agent治理",
+    "大模型監控"
+   ],
+   "url": "https://github.com/langwatch/langwatch",
+   "content_type": "repo",
+   "difficulty": "進階",
+   "region": "國外",
+   "license": "Apache-2.0",
+   "security_score": null,
+   "safety": "安全"
+  },
+  {
+   "video_id": "KiJHHMI_9Io",
+   "title": "Meta Muse一句话批量采集公众号文章",
+   "channel": "超级峰",
+   "duration_seconds": 145,
+   "published_at": "2026-10-05T07:07:22Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/KiJHHMI_9Io/mqdefault.jpg",
+   "view_count": 0,
+   "category": "自動化工作流",
+   "summary": "本影片分享如何透過 Meta Muse 進行微信公眾號文章的批量採集與整理，包含提示詞下達技巧與導出為 PDF 的實操經驗，適合想用 AI 簡化資料搜集者。",
+   "tags": [
+    "Meta Muse",
+    "文章採集",
+    "自動化工作流",
+    "微信公眾號"
+   ],
+   "search_terms": [
+    "Meta Muse",
+    "公眾號採集",
+    "批量抓取文章",
+    "AI資料整理",
+    "Muse教學",
+    "自動化採集"
+   ],
+   "url": null,
+   "content_type": "video",
+   "difficulty": "進階",
+   "region": "國外",
+   "license": null,
+   "security_score": null,
+   "safety": null
+  },
+  {
+   "video_id": "qtadXj7Gfog",
+   "title": "Gemini Notebook 終極高效工作術-深度歸納與知識萃取",
+   "channel": "陳育銓",
+   "duration_seconds": 11368,
+   "published_at": "2026-10-05T06:38:41Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/qtadXj7Gfog/mqdefault.jpg",
+   "view_count": 3,
+   "category": "辦公應用",
+   "summary": "本影片介紹 Gemini Notebook 在知識萃取與深度歸納上的高效工作術，幫助使用者透過 AI 工具快速整理複雜資料與提煉核心知識。",
+   "tags": [
+    "Gemini Notebook",
+    "知識管理",
+    "資料歸納",
+    "辦公效率"
+   ],
+   "search_terms": [
+    "Gemini Notebook",
+    "NotebookLM",
+    "知識萃取",
+    "深度歸納",
+    "筆記AI",
+    "高效工作術"
+   ],
+   "url": null,
+   "content_type": "video",
+   "difficulty": "入門",
+   "region": "國內",
+   "license": null,
+   "security_score": null,
+   "safety": null
+  },
+  {
    "video_id": "S5oRBJ3kYZs",
    "title": "如何用 ChatGPT 自動入賬？由單據整理到 AI Agent 財務分析｜完整示範【工作坊實錄 Part 2 】",
    "channel": "Zoe Wong | Applied AI Academy",
@@ -6938,6 +7465,166 @@
    "content_type": "video",
    "difficulty": "進階",
    "region": "國內",
+   "license": null,
+   "security_score": null,
+   "safety": null
+  },
+  {
+   "video_id": "0M_tBTpd88Y",
+   "title": "Gemini Vids 補充：AI Studio影片解析2026 10 05 11 35 56",
+   "channel": "施育廷Andrew Shih_生成式AI應用",
+   "duration_seconds": 432,
+   "published_at": "2026-10-05T03:44:51Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/0M_tBTpd88Y/mqdefault.jpg",
+   "view_count": 8,
+   "category": "自動化工作流",
+   "summary": "本影片教學示範運用 Google AI Studio 與 Gemini 模型建立 YouTube 後製工作流，包含解析未公開影片網址、自動生成 SubViewer 字幕檔與結構化摘要時間軸。",
+   "tags": [
+    "Google AI Studio",
+    "Gemini",
+    "逐字稿",
+    "自動化工作流"
+   ],
+   "search_terms": [
+    "Google AI Studio",
+    "Gemini影片解析",
+    "自動生成字幕",
+    "影片時間軸",
+    "YouTube後製AI",
+    "SBV字幕生成"
+   ],
+   "url": null,
+   "content_type": "video",
+   "difficulty": "進階",
+   "region": "國內",
+   "license": null,
+   "security_score": null,
+   "safety": null
+  },
+  {
+   "video_id": "2cSkZeISnsg",
+   "title": "Gemini Vids 補充Notebook直式短片_2026 10 05 11 19 44",
+   "channel": "施育廷Andrew Shih_生成式AI應用",
+   "duration_seconds": 357,
+   "published_at": "2026-10-05T03:28:24Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/2cSkZeISnsg/mqdefault.jpg",
+   "view_count": 4,
+   "category": "AI 影像與影片生成",
+   "summary": "本影片示範如何使用 NotebookLM 的直式短影音生成功能，透過匯入個人教材打造專屬風格知識庫，並設定繁體中文自動提煉觀點，快速產出動態短影片。",
+   "tags": [
+    "NotebookLM",
+    "短影音生成",
+    "Gemini",
+    "AI影片"
+   ],
+   "search_terms": [
+    "NotebookLM短影片",
+    "直式短影音",
+    "AI生成影片",
+    "YouTube Shorts AI",
+    "知識庫短影音",
+    "NotebookLM教學"
+   ],
+   "url": null,
+   "content_type": "video",
+   "difficulty": "入門",
+   "region": "國內",
+   "license": null,
+   "security_score": null,
+   "safety": null
+  },
+  {
+   "video_id": "sYBn6zuLW4I",
+   "title": "Muse，一句话替你办事的AI员工｜界面+设置全讲解｜5个实战演示｜小白看完就会用 ⭐",
+   "channel": "XP的数字实验室",
+   "duration_seconds": 521,
+   "published_at": "2026-10-05T03:18:55Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/sYBn6zuLW4I/mqdefault.jpg",
+   "view_count": 104,
+   "category": "工具教學",
+   "summary": "本影片詳細講解 Meta Muse 的介面與關鍵設定，並透過連接電子郵件、安排定時任務與聯網查詢等五個實戰演示，帶領新手掌握將 Muse 當作 AI 員工的使用方法。",
+   "tags": [
+    "Meta Muse",
+    "AI助理",
+    "工具教學",
+    "自動化處理"
+   ],
+   "search_terms": [
+    "Meta Muse",
+    "Muse教學",
+    "AI員工",
+    "自動處理郵件",
+    "Muse設定",
+    "AI助理實戰"
+   ],
+   "url": null,
+   "content_type": "video",
+   "difficulty": "入門",
+   "region": "國外",
+   "license": null,
+   "security_score": null,
+   "safety": null
+  },
+  {
+   "video_id": "k3z4HW5_Ljs",
+   "title": "如何防止 AI 代理偷看私密資料？解析新型推論期防護方法 SELFAUDIT",
+   "channel": "NickBrainEvo",
+   "duration_seconds": 840,
+   "published_at": "2026-10-05T02:42:39Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/k3z4HW5_Ljs/mqdefault.jpg",
+   "view_count": 1,
+   "category": "入門觀念",
+   "summary": "影片解析阿里雲等機構提出的 SELFAUDIT 研究，探討 AI 代理在執行工具呼叫時過度存取私密資料的隱私風險，並說明推論階段自主過濾機制的運作原理。",
+   "tags": [
+    "AI資安",
+    "SELFAUDIT",
+    "AI Agent",
+    "隱私保護"
+   ],
+   "search_terms": [
+    "SELFAUDIT",
+    "AI Agent資安",
+    "AI隱私防護",
+    "過度授權",
+    "LLM資安",
+    "推論期防護"
+   ],
+   "url": null,
+   "content_type": "video",
+   "difficulty": "進階",
+   "region": "國內",
+   "license": null,
+   "security_score": null,
+   "safety": null
+  },
+  {
+   "video_id": "lTNa6ZbOPVw",
+   "title": "让你的助理 Muse 帮你管诊所｜SuperGP 10/3 线上分享",
+   "channel": "Jim Zhang",
+   "duration_seconds": 4830,
+   "published_at": "2026-10-05T02:07:35Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/lTNa6ZbOPVw/mqdefault.jpg",
+   "view_count": 17,
+   "category": "辦公應用",
+   "summary": "本影片展示如何利用 AI 助手 Muse 協助診所日常營運，透過五個真實場景範例，示範 Muse 在行銷獲客、病歷記錄、前台接待與保險理賠上的具體應用方法。",
+   "tags": [
+    "Meta Muse",
+    "診所管理",
+    "辦公應用",
+    "AI助手"
+   ],
+   "search_terms": [
+    "Muse診所應用",
+    "AI診所營運",
+    "Muse辦公實例",
+    "AI接待",
+    "病歷AI記錄",
+    "SuperGP"
+   ],
+   "url": null,
+   "content_type": "video",
+   "difficulty": "進階",
+   "region": "國外",
    "license": null,
    "security_score": null,
    "safety": null
@@ -7075,6 +7762,38 @@
    "safety": null
   },
   {
+   "video_id": "Y-6MBABkKn4",
+   "title": "Meta Muse  申請与實測",
+   "channel": "老宅男與米格魯",
+   "duration_seconds": 366,
+   "published_at": "2026-10-04T14:38:04Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/Y-6MBABkKn4/mqdefault.jpg",
+   "view_count": 13,
+   "category": "工具教學",
+   "summary": "本影片解說 Meta Muse 的特性與申請流程，並實測七個真實日常任務（如訂餐廳、寫信與排行事曆），分析 Muse 與其他開源代理的差異及實務限制。",
+   "tags": [
+    "Meta Muse",
+    "AI助理",
+    "實測教學",
+    "Muse申請"
+   ],
+   "search_terms": [
+    "Meta Muse申請",
+    "Muse實測",
+    "AI助手訂餐廳",
+    "AI行事曆",
+    "Muse vs OpenClaw",
+    "AI代理體驗"
+   ],
+   "url": null,
+   "content_type": "video",
+   "difficulty": "入門",
+   "region": "國內",
+   "license": null,
+   "security_score": null,
+   "safety": null
+  },
+  {
    "video_id": "qoSPFc2Qjxk",
    "title": "AI 生影片別再浪費點數！把Smart Shot分鏡圖偷學下來，還有角色生成器幫你創建專屬角色，保持一致性｜影片中限時抽IPhone i18 Pro 犀牛盾手機殼活動！",
    "channel": "大有牧森 Austin Chou",
@@ -7102,6 +7821,102 @@
    "url": null,
    "content_type": "video",
    "difficulty": "入門",
+   "region": "國內",
+   "license": null,
+   "security_score": null,
+   "safety": null
+  },
+  {
+   "video_id": "R4jg8me47Mw",
+   "title": "WordPress AI 建站完整教程：用 Codex 和 Elementor MCP 从零制作网站",
+   "channel": "小鱼儿网站建设",
+   "duration_seconds": 1678,
+   "published_at": "2026-10-04T12:39:54Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/R4jg8me47Mw/mqdefault.jpg",
+   "view_count": 108,
+   "category": "程式開發",
+   "summary": "本教學介紹如何結合 Codex AI 與 Elementor MCP 工具，從零開始進行 WordPress 網站建設，帶領使用者掌握利用 AI 輔助快速架站的完整流程。",
+   "tags": [
+    "WordPress",
+    "Codex",
+    "Elementor MCP",
+    "AI建站"
+   ],
+   "search_terms": [
+    "WordPress AI建站",
+    "Codex網頁製作",
+    "Elementor MCP",
+    "AI架站教學",
+    "自動建站",
+    "零基礎建站"
+   ],
+   "url": null,
+   "content_type": "video",
+   "difficulty": "進階",
+   "region": "國外",
+   "license": null,
+   "security_score": null,
+   "safety": null
+  },
+  {
+   "video_id": "k8ZrdawRycE",
+   "title": "你下班後，AI 繼續上班？ChatGPT Dots 完整解說：權限、資格、用量與風險",
+   "channel": "智淬科技",
+   "duration_seconds": 568,
+   "published_at": "2026-10-04T12:03:37Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/k8ZrdawRycE/mqdefault.jpg",
+   "view_count": 19,
+   "category": "入門觀念",
+   "summary": "本影片全面解說 OpenAI 推出的 ChatGPT Dots 背景 AI 助理，說明其運作機制、使用權限與用量計算，並分析目前的功能限制與安全風險。",
+   "tags": [
+    "ChatGPT Dots",
+    "OpenAI",
+    "AI Agent",
+    "功能解說"
+   ],
+   "search_terms": [
+    "ChatGPT Dots",
+    "OpenAI DevDay",
+    "ChatGPT背景助理",
+    "Dots教學",
+    "AI代理風險",
+    "ChatGPT新功能"
+   ],
+   "url": null,
+   "content_type": "video",
+   "difficulty": "入門",
+   "region": "國內",
+   "license": null,
+   "security_score": null,
+   "safety": null
+  },
+  {
+   "video_id": "asQrDCw6L6w",
+   "title": "公司導入 AI 的關鍵：老闆把分散的資料與經驗，變成共用知識 | EP05 | 布萊德營業中",
+   "channel": "布萊德營業中",
+   "duration_seconds": 691,
+   "published_at": "2026-10-04T12:00:24Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/asQrDCw6L6w/mqdefault.jpg",
+   "view_count": 2,
+   "category": "辦公應用",
+   "summary": "影片以金屬加工廠導入 AI 報價助理為例，說明企業如何將散落資料集中、建立核定規則，並由老闆主導將傳統經驗轉化為共用 AI 知識庫的實務流程。",
+   "tags": [
+    "企業AI導入",
+    "AI報價助理",
+    "知識庫",
+    "辦公應用"
+   ],
+   "search_terms": [
+    "企業導入AI",
+    "AI報價",
+    "加工廠AI",
+    "知識庫建立",
+    "Typeless",
+    "傳統產業數位轉型"
+   ],
+   "url": null,
+   "content_type": "video",
+   "difficulty": "進階",
    "region": "國內",
    "license": null,
    "security_score": null,
@@ -7140,6 +7955,71 @@
    "safety": null
   },
   {
+   "video_id": "JX_6iyd9fZ8",
+   "title": "Qwen Image 2.1 實測： 生圖、修圖、去背一個模型搞定 HKT線上教室",
+   "channel": "HKT 線上教室",
+   "duration_seconds": 530,
+   "published_at": "2026-10-04T04:30:13Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/JX_6iyd9fZ8/mqdefault.jpg",
+   "view_count": 37,
+   "category": "AI 影像與影片生成",
+   "summary": "本影片實測開源模型 Qwen-Image-2.1，展示其在本地端進行 AI 圖像生成、修圖與原生 RGBA 去背等功能。同時介紹如何運用 Claude 撰寫前端介面整合工具，大幅提升美術修圖與設計的效率。",
+   "tags": [
+    "Qwen",
+    "AI繪圖",
+    "修圖",
+    "去背"
+   ],
+   "search_terms": [
+    "Qwen Image 2.1",
+    "AI修圖",
+    "AI生圖",
+    "自動去背",
+    "本地AI繪圖",
+    "Vibe Coding",
+    "Claude前端"
+   ],
+   "url": null,
+   "content_type": "video",
+   "difficulty": "進階",
+   "region": "國內",
+   "license": null,
+   "security_score": null,
+   "safety": null
+  },
+  {
+   "video_id": "XbsP4IVtlHQ",
+   "title": "别再排队了！Meta最强AI助手Muse保姆级安装+10亿Token领取全攻略｜小茶软件说",
+   "channel": "小茶软件说",
+   "duration_seconds": 269,
+   "published_at": "2026-10-04T03:29:45Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/XbsP4IVtlHQ/mqdefault.jpg",
+   "view_count": 87,
+   "category": "工具教學",
+   "summary": "本教學手把手帶領使用者完成 Meta AI 助手 Muse 的本地安裝與部署，避開官方排隊限制，並詳細示範如何免費領取 10 億 Token 額度，輕鬆擁有專屬的個人 AI Agent。",
+   "tags": [
+    "Meta Muse",
+    "AI Agent",
+    "安裝教學",
+    "Token領取"
+   ],
+   "search_terms": [
+    "Meta Muse",
+    "Muse安裝",
+    "AI助手部署",
+    "免費Token",
+    "AI Agent",
+    "保姆級教程"
+   ],
+   "url": null,
+   "content_type": "video",
+   "difficulty": "進階",
+   "region": "國外",
+   "license": null,
+   "security_score": null,
+   "safety": null
+  },
+  {
    "video_id": "cuxzorAf0u4",
    "title": "SolidWorks曲面課程(不限版本均適用) ChatGPT Codex AI 建模實測",
    "channel": "Ricky最強電腦製圖",
@@ -7163,6 +8043,38 @@
     "3D建模",
     "繪圖AI",
     "SolidWorks教學"
+   ],
+   "url": null,
+   "content_type": "video",
+   "difficulty": "進階",
+   "region": "國內",
+   "license": null,
+   "security_score": null,
+   "safety": null
+  },
+  {
+   "video_id": "3s_elC98RPg",
+   "title": "Gemini Skill 如何安裝？怎麼開？一次講清楚👍",
+   "channel": "數位敘事力期刊",
+   "duration_seconds": 1258,
+   "published_at": "2026-10-04T03:05:03Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/3s_elC98RPg/mqdefault.jpg",
+   "view_count": 1617,
+   "category": "工具教學",
+   "summary": "影片深入講解 Gemini Skill 的安裝、資料夾結構與啟用步驟，帶領觀眾了解如何設定語言模型的任務執行 SOP，並分享 Skill 編寫原則與實際測試常見問題。",
+   "tags": [
+    "Gemini",
+    "Gemini Skill",
+    "提示詞SOP",
+    "工具教學"
+   ],
+   "search_terms": [
+    "Gemini Skill",
+    "Gemini安裝",
+    "Skill教學",
+    "Gemini SOP",
+    "AI指令設定",
+    "Antigravity"
    ],
    "url": null,
    "content_type": "video",
@@ -7331,6 +8243,70 @@
     "Hermes",
     "個人助理",
     "AI代理人"
+   ],
+   "url": null,
+   "content_type": "video",
+   "difficulty": "入門",
+   "region": "國內",
+   "license": null,
+   "security_score": null,
+   "safety": null
+  },
+  {
+   "video_id": "j1V4NHEAq7c",
+   "title": "不用寫程式，也能有自己的 AI 助理：看懂 agent 框架｜AI Agent 入門 #2",
+   "channel": "AI-Muninn",
+   "duration_seconds": 356,
+   "published_at": "2026-10-03T12:00:06Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/j1V4NHEAq7c/mqdefault.jpg",
+   "view_count": 3,
+   "category": "入門觀念",
+   "summary": "本影片針對非程式背景的使用者，以生動比喻說明 AI Agent 框架的基本結構與作用，解析組裝與使用現成框架的差異，引導觀者挑選適合自己的 AI 助理建構路徑。",
+   "tags": [
+    "AI Agent",
+    "Agent框架",
+    "無程式碼",
+    "Hermes"
+   ],
+   "search_terms": [
+    "Agent框架",
+    "無程式碼AI",
+    "AI助理架構",
+    "Hermes",
+    "AI Agent入門",
+    "打造AI助理"
+   ],
+   "url": null,
+   "content_type": "video",
+   "difficulty": "入門",
+   "region": "國內",
+   "license": null,
+   "security_score": null,
+   "safety": null
+  },
+  {
+   "video_id": "hHBED2DDMzQ",
+   "title": "ChatGPT 跟 AI 助理差在哪？一個回答、一個幫你做事｜AI Agent 入門 #1",
+   "channel": "AI-Muninn",
+   "duration_seconds": 349,
+   "published_at": "2026-10-03T12:00:04Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/hHBED2DDMzQ/mqdefault.jpg",
+   "view_count": 3,
+   "category": "入門觀念",
+   "summary": "本影片透過相機降價通知範例，清楚解析 ChatGPT 聊天機器人與 AI 助理（AI Agent）的四項本質差異，幫助初學者理解 AI 助理如何結合日常工具主動執行任務。",
+   "tags": [
+    "AI Agent",
+    "AI助理",
+    "入門概念",
+    "ChatGPT比較"
+   ],
+   "search_terms": [
+    "AI Agent",
+    "AI助理是什麼",
+    "ChatGPT差異",
+    "自動化助理",
+    "AI門檻",
+    "Agent入門"
    ],
    "url": null,
    "content_type": "video",
