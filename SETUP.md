@@ -40,7 +40,7 @@ python main.py
 $vbs = "C:\Users\user\Desktop\AI用\claue 工作\AI 知識平台\ai-video-hub\run_hidden.vbs"
 Register-ScheduledTask -TaskName "AIVideoHub" -Force `
   -Action (New-ScheduledTaskAction -Execute "wscript.exe" -Argument "`"$vbs`"") `
-  -Trigger (New-ScheduledTaskTrigger -Daily -At 16:00) `
+  -Trigger (New-ScheduledTaskTrigger -Daily -At 10:00) `
   -Settings (New-ScheduledTaskSettingsSet -AllowStartIfOnBatteries `
       -DontStopIfGoingOnBatteries -StartWhenAvailable -RestartCount 3 `
       -RestartInterval (New-TimeSpan -Minutes 15) `
@@ -50,8 +50,11 @@ Register-ScheduledTask -TaskName "AIVideoHub" -Force `
 
 `-Settings` 那幾項也是必要的，預設值對筆電很不友善（見本節末第三個坑）。
 
-**時間建議設 16:00**：Gemini 免費配額在太平洋時間午夜重置，換算為台灣時間夏令 15:00、
-冬令 16:00。設 16:00 可讓兩個季節都落在重置之後，不必隨換季調整。
+**時間建議設 10:00**：Gemini 免費配額在太平洋時間午夜重置，換算為台灣時間夏令 15:00、
+冬令 16:00。10:00 不論哪一季都落在兩次重置之間，每天一次就各用一整天的配額。
+2026-10 實測下午 16:00 前後 gemini-3.6-flash 經常回 503（需求過高），一次幾乎全批失敗；
+早上執行的成功率明顯較高，因此由 16:00 改為 10:00。
+注意：若在 15:00 之後另外手動執行，會和隔天早上的排程共用同一天的配額。
 
 建立後**必須驗證儲存正確**——只看到「建立成功」不代表能執行：
 ```powershell
