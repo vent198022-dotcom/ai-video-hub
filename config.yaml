@@ -1,27 +1,18 @@
 keywords:
   # 2026-10-15 依命中率調整：單用產品名稱多半搜到 Shorts 與外語片，一律改成「教學」版本
-  - ChatGPT 教學
-  - ChatGPT 應用
   - AI 自動化 教學
-  - Claude Code 教學
-  - Claude Cowork 教學
-  - Claude 教學
-  - Codex 教學
-  - n8n 自動化 教學
-  - n8n 應用
   - AI 繪圖 教學
   - AI 辦公 教學
   - AI 影片生成 教學
-  - NotebookLM 教學
-  - Gemini Notebook 教學   # NotebookLM 已改名為 Gemini Notebook，新名稱的影片也要收
   - AI agent 教學
-  - LINE Bot 教學
-  - google apps script ai教學
-  - Gemini 教學
-  - Harness 教學
   - Grok Bot 教學
-  - Muse 教學
-
+  - meta Muse 教學
+  - ai 代理人教學
+  - ai 員工教學
+  - open ai dots 教學
+  - ai 動畫教學
+  - ai 3d教學
+  - google flow教學
 
 categories:
   - 入門觀念
