@@ -1,7 +1,40 @@
 {
- "generated_at": "2026-10-30T02:17:02+00:00",
- "count": 3111,
+ "generated_at": "2026-10-31T05:20:39+00:00",
+ "count": 3125,
  "videos": [
+  {
+   "video_id": "0sI2H1GEQy4",
+   "title": "VOX 紙片動畫完整教學公開，我靠AI用3個流程完成！我負責講故事，Claude 幫我做",
+   "channel": "理工威森",
+   "duration_seconds": 337,
+   "published_at": "2026-10-30T09:55:14Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/0sI2H1GEQy4/mqdefault.jpg",
+   "view_count": 190,
+   "category": "AI 影像與影片生成",
+   "summary": "本影片教學示範如何利用 Claude AI 完成 VOX 風格的紙片動畫製作。創作者分享只需三個流程，透過講故事與下達提示詞，即可讓 Claude 協助生成動畫畫面並進行潤飾與修改。",
+   "tags": [
+    "Claude",
+    "VOX動畫",
+    "紙片動畫",
+    "AI動畫"
+   ],
+   "search_terms": [
+    "Claude",
+    "VOX",
+    "紙片動畫",
+    "AI影片生成",
+    "提示詞",
+    "動畫教學",
+    "AI繪圖"
+   ],
+   "url": null,
+   "content_type": "video",
+   "difficulty": "入門",
+   "region": "國內",
+   "license": null,
+   "security_score": null,
+   "safety": null
+  },
   {
    "video_id": "w1m2PKwqlNc",
    "title": "【AI教學應用】3大 AI 影片模型 極限盲測 | Kling 4.0 vs Seedance 2.5 vs MiniMax H3",
@@ -29,6 +62,105 @@
    ],
    "url": null,
    "content_type": "video",
+   "difficulty": "入門",
+   "region": "國內",
+   "license": null,
+   "security_score": null,
+   "safety": null
+  },
+  {
+   "video_id": "art_615294fdcf80",
+   "title": "AI操作教學怎麼寫？拆解工作流步驟，用提示詞檢查新手卡關點",
+   "channel": "數位時代 Businessnext",
+   "duration_seconds": 0,
+   "published_at": "2026-10-30T00:00:00Z",
+   "thumbnail_url": "https://image-cdn.learnin.tw/bnextmedia/image/album/2026-10/img-mcp-d59fad64265d212a.jpg",
+   "view_count": 0,
+   "category": "工具教學",
+   "summary": "本文探討撰寫 AI 操作說明時常見的盲點，提醒創作者需精確交代操作位置與點擊步驟。文章介紹如何將模糊指令細化為具體步驟，並提供一套審查提示詞，能請 AI 以初學者視角檢查教學內容，協助改善未交代或容易誤解的操作細節。",
+   "tags": [
+    "AI教學",
+    "提示詞",
+    "工作流",
+    "教學撰寫"
+   ],
+   "search_terms": [
+    "AI教學",
+    "操作指南",
+    "提示詞審查",
+    "工作流步驟",
+    "新手教學",
+    "Prompt設計"
+   ],
+   "url": "https://www.bnext.com.tw/article/92846/ai-tutorial-beginner-friendly-instructions",
+   "content_type": "article",
+   "difficulty": "入門",
+   "region": "國內",
+   "license": null,
+   "security_score": null,
+   "safety": null
+  },
+  {
+   "video_id": "art_f4c138a2ef24",
+   "title": "ChatGPT社群圖、簡報封面怎麼生？30組上班族生圖提示詞一次看",
+   "channel": "數位時代 Businessnext",
+   "duration_seconds": 0,
+   "published_at": "2026-10-30T00:00:00Z",
+   "thumbnail_url": "https://image-cdn.learnin.tw/bnextmedia/image/album/2026-10/5qd4-1793329134.png?w=900&output=webp",
+   "view_count": 0,
+   "category": "工具教學",
+   "summary": "本文整理 30 組實用的 ChatGPT 生圖提示詞，專為上班族打造。內容涵蓋社群貼文、品牌設計、宣傳海報、商業簡報與資訊圖表五大常見工作情境，並提供可直接複製的中文指令與四個提示詞撰寫技巧，協助使用者快速生成符合需求的視覺素材。",
+   "tags": [
+    "ChatGPT",
+    "提示詞",
+    "AI生圖",
+    "簡報設計"
+   ],
+   "search_terms": [
+    "ChatGPT生圖",
+    "提示詞",
+    "Prompt範例",
+    "社群圖片",
+    "簡報封面",
+    "Logo設計",
+    "資訊圖表",
+    "DALL-E"
+   ],
+   "url": "https://www.bnext.com.tw/article/92816/chatgpt-image-prompts-social-work",
+   "content_type": "article",
+   "difficulty": "入門",
+   "region": "國內",
+   "license": null,
+   "security_score": null,
+   "safety": null
+  },
+  {
+   "video_id": "art_6a7f88e1abb5",
+   "title": "AI幫你做得愈快，可能錯得愈遠！如何用3個判斷關鍵，找出真正的市場需求？",
+   "channel": "數位時代 Businessnext",
+   "duration_seconds": 0,
+   "published_at": "2026-10-30T00:00:00Z",
+   "thumbnail_url": "https://image-cdn.learnin.tw/bnextmedia/image/album/2026-09/bsy6-1790241765.png?w=900&output=webp",
+   "view_count": 0,
+   "category": "入門觀念",
+   "summary": "本文剖析 AI 時代下創業試錯成本降低卻容易陷入「虛幻需求」的盲點。作者指出 AI 會放大假設而誤導經營者，並提出三個檢視關鍵：明確目標人物、具體情境以及未解決的實際代價，提醒創業者應親自定義問題並驗證真實市場需求。",
+   "tags": [
+    "AI創業",
+    "市場需求",
+    "商業思維",
+    "痛點分析"
+   ],
+   "search_terms": [
+    "AI創業",
+    "需求驗證",
+    "市場痛點",
+    "試錯成本",
+    "創業思維",
+    "一人公司",
+    "商業模式"
+   ],
+   "url": "https://www.bnext.com.tw/article/92847/ai-productivity-trap-how-to-avoid-wrong-decisions",
+   "content_type": "article",
    "difficulty": "入門",
    "region": "國內",
    "license": null,
@@ -129,6 +261,39 @@
    "url": null,
    "content_type": "video",
    "difficulty": "進階",
+   "region": "國內",
+   "license": null,
+   "security_score": null,
+   "safety": null
+  },
+  {
+   "video_id": "TXqDidgT328",
+   "title": "8款AI影片模型誰最強？Seedance 2.5還是 Kling 4.0，相同指令誰最精準？中文更好！測完我決定換模型了🤣",
+   "channel": "大有牧森 Austin Chou",
+   "duration_seconds": 941,
+   "published_at": "2026-10-29T14:00:04Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/TXqDidgT328/mqdefault.jpg",
+   "view_count": 3587,
+   "category": "AI 影像與影片生成",
+   "summary": "本影片透過 Higgsfield AI 平台實測 8 款熱門 AI 影片模型，包含 Seedance 與 Kling 等。使用相同提示詞，針對人物一致性、動作自然度及運鏡順暢度進行比對評測。",
+   "tags": [
+    "AI影片生成",
+    "Higgsfield",
+    "Kling",
+    "Seedance"
+   ],
+   "search_terms": [
+    "AI影片",
+    "影片生成",
+    "Seedance",
+    "Kling",
+    "Higgsfield",
+    "模型測試",
+    "提示詞"
+   ],
+   "url": null,
+   "content_type": "video",
+   "difficulty": "入門",
    "region": "國內",
    "license": null,
    "security_score": null,
@@ -559,6 +724,38 @@
    "safety": null
   },
   {
+   "video_id": "NoJtBUDZpJM",
+   "title": "佳恩老師分享3D校園製作專題2026/10/28",
+   "channel": "李佳恩(小丁老師)",
+   "duration_seconds": 6121,
+   "published_at": "2026-10-29T08:45:24Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/NoJtBUDZpJM/mqdefault.jpg",
+   "view_count": 339,
+   "category": "程式開發",
+   "summary": "本影片由李佳恩老師分享如何運用 AI 打造 3D 互動校園與教育應用。內容涵蓋全球即時動物直播串接、平面轉 3D 互動建模以及 AI 輔助開發的心法與網頁技術經驗。",
+   "tags": [
+    "3D建模",
+    "AI開發",
+    "教育應用",
+    "互動網頁"
+   ],
+   "search_terms": [
+    "3D校園",
+    "AI開發",
+    "互動建模",
+    "教育AI",
+    "網頁開發",
+    "3D地圖"
+   ],
+   "url": null,
+   "content_type": "video",
+   "difficulty": "進階",
+   "region": "國內",
+   "license": null,
+   "security_score": null,
+   "safety": null
+  },
+  {
    "video_id": "EFgCoDh9XfM",
    "title": "部落格賺錢 2027 還能做嗎？AI 自動化做到哪一級，6 位 AI 官員實戰全公開｜搭建 A I 一人公司EP2",
    "channel": "AI 一人公司創業家-阿凱",
@@ -783,6 +980,73 @@
    "url": null,
    "content_type": "video",
    "difficulty": "專家",
+   "region": "國內",
+   "license": null,
+   "security_score": null,
+   "safety": null
+  },
+  {
+   "video_id": "art_3ea5f2193aa1",
+   "title": "Gemini Skills完整教學｜不用每次重打Prompt怎麼做？附3案例 | 遠見雜誌",
+   "channel": "遠見雜誌 - 40年來陪你前進的動力",
+   "duration_seconds": 0,
+   "published_at": "2026-10-29T00:00:00Z",
+   "thumbnail_url": "https://imgs.gvm.com.tw/upload/gallery/20261028/244019.jpg",
+   "view_count": 0,
+   "category": "自動化工作流",
+   "summary": "本文深入解析 Google Gemini Skills 的功能與操作設定。說明如何將重複的指令與規範封裝成技能文件（SKILL.md），免去每次重複輸入提示詞的麻煩。文中詳細說明建立方法、撰寫原則，並透過客製化履歷、社群文案與會議記錄等三個實測案例展示應用。",
+   "tags": [
+    "Gemini",
+    "GeminiSkills",
+    "提示詞",
+    "自動化工作流"
+   ],
+   "search_terms": [
+    "Gemini Skills",
+    "Gemini技能",
+    "SKILL.md",
+    "提示詞優化",
+    "自動化工作流",
+    "Gemini教學",
+    "重複指令"
+   ],
+   "url": "https://www.gvm.com.tw/article/134132",
+   "content_type": "article",
+   "difficulty": "進階",
+   "region": "國內",
+   "license": null,
+   "security_score": null,
+   "safety": null
+  },
+  {
+   "video_id": "art_98e00600bf79",
+   "title": "Google Sheets Gemini教學：用提示詞設下拉選單、到期標色與樞紐分析表",
+   "channel": "數位時代 Businessnext",
+   "duration_seconds": 0,
+   "published_at": "2026-10-29T00:00:00Z",
+   "thumbnail_url": "https://image-cdn.learnin.tw/bnextmedia/image/album/2026-10/img-mcp-6f54cee8cdd7f4f4.png?w=900&output=webp",
+   "view_count": 0,
+   "category": "辦公應用",
+   "summary": "本文教學如何在 Google Sheets 中運用 Gemini 側邊欄，透過自然語言指令自動化試算表操作。實測內容包含設定條件式格式、建立下拉選單與勾選框、生成樞紐分析表等技巧，並提供完整待辦追蹤表提示詞範例，大幅提升表格處理效率。",
+   "tags": [
+    "GoogleSheets",
+    "Gemini",
+    "試算表",
+    "辦公自動化"
+   ],
+   "search_terms": [
+    "Google Sheets",
+    "Gemini",
+    "試算表AI",
+    "樞紐分析表",
+    "下拉選單",
+    "條件式格式",
+    "Excel AI",
+    "辦公應用"
+   ],
+   "url": "https://www.bnext.com.tw/article/92829/gemini-google-sheets-task-tracker",
+   "content_type": "article",
+   "difficulty": "入門",
    "region": "國內",
    "license": null,
    "security_score": null,
@@ -1083,39 +1347,6 @@
    "url": null,
    "content_type": "video",
    "difficulty": "入門",
-   "region": "國內",
-   "license": null,
-   "security_score": null,
-   "safety": null
-  },
-  {
-   "video_id": "wYQnVEj9XmM",
-   "title": "讓 AI 指揮 AI！你只管當老闆｜Codex × WorkBuddy 雙 Agent 閉環",
-   "channel": "AI 拆解室",
-   "duration_seconds": 135,
-   "published_at": "2026-10-28T11:00:22Z",
-   "thumbnail_url": "https://i.ytimg.com/vi/wYQnVEj9XmM/mqdefault.jpg",
-   "view_count": 2,
-   "category": "自動化工作流",
-   "summary": "本影片以短片製作為例，示範 Codex 與 WorkBuddy 雙 Agent 的分工自動化流程，說明如何由 Codex 規劃拆解任務、WorkBuddy 執行工具串接，並回傳驗收完成雙 AI 閉環協作。",
-   "tags": [
-    "AI Agent",
-    "Codex",
-    "WorkBuddy",
-    "雙 Agent"
-   ],
-   "search_terms": [
-    "Codex",
-    "WorkBuddy",
-    "雙 Agent",
-    "AI自動化",
-    "工作流",
-    "AI代理",
-    "任務拆解"
-   ],
-   "url": null,
-   "content_type": "video",
-   "difficulty": "進階",
    "region": "國內",
    "license": null,
    "security_score": null,
@@ -10576,6 +10807,39 @@
    "safety": null
   },
   {
+   "video_id": "9vyT0r8b2XQ",
+   "title": "如何用AI角色拍影片？從捏臉開始教你，打造虛擬網紅、數位分身，幫你賣產品拍廣告｜五大技巧去除角色AI味",
+   "channel": "大有牧森 Austin Chou",
+   "duration_seconds": 694,
+   "published_at": "2026-10-18T13:00:29Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/9vyT0r8b2XQ/mqdefault.jpg",
+   "view_count": 13197,
+   "category": "AI 影像與影片生成",
+   "summary": "本影片教學示範如何從零捏臉打造 AI 虛擬網紅與數位分身。內容涵蓋人物角色建立、廣告影片拍製，並分享去除角色 AI 味的五大實用技巧，適合用於商業宣傳與產品推廣。",
+   "tags": [
+    "虛擬網紅",
+    "數位分身",
+    "AI影片生成",
+    "Higgsfield"
+   ],
+   "search_terms": [
+    "AI角色",
+    "虛擬網紅",
+    "數位分身",
+    "AI捏臉",
+    "去除AI味",
+    "廣告影片",
+    "AI模特兒"
+   ],
+   "url": null,
+   "content_type": "video",
+   "difficulty": "進階",
+   "region": "國內",
+   "license": null,
+   "security_score": null,
+   "safety": null
+  },
+  {
    "video_id": "taOhHqEvqeQ",
    "title": "宜蘭縣 Gemini Pro 教育版新功能 Skill（技能）完整上手教學 |  Gem 更強的完全體？差別、呼叫技巧一次搞懂",
    "channel": "褚煜凱",
@@ -13070,6 +13334,39 @@
     "CODEX比較",
     "AI工具解析",
     "工具教學"
+   ],
+   "url": null,
+   "content_type": "video",
+   "difficulty": "入門",
+   "region": "國內",
+   "license": null,
+   "security_score": null,
+   "safety": null
+  },
+  {
+   "video_id": "R6sOnY-JtoI",
+   "title": "用AI搭配官網生成各種行銷素材！還可以舊短片變化成新的各種宣傳片！超方便省時｜Higgsfield Ads Studio",
+   "channel": "大有牧森 Austin Chou",
+   "duration_seconds": 614,
+   "published_at": "2026-10-15T13:00:36Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/R6sOnY-JtoI/mqdefault.jpg",
+   "view_count": 2820,
+   "category": "辦公應用",
+   "summary": "本影片實測 Higgsfield Ads Studio 工具，介紹只需輸入品牌官網網址，AI 即可分析風格並自動生成宣傳圖與文案。此外亦示範如何改寫舊影片角色與商品，快速製作全新廣告。",
+   "tags": [
+    "Higgsfield",
+    "行銷素材",
+    "廣告影片",
+    "電商AI"
+   ],
+   "search_terms": [
+    "Higgsfield",
+    "Ads Studio",
+    "行銷素材",
+    "廣告生成",
+    "電商廣告",
+    "自動生成",
+    "舊片重製"
    ],
    "url": null,
    "content_type": "video",
@@ -46212,6 +46509,40 @@
    "safety": null
   },
   {
+   "video_id": "aHxLoJGZ2-c",
+   "title": "讓Claude skill變成你專屬AI助手！5大功能讓 Claude AI照你的方法做事，建立自動化排程 -- 別再重複下指令啦！",
+   "channel": "大有牧森 Austin Chou",
+   "duration_seconds": 1541,
+   "published_at": "2026-08-23T13:00:12Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/aHxLoJGZ2-c/mqdefault.jpg",
+   "view_count": 53709,
+   "category": "自動化工作流",
+   "summary": "本影片詳細教學 Claude AI 的 Skills 等 5 大進階功能，示範如何將重複的提示詞、排程與資料整理轉化為自動化工作流，免去每次重複輸入指令的困擾，大幅提升日常工作效率。",
+   "tags": [
+    "Claude",
+    "ClaudeSkills",
+    "自動化工作流",
+    "AI助手"
+   ],
+   "search_terms": [
+    "Claude",
+    "Claude Skill",
+    "自動化",
+    "排程",
+    "提示詞",
+    "AI助手",
+    "工作流",
+    "Claude功能"
+   ],
+   "url": null,
+   "content_type": "video",
+   "difficulty": "進階",
+   "region": "國內",
+   "license": null,
+   "security_score": null,
+   "safety": null
+  },
+  {
    "video_id": "FnaDoSUiuOc",
    "title": "使用AI助理自學C程式語言入門",
    "channel": "壩格很多資訊",
@@ -50309,6 +50640,39 @@
     "定時任務",
     "辦公自動化",
     "工作效率"
+   ],
+   "url": null,
+   "content_type": "video",
+   "difficulty": "入門",
+   "region": "國內",
+   "license": null,
+   "security_score": null,
+   "safety": null
+  },
+  {
+   "video_id": "JHPMreENn7Y",
+   "title": "我終於願意用語音輸入了！這款AI語音轉文字太強，不用一直修改啦！連傳簡訊都超方便，還可直接翻譯外語～使用一個月目前上癮中🔥 ft.Typeless",
+   "channel": "大有牧森 Austin Chou",
+   "duration_seconds": 1581,
+   "published_at": "2026-08-16T13:00:13Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/JHPMreENn7Y/mqdefault.jpg",
+   "view_count": 67365,
+   "category": "工具教學",
+   "summary": "本影片介紹 AI 語音轉文字工具 Typeless，示範其在 Mac 與手機上的應用。該工具能自動去贅字、校正專有名詞，並支援多國語言即時翻譯與建立專屬字典，提升輸入效率。",
+   "tags": [
+    "Typeless",
+    "語音轉文字",
+    "語音輸入",
+    "AI翻譯"
+   ],
+   "search_terms": [
+    "Typeless",
+    "語音輸入",
+    "語音轉文字",
+    "AI聽寫",
+    "即時翻譯",
+    "專有名詞字典",
+    "聽寫工具"
    ],
    "url": null,
    "content_type": "video",
@@ -89340,6 +89704,39 @@
    "safety": null
   },
   {
+   "video_id": "kqMyxXSugsY",
+   "title": "超速AI筆記！3小時會議1分鐘快速摘要與逐字稿，自動建立代辦事項！訪談、筆記都適用，還可同步多國語言即時轉譯 feat.傳譯寶AI",
+   "channel": "大有牧森 Austin Chou",
+   "duration_seconds": 668,
+   "published_at": "2026-03-01T13:01:19Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/kqMyxXSugsY/mqdefault.jpg",
+   "view_count": 36445,
+   "category": "辦公應用",
+   "summary": "本影片介紹「傳譯寶」AI 會議記錄工具，展示長音檔一鍵錄音、多語言轉譯、自動摘要與代辦事項建立功能，適合訪談、會議與上課筆記整理，大幅提升資訊處理效率。",
+   "tags": [
+    "傳譯寶",
+    "會議摘要",
+    "逐字稿",
+    "AI筆記"
+   ],
+   "search_terms": [
+    "傳譯寶",
+    "會議紀錄",
+    "AI摘要",
+    "逐字稿",
+    "待辦事項",
+    "語音轉文字",
+    "長音檔處理"
+   ],
+   "url": null,
+   "content_type": "video",
+   "difficulty": "入門",
+   "region": "國內",
+   "license": null,
+   "security_score": null,
+   "safety": null
+  },
+  {
    "video_id": "TTwtm9O0Rck",
    "title": "用 Claude Code 打造任何你要的自動化系統：從 0 到完成一個 n8n流程",
    "channel": "JayLuxAI | AI 系統導入",
@@ -89928,6 +90325,39 @@
     "視覺自訂"
    ],
    "search_terms": [],
+   "url": null,
+   "content_type": "video",
+   "difficulty": "進階",
+   "region": "國內",
+   "license": null,
+   "security_score": null,
+   "safety": null
+  },
+  {
+   "video_id": "d2ZCsNC0LlM",
+   "title": "用AI做角色對嘴影片，免費生成配音教學｜HeyGen＋Dzine唇形同步教學，多人對嘴場景也適用｜NotebookLM語音摘要也可以合成",
+   "channel": "大有牧森 Austin Chou",
+   "duration_seconds": 610,
+   "published_at": "2026-02-22T13:01:05Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/d2ZCsNC0LlM/mqdefault.jpg",
+   "view_count": 25643,
+   "category": "AI 影像與影片生成",
+   "summary": "本影片教學運用 Google AI Studio、HeyGen 與 Dzine 等工具製作自然對嘴影片。內容包含免費音檔生成、角色圖片建立，以及單人與多人的唇形同步教學，提升動畫對嘴品質。",
+   "tags": [
+    "HeyGen",
+    "Dzine",
+    "唇形同步",
+    "AI對嘴"
+   ],
+   "search_terms": [
+    "對嘴影片",
+    "唇形同步",
+    "HeyGen",
+    "Dzine",
+    "NotebookLM",
+    "AI配音",
+    "角色合成"
+   ],
    "url": null,
    "content_type": "video",
    "difficulty": "進階",
@@ -92341,6 +92771,40 @@
     "資訊圖表"
    ],
    "search_terms": [],
+   "url": null,
+   "content_type": "video",
+   "difficulty": "入門",
+   "region": "國內",
+   "license": null,
+   "security_score": null,
+   "safety": null
+  },
+  {
+   "video_id": "QzOyJ3UwwqU",
+   "title": "AI影片生成工具比較，除了Veo 3和Sora2，誰值得入手？Kling O1太強了｜附各工具費用比較",
+   "channel": "大有牧森 Austin Chou",
+   "duration_seconds": 1342,
+   "published_at": "2025-12-08T13:10:00Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/QzOyJ3UwwqU/mqdefault.jpg",
+   "view_count": 34255,
+   "category": "AI 影像與影片生成",
+   "summary": "本影片評測與比較 Kling、Sora2、Veo 3 等 6 款 AI 影片生成工具。透過相同的文字與圖片指令，測試多物件合成、運鏡與去背等功能，並整理費用比較供選擇參考。",
+   "tags": [
+    "AI影片生成",
+    "Kling",
+    "Sora2",
+    "Veo3"
+   ],
+   "search_terms": [
+    "AI影片",
+    "影片生成模型",
+    "Kling O1",
+    "Sora2",
+    "Veo3",
+    "Runway",
+    "Hailuo",
+    "工具比較"
+   ],
    "url": null,
    "content_type": "video",
    "difficulty": "入門",

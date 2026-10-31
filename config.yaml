@@ -28,6 +28,9 @@ channels:                # 追蹤的頻道（handle），每次執行抓取最�
   - "@yuiraymond"
   - "@papayaclass"
   - "@Teacher_Kong"
+  - "@austinchou888"
+
+
 
 filters:
   min_duration_seconds: 120   # 排除 Shorts
