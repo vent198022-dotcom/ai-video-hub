@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-02T01:15:44+00:00",
- "count": 3187,
+ "generated_at": "2026-11-02T02:04:38+00:00",
+ "count": 3186,
  "videos": [
   {
    "video_id": "gh_morluto_rea",
@@ -7812,38 +7812,6 @@
    "content_type": "video",
    "difficulty": "入門",
    "region": "國外",
-   "license": null,
-   "security_score": null,
-   "safety": null
-  },
-  {
-   "video_id": "YPgpOkZkO3Q",
-   "title": "EP165 【居久屋微醺夜】認識你的自動化小秘書：Google Workspace Studio",
-   "channel": "謙懿科技",
-   "duration_seconds": 3026,
-   "published_at": "2026-10-24T07:38:59Z",
-   "thumbnail_url": "https://i.ytimg.com/vi/YPgpOkZkO3Q/mqdefault.jpg",
-   "view_count": 593,
-   "category": "自動化工作流",
-   "summary": "影片介紹免費且雲端運作的 Google Workspace Studio，教導透過對話與 Gemini 互動來打造自動化工作流，免寫程式碼即可實現自動發信、彙整文件與郵件標籤分類。",
-   "tags": [
-    "Google Workspace Studio",
-    "Gemini",
-    "自動化工作流",
-    "無程式碼"
-   ],
-   "search_terms": [
-    "Google Workspace",
-    "Gemini",
-    "自動化信件",
-    "工作流",
-    "免程式碼",
-    "小秘書"
-   ],
-   "url": null,
-   "content_type": "video",
-   "difficulty": "入門",
-   "region": "國內",
    "license": null,
    "security_score": null,
    "safety": null
