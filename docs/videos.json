@@ -1,7 +1,108 @@
 {
- "generated_at": "2026-11-02T02:04:38+00:00",
- "count": 3186,
+ "generated_at": "2026-11-03T02:06:22+00:00",
+ "count": 3190,
  "videos": [
+  {
+   "video_id": "art_2df4f34a1032",
+   "title": "ChatGPT照片轉插畫教學：100+種風格、Q版公仔、3D黏土提示詞大全",
+   "channel": "數位時代 Businessnext",
+   "duration_seconds": 0,
+   "published_at": "2026-11-03T00:00:00Z",
+   "thumbnail_url": "https://image-cdn.learnin.tw/bnextmedia/image/album/2026-11/9ktp-1793649135.png?w=900&output=webp",
+   "view_count": 0,
+   "category": "AI 影像與影片生成",
+   "summary": "本文介紹如何使用 ChatGPT 進行照片風格轉換，並提供超過 100 組提示詞範例。內容涵蓋將自拍照轉為 Q 版 3D 公仔、衝破手機螢幕的立體海報、手繪插畫及材質轉換等多種玩法。使用者只需上傳個人相片並搭配指定提示詞，即可保留特徵生成創意圖像。",
+   "tags": [
+    "ChatGPT",
+    "提示詞",
+    "圖片生成",
+    "照片轉插畫"
+   ],
+   "search_terms": [
+    "ChatGPT修圖",
+    "照片轉公仔",
+    "ChatGPT生圖",
+    "提示詞大全",
+    "Q版公仔Prompt",
+    "3D小人生成",
+    "風格轉換",
+    "ChatGPT繪圖"
+   ],
+   "url": "https://www.bnext.com.tw/article/92869/chatgpt-image-prompts-photo-style",
+   "content_type": "article",
+   "difficulty": "入門",
+   "region": "國內",
+   "license": null,
+   "security_score": null,
+   "safety": null
+  },
+  {
+   "video_id": "hzdPM1PcG3Q",
+   "title": "一個人20分鐘跑通 AI 短漫劇製作全流程！人物一致性搞定，50集系列連續劇也能做！最全最細 AI 真人短劇保姆級教程，從入門到精通實現商業變現！",
+   "channel": "孔老師AI研習社",
+   "duration_seconds": 1331,
+   "published_at": "2026-11-02T10:11:44Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/hzdPM1PcG3Q/mqdefault.jpg",
+   "view_count": 3049,
+   "category": "AI 影像與影片生成",
+   "summary": "本影片為 AI 短漫劇與真人短劇的製作教學，詳細拆解如何在 20 分鐘內跑通全流程。內容涵蓋運用 AI 工具搞定人物一致性控圖技巧，並示範多集連續劇的製作與商業變現策略。",
+   "tags": [
+    "AI短劇",
+    "影片生成",
+    "人物一致性",
+    "OiiOii AI"
+   ],
+   "search_terms": [
+    "AI短劇",
+    "AI漫劇",
+    "人物一致性",
+    "AI影片生成",
+    "短劇製作",
+    "OiiOii AI",
+    "商業變現",
+    "角色控圖"
+   ],
+   "url": null,
+   "content_type": "video",
+   "difficulty": "入門",
+   "region": "國外",
+   "license": null,
+   "security_score": null,
+   "safety": null
+  },
+  {
+   "video_id": "FyuOW9ZtvPA",
+   "title": "【波Series-EP54】MCP跟API到底差在哪？AI Agent必學的兩種串接方式完整拆解，從定義目標到選對工具，讓AI直接幫你操作每一個平臺！",
+   "channel": "銷波快 - 一個圍繞在行銷Marketing 的隨便亂聊電台",
+   "duration_seconds": 1923,
+   "published_at": "2026-11-02T01:19:39Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/FyuOW9ZtvPA/mqdefault.jpg",
+   "view_count": 1,
+   "category": "入門觀念",
+   "summary": "本集節目探討 AI Agent 時代下兩大系統串接機制 MCP 與 API 的差異與應用。內容拆解兩者的運作邏輯，說明 MCP 如何讓 AI 直接操控平台，以及開發者該如何依據需求目標選擇合適的整合工具。",
+   "tags": [
+    "MCP",
+    "API",
+    "AI Agent",
+    "系統整合"
+   ],
+   "search_terms": [
+    "MCP是什麼",
+    "API差別",
+    "AI Agent串接",
+    "Model Context Protocol",
+    "AI代理工具",
+    "系統對接",
+    "MCP API比較"
+   ],
+   "url": null,
+   "content_type": "video",
+   "difficulty": "進階",
+   "region": "國內",
+   "license": null,
+   "security_score": null,
+   "safety": null
+  },
   {
    "video_id": "gh_morluto_rea",
    "title": "morluto/rea",
@@ -60,6 +161,39 @@
     "月曆設計"
    ],
    "url": "https://www.bnext.com.tw/article/92865/chatgpt-image-prompts-life-creative",
+   "content_type": "article",
+   "difficulty": "入門",
+   "region": "國內",
+   "license": null,
+   "security_score": null,
+   "safety": null
+  },
+  {
+   "video_id": "art_5478fb237e4d",
+   "title": "Claude、ChatGPT免費API額度怎麼領？方案資格、金額與開通教學",
+   "channel": "數位時代 Businessnext",
+   "duration_seconds": 0,
+   "published_at": "2026-11-02T00:00:00Z",
+   "thumbnail_url": "https://image-cdn.learnin.tw/bnextmedia/image/album/2026-11/img-mcp-65493d542cf1c056.jpg?w=900&output=webp",
+   "view_count": 0,
+   "category": "工具教學",
+   "summary": "本文詳細教學如何領取 Claude 與 ChatGPT 開放的每月免費 API 額度。內容說明符合領取的訂閱方案資格、額度計算方式與使用限制，並一步步示範如何在帳單設定中完成組織連結，幫助使用者免費抵扣自建 AI 工具的 API 費用。",
+   "tags": [
+    "ChatGPT",
+    "Claude",
+    "API額度",
+    "免費API"
+   ],
+   "search_terms": [
+    "API免費額度",
+    "ChatGPT API",
+    "Claude API",
+    "API領取教學",
+    "OpenAI API Key",
+    "Anthropic API",
+    "AI開發費用"
+   ],
+   "url": "https://www.bnext.com.tw/article/92873/20261029-api-credits",
    "content_type": "article",
    "difficulty": "入門",
    "region": "國內",
