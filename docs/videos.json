@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-06T02:08:33+00:00",
- "count": 3241,
+ "generated_at": "2026-11-07T02:07:10+00:00",
+ "count": 3246,
  "videos": [
   {
    "video_id": "PXA6aRZuj84",
@@ -830,6 +830,39 @@
    "safety": null
   },
   {
+   "video_id": "art_bdff1f672237",
+   "title": "Gemini怎麼用？免費與付費方案、學生優惠、工具教學一次看 | 遠見雜誌",
+   "channel": "遠見雜誌 - 40年來陪你前進的動力",
+   "duration_seconds": 0,
+   "published_at": "2026-11-05T00:00:00Z",
+   "thumbnail_url": "https://imgs.gvm.com.tw/upload/gallery/20261104/244539.jpg",
+   "view_count": 0,
+   "category": "工具教學",
+   "summary": "本文整理 Google Gemini 使用指南，詳細解析免費與付費方案差異及學生優惠申請流程。內文示範與 Google Workspace 工具整合的方法、提示詞撰寫技巧，並介紹 Gemini Notebook（原 NotebookLM）資料摘要與簡報製作，以及影音圖文生成工具的操作應用。",
+   "tags": [
+    "Gemini",
+    "Google Workspace",
+    "NotebookLM",
+    "AI工具教學"
+   ],
+   "search_terms": [
+    "Gemini教學",
+    "Gemini免費版",
+    "Google AI",
+    "Gemini學生優惠",
+    "NotebookLM簡報",
+    "Gemini提示詞",
+    "Gemini Notebook"
+   ],
+   "url": "https://www.gvm.com.tw/article/134287",
+   "content_type": "article",
+   "difficulty": "入門",
+   "region": "國內",
+   "license": null,
+   "security_score": null,
+   "safety": null
+  },
+  {
    "video_id": "art_8ae248f7ddef",
    "title": "NotebookLM改名Gemini Notebook ！全新教學 | 遠見雜誌",
    "channel": "遠見雜誌 - 40年來陪你前進的動力",
@@ -856,6 +889,136 @@
    "url": "https://www.gvm.com.tw/article/134310",
    "content_type": "article",
    "difficulty": "入門",
+   "region": "國內",
+   "license": null,
+   "security_score": null,
+   "safety": null
+  },
+  {
+   "video_id": "art_564d3c8e12fe",
+   "title": "怎麼讓ChatGPT推薦你的文章？2,484次實測揭密：「改標題」就能讓AI引用率飆升",
+   "channel": "數位時代 Businessnext",
+   "duration_seconds": 0,
+   "published_at": "2026-11-05T00:00:00Z",
+   "thumbnail_url": "https://image-cdn.learnin.tw/bnextmedia/image/album/2026-11/img-mcp-5a0fa993a263c979.png?w=900&output=webp",
+   "view_count": 0,
+   "category": "工具教學",
+   "summary": "本文拆解生成式引擎優化（GEO）實務技巧，基於 2,484 次 AI 模擬測試結果，說明 ChatGPT 與 Claude 挑選參考來源的邏輯。文中整理 7 大標題與摘要優化方法，包含標題直接說明內容、將讀者收穫置於開頭、副標精準回答問題等，幫助創作者提高文章被 AI 搜尋引用與推薦的機率。",
+   "tags": [
+    "GEO",
+    "ChatGPT",
+    "Claude",
+    "AI搜尋優化"
+   ],
+   "search_terms": [
+    "GEO優化",
+    "AI搜尋引擎優化",
+    "ChatGPT引用",
+    "Claude引用",
+    "生成式引擎優化",
+    "GEO技巧",
+    "AI文章推薦"
+   ],
+   "url": "https://www.bnext.com.tw/article/92922/geo-ai-agents-recommend-articles-7-rules",
+   "content_type": "article",
+   "difficulty": "進階",
+   "region": "國內",
+   "license": null,
+   "security_score": null,
+   "safety": null
+  },
+  {
+   "video_id": "art_f2d0e96eea5f",
+   "title": "每週都在貼報表？用Claude做銷售看板，一起看營收、流量與轉換漏斗",
+   "channel": "數位時代 Businessnext",
+   "duration_seconds": 0,
+   "published_at": "2026-11-05T00:00:00Z",
+   "thumbnail_url": "https://image-cdn.learnin.tw/bnextmedia/image/album/2026-11/img-mcp-6fafa4350c29942d.jpg?w=900&output=webp",
+   "view_count": 0,
+   "category": "自動化工作流",
+   "summary": "本文示範運用 Claude Dashboards 與 MCP 連接器整合 Google Analytics、Meta 廣告及訂單數據，自動打造銷售分析看板。內文詳細解說提示詞下法、資料檢核流程、轉換漏斗定義，以及設定「行動重點」提示等實作步驟，協助管理者擺脫手動整理報表的繁瑣流程，實現數據自動化追蹤。",
+   "tags": [
+    "Claude",
+    "Dashboards",
+    "MCP",
+    "自動化報表"
+   ],
+   "search_terms": [
+    "Claude看板",
+    "Claude Dashboards",
+    "MCP連接器",
+    "銷售儀表板",
+    "自動化報表",
+    "Claude數據分析",
+    "轉換漏斗分析"
+   ],
+   "url": "https://www.bnext.com.tw/article/92931/claude-dashboards-sales-mcp-tutorial",
+   "content_type": "article",
+   "difficulty": "進階",
+   "region": "國內",
+   "license": null,
+   "security_score": null,
+   "safety": null
+  },
+  {
+   "video_id": "DQZbzNKON3M",
+   "title": "【全824集】(允许白嫖) 2026最全最细ai教程零基础入门到精通，一周带你小白变大神！从入门到实战！全程干货无废话！#agent  #人工智能 #ai学習 #llm #智能体 #ai",
+   "channel": "AI大模型产品经理老蓝",
+   "duration_seconds": 2390,
+   "published_at": "2026-11-04T12:15:39Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/DQZbzNKON3M/mqdefault.jpg",
+   "view_count": 49,
+   "category": "入門觀念",
+   "summary": "本影片為 AI 大模型與 Agent 智能體的零基礎教學課程，內容涵蓋 LLM 人工智慧基礎概念、實戰應用與智能體開發流程，旨在幫助初學者在一週內快速掌握 AI 技術，從入門觀念引導至實際操作與應用。",
+   "tags": [
+    "AI入門",
+    "Agent",
+    "LLM",
+    "大模型"
+   ],
+   "search_terms": [
+    "AI教學",
+    "人工智能入門",
+    "LLM教程",
+    "Agent智能體",
+    "大模型實戰",
+    "AI零基礎"
+   ],
+   "url": null,
+   "content_type": "video",
+   "difficulty": "入門",
+   "region": "國外",
+   "license": null,
+   "security_score": null,
+   "safety": null
+  },
+  {
+   "video_id": "9-vtykGmhS0",
+   "title": "AI開箱所 / 動畫實作課程第1集-咖啡館優惠活動",
+   "channel": "AI 開箱所",
+   "duration_seconds": 284,
+   "published_at": "2026-11-04T11:01:59Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/9-vtykGmhS0/mqdefault.jpg",
+   "view_count": 3,
+   "category": "AI 影像與影片生成",
+   "summary": "本影片示範運用 Codex 搭配 HyperFrames 製作咖啡館優惠廣告動畫。內容涵蓋準備素材、設定分鏡需求、預覽修改與匯出影片等實作步驟，引導觀者結合 AI 生成圖片與運鏡文字動畫。",
+   "tags": [
+    "HyperFrames",
+    "Codex",
+    "AI動畫",
+    "影片生成"
+   ],
+   "search_terms": [
+    "AI影片製作",
+    "HyperFrames教學",
+    "Codex動畫",
+    "廣告動畫生成",
+    "AI運鏡",
+    "影片生成教學"
+   ],
+   "url": null,
+   "content_type": "video",
+   "difficulty": "進階",
    "region": "國內",
    "license": null,
    "security_score": null,
@@ -921,6 +1084,70 @@
    "content_type": "video",
    "difficulty": "進階",
    "region": "國外",
+   "license": null,
+   "security_score": null,
+   "safety": null
+  },
+  {
+   "video_id": "art_b3b59a800bf4",
+   "title": "我被駭了，差點一夕破產！Google Cloud遭盜刷3萬元，追查才發現Mac早被植入木馬",
+   "channel": "數位時代 Businessnext",
+   "duration_seconds": 0,
+   "published_at": "2026-11-04T00:00:00Z",
+   "thumbnail_url": "https://image-cdn.learnin.tw/bnextmedia/image/album/2018-10/img-1538454121-24244.jpg?w=900&output=webp",
+   "view_count": 0,
+   "category": "程式開發",
+   "summary": "作者分享其 Google Cloud 帳號遭駭客利用 AI Agent 建立服務帳戶並大量呼叫 Vertex AI API 導致盜刷的個案。文中詳細拆解 Logs Explorer 入侵軌跡排查、說明雲端預算通知與硬性支出上限（Hard Cap）設定機制，並為使用 AI 開發工具與 API 的創作者提供金鑰安全管理與資安防護的實用建議。",
+   "tags": [
+    "Google Cloud",
+    "Vertex AI",
+    "API安全",
+    "資安防護"
+   ],
+   "search_terms": [
+    "Google Cloud盜刷",
+    "Vertex AI API",
+    "API Key安全",
+    "AI Agent資安",
+    "Service Account憑證",
+    "Google Cloud預算上限"
+   ],
+   "url": "https://www.bnext.com.tw/article/92902/google-cloud-hacked-fake-claude-code-site-mac-trojan",
+   "content_type": "article",
+   "difficulty": "進階",
+   "region": "國內",
+   "license": null,
+   "security_score": null,
+   "safety": null
+  },
+  {
+   "video_id": "art_0fe423fafd36",
+   "title": "想讓孩子對英文有好感？我寫了一份ChatGPT語音陪玩指示，不考試也不糾正",
+   "channel": "數位時代 Businessnext",
+   "duration_seconds": 0,
+   "published_at": "2026-11-04T00:00:00Z",
+   "thumbnail_url": "https://image-cdn.learnin.tw/bnextmedia/image/album/2026-11/img-mcp-1181ed8b79bb668e.jpg",
+   "view_count": 0,
+   "category": "工具教學",
+   "summary": "本文教導家長如何運用 ChatGPT 專案與語音功能設計「親子英文陪玩」指令。內容涵蓋 AI 角色設定技巧、融入孩子熟悉的歌曲與繪本素材、限制 AI 回應長度與提問頻率以示範正確表達，並說明如何設定「家長模式」與「家長總結」指令，打造無壓力的英文互動環境。",
+   "tags": [
+    "ChatGPT",
+    "語音功能",
+    "Prompt教學",
+    "親子教育"
+   ],
+   "search_terms": [
+    "ChatGPT語音教學",
+    "ChatGPT英文陪玩",
+    "ChatGPT專案設定",
+    "AI親子英文",
+    "ChatGPT Prompt指令",
+    "AI語言學習"
+   ],
+   "url": "https://www.bnext.com.tw/article/92912/chatgpt-parent-child-english-play",
+   "content_type": "article",
+   "difficulty": "入門",
+   "region": "國內",
    "license": null,
    "security_score": null,
    "safety": null
@@ -1412,39 +1639,6 @@
     "Agent概念",
     "AI代理比較",
     "AI Agent教學"
-   ],
-   "url": null,
-   "content_type": "video",
-   "difficulty": "入門",
-   "region": "國內",
-   "license": null,
-   "security_score": null,
-   "safety": null
-  },
-  {
-   "video_id": "U-nKPaOUz2E",
-   "title": "一張圖生成雙人合唱MV｜VisionStory AI 對唱教學",
-   "channel": "VisionStory AI",
-   "duration_seconds": 158,
-   "published_at": "2026-11-03T08:01:59Z",
-   "thumbnail_url": "https://i.ytimg.com/vi/U-nKPaOUz2E/mqdefault.jpg",
-   "view_count": 3,
-   "category": "AI 影像與影片生成",
-   "summary": "本影片示範如何使用 VisionStory AI 從一張雙人合照與音訊生成雙人合唱 MV。內容包含歌曲片段選擇、雙人照片上傳、分鏡與鏡頭檢查及成片產出全流程。",
-   "tags": [
-    "VisionStory AI",
-    "AI MV",
-    "音樂影片",
-    "影片生成"
-   ],
-   "search_terms": [
-    "VisionStory",
-    "AI合唱",
-    "雙人MV",
-    "AI音樂影片",
-    "對唱生成",
-    "相片生影片",
-    "AI MV製作"
    ],
    "url": null,
    "content_type": "video",
@@ -10338,38 +10532,6 @@
     "GAS教學",
     "MVP網頁",
     "免寫程式App"
-   ],
-   "url": null,
-   "content_type": "video",
-   "difficulty": "入門",
-   "region": "國內",
-   "license": null,
-   "security_score": null,
-   "safety": null
-  },
-  {
-   "video_id": "8RhqUoOZyLE",
-   "title": "【社群行銷】多平台一鍵發文完整教學：AI 寫貼文、排程、數據｜iDealFlow.ai",
-   "channel": "亞瑟教練",
-   "duration_seconds": 1255,
-   "published_at": "2026-10-23T11:03:43Z",
-   "thumbnail_url": "https://i.ytimg.com/vi/8RhqUoOZyLE/mqdefault.jpg",
-   "view_count": 5,
-   "category": "自動化工作流",
-   "summary": "本影片教學如何使用 iDealFlow.ai 串接多個社群平台帳號，運用內建 AI 自動寫貼文、排程發佈，並透過行事曆與追蹤連結查看數據，實現場景化的一鍵多平台發文流程。",
-   "tags": [
-    "iDealFlow",
-    "AI社群行銷",
-    "一鍵發文",
-    "自動化行銷"
-   ],
-   "search_terms": [
-    "iDealFlow",
-    "一鍵發文",
-    "AI寫文案",
-    "社群排程",
-    "多平台發圖文",
-    "行銷自動化"
    ],
    "url": null,
    "content_type": "video",
