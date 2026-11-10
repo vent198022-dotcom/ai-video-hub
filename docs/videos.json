@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-09T02:07:17+00:00",
- "count": 3349,
+ "generated_at": "2026-11-10T02:06:19+00:00",
+ "count": 3351,
  "videos": [
   {
    "video_id": "gckORdR5yIg",
@@ -27,6 +27,40 @@
    ],
    "url": null,
    "content_type": "video",
+   "difficulty": "入門",
+   "region": "國內",
+   "license": null,
+   "security_score": null,
+   "safety": null
+  },
+  {
+   "video_id": "art_8d4c78ae61ce",
+   "title": "不會下圍棋，也能陪孩子練棋？她把AI設定成「圍棋家教」，看作業、出題都包了",
+   "channel": "數位時代 Businessnext",
+   "duration_seconds": 0,
+   "published_at": "2026-11-09T00:00:00Z",
+   "thumbnail_url": "https://image-cdn.learnin.tw/bnextmedia/image/album/2026-11/img-mcp-e36915d39f159cb6.jpg",
+   "view_count": 0,
+   "category": "工具教學",
+   "summary": "本文介紹如何利用 AI 設定「圍棋陪練專案」，協助不懂圍棋的家長輔導孩子。內容詳細示範提示詞設定步驟，包含指定 AI 角色、輸入學習進度、拍照檢查作業並提供引導式提問，以及讓 AI 依進度出題與記錄學習歷程，透過實際指令讓 AI 成為實用的家庭教育助手。",
+   "tags": [
+    "AI陪讀",
+    "提示詞技巧",
+    "圍棋教學",
+    "ChatGPT應用"
+   ],
+   "search_terms": [
+    "AI家教",
+    "圍棋",
+    "家庭輔導",
+    "ChatGPT Prompt",
+    "AI出題",
+    "作業檢查",
+    "陪讀",
+    "提示詞範例"
+   ],
+   "url": "https://www.bnext.com.tw/article/92970/ai-go-practice-for-kids",
+   "content_type": "article",
    "difficulty": "入門",
    "region": "國內",
    "license": null,
@@ -3330,6 +3364,39 @@
    "url": "https://www.bnext.com.tw/article/92931/claude-dashboards-sales-mcp-tutorial",
    "content_type": "article",
    "difficulty": "進階",
+   "region": "國內",
+   "license": null,
+   "security_score": null,
+   "safety": null
+  },
+  {
+   "video_id": "l2lQkrF_LJ0",
+   "title": "1: Claude 人工智慧實務教學（1 of 4)：使用「提示詞三明治」框架徹底消除 AI 幻覺",
+   "channel": "mjmc",
+   "duration_seconds": 344,
+   "published_at": "2026-11-04T23:30:07Z",
+   "thumbnail_url": "https://i.ytimg.com/vi/l2lQkrF_LJ0/mqdefault.jpg",
+   "view_count": 1,
+   "category": "工具教學",
+   "summary": "本影片介紹 Claude 的「提示詞三明治框架」，解析 AI 產生幻覺的原因。透過拆解頂層語氣、中層目標與底層角色三個層次，教導觀眾精準控制輸出，解決模型發散與無效廢話的問題。",
+   "tags": [
+    "Claude",
+    "提示詞工程",
+    "AI幻覺",
+    "Prompt技巧"
+   ],
+   "search_terms": [
+    "Claude教學",
+    "提示詞三明治",
+    "AI幻覺",
+    "Prompt",
+    "提示詞框架",
+    "生成式AI",
+    "LLM溝通"
+   ],
+   "url": null,
+   "content_type": "video",
+   "difficulty": "入門",
    "region": "國內",
    "license": null,
    "security_score": null,
