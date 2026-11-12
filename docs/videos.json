@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-11T02:07:01+00:00",
- "count": 3373,
+ "generated_at": "2026-11-12T02:06:22+00:00",
+ "count": 3370,
  "videos": [
   {
    "video_id": "IBrp3u5XE-A",
@@ -228,72 +228,6 @@
    "url": null,
    "content_type": "video",
    "difficulty": "入門",
-   "region": "國外",
-   "license": null,
-   "security_score": null,
-   "safety": null
-  },
-  {
-   "video_id": "wqA-fjU03JI",
-   "title": "SEMCo-Work Teams 實務教學｜打造你的 AI 助理團隊，讓物流工作流程自動化【臺灣華語】",
-   "channel": "SMPRO",
-   "duration_seconds": 2211,
-   "published_at": "2026-11-10T11:22:41Z",
-   "thumbnail_url": "https://i.ytimg.com/vi/wqA-fjU03JI/mqdefault.jpg",
-   "view_count": 7,
-   "category": "自動化工作流",
-   "summary": "本教學影片以物流業務為例，示範如何利用 SEMCo-Work Teams 建立 AI 虛擬助理團隊。內容包含提示詞基礎、團隊成員與目標設定、任務進度追蹤，以及套用自動化工作流程以提升日常辦公效率。",
-   "tags": [
-    "SEMCo-Work",
-    "AI團隊",
-    "工作流自動化",
-    "物流AI"
-   ],
-   "search_terms": [
-    "SEMCo-Work",
-    "AI助理",
-    "團隊自動化",
-    "物流工作流",
-    "提示詞工程",
-    "臺灣華語AI",
-    "自動化辦公"
-   ],
-   "url": null,
-   "content_type": "video",
-   "difficulty": "進階",
-   "region": "國內",
-   "license": null,
-   "security_score": null,
-   "safety": null
-  },
-  {
-   "video_id": "y7OAbyJuw7U",
-   "title": "【中文讲解】SEMCo-Work入门：用生成式AI实现物流业务自动化",
-   "channel": "SMPRO",
-   "duration_seconds": 2058,
-   "published_at": "2026-11-10T11:22:28Z",
-   "thumbnail_url": "https://i.ytimg.com/vi/y7OAbyJuw7U/mqdefault.jpg",
-   "view_count": 6,
-   "category": "自動化工作流",
-   "summary": "本影片介紹如何運用 SEMCo-Work 將生成式 AI 導入物流業務。內容涵蓋零樣本與思維鏈等提示詞技巧，並透過 Teams 功能建立 AI 虛擬助理團隊、設定目標與分配任務，實現資訊收集及報告自動化流程。",
-   "tags": [
-    "SEMCo-Work",
-    "AI自動化",
-    "物流應用",
-    "提示詞技巧"
-   ],
-   "search_terms": [
-    "SEMCo-Work",
-    "物流自動化",
-    "AI助理團隊",
-    "提示詞",
-    "思維鏈",
-    "工作流自動化",
-    "Teams AI"
-   ],
-   "url": null,
-   "content_type": "video",
-   "difficulty": "進階",
    "region": "國外",
    "license": null,
    "security_score": null,
@@ -29012,38 +28946,6 @@
    "content_type": "video",
    "difficulty": "進階",
    "region": "國外",
-   "license": null,
-   "security_score": null,
-   "safety": null
-  },
-  {
-   "video_id": "qtadXj7Gfog",
-   "title": "Gemini Notebook 終極高效工作術-深度歸納與知識萃取",
-   "channel": "陳育銓",
-   "duration_seconds": 11368,
-   "published_at": "2026-10-05T06:38:41Z",
-   "thumbnail_url": "https://i.ytimg.com/vi/qtadXj7Gfog/mqdefault.jpg",
-   "view_count": 3,
-   "category": "辦公應用",
-   "summary": "本影片介紹 Gemini Notebook 在知識萃取與深度歸納上的高效工作術，幫助使用者透過 AI 工具快速整理複雜資料與提煉核心知識。",
-   "tags": [
-    "Gemini Notebook",
-    "知識管理",
-    "資料歸納",
-    "辦公效率"
-   ],
-   "search_terms": [
-    "Gemini Notebook",
-    "NotebookLM",
-    "知識萃取",
-    "深度歸納",
-    "筆記AI",
-    "高效工作術"
-   ],
-   "url": null,
-   "content_type": "video",
-   "difficulty": "入門",
-   "region": "國內",
    "license": null,
    "security_score": null,
    "safety": null
